@@ -12,6 +12,10 @@ evaluate = "^0.4.1"
 transformers = "^4.38.1"
 tgt = "^1.5"
 pandas = "^2.2.1"
+torch = "^2.2.1"
+ffmpeg = "^1.4"
+ffmpeg-python = "^0.2.0"
+
 
 [tool.poetry.scripts]
 w2v = 'src.wav2vec2chorec:main'
