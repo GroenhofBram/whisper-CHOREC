@@ -6,7 +6,7 @@ authors = ["groenhofbram <groenhofbram@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 jiwer = "^3.0.3"
 evaluate = "^0.4.1"
 transformers = "^4.38.1"
