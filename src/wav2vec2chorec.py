@@ -1,16 +1,27 @@
 from transformers import pipeline
-import re, os, tgt, torch, pandas as pd
+import re, os, tgt, torch, pandas as pd, platform
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+transcription_audio_file_name = "S01C002V1_2LG.wav"
+tgt_grid_file_name = "S01C002V1_2LG_f01.TextGrid"
+
+linux_file_path_base = f"/vol/bigdata/corpora/CHOREC-1.0/data/S01/S01C002V1"
+windows_local_file_path = f"'D:\\repos\\wav2vec-CHOREC\\files"
 
 def main():
     ASR_transcription = run_wav2vec2()
     tgt_df_repr = use_text_grids()
     sctk_align(ASR_transcription, tgt_df_repr)
 
+def get_file_path(input_file_name):
+    if platform.system().lower() == "linux":
+        return f"{linux_file_path_base}/{input_file_name}"
+    return f"{windows_local_file_path}\\{input_file_name}"
+
 def run_wav2vec2():
     # CHOREC: Tier 2 = prompts, Tier 3 = orthographic transcription
-    file_path = 'D:\\repos\\wav2vec-CHOREC\\files\\S01C002V1_2LG.wav' # os.path.join(__file__, "..", "files\\S01C002V1_2LG.wav")
+    file_path = get_file_path(transcription_audio_file_name)
     model_name="GroNLP/wav2vec2-dutch-large-ft-cgn"
     pipe = pipeline(model=model_name)
 
@@ -25,7 +36,7 @@ def run_wav2vec2():
     return ASR_transcription
 
 def use_text_grids():
-    tg_file = "D:\\repos\\wav2vec-CHOREC\\files\\S01C002V1_2LG_f01.TextGrid"
+    tg_file = get_file_path(tgt_grid_file_name)
 
     # Read TextGrid file
     tg = tgt.io.read_textgrid(tg_file, encoding='utf-8', include_empty_intervals=False)
