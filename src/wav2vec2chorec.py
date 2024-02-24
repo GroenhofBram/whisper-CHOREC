@@ -65,13 +65,13 @@ def sctk_align(ASR_transcription, tgt_df_repr):
     d = {'utterance_id': ['S01C001M1_1LG-words' ] ,
         'transcript': [ASR_transcription.lower()]}
     df = pd.DataFrame(data=d)
-    df.to_csv('hyp.csv', index=False)
+    df.to_csv('output/hyp.csv', index=False)
 
     # # # # REFERENCE
     d = {'utterance_id': ['S01C001M1_1LG-words'],
         'transcript': [" ".join(tgt_df_repr.orthography.values)]} # Or prompt: " ".join(tgt_df_repr.prompt.values)
     df = pd.DataFrame(data=d)
-    df.to_csv('ref.csv', index=False)
+    df.to_csv('output/ref.csv', index=False)
 
     # For overview of what each argument does see:
     ## !./sctk score --help
