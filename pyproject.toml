@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wav2vec2chorec"
+version = "0.1.0"
+description = ""
+authors = ["groenhofbram <groenhofbram@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jiwer = "^3.0.3"
+evaluate = "^0.4.1"
+transformers = "^4.38.1"
+tgt = "^1.5"
+pandas = "^2.2.1"
+
+[tool.poetry.scripts]
+w2v = 'src.wav2vec2chorec:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
