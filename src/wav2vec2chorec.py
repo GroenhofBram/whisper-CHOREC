@@ -83,17 +83,3 @@ def sctk_align(ASR_transcription, tgt_df_repr):
         'transcript': [" ".join(tgt_df_repr.orthography.values)]} # Or prompt: " ".join(tgt_df_repr.prompt.values)
     df = pd.DataFrame(data=d)
     df.to_csv('output/ref.csv', index=False)
-
-    # For overview of what each argument does see:
-    ## !./sctk score --help
-    
-    # !version=v0.3.0 && wget -q -O sctk https://github.com/shahruk10/go-sctk/releases/download/${version}/sctk && chmod +x ./sctk
-    # !./sctk score \
-    # --ignore-first=true \
-    # --delimiter="," \
-    # --col-id=0 \
-    # --col-trn=1 \
-    # --cer=false \
-    # --out=./report \
-    # --ref=./ref.csv \
-    # --hyp=./hyp.csv \
