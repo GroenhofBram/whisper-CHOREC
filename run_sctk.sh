@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-INPUT_REF_CSV="./output/ref.csv"
-INPUT_HYP_CSV="./output/hyp.csv"
 # For overview of what each argument does see:
 ./sctk score --help
     
@@ -13,5 +11,5 @@ INPUT_HYP_CSV="./output/hyp.csv"
     --col-trn=1 \
     --cer=false \
     --out=./report \
-    --ref=$INPUT_REF_CSV \
-    --hyp=$INPUT_HYP_CSV \
+    --ref=./output/ref.csv \
+    --hyp=./output/hyp.csv 
