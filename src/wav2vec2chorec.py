@@ -7,7 +7,7 @@ transcription_audio_file_name = "S01C002V1_2LG.wav"
 tgt_grid_file_name = "S01C002V1_2LG_f01.TextGrid"
 
 linux_file_path_base = f"/vol/bigdata/corpora/CHOREC-1.0/data/S01/S01C002V1"
-windows_local_file_path = f"'D:\\repos\\wav2vec-CHOREC\\files"
+windows_local_file_path = f"D:\\repos\\wav2vec-CHOREC\\files"
 
 def main():
     ASR_transcription = run_wav2vec2()
