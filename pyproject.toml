@@ -19,6 +19,7 @@ ffmpeg-python = "^0.2.0"
 
 [tool.poetry.scripts]
 w2v2 = 'src.wav2vec2chorec:main'
+w2v2json = 'src.wav2vec2chorecjson:main'
 
 [build-system]
 requires = ["poetry-core"]
