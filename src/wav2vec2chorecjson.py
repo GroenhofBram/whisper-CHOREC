@@ -3,7 +3,9 @@ from pathlib import Path
 
 def main():
     json_data = read_json()
+    print(json_data)
     json_data_words = extract_json(json_data)    
+    print(json_data_words)
 
 def read_json():
     # file_path = Path("D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json")
@@ -13,7 +15,7 @@ def read_json():
         return json.load(fp)
     
 def extract_json(json_data) -> dict: # Type hinting
-    json_data_words = json_data["speakers"]['S01C001M1_1LG']['(S01C001M1_1LG-words)']["words"]
+    json_data_words = json_data["speakers"]['S01C002V1_2LG']['(S01C002V1_2LG-words)']["words"]
 
     return json_data_words
 
