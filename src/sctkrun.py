@@ -14,21 +14,21 @@ def check_executable():
     if platform.system().lower() != "linux":
         raise ValueError("NOT LINUX")
 
-# import subprocess
-# >>> 
-# >>> subprocess.run(["sctk"], executable=linux_path, check=True)
 def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
     args = [
         "sctk", 
         "score",
         "--ignore-first=true",
-        "--delimiter=','",
+        "--delimiter=,",
         "--col-id=0",
         "--col-trn=1",
         "--cer=false",
-        f"--out='{output_folder}'",
-        f"--ref='{ref_csv_path}'",
-        f"--hyp='{hyp_csv_path}'"
+        f"--out={output_folder}",
+        f"--ref={ref_csv_path}",
+        f"--hyp={hyp_csv_path}"
     ]
 
-    return subprocess.run(args, executable=linux_path, check=True)
+    try:
+        return subprocess.run(args, executable=linux_path, check=True)
+    except Exception as e:
+        print(e)
