@@ -19,7 +19,7 @@ def main():
 
 def get_file_path():
     if platform.system().lower() == "linux":
-        pth = os.path.abspath(os.path.join(__file__, "../report/hyp1.trn.pra.json"))
+        pth = os.path.abspath(os.path.join(__file__, "../../report/hyp1.trn.pra.json"))
         print(pth)
         return pth
     return "D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json"
