@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.8%   (  23)
+
+Percent Correct           =   45.2%   (  19)
+
+Percent Substitution      =   54.8%   (  23)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   45.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  auto ==> nan
+   2:    1  ->  chauffeur ==> erganfer
+   3:    1  ->  circus ==> nan
+   4:    1  ->  cola ==> sola
+   5:    1  ->  dronken ==> gonken
+   6:    1  ->  fietsbel ==> potloot
+   7:    1  ->  gooien ==> goeien
+   8:    1  ->  hoofdpijn ==> nan
+   9:    1  ->  kussen ==> kichen
+  10:    1  ->  lawaai ==> lawai
+  11:    1  ->  liedje ==> nan
+  12:    1  ->  meisje ==> nan
+  13:    1  ->  moeilijk ==> o
+  14:    1  ->  nan ==> de
+  15:    1  ->  potlood ==> pooloot
+  16:    1  ->  regen ==> gigen
+  17:    1  ->  scheuren ==> suven
+  18:    1  ->  schouders ==> erschouders
+  19:    1  ->  vinger ==> fiets
+  20:    1  ->  vlinder ==> vlendur
+  21:    1  ->  vuurwerk ==> gwerk
+  22:    1  ->  water ==> watter
+  23:    1  ->  zwemmen ==> jammen
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  auto
+   2:    1  ->  chauffeur
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dronken
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  moeilijk
+  14:    1  ->  nan
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  scheuren
+  18:    1  ->  schouders
+  19:    1  ->  vinger
+  20:    1  ->  vlinder
+  21:    1  ->  vuurwerk
+  22:    1  ->  water
+  23:    1  ->  zwemmen
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    5  ->  nan
+   2:    1  ->  de
+   3:    1  ->  erganfer
+   4:    1  ->  erschouders
+   5:    1  ->  fiets
+   6:    1  ->  gigen
+   7:    1  ->  goeien
+   8:    1  ->  gonken
+   9:    1  ->  gwerk
+  10:    1  ->  jammen
+  11:    1  ->  kichen
+  12:    1  ->  lawai
+  13:    1  ->  o
+  14:    1  ->  pooloot
+  15:    1  ->  potloot
+  16:    1  ->  sola
+  17:    1  ->  suven
+  18:    1  ->  vlendur
+  19:    1  ->  watter
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
