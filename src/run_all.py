@@ -1,26 +1,13 @@
-import subprocess
-import platform
+from src.wav2vec2chorec import main as wav2vec2chorec_main
+from src.sctkrun import main as sctk_run_unaligned
+from src.wav2vec2chorecjson import main as wav2vec2chorec_json
+from src.filteredalignment import main as align_filtered
+from src.sctk_run_aligned import main as sctk_run_aligned
+
 
 def main():
-    py_files = get_python_files()
-    run_py_files(py_files)
-
-
-def get_python_files():
-    # python_files = [
-    #     "wav2vec2chorec.py",
-    #     "sctkrun.py",
-    #     "wav2vec2chorecjson.py",
-    #     "filteredalignment.py",
-    #     "sctkrun_aligned.py"
-    # ]
-
-    python_files = ["test1.py","test2.py"]
-    return(python_files)
-
-def run_py_files(py_files):
-    for file in py_files:
-        subprocess.run(["python", file])
-
-
-main()
+    wav2vec2chorec_main()
+    sctk_run_unaligned()
+    wav2vec2chorec_json()
+    align_filtered()
+    sctk_run_aligned()
