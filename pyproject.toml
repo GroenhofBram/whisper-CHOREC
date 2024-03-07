@@ -23,6 +23,7 @@ sctk_run_unaligned = 'src.sctkrun:main'
 w2v2json = 'src.wav2vec2chorecjson:main'
 w2v2align = 'src.filteredalignment:main'
 sctk_run_aligned = 'src.sctkrun_aligned:main'
+conf_mat = 'src.confusion_matrix:main'
 run_all = 'src.run_all:main'
 
 [build-system]

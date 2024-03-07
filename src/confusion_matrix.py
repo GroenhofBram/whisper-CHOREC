@@ -1,44 +1,48 @@
-from sklearn.metrics import confusion_matrix
+### NaN in dataframe[Reference] needs to be filtered out.
+### Doubles in dataframe? only keep the last one of the two (reference).
+
+import os
+# from sklearn.metrics import confusion_matrix
 import numpy as np
+import pandas as pd
 
+# If it finds nan replace with " "
 def main():
-    prompt_list = read_in_csv("prompt")
-    ortho_list = read_in_csv("ortho")
-    hypo_list = read_in_csv("hypo")
-    df_all_words = create_df_all_words(prompt_list,
-                                       ortho_list,
-                                       hypo_list)
-    confusion_matrix = create_confusion_matrix(df_all_words)
+    al_df = read_aligned_file_as_df("S01C002V1-filtered-dataframe.csv")
+    print(al_df)
 
-def read_in_csv(type == "undefined"):
-    if type == "undefined":
-        print("No read in type defined")
+    base_df = pd.DataFrame.from_dict({
+        'prompt': read_prompt_file("2LG_words.txt")
+    })
+
+    print(base_df)
+
+    # prompts  orths   asr
+    # 
     
-    if platform.system().lower() == "linux":
-        os_type = "linux"
-    else:
-        os_type = "windows"
+    base_df['prompts_plus_orth']
+    # do what you need to with sizes
+
+    # ref_list = al_df["reference"]
+    # hyp_list = al_df["hypothesis"]
     
-    # Linux
-    if os_type == "linux":
-        if type == "prompt":
 
-        elif type == "ortho":
-        
-        else:
-             
-             
-    # Windows
-    elif os_type == "windows":
-        if type == "prompt":
-        
-        elif type == "ortho":
-        
-        else:
-            file_path = "D:\repos\wav2vec-CHOREC\files\word_lists\2LG_words.csv"
-            return
+def calc_prompt_plus_orth(actual_word: str, input_word: str):
+    return 1
+    # confusion_matrix = create_confusion_matrix(df_all_words)
 
-             
+def get_abs_path(base_path: str, file_name: str):
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", base_path, file_name)) 
+
+def read_aligned_file_as_df(file_name):
+    file_path = get_abs_path("output", file_name)
+    return pd.read_csv(filepath_or_buffer=file_path)
+
+
+def read_prompt_file(file_name):
+    file_path = get_abs_path("files_static", file_name)
+    with open(file_path, "r") as fp:
+            return [str(line.strip()) for line in fp.readlines()]
 
   
 
