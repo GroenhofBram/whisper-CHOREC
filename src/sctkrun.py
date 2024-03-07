@@ -5,7 +5,7 @@ linux_path = "/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/sctk_run/sctk"
 def main():
     check_executable()
     run_sctk(
-        output_folder="/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/wav2vec2build/report",
+        output_folder="/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/wav2vec2build/report/unaligned",
         ref_csv_path="/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/wav2vec2build/output/ref.csv",
         hyp_csv_path="/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/wav2vec2build/output/hyp.csv"
     )
