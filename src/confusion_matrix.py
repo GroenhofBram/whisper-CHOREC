@@ -1,6 +1,3 @@
-### NaN in dataframe[Reference] needs to be filtered out.
-### Doubles in dataframe? only keep the last one of the two (reference).
-
 import os
 # from sklearn.metrics import confusion_matrix
 import numpy as np
