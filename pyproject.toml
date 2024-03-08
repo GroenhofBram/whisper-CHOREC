@@ -15,6 +15,7 @@ pandas = "^2.2.1"
 torch = "^2.2.1"
 ffmpeg = "^1.4"
 ffmpeg-python = "^0.2.0"
+scikit-learn = "^1.4.1.post1"
 
 
 [tool.poetry.scripts]

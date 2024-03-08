@@ -1,5 +1,5 @@
 import os
-# from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 
@@ -44,7 +44,7 @@ def read_prompt_file(file_name):
   
 
 
-def create_confusion_matrix(df_all_words):
+def create_confusion_matrix():
     # Example true labels and predicted labels
     prompt_orth_list = np.array([0, 1, 0, 1, 1, 0, 0])
     prompt_hypo_list = np.array([0, 1, 0, 1, 0, 1, 0])
@@ -59,3 +59,5 @@ def create_confusion_matrix(df_all_words):
     # cm[1, 1] = TP
     print("Confusion Matrix:")
     print(cm)
+
+create_confusion_matrix()
