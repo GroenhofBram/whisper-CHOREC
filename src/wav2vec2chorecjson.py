@@ -83,7 +83,7 @@ def json_to_df(json_data_words):
     df_filtered['reference'] = df_filtered['reference'].apply(lambda x: extract_text(x))
     df_filtered = df_filtered[df_filtered['reference'] != ""]
     df_filtered = df_filtered.drop_duplicates(subset='reference', keep='last')
-    
+    df_filtered['hypothesis'] = df_filtered['hypothesis'].apply(lambda x: x if x.strip() != '' else '[SKIPPED]')
 
     df_filtered.to_csv(filtered_file_name, index=False)
     print(df_filtered)
