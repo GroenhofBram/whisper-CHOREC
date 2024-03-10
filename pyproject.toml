@@ -26,6 +26,7 @@ w2v2align = 'src.filteredalignment:main'
 sctk_run_aligned = 'src.sctkrun_aligned:main'
 conf_mat = 'src.confusion_matrix:main'
 run_all = 'src.run_all:main'
+rag = 'src.run_all:main_generalised'
 
 [build-system]
 requires = ["poetry-core"]

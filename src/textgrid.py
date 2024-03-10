@@ -2,6 +2,8 @@
 import tgt
 import pandas as pd
 
+from src.file_path import get_file_path
+
 def use_text_grids(tgt_file_name):
     tg_file = get_file_path(tgt_file_name)
 

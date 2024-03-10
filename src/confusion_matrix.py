@@ -3,19 +3,34 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 
+from src.pathing import get_abs_folder_path, get_abs_path
+
 def main():
     base_df = create_base_df()
     base_df_binaries = add_binaries(base_df)
-    export_df_data_csv(base_df_binaries)
-    export_df_data_json(base_df_binaries)
+    
+    base_file_path = get_abs_folder_path('all_data_output')
+    base_filename = "All_data"
+    csv_filename = f"{base_filename}.csv"
+    export_df_data(
+         df=base_df_binaries,
+         file_name=csv_filename,
+         base_dir=base_file_path,
+         is_csv=True
+    )
+
+    json_filename = f"{base_filename}.json"
+    export_df_data(
+         df=base_df_binaries,
+         file_name=json_filename,
+         base_dir=base_file_path,
+         is_csv=False
+    )
+
     ref_list_binary, hyp_list_binary = get_binary_lists(base_df_binaries)
     conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
     export_conf_matrix(conf_matrix)
 
-    
-
-def get_abs_path(base_path: str, file_name: str):
-    return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", base_path, file_name)) 
 
 def read_aligned_file_as_df(file_name):
     file_path = get_abs_path("output", file_name)
@@ -28,14 +43,12 @@ def read_prompt_file(file_name):
 
 def add_binaries(base_df):
      base_df_empty_binaries = add_binary_cols(base_df)
-     # print(base_df_empty_binaries)
      base_df_binaries = fill_binary_cols(base_df_empty_binaries)
      return base_df_binaries
 
 def fill_binary_cols(base_df_empty_binaries):
      base_df_binaries = fill_binary_values(base_df_empty_binaries)
      return base_df_binaries
-     # print(base_df_binaries)
 
 def fill_binary_values(base_df_empty_binaries):
      base_df_empty_binaries.loc[base_df_empty_binaries['prompt'] != base_df_empty_binaries['reference'], 'prompts_plus_orth'] = 1
@@ -58,19 +71,12 @@ def create_base_df():
     base_df = pd.merge(base_df, al_df[['reference', "hypothesis"]], left_index=True, right_index=True)
     return base_df
 
-def export_df_data_csv(base_df_binaries):
-    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'all_data_output'))
-    os.makedirs(output_dir, exist_ok=True) 
-    file_name = "All_data.csv"
-    file_path = os.path.join(output_dir, file_name)
-    base_df_binaries.to_csv(file_path, index=False)
-
-def export_df_data_json(base_df_binaries):
-    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'all_data_output'))
-    os.makedirs(output_dir, exist_ok=True) 
-    file_name = "All_data.json"
-    file_path = os.path.join(output_dir, file_name)
-    base_df_binaries.to_json(file_path, index=False)     
+def export_df_data(df: pd.DataFrame, file_name: str, base_dir: str, is_csv: bool = True):
+    file_path = os.path.join(base_dir, file_name)
+    if is_csv:
+        df.to_csv(file_path, index=False)
+    else:
+        df.to_json(file_path, index=False)
 
 def get_binary_lists(base_df_binaries):
      ref_list_binary = base_df_binaries["prompts_plus_orth"].tolist()

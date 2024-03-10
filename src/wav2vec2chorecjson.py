@@ -1,9 +1,9 @@
 import json
 import os
-import platform
 import re
 import pandas as pd
-from pathlib import Path
+
+from src.islinux import is_linux
 
 
 def main():
@@ -11,12 +11,12 @@ def main():
     
     json_data_words = extract_json(json_data)
 
-    print("PArsing json")
+    print("Parsing json")
     df_data_words = json_to_df(json_data)
 
 
 def get_file_path():
-    if platform.system().lower() == "linux":
+    if is_linux():
         pth = os.path.abspath(os.path.join(__file__, "../../report/hyp1.trn.pra.json"))
         print(pth)
         return pth
@@ -36,9 +36,6 @@ def extract_json(json_data) -> dict: # Type hinting
     json_data_words = json_data["speakers"]['S01C002V1_2LG']['(S01C002V1_2LG-words)']["words"]
 
     return json_data_words
-
-
-# def to_df(input_words):
 
 
 def json_to_df(json_data_words):
@@ -76,9 +73,6 @@ def json_to_df(json_data_words):
     filtered_file_name = f'output/{speaker_id}-filtered-dataframe.csv'
     df_filtered = df[df["reference"] != "*"]
     df_filtered = df_filtered[df_filtered["reference"] != "*s"]
-
-
-    # pattern = r'\((.*?)\)' # Find anything between parentheses.
 
     df_filtered['reference'] = df_filtered['reference'].apply(lambda x: extract_text(x))
     df_filtered = df_filtered[df_filtered['reference'] != ""]

@@ -13,3 +13,7 @@ def main():
     align_filtered()
     sctk_run_aligned()
     conf_mat()
+
+
+def main_generalised():
+    print("Running generalised process")

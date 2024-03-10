@@ -1,11 +1,12 @@
 import pandas as pd
-import platform
+from src.csvtodataframe import csv_to_df
+from src.islinux import is_linux
 
 def main():
     csv_filename = get_csv_filename()
     unaligned_df = csv_to_df(csv_filename)
-    reference_list = get_reference_list(unaligned_df)
-    hypothesis_list = get_hypothesis_list(unaligned_df)
+    reference_list = get_column_as_list(unaligned_df, "reference")
+    hypothesis_list = get_column_as_list(unaligned_df, "hypothesis")
     generate_csv_for_sctk_align(reference_list, hypothesis_list)
 
 def get_csv_filename():
@@ -14,21 +15,13 @@ def get_csv_filename():
     linux_file_path_base = f"/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/wav2vec2build/output/{csv_filename}"
     windows_local_file_path = f"D:\\repos\\wav2vec-CHOREC\\output\\{csv_filename}"
 
-    if platform.system().lower() == "linux":
+    if is_linux():
         return f"{linux_file_path_base}"
     return f"{windows_local_file_path}"
 
-def csv_to_df(csv_filename):
-     df = pd.read_csv(csv_filename)
-     return df
 
-def get_reference_list(unaligned_df):
-    reference_list = unaligned_df['reference'].tolist()
-    return reference_list
-
-def get_hypothesis_list(unaligned_df):
-    hypothesis_list = unaligned_df['hypothesis'].tolist()
-    return hypothesis_list
+def get_column_as_list(df, col_name):
+    return df[col_name].tolist()
 
 def generate_csv_for_sctk_align(reference_list, hypothesis_list):
     hypothesis_list = [str(item) for item in hypothesis_list]
