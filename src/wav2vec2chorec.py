@@ -1,7 +1,6 @@
 from transformers import pipeline
-import re, os, tgt, torch, pandas as pd, platform
-
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+import re, tgt, pandas as pd, platform
+from src.generalised.cuda import DEVICE
 
 transcription_audio_file_name = "S01C002V1_2LG.wav"
 tgt_grid_file_name = "S01C002V1_2LG_f01.TextGrid"
@@ -23,7 +22,8 @@ def run_wav2vec2():
     # CHOREC: Tier 2 = prompts, Tier 3 = orthographic transcription
     file_path = get_file_path(transcription_audio_file_name)
     model_name="GroNLP/wav2vec2-dutch-large-ft-cgn"
-    pipe = pipeline(model=model_name)
+    # may need to take this out 
+    pipe = pipeline(model=model_name, device=DEVICE)
 
     # Chunk length = windows (?)
     # Stides = context for each window for better inference (?)
