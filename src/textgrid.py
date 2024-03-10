@@ -40,8 +40,12 @@ def load_text_grid_as_df(tgt_file_path):
 
     # Convert TextGrid file to Formatted Table (= df with on each row one interval)
     table = tgt.io.export_to_table(tg, separator=',')
-    formatted_table = [x.split(',')
-    for x in table.split('\n')]
+    formatted_table = [x.split(',') for x in table.split('\n')]
+    if(len(formatted_table)) == 0:
+        print(tgt_file_path)
+
+    #print(formatted_table[0])
+    #print(formatted_table[1:])
 
     tg_df = pd.DataFrame(formatted_table[1:], columns = formatted_table[0])
     tg_df = tg_df.drop(columns=['tier_type'])
