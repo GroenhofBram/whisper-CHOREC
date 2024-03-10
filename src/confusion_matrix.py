@@ -3,11 +3,11 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 
-# If it finds nan replace with " "
 def main():
     base_df = create_base_df()
     base_df_binaries = add_binaries(base_df)
-    export_df_data(base_df_binaries)
+    export_df_data_csv(base_df_binaries)
+    export_df_data_json(base_df_binaries)
     ref_list_binary, hyp_list_binary = get_binary_lists(base_df_binaries)
     conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
     export_conf_matrix(conf_matrix)
@@ -58,12 +58,19 @@ def create_base_df():
     base_df = pd.merge(base_df, al_df[['reference', "hypothesis"]], left_index=True, right_index=True)
     return base_df
 
-def export_df_data(base_df_binaries):
+def export_df_data_csv(base_df_binaries):
     output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'all_data_output'))
     os.makedirs(output_dir, exist_ok=True) 
     file_name = "All_data.csv"
     file_path = os.path.join(output_dir, file_name)
     base_df_binaries.to_csv(file_path, index=False)
+
+def export_df_data_json(base_df_binaries):
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'all_data_output'))
+    os.makedirs(output_dir, exist_ok=True) 
+    file_name = "All_data.json"
+    file_path = os.path.join(output_dir, file_name)
+    base_df_binaries.to_json(file_path, index=False)     
 
 def get_binary_lists(base_df_binaries):
      ref_list_binary = base_df_binaries["prompts_plus_orth"].tolist()
