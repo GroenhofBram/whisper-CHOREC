@@ -1,0 +1,1 @@
+WAV2VEC2_MODEL_NAME: str ="GroNLP/wav2vec2-dutch-large-ft-cgn"
