@@ -3,9 +3,12 @@
 
 import subprocess
 
+from islinux import check_linux_or_error
+
 SCTK_LINUX_PATH = "/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/sctk_run/sctk"
 
 def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
+    check_linux_or_error()
     args = [
         "sctk", 
         "score",

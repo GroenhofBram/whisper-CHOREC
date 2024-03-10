@@ -7,5 +7,6 @@ def get_abs_path(base_path: str, file_name: str):
 
 def get_abs_folder_path(folder_name: str):
     base_path = dirname(__file__)
+    print(f"base: {base_path}")
     joined_folder = join(base_path, '..', folder_name)
     return abspath(joined_folder)
