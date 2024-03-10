@@ -3,12 +3,17 @@
 
 import subprocess
 
-from islinux import check_linux_or_error
+from islinux import is_linux
 
 SCTK_LINUX_PATH = "/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/sctk_run/sctk"
 
 def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
-    check_linux_or_error()
+    if not is_linux():
+        print("Can't run as not on linux")
+        print(f"OUT: {output_folder}")
+        print(f"REF: {ref_csv_path}")
+        print(f"HYP: {hyp_csv_path}")
+
     args = [
         "sctk", 
         "score",
@@ -26,4 +31,3 @@ def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
         return subprocess.run(args, executable=SCTK_LINUX_PATH, check=True)
     except Exception as e:
         print(e)
-        exit(1)
