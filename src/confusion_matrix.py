@@ -8,7 +8,7 @@ from src.pathing import get_abs_folder_path, get_abs_path
 def main():
     base_df = create_base_df()
     base_df_binaries = add_binaries(base_df)
-    
+
     base_file_path = get_abs_folder_path('all_data_output')
     base_filename = "All_data"
     csv_filename = f"{base_filename}.csv"
@@ -29,7 +29,7 @@ def main():
 
     ref_list_binary, hyp_list_binary = get_binary_lists(base_df_binaries)
     conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
-    export_conf_matrix(conf_matrix)
+    export_conf_matrix(base_file_path, conf_matrix)
 
 
 def read_aligned_file_as_df(file_name):
@@ -93,10 +93,9 @@ def create_confusion_matrix(ref_list_binary, hyp_list_binary):
     # cm[1, 1] = TP
     return conf_matrix
 
-def export_conf_matrix(conf_matrix):
-    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'all_data_output'))
+def export_conf_matrix(base_dir, conf_matrix):
     file_name = 'Conf_matrix.csv'
-    file_path = os.path.join(output_dir, file_name)
+    file_path = os.path.join(base_dir, file_name)
     
     # Are these useful?
     descriptions = np.array([['TN', 'FP'],
