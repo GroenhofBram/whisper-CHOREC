@@ -52,6 +52,7 @@ def load_text_grid_as_df(tgt_file_path):
     tg_df = pd.DataFrame(formatted_table[1:], columns = formatted_table[0])
     tg_df = tg_df.drop(columns=['tier_type'])
 
+    # Need to be equal length
     tg_df_orthography = tg_df[tg_df['tier_name'] == "orthography"]
     tg_df_prompt = tg_df[tg_df['tier_name'] == "words to be read"]
     tg_df_prompt = tg_df_prompt[tg_df_prompt['text'] != "<"]
