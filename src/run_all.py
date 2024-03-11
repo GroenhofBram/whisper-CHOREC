@@ -43,16 +43,16 @@ def main_generalised():
     failed_runs = []
     for sesh in participant_sessions:
         process_session(sesh, base_output_dir_in_repo) # #
-        # try:
-        #     process_session(sesh, base_output_dir_in_repo)
-        # except Exception as e:
-        #     msg = e
-        #     if hasattr(e, 'message'):
-        #         msg = e.message
+        try:
+            process_session(sesh, base_output_dir_in_repo)
+        except Exception as e:
+            msg = e
+            if hasattr(e, 'message'):
+                msg = e.message
             
-        #     failed_runs.append({
-        #         'id': sesh.participant_audio_id,
-        #         'ex': msg
-        #     })
+            failed_runs.append({
+                'id': sesh.participant_audio_id,
+                'ex': msg
+            })
         
     print(failed_runs)

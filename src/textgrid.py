@@ -44,21 +44,44 @@ def load_text_grid_as_df(tgt_file_path):
     if(len(formatted_table)) == 0:
         print(tgt_file_path)
 
-    #print(formatted_table[0])
-    #print(formatted_table[1:])
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(formatted_table[0])
+    print(formatted_table[1:])
+    print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 
     tg_df = pd.DataFrame(formatted_table[1:], columns = formatted_table[0])
     tg_df = tg_df.drop(columns=['tier_type'])
 
     tg_df_orthography = tg_df[tg_df['tier_name'] == "orthography"]
     tg_df_prompt = tg_df[tg_df['tier_name'] == "words to be read"]
+    tg_df_prompt = tg_df_prompt[tg_df_prompt['text'] != "<"]
+    tg_df_orthography = tg_df_orthography[~tg_df_orthography['text'].str.contains(r'^\*x?\s*\*?x?\s*$')]
 
-    # print(tg_df_orthography)
-    # print(tg_df_prompt)
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print("- - - - - - orthography_df - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(tg_df_orthography)
+    print(len(tg_df_orthography))
+    print("- - - - - - prompt_df - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(tg_df_prompt)
+    print(len(tg_df_orthography))
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+
+
+
+
     tgt_df_repr = tg_df_orthography.assign(prompt=list(tg_df_prompt['text']))
-
     tgt_df_repr = tgt_df_repr.reset_index()
+    
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print("tgt_df_repr before dropping cols")
+    print(tgt_df_repr)
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
     tgt_df_repr = tgt_df_repr.drop(columns=['tier_name', 'index'])
     tgt_df_repr = tgt_df_repr.rename(columns={"text": "orthography"})
+
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print("tgt_df_repr after dropping/renaming cols")
+    print(tgt_df_repr)
+    print("- - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 
     return tgt_df_repr
