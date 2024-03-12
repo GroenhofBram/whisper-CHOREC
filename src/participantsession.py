@@ -27,7 +27,7 @@ def get_participant_sessions_with_textgrids(
         participant_audio_id = wav_participant_file.wav_participant_full()
         matching_textgrid_globs = get_textgrid_files_matching_wav(wav_participant_file=wav_participant_file, participant_audio_id=participant_audio_id)
         
-        print(matching_textgrid_globs)
+        #print(matching_textgrid_globs)
 
         if len(matching_textgrid_globs) == 0:
             continue
