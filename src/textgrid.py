@@ -5,11 +5,12 @@ import pandas as pd
 from src.file_path import get_file_path
 
 def use_text_grids(tgt_file_name):
-    tg_file = get_file_path(tgt_file_name)
+    print(tgt_file_name)
+    # tg_file = get_file_path(tgt_file_name)
+    tg_file = tgt_file_name
 
     # Read TextGrid file
     tg = tgt.io.read_textgrid(tg_file, encoding='utf-8', include_empty_intervals=False)
-
 
     # Convert TextGrid file to Formatted Table (= df with on each row one interval)
     table = tgt.io.export_to_table(tg, separator=',')
@@ -37,6 +38,8 @@ def use_text_grids(tgt_file_name):
     tgt_df_repr = tgt_df_repr.reset_index()
     tgt_df_repr = tgt_df_repr.drop(columns=['tier_name', 'index'])
     tgt_df_repr = tgt_df_repr.rename(columns={"text": "orthography"})
+
+    
 
     return tgt_df_repr
 
