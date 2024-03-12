@@ -8,7 +8,7 @@ from os.path import join
 from os import makedirs
 
 def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
-    print(f"Processing {sesh.participant_audio_id}")
+    print(f"\nProcessing {sesh.participant_audio_id}")
     sesh_audio_id_words = f"{sesh.participant_audio_id}-words"
     wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
     base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)

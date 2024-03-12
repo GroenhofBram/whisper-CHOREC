@@ -9,10 +9,11 @@ SCTK_LINUX_PATH = "/vol/tensusers5/bgroenhof/wav2vec2_chorec_run/sctk_run/sctk"
 
 def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
     if not is_linux():
-        print("Can't run as not on linux")
-        print(f"OUT: {output_folder}")
-        print(f"REF: {ref_csv_path}")
-        print(f"HYP: {hyp_csv_path}")
+        print("\nCan't run SCTK as not on linux")
+        print("\nOutput direcoties:")
+        print(f"\tOUT: {output_folder}")
+        print(f"\tREF: {ref_csv_path}")
+        print(f"\tHYP: {hyp_csv_path}")
 
     args = [
         "sctk", 
