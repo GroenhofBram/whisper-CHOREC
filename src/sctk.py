@@ -14,6 +14,7 @@ def run_sctk(output_folder, ref_csv_path, hyp_csv_path):
         print(f"\tOUT: {output_folder}")
         print(f"\tREF: {ref_csv_path}")
         print(f"\tHYP: {hyp_csv_path}")
+        return
 
     args = [
         "sctk", 

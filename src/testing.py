@@ -39,7 +39,7 @@ if not missing_start_times.empty:
 	missing_start_times['text'] = "[ORTHOGRAPHY MISSING]"
 	filtered_df_orthography = pd.concat([filtered_df_orthography, missing_start_times], ignore_index=True)
 
-
+breakpoint()
 
 # print(tg_df_orthography['text'])
 

@@ -1,5 +1,6 @@
 from pathing import get_abs_folder_path
 from process_session import process_session
+from processunaligned import proccess_unaligned_csvs
 from sctk_align import get_repr_df
 from src.wav2vec2chorec import main as wav2vec2chorec_main
 from src.sctkrun import main as sctk_run_unaligned
@@ -41,10 +42,11 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
-    for sesh in participant_sessions:
-        process_session(sesh, base_output_dir_in_repo) # #
+    for sesh in [participant_sessions[0:2]]:
+        # process_session(sesh, base_output_dir_in_repo) # #
         try:
             process_session(sesh, base_output_dir_in_repo)
+            proccess_unaligned_csvs(sesh, base_output_dir_in_repo)
         except Exception as e:
             msg = e
             if hasattr(e, 'message'):
@@ -54,5 +56,6 @@ def main_generalised():
                 'id': sesh.participant_audio_id,
                 'ex': msg
             })
-        
-    print(failed_runs)
+
+    if len(failed_runs) > 0:  
+        print(failed_runs)

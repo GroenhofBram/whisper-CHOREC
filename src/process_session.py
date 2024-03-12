@@ -13,7 +13,9 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
     wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
     base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
     makedirs(base_session_folder, exist_ok=True)
-
+    sctk_output_folder = join(base_session_folder, "sctk_out_unaligned")
+    makedirs(sctk_output_folder, exist_ok=True)
+    
     hyp_csv_path = join(base_session_folder, "hyp.csv")
     ref_csv_path = join(base_session_folder, "ref.csv")
 
@@ -38,7 +40,7 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
     orth_ref_transcription_df.to_csv(ref_csv_path, index=False)
     
     run_sctk(
-        output_folder=join(base_session_folder, "sctk_out_unaligned"),
+        output_folder=sctk_output_folder,
         ref_csv_path=ref_csv_path,
         hyp_csv_path=hyp_csv_path,
     )
