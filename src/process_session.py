@@ -1,8 +1,9 @@
 
+import pandas as pd
 from models.participant_session import ParticipantSession
 from sctk import run_sctk
 from sctk_align import get_repr_df
-from textgrid import load_text_grid_as_df
+from textgrid import load_text_grid_as_df, use_text_grids
 from wav2vec2_asr import wav2vec2_asr
 from os.path import join
 from os import makedirs
@@ -18,11 +19,6 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
     
     hyp_csv_path = join(base_session_folder, "hyp.csv")
     ref_csv_path = join(base_session_folder, "ref.csv")
-
-    # print(base_session_folder)
-    # print(hyp_csv_path)
-    # print(ref_csv_path)
-    # return None
     
     asr_hyp_transcription_df = get_repr_df(
         sesh_id_words_id=sesh_audio_id_words,
@@ -30,7 +26,11 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
     )
     asr_hyp_transcription_df.to_csv(hyp_csv_path, index=False)
 
-    tgt_df_repr = load_text_grid_as_df(sesh.textgrid_participant_file.full_file_path)
+    # tgt_df_repr = pd.DataFrame().from_dict({
+    #     'orthography': pd.Series(["words_1", "words_2", "words_3"])
+    # })
+
+    tgt_df_repr = use_text_grids(sesh.textgrid_participant_file.full_file_path)
     tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
     
     orth_ref_transcription_df = get_repr_df(
@@ -44,3 +44,7 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
         ref_csv_path=ref_csv_path,
         hyp_csv_path=hyp_csv_path,
     )
+
+    return {
+        'base_session_path': base_session_folder,
+    }
