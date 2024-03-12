@@ -16,14 +16,17 @@ separator=',')
 formatted_table = [x.split(',')
 for x in table.split('\n')]
 
-for idx, item in enumerate(formatted_table):
-	if(len(item) == 6):
-		print(idx, item)
+# for idx, item in enumerate(formatted_table):
+# 	if(len(item) == 6):
+# 		print(idx, item)
 
 
 tg_df = pd.DataFrame(formatted_table[1:], columns = formatted_table[0])
 tg_df_prompts = tg_df[tg_df['tier_name'] == 'words to be read']
 tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<"]
+tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<"]
+tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<<"]
+tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<<<"]
 tg_df_orthography = tg_df[tg_df['tier_name'] == 'orthography']
 
 # print(len(tg_df_orthography))
@@ -53,4 +56,6 @@ print("AFter filter (should be equal)")
 print(len(filtered_df_orthography))
 print(len(tg_df_prompts))
 
+print(tg_df_prompts)
+print(filtered_df_orthography)
 
