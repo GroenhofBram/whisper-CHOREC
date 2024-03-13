@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  60)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   68.3%   (  41)
+Percent Deletions         =   31.7%   (  19)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  60)
+Hyp. words                =           (  41)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  * ==> n
+   2:    1  ->  * ==> derinuhootin
+   3:    1  ->  * ==> dus
+   4:    1  ->  * ==> h
+   5:    1  ->  * ==> ha
+   6:    1  ->  * ==> i
+   7:    1  ->  * ==> l
+   8:    1  ->  * ==> o
+   9:    1  ->  * ==> ouh
+  10:    1  ->  * ==> se
+  11:    1  ->  * ==> sheters
+  12:    1  ->  * ==> sier
+  13:    1  ->  * ==> sm
+  14:    1  ->  *(apen) ==> la
+  15:    1  ->  *s ==> ba
+  16:    1  ->  *s ==> ke
+  17:    1  ->  appel ==> apel
+  18:    1  ->  chauffeur ==> ja
+  19:    1  ->  dichtbij ==> kstoe
+  20:    1  ->  eerste ==> te
+  21:    1  ->  fietsbel ==> t
+  22:    1  ->  gooien ==> ge
+  23:    1  ->  kleuren ==> sem
+  24:    1  ->  kussen ==> kola
+  25:    1  ->  lawaai ==> fi
+  26:    1  ->  liedje ==> hnto
+  27:    1  ->  meisje ==> goh
+  28:    1  ->  moeder ==> inel
+  29:    1  ->  muziek ==> wen
+  30:    1  ->  opnieuw ==> sa
+  31:    1  ->  potlood ==> kek
+  32:    1  ->  scheuren ==> fie
+  33:    1  ->  sneeuwen ==> gri
+  34:    1  ->  stoppen ==> we
+  35:    1  ->  vinger ==> em
+  36:    1  ->  vlinder ==> kenen
+  37:    1  ->  voetbal ==> t
+  38:    1  ->  vuurwerk ==> j
+  39:    1  ->  waarom ==> she
+  40:    1  ->  zwemmen ==> k
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    5  ->  *
+   2:    1  ->  auto
+   3:    1  ->  drinken
+   4:    1  ->  drogen
+   5:    1  ->  hoofdpijn
+   6:    1  ->  koning
+   7:    1  ->  mevrouw
+   8:    1  ->  moeilijk
+   9:    1  ->  regen*(regenen)
+  10:    1  ->  schouders
+  11:    1  ->  speelplaats
+  12:    1  ->  verhaal
+  13:    1  ->  vliegtuig
+  14:    1  ->  water
+  15:    1  ->  winkel
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   14  ->  *
+   2:    2  ->  *s
+   3:    1  ->  *(apen)
+   4:    1  ->  appel
+   5:    1  ->  chauffeur
+   6:    1  ->  dichtbij
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  gooien
+  10:    1  ->  kleuren
+  11:    1  ->  kussen
+  12:    1  ->  lawaai
+  13:    1  ->  liedje
+  14:    1  ->  meisje
+  15:    1  ->  moeder
+  16:    1  ->  muziek
+  17:    1  ->  opnieuw
+  18:    1  ->  potlood
+  19:    1  ->  scheuren
+  20:    1  ->  sneeuwen
+  21:    1  ->  stoppen
+  22:    1  ->  vinger
+  23:    1  ->  vlinder
+  24:    1  ->  voetbal
+  25:    1  ->  vuurwerk
+  26:    1  ->  waarom
+  27:    1  ->  zwemmen
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  n
+   2:    2  ->  t
+   3:    1  ->  apel
+   4:    1  ->  ba
+   5:    1  ->  derinuhootin
+   6:    1  ->  dus
+   7:    1  ->  em
+   8:    1  ->  fi
+   9:    1  ->  fie
+  10:    1  ->  ge
+  11:    1  ->  goh
+  12:    1  ->  gri
+  13:    1  ->  h
+  14:    1  ->  ha
+  15:    1  ->  hnto
+  16:    1  ->  i
+  17:    1  ->  inel
+  18:    1  ->  j
+  19:    1  ->  ja
+  20:    1  ->  k
+  21:    1  ->  ke
+  22:    1  ->  kek
+  23:    1  ->  kenen
+  24:    1  ->  kola
+  25:    1  ->  kstoe
+  26:    1  ->  l
+  27:    1  ->  la
+  28:    1  ->  o
+  29:    1  ->  ouh
+  30:    1  ->  sa
+  31:    1  ->  se
+  32:    1  ->  sem
+  33:    1  ->  she
+  34:    1  ->  sheters
+  35:    1  ->  sier
+  36:    1  ->  sm
+  37:    1  ->  te
+  38:    1  ->  we
+  39:    1  ->  wen
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

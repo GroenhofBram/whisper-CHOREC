@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.6%   (  57)
+
+Percent Correct           =    5.1%   (   3)
+
+Percent Substitution      =   86.4%   (  51)
+Percent Deletions         =    8.5%   (   5)
+Percent Insertions        =    1.7%   (   1)
+Percent Word Accuracy     =    3.4%
+
+
+Ref. words                =           (  59)
+Hyp. words                =           (  55)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    1  ->  * ==> beno
+   2:    1  ->  * ==> d
+   3:    1  ->  * ==> eponenrsprukb
+   4:    1  ->  * ==> er
+   5:    1  ->  * ==> hawe
+   6:    1  ->  * ==> milen
+   7:    1  ->  * ==> nee
+   8:    1  ->  * ==> nen
+   9:    1  ->  * ==> nute
+  10:    1  ->  * ==> omste
+  11:    1  ->  * ==> s
+  12:    1  ->  * ==> sgeeltscheeldag
+  13:    1  ->  * ==> sgodig
+  14:    1  ->  * ==> sr
+  15:    1  ->  * ==> stalk
+  16:    1  ->  * ==> tme
+  17:    1  ->  * ==> uh
+  18:    1  ->  *(gevouw) ==> de
+  19:    1  ->  fiewon ==> or
+  20:    1  ->  foetbans ==> cllleren
+  21:    1  ->  gefouw ==> en
+  22:    1  ->  geutel ==> so
+  23:    1  ->  grijnken ==> voetbas
+  24:    1  ->  hiffreeuw ==> hereo
+  25:    1  ->  ierpieuw ==> e
+  26:    1  ->  ijpo ==> orpng
+  27:    1  ->  kloeien ==> der
+  28:    1  ->  kneurem*(kleuren) ==> te
+  29:    1  ->  menuur*(menner) ==> s
+  30:    1  ->  millen ==> vokil
+  31:    1  ->  milste ==> ssort
+  32:    1  ->  muider ==> sweten
+  33:    1  ->  nizung ==> or
+  34:    1  ->  oonste ==> va
+  35:    1  ->  orponk ==> kmooie
+  36:    1  ->  prilsood ==> ke
+  37:    1  ->  saarweng ==> ain
+  38:    1  ->  schielstaug ==> en
+  39:    1  ->  schodig ==> ullen
+  40:    1  ->  sjobel ==> jombel
+  41:    1  ->  spreikje ==> sbre
+  42:    1  ->  strellen ==> gevalvierpnd
+  43:    1  ->  ulen ==> misdever
+  44:    1  ->  vawaai ==> den
+  45:    1  ->  veurder ==> flu
+  46:    1  ->  vloender ==> re
+  47:    1  ->  vocil ==> geal
+  48:    1  ->  vurpaand ==> bebort
+  49:    1  ->  walaan ==> welvan
+  50:    1  ->  wooien ==> wonen
+  51:    1  ->  zwieten ==> e
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mel
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  orstalk
+   5:    1  ->  veten
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:   17  ->  *
+   2:    1  ->  *(gevouw)
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  geutel
+   7:    1  ->  grijnken
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kloeien
+  12:    1  ->  kneurem*(kleuren)
+  13:    1  ->  menuur*(menner)
+  14:    1  ->  millen
+  15:    1  ->  milste
+  16:    1  ->  muider
+  17:    1  ->  nizung
+  18:    1  ->  oonste
+  19:    1  ->  orponk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  schodig
+  24:    1  ->  sjobel
+  25:    1  ->  spreikje
+  26:    1  ->  strellen
+  27:    1  ->  ulen
+  28:    1  ->  vawaai
+  29:    1  ->  veurder
+  30:    1  ->  vloender
+  31:    1  ->  vocil
+  32:    1  ->  vurpaand
+  33:    1  ->  walaan
+  34:    1  ->  wooien
+  35:    1  ->  zwieten
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  e
+   2:    2  ->  en
+   3:    2  ->  or
+   4:    2  ->  s
+   5:    1  ->  ain
+   6:    1  ->  bebort
+   7:    1  ->  beno
+   8:    1  ->  cllleren
+   9:    1  ->  d
+  10:    1  ->  de
+  11:    1  ->  den
+  12:    1  ->  der
+  13:    1  ->  eponenrsprukb
+  14:    1  ->  er
+  15:    1  ->  flu
+  16:    1  ->  geal
+  17:    1  ->  gevalvierpnd
+  18:    1  ->  hawe
+  19:    1  ->  hereo
+  20:    1  ->  jombel
+  21:    1  ->  ke
+  22:    1  ->  kmooie
+  23:    1  ->  milen
+  24:    1  ->  misdever
+  25:    1  ->  nee
+  26:    1  ->  nen
+  27:    1  ->  nute
+  28:    1  ->  omste
+  29:    1  ->  orpng
+  30:    1  ->  re
+  31:    1  ->  sbre
+  32:    1  ->  sgeeltscheeldag
+  33:    1  ->  sgodig
+  34:    1  ->  so
+  35:    1  ->  sr
+  36:    1  ->  ssort
+  37:    1  ->  stalk
+  38:    1  ->  sweten
+  39:    1  ->  te
+  40:    1  ->  tme
+  41:    1  ->  uh
+  42:    1  ->  ullen
+  43:    1  ->  va
+  44:    1  ->  voetbas
+  45:    1  ->  vokil
+  46:    1  ->  welvan
+  47:    1  ->  wonen
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

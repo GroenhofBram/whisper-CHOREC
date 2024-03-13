@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   88.0%   (  81)
+
+Percent Correct           =   14.1%   (  13)
+
+Percent Substitution      =   47.8%   (  44)
+Percent Deletions         =   38.0%   (  35)
+Percent Insertions        =    2.2%   (   2)
+Percent Word Accuracy     =   12.0%
+
+
+Ref. words                =           (  92)
+Hyp. words                =           (  59)
+Aligned words             =           (  94)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  * ==> gg
+   2:    2  ->  * ==> s
+   3:    1  ->  * ==> ano
+   4:    1  ->  * ==> deur
+   5:    1  ->  * ==> dij
+   6:    1  ->  * ==> e
+   7:    1  ->  * ==> er
+   8:    1  ->  * ==> groi
+   9:    1  ->  * ==> hat
+  10:    1  ->  * ==> hoek
+  11:    1  ->  * ==> hus
+  12:    1  ->  * ==> ik
+  13:    1  ->  * ==> kieps
+  14:    1  ->  * ==> kin
+  15:    1  ->  * ==> krant
+  16:    1  ->  * ==> neers
+  17:    1  ->  * ==> niet
+  18:    1  ->  * ==> niks
+  19:    1  ->  * ==> san
+  20:    1  ->  * ==> st
+  21:    1  ->  * ==> um
+  22:    1  ->  * ==> urd
+  23:    1  ->  * ==> vo
+  24:    1  ->  * ==> vriend
+  25:    1  ->  * ==> wees
+  26:    1  ->  * ==> welke
+  27:    1  ->  *s ==> dat
+  28:    1  ->  *t ==> klawen
+  29:    1  ->  bed ==> det
+  30:    1  ->  clown ==> leen
+  31:    1  ->  eerst ==> ust
+  32:    1  ->  gauw ==> u
+  33:    1  ->  groen ==> roen
+  34:    1  ->  hoek ==> weet
+  35:    1  ->  hout ==> dat
+  36:    1  ->  krant ==> leter
+  37:    1  ->  neus ==> las
+  38:    1  ->  plank ==> lam
+  39:    1  ->  plas ==> shoen
+  40:    1  ->  reis ==> reijs
+  41:    1  ->  schoen ==> s
+  42:    1  ->  vriend ==> lawn
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  g
+   2:    1  ->  gg
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   21  ->  *
+   2:    2  ->  muts
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  duur
+   6:    1  ->  groei
+   7:    1  ->  huis
+   8:    1  ->  kind
+   9:    1  ->  leeuw
+  10:    1  ->  nieuw
+  11:    1  ->  oog
+  12:    1  ->  paard
+  13:    1  ->  sjaal
+  14:    1  ->  vijf
+     -------
+        35
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:   28  ->  *
+   2:    1  ->  *s
+   3:    1  ->  *t
+   4:    1  ->  bed
+   5:    1  ->  clown
+   6:    1  ->  eerst
+   7:    1  ->  gauw
+   8:    1  ->  groen
+   9:    1  ->  hoek
+  10:    1  ->  hout
+  11:    1  ->  krant
+  12:    1  ->  neus
+  13:    1  ->  plank
+  14:    1  ->  plas
+  15:    1  ->  reis
+  16:    1  ->  schoen
+  17:    1  ->  vriend
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  s
+   2:    2  ->  dat
+   3:    2  ->  gg
+   4:    1  ->  ano
+   5:    1  ->  det
+   6:    1  ->  deur
+   7:    1  ->  dij
+   8:    1  ->  e
+   9:    1  ->  er
+  10:    1  ->  groi
+  11:    1  ->  hat
+  12:    1  ->  hoek
+  13:    1  ->  hus
+  14:    1  ->  ik
+  15:    1  ->  kieps
+  16:    1  ->  kin
+  17:    1  ->  klawen
+  18:    1  ->  krant
+  19:    1  ->  lam
+  20:    1  ->  las
+  21:    1  ->  lawn
+  22:    1  ->  leen
+  23:    1  ->  leter
+  24:    1  ->  neers
+  25:    1  ->  niet
+  26:    1  ->  niks
+  27:    1  ->  reijs
+  28:    1  ->  roen
+  29:    1  ->  san
+  30:    1  ->  shoen
+  31:    1  ->  st
+  32:    1  ->  u
+  33:    1  ->  um
+  34:    1  ->  urd
+  35:    1  ->  ust
+  36:    1  ->  vo
+  37:    1  ->  vriend
+  38:    1  ->  wees
+  39:    1  ->  weet
+  40:    1  ->  welke
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

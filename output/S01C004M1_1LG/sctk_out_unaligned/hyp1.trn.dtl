@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   92.9%   ( 118)
+
+Percent Correct           =    7.1%   (   9)
+
+Percent Substitution      =   29.1%   (  37)
+Percent Deletions         =   63.8%   (  81)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    7.1%
+
+
+Ref. words                =           ( 127)
+Hyp. words                =           (  46)
+Aligned words             =           ( 127)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  * ==> s
+   2:    2  ->  * ==> st
+   3:    1  ->  * ==> bad
+   4:    1  ->  * ==> draen
+   5:    1  ->  * ==> et
+   6:    1  ->  * ==> hais
+   7:    1  ->  * ==> houd
+   8:    1  ->  * ==> i
+   9:    1  ->  * ==> je
+  10:    1  ->  * ==> neer
+  11:    1  ->  * ==> oer
+  12:    1  ->  * ==> ozat
+  13:    1  ->  * ==> rust
+  14:    1  ->  * ==> sklas
+  15:    1  ->  * ==> splas
+  16:    1  ->  * ==> struud
+  17:    1  ->  * ==> vest
+  18:    1  ->  * ==> vips
+  19:    1  ->  * ==> vreemd
+  20:    1  ->  *s ==> keld
+  21:    1  ->  *s ==> krant
+  22:    1  ->  *s ==> m
+  23:    1  ->  *s ==> rm
+  24:    1  ->  bang*(dank) ==> wal
+  25:    1  ->  bed*(bad) ==> t
+  26:    1  ->  clown ==> lo
+  27:    1  ->  feest ==> troot
+  28:    1  ->  kind ==> paart
+  29:    1  ->  leeuw ==> s
+  30:    1  ->  oog ==> nit
+  31:    1  ->  plank*(plant) ==> plant
+  32:    1  ->  straat ==> sel
+  33:    1  ->  strand ==> ro
+  34:    1  ->  zacht ==> dal
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   55  ->  *
+   2:    6  ->  *s
+   3:    1  ->  arm
+   4:    1  ->  chips*(gips)
+   5:    1  ->  draai
+   6:    1  ->  duur*(buur)
+   7:    1  ->  gauw
+   8:    1  ->  groei
+   9:    1  ->  groen*(groot)
+  10:    1  ->  herfst
+  11:    1  ->  hout
+  12:    1  ->  huis
+  13:    1  ->  klas
+  14:    1  ->  knoop
+  15:    1  ->  muts
+  16:    1  ->  neus
+  17:    1  ->  nieuw
+  18:    1  ->  paard
+  19:    1  ->  plas
+  20:    1  ->  sjaal*(zal)
+  21:    1  ->  vijf
+  22:    1  ->  vriend
+     -------
+        81
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:   22  ->  *
+   2:    4  ->  *s
+   3:    1  ->  bang*(dank)
+   4:    1  ->  bed*(bad)
+   5:    1  ->  clown
+   6:    1  ->  feest
+   7:    1  ->  kind
+   8:    1  ->  leeuw
+   9:    1  ->  oog
+  10:    1  ->  plank*(plant)
+  11:    1  ->  straat
+  12:    1  ->  strand
+  13:    1  ->  zacht
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    4  ->  s
+   2:    2  ->  st
+   3:    1  ->  bad
+   4:    1  ->  dal
+   5:    1  ->  draen
+   6:    1  ->  et
+   7:    1  ->  hais
+   8:    1  ->  houd
+   9:    1  ->  i
+  10:    1  ->  je
+  11:    1  ->  keld
+  12:    1  ->  krant
+  13:    1  ->  lo
+  14:    1  ->  m
+  15:    1  ->  neer
+  16:    1  ->  nit
+  17:    1  ->  oer
+  18:    1  ->  ozat
+  19:    1  ->  paart
+  20:    1  ->  plant
+  21:    1  ->  rm
+  22:    1  ->  ro
+  23:    1  ->  rust
+  24:    1  ->  sel
+  25:    1  ->  sklas
+  26:    1  ->  splas
+  27:    1  ->  struud
+  28:    1  ->  t
+  29:    1  ->  troot
+  30:    1  ->  vest
+  31:    1  ->  vips
+  32:    1  ->  vreemd
+  33:    1  ->  wal
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

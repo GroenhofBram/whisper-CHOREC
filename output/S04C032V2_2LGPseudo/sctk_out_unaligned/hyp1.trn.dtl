@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  75)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   64.0%   (  48)
+Percent Deletions         =   36.0%   (  27)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  75)
+Hyp. words                =           (  48)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  * ==> eel
+   2:    1  ->  * ==> etten
+   3:    1  ->  * ==> i
+   4:    1  ->  * ==> ons
+   5:    1  ->  * ==> v
+   6:    1  ->  *s ==> eten
+   7:    1  ->  *s ==> gato
+   8:    1  ->  *s ==> ge
+   9:    1  ->  *s ==> gevia
+  10:    1  ->  *s ==> kmerum
+  11:    1  ->  *s ==> maat
+  12:    1  ->  *s ==> mande
+  13:    1  ->  *s ==> milen
+  14:    1  ->  *s ==> ors
+  15:    1  ->  *s ==> s
+  16:    1  ->  *s ==> sspraat
+  17:    1  ->  *s ==> sufal
+  18:    1  ->  *s ==> urter
+  19:    1  ->  *s ==> vel
+  20:    1  ->  *s ==> vlo
+  21:    1  ->  *s ==> vo
+  22:    1  ->  *s ==> walen
+  23:    1  ->  fiewon ==> ka
+  24:    1  ->  foetbans ==> k
+  25:    1  ->  grijnken ==> m
+  26:    1  ->  hiffreeuw ==> je
+  27:    1  ->  ijpo ==> mst
+  28:    1  ->  kloeien ==> schheels
+  29:    1  ->  kneurem ==> var
+  30:    1  ->  menuur ==> klue
+  31:    1  ->  milste ==> te
+  32:    1  ->  muider ==> verband
+  33:    1  ->  nizung ==> shope
+  34:    1  ->  oonste ==> oorstellen
+  35:    1  ->  orponk ==> aat
+  36:    1  ->  prilsood ==> annnd
+  37:    1  ->  schielstaug ==> rae
+  38:    1  ->  schodig ==> de
+  39:    1  ->  spreikje ==> ebo
+  40:    1  ->  spreikje ==> schoting
+  41:    1  ->  strellen*(stralen) ==> gevist
+  42:    1  ->  ulen ==> scheelsta
+  43:    1  ->  vawaai ==> wan
+  44:    1  ->  veurder ==> sanken
+  45:    1  ->  vloender ==> voetband
+  46:    1  ->  vurpaand ==> fvoko
+  47:    1  ->  wooien ==> vonen
+  48:    1  ->  zwieten ==> dat
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    6  ->  *
+   2:    6  ->  *s
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  haweel
+  10:    1  ->  ierpieuw
+  11:    1  ->  millen
+  12:    1  ->  orstalk
+  13:    1  ->  saarweng
+  14:    1  ->  sjobel
+  15:    1  ->  veten*(vetten)
+  16:    1  ->  vocil
+  17:    1  ->  walaan
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   17  ->  *s
+   2:    5  ->  *
+   3:    2  ->  spreikje
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  grijnken
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ijpo
+   9:    1  ->  kloeien
+  10:    1  ->  kneurem
+  11:    1  ->  menuur
+  12:    1  ->  milste
+  13:    1  ->  muider
+  14:    1  ->  nizung
+  15:    1  ->  oonste
+  16:    1  ->  orponk
+  17:    1  ->  prilsood
+  18:    1  ->  schielstaug
+  19:    1  ->  schodig
+  20:    1  ->  strellen*(stralen)
+  21:    1  ->  ulen
+  22:    1  ->  vawaai
+  23:    1  ->  veurder
+  24:    1  ->  vloender
+  25:    1  ->  vurpaand
+  26:    1  ->  wooien
+  27:    1  ->  zwieten
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  aat
+   2:    1  ->  annnd
+   3:    1  ->  dat
+   4:    1  ->  de
+   5:    1  ->  ebo
+   6:    1  ->  eel
+   7:    1  ->  eten
+   8:    1  ->  etten
+   9:    1  ->  fvoko
+  10:    1  ->  gato
+  11:    1  ->  ge
+  12:    1  ->  gevia
+  13:    1  ->  gevist
+  14:    1  ->  i
+  15:    1  ->  je
+  16:    1  ->  k
+  17:    1  ->  ka
+  18:    1  ->  klue
+  19:    1  ->  kmerum
+  20:    1  ->  m
+  21:    1  ->  maat
+  22:    1  ->  mande
+  23:    1  ->  milen
+  24:    1  ->  mst
+  25:    1  ->  ons
+  26:    1  ->  oorstellen
+  27:    1  ->  ors
+  28:    1  ->  rae
+  29:    1  ->  s
+  30:    1  ->  sanken
+  31:    1  ->  scheelsta
+  32:    1  ->  schheels
+  33:    1  ->  schoting
+  34:    1  ->  shope
+  35:    1  ->  sspraat
+  36:    1  ->  sufal
+  37:    1  ->  te
+  38:    1  ->  urter
+  39:    1  ->  v
+  40:    1  ->  var
+  41:    1  ->  vel
+  42:    1  ->  verband
+  43:    1  ->  vlo
+  44:    1  ->  vo
+  45:    1  ->  voetband
+  46:    1  ->  vonen
+  47:    1  ->  walen
+  48:    1  ->  wan
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

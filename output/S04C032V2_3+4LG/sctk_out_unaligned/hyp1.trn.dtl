@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   92.6%   (  63)
+
+Percent Correct           =   13.2%   (   9)
+
+Percent Substitution      =   77.9%   (  53)
+Percent Deletions         =    8.8%   (   6)
+Percent Insertions        =    5.9%   (   4)
+Percent Word Accuracy     =    7.4%
+
+
+Ref. words                =           (  68)
+Hyp. words                =           (  66)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    1  ->  * ==> allestiekje
+   2:    1  ->  * ==> auto
+   3:    1  ->  * ==> buur
+   4:    1  ->  * ==> chine?
+   5:    1  ->  * ==> en
+   6:    1  ->  * ==> foto's
+   7:    1  ->  * ==> ja
+   8:    1  ->  * ==> oliefend
+   9:    1  ->  * ==> op
+  10:    1  ->  * ==> ruzie
+  11:    1  ->  * ==> sh
+  12:    1  ->  * ==> srr
+  13:    1  ->  * ==> ziek
+  14:    1  ->  *s ==> borstelk
+  15:    1  ->  *s ==> da
+  16:    1  ->  *s ==> direnta
+  17:    1  ->  *s ==> foto
+  18:    1  ->  *s ==> konijnhook
+  19:    1  ->  *s ==> lin
+  20:    1  ->  *s ==> maken
+  21:    1  ->  *s ==> nin
+  22:    1  ->  *s ==> schoeneninkel
+  23:    1  ->  *s ==> toilet
+  24:    1  ->  achterdeur ==> achter
+  25:    1  ->  achterdeur ==> der
+  26:    1  ->  autorijden ==> altogaten
+  27:    1  ->  buurmannen ==> buurmann
+  28:    1  ->  chocolade ==> chocolate
+  29:    1  ->  dierentuin ==> stoel
+  30:    1  ->  eindelijk ==> enderlijk
+  31:    1  ->  elastiekje ==> s
+  32:    1  ->  fototoestel ==> fototostel
+  33:    1  ->  goeiendag ==> velkan
+  34:    1  ->  kabouter ==> weet
+  35:    1  ->  knutselen ==> knipzelen
+  36:    1  ->  konijnenhok ==> wagen
+  37:    1  ->  limonade ==> limonado
+  38:    1  ->  lucifer ==> iie
+  39:    1  ->  omdraaien ==> omtralen
+  40:    1  ->  paddenstoelen*(paddenstoel) ==> verstopperd
+  41:    1  ->  poppenwagen ==> popen
+  42:    1  ->  ruziemaken ==> duideler
+  43:    1  ->  schommelen ==> shuschommeen
+  44:    1  ->  sneeuwwitje ==> goeien
+  45:    1  ->  sprookjesboek ==> spookjesboek
+  46:    1  ->  tandenborstel ==> tanden
+  47:    1  ->  teddybeer ==> paren
+  48:    1  ->  toiletpapier ==> papier
+  49:    1  ->  vakantie ==> e
+  50:    1  ->  verjaardag ==> verjaardags
+  51:    1  ->  verstoppertje ==> was
+  52:    1  ->  washandje ==> eel
+  53:    1  ->  wasmachine ==> me
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hnteel?
+   2:    1  ->  kabuite
+   3:    1  ->  sneeo
+   4:    1  ->  was
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    3  ->  *
+   2:    1  ->  *s
+   3:    1  ->  olifant
+   4:    1  ->  schoenenwinkel
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   13  ->  *
+   2:   10  ->  *s
+   3:    2  ->  achterdeur
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje
+  10:    1  ->  fototoestel
+  11:    1  ->  goeiendag
+  12:    1  ->  kabouter
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  limonade
+  16:    1  ->  lucifer
+  17:    1  ->  omdraaien
+  18:    1  ->  paddenstoelen*(paddenstoel)
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schommelen
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  sprookjesboek
+  24:    1  ->  tandenborstel
+  25:    1  ->  teddybeer
+  26:    1  ->  toiletpapier
+  27:    1  ->  vakantie
+  28:    1  ->  verjaardag
+  29:    1  ->  verstoppertje
+  30:    1  ->  washandje
+  31:    1  ->  wasmachine
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    1  ->  achter
+   2:    1  ->  allestiekje
+   3:    1  ->  altogaten
+   4:    1  ->  auto
+   5:    1  ->  borstelk
+   6:    1  ->  buur
+   7:    1  ->  buurmann
+   8:    1  ->  chine?
+   9:    1  ->  chocolate
+  10:    1  ->  da
+  11:    1  ->  der
+  12:    1  ->  direnta
+  13:    1  ->  duideler
+  14:    1  ->  e
+  15:    1  ->  eel
+  16:    1  ->  en
+  17:    1  ->  enderlijk
+  18:    1  ->  foto
+  19:    1  ->  foto's
+  20:    1  ->  fototostel
+  21:    1  ->  goeien
+  22:    1  ->  iie
+  23:    1  ->  ja
+  24:    1  ->  knipzelen
+  25:    1  ->  konijnhook
+  26:    1  ->  limonado
+  27:    1  ->  lin
+  28:    1  ->  maken
+  29:    1  ->  me
+  30:    1  ->  nin
+  31:    1  ->  oliefend
+  32:    1  ->  omtralen
+  33:    1  ->  op
+  34:    1  ->  papier
+  35:    1  ->  paren
+  36:    1  ->  popen
+  37:    1  ->  ruzie
+  38:    1  ->  s
+  39:    1  ->  schoeneninkel
+  40:    1  ->  sh
+  41:    1  ->  shuschommeen
+  42:    1  ->  spookjesboek
+  43:    1  ->  srr
+  44:    1  ->  stoel
+  45:    1  ->  tanden
+  46:    1  ->  toilet
+  47:    1  ->  velkan
+  48:    1  ->  verjaardags
+  49:    1  ->  verstopperd
+  50:    1  ->  wagen
+  51:    1  ->  was
+  52:    1  ->  weet
+  53:    1  ->  ziek
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

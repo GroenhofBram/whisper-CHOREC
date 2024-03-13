@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.0%   (  40)
+
+Percent Correct           =   15.2%   (   7)
+
+Percent Substitution      =   84.8%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   13.0%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> grenken
+   2:    1  ->  * ==> milse
+   3:    1  ->  * ==> schielstalg
+   4:    1  ->  * ==> vuurpand
+   5:    1  ->  *t ==> nuzin
+   6:    1  ->  *t ==> prislo
+   7:    1  ->  bepoud ==> de
+   8:    1  ->  eemde ==> inde
+   9:    1  ->  fiewon ==> nizoen
+  10:    1  ->  foetbans ==> zweten
+  11:    1  ->  gefouw ==> zeten
+  12:    1  ->  geutel ==> getel
+  13:    1  ->  grijnken ==> mader
+  14:    1  ->  haweel ==> haveel
+  15:    1  ->  hiffreeuw ==> hefreeuw
+  16:    1  ->  ierpieuw ==> ierpiel
+  17:    1  ->  ijpo ==> met
+  18:    1  ->  kneurem ==> fiwon
+  19:    1  ->  menuur ==> nu
+  20:    1  ->  millen ==> mielen
+  21:    1  ->  milste ==> milster
+  22:    1  ->  muider ==> onste
+  23:    1  ->  nizung ==> eh
+  24:    1  ->  oonste ==> voetbals
+  25:    1  ->  orstalk ==> paut
+  26:    1  ->  prilsood ==> trielsnot
+  27:    1  ->  saarweng ==> sarwing
+  28:    1  ->  schielstaug ==> scha
+  29:    1  ->  sjobel ==> sobel
+  30:    1  ->  spreikje ==> straakje
+  31:    1  ->  strellen ==> vaway
+  32:    1  ->  vawaai ==> kneuren
+  33:    1  ->  veten ==> orstauk
+  34:    1  ->  veurder ==> verder
+  35:    1  ->  vloender ==> vlonder
+  36:    1  ->  vocil ==> vorksil
+  37:    1  ->  vurpaand ==> gefuw
+  38:    1  ->  walaan ==> walam
+  39:    1  ->  zwieten ==> strillen
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  apel
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    4  ->  *
+   2:    2  ->  *t
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  sjobel
+  26:    1  ->  spreikje
+  27:    1  ->  strellen
+  28:    1  ->  vawaai
+  29:    1  ->  veten
+  30:    1  ->  veurder
+  31:    1  ->  vloender
+  32:    1  ->  vocil
+  33:    1  ->  vurpaand
+  34:    1  ->  walaan
+  35:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  de
+   2:    1  ->  eh
+   3:    1  ->  fiwon
+   4:    1  ->  gefuw
+   5:    1  ->  getel
+   6:    1  ->  grenken
+   7:    1  ->  haveel
+   8:    1  ->  hefreeuw
+   9:    1  ->  ierpiel
+  10:    1  ->  inde
+  11:    1  ->  kneuren
+  12:    1  ->  mader
+  13:    1  ->  met
+  14:    1  ->  mielen
+  15:    1  ->  milse
+  16:    1  ->  milster
+  17:    1  ->  nizoen
+  18:    1  ->  nu
+  19:    1  ->  nuzin
+  20:    1  ->  onste
+  21:    1  ->  orstauk
+  22:    1  ->  paut
+  23:    1  ->  prislo
+  24:    1  ->  sarwing
+  25:    1  ->  scha
+  26:    1  ->  schielstalg
+  27:    1  ->  sobel
+  28:    1  ->  straakje
+  29:    1  ->  strillen
+  30:    1  ->  trielsnot
+  31:    1  ->  vaway
+  32:    1  ->  verder
+  33:    1  ->  vlonder
+  34:    1  ->  voetbals
+  35:    1  ->  vorksil
+  36:    1  ->  vuurpand
+  37:    1  ->  walam
+  38:    1  ->  zeten
+  39:    1  ->  zweten
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

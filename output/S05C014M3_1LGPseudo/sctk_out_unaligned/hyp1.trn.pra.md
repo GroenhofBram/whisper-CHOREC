@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C014M3_1LGPseudo
+
+#### (S05C014M3_1LGPseudo-words)
+
+- Cor=2.4%	Sub=61.9%	Del=35.7%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | fook | sooi | dau | ant | beeg | sprunt | hool | larst | vout*(vaat) | zwoei | fam | rachts | vaap | sprieuw | keng | swoers | doer | * | plirt | jien | blard | guul | hoekt | neeuw | noork | vid | zans | leum | haans | spaai | sjalt | * | heik | sank | roen | frijk | eem | schard | grek | dron | snaaf | stuid*(stout) |
+| HYP1 | volk | oi | da | ant |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | d | efen | a | samrag | fa | jo | eno | oor | e | mnu | bea | hoe | g | uh | sem | uhmm | al | hoet | ek | sam | werk | uhm | aezak |
+| EVAL | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

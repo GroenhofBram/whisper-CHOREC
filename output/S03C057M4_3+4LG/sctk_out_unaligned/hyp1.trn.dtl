@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   90.0%   (  36)
+
+Percent Correct           =   40.0%   (  16)
+
+Percent Substitution      =   60.0%   (  24)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   30.0%   (  12)
+Percent Word Accuracy     =   10.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  52)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  afblijven ==> antje
+   2:    1  ->  autorijden ==> autoredden
+   3:    1  ->  buurmannen ==> buurman
+   4:    1  ->  dierentuin ==> badastolen
+   5:    1  ->  elastiekje ==> ded
+   6:    1  ->  fototoestel ==> vototostel
+   7:    1  ->  goeiendag ==> goeieddag
+   8:    1  ->  iedereen ==> schone
+   9:    1  ->  kabouter ==> dus
+  10:    1  ->  knutselen ==> knoetselen
+  11:    1  ->  konijnenhok ==> maken
+  12:    1  ->  limonade ==> hugonade
+  13:    1  ->  lucifer ==> licifer
+  14:    1  ->  paddenstoelen ==> aste
+  15:    1  ->  poppenwagen ==> ruzie
+  16:    1  ->  ruziemaken ==> dibeer
+  17:    1  ->  schoenenwinkel ==> winkel
+  18:    1  ->  sneeuwwitje ==> wietje
+  19:    1  ->  sprookjesboek ==> dend
+  20:    1  ->  tandenborstel ==> borstel
+  21:    1  ->  teddybeer ==> direntaan
+  22:    1  ->  verstoppertje ==> portja
+  23:    1  ->  washandje ==> ned
+  24:    1  ->  wasmachine ==> vasmachine
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  afblejven
+   2:    1  ->  dan
+   3:    1  ->  en
+   4:    1  ->  idruin
+   5:    1  ->  kabaukter
+   6:    1  ->  konijnen
+   7:    1  ->  lastiekje
+   8:    1  ->  ook
+   9:    1  ->  popen
+  10:    1  ->  sprookesboek
+  11:    1  ->  wagen
+  12:    1  ->  was
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  afblijven
+   2:    1  ->  autorijden
+   3:    1  ->  buurmannen
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  goeiendag
+   8:    1  ->  iedereen
+   9:    1  ->  kabouter
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  limonade
+  13:    1  ->  lucifer
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  sprookjesboek
+  20:    1  ->  tandenborstel
+  21:    1  ->  teddybeer
+  22:    1  ->  verstoppertje
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  antje
+   2:    1  ->  aste
+   3:    1  ->  autoredden
+   4:    1  ->  badastolen
+   5:    1  ->  borstel
+   6:    1  ->  buurman
+   7:    1  ->  ded
+   8:    1  ->  dend
+   9:    1  ->  dibeer
+  10:    1  ->  direntaan
+  11:    1  ->  dus
+  12:    1  ->  goeieddag
+  13:    1  ->  hugonade
+  14:    1  ->  knoetselen
+  15:    1  ->  licifer
+  16:    1  ->  maken
+  17:    1  ->  ned
+  18:    1  ->  portja
+  19:    1  ->  ruzie
+  20:    1  ->  schone
+  21:    1  ->  vasmachine
+  22:    1  ->  vototostel
+  23:    1  ->  wietje
+  24:    1  ->  winkel
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

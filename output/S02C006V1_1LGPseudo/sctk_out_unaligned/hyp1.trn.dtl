@@ -1,0 +1,219 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.7%   ( 148)
+
+Percent Correct           =    1.3%   (   2)
+
+Percent Substitution      =   38.0%   (  57)
+Percent Deletions         =   60.7%   (  91)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.3%
+
+
+Ref. words                =           ( 150)
+Hyp. words                =           (  59)
+Aligned words             =           ( 150)
+
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    2  ->  * ==> a
+   2:    2  ->  * ==> de
+   3:    2  ->  * ==> t
+   4:    1  ->  * ==> ad
+   5:    1  ->  * ==> ah
+   6:    1  ->  * ==> bweeg
+   7:    1  ->  * ==> d
+   8:    1  ->  * ==> dal
+   9:    1  ->  * ==> een
+  10:    1  ->  * ==> el
+  11:    1  ->  * ==> er
+  12:    1  ->  * ==> fap
+  13:    1  ->  * ==> folk
+  14:    1  ->  * ==> genktdrom
+  15:    1  ->  * ==> hap
+  16:    1  ->  * ==> hek
+  17:    1  ->  * ==> hoen
+  18:    1  ->  * ==> hom
+  19:    1  ->  * ==> is
+  20:    1  ->  * ==> ken
+  21:    1  ->  * ==> leen
+  22:    1  ->  * ==> n
+  23:    1  ->  * ==> narst
+  24:    1  ->  * ==> neel
+  25:    1  ->  * ==> s
+  26:    1  ->  * ==> ser
+  27:    1  ->  * ==> shas
+  28:    1  ->  * ==> sne
+  29:    1  ->  * ==> soi
+  30:    1  ->  * ==> sprint
+  31:    1  ->  * ==> st
+  32:    1  ->  * ==> tschilt
+  33:    1  ->  * ==> volvee?
+  34:    1  ->  * ==> vrijk
+  35:    1  ->  * ==> vroud
+  36:    1  ->  * ==> wi
+  37:    1  ->  * ==> zi
+  38:    1  ->  * ==> zien
+  39:    1  ->  * ==> zot
+  40:    1  ->  *(de) ==> d
+  41:    1  ->  *s ==> hul
+  42:    1  ->  *x ==> dat
+  43:    1  ->  blard ==> staat
+  44:    1  ->  doer ==> t
+  45:    1  ->  dron ==> sant
+  46:    1  ->  grek*(rek) ==> sai
+  47:    1  ->  guul ==> baht
+  48:    1  ->  larst ==> a
+  49:    1  ->  plirt ==> t
+  50:    1  ->  schard ==> vit
+  51:    1  ->  snaaf ==> schart
+  52:    1  ->  stuid ==> tude
+  53:    1  ->  vout ==> amt
+  54:    1  ->  zwoei ==> s
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   56  ->  *
+   2:    8  ->  *s
+   3:    2  ->  ant
+   4:    2  ->  eem
+   5:    1  ->  beeg
+   6:    1  ->  dau
+   7:    1  ->  fook
+   8:    1  ->  frijk
+   9:    1  ->  haans*(haas)
+  10:    1  ->  heik
+  11:    1  ->  hool*(hol)
+  12:    1  ->  keng
+  13:    1  ->  leum
+  14:    1  ->  neeuw
+  15:    1  ->  noork
+  16:    1  ->  rachts
+  17:    1  ->  roen
+  18:    1  ->  sank
+  19:    1  ->  sjalt
+  20:    1  ->  sooi
+  21:    1  ->  spaai
+  22:    1  ->  sprieuw*(ruw)
+  23:    1  ->  sprunt
+  24:    1  ->  swoers
+  25:    1  ->  vaap
+  26:    1  ->  vid
+  27:    1  ->  zans*(zout)
+     -------
+        91
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   42  ->  *
+   2:    1  ->  *(de)
+   3:    1  ->  *s
+   4:    1  ->  *x
+   5:    1  ->  blard
+   6:    1  ->  doer
+   7:    1  ->  dron
+   8:    1  ->  grek*(rek)
+   9:    1  ->  guul
+  10:    1  ->  larst
+  11:    1  ->  plirt
+  12:    1  ->  schard
+  13:    1  ->  snaaf
+  14:    1  ->  stuid
+  15:    1  ->  vout
+  16:    1  ->  zwoei
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    4  ->  t
+   2:    3  ->  a
+   3:    2  ->  d
+   4:    2  ->  de
+   5:    2  ->  s
+   6:    1  ->  ad
+   7:    1  ->  ah
+   8:    1  ->  amt
+   9:    1  ->  baht
+  10:    1  ->  bweeg
+  11:    1  ->  dal
+  12:    1  ->  dat
+  13:    1  ->  een
+  14:    1  ->  el
+  15:    1  ->  er
+  16:    1  ->  fap
+  17:    1  ->  folk
+  18:    1  ->  genktdrom
+  19:    1  ->  hap
+  20:    1  ->  hek
+  21:    1  ->  hoen
+  22:    1  ->  hom
+  23:    1  ->  hul
+  24:    1  ->  is
+  25:    1  ->  ken
+  26:    1  ->  leen
+  27:    1  ->  n
+  28:    1  ->  narst
+  29:    1  ->  neel
+  30:    1  ->  sai
+  31:    1  ->  sant
+  32:    1  ->  schart
+  33:    1  ->  ser
+  34:    1  ->  shas
+  35:    1  ->  sne
+  36:    1  ->  soi
+  37:    1  ->  sprint
+  38:    1  ->  st
+  39:    1  ->  staat
+  40:    1  ->  tschilt
+  41:    1  ->  tude
+  42:    1  ->  vit
+  43:    1  ->  volvee?
+  44:    1  ->  vrijk
+  45:    1  ->  vroud
+  46:    1  ->  wi
+  47:    1  ->  zi
+  48:    1  ->  zien
+  49:    1  ->  zot
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

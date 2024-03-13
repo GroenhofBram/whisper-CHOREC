@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.7%   (  45)
+
+Percent Correct           =   40.4%   (  19)
+
+Percent Substitution      =   59.6%   (  28)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   36.2%   (  17)
+Percent Word Accuracy     =    4.3%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> hieris
+   2:    1  ->  * ==> nieuw
+   3:    1  ->  * ==> nieuws
+   4:    1  ->  * ==> ta
+   5:    1  ->  * ==> winkel
+   6:    1  ->  *(cola) ==> kola
+   7:    1  ->  *(washanden) ==> snee
+   8:    1  ->  chocolade ==> cocolde
+   9:    1  ->  elastiekje*(elastiek) ==> ruzie
+  10:    1  ->  goeiendag ==> dag
+  11:    1  ->  knutselen ==> knutzulen
+  12:    1  ->  limonade ==> de
+  13:    1  ->  lucifer ==> sifer
+  14:    1  ->  nieuwsgierig ==> nee
+  15:    1  ->  olifant ==> schomv
+  16:    1  ->  paddenstoelen*(paddenstoel) ==> stoppertje
+  17:    1  ->  ruziemaken ==> maken
+  18:    1  ->  schoenenwinkel ==> ma
+  19:    1  ->  schommelen*(schommel) ==> molv
+  20:    1  ->  sneeuwwitje ==> goeien
+  21:    1  ->  tandenborstel ==> lus
+  22:    1  ->  teddybeer ==> teddibeer
+  23:    1  ->  toiletpapier ==> toilet
+  24:    1  ->  verstoppertje ==> was
+  25:    1  ->  vogelkooi ==> oliefant
+  26:    1  ->  vrachtwagen ==> papiervrachtwagen
+  27:    1  ->  washandje ==> wietje
+  28:    1  ->  wasmachine ==> machina
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  je
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  borstel
+   5:    1  ->  de
+   6:    1  ->  elastiek
+   7:    1  ->  env
+   8:    1  ->  kola
+   9:    1  ->  moet
+  10:    1  ->  na
+  11:    1  ->  orgelkooi
+  12:    1  ->  paddenstoel
+  13:    1  ->  stuen
+  14:    1  ->  tan
+  15:    1  ->  was
+  16:    1  ->  washanden
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  *
+   2:    1  ->  *(cola)
+   3:    1  ->  *(washanden)
+   4:    1  ->  chocolade
+   5:    1  ->  elastiekje*(elastiek)
+   6:    1  ->  goeiendag
+   7:    1  ->  knutselen
+   8:    1  ->  limonade
+   9:    1  ->  lucifer
+  10:    1  ->  nieuwsgierig
+  11:    1  ->  olifant
+  12:    1  ->  paddenstoelen*(paddenstoel)
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  schommelen*(schommel)
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  tandenborstel
+  18:    1  ->  teddybeer
+  19:    1  ->  toiletpapier
+  20:    1  ->  verstoppertje
+  21:    1  ->  vogelkooi
+  22:    1  ->  vrachtwagen
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  cocolde
+   2:    1  ->  dag
+   3:    1  ->  de
+   4:    1  ->  goeien
+   5:    1  ->  hieris
+   6:    1  ->  knutzulen
+   7:    1  ->  kola
+   8:    1  ->  lus
+   9:    1  ->  ma
+  10:    1  ->  machina
+  11:    1  ->  maken
+  12:    1  ->  molv
+  13:    1  ->  nee
+  14:    1  ->  nieuw
+  15:    1  ->  nieuws
+  16:    1  ->  oliefant
+  17:    1  ->  papiervrachtwagen
+  18:    1  ->  ruzie
+  19:    1  ->  schomv
+  20:    1  ->  sifer
+  21:    1  ->  snee
+  22:    1  ->  stoppertje
+  23:    1  ->  ta
+  24:    1  ->  teddibeer
+  25:    1  ->  toilet
+  26:    1  ->  was
+  27:    1  ->  wietje
+  28:    1  ->  winkel
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

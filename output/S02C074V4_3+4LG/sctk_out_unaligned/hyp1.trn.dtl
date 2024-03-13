@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.2%   (  22)
+
+Percent Correct           =   60.5%   (  26)
+
+Percent Substitution      =   37.2%   (  16)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =   11.6%   (   5)
+Percent Word Accuracy     =   48.8%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  47)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> konijnenhook
+   2:    1  ->  * ==> schommel
+   3:    1  ->  chocolade ==> sokeladen
+   4:    1  ->  elastiekje ==> ruzie
+   5:    1  ->  konijnenhok ==> lastiekje
+   6:    1  ->  limonade ==> dimonade
+   7:    1  ->  lucifer*(lucifers) ==> jucivers
+   8:    1  ->  paddenstoelen ==> paddestoelen
+   9:    1  ->  poppenwagen ==> qe
+  10:    1  ->  ruziemaken ==> maken
+  11:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoenwinkel
+  12:    1  ->  schommelen ==> em
+  13:    1  ->  sneeuwwitje ==> sneeuwitje
+  14:    1  ->  tandenborstel ==> borstel
+  15:    1  ->  teddybeer ==> taddibeer
+  16:    1  ->  toiletpapier ==> papier
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  poepenwagen
+   2:    1  ->  roilet
+   3:    1  ->  scha
+   4:    1  ->  t
+   5:    1  ->  tande
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  *
+   2:    1  ->  chocolade
+   3:    1  ->  elastiekje
+   4:    1  ->  konijnenhok
+   5:    1  ->  limonade
+   6:    1  ->  lucifer*(lucifers)
+   7:    1  ->  paddenstoelen
+   8:    1  ->  poppenwagen
+   9:    1  ->  ruziemaken
+  10:    1  ->  schoenenwinkel*(schoenwinkel)
+  11:    1  ->  schommelen
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  tandenborstel
+  14:    1  ->  teddybeer
+  15:    1  ->  toiletpapier
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  borstel
+   2:    1  ->  dimonade
+   3:    1  ->  em
+   4:    1  ->  jucivers
+   5:    1  ->  konijnenhook
+   6:    1  ->  lastiekje
+   7:    1  ->  maken
+   8:    1  ->  paddestoelen
+   9:    1  ->  papier
+  10:    1  ->  qe
+  11:    1  ->  ruzie
+  12:    1  ->  schoenwinkel
+  13:    1  ->  schommel
+  14:    1  ->  sneeuwitje
+  15:    1  ->  sokeladen
+  16:    1  ->  taddibeer
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

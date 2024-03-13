@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C037M8_2LG
+
+#### (S07C037M8_2LG-words)
+
+- Cor=49.0%	Sub=49.0%	Del=2.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien | * | * | moeder | * | liedje | potlood | fietsbel | *(vingen) | vinger | * | * | *(dichterbij) | meisje | chauffeur | muziek | waarom | * | * | lawaai | zwemmen | * | vuurwerk | appel | cola | kussen | eerste | * | * | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | mevrouw | drogen | winkel | auto | schuiders | verhaal | koningv | moluik | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | goien | sniw | en | moder | dide | lietje | potlood | fitsbul | vingern | vinger |  | dochter | dichterbij | mese | chauffeur | muziek | waarom | s | schuver | awi | sdanenv | voa | vuurwerk | appel | cole | issen | eerste | so | sirka | surcus | kleuren | voetbal | vlinder |
+| EVAL |  |  |  |  |  | S |  | S | S |  |  |  |  |  |  |  | S | S | S | S | S | S |  | S | S |  | D | S | S | S |  |  |  | S | S | S | S | S |  |  | S | S |  | S | S | S |  |  |  |
+---
+
+---

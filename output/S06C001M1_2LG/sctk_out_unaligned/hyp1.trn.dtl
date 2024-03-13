@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.1%   (  32)
+
+Percent Correct           =   42.6%   (  20)
+
+Percent Substitution      =   48.9%   (  23)
+Percent Deletions         =    8.5%   (   4)
+Percent Insertions        =   10.6%   (   5)
+Percent Word Accuracy     =   31.9%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  48)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> f
+   2:    1  ->  * ==> sokal
+   3:    1  ->  *(schouder) ==> sschouder
+   4:    1  ->  *(vlieg) ==> flee
+   5:    1  ->  *s ==> cirkes
+   6:    1  ->  *t ==> u
+   7:    1  ->  chauffeur ==> kafor
+   8:    1  ->  dichtbij*(dichterbij) ==> dichterbij
+   9:    1  ->  fietsbel ==> win
+  10:    1  ->  gooien*(groeien) ==> gooien
+  11:    1  ->  kleuren ==> kluigen
+  12:    1  ->  kussen ==> labussen
+  13:    1  ->  liedje ==> fiets
+  14:    1  ->  meisje ==> meisjel
+  15:    1  ->  potlood ==> bel
+  16:    1  ->  scheuren ==> skeeren
+  17:    1  ->  schouders ==> schauwders
+  18:    1  ->  sneeuwen ==> snieuwen
+  19:    1  ->  stoppen ==> vliegtuigstoppen
+  20:    1  ->  verhaal ==> voorhaal
+  21:    1  ->  vinger ==> ger
+  22:    1  ->  vliegtuig ==> rijgen
+  23:    1  ->  vlinder ==> tuh
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  cirkes
+   2:    1  ->  flee
+   3:    1  ->  j
+   4:    1  ->  leet
+   5:    1  ->  potloot
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  cola
+   3:    1  ->  regen
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  *
+   2:    1  ->  *(schouder)
+   3:    1  ->  *(vlieg)
+   4:    1  ->  *s
+   5:    1  ->  *t
+   6:    1  ->  chauffeur
+   7:    1  ->  dichtbij*(dichterbij)
+   8:    1  ->  fietsbel
+   9:    1  ->  gooien*(groeien)
+  10:    1  ->  kleuren
+  11:    1  ->  kussen
+  12:    1  ->  liedje
+  13:    1  ->  meisje
+  14:    1  ->  potlood
+  15:    1  ->  scheuren
+  16:    1  ->  schouders
+  17:    1  ->  sneeuwen
+  18:    1  ->  stoppen
+  19:    1  ->  verhaal
+  20:    1  ->  vinger
+  21:    1  ->  vliegtuig
+  22:    1  ->  vlinder
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  bel
+   2:    1  ->  cirkes
+   3:    1  ->  dichterbij
+   4:    1  ->  f
+   5:    1  ->  fiets
+   6:    1  ->  flee
+   7:    1  ->  ger
+   8:    1  ->  gooien
+   9:    1  ->  kafor
+  10:    1  ->  kluigen
+  11:    1  ->  labussen
+  12:    1  ->  meisjel
+  13:    1  ->  rijgen
+  14:    1  ->  schauwders
+  15:    1  ->  skeeren
+  16:    1  ->  snieuwen
+  17:    1  ->  sokal
+  18:    1  ->  sschouder
+  19:    1  ->  tuh
+  20:    1  ->  u
+  21:    1  ->  vliegtuigstoppen
+  22:    1  ->  voorhaal
+  23:    1  ->  win
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

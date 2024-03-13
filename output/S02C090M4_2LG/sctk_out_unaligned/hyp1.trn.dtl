@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.5%   (  17)
+
+Percent Correct           =   58.5%   (  24)
+
+Percent Substitution      =   31.7%   (  13)
+Percent Deletions         =    9.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  37)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> meice
+   2:    1  ->  * ==> shaupchauffeur
+   3:    1  ->  fietsbel ==> vesbel
+   4:    1  ->  hoofdpijn ==> hoofdpen
+   5:    1  ->  kussen ==> cusen
+   6:    1  ->  liedje ==> litia
+   7:    1  ->  moeilijk ==> molluk
+   8:    1  ->  potlood ==> potlod
+   9:    1  ->  regen ==> reggen
+  10:    1  ->  schouders ==> winkelautoschouders
+  11:    1  ->  vlinder ==> voetbalvleender
+  12:    1  ->  voetbal ==> cleuren
+  13:    1  ->  vuurwerk ==> zerwerk
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  auto
+   2:    1  ->  kleuren
+   3:    1  ->  meisje
+   4:    1  ->  winkel
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  *
+   2:    1  ->  fietsbel
+   3:    1  ->  hoofdpijn
+   4:    1  ->  kussen
+   5:    1  ->  liedje
+   6:    1  ->  moeilijk
+   7:    1  ->  potlood
+   8:    1  ->  regen
+   9:    1  ->  schouders
+  10:    1  ->  vlinder
+  11:    1  ->  voetbal
+  12:    1  ->  vuurwerk
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  cleuren
+   2:    1  ->  cusen
+   3:    1  ->  hoofdpen
+   4:    1  ->  litia
+   5:    1  ->  meice
+   6:    1  ->  molluk
+   7:    1  ->  potlod
+   8:    1  ->  reggen
+   9:    1  ->  shaupchauffeur
+  10:    1  ->  vesbel
+  11:    1  ->  voetbalvleender
+  12:    1  ->  winkelautoschouders
+  13:    1  ->  zerwerk
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   75.5%   (  37)
+
+Percent Correct           =   24.5%   (  12)
+
+Percent Substitution      =   57.1%   (  28)
+Percent Deletions         =   18.4%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   24.5%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  40)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *(schaal) ==> fn
+   2:    1  ->  *s ==> mart
+   3:    1  ->  *s ==> nie
+   4:    1  ->  *s ==> ternd
+   5:    1  ->  *s ==> vliegen
+   6:    1  ->  *t ==> sja
+   7:    1  ->  bang ==> t
+   8:    1  ->  bed ==> wit
+   9:    1  ->  chips ==> schip
+  10:    1  ->  clown ==> loi
+  11:    1  ->  duur ==> gduur
+  12:    1  ->  eerst*(eerste) ==> eerste
+  13:    1  ->  gauw ==> vaal
+  14:    1  ->  groei ==> maar
+  15:    1  ->  groen ==> groei
+  16:    1  ->  hout*(huid) ==> hut
+  17:    1  ->  klas ==> plas
+  18:    1  ->  krant ==> hamt
+  19:    1  ->  neus ==> las
+  20:    1  ->  paard ==> aht
+  21:    1  ->  paard ==> t
+  22:    1  ->  plas ==> soe
+  23:    1  ->  reis ==> vees
+  24:    1  ->  schoen ==> zah
+  25:    1  ->  sjaal ==> g
+  26:    1  ->  straat ==> skaart
+  27:    1  ->  strand ==> roe
+  28:    1  ->  zacht ==> dieniet
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  *s
+   2:    1  ->  *
+   3:    1  ->  arm*(maar)
+   4:    1  ->  huis
+   5:    1  ->  kind
+   6:    1  ->  muts
+   7:    1  ->  nieuw
+   8:    1  ->  plank
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  *s
+   2:    2  ->  paard
+   3:    1  ->  *(schaal)
+   4:    1  ->  *t
+   5:    1  ->  bang
+   6:    1  ->  bed
+   7:    1  ->  chips
+   8:    1  ->  clown
+   9:    1  ->  duur
+  10:    1  ->  eerst*(eerste)
+  11:    1  ->  gauw
+  12:    1  ->  groei
+  13:    1  ->  groen
+  14:    1  ->  hout*(huid)
+  15:    1  ->  klas
+  16:    1  ->  krant
+  17:    1  ->  neus
+  18:    1  ->  plas
+  19:    1  ->  reis
+  20:    1  ->  schoen
+  21:    1  ->  sjaal
+  22:    1  ->  straat
+  23:    1  ->  strand
+  24:    1  ->  zacht
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  t
+   2:    1  ->  aht
+   3:    1  ->  dieniet
+   4:    1  ->  eerste
+   5:    1  ->  fn
+   6:    1  ->  g
+   7:    1  ->  gduur
+   8:    1  ->  groei
+   9:    1  ->  hamt
+  10:    1  ->  hut
+  11:    1  ->  las
+  12:    1  ->  loi
+  13:    1  ->  maar
+  14:    1  ->  mart
+  15:    1  ->  nie
+  16:    1  ->  plas
+  17:    1  ->  roe
+  18:    1  ->  schip
+  19:    1  ->  sja
+  20:    1  ->  skaart
+  21:    1  ->  soe
+  22:    1  ->  ternd
+  23:    1  ->  vaal
+  24:    1  ->  vees
+  25:    1  ->  vliegen
+  26:    1  ->  wit
+  27:    1  ->  zah
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

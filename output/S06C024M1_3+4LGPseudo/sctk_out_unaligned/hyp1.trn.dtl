@@ -1,0 +1,260 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  183.0%   (  97)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  53)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   83.0%   (  44)
+Percent Word Accuracy     =  -83.0%
+
+
+Ref. words                =           (  53)
+Hyp. words                =           (  97)
+Aligned words             =           (  97)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    1  ->  * ==> bermut
+   2:    1  ->  * ==> bra
+   3:    1  ->  * ==> cho
+   4:    1  ->  * ==> duf
+   5:    1  ->  * ==> ga
+   6:    1  ->  * ==> gerdf
+   7:    1  ->  * ==> lohsdingen
+   8:    1  ->  * ==> puntal
+   9:    1  ->  * ==> schouden
+  10:    1  ->  * ==> smaale
+  11:    1  ->  * ==> to
+  12:    1  ->  * ==> tob
+  13:    1  ->  * ==> vak
+  14:    1  ->  blottenduuf ==> der
+  15:    1  ->  choporatie ==> taduif
+  16:    1  ->  crobeklunker ==> terok
+  17:    1  ->  deuveltek ==> h
+  18:    1  ->  fandelig ==> po
+  19:    1  ->  gerauwejaak ==> ja
+  20:    1  ->  gevijdel ==> kan
+  21:    1  ->  girdofhaalder ==> ha
+  22:    1  ->  hapeneren ==> peneren
+  23:    1  ->  havedil ==> gewela
+  24:    1  ->  ijraspangen ==> aer
+  25:    1  ->  jalekrewen ==> ati
+  26:    1  ->  jattesiet ==> grwen
+  27:    1  ->  juitonie ==> ge
+  28:    1  ->  kabbestepen ==> canlet
+  29:    1  ->  kanaroe ==> a
+  30:    1  ->  kantelogsten ==> en
+  31:    1  ->  mantaroen ==> een
+  32:    1  ->  meitsegrok ==> peng
+  33:    1  ->  nappegreeuw ==> nes
+  34:    1  ->  nurudien ==> zeke
+  35:    1  ->  ometuif ==> jug
+  36:    1  ->  ondermind ==> blot
+  37:    1  ->  ooiebiekje ==> puro
+  38:    1  ->  oonwijlen ==> lek
+  39:    1  ->  poentalschouden ==> brakentje
+  40:    1  ->  schielendaspen ==> me
+  41:    1  ->  sidowaan ==> naar
+  42:    1  ->  smoralij ==> zan
+  43:    1  ->  spekkeraai ==> h
+  44:    1  ->  stoenydaas ==> v
+  45:    1  ->  tobbermoeit ==> vejd
+  46:    1  ->  toejietsen ==> yal
+  47:    1  ->  toineetlijgen ==> ers
+  48:    1  ->  verbrakkertje ==> jak
+  49:    1  ->  verpierik ==> en
+  50:    1  ->  verwarig ==> ondergaend
+  51:    1  ->  wachteniek ==> to
+  52:    1  ->  zeekvlachine ==> ne
+  53:    1  ->  zennebral ==> gee
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  je
+   2:    1  ->  a
+   3:    1  ->  bek
+   4:    1  ->  best
+   5:    1  ->  da
+   6:    1  ->  daspan
+   7:    1  ->  dasv
+   8:    1  ->  den
+   9:    1  ->  gesiet
+  10:    1  ->  geveide
+  11:    1  ->  jagtinnik
+  12:    1  ->  jead
+  13:    1  ->  kab
+  14:    1  ->  kra
+  15:    1  ->  kro
+  16:    1  ->  lus
+  17:    1  ->  manduf
+  18:    1  ->  mannaun
+  19:    1  ->  na
+  20:    1  ->  naar
+  21:    1  ->  ner
+  22:    1  ->  o
+  23:    1  ->  of
+  24:    1  ->  oibek
+  25:    1  ->  om
+  26:    1  ->  pe
+  27:    1  ->  pik
+  28:    1  ->  rou
+  29:    1  ->  schelan
+  30:    1  ->  sgidoan
+  31:    1  ->  spe
+  32:    1  ->  ston
+  33:    1  ->  tajijdinsen
+  34:    1  ->  tek
+  35:    1  ->  tonni
+  36:    1  ->  tupen
+  37:    1  ->  uh
+  38:    1  ->  vandil
+  39:    1  ->  vegwalher
+  40:    1  ->  vel
+  41:    1  ->  vr
+  42:    1  ->  weijlen
+  43:    1  ->  yo
+     -------
+        44
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:   13  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  poentalschouden
+  28:    1  ->  schielendaspen
+  29:    1  ->  sidowaan
+  30:    1  ->  smoralij
+  31:    1  ->  spekkeraai
+  32:    1  ->  stoenydaas
+  33:    1  ->  tobbermoeit
+  34:    1  ->  toejietsen
+  35:    1  ->  toineetlijgen
+  36:    1  ->  verbrakkertje
+  37:    1  ->  verpierik
+  38:    1  ->  verwarig
+  39:    1  ->  wachteniek
+  40:    1  ->  zeekvlachine
+  41:    1  ->  zennebral
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  en
+   2:    2  ->  h
+   3:    2  ->  to
+   4:    1  ->  a
+   5:    1  ->  aer
+   6:    1  ->  ati
+   7:    1  ->  bermut
+   8:    1  ->  blot
+   9:    1  ->  bra
+  10:    1  ->  brakentje
+  11:    1  ->  canlet
+  12:    1  ->  cho
+  13:    1  ->  der
+  14:    1  ->  duf
+  15:    1  ->  een
+  16:    1  ->  ers
+  17:    1  ->  ga
+  18:    1  ->  ge
+  19:    1  ->  gee
+  20:    1  ->  gerdf
+  21:    1  ->  gewela
+  22:    1  ->  grwen
+  23:    1  ->  ha
+  24:    1  ->  ja
+  25:    1  ->  jak
+  26:    1  ->  jug
+  27:    1  ->  kan
+  28:    1  ->  lek
+  29:    1  ->  lohsdingen
+  30:    1  ->  me
+  31:    1  ->  naar
+  32:    1  ->  ne
+  33:    1  ->  nes
+  34:    1  ->  ondergaend
+  35:    1  ->  peneren
+  36:    1  ->  peng
+  37:    1  ->  po
+  38:    1  ->  puntal
+  39:    1  ->  puro
+  40:    1  ->  schouden
+  41:    1  ->  smaale
+  42:    1  ->  taduif
+  43:    1  ->  terok
+  44:    1  ->  tob
+  45:    1  ->  v
+  46:    1  ->  vak
+  47:    1  ->  vejd
+  48:    1  ->  yal
+  49:    1  ->  zan
+  50:    1  ->  zeke
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

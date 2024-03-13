@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.5%   (  17)
+
+Percent Correct           =   58.5%   (  24)
+
+Percent Substitution      =   41.5%   (  17)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *(groep) ==> groep
+   2:    1  ->  bang ==> pin
+   3:    1  ->  bed ==> bit
+   4:    1  ->  clown ==> kluwn
+   5:    1  ->  draai ==> traai
+   6:    1  ->  gauw ==> gouw
+   7:    1  ->  huis ==> hes
+   8:    1  ->  koe ==> hoe
+   9:    1  ->  neus ==> ders
+  10:    1  ->  oog ==> och
+  11:    1  ->  paard ==> paart
+  12:    1  ->  reis ==> res
+  13:    1  ->  schoen ==> schoon
+  14:    1  ->  sjaal ==> sial
+  15:    1  ->  strand ==> trand
+  16:    1  ->  vijf ==> ff
+  17:    1  ->  zacht ==> zegt
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *(groep)
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  gauw
+   7:    1  ->  huis
+   8:    1  ->  koe
+   9:    1  ->  neus
+  10:    1  ->  oog
+  11:    1  ->  paard
+  12:    1  ->  reis
+  13:    1  ->  schoen
+  14:    1  ->  sjaal
+  15:    1  ->  strand
+  16:    1  ->  vijf
+  17:    1  ->  zacht
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bit
+   2:    1  ->  ders
+   3:    1  ->  ff
+   4:    1  ->  gouw
+   5:    1  ->  groep
+   6:    1  ->  hes
+   7:    1  ->  hoe
+   8:    1  ->  kluwn
+   9:    1  ->  och
+  10:    1  ->  paart
+  11:    1  ->  pin
+  12:    1  ->  res
+  13:    1  ->  schoon
+  14:    1  ->  sial
+  15:    1  ->  traai
+  16:    1  ->  trand
+  17:    1  ->  zegt
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

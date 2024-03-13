@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.4%   (  10)
+
+Percent Correct           =   75.6%   (  31)
+
+Percent Substitution      =   22.0%   (   9)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.6%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  cola ==> kola
+   2:    1  ->  drogen ==> trogen
+   3:    1  ->  fietsbel ==> vietsbel
+   4:    1  ->  lawaai ==> wawaai
+   5:    1  ->  liedje ==> vliedje
+   6:    1  ->  mevrouw ==> mevroal
+   7:    1  ->  speelplaats ==> speelplaat
+   8:    1  ->  vlinder ==> vlienden
+   9:    1  ->  water ==> watter
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  cola
+   2:    1  ->  drogen
+   3:    1  ->  fietsbel
+   4:    1  ->  lawaai
+   5:    1  ->  liedje
+   6:    1  ->  mevrouw
+   7:    1  ->  speelplaats
+   8:    1  ->  vlinder
+   9:    1  ->  water
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  kola
+   2:    1  ->  mevroal
+   3:    1  ->  speelplaat
+   4:    1  ->  trogen
+   5:    1  ->  vietsbel
+   6:    1  ->  vliedje
+   7:    1  ->  vlienden
+   8:    1  ->  watter
+   9:    1  ->  wawaai
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

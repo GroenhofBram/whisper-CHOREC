@@ -1,0 +1,281 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S03C045V3_2LGPseudo": {
+   "(S03C045V3_2LGPseudo-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S03C045V3_2LGPseudo",
+    "sentence_id": "(S03C045V3_2LGPseudo-words)",
+    "sequence": 0,
+    "word_count": 53,
+    "words": [
+     {
+      "eval_label": "S",
+      "ref": "millen",
+      "hyp": "milen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vocil",
+      "hyp": "vokil"
+     },
+     {
+      "eval_label": "S",
+      "ref": "geutel",
+      "hyp": "getel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sjobel",
+      "hyp": "ciopel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "erbi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ierpieuw",
+      "hyp": "welo"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "wen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "walaan",
+      "hyp": "eeik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "erke",
+      "hyp": "ge"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "wal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "haweel",
+      "hyp": "wel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "saarweng",
+      "hyp": "so"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "weng"
+     },
+     {
+      "eval_label": "C",
+      "ref": "gevicht",
+      "hyp": "gevicht"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "einda"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "bedot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eemde",
+      "hyp": "os"
+     },
+     {
+      "eval_label": "S",
+      "ref": "bepoud",
+      "hyp": "dok"
+     },
+     {
+      "eval_label": "S",
+      "ref": "orstalk",
+      "hyp": "fetten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "veten*(vetten)",
+      "hyp": "go"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gefouw",
+      "hyp": "fel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vurpaand",
+      "hyp": "ferbent"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nizung",
+      "hyp": "nie"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fiewon",
+      "hyp": "senven"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kneurem",
+      "hyp": "knern"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vawaai",
+      "hyp": "vawe"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "stre"
+     },
+     {
+      "eval_label": "S",
+      "ref": "strellen",
+      "hyp": "strallen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwieten",
+      "hyp": "ze"
+     },
+     {
+      "eval_label": "S",
+      "ref": "foetbans",
+      "hyp": "hetenfout"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dans"
+     },
+     {
+      "eval_label": "S",
+      "ref": "oonste",
+      "hyp": "ososte"
+     },
+     {
+      "eval_label": "S",
+      "ref": "muider",
+      "hyp": "mede"
+     },
+     {
+      "eval_label": "S",
+      "ref": "grijnken",
+      "hyp": "grenken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schielstaug",
+      "hyp": "schielstej"
+     },
+     {
+      "eval_label": "S",
+      "ref": "prilsood",
+      "hyp": "rilsa"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "sort"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "flon"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vloender",
+      "hyp": "flod"
+     },
+     {
+      "eval_label": "S",
+      "ref": "milste",
+      "hyp": "melsta"
+     },
+     {
+      "eval_label": "S",
+      "ref": "veurder",
+      "hyp": "frda"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kloeien",
+      "hyp": "oen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ulen",
+      "hyp": "on"
+     },
+     {
+      "eval_label": "S",
+      "ref": "orponk",
+      "hyp": "orbunk"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schodig",
+      "hyp": "schuitig"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "geschoten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ijpo",
+      "hyp": "eppel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "menuur",
+      "hyp": "menur"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "sspreke"
+     },
+     {
+      "eval_label": "S",
+      "ref": "spreikje",
+      "hyp": "ife"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "f"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hiffreeuw",
+      "hyp": "re"
+     },
+     {
+      "eval_label": "S",
+      "ref": "wooien",
+      "hyp": "woen"
+     }
+    ]
+   }
+  }
+ }
+}

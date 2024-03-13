@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.3%   (  48)
+
+Percent Correct           =   32.6%   (  15)
+
+Percent Substitution      =   65.2%   (  30)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   37.0%   (  17)
+Percent Word Accuracy     =   -4.3%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  62)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> fototostil
+   2:    1  ->  * ==> ieuw
+   3:    1  ->  * ==> lucifer
+   4:    1  ->  * ==> nieuwschrijven
+   5:    1  ->  * ==> nieuwsgrit
+   6:    1  ->  * ==> sneewic
+   7:    1  ->  *x ==> lucfa
+   8:    1  ->  achterdeur ==> nieuw
+   9:    1  ->  buurmannen ==> buurmanen
+  10:    1  ->  dierentuin ==> voorstoppertje
+  11:    1  ->  elastiekje ==> tijn
+  12:    1  ->  fototoestel ==> papier
+  13:    1  ->  kabouter ==> kableen
+  14:    1  ->  knutselen ==> zullen
+  15:    1  ->  konijnenhok*(konijnhok) ==> ren
+  16:    1  ->  olifant ==> olifand
+  17:    1  ->  paddenstoelen ==> pasmar
+  18:    1  ->  poppenwagen ==> die
+  19:    1  ->  ruziemaken ==> patden
+  20:    1  ->  schoenenwinkel*(schoenwinkel) ==> genit
+  21:    1  ->  schommelen ==> schommanen
+  22:    1  ->  sneeuwwitje ==> washangsje
+  23:    1  ->  tandenborstel ==> nie
+  24:    1  ->  teddybeer ==> stoelen
+  25:    1  ->  toiletpapier ==> vracgtwagen
+  26:    1  ->  verstoppertje ==> chin
+  27:    1  ->  vrachtwagen ==> h
+  28:    1  ->  washandje ==> kabaute
+  29:    1  ->  wasmachine ==> twaruit
+  30:    1  ->  ziekenhuis ==> schri
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  acterdurziekenhuis
+   2:    1  ->  dat
+   3:    1  ->  die
+   4:    1  ->  hook
+   5:    1  ->  ik
+   6:    1  ->  kan
+   7:    1  ->  konijnen
+   8:    1  ->  lastiekje
+   9:    1  ->  ll
+  10:    1  ->  maken
+  11:    1  ->  popwagen
+  12:    1  ->  ruzie
+  13:    1  ->  schoen
+  14:    1  ->  tandenborsten
+  15:    1  ->  ted
+  16:    1  ->  weer
+  17:    1  ->  winkel
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  afblijven
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    6  ->  *
+   2:    1  ->  *x
+   3:    1  ->  achterdeur
+   4:    1  ->  buurmannen
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  kabouter
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok*(konijnhok)
+  11:    1  ->  olifant
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel*(schoenwinkel)
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verstoppertje
+  22:    1  ->  vrachtwagen
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+  25:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  buurmanen
+   2:    1  ->  chin
+   3:    1  ->  die
+   4:    1  ->  fototostil
+   5:    1  ->  genit
+   6:    1  ->  h
+   7:    1  ->  ieuw
+   8:    1  ->  kabaute
+   9:    1  ->  kableen
+  10:    1  ->  lucfa
+  11:    1  ->  lucifer
+  12:    1  ->  nie
+  13:    1  ->  nieuw
+  14:    1  ->  nieuwschrijven
+  15:    1  ->  nieuwsgrit
+  16:    1  ->  olifand
+  17:    1  ->  papier
+  18:    1  ->  pasmar
+  19:    1  ->  patden
+  20:    1  ->  ren
+  21:    1  ->  schommanen
+  22:    1  ->  schri
+  23:    1  ->  sneewic
+  24:    1  ->  stoelen
+  25:    1  ->  tijn
+  26:    1  ->  twaruit
+  27:    1  ->  voorstoppertje
+  28:    1  ->  vracgtwagen
+  29:    1  ->  washangsje
+  30:    1  ->  zullen
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

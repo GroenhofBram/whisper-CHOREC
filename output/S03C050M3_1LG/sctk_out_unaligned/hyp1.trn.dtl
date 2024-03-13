@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.9%   (  18)
+
+Percent Correct           =   58.1%   (  25)
+
+Percent Substitution      =   37.2%   (  16)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.1%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  41)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> hif
+   2:    1  ->  * ==> schips
+   3:    1  ->  *(saai) ==> slaisiv
+   4:    1  ->  bang ==> paen
+   5:    1  ->  bed ==> ded
+   6:    1  ->  chips ==> gal
+   7:    1  ->  clown ==> klauwen
+   8:    1  ->  hoek ==> hook
+   9:    1  ->  huis ==> has
+  10:    1  ->  muts ==> mnuuts
+  11:    1  ->  neus ==> nuis
+  12:    1  ->  oog ==> och
+  13:    1  ->  paard ==> paart
+  14:    1  ->  plank ==> plang
+  15:    1  ->  schoen ==> schoon
+  16:    1  ->  zacht ==> zecht
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  gauw
+   2:    1  ->  sjaal
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  *
+   2:    1  ->  *(saai)
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips
+   6:    1  ->  clown
+   7:    1  ->  hoek
+   8:    1  ->  huis
+   9:    1  ->  muts
+  10:    1  ->  neus
+  11:    1  ->  oog
+  12:    1  ->  paard
+  13:    1  ->  plank
+  14:    1  ->  schoen
+  15:    1  ->  zacht
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ded
+   2:    1  ->  gal
+   3:    1  ->  has
+   4:    1  ->  hif
+   5:    1  ->  hook
+   6:    1  ->  klauwen
+   7:    1  ->  mnuuts
+   8:    1  ->  nuis
+   9:    1  ->  och
+  10:    1  ->  paart
+  11:    1  ->  paen
+  12:    1  ->  plang
+  13:    1  ->  schips
+  14:    1  ->  schoon
+  15:    1  ->  slaisiv
+  16:    1  ->  zecht
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

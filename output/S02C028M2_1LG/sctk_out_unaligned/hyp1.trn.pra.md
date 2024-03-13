@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C028M2_1LG
+
+#### (S02C028M2_1LG-words)
+
+- Cor=65.0%	Sub=35.0%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips*(schip) | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | groei | strand | met | eerst | voor | trei | siel | herfst | duur | straat | leo | klau | hoek | krant | hout | vreemd | gauw | schip | groen | feest | rejs | jas | vus | prt | vf | mut | nieuw | kind | bang | oog | zacht | schoen | plas | kneus | knoop | plaa |
+| EVAL |  |  |  |  |  |  | S |  |  | S | S |  |  |  | S | S |  |  |  | S |  | S |  |  | S |  | S | S | S | S |  |  |  |  |  |  |  | S |  | S |
+---
+
+---

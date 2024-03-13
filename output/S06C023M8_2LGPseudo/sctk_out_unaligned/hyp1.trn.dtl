@@ -1,0 +1,232 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.4%   (  63)
+
+Percent Correct           =    1.6%   (   1)
+
+Percent Substitution      =   95.3%   (  61)
+Percent Deletions         =    3.1%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.6%
+
+
+Ref. words                =           (  64)
+Hyp. words                =           (  62)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    1  ->  * ==> anlan
+   2:    1  ->  * ==> eer
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> epo
+   5:    1  ->  * ==> frawai
+   6:    1  ->  * ==> ge
+   7:    1  ->  * ==> geel
+   8:    1  ->  * ==> gef
+   9:    1  ->  * ==> ilsuid
+  10:    1  ->  * ==> len
+  11:    1  ->  * ==> loen
+  12:    1  ->  * ==> nst
+  13:    1  ->  * ==> onste
+  14:    1  ->  * ==> pel
+  15:    1  ->  * ==> po
+  16:    1  ->  * ==> scholtig
+  17:    1  ->  * ==> schuldig
+  18:    1  ->  * ==> sder
+  19:    1  ->  * ==> u
+  20:    1  ->  * ==> ullen
+  21:    1  ->  * ==> van
+  22:    1  ->  *s ==> genk
+  23:    1  ->  *s ==> t
+  24:    1  ->  *s ==> tel
+  25:    1  ->  *s ==> veur
+  26:    1  ->  bepoud ==> in
+  27:    1  ->  eemde ==> sar
+  28:    1  ->  erke ==> wal
+  29:    1  ->  fiewon ==> ou
+  30:    1  ->  foetbans ==> e
+  31:    1  ->  gefouw ==> ud
+  32:    1  ->  geutel ==> vovogil
+  33:    1  ->  gevicht ==> hauweel
+  34:    1  ->  grijnken ==> voetbans
+  35:    1  ->  haweel ==> rek
+  36:    1  ->  hiffreeuw ==> hifre
+  37:    1  ->  ierpieuw ==> a
+  38:    1  ->  ijpo ==> hoorspronk
+  39:    1  ->  kloeien ==> wil
+  40:    1  ->  kneurem ==> band
+  41:    1  ->  menuur ==> gep
+  42:    1  ->  milste ==> brulsoot
+  43:    1  ->  muider ==> sweten
+  44:    1  ->  nizung ==> vent
+  45:    1  ->  oonste ==> nern
+  46:    1  ->  orponk ==> ver
+  47:    1  ->  orstalk ==> t
+  48:    1  ->  saarweng ==> ku
+  49:    1  ->  schielstaug ==> madar
+  50:    1  ->  sjobel ==> ge
+  51:    1  ->  spreikje ==> u
+  52:    1  ->  strellen ==> sin
+  53:    1  ->  ulen ==> star
+  54:    1  ->  vawaai ==> die
+  55:    1  ->  veten ==> ende
+  56:    1  ->  veurder ==> odag
+  57:    1  ->  vloender ==> tuig
+  58:    1  ->  vurpaand ==> orsdalk
+  59:    1  ->  walaan ==> peel
+  60:    1  ->  wooien ==> hooien
+  61:    1  ->  zwieten ==> fee
+     -------
+        61
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  vocil
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   21  ->  *
+   2:    4  ->  *s
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  foetbans
+   8:    1  ->  gefouw
+   9:    1  ->  geutel
+  10:    1  ->  gevicht
+  11:    1  ->  grijnken
+  12:    1  ->  haweel
+  13:    1  ->  hiffreeuw
+  14:    1  ->  ierpieuw
+  15:    1  ->  ijpo
+  16:    1  ->  kloeien
+  17:    1  ->  kneurem
+  18:    1  ->  menuur
+  19:    1  ->  milste
+  20:    1  ->  muider
+  21:    1  ->  nizung
+  22:    1  ->  oonste
+  23:    1  ->  orponk
+  24:    1  ->  orstalk
+  25:    1  ->  saarweng
+  26:    1  ->  schielstaug
+  27:    1  ->  sjobel
+  28:    1  ->  spreikje
+  29:    1  ->  strellen
+  30:    1  ->  ulen
+  31:    1  ->  vawaai
+  32:    1  ->  veten
+  33:    1  ->  veurder
+  34:    1  ->  vloender
+  35:    1  ->  vurpaand
+  36:    1  ->  walaan
+  37:    1  ->  wooien
+  38:    1  ->  zwieten
+     -------
+        61
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    2  ->  ge
+   2:    2  ->  t
+   3:    2  ->  u
+   4:    1  ->  a
+   5:    1  ->  anlan
+   6:    1  ->  band
+   7:    1  ->  brulsoot
+   8:    1  ->  die
+   9:    1  ->  e
+  10:    1  ->  eer
+  11:    1  ->  en
+  12:    1  ->  ende
+  13:    1  ->  epo
+  14:    1  ->  fee
+  15:    1  ->  frawai
+  16:    1  ->  geel
+  17:    1  ->  gef
+  18:    1  ->  genk
+  19:    1  ->  gep
+  20:    1  ->  hauweel
+  21:    1  ->  hifre
+  22:    1  ->  hooien
+  23:    1  ->  hoorspronk
+  24:    1  ->  ilsuid
+  25:    1  ->  in
+  26:    1  ->  ku
+  27:    1  ->  len
+  28:    1  ->  loen
+  29:    1  ->  madar
+  30:    1  ->  nern
+  31:    1  ->  nst
+  32:    1  ->  odag
+  33:    1  ->  onste
+  34:    1  ->  orsdalk
+  35:    1  ->  ou
+  36:    1  ->  peel
+  37:    1  ->  pel
+  38:    1  ->  po
+  39:    1  ->  rek
+  40:    1  ->  sar
+  41:    1  ->  scholtig
+  42:    1  ->  schuldig
+  43:    1  ->  sder
+  44:    1  ->  sin
+  45:    1  ->  star
+  46:    1  ->  sweten
+  47:    1  ->  tel
+  48:    1  ->  tuig
+  49:    1  ->  ud
+  50:    1  ->  ullen
+  51:    1  ->  van
+  52:    1  ->  vent
+  53:    1  ->  ver
+  54:    1  ->  veur
+  55:    1  ->  voetbans
+  56:    1  ->  vovogil
+  57:    1  ->  wal
+  58:    1  ->  wil
+     -------
+        61
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

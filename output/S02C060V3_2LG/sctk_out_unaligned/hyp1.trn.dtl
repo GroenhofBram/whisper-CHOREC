@@ -1,0 +1,104 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.7%   (  12)
+
+Percent Correct           =   73.3%   (  33)
+
+Percent Substitution      =   24.4%   (  11)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  44)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> fiets
+   2:    1  ->  * ==> s
+   3:    1  ->  * ==> scch
+   4:    1  ->  * ==> vi
+   5:    1  ->  cola ==> kola
+   6:    1  ->  fietsbel ==> fietspel
+   7:    1  ->  liedje ==> nietje
+   8:    1  ->  potlood ==> potlot
+   9:    1  ->  regen ==> dreigen
+  10:    1  ->  waarom ==> waarom?
+  11:    1  ->  zwemmen ==> swellen
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    4  ->  *
+   2:    1  ->  cola
+   3:    1  ->  fietsbel
+   4:    1  ->  liedje
+   5:    1  ->  potlood
+   6:    1  ->  regen
+   7:    1  ->  waarom
+   8:    1  ->  zwemmen
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  dreigen
+   2:    1  ->  fiets
+   3:    1  ->  fietspel
+   4:    1  ->  kola
+   5:    1  ->  nietje
+   6:    1  ->  potlot
+   7:    1  ->  s
+   8:    1  ->  scch
+   9:    1  ->  swellen
+  10:    1  ->  vi
+  11:    1  ->  waarom?
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

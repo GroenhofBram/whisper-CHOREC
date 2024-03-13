@@ -1,0 +1,426 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S06C010M8_3+4LG": {
+   "(S06C010M8_3+4LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S06C010M8_3+4LG",
+    "sentence_id": "(S06C010M8_3+4LG-words)",
+    "sequence": 0,
+    "word_count": 82,
+    "words": [
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "een"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "trein"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "op"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ut"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "men"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "wagen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "konninen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "gook"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "elas"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "tiqa"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ruzie"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "maken"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "det"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "di"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "weer"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "direntaan"
+     },
+     {
+      "eval_label": "S",
+      "ref": "omdraaien",
+      "hyp": "pat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "poppenwagen",
+      "hyp": "de"
+     },
+     {
+      "eval_label": "S",
+      "ref": "konijnenhok",
+      "hyp": "stoelen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "elastiekje",
+      "hyp": "versdobordje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ruziemaken",
+      "hyp": "was"
+     },
+     {
+      "eval_label": "S",
+      "ref": "teddybeer",
+      "hyp": "ma"
+     },
+     {
+      "eval_label": "S",
+      "ref": "dierentuin",
+      "hyp": "ws"
+     },
+     {
+      "eval_label": "S",
+      "ref": "paddenstoelen",
+      "hyp": "ma"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verstoppertje",
+      "hyp": "schene"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "machmaschine"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "fodos"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "oistel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "wasmachine",
+      "hyp": "to"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fototoestel",
+      "hyp": "to"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "to"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "let"
+     },
+     {
+      "eval_label": "S",
+      "ref": "toiletpapier",
+      "hyp": "popier"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vrachtwagen",
+      "hyp": "vachtwagen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "buurmannen",
+      "hyp": "buurmannen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "vowel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vogelkooi",
+      "hyp": "koi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "olifant",
+      "hyp": "ifand"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schommelen",
+      "hyp": "goml"
+     },
+     {
+      "eval_label": "S",
+      "ref": "iedereen",
+      "hyp": "erien"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schoenenwinkel",
+      "hyp": "schoennen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "knutselen",
+      "hyp": "winkel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "pelichelen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "ophangen",
+      "hyp": "ophangen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "verjaardag",
+      "hyp": "verjaardag"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "sbrokjes"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "boek"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "tant"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "tanden"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "boogtstil"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "j"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "lees"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ie"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ver?"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "laapzak?"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "a"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sprookjesboek",
+      "hyp": "acht"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dorder"
+     },
+     {
+      "eval_label": "S",
+      "ref": "tandenborstel",
+      "hyp": "zeke"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ous"
+     },
+     {
+      "eval_label": "S",
+      "ref": "lucifer",
+      "hyp": "neen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "slaapkamer*(slaapzak)",
+      "hyp": "scherig"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "of"
+     },
+     {
+      "eval_label": "S",
+      "ref": "achterdeur",
+      "hyp": "blijven"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ziekenhuis",
+      "hyp": "ko"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nieuwsgierig",
+      "hyp": "ka"
+     },
+     {
+      "eval_label": "S",
+      "ref": "afblijven",
+      "hyp": "pater"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "was"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kabouter",
+      "hyp": "hantje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "washandje",
+      "hyp": "sneeuw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sneeuwwitje",
+      "hyp": "wietje"
+     },
+     {
+      "eval_label": "C",
+      "ref": "goeiendag",
+      "hyp": "goeiendag"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vakantie",
+      "hyp": "vakantie"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "limov"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "lumonalev"
+     },
+     {
+      "eval_label": "S",
+      "ref": "limonade",
+      "hyp": "ouv"
+     },
+     {
+      "eval_label": "S",
+      "ref": "autorijden",
+      "hyp": "dourelv"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dunv"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eindelijk",
+      "hyp": "endelijk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "familie",
+      "hyp": "familie"
+     },
+     {
+      "eval_label": "D",
+      "ref": "*",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "chocolade",
+      "hyp": "chocolaal"
+     }
+    ]
+   }
+  }
+ }
+}

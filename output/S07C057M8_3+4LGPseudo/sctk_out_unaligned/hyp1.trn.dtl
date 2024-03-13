@@ -1,0 +1,305 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   ( 121)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   95.9%   ( 116)
+Percent Deletions         =    4.1%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           ( 121)
+Hyp. words                =           ( 116)
+Aligned words             =           ( 121)
+
+CONFUSION PAIRS                  Total                 (100)
+                                 With >=  1 occurrences (100)
+
+   1:    8  ->  * ==> a
+   2:    5  ->  * ==> ja
+   3:    2  ->  * ==> de
+   4:    2  ->  * ==> e
+   5:    2  ->  * ==> gra
+   6:    2  ->  * ==> o
+   7:    2  ->  * ==> ver
+   8:    1  ->  * ==> ban
+   9:    1  ->  * ==> chopor
+  10:    1  ->  * ==> del
+  11:    1  ->  * ==> ee
+  12:    1  ->  * ==> en
+  13:    1  ->  * ==> fe
+  14:    1  ->  * ==> geverdel
+  15:    1  ->  * ==> haalder
+  16:    1  ->  * ==> hape
+  17:    1  ->  * ==> jabi
+  18:    1  ->  * ==> jatennisiet
+  19:    1  ->  * ==> kam
+  20:    1  ->  * ==> kana
+  21:    1  ->  * ==> kantoloogten
+  22:    1  ->  * ==> lala
+  23:    1  ->  * ==> loloparinker
+  24:    1  ->  * ==> looden
+  25:    1  ->  * ==> moeite
+  26:    1  ->  * ==> mt
+  27:    1  ->  * ==> n
+  28:    1  ->  * ==> na
+  29:    1  ->  * ==> ne
+  30:    1  ->  * ==> niet
+  31:    1  ->  * ==> nuiten
+  32:    1  ->  * ==> ondermijnmeemt
+  33:    1  ->  * ==> pa
+  34:    1  ->  * ==> po
+  35:    1  ->  * ==> porgggleew
+  36:    1  ->  * ==> pun
+  37:    1  ->  * ==> ra
+  38:    1  ->  * ==> randelje
+  39:    1  ->  * ==> rok
+  40:    1  ->  * ==> s
+  41:    1  ->  * ==> schilen
+  42:    1  ->  * ==> schouden
+  43:    1  ->  * ==> smoraler
+  44:    1  ->  * ==> spekkre
+  45:    1  ->  * ==> ste
+  46:    1  ->  * ==> taru
+  47:    1  ->  * ==> teen
+  48:    1  ->  * ==> ti
+  49:    1  ->  * ==> tper
+  50:    1  ->  * ==> ttom
+  51:    1  ->  * ==> uh
+  52:    1  ->  * ==> vanl
+  53:    1  ->  * ==> vere
+  54:    1  ->  * ==> ververka
+  55:    1  ->  * ==> verwage
+  56:    1  ->  * ==> vor
+  57:    1  ->  * ==> vrouw
+  58:    1  ->  * ==> wacht
+  59:    1  ->  * ==> wachten
+  60:    1  ->  * ==> zijn
+  61:    1  ->  blottenduuf ==> e
+  62:    1  ->  choporatie ==> r
+  63:    1  ->  crobeklunker ==> man
+  64:    1  ->  deuveltek ==> eru
+  65:    1  ->  fandelig ==> m
+  66:    1  ->  gerauwejaak ==> ja
+  67:    1  ->  gevijdel ==> dos
+  68:    1  ->  girdofhaalder ==> uh
+  69:    1  ->  hapeneren ==> hoeneren
+  70:    1  ->  havedil ==> schouwder
+  71:    1  ->  ijraspangen ==> ate
+  72:    1  ->  jalekrewen ==> a
+  73:    1  ->  jattesiet ==> toe
+  74:    1  ->  juitonie ==> to
+  75:    1  ->  kabbestepen ==> da
+  76:    1  ->  kanaroe ==> smor
+  77:    1  ->  kantelogsten ==> laging
+  78:    1  ->  mantaroen ==> va
+  79:    1  ->  meitsegrok ==> la
+  80:    1  ->  nappegreeuw ==> wachten
+  81:    1  ->  nurudien ==> omewel
+  82:    1  ->  ondermind ==> kana
+  83:    1  ->  ooiebiekje ==> a
+  84:    1  ->  oonwijlen ==> t
+  85:    1  ->  poentalschouden ==> e
+  86:    1  ->  schielendaspen ==> pirik
+  87:    1  ->  sidowaan ==> deven
+  88:    1  ->  smoralij ==> a
+  89:    1  ->  smoralij ==> i
+  90:    1  ->  spekkeraai ==> tek
+  91:    1  ->  stoenydaas ==> wean
+  92:    1  ->  tobbermoeit ==> deserto
+  93:    1  ->  toejietsen ==> om
+  94:    1  ->  toineetlijgen ==> ge
+  95:    1  ->  verbrakkertje ==> haven
+  96:    1  ->  verpierik ==> sindon
+  97:    1  ->  verwarig ==> pe
+  98:    1  ->  wachteniek ==> tohnie
+  99:    1  ->  zeekvlachine ==> uh
+ 100:    1  ->  zennebral ==> tozge
+     -------
+       116
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    4  ->  *
+   2:    1  ->  ometuif
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:   76  ->  *
+   2:    2  ->  smoralij
+   3:    1  ->  blottenduuf
+   4:    1  ->  choporatie
+   5:    1  ->  crobeklunker
+   6:    1  ->  deuveltek
+   7:    1  ->  fandelig
+   8:    1  ->  gerauwejaak
+   9:    1  ->  gevijdel
+  10:    1  ->  girdofhaalder
+  11:    1  ->  hapeneren
+  12:    1  ->  havedil
+  13:    1  ->  ijraspangen
+  14:    1  ->  jalekrewen
+  15:    1  ->  jattesiet
+  16:    1  ->  juitonie
+  17:    1  ->  kabbestepen
+  18:    1  ->  kanaroe
+  19:    1  ->  kantelogsten
+  20:    1  ->  mantaroen
+  21:    1  ->  meitsegrok
+  22:    1  ->  nappegreeuw
+  23:    1  ->  nurudien
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  poentalschouden
+  28:    1  ->  schielendaspen
+  29:    1  ->  sidowaan
+  30:    1  ->  spekkeraai
+  31:    1  ->  stoenydaas
+  32:    1  ->  tobbermoeit
+  33:    1  ->  toejietsen
+  34:    1  ->  toineetlijgen
+  35:    1  ->  verbrakkertje
+  36:    1  ->  verpierik
+  37:    1  ->  verwarig
+  38:    1  ->  wachteniek
+  39:    1  ->  zeekvlachine
+  40:    1  ->  zennebral
+     -------
+       116
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (90)
+                                 With >=  1 occurrences (90)
+
+   1:   11  ->  a
+   2:    6  ->  ja
+   3:    4  ->  e
+   4:    3  ->  uh
+   5:    2  ->  de
+   6:    2  ->  gra
+   7:    2  ->  kana
+   8:    2  ->  o
+   9:    2  ->  ver
+  10:    2  ->  wachten
+  11:    1  ->  ate
+  12:    1  ->  ban
+  13:    1  ->  chopor
+  14:    1  ->  da
+  15:    1  ->  del
+  16:    1  ->  deserto
+  17:    1  ->  deven
+  18:    1  ->  dos
+  19:    1  ->  ee
+  20:    1  ->  en
+  21:    1  ->  eru
+  22:    1  ->  fe
+  23:    1  ->  ge
+  24:    1  ->  geverdel
+  25:    1  ->  haalder
+  26:    1  ->  hape
+  27:    1  ->  haven
+  28:    1  ->  hoeneren
+  29:    1  ->  i
+  30:    1  ->  jabi
+  31:    1  ->  jatennisiet
+  32:    1  ->  kam
+  33:    1  ->  kantoloogten
+  34:    1  ->  la
+  35:    1  ->  laging
+  36:    1  ->  lala
+  37:    1  ->  loloparinker
+  38:    1  ->  looden
+  39:    1  ->  m
+  40:    1  ->  man
+  41:    1  ->  moeite
+  42:    1  ->  mt
+  43:    1  ->  n
+  44:    1  ->  na
+  45:    1  ->  ne
+  46:    1  ->  niet
+  47:    1  ->  nuiten
+  48:    1  ->  om
+  49:    1  ->  omewel
+  50:    1  ->  ondermijnmeemt
+  51:    1  ->  pa
+  52:    1  ->  pe
+  53:    1  ->  pirik
+  54:    1  ->  po
+  55:    1  ->  porgggleew
+  56:    1  ->  pun
+  57:    1  ->  r
+  58:    1  ->  ra
+  59:    1  ->  randelje
+  60:    1  ->  rok
+  61:    1  ->  s
+  62:    1  ->  schilen
+  63:    1  ->  schouden
+  64:    1  ->  schouwder
+  65:    1  ->  sindon
+  66:    1  ->  smor
+  67:    1  ->  smoraler
+  68:    1  ->  spekkre
+  69:    1  ->  ste
+  70:    1  ->  t
+  71:    1  ->  taru
+  72:    1  ->  teen
+  73:    1  ->  tek
+  74:    1  ->  ti
+  75:    1  ->  to
+  76:    1  ->  toe
+  77:    1  ->  tohnie
+  78:    1  ->  tozge
+  79:    1  ->  tper
+  80:    1  ->  ttom
+  81:    1  ->  va
+  82:    1  ->  vanl
+  83:    1  ->  vere
+  84:    1  ->  ververka
+  85:    1  ->  verwage
+  86:    1  ->  vor
+  87:    1  ->  vrouw
+  88:    1  ->  wacht
+  89:    1  ->  wean
+  90:    1  ->  zijn
+     -------
+       116
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

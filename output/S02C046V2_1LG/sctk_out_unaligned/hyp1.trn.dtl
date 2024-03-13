@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   82.8%   (  48)
+
+Percent Correct           =   17.2%   (  10)
+
+Percent Substitution      =   56.9%   (  33)
+Percent Deletions         =   25.9%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   17.2%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  43)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> arom
+   2:    1  ->  * ==> goen
+   3:    1  ->  * ==> goom
+   4:    1  ->  * ==> jan
+   5:    1  ->  * ==> l
+   6:    1  ->  * ==> ro
+   7:    1  ->  * ==> sep
+   8:    1  ->  * ==> st
+   9:    1  ->  * ==> te
+  10:    1  ->  * ==> trey
+  11:    1  ->  *s ==> hes
+  12:    1  ->  *s ==> vreemd
+  13:    1  ->  arm ==> moi
+  14:    1  ->  bang ==> kinbal
+  15:    1  ->  chips*(gips) ==> gal
+  16:    1  ->  duur ==> k
+  17:    1  ->  feest ==> fest
+  18:    1  ->  gauw ==> hd
+  19:    1  ->  groei ==> ko
+  20:    1  ->  groen ==> hum
+  21:    1  ->  herfst ==> herst
+  22:    1  ->  hout ==> la
+  23:    1  ->  kind ==> nt
+  24:    1  ->  krant ==> reeel
+  25:    1  ->  muts ==> at
+  26:    1  ->  neus ==> nes
+  27:    1  ->  nieuw ==> vi
+  28:    1  ->  plank ==> pren
+  29:    1  ->  plas ==> laf
+  30:    1  ->  reis ==> ges
+  31:    1  ->  sjaal ==> gal
+  32:    1  ->  sjaal ==> j
+  33:    1  ->  vriend ==> hu
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    5  ->  *
+   2:    1  ->  *s
+   3:    1  ->  draai
+   4:    1  ->  hoek
+   5:    1  ->  huis
+   6:    1  ->  koe
+   7:    1  ->  leeuw
+   8:    1  ->  mooi
+   9:    1  ->  paard
+  10:    1  ->  schoen
+  11:    1  ->  vijf
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   10  ->  *
+   2:    2  ->  *s
+   3:    2  ->  sjaal
+   4:    1  ->  arm
+   5:    1  ->  bang
+   6:    1  ->  chips*(gips)
+   7:    1  ->  duur
+   8:    1  ->  feest
+   9:    1  ->  gauw
+  10:    1  ->  groei
+  11:    1  ->  groen
+  12:    1  ->  herfst
+  13:    1  ->  hout
+  14:    1  ->  kind
+  15:    1  ->  krant
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  nieuw
+  19:    1  ->  plank
+  20:    1  ->  plas
+  21:    1  ->  reis
+  22:    1  ->  vriend
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  gal
+   2:    1  ->  arom
+   3:    1  ->  at
+   4:    1  ->  fest
+   5:    1  ->  ges
+   6:    1  ->  goen
+   7:    1  ->  goom
+   8:    1  ->  hd
+   9:    1  ->  herst
+  10:    1  ->  hes
+  11:    1  ->  hu
+  12:    1  ->  hum
+  13:    1  ->  j
+  14:    1  ->  jan
+  15:    1  ->  k
+  16:    1  ->  kinbal
+  17:    1  ->  ko
+  18:    1  ->  l
+  19:    1  ->  la
+  20:    1  ->  laf
+  21:    1  ->  moi
+  22:    1  ->  nes
+  23:    1  ->  nt
+  24:    1  ->  pren
+  25:    1  ->  reeel
+  26:    1  ->  ro
+  27:    1  ->  sep
+  28:    1  ->  st
+  29:    1  ->  te
+  30:    1  ->  trey
+  31:    1  ->  vi
+  32:    1  ->  vreemd
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

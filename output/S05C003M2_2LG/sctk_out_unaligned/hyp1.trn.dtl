@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.4%   (  50)
+
+Percent Correct           =   28.6%   (  18)
+
+Percent Substitution      =   69.8%   (  44)
+Percent Deletions         =    1.6%   (   1)
+Percent Insertions        =    7.9%   (   5)
+Percent Word Accuracy     =   20.6%
+
+
+Ref. words                =           (  63)
+Hyp. words                =           (  67)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  * ==> i
+   2:    2  ->  * ==> u
+   3:    1  ->  * ==> a
+   4:    1  ->  * ==> auwei
+   5:    1  ->  * ==> bel
+   6:    1  ->  * ==> bij
+   7:    1  ->  * ==> eur
+   8:    1  ->  * ==> hoe
+   9:    1  ->  * ==> ierst
+  10:    1  ->  * ==> konniet
+  11:    1  ->  * ==> lau
+  12:    1  ->  * ==> mijsje
+  13:    1  ->  * ==> plein
+  14:    1  ->  * ==> potloot
+  15:    1  ->  * ==> schola
+  16:    1  ->  * ==> schoolaak
+  17:    1  ->  * ==> schuren
+  18:    1  ->  * ==> te
+  19:    1  ->  * ==> wat
+  20:    1  ->  circus ==> sirus
+  21:    1  ->  cola ==> schooaa
+  22:    1  ->  dichtbij ==> dicht
+  23:    1  ->  eerste ==> ten
+  24:    1  ->  fietsbel ==> fit
+  25:    1  ->  gooien ==> nu
+  26:    1  ->  hoofdpijn ==> hooft
+  27:    1  ->  kussen ==> kus
+  28:    1  ->  lawaai ==> lawiy
+  29:    1  ->  liedje ==> li
+  30:    1  ->  meisje ==> met
+  31:    1  ->  mevrouw*(meervoud) ==> meerveld
+  32:    1  ->  moeilijk ==> speel
+  33:    1  ->  potlood ==> tia
+  34:    1  ->  scheuren ==> waarom?
+  35:    1  ->  sneeuwen ==> sneeuwe
+  36:    1  ->  speelplaats ==> plat
+  37:    1  ->  stoppen ==> stopen
+  38:    1  ->  verhaal ==> verhel
+  39:    1  ->  vinger ==> vinviner
+  40:    1  ->  vlinder ==> linde
+  41:    1  ->  voetbal ==> bal
+  42:    1  ->  zwemmen ==> zemmen
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  de
+   2:    1  ->  go
+   3:    1  ->  je
+   4:    1  ->  moeeilijk
+   5:    1  ->  voe
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  waarom
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   21  ->  *
+   2:    1  ->  circus
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  eerste
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  mevrouw*(meervoud)
+  14:    1  ->  moeilijk
+  15:    1  ->  potlood
+  16:    1  ->  scheuren
+  17:    1  ->  sneeuwen
+  18:    1  ->  speelplaats
+  19:    1  ->  stoppen
+  20:    1  ->  verhaal
+  21:    1  ->  vinger
+  22:    1  ->  vlinder
+  23:    1  ->  voetbal
+  24:    1  ->  zwemmen
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  i
+   2:    2  ->  u
+   3:    1  ->  a
+   4:    1  ->  auwei
+   5:    1  ->  bal
+   6:    1  ->  bel
+   7:    1  ->  bij
+   8:    1  ->  dicht
+   9:    1  ->  eur
+  10:    1  ->  fit
+  11:    1  ->  hoe
+  12:    1  ->  hooft
+  13:    1  ->  ierst
+  14:    1  ->  konniet
+  15:    1  ->  kus
+  16:    1  ->  lau
+  17:    1  ->  lawiy
+  18:    1  ->  li
+  19:    1  ->  linde
+  20:    1  ->  meerveld
+  21:    1  ->  met
+  22:    1  ->  mijsje
+  23:    1  ->  nu
+  24:    1  ->  plat
+  25:    1  ->  plein
+  26:    1  ->  potloot
+  27:    1  ->  schola
+  28:    1  ->  schooaa
+  29:    1  ->  schoolaak
+  30:    1  ->  schuren
+  31:    1  ->  sirus
+  32:    1  ->  sneeuwe
+  33:    1  ->  speel
+  34:    1  ->  stopen
+  35:    1  ->  te
+  36:    1  ->  ten
+  37:    1  ->  tia
+  38:    1  ->  verhel
+  39:    1  ->  vinviner
+  40:    1  ->  waarom?
+  41:    1  ->  wat
+  42:    1  ->  zemmen
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

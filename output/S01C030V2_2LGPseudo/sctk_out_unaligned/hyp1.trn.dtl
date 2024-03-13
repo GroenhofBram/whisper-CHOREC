@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.4%   (  38)
+
+Percent Correct           =   20.5%   (   9)
+
+Percent Substitution      =   77.3%   (  34)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    6.8%   (   3)
+Percent Word Accuracy     =   13.6%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> briel
+   2:    1  ->  * ==> gle
+   3:    1  ->  * ==> hé
+   4:    1  ->  * ==> schodien
+   5:    1  ->  bepoud ==> bepuot
+   6:    1  ->  eemde ==> inde
+   7:    1  ->  fiewon ==> fio
+   8:    1  ->  gefouw*(gevouw) ==> gevow
+   9:    1  ->  grijnken ==> schistaug
+  10:    1  ->  haweel ==> awiel
+  11:    1  ->  hiffreeuw ==> hoor
+  12:    1  ->  ierpieuw ==> piel
+  13:    1  ->  ijpo ==> eppo
+  14:    1  ->  kloeien ==> kleien
+  15:    1  ->  kneurem ==> knruhm
+  16:    1  ->  millen ==> milen
+  17:    1  ->  milste ==> milsta
+  18:    1  ->  muider ==> grinke
+  19:    1  ->  nizung ==> nizun
+  20:    1  ->  oonste ==> meider
+  21:    1  ->  prilsood ==> sloot
+  22:    1  ->  saarweng ==> sarin
+  23:    1  ->  schielstaug ==> bri
+  24:    1  ->  sjobel ==> ier
+  25:    1  ->  spreikje ==> hischreeuw
+  26:    1  ->  vawaai ==> vaa
+  27:    1  ->  veten ==> vten
+  28:    1  ->  veurder ==> vurder
+  29:    1  ->  vloender ==> vlounder
+  30:    1  ->  vocil ==> fotil
+  31:    1  ->  vurpaand ==> vierpent
+  32:    1  ->  walaan ==> walam
+  33:    1  ->  wooien ==> an
+  34:    1  ->  zwieten ==> switen
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  onste
+   2:    1  ->  schoppel
+   3:    1  ->  sprijkje
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  schodig
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  gefouw*(gevouw)
+   6:    1  ->  grijnken
+   7:    1  ->  haweel
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kloeien
+  12:    1  ->  kneurem
+  13:    1  ->  millen
+  14:    1  ->  milste
+  15:    1  ->  muider
+  16:    1  ->  nizung
+  17:    1  ->  oonste
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  sjobel
+  22:    1  ->  spreikje
+  23:    1  ->  vawaai
+  24:    1  ->  veten
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vocil
+  28:    1  ->  vurpaand
+  29:    1  ->  walaan
+  30:    1  ->  wooien
+  31:    1  ->  zwieten
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  an
+   2:    1  ->  awiel
+   3:    1  ->  bepuot
+   4:    1  ->  bri
+   5:    1  ->  briel
+   6:    1  ->  eppo
+   7:    1  ->  fio
+   8:    1  ->  fotil
+   9:    1  ->  gevow
+  10:    1  ->  gle
+  11:    1  ->  grinke
+  12:    1  ->  hischreeuw
+  13:    1  ->  hoor
+  14:    1  ->  hé
+  15:    1  ->  ier
+  16:    1  ->  inde
+  17:    1  ->  kleien
+  18:    1  ->  knruhm
+  19:    1  ->  meider
+  20:    1  ->  milen
+  21:    1  ->  milsta
+  22:    1  ->  nizun
+  23:    1  ->  piel
+  24:    1  ->  sarin
+  25:    1  ->  schistaug
+  26:    1  ->  schodien
+  27:    1  ->  sloot
+  28:    1  ->  switen
+  29:    1  ->  vaa
+  30:    1  ->  vierpent
+  31:    1  ->  vlounder
+  32:    1  ->  vten
+  33:    1  ->  vurder
+  34:    1  ->  walam
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

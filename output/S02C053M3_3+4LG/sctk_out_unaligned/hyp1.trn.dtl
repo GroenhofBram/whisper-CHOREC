@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  112.2%   (  46)
+
+Percent Correct           =   43.9%   (  18)
+
+Percent Substitution      =   56.1%   (  23)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   56.1%   (  23)
+Percent Word Accuracy     =  -12.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> en
+   2:    1  ->  buurmannen ==> vogo
+   3:    1  ->  dierentuin ==> dat
+   4:    1  ->  elastiekje ==> moe
+   5:    1  ->  fototoestel ==> dallet
+   6:    1  ->  iedereen ==> schoen
+   7:    1  ->  konijnenhok ==> was
+   8:    1  ->  omdraaien ==> wastobard
+   9:    1  ->  paddenstoelen ==> doet
+  10:    1  ->  poppenwagen ==> ja
+  11:    1  ->  ruziemaken ==> china
+  12:    1  ->  schoenenwinkel ==> winkel
+  13:    1  ->  slaapkamer ==> snaapkamer
+  14:    1  ->  sneeuwwitje ==> ik
+  15:    1  ->  tandenborstel ==> borstelv
+  16:    1  ->  teddybeer ==> vor
+  17:    1  ->  toiletpapier ==> papier
+  18:    1  ->  verjaardag ==> vrjjaardag
+  19:    1  ->  verstoppertje ==> s
+  20:    1  ->  vogelkooi ==> kooi
+  21:    1  ->  washandje ==> snel
+  22:    1  ->  wasmachine ==> dan?
+  23:    1  ->  ziekenhuis ==> ziekenaar
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  wat
+   2:    1  ->  beer
+   3:    1  ->  buurmaan
+   4:    1  ->  da's
+   5:    1  ->  danda
+   6:    1  ->  die
+   7:    1  ->  dieren
+   8:    1  ->  dit
+   9:    1  ->  doel
+  10:    1  ->  en
+  11:    1  ->  hantje
+  12:    1  ->  hen
+  13:    1  ->  idarien
+  14:    1  ->  ja
+  15:    1  ->  konijnen
+  16:    1  ->  lastik
+  17:    1  ->  maken
+  18:    1  ->  omdraaienpopenwagen
+  19:    1  ->  ook
+  20:    1  ->  ruzie
+  21:    1  ->  schoene
+  22:    1  ->  tuin
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  *
+   2:    1  ->  buurmannen
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  omdraaien
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  slaapkamer
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  verjaardag
+  19:    1  ->  verstoppertje
+  20:    1  ->  vogelkooi
+  21:    1  ->  washandje
+  22:    1  ->  wasmachine
+  23:    1  ->  ziekenhuis
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  borstelv
+   2:    1  ->  china
+   3:    1  ->  dallet
+   4:    1  ->  dan?
+   5:    1  ->  dat
+   6:    1  ->  doet
+   7:    1  ->  en
+   8:    1  ->  ik
+   9:    1  ->  ja
+  10:    1  ->  kooi
+  11:    1  ->  moe
+  12:    1  ->  papier
+  13:    1  ->  s
+  14:    1  ->  schoen
+  15:    1  ->  snaapkamer
+  16:    1  ->  snel
+  17:    1  ->  vogo
+  18:    1  ->  vor
+  19:    1  ->  vrjjaardag
+  20:    1  ->  was
+  21:    1  ->  wastobard
+  22:    1  ->  winkel
+  23:    1  ->  ziekenaar
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

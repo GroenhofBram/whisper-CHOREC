@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C032V2_2LGPseudo
+
+#### (S04C032V2_2LGPseudo-words)
+
+- Cor=0.0%	Sub=64.0%	Del=36.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | *s | vocil | geutel | * | * | sjobel | *s | ierpieuw | *s | walaan | erke | haweel | *s | saarweng | * | gevicht | eemde | * | *s | bepoud | * | *s | * | orstalk | veten*(vetten) | gefouw | *s | vurpaand | *s | nizung | * | *s | fiewon | *s | kneurem | vawaai | *s | strellen*(stralen) | *s | zwieten | *s | foetbans | oonste | * | *s | muider | *s | grijnken | *s | * | schielstaug | *s | prilsood | vloender | * | milste | *s | veurder | kloeien | ulen | *s | orponk | *s | schodig | ijpo | *s | menuur | spreikje | spreikje | *s | hiffreeuw | * | *s | wooien |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | milen | fvoko | gato | shope | i | walen | ka | ge | var | wan | gevia | gevist | mande | dat | ors | k | oorstellen | etten | sufal | verband | vel | m | kmerum | v | rae | eten | annnd | voetband | ons | te | maat | sanken | schheels | scheelsta | s | aat | vlo | de | mst | urter | klue | schoting | ebo | sspraat | je | eel | vo | vonen |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

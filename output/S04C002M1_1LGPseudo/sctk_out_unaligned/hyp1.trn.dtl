@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.0%   (  72)
+
+Percent Correct           =    4.0%   (   3)
+
+Percent Substitution      =   77.3%   (  58)
+Percent Deletions         =   18.7%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.0%
+
+
+Ref. words                =           (  75)
+Hyp. words                =           (  61)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    2  ->  * ==> em
+   2:    2  ->  * ==> hè
+   3:    2  ->  * ==> s
+   4:    1  ->  * ==> g
+   5:    1  ->  * ==> hok
+   6:    1  ->  * ==> k
+   7:    1  ->  * ==> pluar
+   8:    1  ->  * ==> sal
+   9:    1  ->  * ==> snaf
+  10:    1  ->  * ==> soms
+  11:    1  ->  * ==> spi
+  12:    1  ->  * ==> sum
+  13:    1  ->  * ==> u
+  14:    1  ->  * ==> um
+  15:    1  ->  * ==> vap
+  16:    1  ->  * ==> vit
+  17:    1  ->  *(rechts) ==> vad
+  18:    1  ->  *(rechts) ==> zwoi
+  19:    1  ->  *s ==> g
+  20:    1  ->  *s ==> rechts
+  21:    1  ->  *s ==> ron
+  22:    1  ->  *s ==> schaat
+  23:    1  ->  *s ==> sprint
+  24:    1  ->  *t ==> spr
+  25:    1  ->  *x ==> door
+  26:    1  ->  *x ==> lasstt
+  27:    1  ->  ant ==> and
+  28:    1  ->  blard ==> uleertplirt
+  29:    1  ->  dau ==> da
+  30:    1  ->  doer ==> kenner
+  31:    1  ->  dron ==> éém
+  32:    1  ->  grek ==> vrijk
+  33:    1  ->  guul ==> le
+  34:    1  ->  haans ==> ha
+  35:    1  ->  heik ==> hek
+  36:    1  ->  hoekt ==> j
+  37:    1  ->  jien ==> doo
+  38:    1  ->  keng ==> recht
+  39:    1  ->  leum ==> zan
+  40:    1  ->  neeuw ==> hoek
+  41:    1  ->  noork ==> ne
+  42:    1  ->  plirt ==> wors
+  43:    1  ->  rachts*(rechts) ==> hol
+  44:    1  ->  schard ==> hoen
+  45:    1  ->  sjalt ==> siat
+  46:    1  ->  snaaf ==> rek
+  47:    1  ->  sooi ==> soi
+  48:    1  ->  spaai ==> hand
+  49:    1  ->  spaai ==> sba
+  50:    1  ->  sprieuw ==> recht
+  51:    1  ->  stuid ==> stuit
+  52:    1  ->  swoers ==> spring
+  53:    1  ->  vaap ==> van
+  54:    1  ->  vid ==> no
+  55:    1  ->  zans ==> r
+     -------
+        58
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  *
+   2:    2  ->  frijk
+   3:    1  ->  *s
+   4:    1  ->  eem
+   5:    1  ->  fam
+   6:    1  ->  hool
+   7:    1  ->  larst
+   8:    1  ->  roen
+   9:    1  ->  sprunt
+  10:    1  ->  vout
+  11:    1  ->  zwoei
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   19  ->  *
+   2:    5  ->  *s
+   3:    2  ->  *(rechts)
+   4:    2  ->  *x
+   5:    2  ->  spaai
+   6:    1  ->  *t
+   7:    1  ->  ant
+   8:    1  ->  blard
+   9:    1  ->  dau
+  10:    1  ->  doer
+  11:    1  ->  dron
+  12:    1  ->  grek
+  13:    1  ->  guul
+  14:    1  ->  haans
+  15:    1  ->  heik
+  16:    1  ->  hoekt
+  17:    1  ->  jien
+  18:    1  ->  keng
+  19:    1  ->  leum
+  20:    1  ->  neeuw
+  21:    1  ->  noork
+  22:    1  ->  plirt
+  23:    1  ->  rachts*(rechts)
+  24:    1  ->  schard
+  25:    1  ->  sjalt
+  26:    1  ->  snaaf
+  27:    1  ->  sooi
+  28:    1  ->  sprieuw
+  29:    1  ->  stuid
+  30:    1  ->  swoers
+  31:    1  ->  vaap
+  32:    1  ->  vid
+  33:    1  ->  zans
+     -------
+        58
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  em
+   2:    2  ->  g
+   3:    2  ->  hè
+   4:    2  ->  recht
+   5:    2  ->  s
+   6:    1  ->  and
+   7:    1  ->  da
+   8:    1  ->  doo
+   9:    1  ->  door
+  10:    1  ->  ha
+  11:    1  ->  hand
+  12:    1  ->  hek
+  13:    1  ->  hoek
+  14:    1  ->  hoen
+  15:    1  ->  hok
+  16:    1  ->  hol
+  17:    1  ->  j
+  18:    1  ->  k
+  19:    1  ->  kenner
+  20:    1  ->  lasstt
+  21:    1  ->  le
+  22:    1  ->  ne
+  23:    1  ->  no
+  24:    1  ->  pluar
+  25:    1  ->  r
+  26:    1  ->  rechts
+  27:    1  ->  rek
+  28:    1  ->  ron
+  29:    1  ->  sal
+  30:    1  ->  sba
+  31:    1  ->  schaat
+  32:    1  ->  siat
+  33:    1  ->  snaf
+  34:    1  ->  soi
+  35:    1  ->  soms
+  36:    1  ->  spi
+  37:    1  ->  spr
+  38:    1  ->  spring
+  39:    1  ->  sprint
+  40:    1  ->  stuit
+  41:    1  ->  sum
+  42:    1  ->  u
+  43:    1  ->  uleertplirt
+  44:    1  ->  um
+  45:    1  ->  vad
+  46:    1  ->  van
+  47:    1  ->  vap
+  48:    1  ->  vit
+  49:    1  ->  vrijk
+  50:    1  ->  wors
+  51:    1  ->  zan
+  52:    1  ->  zwoi
+  53:    1  ->  éém
+     -------
+        58
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

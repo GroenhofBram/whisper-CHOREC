@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.4%   (  26)
+
+Percent Correct           =   39.0%   (  16)
+
+Percent Substitution      =   61.0%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   36.6%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> kneuum
+   2:    1  ->  bepoud ==> bepaald
+   3:    1  ->  fiewon ==> viwom
+   4:    1  ->  foetbans ==> voetbans
+   5:    1  ->  gefouw ==> gefal
+   6:    1  ->  grijnken ==> grenken
+   7:    1  ->  haweel ==> hawil
+   8:    1  ->  hiffreeuw ==> hifreel
+   9:    1  ->  ierpieuw ==> pio
+  10:    1  ->  ijpo ==> ipel
+  11:    1  ->  kneurem ==> kneuren
+  12:    1  ->  millen ==> milen
+  13:    1  ->  nizung ==> nisun
+  14:    1  ->  oonste ==> onste
+  15:    1  ->  orponk ==> oorponk
+  16:    1  ->  prilsood ==> prilshout
+  17:    1  ->  schielstaug ==> scheelstaog
+  18:    1  ->  sjobel ==> belier
+  19:    1  ->  spreikje ==> spreekje
+  20:    1  ->  strellen ==> strillen
+  21:    1  ->  vloender ==> gloender
+  22:    1  ->  vocil ==> fossil
+  23:    1  ->  vurpaand ==> vuurpaand
+  24:    1  ->  wooien ==> woien
+  25:    1  ->  zwieten ==> zweten
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sho
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  grijnken
+   7:    1  ->  haweel
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kneurem
+  12:    1  ->  millen
+  13:    1  ->  nizung
+  14:    1  ->  oonste
+  15:    1  ->  orponk
+  16:    1  ->  prilsood
+  17:    1  ->  schielstaug
+  18:    1  ->  sjobel
+  19:    1  ->  spreikje
+  20:    1  ->  strellen
+  21:    1  ->  vloender
+  22:    1  ->  vocil
+  23:    1  ->  vurpaand
+  24:    1  ->  wooien
+  25:    1  ->  zwieten
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  belier
+   2:    1  ->  bepaald
+   3:    1  ->  fossil
+   4:    1  ->  gefal
+   5:    1  ->  gloender
+   6:    1  ->  grenken
+   7:    1  ->  hawil
+   8:    1  ->  hifreel
+   9:    1  ->  ipel
+  10:    1  ->  kneuren
+  11:    1  ->  kneuum
+  12:    1  ->  milen
+  13:    1  ->  nisun
+  14:    1  ->  onste
+  15:    1  ->  oorponk
+  16:    1  ->  pio
+  17:    1  ->  prilshout
+  18:    1  ->  scheelstaog
+  19:    1  ->  spreekje
+  20:    1  ->  strillen
+  21:    1  ->  viwom
+  22:    1  ->  voetbans
+  23:    1  ->  vuurpaand
+  24:    1  ->  woien
+  25:    1  ->  zweten
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.2%   (  19)
+
+Percent Correct           =   58.1%   (  25)
+
+Percent Substitution      =   34.9%   (  15)
+Percent Deletions         =    7.0%   (   3)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   55.8%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  41)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> houders
+   2:    1  ->  appel ==> opul
+   3:    1  ->  chauffeur ==> kchauffeur
+   4:    1  ->  cola*(koala) ==> kuala
+   5:    1  ->  fietsbel ==> fitsbel
+   6:    1  ->  gooien ==> snew
+   7:    1  ->  lawaai ==> lawai
+   8:    1  ->  meisje ==> meson
+   9:    1  ->  potlood ==> potnot
+  10:    1  ->  scheuren ==> uren
+  11:    1  ->  schouders ==> atto
+  12:    1  ->  sneeuwen ==> en
+  13:    1  ->  speelplaats ==> sbelenplaats
+  14:    1  ->  vlinder ==> linder
+  15:    1  ->  water ==> hater
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  goeien
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  auto
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  *
+   2:    1  ->  appel
+   3:    1  ->  chauffeur
+   4:    1  ->  cola*(koala)
+   5:    1  ->  fietsbel
+   6:    1  ->  gooien
+   7:    1  ->  lawaai
+   8:    1  ->  meisje
+   9:    1  ->  potlood
+  10:    1  ->  scheuren
+  11:    1  ->  schouders
+  12:    1  ->  sneeuwen
+  13:    1  ->  speelplaats
+  14:    1  ->  vlinder
+  15:    1  ->  water
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  atto
+   2:    1  ->  en
+   3:    1  ->  fitsbel
+   4:    1  ->  hater
+   5:    1  ->  houders
+   6:    1  ->  kchauffeur
+   7:    1  ->  kuala
+   8:    1  ->  lawai
+   9:    1  ->  linder
+  10:    1  ->  meson
+  11:    1  ->  opul
+  12:    1  ->  potnot
+  13:    1  ->  sbelenplaats
+  14:    1  ->  snew
+  15:    1  ->  uren
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

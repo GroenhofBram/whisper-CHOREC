@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.4%   (  38)
+
+Percent Correct           =   13.6%   (   6)
+
+Percent Substitution      =   79.5%   (  35)
+Percent Deletions         =    6.8%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   13.6%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  41)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> lem
+   2:    1  ->  * ==> sjat
+   3:    1  ->  beeg ==> becg
+   4:    1  ->  blard ==> beleerd
+   5:    1  ->  blard ==> door
+   6:    1  ->  dau ==> dow
+   7:    1  ->  doer ==> kem
+   8:    1  ->  eem ==> en
+   9:    1  ->  fam ==> lat
+  10:    1  ->  fook ==> fok
+  11:    1  ->  frijk ==> frek
+  12:    1  ->  grek ==> gek
+  13:    1  ->  guul ==> blaguul
+  14:    1  ->  haans ==> hans
+  15:    1  ->  heik ==> hek
+  16:    1  ->  hoekt ==> roept
+  17:    1  ->  jien ==> soors
+  18:    1  ->  keng ==> geracht
+  19:    1  ->  leum ==> lem
+  20:    1  ->  neeuw ==> mil
+  21:    1  ->  noork ==> nork
+  22:    1  ->  plirt ==> s
+  23:    1  ->  rachts ==> fout
+  24:    1  ->  roen ==> groen
+  25:    1  ->  sank ==> sunk
+  26:    1  ->  schard ==> shert
+  27:    1  ->  spaai ==> spai
+  28:    1  ->  sprieuw ==> fan
+  29:    1  ->  stuid ==> staat
+  30:    1  ->  swoers ==> faap
+  31:    1  ->  swoers ==> spreeuw
+  32:    1  ->  vaap ==> swoi
+  33:    1  ->  vid ==> griet
+  34:    1  ->  zans ==> san
+  35:    1  ->  zwoei ==> gol
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hool
+   2:    1  ->  larst
+   3:    1  ->  vout
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  *
+   2:    2  ->  blard
+   3:    2  ->  swoers
+   4:    1  ->  beeg
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  frijk
+  11:    1  ->  grek
+  12:    1  ->  guul
+  13:    1  ->  haans
+  14:    1  ->  heik
+  15:    1  ->  hoekt
+  16:    1  ->  jien
+  17:    1  ->  keng
+  18:    1  ->  leum
+  19:    1  ->  neeuw
+  20:    1  ->  noork
+  21:    1  ->  plirt
+  22:    1  ->  rachts
+  23:    1  ->  roen
+  24:    1  ->  sank
+  25:    1  ->  schard
+  26:    1  ->  spaai
+  27:    1  ->  sprieuw
+  28:    1  ->  stuid
+  29:    1  ->  vaap
+  30:    1  ->  vid
+  31:    1  ->  zans
+  32:    1  ->  zwoei
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  lem
+   2:    1  ->  becg
+   3:    1  ->  beleerd
+   4:    1  ->  blaguul
+   5:    1  ->  door
+   6:    1  ->  dow
+   7:    1  ->  en
+   8:    1  ->  faap
+   9:    1  ->  fan
+  10:    1  ->  fok
+  11:    1  ->  fout
+  12:    1  ->  frek
+  13:    1  ->  gek
+  14:    1  ->  geracht
+  15:    1  ->  gol
+  16:    1  ->  griet
+  17:    1  ->  groen
+  18:    1  ->  hans
+  19:    1  ->  hek
+  20:    1  ->  kem
+  21:    1  ->  lat
+  22:    1  ->  mil
+  23:    1  ->  nork
+  24:    1  ->  roept
+  25:    1  ->  s
+  26:    1  ->  san
+  27:    1  ->  shert
+  28:    1  ->  sjat
+  29:    1  ->  soors
+  30:    1  ->  spai
+  31:    1  ->  spreeuw
+  32:    1  ->  staat
+  33:    1  ->  sunk
+  34:    1  ->  swoi
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

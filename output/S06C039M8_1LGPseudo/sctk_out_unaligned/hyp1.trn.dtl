@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   74.4%   (  32)
+
+Percent Correct           =   25.6%   (  11)
+
+Percent Substitution      =   72.1%   (  31)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   25.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> swe
+   2:    1  ->  *(roem) ==> roem
+   3:    1  ->  *s ==> sjilt
+   4:    1  ->  blard ==> lart
+   5:    1  ->  dau ==> dow
+   6:    1  ->  doer ==> dour
+   7:    1  ->  eem ==> één
+   8:    1  ->  fam ==> fan
+   9:    1  ->  fook ==> fok
+  10:    1  ->  frijk ==> fruik
+  11:    1  ->  haans*(hans) ==> lum
+  12:    1  ->  heik ==> hek
+  13:    1  ->  hool ==> hol
+  14:    1  ->  jien ==> geen
+  15:    1  ->  keng ==> king
+  16:    1  ->  larst ==> lart
+  17:    1  ->  neeuw ==> nijw
+  18:    1  ->  noork ==> nork
+  19:    1  ->  plirt ==> leert
+  20:    1  ->  rachts ==> racht
+  21:    1  ->  schard ==> schart
+  22:    1  ->  sjalt ==> spay
+  23:    1  ->  sooi ==> soy
+  24:    1  ->  spaai ==> hons
+  25:    1  ->  sprieuw ==> spreeuw
+  26:    1  ->  stuid ==> stuit
+  27:    1  ->  swoers ==> swoyers
+  28:    1  ->  vaap ==> vap
+  29:    1  ->  vid ==> it
+  30:    1  ->  vout ==> fout
+  31:    1  ->  zwoei ==> zwo
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  leum
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  *
+   2:    1  ->  *(roem)
+   3:    1  ->  *s
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  frijk
+  11:    1  ->  haans*(hans)
+  12:    1  ->  heik
+  13:    1  ->  hool
+  14:    1  ->  jien
+  15:    1  ->  keng
+  16:    1  ->  larst
+  17:    1  ->  neeuw
+  18:    1  ->  noork
+  19:    1  ->  plirt
+  20:    1  ->  rachts
+  21:    1  ->  schard
+  22:    1  ->  sjalt
+  23:    1  ->  sooi
+  24:    1  ->  spaai
+  25:    1  ->  sprieuw
+  26:    1  ->  stuid
+  27:    1  ->  swoers
+  28:    1  ->  vaap
+  29:    1  ->  vid
+  30:    1  ->  vout
+  31:    1  ->  zwoei
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  lart
+   2:    1  ->  dour
+   3:    1  ->  dow
+   4:    1  ->  fan
+   5:    1  ->  fok
+   6:    1  ->  fout
+   7:    1  ->  fruik
+   8:    1  ->  geen
+   9:    1  ->  hek
+  10:    1  ->  hol
+  11:    1  ->  hons
+  12:    1  ->  it
+  13:    1  ->  king
+  14:    1  ->  leert
+  15:    1  ->  lum
+  16:    1  ->  nijw
+  17:    1  ->  nork
+  18:    1  ->  racht
+  19:    1  ->  roem
+  20:    1  ->  schart
+  21:    1  ->  sjilt
+  22:    1  ->  soy
+  23:    1  ->  spay
+  24:    1  ->  spreeuw
+  25:    1  ->  stuit
+  26:    1  ->  swe
+  27:    1  ->  swoyers
+  28:    1  ->  vap
+  29:    1  ->  zwo
+  30:    1  ->  één
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

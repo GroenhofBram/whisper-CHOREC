@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C004V1_3+4LG
+
+#### (S06C004V1_3+4LG-words)
+
+- Cor=11.2%	Sub=63.8%	Del=1.2%	Ins=23.8%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  |  |  |  |  |  |  | * | poppenwagen | * | * | *(konijnhok) | konijnenhok | elastiekje | * | * | ruziemaken | teddybeer | dierentuin | paddenstoelen | verstoppertje |  |  |  | * | wasmachine | fototoestel | toiletpapier | vrachtwagen | buurmannen*(buurman) | vogelkooi | olifant |  | schommelen | iedereen | * | schoenenwinkel | knutselen | * | ophangen |  |  | verjaardag | * | sprookjesboek*(spookjesboek) | sprookjesboek | * | tandenborstel | lucifer | slaapkamer |  |  | achterdeur | ziekenhuis | nieuwsgierig | * | afblijven | kabouter |  |  |  | * | * | * | * | * | sneeuwwitje | goeiendag | vakantie | limonade | * | * | autorijden | eindelijk | familie | * | * | * |
+| HYP1 | omdraaien | popgapoen | ga | konijenhoo | konijnenoek | en | das | tik | jo | reozie | ma | ruzie | maken | te | die | beer | die | retuin | paa | de | stoelen | vorstoppig | verstoppertje | was | was | mag | gena | fotosustol | troy | depepier | vachtwagen | buurman | vogelkooy | olifant | schome | wan | grijm | schoene | wintel | vinste | knip | ophangen | voejaardag | spokje | spoojes | boek | stande | tande | borstu | luf | r | slaapkamer | acht | derder | ziekeref | neeszisres | ni | sigereg | ofblijven | kabouter | was | ha | w | wag | w | w | sneeuw | weet | je | goeiendag | vakantie | limunnade | oua | ouwe | ouderedden | endelijk | familie |  | kjo | koladen |
+| EVAL |  | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S | S |  | I | S | S | S | S | S | S |  | I | I | S | S | S | S | S | S | S |  | I | I | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S |  |  | S | S | S | S | S |  | D | S | S |
+---
+
+---

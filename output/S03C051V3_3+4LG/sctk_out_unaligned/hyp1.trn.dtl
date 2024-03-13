@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.0%   (  26)
+
+Percent Correct           =   52.5%   (  21)
+
+Percent Substitution      =   47.5%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   17.5%   (   7)
+Percent Word Accuracy     =   35.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  achterdeur ==> echterdeur
+   2:    1  ->  dierentuin ==> stolen
+   3:    1  ->  elastiekje ==> dedibier
+   4:    1  ->  familie ==> famili
+   5:    1  ->  fototoestel ==> fototostaan
+   6:    1  ->  iedereen ==> schonen
+   7:    1  ->  konijnenhok ==> makin
+   8:    1  ->  limonade ==> himonade
+   9:    1  ->  paddenstoelen ==> voor
+  10:    1  ->  poppenwagen ==> ruzi
+  11:    1  ->  ruziemaken ==> bironten
+  12:    1  ->  schoenenwinkel ==> winkel
+  13:    1  ->  schommelen ==> ibereen
+  14:    1  ->  sneeuwwitje ==> sneewitje
+  15:    1  ->  tandenborstel ==> borstel
+  16:    1  ->  teddybeer ==> padden
+  17:    1  ->  verstoppertje ==> stoppertje
+  18:    1  ->  washandje ==> wassendje
+  19:    1  ->  wasmachine ==> watmachine
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  en
+   2:    1  ->  hok
+   3:    1  ->  konijnen
+   4:    1  ->  lastieke
+   5:    1  ->  poppewagen
+   6:    1  ->  schonmannen
+   7:    1  ->  tande
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  achterdeur
+   2:    1  ->  dierentuin
+   3:    1  ->  elastiekje
+   4:    1  ->  familie
+   5:    1  ->  fototoestel
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  schommelen
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  verstoppertje
+  18:    1  ->  washandje
+  19:    1  ->  wasmachine
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  bironten
+   2:    1  ->  borstel
+   3:    1  ->  dedibier
+   4:    1  ->  echterdeur
+   5:    1  ->  famili
+   6:    1  ->  fototostaan
+   7:    1  ->  himonade
+   8:    1  ->  ibereen
+   9:    1  ->  makin
+  10:    1  ->  padden
+  11:    1  ->  ruzi
+  12:    1  ->  schonen
+  13:    1  ->  sneewitje
+  14:    1  ->  stolen
+  15:    1  ->  stoppertje
+  16:    1  ->  voor
+  17:    1  ->  wassendje
+  18:    1  ->  watmachine
+  19:    1  ->  winkel
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

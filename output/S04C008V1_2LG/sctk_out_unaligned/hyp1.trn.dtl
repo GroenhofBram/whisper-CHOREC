@@ -1,0 +1,265 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   99.1%   ( 107)
+
+Percent Correct           =    0.9%   (   1)
+
+Percent Substitution      =   80.6%   (  87)
+Percent Deletions         =   18.5%   (  20)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.9%
+
+
+Ref. words                =           ( 108)
+Hyp. words                =           (  88)
+Aligned words             =           ( 108)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    5  ->  * ==> g
+   2:    3  ->  * ==> e
+   3:    2  ->  * ==> die
+   4:    2  ->  * ==> i
+   5:    1  ->  * ==> a
+   6:    1  ->  * ==> bij
+   7:    1  ->  * ==> cht
+   8:    1  ->  * ==> d
+   9:    1  ->  * ==> da
+  10:    1  ->  * ==> dak
+  11:    1  ->  * ==> darinke
+  12:    1  ->  * ==> dat
+  13:    1  ->  * ==> dicht
+  14:    1  ->  * ==> drus
+  15:    1  ->  * ==> envalee
+  16:    1  ->  * ==> es
+  17:    1  ->  * ==> ga
+  18:    1  ->  * ==> ge
+  19:    1  ->  * ==> geg
+  20:    1  ->  * ==> h
+  21:    1  ->  * ==> ho
+  22:    1  ->  * ==> ialti
+  23:    1  ->  * ==> ik
+  24:    1  ->  * ==> il
+  25:    1  ->  * ==> isten
+  26:    1  ->  * ==> julie
+  27:    1  ->  * ==> koa
+  28:    1  ->  * ==> kola
+  29:    1  ->  * ==> lekers
+  30:    1  ->  * ==> li
+  31:    1  ->  * ==> mijn
+  32:    1  ->  * ==> nie?
+  33:    1  ->  * ==> o
+  34:    1  ->  * ==> ope
+  35:    1  ->  * ==> plas
+  36:    1  ->  * ==> sti
+  37:    1  ->  * ==> t
+  38:    1  ->  * ==> tee
+  39:    1  ->  * ==> tleen
+  40:    1  ->  * ==> uh
+  41:    1  ->  * ==> vi
+  42:    1  ->  * ==> waaruh
+  43:    1  ->  *(liefde) ==> vie
+  44:    1  ->  *(meisjes) ==> die
+  45:    1  ->  *(meisjes) ==> hebben
+  46:    1  ->  *x ==> alleen
+  47:    1  ->  appel ==> wek
+  48:    1  ->  chauffeur ==> wo
+  49:    1  ->  cola ==> bei
+  50:    1  ->  dichtbij ==> mesje
+  51:    1  ->  drinken ==> g
+  52:    1  ->  eerste*(eersten) ==> dilecter
+  53:    1  ->  fietsbel ==> nee
+  54:    1  ->  gooien ==> h
+  55:    1  ->  hoofdpijn ==> kom
+  56:    1  ->  koning ==> d
+  57:    1  ->  kussen ==> gs
+  58:    1  ->  lawaai ==> wiet
+  59:    1  ->  liedje ==> puto
+  60:    1  ->  meisje ==> want
+  61:    1  ->  moeder ==> d
+  62:    1  ->  moeilijk ==> g
+  63:    1  ->  muziek ==> dgl
+  64:    1  ->  muziek ==> nocg
+  65:    1  ->  opnieuw ==> vel
+  66:    1  ->  potlood ==> de
+  67:    1  ->  regen ==> k
+  68:    1  ->  scheuren ==> ik
+  69:    1  ->  sneeuwen ==> gwie
+  70:    1  ->  speelplaats ==> oto
+  71:    1  ->  stoppen ==> de
+  72:    1  ->  verhaal ==> vrouw
+  73:    1  ->  vinger ==> bij
+  74:    1  ->  vliegtuig ==> stel
+  75:    1  ->  vlinder ==> vo
+  76:    1  ->  voetbal ==> circes
+  77:    1  ->  vuurwerk ==> gwenen
+  78:    1  ->  waarom ==> choffer
+  79:    1  ->  zwemmen ==> g
+     -------
+        87
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:   13  ->  *
+   2:    1  ->  auto
+   3:    1  ->  drogen
+   4:    1  ->  kleuren
+   5:    1  ->  mevrouw
+   6:    1  ->  schouders
+   7:    1  ->  water
+   8:    1  ->  winkel
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   50  ->  *
+   2:    2  ->  *(meisjes)
+   3:    2  ->  muziek
+   4:    1  ->  *(liefde)
+   5:    1  ->  *x
+   6:    1  ->  appel
+   7:    1  ->  chauffeur
+   8:    1  ->  cola
+   9:    1  ->  dichtbij
+  10:    1  ->  drinken
+  11:    1  ->  eerste*(eersten)
+  12:    1  ->  fietsbel
+  13:    1  ->  gooien
+  14:    1  ->  hoofdpijn
+  15:    1  ->  koning
+  16:    1  ->  kussen
+  17:    1  ->  lawaai
+  18:    1  ->  liedje
+  19:    1  ->  meisje
+  20:    1  ->  moeder
+  21:    1  ->  moeilijk
+  22:    1  ->  opnieuw
+  23:    1  ->  potlood
+  24:    1  ->  regen
+  25:    1  ->  scheuren
+  26:    1  ->  sneeuwen
+  27:    1  ->  speelplaats
+  28:    1  ->  stoppen
+  29:    1  ->  verhaal
+  30:    1  ->  vinger
+  31:    1  ->  vliegtuig
+  32:    1  ->  vlinder
+  33:    1  ->  voetbal
+  34:    1  ->  vuurwerk
+  35:    1  ->  waarom
+  36:    1  ->  zwemmen
+     -------
+        87
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    8  ->  g
+   2:    3  ->  d
+   3:    3  ->  die
+   4:    3  ->  e
+   5:    2  ->  bij
+   6:    2  ->  de
+   7:    2  ->  h
+   8:    2  ->  i
+   9:    2  ->  ik
+  10:    1  ->  a
+  11:    1  ->  alleen
+  12:    1  ->  bei
+  13:    1  ->  choffer
+  14:    1  ->  cht
+  15:    1  ->  circes
+  16:    1  ->  da
+  17:    1  ->  dak
+  18:    1  ->  darinke
+  19:    1  ->  dat
+  20:    1  ->  dgl
+  21:    1  ->  dicht
+  22:    1  ->  dilecter
+  23:    1  ->  drus
+  24:    1  ->  envalee
+  25:    1  ->  es
+  26:    1  ->  ga
+  27:    1  ->  ge
+  28:    1  ->  geg
+  29:    1  ->  gs
+  30:    1  ->  gwenen
+  31:    1  ->  gwie
+  32:    1  ->  hebben
+  33:    1  ->  ho
+  34:    1  ->  ialti
+  35:    1  ->  il
+  36:    1  ->  isten
+  37:    1  ->  julie
+  38:    1  ->  k
+  39:    1  ->  koa
+  40:    1  ->  kola
+  41:    1  ->  kom
+  42:    1  ->  lekers
+  43:    1  ->  li
+  44:    1  ->  mesje
+  45:    1  ->  mijn
+  46:    1  ->  nee
+  47:    1  ->  nie?
+  48:    1  ->  nocg
+  49:    1  ->  o
+  50:    1  ->  ope
+  51:    1  ->  oto
+  52:    1  ->  plas
+  53:    1  ->  puto
+  54:    1  ->  stel
+  55:    1  ->  sti
+  56:    1  ->  t
+  57:    1  ->  tee
+  58:    1  ->  tleen
+  59:    1  ->  uh
+  60:    1  ->  vel
+  61:    1  ->  vi
+  62:    1  ->  vie
+  63:    1  ->  vo
+  64:    1  ->  vrouw
+  65:    1  ->  waaruh
+  66:    1  ->  want
+  67:    1  ->  wek
+  68:    1  ->  wiet
+  69:    1  ->  wo
+     -------
+        87
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

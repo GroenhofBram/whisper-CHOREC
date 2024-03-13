@@ -1,0 +1,276 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  105.1%   (  83)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  79)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    5.1%   (   4)
+Percent Word Accuracy     =   -5.1%
+
+
+Ref. words                =           (  79)
+Hyp. words                =           (  83)
+Aligned words             =           (  83)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    1  ->  * ==> boekje
+   2:    1  ->  * ==> bs
+   3:    1  ->  * ==> cluren
+   4:    1  ->  * ==> cu
+   5:    1  ->  * ==> dalspel
+   6:    1  ->  * ==> das
+   7:    1  ->  * ==> grouw
+   8:    1  ->  * ==> ha
+   9:    1  ->  * ==> is
+  10:    1  ->  * ==> ja
+  11:    1  ->  * ==> kap
+  12:    1  ->  * ==> kra
+  13:    1  ->  * ==> liesten
+  14:    1  ->  * ==> mannen
+  15:    1  ->  * ==> mate
+  16:    1  ->  * ==> ni
+  17:    1  ->  * ==> rook
+  18:    1  ->  * ==> sado
+  19:    1  ->  * ==> ssake
+  20:    1  ->  * ==> taroen
+  21:    1  ->  * ==> toe
+  22:    1  ->  * ==> tontonen
+  23:    1  ->  * ==> van
+  24:    1  ->  * ==> ver
+  25:    1  ->  * ==> voorwaarg
+  26:    1  ->  * ==> waar
+  27:    1  ->  * ==> wan
+  28:    1  ->  *(bakker) ==> te
+  29:    1  ->  *(kraai) ==> fabriek
+  30:    1  ->  *s ==> akertje
+  31:    1  ->  *s ==> alle
+  32:    1  ->  *s ==> defilk
+  33:    1  ->  *s ==> die
+  34:    1  ->  *s ==> giradg
+  35:    1  ->  *s ==> hate
+  36:    1  ->  *s ==> jaak
+  37:    1  ->  *s ==> kaal
+  38:    1  ->  *s ==> si
+  39:    1  ->  *s ==> waht
+  40:    1  ->  blottenduuf ==> kestas
+  41:    1  ->  choporatie ==> shokoravi
+  42:    1  ->  crobeklunker ==> kuler
+  43:    1  ->  deuveltek ==> nu
+  44:    1  ->  fandelig ==> smor
+  45:    1  ->  gerauwejaak ==> gr
+  46:    1  ->  gevijdel ==> sbreker
+  47:    1  ->  girdofhaalder ==> bengen
+  48:    1  ->  hapeneren*(haperen) ==> hartor
+  49:    1  ->  havedil ==> tobermoic
+  50:    1  ->  ijraspangen ==> bral
+  51:    1  ->  jalekrewen ==> ek
+  52:    1  ->  jattesiet ==> sonja
+  53:    1  ->  juitonie ==> zint
+  54:    1  ->  kabbestepen ==> rooi
+  55:    1  ->  kanaroe*(kanarie) ==> kanari
+  56:    1  ->  kantelogsten ==> kanijnslogen
+  57:    1  ->  mantaroen*(mannen) ==> das
+  58:    1  ->  meitsegrok ==> moser
+  59:    1  ->  nappegreeuw ==> gitel
+  60:    1  ->  nurudien ==> ja
+  61:    1  ->  ometuif ==> onwerlen
+  62:    1  ->  ondermind ==> ondermeding
+  63:    1  ->  ooiebiekje ==> waren
+  64:    1  ->  oonwijlen ==> mr
+  65:    1  ->  poentalschouden ==> daf
+  66:    1  ->  schielendaspen ==> gepok
+  67:    1  ->  sidowaan ==> mik
+  68:    1  ->  smoralij ==> verg
+  69:    1  ->  spekkeraai*(spreker) ==> i
+  70:    1  ->  stoenydaas ==> gekel
+  71:    1  ->  tobbermoeit ==> bloten
+  72:    1  ->  toejietsen ==> jae
+  73:    1  ->  toineetlijgen ==> legen
+  74:    1  ->  verbrakkertje ==> rom
+  75:    1  ->  verpierik ==> i
+  76:    1  ->  verwarig ==> dele
+  77:    1  ->  wachteniek ==> napergreeuw
+  78:    1  ->  zeekvlachine ==> niek
+  79:    1  ->  zennebral ==> zenen
+     -------
+        79
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  da
+   2:    1  ->  ho
+   3:    1  ->  motda
+   4:    1  ->  oem
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:   27  ->  *
+   2:   10  ->  *s
+   3:    1  ->  *(bakker)
+   4:    1  ->  *(kraai)
+   5:    1  ->  blottenduuf
+   6:    1  ->  choporatie
+   7:    1  ->  crobeklunker
+   8:    1  ->  deuveltek
+   9:    1  ->  fandelig
+  10:    1  ->  gerauwejaak
+  11:    1  ->  gevijdel
+  12:    1  ->  girdofhaalder
+  13:    1  ->  hapeneren*(haperen)
+  14:    1  ->  havedil
+  15:    1  ->  ijraspangen
+  16:    1  ->  jalekrewen
+  17:    1  ->  jattesiet
+  18:    1  ->  juitonie
+  19:    1  ->  kabbestepen
+  20:    1  ->  kanaroe*(kanarie)
+  21:    1  ->  kantelogsten
+  22:    1  ->  mantaroen*(mannen)
+  23:    1  ->  meitsegrok
+  24:    1  ->  nappegreeuw
+  25:    1  ->  nurudien
+  26:    1  ->  ometuif
+  27:    1  ->  ondermind
+  28:    1  ->  ooiebiekje
+  29:    1  ->  oonwijlen
+  30:    1  ->  poentalschouden
+  31:    1  ->  schielendaspen
+  32:    1  ->  sidowaan
+  33:    1  ->  smoralij
+  34:    1  ->  spekkeraai*(spreker)
+  35:    1  ->  stoenydaas
+  36:    1  ->  tobbermoeit
+  37:    1  ->  toejietsen
+  38:    1  ->  toineetlijgen
+  39:    1  ->  verbrakkertje
+  40:    1  ->  verpierik
+  41:    1  ->  verwarig
+  42:    1  ->  wachteniek
+  43:    1  ->  zeekvlachine
+  44:    1  ->  zennebral
+     -------
+        79
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    2  ->  das
+   2:    2  ->  i
+   3:    2  ->  ja
+   4:    1  ->  akertje
+   5:    1  ->  alle
+   6:    1  ->  bengen
+   7:    1  ->  bloten
+   8:    1  ->  boekje
+   9:    1  ->  bral
+  10:    1  ->  bs
+  11:    1  ->  cluren
+  12:    1  ->  cu
+  13:    1  ->  daf
+  14:    1  ->  dalspel
+  15:    1  ->  defilk
+  16:    1  ->  dele
+  17:    1  ->  die
+  18:    1  ->  ek
+  19:    1  ->  fabriek
+  20:    1  ->  gekel
+  21:    1  ->  gepok
+  22:    1  ->  giradg
+  23:    1  ->  gitel
+  24:    1  ->  gr
+  25:    1  ->  grouw
+  26:    1  ->  ha
+  27:    1  ->  hartor
+  28:    1  ->  hate
+  29:    1  ->  is
+  30:    1  ->  jaak
+  31:    1  ->  jae
+  32:    1  ->  kaal
+  33:    1  ->  kanari
+  34:    1  ->  kanijnslogen
+  35:    1  ->  kap
+  36:    1  ->  kestas
+  37:    1  ->  kra
+  38:    1  ->  kuler
+  39:    1  ->  legen
+  40:    1  ->  liesten
+  41:    1  ->  mannen
+  42:    1  ->  mate
+  43:    1  ->  mik
+  44:    1  ->  moser
+  45:    1  ->  mr
+  46:    1  ->  napergreeuw
+  47:    1  ->  ni
+  48:    1  ->  niek
+  49:    1  ->  nu
+  50:    1  ->  ondermeding
+  51:    1  ->  onwerlen
+  52:    1  ->  rom
+  53:    1  ->  rooi
+  54:    1  ->  rook
+  55:    1  ->  sado
+  56:    1  ->  sbreker
+  57:    1  ->  shokoravi
+  58:    1  ->  si
+  59:    1  ->  smor
+  60:    1  ->  sonja
+  61:    1  ->  ssake
+  62:    1  ->  taroen
+  63:    1  ->  te
+  64:    1  ->  tobermoic
+  65:    1  ->  toe
+  66:    1  ->  tontonen
+  67:    1  ->  van
+  68:    1  ->  ver
+  69:    1  ->  verg
+  70:    1  ->  voorwaarg
+  71:    1  ->  waar
+  72:    1  ->  waht
+  73:    1  ->  wan
+  74:    1  ->  waren
+  75:    1  ->  zenen
+  76:    1  ->  zint
+     -------
+        79
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

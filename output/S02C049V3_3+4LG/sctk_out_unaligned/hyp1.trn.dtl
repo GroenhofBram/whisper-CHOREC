@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.7%   (  44)
+
+Percent Correct           =   39.6%   (  19)
+
+Percent Substitution      =   58.3%   (  28)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =   31.3%   (  15)
+Percent Word Accuracy     =    8.3%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  62)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> foto
+   2:    1  ->  * ==> goeie
+   3:    1  ->  * ==> hanthe
+   4:    1  ->  * ==> konnijnhoek
+   5:    1  ->  * ==> ruzie
+   6:    1  ->  * ==> schoene
+   7:    1  ->  achterdeur ==> achterdeurziekenhuis
+   8:    1  ->  elastiekje ==> maken
+   9:    1  ->  fototoestel ==> t
+  10:    1  ->  goeiendag ==> dag
+  11:    1  ->  konijnenhok ==> elastikja
+  12:    1  ->  lucifer ==> sifer
+  13:    1  ->  nieuwsgierig ==> sgierig
+  14:    1  ->  omdraaien ==> in
+  15:    1  ->  paddenstoelen ==> chine
+  16:    1  ->  poppenwagen ==> lastik
+  17:    1  ->  ruziemaken ==> teddi
+  18:    1  ->  schoenenwinkel ==> winkel
+  19:    1  ->  sneeuwwitje ==> gooiendag
+  20:    1  ->  tandenborstel ==> u
+  21:    1  ->  teddybeer ==> beer
+  22:    1  ->  toiletpapier ==> papier
+  23:    1  ->  verstoppertje ==> toustal
+  24:    1  ->  vogelkooi ==> vogolkooi
+  25:    1  ->  vogelkooi ==> volgelkooi
+  26:    1  ->  washandje ==> sneeuwwie
+  27:    1  ->  wasmachine ==> tole
+  28:    1  ->  ziekenhuis ==> nieuw
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  was
+   2:    1  ->  borstel
+   3:    1  ->  ma
+   4:    1  ->  ondeen
+   5:    1  ->  ondrei
+   6:    1  ->  paddes
+   7:    1  ->  parcha?
+   8:    1  ->  poppenweggen
+   9:    1  ->  schoene
+  10:    1  ->  tanden
+  11:    1  ->  toelen
+  12:    1  ->  ver
+  13:    1  ->  verstopt
+  14:    1  ->  washa
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    6  ->  *
+   2:    2  ->  vogelkooi
+   3:    1  ->  achterdeur
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  goeiendag
+   7:    1  ->  konijnenhok
+   8:    1  ->  lucifer
+   9:    1  ->  nieuwsgierig
+  10:    1  ->  omdraaien
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  sneeuwwitje
+  16:    1  ->  tandenborstel
+  17:    1  ->  teddybeer
+  18:    1  ->  toiletpapier
+  19:    1  ->  verstoppertje
+  20:    1  ->  washandje
+  21:    1  ->  wasmachine
+  22:    1  ->  ziekenhuis
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  achterdeurziekenhuis
+   2:    1  ->  beer
+   3:    1  ->  chine
+   4:    1  ->  dag
+   5:    1  ->  elastikja
+   6:    1  ->  foto
+   7:    1  ->  goeie
+   8:    1  ->  gooiendag
+   9:    1  ->  hanthe
+  10:    1  ->  in
+  11:    1  ->  konnijnhoek
+  12:    1  ->  lastik
+  13:    1  ->  maken
+  14:    1  ->  nieuw
+  15:    1  ->  papier
+  16:    1  ->  ruzie
+  17:    1  ->  schoene
+  18:    1  ->  sgierig
+  19:    1  ->  sifer
+  20:    1  ->  sneeuwwie
+  21:    1  ->  t
+  22:    1  ->  teddi
+  23:    1  ->  tole
+  24:    1  ->  toustal
+  25:    1  ->  u
+  26:    1  ->  vogolkooi
+  27:    1  ->  volgelkooi
+  28:    1  ->  winkel
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C044M2_1LG
+
+#### (S02C044M2_1LG-words)
+
+- Cor=20.4%	Sub=68.5%	Del=11.1%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | * | klas | mooi | koe | arm | groei | strand | * | * | bed | eerst | voor | * | * | draai | sjaal | herfst | * | * | duur | straat*(staart) | leeuw | clown | hoek | * | * | krant | hout | vriend | gauw | chips | groen | feest | * | reis | jas | huis | * | paard*(paarden) | vijf | muts | nieuw | kind | bang | oog | zacht*(zegt) | schoen | * | plas | neus | knoop | * | * | plank |
+| HYP1 |  |  |  | teres | tans | go | go | ar | goen | sterenmet | eerst | voor |  | dar | i | der | s | ha | p | pa | spart | lo | sola | hoek | tka | ga | ront | hout | grind | gauw | gint | groen | feest | gi | res | jas | lus | es | erje | vef | dust | jio | kind | pa | oog | egt | schoen |  |  | pu | blas | nees | op | blank |
+| EVAL | D | D | D | S | S | S | S | S | S | S |  |  | D | S | S | S | S | S | S | S | S | S | S |  | S | S | S |  | S |  | S |  |  | S | S |  | S | S | S | S | S | S |  | S |  | S |  | D | D | S | S | S | S | S |
+---
+
+---

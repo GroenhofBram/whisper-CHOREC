@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.1%   (  23)
+
+Percent Correct           =   58.5%   (  24)
+
+Percent Substitution      =   41.5%   (  17)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   14.6%   (   6)
+Percent Word Accuracy     =   43.9%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> nieuws
+   2:    1  ->  autorijden ==> uitorijde
+   3:    1  ->  dierentuin ==> dierenturn
+   4:    1  ->  elastiekje ==> ruzie
+   5:    1  ->  iedereen ==> schoenen
+   6:    1  ->  knutselen ==> knitselen
+   7:    1  ->  konijnenhok ==> ja
+   8:    1  ->  limonade ==> lemonade
+   9:    1  ->  poppenwagen ==> elastiek
+  10:    1  ->  ruziemaken ==> maken
+  11:    1  ->  schoenenwinkel ==> winkel
+  12:    1  ->  schommelen ==> idereen
+  13:    1  ->  sneeuwwitje ==> sneewwitje
+  14:    1  ->  tandenborstel ==> borstel
+  15:    1  ->  teddybeer ==> deddibier
+  16:    1  ->  verstoppertje ==> verstoppertja
+  17:    1  ->  ziekenhuis ==> huis
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  in
+   2:    1  ->  konijnenhoek
+   3:    1  ->  koppenwagen
+   4:    1  ->  schomelen
+   5:    1  ->  tanden
+   6:    1  ->  ziek
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  iedereen
+   6:    1  ->  knutselen
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  poppenwagen
+  10:    1  ->  ruziemaken
+  11:    1  ->  schoenenwinkel
+  12:    1  ->  schommelen
+  13:    1  ->  sneeuwwitje
+  14:    1  ->  tandenborstel
+  15:    1  ->  teddybeer
+  16:    1  ->  verstoppertje
+  17:    1  ->  ziekenhuis
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  borstel
+   2:    1  ->  deddibier
+   3:    1  ->  dierenturn
+   4:    1  ->  elastiek
+   5:    1  ->  huis
+   6:    1  ->  idereen
+   7:    1  ->  ja
+   8:    1  ->  knitselen
+   9:    1  ->  lemonade
+  10:    1  ->  maken
+  11:    1  ->  nieuws
+  12:    1  ->  ruzie
+  13:    1  ->  schoenen
+  14:    1  ->  sneewwitje
+  15:    1  ->  uitorijde
+  16:    1  ->  verstoppertja
+  17:    1  ->  winkel
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

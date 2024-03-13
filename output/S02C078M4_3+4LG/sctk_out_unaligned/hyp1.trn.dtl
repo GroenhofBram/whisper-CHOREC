@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  47)
+
+Percent Correct           =   36.2%   (  17)
+
+Percent Substitution      =   61.7%   (  29)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =   36.2%   (  17)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  63)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> dan
+   2:    1  ->  * ==> rijden
+   3:    1  ->  * ==> schoenen
+   4:    1  ->  * ==> sneeuwwietje
+   5:    1  ->  * ==> stoelen
+   6:    1  ->  * ==> ufi
+   7:    1  ->  * ==> wilken
+   8:    1  ->  * ==> winkel
+   9:    1  ->  autorijden ==> auto
+  10:    1  ->  dierentuin ==> padden
+  11:    1  ->  eindelijk ==> oneindelijk
+  12:    1  ->  elastiekje ==> en
+  13:    1  ->  fototoestel ==> toet
+  14:    1  ->  iedereen ==> schoen
+  15:    1  ->  konijnenhok ==> hier
+  16:    1  ->  limonade ==> dale
+  17:    1  ->  olifant ==> schommenen
+  18:    1  ->  paddenstoelen ==> verstoepardje
+  19:    1  ->  poppenwagen ==> pier
+  20:    1  ->  ruziemaken ==> tuin
+  21:    1  ->  schommelen ==> idereen
+  22:    1  ->  sneeuwwitje ==> wosrandje
+  23:    1  ->  sprookjesboek ==> nen
+  24:    1  ->  tandenborstel ==> borstel
+  25:    1  ->  teddybeer ==> padde
+  26:    1  ->  toiletpapier ==> papier
+  27:    1  ->  verstoppertje ==> rashmachine
+  28:    1  ->  vogelkooi ==> s
+  29:    1  ->  wasmachine ==> fuitatoestel
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  alifant
+   2:    1  ->  ded
+   3:    1  ->  di
+   4:    1  ->  en
+   5:    1  ->  hok
+   6:    1  ->  innen
+   7:    1  ->  koi
+   8:    1  ->  kon
+   9:    1  ->  la
+  10:    1  ->  maken
+  11:    1  ->  niema
+  12:    1  ->  popen
+  13:    1  ->  ruzie
+  14:    1  ->  ssprookjesboek
+  15:    1  ->  stiekio
+  16:    1  ->  vorgel
+  17:    1  ->  wagen
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  washandje
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    8  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  dierentuin
+   4:    1  ->  eindelijk
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  iedereen
+   8:    1  ->  konijnenhok
+   9:    1  ->  limonade
+  10:    1  ->  olifant
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schommelen
+  15:    1  ->  sneeuwwitje
+  16:    1  ->  sprookjesboek
+  17:    1  ->  tandenborstel
+  18:    1  ->  teddybeer
+  19:    1  ->  toiletpapier
+  20:    1  ->  verstoppertje
+  21:    1  ->  vogelkooi
+  22:    1  ->  wasmachine
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  auto
+   2:    1  ->  borstel
+   3:    1  ->  dale
+   4:    1  ->  dan
+   5:    1  ->  en
+   6:    1  ->  fuitatoestel
+   7:    1  ->  hier
+   8:    1  ->  idereen
+   9:    1  ->  nen
+  10:    1  ->  oneindelijk
+  11:    1  ->  padde
+  12:    1  ->  padden
+  13:    1  ->  papier
+  14:    1  ->  pier
+  15:    1  ->  rashmachine
+  16:    1  ->  rijden
+  17:    1  ->  s
+  18:    1  ->  schoen
+  19:    1  ->  schoenen
+  20:    1  ->  schommenen
+  21:    1  ->  sneeuwwietje
+  22:    1  ->  stoelen
+  23:    1  ->  toet
+  24:    1  ->  tuin
+  25:    1  ->  ufi
+  26:    1  ->  verstoepardje
+  27:    1  ->  wilken
+  28:    1  ->  winkel
+  29:    1  ->  wosrandje
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

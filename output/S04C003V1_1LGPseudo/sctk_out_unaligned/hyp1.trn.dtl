@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  42)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   69.0%   (  29)
+Percent Deletions         =   31.0%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  29)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> fad
+   2:    1  ->  * ==> hoo
+   3:    1  ->  blard ==> fan
+   4:    1  ->  doer ==> and
+   5:    1  ->  dron ==> on
+   6:    1  ->  eem ==> ak
+   7:    1  ->  frijk ==> sel
+   8:    1  ->  grek ==> ak
+   9:    1  ->  guul ==> e
+  10:    1  ->  haans ==> nor
+  11:    1  ->  heik ==> len
+  12:    1  ->  hoekt ==> kengwoord
+  13:    1  ->  jien ==> j
+  14:    1  ->  keng ==> o
+  15:    1  ->  leum ==> neel
+  16:    1  ->  neeuw ==> ho
+  17:    1  ->  noork ==> eer
+  18:    1  ->  plirt ==> be
+  19:    1  ->  roen ==> e
+  20:    1  ->  sank ==> hand
+  21:    1  ->  schard ==> hoon
+  22:    1  ->  sjalt ==> za
+  23:    1  ->  snaaf ==> re
+  24:    1  ->  spaai ==> fi
+  25:    1  ->  sprieuw ==> vok
+  26:    1  ->  stuid ==> n
+  27:    1  ->  swoers ==> da
+  28:    1  ->  vid ==> er
+  29:    1  ->  zans ==> hookt
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ant
+   2:    1  ->  beeg
+   3:    1  ->  dau
+   4:    1  ->  fam
+   5:    1  ->  fook
+   6:    1  ->  hool
+   7:    1  ->  larst
+   8:    1  ->  rachts
+   9:    1  ->  sooi
+  10:    1  ->  sprunt
+  11:    1  ->  vaap
+  12:    1  ->  vout
+  13:    1  ->  zwoei
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  *
+   2:    1  ->  blard
+   3:    1  ->  doer
+   4:    1  ->  dron
+   5:    1  ->  eem
+   6:    1  ->  frijk
+   7:    1  ->  grek
+   8:    1  ->  guul
+   9:    1  ->  haans
+  10:    1  ->  heik
+  11:    1  ->  hoekt
+  12:    1  ->  jien
+  13:    1  ->  keng
+  14:    1  ->  leum
+  15:    1  ->  neeuw
+  16:    1  ->  noork
+  17:    1  ->  plirt
+  18:    1  ->  roen
+  19:    1  ->  sank
+  20:    1  ->  schard
+  21:    1  ->  sjalt
+  22:    1  ->  snaaf
+  23:    1  ->  spaai
+  24:    1  ->  sprieuw
+  25:    1  ->  stuid
+  26:    1  ->  swoers
+  27:    1  ->  vid
+  28:    1  ->  zans
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  ak
+   2:    2  ->  e
+   3:    1  ->  and
+   4:    1  ->  be
+   5:    1  ->  da
+   6:    1  ->  eer
+   7:    1  ->  er
+   8:    1  ->  fad
+   9:    1  ->  fan
+  10:    1  ->  fi
+  11:    1  ->  hand
+  12:    1  ->  ho
+  13:    1  ->  hoo
+  14:    1  ->  hookt
+  15:    1  ->  hoon
+  16:    1  ->  j
+  17:    1  ->  kengwoord
+  18:    1  ->  len
+  19:    1  ->  n
+  20:    1  ->  neel
+  21:    1  ->  nor
+  22:    1  ->  o
+  23:    1  ->  on
+  24:    1  ->  re
+  25:    1  ->  sel
+  26:    1  ->  vok
+  27:    1  ->  za
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

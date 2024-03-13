@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.0%   (  18)
+
+Percent Correct           =   55.0%   (  22)
+
+Percent Substitution      =   45.0%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  bang ==> ban
+   2:    1  ->  clown ==> klauwen
+   3:    1  ->  gauw ==> gau
+   4:    1  ->  groei ==> grooi
+   5:    1  ->  groen ==> goen
+   6:    1  ->  herfst ==> herst
+   7:    1  ->  hout ==> hut
+   8:    1  ->  huis ==> he
+   9:    1  ->  kind ==> kint
+  10:    1  ->  koe ==> koo
+  11:    1  ->  muts ==> buts
+  12:    1  ->  neus ==> duis
+  13:    1  ->  nieuw ==> lio
+  14:    1  ->  oog ==> och
+  15:    1  ->  paard ==> part
+  16:    1  ->  reis ==> res
+  17:    1  ->  sjaal ==> shal
+  18:    1  ->  vijf ==> fef
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  bang
+   2:    1  ->  clown
+   3:    1  ->  gauw
+   4:    1  ->  groei
+   5:    1  ->  groen
+   6:    1  ->  herfst
+   7:    1  ->  hout
+   8:    1  ->  huis
+   9:    1  ->  kind
+  10:    1  ->  koe
+  11:    1  ->  muts
+  12:    1  ->  neus
+  13:    1  ->  nieuw
+  14:    1  ->  oog
+  15:    1  ->  paard
+  16:    1  ->  reis
+  17:    1  ->  sjaal
+  18:    1  ->  vijf
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  ban
+   2:    1  ->  buts
+   3:    1  ->  duis
+   4:    1  ->  fef
+   5:    1  ->  gau
+   6:    1  ->  goen
+   7:    1  ->  grooi
+   8:    1  ->  he
+   9:    1  ->  herst
+  10:    1  ->  hut
+  11:    1  ->  kint
+  12:    1  ->  klauwen
+  13:    1  ->  koo
+  14:    1  ->  lio
+  15:    1  ->  och
+  16:    1  ->  part
+  17:    1  ->  res
+  18:    1  ->  shal
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

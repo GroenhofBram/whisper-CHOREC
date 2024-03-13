@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.8%   (  23)
+
+Percent Correct           =   54.8%   (  23)
+
+Percent Substitution      =   40.5%   (  17)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    9.5%   (   4)
+Percent Word Accuracy     =   45.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> bia
+   2:    1  ->  appel ==> abbel
+   3:    1  ->  auto ==> autol
+   4:    1  ->  circus ==> surcus
+   5:    1  ->  dichtbij ==> v
+   6:    1  ->  eerste*(eersten) ==> doen
+   7:    1  ->  kleuren ==> cleren
+   8:    1  ->  lawaai ==> lawi
+   9:    1  ->  liedje ==> ietje
+  10:    1  ->  potlood ==> potlout
+  11:    1  ->  regen ==> hoofdpijppijnregen
+  12:    1  ->  scheuren ==> schern
+  13:    1  ->  vinger ==> bij
+  14:    1  ->  vuurwerk ==> vierwelk
+  15:    1  ->  waarom ==> waron
+  16:    1  ->  winkel ==> brinkel
+  17:    1  ->  zwemmen ==> sewemmen
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  de
+   2:    1  ->  eers
+   3:    1  ->  tegen
+   4:    1  ->  vener
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  hoofdpijn
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  eerste*(eersten)
+   7:    1  ->  kleuren
+   8:    1  ->  lawaai
+   9:    1  ->  liedje
+  10:    1  ->  potlood
+  11:    1  ->  regen
+  12:    1  ->  scheuren
+  13:    1  ->  vinger
+  14:    1  ->  vuurwerk
+  15:    1  ->  waarom
+  16:    1  ->  winkel
+  17:    1  ->  zwemmen
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  abbel
+   2:    1  ->  autol
+   3:    1  ->  bia
+   4:    1  ->  bij
+   5:    1  ->  brinkel
+   6:    1  ->  cleren
+   7:    1  ->  doen
+   8:    1  ->  hoofdpijppijnregen
+   9:    1  ->  ietje
+  10:    1  ->  lawi
+  11:    1  ->  potlout
+  12:    1  ->  schern
+  13:    1  ->  sewemmen
+  14:    1  ->  surcus
+  15:    1  ->  v
+  16:    1  ->  vierwelk
+  17:    1  ->  waron
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

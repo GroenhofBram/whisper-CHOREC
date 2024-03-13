@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   84.4%   (  38)
+
+Percent Correct           =   15.6%   (   7)
+
+Percent Substitution      =   77.8%   (  35)
+Percent Deletions         =    6.7%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   15.6%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  42)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> fat
+   2:    1  ->  * ==> ien
+   3:    1  ->  * ==> schagt
+   4:    1  ->  * ==> sours-tour-pliht
+   5:    1  ->  * ==> uul
+   6:    1  ->  * ==> veswo
+   7:    1  ->  *(ent) ==> en
+   8:    1  ->  *(jij) ==> ja
+   9:    1  ->  *(zwoeg) ==> soug
+  10:    1  ->  ant ==> ont
+  11:    1  ->  blard ==> blaht
+  12:    1  ->  dau ==> dal
+  13:    1  ->  dron ==> drom
+  14:    1  ->  eem ==> lim
+  15:    1  ->  fam ==> fan
+  16:    1  ->  fook ==> vork
+  17:    1  ->  frijk ==> frerk
+  18:    1  ->  grek ==> gek
+  19:    1  ->  haans ==> hans
+  20:    1  ->  heik ==> herk
+  21:    1  ->  hool ==> hoor
+  22:    1  ->  leum ==> nem
+  23:    1  ->  neeuw ==> neew
+  24:    1  ->  noork ==> nort
+  25:    1  ->  rachts ==> recht
+  26:    1  ->  schard ==> schacht
+  27:    1  ->  sjalt ==> sjold
+  28:    1  ->  snaaf ==> snaf
+  29:    1  ->  sooi ==> sov
+  30:    1  ->  spaai ==> spi
+  31:    1  ->  sprieuw ==> spreo
+  32:    1  ->  stuid ==> sttt
+  33:    1  ->  vaap ==> fap
+  34:    1  ->  vid ==> vit
+  35:    1  ->  zans ==> san
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  doer
+   2:    1  ->  plirt
+   3:    1  ->  swoers
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    6  ->  *
+   2:    1  ->  *(ent)
+   3:    1  ->  *(jij)
+   4:    1  ->  *(zwoeg)
+   5:    1  ->  ant
+   6:    1  ->  blard
+   7:    1  ->  dau
+   8:    1  ->  dron
+   9:    1  ->  eem
+  10:    1  ->  fam
+  11:    1  ->  fook
+  12:    1  ->  frijk
+  13:    1  ->  grek
+  14:    1  ->  haans
+  15:    1  ->  heik
+  16:    1  ->  hool
+  17:    1  ->  leum
+  18:    1  ->  neeuw
+  19:    1  ->  noork
+  20:    1  ->  rachts
+  21:    1  ->  schard
+  22:    1  ->  sjalt
+  23:    1  ->  snaaf
+  24:    1  ->  sooi
+  25:    1  ->  spaai
+  26:    1  ->  sprieuw
+  27:    1  ->  stuid
+  28:    1  ->  vaap
+  29:    1  ->  vid
+  30:    1  ->  zans
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  blaht
+   2:    1  ->  dal
+   3:    1  ->  drom
+   4:    1  ->  en
+   5:    1  ->  fan
+   6:    1  ->  fap
+   7:    1  ->  fat
+   8:    1  ->  frerk
+   9:    1  ->  gek
+  10:    1  ->  hans
+  11:    1  ->  herk
+  12:    1  ->  hoor
+  13:    1  ->  ien
+  14:    1  ->  ja
+  15:    1  ->  lim
+  16:    1  ->  neew
+  17:    1  ->  nem
+  18:    1  ->  nort
+  19:    1  ->  ont
+  20:    1  ->  recht
+  21:    1  ->  san
+  22:    1  ->  schacht
+  23:    1  ->  schagt
+  24:    1  ->  sjold
+  25:    1  ->  snaf
+  26:    1  ->  soug
+  27:    1  ->  sours-tour-pliht
+  28:    1  ->  sov
+  29:    1  ->  spi
+  30:    1  ->  spreo
+  31:    1  ->  sttt
+  32:    1  ->  uul
+  33:    1  ->  veswo
+  34:    1  ->  vit
+  35:    1  ->  vork
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

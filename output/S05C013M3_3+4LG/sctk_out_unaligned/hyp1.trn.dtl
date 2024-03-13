@@ -1,0 +1,235 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.3%   (  72)
+
+Percent Correct           =   13.5%   (  10)
+
+Percent Substitution      =   86.5%   (  64)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   10.8%   (   8)
+Percent Word Accuracy     =    2.7%
+
+
+Ref. words                =           (  74)
+Hyp. words                =           (  82)
+Aligned words             =           (  82)
+
+CONFUSION PAIRS                  Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    1  ->  * ==> aa
+   2:    1  ->  * ==> acht
+   3:    1  ->  * ==> ah
+   4:    1  ->  * ==> anten
+   5:    1  ->  * ==> belt
+   6:    1  ->  * ==> boekjes
+   7:    1  ->  * ==> dibir
+   8:    1  ->  * ==> dier
+   9:    1  ->  * ==> go
+  10:    1  ->  * ==> maken
+  11:    1  ->  * ==> mi
+  12:    1  ->  * ==> nieuwsgierig
+  13:    1  ->  * ==> of
+  14:    1  ->  * ==> op
+  15:    1  ->  * ==> opophanden
+  16:    1  ->  * ==> papier
+  17:    1  ->  * ==> pat
+  18:    1  ->  * ==> sch
+  19:    1  ->  * ==> spoor
+  20:    1  ->  * ==> ss
+  21:    1  ->  * ==> telefe
+  22:    1  ->  * ==> tet
+  23:    1  ->  * ==> toli
+  24:    1  ->  * ==> tom
+  25:    1  ->  * ==> voor
+  26:    1  ->  * ==> wagen
+  27:    1  ->  * ==> washandjes
+  28:    1  ->  *(kabouterboot) ==> blijven
+  29:    1  ->  *(paddenstoel) ==> verstoepertje
+  30:    1  ->  *s ==> borstel
+  31:    1  ->  *s ==> een
+  32:    1  ->  *s ==> iemande
+  33:    1  ->  *s ==> papier
+  34:    1  ->  *s ==> ruzie
+  35:    1  ->  *s ==> sneeuwwip
+  36:    1  ->  *s ==> ss
+  37:    1  ->  afblijven ==> of
+  38:    1  ->  autorijden ==> rijden
+  39:    1  ->  buurmannen*(buurman) ==> burenman
+  40:    1  ->  dierentuin ==> een
+  41:    1  ->  eindelijk*(eiland) ==> eiland
+  42:    1  ->  goeiendag ==> kis
+  43:    1  ->  kabouter ==> kabaotur
+  44:    1  ->  knutselen ==> kuers
+  45:    1  ->  konijnenhok ==> istiek
+  46:    1  ->  limonade ==> auto
+  47:    1  ->  lucifer ==> jurkis
+  48:    1  ->  omdraaien ==> en
+  49:    1  ->  ophangen ==> een
+  50:    1  ->  paddenstoelen ==> stoel
+  51:    1  ->  poppenwagen ==> die
+  52:    1  ->  ruziemaken ==> dierentuim
+  53:    1  ->  schoenenwinkel*(schoenwinkel) ==> kusem
+  54:    1  ->  schommelen*(schommel) ==> schommel
+  55:    1  ->  sneeuwwitje ==> ka
+  56:    1  ->  sprookjesboek ==> sprongbroetjes
+  57:    1  ->  tandenborstel ==> de
+  58:    1  ->  teddybeer ==> stoel
+  59:    1  ->  toiletpapier ==> foli
+  60:    1  ->  verjaardag ==> jaardag
+  61:    1  ->  verstoppertje ==> was
+  62:    1  ->  vrachtwagen ==> vraag
+  63:    1  ->  washandje*(washandjes) ==> boot
+  64:    1  ->  wasmachine ==> machine
+     -------
+        64
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  aen
+   3:    1  ->  hoek
+   4:    1  ->  konijnen
+   5:    1  ->  omdraien
+   6:    1  ->  poepenwagen
+   7:    1  ->  schoenwinkel
+   8:    1  ->  tee
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:   27  ->  *
+   2:    7  ->  *s
+   3:    1  ->  *(kabouterboot)
+   4:    1  ->  *(paddenstoel)
+   5:    1  ->  afblijven
+   6:    1  ->  autorijden
+   7:    1  ->  buurmannen*(buurman)
+   8:    1  ->  dierentuin
+   9:    1  ->  eindelijk*(eiland)
+  10:    1  ->  goeiendag
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  omdraaien
+  17:    1  ->  ophangen
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel*(schoenwinkel)
+  22:    1  ->  schommelen*(schommel)
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  verjaardag
+  29:    1  ->  verstoppertje
+  30:    1  ->  vrachtwagen
+  31:    1  ->  washandje*(washandjes)
+  32:    1  ->  wasmachine
+     -------
+        64
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    3  ->  een
+   2:    2  ->  of
+   3:    2  ->  papier
+   4:    2  ->  ss
+   5:    2  ->  stoel
+   6:    1  ->  aa
+   7:    1  ->  acht
+   8:    1  ->  ah
+   9:    1  ->  anten
+  10:    1  ->  auto
+  11:    1  ->  belt
+  12:    1  ->  blijven
+  13:    1  ->  boekjes
+  14:    1  ->  boot
+  15:    1  ->  borstel
+  16:    1  ->  burenman
+  17:    1  ->  de
+  18:    1  ->  dibir
+  19:    1  ->  die
+  20:    1  ->  dier
+  21:    1  ->  dierentuim
+  22:    1  ->  eiland
+  23:    1  ->  en
+  24:    1  ->  foli
+  25:    1  ->  go
+  26:    1  ->  iemande
+  27:    1  ->  istiek
+  28:    1  ->  jaardag
+  29:    1  ->  jurkis
+  30:    1  ->  ka
+  31:    1  ->  kabaotur
+  32:    1  ->  kis
+  33:    1  ->  kuers
+  34:    1  ->  kusem
+  35:    1  ->  machine
+  36:    1  ->  maken
+  37:    1  ->  mi
+  38:    1  ->  nieuwsgierig
+  39:    1  ->  op
+  40:    1  ->  opophanden
+  41:    1  ->  pat
+  42:    1  ->  rijden
+  43:    1  ->  ruzie
+  44:    1  ->  sch
+  45:    1  ->  schommel
+  46:    1  ->  sneeuwwip
+  47:    1  ->  spoor
+  48:    1  ->  sprongbroetjes
+  49:    1  ->  telefe
+  50:    1  ->  tet
+  51:    1  ->  toli
+  52:    1  ->  tom
+  53:    1  ->  verstoepertje
+  54:    1  ->  voor
+  55:    1  ->  vraag
+  56:    1  ->  wagen
+  57:    1  ->  was
+  58:    1  ->  washandjes
+     -------
+        64
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

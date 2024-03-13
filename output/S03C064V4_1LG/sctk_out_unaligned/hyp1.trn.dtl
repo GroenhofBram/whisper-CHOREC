@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.5%   (  17)
+
+Percent Correct           =   58.5%   (  24)
+
+Percent Substitution      =   39.0%   (  16)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> sa
+   2:    1  ->  bang ==> bank
+   3:    1  ->  bed ==> bit
+   4:    1  ->  chips ==> gouchips
+   5:    1  ->  clown ==> klan
+   6:    1  ->  gauw ==> vriemd
+   7:    1  ->  groei ==> grooi
+   8:    1  ->  hoek ==> hook
+   9:    1  ->  knoop ==> knop
+  10:    1  ->  koe ==> ko
+  11:    1  ->  leeuw ==> leel
+  12:    1  ->  muts ==> muth
+  13:    1  ->  paard ==> paart
+  14:    1  ->  plank ==> pla
+  15:    1  ->  reis ==> rijs
+  16:    1  ->  schoen ==> schoon
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  vriend
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  *
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  gauw
+   7:    1  ->  groei
+   8:    1  ->  hoek
+   9:    1  ->  knoop
+  10:    1  ->  koe
+  11:    1  ->  leeuw
+  12:    1  ->  muts
+  13:    1  ->  paard
+  14:    1  ->  plank
+  15:    1  ->  reis
+  16:    1  ->  schoen
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  bank
+   2:    1  ->  bit
+   3:    1  ->  gouchips
+   4:    1  ->  grooi
+   5:    1  ->  hook
+   6:    1  ->  klan
+   7:    1  ->  knop
+   8:    1  ->  ko
+   9:    1  ->  leel
+  10:    1  ->  muth
+  11:    1  ->  paart
+  12:    1  ->  pla
+  13:    1  ->  rijs
+  14:    1  ->  sa
+  15:    1  ->  schoon
+  16:    1  ->  vriemd
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

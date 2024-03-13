@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   83.3%   (  35)
+
+Percent Correct           =   19.0%   (   8)
+
+Percent Substitution      =   81.0%   (  34)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   16.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> orpronk
+   2:    1  ->  * ==> pia
+   3:    1  ->  bepoud ==> pout
+   4:    1  ->  eemde ==> bij
+   5:    1  ->  fiewon ==> fibon
+   6:    1  ->  foetbans ==> voetbals
+   7:    1  ->  gefouw ==> gefl
+   8:    1  ->  geutel ==> gutal
+   9:    1  ->  gevicht ==> ende
+  10:    1  ->  grijnken ==> grenken
+  11:    1  ->  haweel ==> hawijn
+  12:    1  ->  hiffreeuw ==> hifreeuw
+  13:    1  ->  ierpieuw ==> ierpew
+  14:    1  ->  ijpo ==> epo
+  15:    1  ->  kloeien ==> clouien
+  16:    1  ->  kneurem ==> kneuren
+  17:    1  ->  millen ==> milan
+  18:    1  ->  milste ==> milsta
+  19:    1  ->  muider ==> mader
+  20:    1  ->  nizung ==> nizun
+  21:    1  ->  oonste ==> onste
+  22:    1  ->  orstalk ==> erstalt
+  23:    1  ->  prilsood ==> prilsout
+  24:    1  ->  schielstaug ==> scheelstauwig
+  25:    1  ->  schodig ==> scotdig
+  26:    1  ->  sjobel ==> sjobbal
+  27:    1  ->  strellen ==> strillen
+  28:    1  ->  vawaai ==> vawai
+  29:    1  ->  vloender ==> vlunder
+  30:    1  ->  vocil ==> vossil
+  31:    1  ->  vurpaand ==> uurbnd
+  32:    1  ->  walaan ==> walan
+  33:    1  ->  wooien ==> woien
+  34:    1  ->  zwieten ==> sweten
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  geviechd
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kloeien
+  15:    1  ->  kneurem
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  schielstaug
+  24:    1  ->  schodig
+  25:    1  ->  sjobel
+  26:    1  ->  strellen
+  27:    1  ->  vawaai
+  28:    1  ->  vloender
+  29:    1  ->  vocil
+  30:    1  ->  vurpaand
+  31:    1  ->  walaan
+  32:    1  ->  wooien
+  33:    1  ->  zwieten
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  bij
+   2:    1  ->  clouien
+   3:    1  ->  ende
+   4:    1  ->  epo
+   5:    1  ->  erstalt
+   6:    1  ->  fibon
+   7:    1  ->  gefl
+   8:    1  ->  grenken
+   9:    1  ->  gutal
+  10:    1  ->  hawijn
+  11:    1  ->  hifreeuw
+  12:    1  ->  ierpew
+  13:    1  ->  kneuren
+  14:    1  ->  mader
+  15:    1  ->  milan
+  16:    1  ->  milsta
+  17:    1  ->  nizun
+  18:    1  ->  onste
+  19:    1  ->  orpronk
+  20:    1  ->  pia
+  21:    1  ->  pout
+  22:    1  ->  prilsout
+  23:    1  ->  scheelstauwig
+  24:    1  ->  scotdig
+  25:    1  ->  sjobbal
+  26:    1  ->  strillen
+  27:    1  ->  sweten
+  28:    1  ->  uurbnd
+  29:    1  ->  vawai
+  30:    1  ->  vlunder
+  31:    1  ->  voetbals
+  32:    1  ->  vossil
+  33:    1  ->  walan
+  34:    1  ->  woien
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.5%   (  17)
+
+Percent Correct           =   60.5%   (  26)
+
+Percent Substitution      =   32.6%   (  14)
+Percent Deletions         =    7.0%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  40)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  * ==> blauwn
+   2:    1  ->  * ==> grooi
+   3:    1  ->  bang ==> pin
+   4:    1  ->  bed ==> bet
+   5:    1  ->  gauw ==> gouw
+   6:    1  ->  hoek ==> hook
+   7:    1  ->  knoop ==> knop
+   8:    1  ->  koe ==> koo
+   9:    1  ->  muts ==> mut
+  10:    1  ->  oog ==> og
+  11:    1  ->  paard ==> paart
+  12:    1  ->  reis ==> rijs
+  13:    1  ->  schoen ==> schoon
+  14:    1  ->  strand ==> stanstrand
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *
+   2:    1  ->  clown
+   3:    1  ->  groei
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  *
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  gauw
+   5:    1  ->  hoek
+   6:    1  ->  knoop
+   7:    1  ->  koe
+   8:    1  ->  muts
+   9:    1  ->  oog
+  10:    1  ->  paard
+  11:    1  ->  reis
+  12:    1  ->  schoen
+  13:    1  ->  strand
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bet
+   2:    1  ->  blauwn
+   3:    1  ->  gouw
+   4:    1  ->  grooi
+   5:    1  ->  hook
+   6:    1  ->  knop
+   7:    1  ->  koo
+   8:    1  ->  mut
+   9:    1  ->  og
+  10:    1  ->  paart
+  11:    1  ->  pin
+  12:    1  ->  rijs
+  13:    1  ->  schoon
+  14:    1  ->  stanstrand
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  138.6%   (  61)
+
+Percent Correct           =   20.5%   (   9)
+
+Percent Substitution      =   79.5%   (  35)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   59.1%   (  26)
+Percent Word Accuracy     =  -38.6%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> br
+   2:    1  ->  * ==> di
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> nee
+   5:    1  ->  achterdeur ==> kapauter
+   6:    1  ->  afblijven ==> snee
+   7:    1  ->  autorijden ==> autoreren
+   8:    1  ->  buurmannen ==> kooi
+   9:    1  ->  chocolade ==> gelden
+  10:    1  ->  dierentuin ==> ba
+  11:    1  ->  eindelijk ==> dluk
+  12:    1  ->  elastiekje ==> de
+  13:    1  ->  fototoestel ==> buur
+  14:    1  ->  kabouter ==> goed
+  15:    1  ->  knutselen ==> knietselen
+  16:    1  ->  konijnenhok ==> b
+  17:    1  ->  limonade ==> emenade
+  18:    1  ->  nieuwsgierig ==> handje
+  19:    1  ->  olifant ==> fant
+  20:    1  ->  omdraaien ==> t
+  21:    1  ->  paddenstoelen*(paddenstoel) ==> stoel
+  22:    1  ->  poppenwagen ==> b
+  23:    1  ->  ruziemaken ==> dier
+  24:    1  ->  schoenenwinkel*(schoenwinkel) ==> schooolweenkel
+  25:    1  ->  schommelen ==> schomelen
+  26:    1  ->  sneeuwwitje ==> wiekje
+  27:    1  ->  sprookjesboek ==> tanden
+  28:    1  ->  tandenborstel ==> borstel
+  29:    1  ->  teddybeer ==> tuh
+  30:    1  ->  toiletpapier ==> manen
+  31:    1  ->  verstoppertje ==> verstopperdje
+  32:    1  ->  vogelkooi ==> oi
+  33:    1  ->  vrachtwagen ==> vogel
+  34:    1  ->  washandje ==> is
+  35:    1  ->  ziekenhuis ==> was
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  'k
+   2:    1  ->  achter
+   3:    1  ->  afblaven
+   4:    1  ->  al
+   5:    1  ->  boek
+   6:    1  ->  der
+   7:    1  ->  e
+   8:    1  ->  foto
+   9:    1  ->  gas
+  10:    1  ->  hijs
+  11:    1  ->  hoe
+  12:    1  ->  kloek
+  13:    1  ->  konijnen
+  14:    1  ->  makun
+  15:    1  ->  nieuwscherig
+  16:    1  ->  omdragen
+  17:    1  ->  papier
+  18:    1  ->  popenwagen
+  19:    1  ->  ruse
+  20:    1  ->  spookjes
+  21:    1  ->  tikor
+  22:    1  ->  toestil
+  23:    1  ->  toilet
+  24:    1  ->  vrachtwegen
+  25:    1  ->  zau
+  26:    1  ->  zekunhuis
+     -------
+        26
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje
+  10:    1  ->  fototoestel
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  olifant
+  17:    1  ->  omdraaien
+  18:    1  ->  paddenstoelen*(paddenstoel)
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel*(schoenwinkel)
+  22:    1  ->  schommelen
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  verstoppertje
+  29:    1  ->  vogelkooi
+  30:    1  ->  vrachtwagen
+  31:    1  ->  washandje
+  32:    1  ->  ziekenhuis
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  b
+   2:    1  ->  autoreren
+   3:    1  ->  ba
+   4:    1  ->  borstel
+   5:    1  ->  br
+   6:    1  ->  buur
+   7:    1  ->  de
+   8:    1  ->  di
+   9:    1  ->  dier
+  10:    1  ->  dluk
+  11:    1  ->  emenade
+  12:    1  ->  en
+  13:    1  ->  fant
+  14:    1  ->  gelden
+  15:    1  ->  goed
+  16:    1  ->  handje
+  17:    1  ->  is
+  18:    1  ->  kapauter
+  19:    1  ->  knietselen
+  20:    1  ->  kooi
+  21:    1  ->  manen
+  22:    1  ->  nee
+  23:    1  ->  oi
+  24:    1  ->  schomelen
+  25:    1  ->  schooolweenkel
+  26:    1  ->  snee
+  27:    1  ->  stoel
+  28:    1  ->  t
+  29:    1  ->  tanden
+  30:    1  ->  tuh
+  31:    1  ->  verstopperdje
+  32:    1  ->  vogel
+  33:    1  ->  was
+  34:    1  ->  wiekje
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  107.0%   (  46)
+
+Percent Correct           =    7.0%   (   3)
+
+Percent Substitution      =   90.7%   (  39)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =   14.0%   (   6)
+Percent Word Accuracy     =   -7.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> hiffer
+   2:    1  ->  * ==> in
+   3:    1  ->  * ==> milen
+   4:    1  ->  bepoud ==> bepout
+   5:    1  ->  eemde ==> emden
+   6:    1  ->  fiewon ==> fa
+   7:    1  ->  foetbans ==> bns
+   8:    1  ->  gefouw ==> vi
+   9:    1  ->  geutel ==> gitel
+  10:    1  ->  gevicht ==> gevieht
+  11:    1  ->  grijnken ==> grind
+  12:    1  ->  haweel ==> taren
+  13:    1  ->  hiffreeuw ==> ifverr
+  14:    1  ->  ierpieuw ==> iperii
+  15:    1  ->  ijpo ==> eipe
+  16:    1  ->  kloeien*(klooien) ==> lun
+  17:    1  ->  kneurem ==> wa
+  18:    1  ->  menuur ==> miner
+  19:    1  ->  muider ==> neder
+  20:    1  ->  nizung ==> knerin
+  21:    1  ->  oonste ==> onsde
+  22:    1  ->  orponk ==> schon
+  23:    1  ->  orstalk ==> orrstalk
+  24:    1  ->  prilsood ==> bresdotv
+  25:    1  ->  saarweng ==> weinig
+  26:    1  ->  schielstaug ==> feelstimg
+  27:    1  ->  schodig ==> di
+  28:    1  ->  sjobel ==> gobbel
+  29:    1  ->  spreikje ==> sprekje
+  30:    1  ->  strellen*(stellen) ==> sienv
+  31:    1  ->  ulen ==> orbonk
+  32:    1  ->  vawaai ==> stellen
+  33:    1  ->  veurder ==> klo
+  34:    1  ->  vloender ==> flumder
+  35:    1  ->  vocil ==> vosil
+  36:    1  ->  vurpaand ==> wov
+  37:    1  ->  walaan ==> wlaam
+  38:    1  ->  wooien ==> woen
+  39:    1  ->  zwieten ==> fuenv
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  furder
+   2:    1  ->  gefal
+   3:    1  ->  hobbel
+   4:    1  ->  né
+   5:    1  ->  vurbans
+   6:    1  ->  zuni
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  millen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kloeien*(klooien)
+  15:    1  ->  kneurem
+  16:    1  ->  menuur
+  17:    1  ->  muider
+  18:    1  ->  nizung
+  19:    1  ->  oonste
+  20:    1  ->  orponk
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  schodig
+  26:    1  ->  sjobel
+  27:    1  ->  spreikje
+  28:    1  ->  strellen*(stellen)
+  29:    1  ->  ulen
+  30:    1  ->  vawaai
+  31:    1  ->  veurder
+  32:    1  ->  vloender
+  33:    1  ->  vocil
+  34:    1  ->  vurpaand
+  35:    1  ->  walaan
+  36:    1  ->  wooien
+  37:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  bepout
+   2:    1  ->  bns
+   3:    1  ->  bresdotv
+   4:    1  ->  di
+   5:    1  ->  eipe
+   6:    1  ->  emden
+   7:    1  ->  fa
+   8:    1  ->  feelstimg
+   9:    1  ->  flumder
+  10:    1  ->  fuenv
+  11:    1  ->  gevieht
+  12:    1  ->  gitel
+  13:    1  ->  gobbel
+  14:    1  ->  grind
+  15:    1  ->  hiffer
+  16:    1  ->  ifverr
+  17:    1  ->  in
+  18:    1  ->  iperii
+  19:    1  ->  klo
+  20:    1  ->  knerin
+  21:    1  ->  lun
+  22:    1  ->  milen
+  23:    1  ->  miner
+  24:    1  ->  neder
+  25:    1  ->  onsde
+  26:    1  ->  orbonk
+  27:    1  ->  orrstalk
+  28:    1  ->  schon
+  29:    1  ->  sienv
+  30:    1  ->  sprekje
+  31:    1  ->  stellen
+  32:    1  ->  taren
+  33:    1  ->  vi
+  34:    1  ->  vosil
+  35:    1  ->  wa
+  36:    1  ->  weinig
+  37:    1  ->  wlaam
+  38:    1  ->  woen
+  39:    1  ->  wov
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

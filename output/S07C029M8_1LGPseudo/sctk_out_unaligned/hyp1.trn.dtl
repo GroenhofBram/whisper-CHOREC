@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.0%   (  48)
+
+Percent Correct           =    4.0%   (   2)
+
+Percent Substitution      =   86.0%   (  43)
+Percent Deletions         =   10.0%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  45)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  * ==> bil
+   2:    1  ->  * ==> dour
+   3:    1  ->  * ==> kelp
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> sha
+   6:    1  ->  * ==> spoers
+   7:    1  ->  blard ==> bil
+   8:    1  ->  dau ==> da
+   9:    1  ->  doer ==> raagap
+  10:    1  ->  dron ==> dom
+  11:    1  ->  dron ==> drom
+  12:    1  ->  eem ==> em
+  13:    1  ->  fam ==> stont
+  14:    1  ->  fook ==> folk
+  15:    1  ->  frijk ==> frek
+  16:    1  ->  frijk ==> vereik
+  17:    1  ->  grek ==> vat
+  18:    1  ->  guul ==> ilnd
+  19:    1  ->  haans ==> nor
+  20:    1  ->  heik ==> shad
+  21:    1  ->  hoekt ==> na
+  22:    1  ->  jien ==> bul
+  23:    1  ->  keng ==> zo
+  24:    1  ->  leum ==> ne
+  25:    1  ->  neeuw ==> dart
+  26:    1  ->  noork ==> gu
+  27:    1  ->  plirt ==> s
+  28:    1  ->  rachts ==> gool
+  29:    1  ->  sank ==> se
+  30:    1  ->  schard ==> schart
+  31:    1  ->  sjalt ==> ald
+  32:    1  ->  sjalt*(sjaal) ==> nd
+  33:    1  ->  snaaf ==> naf
+  34:    1  ->  sooi ==> soi
+  35:    1  ->  spaai ==> zioneen
+  36:    1  ->  sprieuw ==> vad
+  37:    1  ->  stuid ==> ste
+  38:    1  ->  stuid ==> stut
+  39:    1  ->  swoers ==> vam
+  40:    1  ->  vaap ==> lah
+  41:    1  ->  vid ==> goe
+  42:    1  ->  zans ==> t
+  43:    1  ->  zwoei ==> beg
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  beeg
+   2:    1  ->  hool
+   3:    1  ->  larst
+   4:    1  ->  sprunt
+   5:    1  ->  vout
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    6  ->  *
+   2:    2  ->  dron
+   3:    2  ->  frijk
+   4:    2  ->  stuid
+   5:    1  ->  blard
+   6:    1  ->  dau
+   7:    1  ->  doer
+   8:    1  ->  eem
+   9:    1  ->  fam
+  10:    1  ->  fook
+  11:    1  ->  grek
+  12:    1  ->  guul
+  13:    1  ->  haans
+  14:    1  ->  heik
+  15:    1  ->  hoekt
+  16:    1  ->  jien
+  17:    1  ->  keng
+  18:    1  ->  leum
+  19:    1  ->  neeuw
+  20:    1  ->  noork
+  21:    1  ->  plirt
+  22:    1  ->  rachts
+  23:    1  ->  sank
+  24:    1  ->  schard
+  25:    1  ->  sjalt
+  26:    1  ->  sjalt*(sjaal)
+  27:    1  ->  snaaf
+  28:    1  ->  sooi
+  29:    1  ->  spaai
+  30:    1  ->  sprieuw
+  31:    1  ->  swoers
+  32:    1  ->  vaap
+  33:    1  ->  vid
+  34:    1  ->  zans
+  35:    1  ->  zwoei
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  bil
+   2:    2  ->  s
+   3:    1  ->  ald
+   4:    1  ->  beg
+   5:    1  ->  bul
+   6:    1  ->  da
+   7:    1  ->  dart
+   8:    1  ->  dom
+   9:    1  ->  dour
+  10:    1  ->  drom
+  11:    1  ->  em
+  12:    1  ->  folk
+  13:    1  ->  frek
+  14:    1  ->  goe
+  15:    1  ->  gool
+  16:    1  ->  gu
+  17:    1  ->  ilnd
+  18:    1  ->  kelp
+  19:    1  ->  lah
+  20:    1  ->  na
+  21:    1  ->  naf
+  22:    1  ->  nd
+  23:    1  ->  ne
+  24:    1  ->  nor
+  25:    1  ->  raagap
+  26:    1  ->  schart
+  27:    1  ->  se
+  28:    1  ->  sha
+  29:    1  ->  shad
+  30:    1  ->  soi
+  31:    1  ->  spoers
+  32:    1  ->  ste
+  33:    1  ->  stont
+  34:    1  ->  stut
+  35:    1  ->  t
+  36:    1  ->  vad
+  37:    1  ->  vam
+  38:    1  ->  vat
+  39:    1  ->  vereik
+  40:    1  ->  zioneen
+  41:    1  ->  zo
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

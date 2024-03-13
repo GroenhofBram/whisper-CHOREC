@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C077M4_3+4LGPseudo
+
+#### (S02C077M4_3+4LGPseudo-words)
+
+- Cor=2.9%	Sub=62.9%	Del=0.0%	Ins=34.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | mantaroen | schielendaspen | crobeklunker | kabbestepen | * | * | verwarig | * | ooiebiekje | fandelig | * | jalekrewen | smoralij | zeekvlachine | kanaroe | toineetlijgen | * | meitsegrok | kantelogsten | ondermind | choporatie | zennebral |  |  |  |  | ijraspangen | blottenduuf | girdofhaalder | tobbermoeit | * | poentalschouden | havedil | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | om | het | uf | joechenv | onwijle | jat | tev | sietv | nerv | edinv | stounav | dasv | duvel | teq | yeurtony | ge | vedelv | ci | do | an | speckerai | wacht | tanik | verperik | knappengruiw | mantaroon | schielen | daspen | krobbe | klunker | kobbeste | stepen | ververwaring | ooi | ooi | een | beekje | vandeling | jala | jalak | kreywen | dus | moraal | hé | ceevlak | hina | kanaro | tonitleigen | met | mijt | scherve | rok | kantelohsten | onderimd | couporati | zennebral | e | raspangen | botenduuf | girdof | haaldeg | tobbermon | moeit | puntols | gouden | havedel | ververbrakkertje | gerouwe | jak | hapeneren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | S | S | S | S | S | S | S | S | S |  |
+---
+
+---

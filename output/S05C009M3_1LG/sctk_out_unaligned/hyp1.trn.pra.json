@@ -1,0 +1,266 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S05C009M3_1LG": {
+   "(S05C009M3_1LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S05C009M3_1LG",
+    "sentence_id": "(S05C009M3_1LG-words)",
+    "sequence": 0,
+    "word_count": 50,
+    "words": [
+     {
+      "eval_label": "C",
+      "ref": "klas",
+      "hyp": "klas"
+     },
+     {
+      "eval_label": "C",
+      "ref": "mooi",
+      "hyp": "mooi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "koe",
+      "hyp": "hoe"
+     },
+     {
+      "eval_label": "S",
+      "ref": "arm*(raam)",
+      "hyp": "raam"
+     },
+     {
+      "eval_label": "C",
+      "ref": "groei",
+      "hyp": "groei"
+     },
+     {
+      "eval_label": "S",
+      "ref": "strand*(stam)",
+      "hyp": "stam"
+     },
+     {
+      "eval_label": "S",
+      "ref": "bed",
+      "hyp": "wet"
+     },
+     {
+      "eval_label": "C",
+      "ref": "eerst",
+      "hyp": "eerst"
+     },
+     {
+      "eval_label": "C",
+      "ref": "voor",
+      "hyp": "voor"
+     },
+     {
+      "eval_label": "S",
+      "ref": "draai",
+      "hyp": "trai"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "il"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(staal)",
+      "hyp": "stal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "he"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(heeft)",
+      "hyp": "heeft"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "eft"
+     },
+     {
+      "eval_label": "S",
+      "ref": "duur*(deur)",
+      "hyp": "der"
+     },
+     {
+      "eval_label": "S",
+      "ref": "straat",
+      "hyp": "straden"
+     },
+     {
+      "eval_label": "S",
+      "ref": "leeuw",
+      "hyp": "geel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "clown",
+      "hyp": "laan"
+     },
+     {
+      "eval_label": "C",
+      "ref": "hoek",
+      "hyp": "hoek"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "kun"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "k"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(kant)",
+      "hyp": "kant"
+     },
+     {
+      "eval_label": "C",
+      "ref": "hout",
+      "hyp": "hout"
+     },
+     {
+      "eval_label": "D",
+      "ref": "*",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "er"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "i"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "den"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(vrienden)",
+      "hyp": "vrienden"
+     },
+     {
+      "eval_label": "C",
+      "ref": "gauw",
+      "hyp": "gauw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "chips",
+      "hyp": "schip"
+     },
+     {
+      "eval_label": "C",
+      "ref": "groen",
+      "hyp": "groen"
+     },
+     {
+      "eval_label": "D",
+      "ref": "feest*(fiets)",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "reis",
+      "hyp": "vint"
+     },
+     {
+      "eval_label": "S",
+      "ref": "jas",
+      "hyp": "lesjeas"
+     },
+     {
+      "eval_label": "S",
+      "ref": "huis",
+      "hyp": "af"
+     },
+     {
+      "eval_label": "S",
+      "ref": "paard",
+      "hyp": "ar"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vijf",
+      "hyp": "vijf"
+     },
+     {
+      "eval_label": "S",
+      "ref": "muts",
+      "hyp": "nut"
+     },
+     {
+      "eval_label": "C",
+      "ref": "nieuw",
+      "hyp": "nieuw"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kind",
+      "hyp": "kind"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ba"
+     },
+     {
+      "eval_label": "C",
+      "ref": "bang",
+      "hyp": "bang"
+     },
+     {
+      "eval_label": "C",
+      "ref": "oog",
+      "hyp": "oog"
+     },
+     {
+      "eval_label": "C",
+      "ref": "zacht",
+      "hyp": "zacht"
+     },
+     {
+      "eval_label": "C",
+      "ref": "schoen",
+      "hyp": "schoen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "plas*(plaats)",
+      "hyp": "laat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "neus",
+      "hyp": "meneer"
+     },
+     {
+      "eval_label": "S",
+      "ref": "knoop*(knop)",
+      "hyp": "knop"
+     },
+     {
+      "eval_label": "S",
+      "ref": "plank*(plak)",
+      "hyp": "lap"
+     }
+    ]
+   }
+  }
+ }
+}

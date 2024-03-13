@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C031V8_1LG
+
+#### (S07C031V8_1LG-words)
+
+- Cor=46.5%	Sub=53.5%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown*(show) | *t | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank | plank |
+| HYP1 | klas | booi | koel | abe | vooy | strand | bed | eerst | voor | day | saal | herst | dier | straat | leouw | show | uh | klauw | hoek | krant | hout | vrient | gou | chips | groen | feest | reis | jas | huis | part | vijf | met | neeu | kind | welk | oog | zegt | schoor | plas | des | dop | pla | plank |
+| EVAL |  | S | S | S | S |  |  |  |  | S | S | S | S |  | S | S | S | S |  |  |  | S | S |  |  |  |  |  |  | S |  | S | S |  | S |  | S | S |  | S | S | S |  |
+---
+
+---

@@ -1,0 +1,109 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  14)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   26.2%   (  11)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> kof
+   2:    1  ->  cola ==> co
+   3:    1  ->  drogen ==> droegen
+   4:    1  ->  fietsbel ==> wel
+   5:    1  ->  kussen ==> kola-ussen
+   6:    1  ->  lawaai ==> lawai
+   7:    1  ->  liedje ==> lietje
+   8:    1  ->  moeilijk ==> moelijk
+   9:    1  ->  regen ==> rigen
+  10:    1  ->  sneeuwen ==> gooiensneeuwen
+  11:    1  ->  zwemmen ==> svimmen
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fiets
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  gooien
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  cola
+   3:    1  ->  drogen
+   4:    1  ->  fietsbel
+   5:    1  ->  kussen
+   6:    1  ->  lawaai
+   7:    1  ->  liedje
+   8:    1  ->  moeilijk
+   9:    1  ->  regen
+  10:    1  ->  sneeuwen
+  11:    1  ->  zwemmen
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  co
+   2:    1  ->  droegen
+   3:    1  ->  gooiensneeuwen
+   4:    1  ->  kof
+   5:    1  ->  kola-ussen
+   6:    1  ->  lawai
+   7:    1  ->  lietje
+   8:    1  ->  moelijk
+   9:    1  ->  rigen
+  10:    1  ->  svimmen
+  11:    1  ->  wel
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

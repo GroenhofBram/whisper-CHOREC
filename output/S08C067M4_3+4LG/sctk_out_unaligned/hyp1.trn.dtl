@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   59.5%   (  25)
+
+Percent Correct           =   64.3%   (  27)
+
+Percent Substitution      =   35.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   23.8%   (  10)
+Percent Word Accuracy     =   40.5%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  52)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> hok
+   2:    1  ->  * ==> sch
+   3:    1  ->  achterdeur ==> een
+   4:    1  ->  autorijden ==> rijden
+   5:    1  ->  chocolade ==> lade
+   6:    1  ->  elastiekje ==> ruzie
+   7:    1  ->  konijnenhok ==> helastiekje
+   8:    1  ->  limonade ==> auto
+   9:    1  ->  ophangen*(omhangen) ==> omhangen
+  10:    1  ->  poppenwagen ==> konijnen
+  11:    1  ->  ruziemaken ==> maken
+  12:    1  ->  sneeuwwitje ==> sneeuwetje
+  13:    1  ->  tandenborstel ==> borstel
+  14:    1  ->  teddybeer ==> teddibier
+  15:    1  ->  toiletpapier ==> papier
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  achter
+   2:    1  ->  choco
+   3:    1  ->  deur
+   4:    1  ->  en
+   5:    1  ->  koningenu
+   6:    1  ->  limonale
+   7:    1  ->  poppen
+   8:    1  ->  tanden
+   9:    1  ->  toilet
+  10:    1  ->  wagen
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  chocolade
+   5:    1  ->  elastiekje
+   6:    1  ->  konijnenhok
+   7:    1  ->  limonade
+   8:    1  ->  ophangen*(omhangen)
+   9:    1  ->  poppenwagen
+  10:    1  ->  ruziemaken
+  11:    1  ->  sneeuwwitje
+  12:    1  ->  tandenborstel
+  13:    1  ->  teddybeer
+  14:    1  ->  toiletpapier
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  auto
+   2:    1  ->  borstel
+   3:    1  ->  een
+   4:    1  ->  helastiekje
+   5:    1  ->  hok
+   6:    1  ->  konijnen
+   7:    1  ->  lade
+   8:    1  ->  maken
+   9:    1  ->  omhangen
+  10:    1  ->  papier
+  11:    1  ->  rijden
+  12:    1  ->  ruzie
+  13:    1  ->  sch
+  14:    1  ->  sneeuwetje
+  15:    1  ->  teddibier
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

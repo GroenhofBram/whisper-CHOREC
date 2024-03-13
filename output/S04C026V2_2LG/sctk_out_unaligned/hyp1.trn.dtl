@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.4%   (  29)
+
+Percent Correct           =   43.8%   (  21)
+
+Percent Substitution      =   43.8%   (  21)
+Percent Deletions         =   12.5%   (   6)
+Percent Insertions        =    4.2%   (   2)
+Percent Word Accuracy     =   39.6%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  44)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> caro
+   2:    1  ->  * ==> sercus
+   3:    1  ->  *(hoofden) ==> hoofden
+   4:    1  ->  *s ==> co
+   5:    1  ->  chauffeur ==> mu
+   6:    1  ->  circus ==> qecus
+   7:    1  ->  cola ==> kona
+   8:    1  ->  fietsbel ==> vitspel
+   9:    1  ->  gooien ==> stoppenopnieuw
+  10:    1  ->  kussen ==> isin
+  11:    1  ->  lawaai ==> jawi
+  12:    1  ->  muziek ==> ziek
+  13:    1  ->  potlood ==> poploot
+  14:    1  ->  scheuren ==> scheren?
+  15:    1  ->  sneeuwen ==> gooiensneeuwen
+  16:    1  ->  speelplaats ==> speelplaat
+  17:    1  ->  vinger ==> viner
+  18:    1  ->  vlinder ==> minder
+  19:    1  ->  vuurwerk ==> vuurweg
+  20:    1  ->  waarom ==> waarom?
+  21:    1  ->  water ==> weter
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  khu
+   2:    1  ->  woog
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    4  ->  *
+   2:    1  ->  opnieuw
+   3:    1  ->  stoppen
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  *
+   2:    1  ->  *(hoofden)
+   3:    1  ->  *s
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  muziek
+  12:    1  ->  potlood
+  13:    1  ->  scheuren
+  14:    1  ->  sneeuwen
+  15:    1  ->  speelplaats
+  16:    1  ->  vinger
+  17:    1  ->  vlinder
+  18:    1  ->  vuurwerk
+  19:    1  ->  waarom
+  20:    1  ->  water
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  caro
+   2:    1  ->  co
+   3:    1  ->  gooiensneeuwen
+   4:    1  ->  hoofden
+   5:    1  ->  isin
+   6:    1  ->  jawi
+   7:    1  ->  kona
+   8:    1  ->  minder
+   9:    1  ->  mu
+  10:    1  ->  poploot
+  11:    1  ->  qecus
+  12:    1  ->  scheren?
+  13:    1  ->  sercus
+  14:    1  ->  speelplaat
+  15:    1  ->  stoppenopnieuw
+  16:    1  ->  viner
+  17:    1  ->  vitspel
+  18:    1  ->  vuurweg
+  19:    1  ->  waarom?
+  20:    1  ->  weter
+  21:    1  ->  ziek
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

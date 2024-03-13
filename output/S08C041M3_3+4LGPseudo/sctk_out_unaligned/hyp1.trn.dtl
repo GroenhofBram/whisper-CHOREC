@@ -1,0 +1,279 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  109.9%   (  89)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  81)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    9.9%   (   8)
+Percent Word Accuracy     =   -9.9%
+
+
+Ref. words                =           (  81)
+Hyp. words                =           (  89)
+Aligned words             =           (  89)
+
+CONFUSION PAIRS                  Total                 (81)
+                                 With >=  1 occurrences (81)
+
+   1:    1  ->  * ==> bal
+   2:    1  ->  * ==> blode
+   3:    1  ->  * ==> da
+   4:    1  ->  * ==> de
+   5:    1  ->  * ==> ege
+   6:    1  ->  * ==> en
+   7:    1  ->  * ==> g
+   8:    1  ->  * ==> ggou
+   9:    1  ->  * ==> gku
+  10:    1  ->  * ==> gued
+  11:    1  ->  * ==> h
+  12:    1  ->  * ==> hapen
+  13:    1  ->  * ==> hik
+  14:    1  ->  * ==> i
+  15:    1  ->  * ==> is
+  16:    1  ->  * ==> j
+  17:    1  ->  * ==> kadaog
+  18:    1  ->  * ==> kan
+  19:    1  ->  * ==> l
+  20:    1  ->  * ==> li
+  21:    1  ->  * ==> mnteut
+  22:    1  ->  * ==> nate
+  23:    1  ->  * ==> pa
+  24:    1  ->  * ==> pieke
+  25:    1  ->  * ==> pnal
+  26:    1  ->  * ==> putals
+  27:    1  ->  * ==> sae
+  28:    1  ->  * ==> san
+  29:    1  ->  * ==> schpati
+  30:    1  ->  * ==> spe
+  31:    1  ->  * ==> stoen
+  32:    1  ->  * ==> su
+  33:    1  ->  * ==> te
+  34:    1  ->  * ==> tek
+  35:    1  ->  * ==> to
+  36:    1  ->  * ==> tun
+  37:    1  ->  * ==> ver
+  38:    1  ->  * ==> verke
+  39:    1  ->  * ==> wachten
+  40:    1  ->  * ==> warig
+  41:    1  ->  * ==> we
+  42:    1  ->  blottenduuf ==> do
+  43:    1  ->  choporatie ==> zin
+  44:    1  ->  crobeklunker ==> a
+  45:    1  ->  deuveltek ==> t
+  46:    1  ->  fandelig ==> eng
+  47:    1  ->  gerauwejaak ==> urde
+  48:    1  ->  gevijdel ==> da
+  49:    1  ->  girdofhaalder ==> de
+  50:    1  ->  hapeneren ==> jak
+  51:    1  ->  havedil ==> u
+  52:    1  ->  ijraspangen ==> gu
+  53:    1  ->  jalekrewen ==> kr
+  54:    1  ->  jattesiet ==> ts
+  55:    1  ->  juitonie ==> gevedel
+  56:    1  ->  kabbestepen ==> oi
+  57:    1  ->  kanaroe ==> r
+  58:    1  ->  kantelogsten ==> ondemet
+  59:    1  ->  mantaroen ==> daspik
+  60:    1  ->  meitsegrok ==> meterk
+  61:    1  ->  nappegreeuw ==> schilu
+  62:    1  ->  nurudien ==> davel
+  63:    1  ->  ometuif ==> duur
+  64:    1  ->  ondermind ==> den
+  65:    1  ->  ooiebiekje ==> de
+  66:    1  ->  oonwijlen ==> i
+  67:    1  ->  poentalschouden ==> pd
+  68:    1  ->  schielendaspen ==> serbobek
+  69:    1  ->  sidowaan ==> spekeri
+  70:    1  ->  smoralij ==> la
+  71:    1  ->  spekkeraai ==> ha
+  72:    1  ->  stoenydaas ==> gt
+  73:    1  ->  tobbermoeit ==> t
+  74:    1  ->  toejietsen ==> iin
+  75:    1  ->  toineetlijgen ==> net
+  76:    1  ->  verbrakkertje ==> haedel
+  77:    1  ->  verpierik ==> vrew
+  78:    1  ->  verwarig ==> van
+  79:    1  ->  wachteniek ==> verpierk
+  80:    1  ->  zeekvlachine ==> gua
+  81:    1  ->  zennebral ==> ras
+     -------
+        81
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  de
+   2:    1  ->  doe
+   3:    1  ->  ietz
+   4:    1  ->  ja
+   5:    1  ->  je
+   6:    1  ->  om
+   7:    1  ->  onwele
+   8:    1  ->  teiet
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:   41  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  poentalschouden
+  28:    1  ->  schielendaspen
+  29:    1  ->  sidowaan
+  30:    1  ->  smoralij
+  31:    1  ->  spekkeraai
+  32:    1  ->  stoenydaas
+  33:    1  ->  tobbermoeit
+  34:    1  ->  toejietsen
+  35:    1  ->  toineetlijgen
+  36:    1  ->  verbrakkertje
+  37:    1  ->  verpierik
+  38:    1  ->  verwarig
+  39:    1  ->  wachteniek
+  40:    1  ->  zeekvlachine
+  41:    1  ->  zennebral
+     -------
+        81
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    3  ->  de
+   2:    2  ->  da
+   3:    2  ->  i
+   4:    2  ->  t
+   5:    1  ->  a
+   6:    1  ->  bal
+   7:    1  ->  blode
+   8:    1  ->  daspik
+   9:    1  ->  davel
+  10:    1  ->  den
+  11:    1  ->  do
+  12:    1  ->  duur
+  13:    1  ->  ege
+  14:    1  ->  en
+  15:    1  ->  eng
+  16:    1  ->  g
+  17:    1  ->  gevedel
+  18:    1  ->  ggou
+  19:    1  ->  gku
+  20:    1  ->  gt
+  21:    1  ->  gu
+  22:    1  ->  gua
+  23:    1  ->  gued
+  24:    1  ->  h
+  25:    1  ->  ha
+  26:    1  ->  haedel
+  27:    1  ->  hapen
+  28:    1  ->  hik
+  29:    1  ->  iin
+  30:    1  ->  is
+  31:    1  ->  j
+  32:    1  ->  jak
+  33:    1  ->  kadaog
+  34:    1  ->  kan
+  35:    1  ->  kr
+  36:    1  ->  l
+  37:    1  ->  la
+  38:    1  ->  li
+  39:    1  ->  meterk
+  40:    1  ->  mnteut
+  41:    1  ->  nate
+  42:    1  ->  net
+  43:    1  ->  oi
+  44:    1  ->  ondemet
+  45:    1  ->  pa
+  46:    1  ->  pd
+  47:    1  ->  pieke
+  48:    1  ->  pnal
+  49:    1  ->  putals
+  50:    1  ->  r
+  51:    1  ->  ras
+  52:    1  ->  sae
+  53:    1  ->  san
+  54:    1  ->  schilu
+  55:    1  ->  schpati
+  56:    1  ->  serbobek
+  57:    1  ->  spe
+  58:    1  ->  spekeri
+  59:    1  ->  stoen
+  60:    1  ->  su
+  61:    1  ->  te
+  62:    1  ->  tek
+  63:    1  ->  to
+  64:    1  ->  ts
+  65:    1  ->  tun
+  66:    1  ->  u
+  67:    1  ->  urde
+  68:    1  ->  van
+  69:    1  ->  ver
+  70:    1  ->  verke
+  71:    1  ->  verpierk
+  72:    1  ->  vrew
+  73:    1  ->  wachten
+  74:    1  ->  warig
+  75:    1  ->  we
+  76:    1  ->  zin
+     -------
+        81
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

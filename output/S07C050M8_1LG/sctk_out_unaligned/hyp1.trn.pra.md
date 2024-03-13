@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C050M8_1LG
+
+#### (S07C050M8_1LG-words)
+
+- Cor=41.9%	Sub=53.5%	Del=4.7%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | *s | leeuw | clown | hoek | krant | hout | vriend*(vrienden) | gauw | chips | groen | feest | reis | jas | huis | paard | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | gooi | strand | bet | eerst | goor | drai | fiaal | herst | deur | straat |  |  | leo | loon | hoek | krant | hout | vrienden | gaal | ships | groet | feest | uys | jas | jys | ra | art | je | wit | niew | kind | bank | oog | zacht | groen | plas | nus | knoop | plank |
+| EVAL |  |  |  |  | S |  | S |  | S | S | S | S | S |  | D | D | S | S |  |  |  | S | S | S | S |  | S |  | S | S | S | S | S | S |  | S |  |  | S |  | S |  |  |
+---
+
+---

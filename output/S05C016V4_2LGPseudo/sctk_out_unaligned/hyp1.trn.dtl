@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  44)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   70.5%   (  31)
+Percent Deletions         =   29.5%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  31)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> o
+   2:    1  ->  * ==> re
+   3:    1  ->  * ==> v
+   4:    1  ->  *(waaien) ==> wn
+   5:    1  ->  fiewon ==> e
+   6:    1  ->  foetbans ==> d
+   7:    1  ->  gefouw ==> etel
+   8:    1  ->  grijnken ==> te
+   9:    1  ->  hiffreeuw ==> sprk
+  10:    1  ->  ijpo ==> goen
+  11:    1  ->  kloeien*(koelen) ==> loda
+  12:    1  ->  kneurem*(kleuren) ==> gen
+  13:    1  ->  menuur ==> i
+  14:    1  ->  milste ==> n
+  15:    1  ->  muider ==> feten
+  16:    1  ->  nizung ==> e
+  17:    1  ->  oonste ==> ortei
+  18:    1  ->  orponk ==> tel
+  19:    1  ->  prilsood ==> ot
+  20:    1  ->  schielstaug ==> hoepas
+  21:    1  ->  schodig ==> erten
+  22:    1  ->  spreikje ==> rden
+  23:    1  ->  strellen*(stelen) ==> ede
+  24:    1  ->  ulen ==> mes
+  25:    1  ->  vawaai ==> feest
+  26:    1  ->  veten ==> m
+  27:    1  ->  veurder ==> schout
+  28:    1  ->  vloender ==> miden
+  29:    1  ->  vurpaand ==> bl
+  30:    1  ->  wooien ==> geefrem
+  31:    1  ->  zwieten ==> de
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bepoud
+   2:    1  ->  eemde
+   3:    1  ->  erke
+   4:    1  ->  geutel
+   5:    1  ->  gevicht*(gevist)
+   6:    1  ->  haweel
+   7:    1  ->  ierpieuw
+   8:    1  ->  millen
+   9:    1  ->  orstalk
+  10:    1  ->  saarweng
+  11:    1  ->  sjobel
+  12:    1  ->  vocil
+  13:    1  ->  walaan
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  *
+   2:    1  ->  *(waaien)
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  grijnken
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ijpo
+   9:    1  ->  kloeien*(koelen)
+  10:    1  ->  kneurem*(kleuren)
+  11:    1  ->  menuur
+  12:    1  ->  milste
+  13:    1  ->  muider
+  14:    1  ->  nizung
+  15:    1  ->  oonste
+  16:    1  ->  orponk
+  17:    1  ->  prilsood
+  18:    1  ->  schielstaug
+  19:    1  ->  schodig
+  20:    1  ->  spreikje
+  21:    1  ->  strellen*(stelen)
+  22:    1  ->  ulen
+  23:    1  ->  vawaai
+  24:    1  ->  veten
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vurpaand
+  28:    1  ->  wooien
+  29:    1  ->  zwieten
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  e
+   2:    1  ->  bl
+   3:    1  ->  d
+   4:    1  ->  de
+   5:    1  ->  ede
+   6:    1  ->  erten
+   7:    1  ->  etel
+   8:    1  ->  feest
+   9:    1  ->  feten
+  10:    1  ->  geefrem
+  11:    1  ->  gen
+  12:    1  ->  goen
+  13:    1  ->  hoepas
+  14:    1  ->  i
+  15:    1  ->  loda
+  16:    1  ->  m
+  17:    1  ->  mes
+  18:    1  ->  miden
+  19:    1  ->  n
+  20:    1  ->  o
+  21:    1  ->  ortei
+  22:    1  ->  ot
+  23:    1  ->  rden
+  24:    1  ->  re
+  25:    1  ->  schout
+  26:    1  ->  sprk
+  27:    1  ->  te
+  28:    1  ->  tel
+  29:    1  ->  v
+  30:    1  ->  wn
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.5%   (  15)
+
+Percent Correct           =   62.5%   (  25)
+
+Percent Substitution      =   37.5%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chips ==> ships
+   2:    1  ->  clown ==> cloon
+   3:    1  ->  gauw ==> gouw
+   4:    1  ->  groei ==> gooi
+   5:    1  ->  hoek ==> hook
+   6:    1  ->  huis ==> hus
+   7:    1  ->  knoop ==> knok
+   8:    1  ->  koe ==> kou
+   9:    1  ->  leeuw ==> leuw
+  10:    1  ->  muts ==> mut
+  11:    1  ->  neus ==> nuis
+  12:    1  ->  oog ==> oh
+  13:    1  ->  paard ==> part
+  14:    1  ->  reis ==> reijs
+  15:    1  ->  sjaal ==> shal
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chips
+   2:    1  ->  clown
+   3:    1  ->  gauw
+   4:    1  ->  groei
+   5:    1  ->  hoek
+   6:    1  ->  huis
+   7:    1  ->  knoop
+   8:    1  ->  koe
+   9:    1  ->  leeuw
+  10:    1  ->  muts
+  11:    1  ->  neus
+  12:    1  ->  oog
+  13:    1  ->  paard
+  14:    1  ->  reis
+  15:    1  ->  sjaal
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  cloon
+   2:    1  ->  gooi
+   3:    1  ->  gouw
+   4:    1  ->  hook
+   5:    1  ->  hus
+   6:    1  ->  knok
+   7:    1  ->  kou
+   8:    1  ->  leuw
+   9:    1  ->  mut
+  10:    1  ->  nuis
+  11:    1  ->  oh
+  12:    1  ->  part
+  13:    1  ->  reijs
+  14:    1  ->  shal
+  15:    1  ->  ships
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

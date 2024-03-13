@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.3%   (  42)
+
+Percent Correct           =   32.6%   (  15)
+
+Percent Substitution      =   65.2%   (  30)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   23.9%   (  11)
+Percent Word Accuracy     =    8.7%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  56)
+Aligned words             =           (  57)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> dibeer
+   2:    1  ->  * ==> knu
+   3:    1  ->  * ==> nuf
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> twalet
+   6:    1  ->  *s ==> lusefe
+   7:    1  ->  autorijden ==> den
+   8:    1  ->  dierentuin ==> ja
+   9:    1  ->  elastiekje ==> pelden
+  10:    1  ->  fototoestel ==> jouw
+  11:    1  ->  kabouter ==> was
+  12:    1  ->  knutselen ==> nitselen
+  13:    1  ->  konijnenhok*(konijnhok) ==> dierentun
+  14:    1  ->  limonade ==> atoria
+  15:    1  ->  olifant ==> olivant
+  16:    1  ->  omdraaien ==> draaien
+  17:    1  ->  paddenstoelen ==> was
+  18:    1  ->  ruziemaken ==> stolen
+  19:    1  ->  schoenenwinkel ==> schoonwinkel
+  20:    1  ->  schommelen*(schommel) ==> schommel
+  21:    1  ->  sneeuwwitje ==> sneewitje
+  22:    1  ->  tandenborstel ==> borstel
+  23:    1  ->  teddybeer ==> verstoppigd
+  24:    1  ->  toiletpapier ==> papier
+  25:    1  ->  verjaardag ==> veriardag
+  26:    1  ->  verstoppertje ==> mahlina
+  27:    1  ->  vogelkooi ==> vogelkoy
+  28:    1  ->  washandje ==> handj
+  29:    1  ->  wasmachine ==> fototoestel?
+  30:    1  ->  ziekenhuis ==> ziekinhuis
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  de
+   2:    1  ->  ellastieke
+   3:    1  ->  huzi
+   4:    1  ->  kabater
+   5:    1  ->  kuncon
+   6:    1  ->  limonadar
+   7:    1  ->  maken
+   8:    1  ->  nenv
+   9:    1  ->  om
+  10:    1  ->  tanden
+  11:    1  ->  vok
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *s
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  *
+   2:    1  ->  *s
+   3:    1  ->  autorijden
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  kabouter
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok*(konijnhok)
+  10:    1  ->  limonade
+  11:    1  ->  olifant
+  12:    1  ->  omdraaien
+  13:    1  ->  paddenstoelen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen*(schommel)
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verjaardag
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+  26:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  was
+   2:    1  ->  atoria
+   3:    1  ->  borstel
+   4:    1  ->  den
+   5:    1  ->  dibeer
+   6:    1  ->  dierentun
+   7:    1  ->  draaien
+   8:    1  ->  fototoestel?
+   9:    1  ->  handj
+  10:    1  ->  ja
+  11:    1  ->  jouw
+  12:    1  ->  knu
+  13:    1  ->  lusefe
+  14:    1  ->  mahlina
+  15:    1  ->  nitselen
+  16:    1  ->  nuf
+  17:    1  ->  olivant
+  18:    1  ->  papier
+  19:    1  ->  pelden
+  20:    1  ->  s
+  21:    1  ->  schommel
+  22:    1  ->  schoonwinkel
+  23:    1  ->  sneewitje
+  24:    1  ->  stolen
+  25:    1  ->  twalet
+  26:    1  ->  veriardag
+  27:    1  ->  verstoppigd
+  28:    1  ->  vogelkoy
+  29:    1  ->  ziekinhuis
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

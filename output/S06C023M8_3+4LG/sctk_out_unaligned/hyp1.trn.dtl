@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  119.6%   (  55)
+
+Percent Correct           =   19.6%   (   9)
+
+Percent Substitution      =   80.4%   (  37)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   39.1%   (  18)
+Percent Word Accuracy     =  -19.6%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  * ==> kbouter
+   2:    1  ->  * ==> papden
+   3:    1  ->  * ==> schoon
+   4:    1  ->  * ==> snee
+   5:    1  ->  * ==> vohol
+   6:    1  ->  *(middelen) ==> idereen
+   7:    1  ->  *(schoon) ==> midelen
+   8:    1  ->  *s ==> was
+   9:    1  ->  achterdeur ==> afblijft
+  10:    1  ->  afblijven ==> hantjer
+  11:    1  ->  buurmannen ==> voa
+  12:    1  ->  chocolade ==> shocolater
+  13:    1  ->  dierentuin ==> verstoppertja
+  14:    1  ->  eindelijk ==> endelijk
+  15:    1  ->  elastiekje ==> tuin
+  16:    1  ->  fototoestel ==> toilet
+  17:    1  ->  goeiendag ==> dag
+  18:    1  ->  iedereen ==> schoon
+  19:    1  ->  kabouter ==> hoe
+  20:    1  ->  knutselen ==> knitelen
+  21:    1  ->  konijnenhok*(konijnhok) ==> delen
+  22:    1  ->  limonade ==> monada
+  23:    1  ->  lucifer ==> luciver
+  24:    1  ->  ophangen ==> opa
+  25:    1  ->  paddenstoelen ==> wasmachina
+  26:    1  ->  poppenwagen ==> taddiber
+  27:    1  ->  ruziemaken ==> stoel
+  28:    1  ->  schoenenwinkel*(schoenwinkel) ==> winkel
+  29:    1  ->  sneeuwwitje ==> ggoeien
+  30:    1  ->  tandenborstel ==> borstel
+  31:    1  ->  teddybeer ==> en
+  32:    1  ->  toiletpapier ==> papier
+  33:    1  ->  verstoppertje ==> votor
+  34:    1  ->  vogelkooi ==> koi
+  35:    1  ->  washandje ==> weetjer
+  36:    1  ->  wasmachine ==> toestel
+  37:    1  ->  ziekenhuis ==> vin
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  nieuwsgierig
+   2:    1  ->  achtder
+   3:    1  ->  ausi
+   4:    1  ->  buurman
+   5:    1  ->  dan
+   6:    1  ->  de
+   7:    1  ->  deur
+   8:    1  ->  elistikje
+   9:    1  ->  en
+  10:    1  ->  has
+  11:    1  ->  konijnhook
+  12:    1  ->  li
+  13:    1  ->  maken
+  14:    1  ->  nim
+  15:    1  ->  poponwagen
+  16:    1  ->  schiek
+  17:    1  ->  scho
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    5  ->  *
+   2:    1  ->  *(middelen)
+   3:    1  ->  *(schoon)
+   4:    1  ->  *s
+   5:    1  ->  achterdeur
+   6:    1  ->  afblijven
+   7:    1  ->  buurmannen
+   8:    1  ->  chocolade
+   9:    1  ->  dierentuin
+  10:    1  ->  eindelijk
+  11:    1  ->  elastiekje
+  12:    1  ->  fototoestel
+  13:    1  ->  goeiendag
+  14:    1  ->  iedereen
+  15:    1  ->  kabouter
+  16:    1  ->  knutselen
+  17:    1  ->  konijnenhok*(konijnhok)
+  18:    1  ->  limonade
+  19:    1  ->  lucifer
+  20:    1  ->  ophangen
+  21:    1  ->  paddenstoelen
+  22:    1  ->  poppenwagen
+  23:    1  ->  ruziemaken
+  24:    1  ->  schoenenwinkel*(schoenwinkel)
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  tandenborstel
+  27:    1  ->  teddybeer
+  28:    1  ->  toiletpapier
+  29:    1  ->  verstoppertje
+  30:    1  ->  vogelkooi
+  31:    1  ->  washandje
+  32:    1  ->  wasmachine
+  33:    1  ->  ziekenhuis
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  schoon
+   2:    1  ->  afblijft
+   3:    1  ->  borstel
+   4:    1  ->  dag
+   5:    1  ->  delen
+   6:    1  ->  en
+   7:    1  ->  endelijk
+   8:    1  ->  ggoeien
+   9:    1  ->  hantjer
+  10:    1  ->  hoe
+  11:    1  ->  idereen
+  12:    1  ->  kbouter
+  13:    1  ->  knitelen
+  14:    1  ->  koi
+  15:    1  ->  luciver
+  16:    1  ->  midelen
+  17:    1  ->  monada
+  18:    1  ->  opa
+  19:    1  ->  papden
+  20:    1  ->  papier
+  21:    1  ->  shocolater
+  22:    1  ->  snee
+  23:    1  ->  stoel
+  24:    1  ->  taddiber
+  25:    1  ->  toestel
+  26:    1  ->  toilet
+  27:    1  ->  tuin
+  28:    1  ->  verstoppertja
+  29:    1  ->  vin
+  30:    1  ->  voa
+  31:    1  ->  vohol
+  32:    1  ->  votor
+  33:    1  ->  was
+  34:    1  ->  wasmachina
+  35:    1  ->  weetjer
+  36:    1  ->  winkel
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

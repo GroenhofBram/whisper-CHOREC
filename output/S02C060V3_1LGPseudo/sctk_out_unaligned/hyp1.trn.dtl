@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.0%   (  34)
+
+Percent Correct           =   32.0%   (  16)
+
+Percent Substitution      =   60.0%   (  30)
+Percent Deletions         =    8.0%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   32.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  46)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> di
+   2:    1  ->  * ==> gol
+   3:    1  ->  * ==> nou
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> sant
+   6:    1  ->  * ==> swords
+   7:    1  ->  * ==> van
+   8:    1  ->  blard ==> of
+   9:    1  ->  dau ==> daal
+  10:    1  ->  doer ==> door
+  11:    1  ->  dron ==> drom
+  12:    1  ->  eem ==> één
+  13:    1  ->  fam ==> swoei
+  14:    1  ->  fook ==> fork
+  15:    1  ->  guul ==> bedacht
+  16:    1  ->  haans ==> hans
+  17:    1  ->  hool*(goal) ==> gool
+  18:    1  ->  jien ==> jin
+  19:    1  ->  leum ==> lum
+  20:    1  ->  noork ==> nork
+  21:    1  ->  rachts ==> hachts
+  22:    1  ->  schard ==> sgart
+  23:    1  ->  sjalt ==> shalt
+  24:    1  ->  sooi ==> soi
+  25:    1  ->  spaai ==> spai
+  26:    1  ->  sprieuw ==> spreeuw
+  27:    1  ->  stuid ==> stuit
+  28:    1  ->  swoers ==> swoors
+  29:    1  ->  vid ==> vit
+  30:    1  ->  zans ==> zant
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  *x
+   3:    1  ->  zwoei
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    7  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  fook
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  hool*(goal)
+  12:    1  ->  jien
+  13:    1  ->  leum
+  14:    1  ->  noork
+  15:    1  ->  rachts
+  16:    1  ->  schard
+  17:    1  ->  sjalt
+  18:    1  ->  sooi
+  19:    1  ->  spaai
+  20:    1  ->  sprieuw
+  21:    1  ->  stuid
+  22:    1  ->  swoers
+  23:    1  ->  vid
+  24:    1  ->  zans
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bedacht
+   2:    1  ->  daal
+   3:    1  ->  di
+   4:    1  ->  door
+   5:    1  ->  drom
+   6:    1  ->  fork
+   7:    1  ->  gol
+   8:    1  ->  gool
+   9:    1  ->  hachts
+  10:    1  ->  hans
+  11:    1  ->  jin
+  12:    1  ->  lum
+  13:    1  ->  nork
+  14:    1  ->  nou
+  15:    1  ->  of
+  16:    1  ->  s
+  17:    1  ->  sant
+  18:    1  ->  sgart
+  19:    1  ->  shalt
+  20:    1  ->  soi
+  21:    1  ->  spai
+  22:    1  ->  spreeuw
+  23:    1  ->  stuit
+  24:    1  ->  swoei
+  25:    1  ->  swoors
+  26:    1  ->  swords
+  27:    1  ->  van
+  28:    1  ->  vit
+  29:    1  ->  zant
+  30:    1  ->  één
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

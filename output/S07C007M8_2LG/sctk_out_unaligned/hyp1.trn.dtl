@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.2%   (  56)
+
+Percent Correct           =   17.5%   (  10)
+
+Percent Substitution      =   80.7%   (  46)
+Percent Deletions         =    1.8%   (   1)
+Percent Insertions        =   15.8%   (   9)
+Percent Word Accuracy     =    1.8%
+
+
+Ref. words                =           (  57)
+Hyp. words                =           (  65)
+Aligned words             =           (  66)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  * ==> cle
+   2:    1  ->  * ==> fitel
+   3:    1  ->  * ==> gaan?
+   4:    1  ->  * ==> sch
+   5:    1  ->  * ==> schola
+   6:    1  ->  * ==> shi
+   7:    1  ->  * ==> snus
+   8:    1  ->  * ==> soolja
+   9:    1  ->  * ==> ver
+  10:    1  ->  * ==> virr
+  11:    1  ->  * ==> wai
+  12:    1  ->  *(vurig) ==> dirdin
+  13:    1  ->  chauffeur ==> scra
+  14:    1  ->  circus ==> s
+  15:    1  ->  cola ==> advel
+  16:    1  ->  dichtbij ==> me
+  17:    1  ->  drinken ==> hoofpijn
+  18:    1  ->  drogen ==> en
+  19:    1  ->  fietsbel ==> vn
+  20:    1  ->  gooien ==> en
+  21:    1  ->  gooien ==> neeuw
+  22:    1  ->  hoofdpijn ==> ve
+  23:    1  ->  kleuren ==> van
+  24:    1  ->  koning ==> moe
+  25:    1  ->  kussen ==> kursen
+  26:    1  ->  lawaai ==> awa
+  27:    1  ->  lawaai ==> la
+  28:    1  ->  liedje ==> po
+  29:    1  ->  meisje ==> cho
+  30:    1  ->  mevrouw ==> tho
+  31:    1  ->  moeder ==> moter
+  32:    1  ->  moeder ==> nija
+  33:    1  ->  moeilijk ==> lijk
+  34:    1  ->  muziek ==> muzik
+  35:    1  ->  potlood ==> lout
+  36:    1  ->  regen ==> gu
+  37:    1  ->  scheuren ==> schonen
+  38:    1  ->  schouders ==> schauter
+  39:    1  ->  sneeuwen ==> m
+  40:    1  ->  stoppen ==> sopten
+  41:    1  ->  vinger ==> r
+  42:    1  ->  vliegtuig ==> lierkaar
+  43:    1  ->  vlinder ==> dof
+  44:    1  ->  water ==> wante
+  45:    1  ->  winkel ==> wintel
+  46:    1  ->  zwemmen ==> ben
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  conding
+   3:    1  ->  gi
+   4:    1  ->  go
+   5:    1  ->  je
+   6:    1  ->  ken
+   7:    1  ->  neen
+   8:    1  ->  us
+   9:    1  ->  warin
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  appel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   11  ->  *
+   2:    2  ->  gooien
+   3:    2  ->  lawaai
+   4:    2  ->  moeder
+   5:    1  ->  *(vurig)
+   6:    1  ->  chauffeur
+   7:    1  ->  circus
+   8:    1  ->  cola
+   9:    1  ->  dichtbij
+  10:    1  ->  drinken
+  11:    1  ->  drogen
+  12:    1  ->  fietsbel
+  13:    1  ->  hoofdpijn
+  14:    1  ->  kleuren
+  15:    1  ->  koning
+  16:    1  ->  kussen
+  17:    1  ->  liedje
+  18:    1  ->  meisje
+  19:    1  ->  mevrouw
+  20:    1  ->  moeilijk
+  21:    1  ->  muziek
+  22:    1  ->  potlood
+  23:    1  ->  regen
+  24:    1  ->  scheuren
+  25:    1  ->  schouders
+  26:    1  ->  sneeuwen
+  27:    1  ->  stoppen
+  28:    1  ->  vinger
+  29:    1  ->  vliegtuig
+  30:    1  ->  vlinder
+  31:    1  ->  water
+  32:    1  ->  winkel
+  33:    1  ->  zwemmen
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  en
+   2:    1  ->  advel
+   3:    1  ->  awa
+   4:    1  ->  ben
+   5:    1  ->  cho
+   6:    1  ->  cle
+   7:    1  ->  dirdin
+   8:    1  ->  dof
+   9:    1  ->  fitel
+  10:    1  ->  gaan?
+  11:    1  ->  gu
+  12:    1  ->  hoofpijn
+  13:    1  ->  kursen
+  14:    1  ->  la
+  15:    1  ->  lierkaar
+  16:    1  ->  lijk
+  17:    1  ->  lout
+  18:    1  ->  m
+  19:    1  ->  me
+  20:    1  ->  moe
+  21:    1  ->  moter
+  22:    1  ->  muzik
+  23:    1  ->  neeuw
+  24:    1  ->  nija
+  25:    1  ->  po
+  26:    1  ->  r
+  27:    1  ->  s
+  28:    1  ->  sch
+  29:    1  ->  schauter
+  30:    1  ->  schola
+  31:    1  ->  schonen
+  32:    1  ->  scra
+  33:    1  ->  shi
+  34:    1  ->  snus
+  35:    1  ->  soolja
+  36:    1  ->  sopten
+  37:    1  ->  tho
+  38:    1  ->  van
+  39:    1  ->  ve
+  40:    1  ->  ver
+  41:    1  ->  virr
+  42:    1  ->  vn
+  43:    1  ->  wai
+  44:    1  ->  wante
+  45:    1  ->  wintel
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

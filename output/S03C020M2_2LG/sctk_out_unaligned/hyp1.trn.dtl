@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  106.1%   (  52)
+
+Percent Correct           =    4.1%   (   2)
+
+Percent Substitution      =   95.9%   (  47)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   10.2%   (   5)
+Percent Word Accuracy     =   -6.1%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  *s ==> je
+   2:    1  ->  * ==> alto
+   3:    1  ->  *s ==> an?
+   4:    1  ->  *s ==> der
+   5:    1  ->  *s ==> el
+   6:    1  ->  *s ==> fiepel
+   7:    1  ->  *s ==> hege
+   8:    1  ->  *s ==> hoftpijn
+   9:    1  ->  *s ==> konin
+  10:    1  ->  *s ==> lawa
+  11:    1  ->  *s ==> mo
+  12:    1  ->  *s ==> nesje
+  13:    1  ->  *s ==> veen
+  14:    1  ->  *s ==> vot
+  15:    1  ->  appel ==> kola
+  16:    1  ->  auto ==> uh
+  17:    1  ->  dichtbij ==> ik
+  18:    1  ->  drinken ==> ja
+  19:    1  ->  drogen*(droog) ==> inde
+  20:    1  ->  eerste*(eerst) ==> ist
+  21:    1  ->  hoofdpijn ==> egen
+  22:    1  ->  kleuren ==> ierkus
+  23:    1  ->  koning ==> speelplaat
+  24:    1  ->  kussen ==> kouren
+  25:    1  ->  lawaai ==> vuurwerk
+  26:    1  ->  liedje ==> otlo
+  27:    1  ->  meisje ==> waar
+  28:    1  ->  mevrouw ==> en
+  29:    1  ->  moeder ==> weet
+  30:    1  ->  moeilijk ==> driel
+  31:    1  ->  muziek ==> m
+  32:    1  ->  opnieuw ==> opnee
+  33:    1  ->  potlood ==> ide
+  34:    1  ->  regen ==> i
+  35:    1  ->  scheuren ==> wenen
+  36:    1  ->  sneeuwen ==> dar
+  37:    1  ->  speelplaats ==> ken
+  38:    1  ->  verhaal ==> molijk
+  39:    1  ->  vinger ==> chauffer
+  40:    1  ->  vliegtuig ==> da
+  41:    1  ->  vlinder ==> ar
+  42:    1  ->  voetbal ==> kun
+  43:    1  ->  waarom ==> gren
+  44:    1  ->  water ==> evo
+  45:    1  ->  winkel ==> schouders
+  46:    1  ->  zwemmen ==> el
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  er
+   2:    1  ->  in
+   3:    1  ->  mrou
+   4:    1  ->  ne
+   5:    1  ->  wa
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   14  ->  *s
+   2:    1  ->  *
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  dichtbij
+   6:    1  ->  drinken
+   7:    1  ->  drogen*(droog)
+   8:    1  ->  eerste*(eerst)
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  koning
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje
+  15:    1  ->  meisje
+  16:    1  ->  mevrouw
+  17:    1  ->  moeder
+  18:    1  ->  moeilijk
+  19:    1  ->  muziek
+  20:    1  ->  opnieuw
+  21:    1  ->  potlood
+  22:    1  ->  regen
+  23:    1  ->  scheuren
+  24:    1  ->  sneeuwen
+  25:    1  ->  speelplaats
+  26:    1  ->  verhaal
+  27:    1  ->  vinger
+  28:    1  ->  vliegtuig
+  29:    1  ->  vlinder
+  30:    1  ->  voetbal
+  31:    1  ->  waarom
+  32:    1  ->  water
+  33:    1  ->  winkel
+  34:    1  ->  zwemmen
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  el
+   2:    2  ->  je
+   3:    1  ->  alto
+   4:    1  ->  an?
+   5:    1  ->  ar
+   6:    1  ->  chauffer
+   7:    1  ->  da
+   8:    1  ->  dar
+   9:    1  ->  der
+  10:    1  ->  driel
+  11:    1  ->  egen
+  12:    1  ->  en
+  13:    1  ->  evo
+  14:    1  ->  fiepel
+  15:    1  ->  gren
+  16:    1  ->  hege
+  17:    1  ->  hoftpijn
+  18:    1  ->  i
+  19:    1  ->  ide
+  20:    1  ->  ierkus
+  21:    1  ->  ik
+  22:    1  ->  inde
+  23:    1  ->  ist
+  24:    1  ->  ja
+  25:    1  ->  ken
+  26:    1  ->  kola
+  27:    1  ->  konin
+  28:    1  ->  kouren
+  29:    1  ->  kun
+  30:    1  ->  lawa
+  31:    1  ->  m
+  32:    1  ->  mo
+  33:    1  ->  molijk
+  34:    1  ->  nesje
+  35:    1  ->  opnee
+  36:    1  ->  otlo
+  37:    1  ->  schouders
+  38:    1  ->  speelplaat
+  39:    1  ->  uh
+  40:    1  ->  veen
+  41:    1  ->  vot
+  42:    1  ->  vuurwerk
+  43:    1  ->  waar
+  44:    1  ->  weet
+  45:    1  ->  wenen
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

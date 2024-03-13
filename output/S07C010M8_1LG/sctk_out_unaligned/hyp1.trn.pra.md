@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C010M8_1LG
+
+#### (S07C010M8_1LG-words)
+
+- Cor=42.2%	Sub=53.3%	Del=4.4%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | sjaal | herfst | duur | straat | leeuw | clown | * | hoek | krant | hout | vriend | gauw | chips*(schip) | * | groen | feest | reis | jas | huis | paard | vijf | muts*(mus) | * | nieuw | kind | bang | oog | zacht | schoen | plas | neus | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | groei | strand | nbed | eerst | voor | drai | sia | sia | herftt | deur | sstraat | nee | s | loom | hoek | krant | gout | vreemt | gauw |  | schip | groen | veestt | reis | jos | huif | paar | vijf |  | nus | il | kind | bang | oog | stecht | schoen | plas | neer | deur | knp | lang |
+| EVAL |  |  |  |  |  |  | S |  |  | S | S | S | S | S | S | S | S | S |  |  | S | S |  | D | S |  | S |  | S | S | S |  | D | S | S |  |  |  | S |  |  | S | S | S | S |
+---
+
+---

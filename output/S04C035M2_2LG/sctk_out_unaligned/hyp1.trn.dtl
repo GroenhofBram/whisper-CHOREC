@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   82.9%   (  58)
+
+Percent Correct           =   21.4%   (  15)
+
+Percent Substitution      =   70.0%   (  49)
+Percent Deletions         =    8.6%   (   6)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   17.1%
+
+
+Ref. words                =           (  70)
+Hyp. words                =           (  67)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  * ==> lae
+   2:    1  ->  * ==> bel
+   3:    1  ->  * ==> doea
+   4:    1  ->  * ==> e
+   5:    1  ->  * ==> fiets
+   6:    1  ->  * ==> goeien
+   7:    1  ->  * ==> gooie
+   8:    1  ->  * ==> hooftplen
+   9:    1  ->  * ==> ka
+  10:    1  ->  * ==> kirus
+  11:    1  ->  * ==> ko
+  12:    1  ->  * ==> kolla
+  13:    1  ->  * ==> l
+  14:    1  ->  * ==> laa
+  15:    1  ->  * ==> lai
+  16:    1  ->  * ==> m
+  17:    1  ->  * ==> me
+  18:    1  ->  * ==> rus
+  19:    1  ->  * ==> s
+  20:    1  ->  * ==> schoenautors
+  21:    1  ->  * ==> schoenouders
+  22:    1  ->  * ==> vlliegtuig
+  23:    1  ->  * ==> wur
+  24:    1  ->  *(hoofdplein) ==> plein
+  25:    1  ->  *(schuren) ==> s
+  26:    1  ->  chauffeur ==> mesju
+  27:    1  ->  circus ==> ki
+  28:    1  ->  cola ==> kola
+  29:    1  ->  dichtbij ==> dicht
+  30:    1  ->  drinken ==> drien
+  31:    1  ->  drogen ==> droge
+  32:    1  ->  fietsbel ==> lood
+  33:    1  ->  gooien ==> goea
+  34:    1  ->  hoofdpijn ==> kun
+  35:    1  ->  kleuren ==> kleren
+  36:    1  ->  kussen ==> kusen
+  37:    1  ->  lawaai ==> schuren
+  38:    1  ->  liedje*(liedjes) ==> lelijuu
+  39:    1  ->  meisje ==> bij
+  40:    1  ->  mevrouw ==> vrouw
+  41:    1  ->  moeilijk ==> lok
+  42:    1  ->  potlood ==> pot
+  43:    1  ->  regen*(rennen) ==> hoofdplein
+  44:    1  ->  sneeuwen ==> sneeuwwen
+  45:    1  ->  stoppen ==> stoen
+  46:    1  ->  vinger ==> vinwer
+  47:    1  ->  vliegtuig ==> rennen
+  48:    1  ->  vlinder ==> vlinde
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  m
+   2:    1  ->  mo
+   3:    1  ->  vla
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    4  ->  *
+   2:    1  ->  scheuren
+   3:    1  ->  schouders
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   24  ->  *
+   2:    1  ->  *(hoofdplein)
+   3:    1  ->  *(schuren)
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  drinken
+   9:    1  ->  drogen
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  hoofdpijn
+  13:    1  ->  kleuren
+  14:    1  ->  kussen
+  15:    1  ->  lawaai
+  16:    1  ->  liedje*(liedjes)
+  17:    1  ->  meisje
+  18:    1  ->  mevrouw
+  19:    1  ->  moeilijk
+  20:    1  ->  potlood
+  21:    1  ->  regen*(rennen)
+  22:    1  ->  sneeuwen
+  23:    1  ->  stoppen
+  24:    1  ->  vinger
+  25:    1  ->  vliegtuig
+  26:    1  ->  vlinder
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  lae
+   2:    2  ->  s
+   3:    1  ->  bel
+   4:    1  ->  bij
+   5:    1  ->  dicht
+   6:    1  ->  doea
+   7:    1  ->  drien
+   8:    1  ->  droge
+   9:    1  ->  e
+  10:    1  ->  fiets
+  11:    1  ->  goea
+  12:    1  ->  goeien
+  13:    1  ->  gooie
+  14:    1  ->  hoofdplein
+  15:    1  ->  hooftplen
+  16:    1  ->  ka
+  17:    1  ->  ki
+  18:    1  ->  kirus
+  19:    1  ->  kleren
+  20:    1  ->  ko
+  21:    1  ->  kola
+  22:    1  ->  kolla
+  23:    1  ->  kun
+  24:    1  ->  kusen
+  25:    1  ->  l
+  26:    1  ->  laa
+  27:    1  ->  lai
+  28:    1  ->  lelijuu
+  29:    1  ->  lok
+  30:    1  ->  lood
+  31:    1  ->  m
+  32:    1  ->  me
+  33:    1  ->  mesju
+  34:    1  ->  plein
+  35:    1  ->  pot
+  36:    1  ->  rennen
+  37:    1  ->  rus
+  38:    1  ->  schoenautors
+  39:    1  ->  schoenouders
+  40:    1  ->  schuren
+  41:    1  ->  sneeuwwen
+  42:    1  ->  stoen
+  43:    1  ->  vinwer
+  44:    1  ->  vlinde
+  45:    1  ->  vlliegtuig
+  46:    1  ->  vrouw
+  47:    1  ->  wur
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.0%   (  32)
+
+Percent Correct           =   24.4%   (  10)
+
+Percent Substitution      =   73.2%   (  30)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   22.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  arm ==> gan
+   2:    1  ->  arm ==> ko
+   3:    1  ->  bang ==> ban
+   4:    1  ->  bed ==> bet
+   5:    1  ->  chips ==> schipt
+   6:    1  ->  clown ==> glo
+   7:    1  ->  draai ==> drei
+   8:    1  ->  duur ==> deur
+   9:    1  ->  gauw ==> gal
+  10:    1  ->  groei ==> vro
+  11:    1  ->  groen ==> goen
+  12:    1  ->  herfst ==> herst
+  13:    1  ->  hoek ==> hou
+  14:    1  ->  hout ==> halt
+  15:    1  ->  huis ==> s
+  16:    1  ->  jas ==> jan
+  17:    1  ->  knoop ==> op
+  18:    1  ->  koe ==> moi
+  19:    1  ->  krant ==> khout
+  20:    1  ->  leeuw ==> ne
+  21:    1  ->  muts ==> met
+  22:    1  ->  neus ==> knog
+  23:    1  ->  nieuw ==> niem
+  24:    1  ->  paard*(paars) ==> ers
+  25:    1  ->  plank ==> kan
+  26:    1  ->  reis ==> veis
+  27:    1  ->  schoen ==> schoon
+  28:    1  ->  sjaal ==> sal
+  29:    1  ->  strand ==> ant
+  30:    1  ->  vriend ==> vreemd
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  nes
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mooi
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  arm
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  draai
+   7:    1  ->  duur
+   8:    1  ->  gauw
+   9:    1  ->  groei
+  10:    1  ->  groen
+  11:    1  ->  herfst
+  12:    1  ->  hoek
+  13:    1  ->  hout
+  14:    1  ->  huis
+  15:    1  ->  jas
+  16:    1  ->  knoop
+  17:    1  ->  koe
+  18:    1  ->  krant
+  19:    1  ->  leeuw
+  20:    1  ->  muts
+  21:    1  ->  neus
+  22:    1  ->  nieuw
+  23:    1  ->  paard*(paars)
+  24:    1  ->  plank
+  25:    1  ->  reis
+  26:    1  ->  schoen
+  27:    1  ->  sjaal
+  28:    1  ->  strand
+  29:    1  ->  vriend
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  ant
+   2:    1  ->  ban
+   3:    1  ->  bet
+   4:    1  ->  deur
+   5:    1  ->  drei
+   6:    1  ->  ers
+   7:    1  ->  gal
+   8:    1  ->  gan
+   9:    1  ->  glo
+  10:    1  ->  goen
+  11:    1  ->  halt
+  12:    1  ->  herst
+  13:    1  ->  hou
+  14:    1  ->  jan
+  15:    1  ->  kan
+  16:    1  ->  khout
+  17:    1  ->  knog
+  18:    1  ->  ko
+  19:    1  ->  met
+  20:    1  ->  moi
+  21:    1  ->  ne
+  22:    1  ->  niem
+  23:    1  ->  op
+  24:    1  ->  s
+  25:    1  ->  sal
+  26:    1  ->  schipt
+  27:    1  ->  schoon
+  28:    1  ->  veis
+  29:    1  ->  vreemd
+  30:    1  ->  vro
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.6%   (  20)
+
+Percent Correct           =   59.5%   (  25)
+
+Percent Substitution      =   31.0%   (  13)
+Percent Deletions         =    9.5%   (   4)
+Percent Insertions        =    7.1%   (   3)
+Percent Word Accuracy     =   52.4%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  auto ==> winkelauto
+   2:    1  ->  chauffeur ==> tchauffeur
+   3:    1  ->  dichtbij ==> bij
+   4:    1  ->  eerste ==> kussenersta
+   5:    1  ->  fietsbel ==> bel
+   6:    1  ->  hoofdpijn ==> pen
+   7:    1  ->  koning ==> kooning
+   8:    1  ->  kussen ==> chucola
+   9:    1  ->  liedje ==> botlout
+  10:    1  ->  potlood ==> viet
+  11:    1  ->  sneeuwen ==> snieuwen
+  12:    1  ->  vlinder ==> vlinde
+  13:    1  ->  voetbal ==> vootbal
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  dicht
+   2:    1  ->  hoort
+   3:    1  ->  licha
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  cola
+   3:    1  ->  winkel
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  auto
+   2:    1  ->  chauffeur
+   3:    1  ->  dichtbij
+   4:    1  ->  eerste
+   5:    1  ->  fietsbel
+   6:    1  ->  hoofdpijn
+   7:    1  ->  koning
+   8:    1  ->  kussen
+   9:    1  ->  liedje
+  10:    1  ->  potlood
+  11:    1  ->  sneeuwen
+  12:    1  ->  vlinder
+  13:    1  ->  voetbal
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bel
+   2:    1  ->  bij
+   3:    1  ->  botlout
+   4:    1  ->  chucola
+   5:    1  ->  kooning
+   6:    1  ->  kussenersta
+   7:    1  ->  pen
+   8:    1  ->  snieuwen
+   9:    1  ->  tchauffeur
+  10:    1  ->  viet
+  11:    1  ->  vlinde
+  12:    1  ->  vootbal
+  13:    1  ->  winkelauto
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

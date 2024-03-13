@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   74.1%   (  43)
+
+Percent Correct           =   29.3%   (  17)
+
+Percent Substitution      =   65.5%   (  38)
+Percent Deletions         =    5.2%   (   3)
+Percent Insertions        =    3.4%   (   2)
+Percent Word Accuracy     =   25.9%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  57)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  * ==> aou
+   2:    1  ->  * ==> bij
+   3:    1  ->  * ==> con
+   4:    1  ->  * ==> cuin
+   5:    1  ->  * ==> er
+   6:    1  ->  * ==> galver
+   7:    1  ->  * ==> kul
+   8:    1  ->  * ==> mm
+   9:    1  ->  * ==> moei
+  10:    1  ->  * ==> outel
+  11:    1  ->  * ==> scha
+  12:    1  ->  * ==> schl
+  13:    1  ->  * ==> schoea
+  14:    1  ->  * ==> spor
+  15:    1  ->  * ==> uh
+  16:    1  ->  * ==> werter
+  17:    1  ->  *t ==> meser
+  18:    1  ->  appel ==> oppel
+  19:    1  ->  chauffeur ==> ve
+  20:    1  ->  circus ==> ifokus
+  21:    1  ->  cola ==> ole
+  22:    1  ->  dichtbij ==> ser
+  23:    1  ->  drogen ==> drulgen
+  24:    1  ->  fietsbel ==> wel
+  25:    1  ->  koning ==> verel
+  26:    1  ->  lawaai ==> lavw
+  27:    1  ->  liedje ==> loot
+  28:    1  ->  meisje ==> deris
+  29:    1  ->  moeilijk ==> lek
+  30:    1  ->  potlood ==> viet
+  31:    1  ->  regen ==> rezen
+  32:    1  ->  schouders ==> s
+  33:    1  ->  speelplaats ==> speelplat
+  34:    1  ->  verhaal ==> schouderst
+  35:    1  ->  vinger ==> vin
+  36:    1  ->  vliegtuig ==> liestuig
+  37:    1  ->  voetbal ==> voetwouw
+  38:    1  ->  zwemmen ==> vm
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  lije
+   2:    1  ->  pot
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *
+   2:    1  ->  auto
+   3:    1  ->  water
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   16  ->  *
+   2:    1  ->  *t
+   3:    1  ->  appel
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  drogen
+   9:    1  ->  fietsbel
+  10:    1  ->  koning
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  meisje
+  14:    1  ->  moeilijk
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  schouders
+  18:    1  ->  speelplaats
+  19:    1  ->  verhaal
+  20:    1  ->  vinger
+  21:    1  ->  vliegtuig
+  22:    1  ->  voetbal
+  23:    1  ->  zwemmen
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  aou
+   2:    1  ->  bij
+   3:    1  ->  con
+   4:    1  ->  cuin
+   5:    1  ->  deris
+   6:    1  ->  drulgen
+   7:    1  ->  er
+   8:    1  ->  galver
+   9:    1  ->  ifokus
+  10:    1  ->  kul
+  11:    1  ->  lavw
+  12:    1  ->  lek
+  13:    1  ->  liestuig
+  14:    1  ->  loot
+  15:    1  ->  meser
+  16:    1  ->  mm
+  17:    1  ->  moei
+  18:    1  ->  ole
+  19:    1  ->  oppel
+  20:    1  ->  outel
+  21:    1  ->  rezen
+  22:    1  ->  s
+  23:    1  ->  scha
+  24:    1  ->  schl
+  25:    1  ->  schoea
+  26:    1  ->  schouderst
+  27:    1  ->  ser
+  28:    1  ->  speelplat
+  29:    1  ->  spor
+  30:    1  ->  uh
+  31:    1  ->  ve
+  32:    1  ->  verel
+  33:    1  ->  viet
+  34:    1  ->  vin
+  35:    1  ->  vm
+  36:    1  ->  voetwouw
+  37:    1  ->  wel
+  38:    1  ->  werter
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

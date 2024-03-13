@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.0%   (  63)
+
+Percent Correct           =    6.0%   (   4)
+
+Percent Substitution      =   76.1%   (  51)
+Percent Deletions         =   17.9%   (  12)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    6.0%
+
+
+Ref. words                =           (  67)
+Hyp. words                =           (  55)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    1  ->  * ==> fot
+   2:    1  ->  * ==> oe
+   3:    1  ->  * ==> potnoot
+   4:    1  ->  * ==> ri
+   5:    1  ->  * ==> rin
+   6:    1  ->  * ==> u
+   7:    1  ->  * ==> uh
+   8:    1  ->  *s ==> bij
+   9:    1  ->  *s ==> chauffeur
+  10:    1  ->  *s ==> eerste
+  11:    1  ->  *s ==> ein
+  12:    1  ->  *s ==> el
+  13:    1  ->  *s ==> lamay
+  14:    1  ->  *s ==> liet
+  15:    1  ->  *s ==> lis
+  16:    1  ->  *s ==> mola
+  17:    1  ->  *s ==> opeel
+  18:    1  ->  *s ==> os
+  19:    1  ->  *s ==> schouders
+  20:    1  ->  *s ==> selnden
+  21:    1  ->  *s ==> u
+  22:    1  ->  *s ==> veerwerk
+  23:    1  ->  *s ==> verhal
+  24:    1  ->  *s ==> vliefte
+  25:    1  ->  *t ==> cirkus
+  26:    1  ->  *t ==> dicht
+  27:    1  ->  *t ==> fitsbeel
+  28:    1  ->  *t ==> m
+  29:    1  ->  *t ==> u
+  30:    1  ->  *t ==> waar
+  31:    1  ->  *t ==> wintel
+  32:    1  ->  appel ==> apol
+  33:    1  ->  auto ==> bove
+  34:    1  ->  drinken ==> speellaats
+  35:    1  ->  drogen ==> waarum
+  36:    1  ->  fietsbel ==> je
+  37:    1  ->  hoofdpijn ==> kun
+  38:    1  ->  kussen ==> kisten
+  39:    1  ->  lawaai ==> heren
+  40:    1  ->  liedje ==> moedeer
+  41:    1  ->  moeder ==> oen
+  42:    1  ->  muziek ==> meske
+  43:    1  ->  regen ==> hos
+  44:    1  ->  scheuren ==> waaroon
+  45:    1  ->  speelplaats ==> konin
+  46:    1  ->  verhaal ==> out
+  47:    1  ->  vliegtuig ==> hogem
+  48:    1  ->  voetbal ==> voenbal
+  49:    1  ->  waarom ==> lizik
+  50:    1  ->  winkel ==> ra
+  51:    1  ->  zwemmen ==> ene
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    5  ->  *s
+   2:    2  ->  *t
+   3:    1  ->  *(warm)
+   4:    1  ->  gooien*(gooi)
+   5:    1  ->  meisje
+   6:    1  ->  opnieuw
+   7:    1  ->  water
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   17  ->  *s
+   2:    7  ->  *
+   3:    7  ->  *t
+   4:    1  ->  appel
+   5:    1  ->  auto
+   6:    1  ->  drinken
+   7:    1  ->  drogen
+   8:    1  ->  fietsbel
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  moeder
+  14:    1  ->  muziek
+  15:    1  ->  regen
+  16:    1  ->  scheuren
+  17:    1  ->  speelplaats
+  18:    1  ->  verhaal
+  19:    1  ->  vliegtuig
+  20:    1  ->  voetbal
+  21:    1  ->  waarom
+  22:    1  ->  winkel
+  23:    1  ->  zwemmen
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  u
+   2:    1  ->  apol
+   3:    1  ->  bij
+   4:    1  ->  bove
+   5:    1  ->  chauffeur
+   6:    1  ->  cirkus
+   7:    1  ->  dicht
+   8:    1  ->  eerste
+   9:    1  ->  ein
+  10:    1  ->  el
+  11:    1  ->  ene
+  12:    1  ->  fitsbeel
+  13:    1  ->  fot
+  14:    1  ->  heren
+  15:    1  ->  hogem
+  16:    1  ->  hos
+  17:    1  ->  je
+  18:    1  ->  kisten
+  19:    1  ->  konin
+  20:    1  ->  kun
+  21:    1  ->  lamay
+  22:    1  ->  liet
+  23:    1  ->  lis
+  24:    1  ->  lizik
+  25:    1  ->  m
+  26:    1  ->  meske
+  27:    1  ->  moedeer
+  28:    1  ->  mola
+  29:    1  ->  oe
+  30:    1  ->  oen
+  31:    1  ->  opeel
+  32:    1  ->  os
+  33:    1  ->  out
+  34:    1  ->  potnoot
+  35:    1  ->  ra
+  36:    1  ->  ri
+  37:    1  ->  rin
+  38:    1  ->  schouders
+  39:    1  ->  selnden
+  40:    1  ->  speellaats
+  41:    1  ->  uh
+  42:    1  ->  veerwerk
+  43:    1  ->  verhal
+  44:    1  ->  vliefte
+  45:    1  ->  voenbal
+  46:    1  ->  waar
+  47:    1  ->  waaroon
+  48:    1  ->  waarum
+  49:    1  ->  wintel
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

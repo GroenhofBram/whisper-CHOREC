@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.6%   (  68)
+
+Percent Correct           =   24.6%   (  17)
+
+Percent Substitution      =   71.0%   (  49)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =   23.2%   (  16)
+Percent Word Accuracy     =    1.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  82)
+Aligned words             =           (  85)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> ap
+   3:    1  ->  * ==> den
+   4:    1  ->  * ==> enie
+   5:    1  ->  * ==> goeie
+   6:    1  ->  * ==> in
+   7:    1  ->  * ==> je
+   8:    1  ->  * ==> kuensuh
+   9:    1  ->  * ==> kunnen
+  10:    1  ->  * ==> niet
+  11:    1  ->  * ==> o
+  12:    1  ->  * ==> onade
+  13:    1  ->  * ==> ook
+  14:    1  ->  * ==> reen
+  15:    1  ->  * ==> rus
+  16:    1  ->  * ==> scho
+  17:    1  ->  * ==> schoonwinkel
+  18:    1  ->  * ==> seh
+  19:    1  ->  * ==> sho
+  20:    1  ->  * ==> sifer
+  21:    1  ->  * ==> sn
+  22:    1  ->  * ==> t
+  23:    1  ->  * ==> u
+  24:    1  ->  * ==> én
+  25:    1  ->  *(verwacht) ==> verwacht
+  26:    1  ->  *t ==> hoe
+  27:    1  ->  *x ==> ma
+  28:    1  ->  achterdeur ==> en
+  29:    1  ->  chocolade ==> familliechocolade
+  30:    1  ->  elastiekje ==> alstikjes
+  31:    1  ->  fototoestel ==> fo
+  32:    1  ->  goeiendag ==> dag
+  33:    1  ->  iedereen ==> i
+  34:    1  ->  konijnenhok ==> hok
+  35:    1  ->  limonade ==> limuna
+  36:    1  ->  paddenstoelen*(paddenstoel) ==> fotos
+  37:    1  ->  ruziemaken ==> imaken
+  38:    1  ->  schoenenwinkel*(schoenwinkel) ==> de
+  39:    1  ->  slaapkamer ==> kamer-achterdeurziek
+  40:    1  ->  sneeuwwitje ==> go
+  41:    1  ->  sprookjesboek ==> dan
+  42:    1  ->  tandenborstel ==> bostel
+  43:    1  ->  teddybeer ==> teerk
+  44:    1  ->  toiletpapier ==> werk
+  45:    1  ->  verstoppertje ==> de
+  46:    1  ->  vogelkooi ==> koi
+  47:    1  ->  washandje ==> o
+  48:    1  ->  wasmachine ==> fo
+  49:    1  ->  ziekenhuis ==> huis
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  was
+   2:    1  ->  boek
+   3:    1  ->  dat
+   4:    1  ->  den
+   5:    1  ->  handje
+   6:    1  ->  konijnen
+   7:    1  ->  machine
+   8:    1  ->  o
+   9:    1  ->  pad
+  10:    1  ->  snee
+  11:    1  ->  sprookjes
+  12:    1  ->  stoel
+  13:    1  ->  verstopperdje
+  14:    1  ->  vo
+  15:    1  ->  wietje
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  familie
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   24  ->  *
+   2:    1  ->  *(verwacht)
+   3:    1  ->  *t
+   4:    1  ->  *x
+   5:    1  ->  achterdeur
+   6:    1  ->  chocolade
+   7:    1  ->  elastiekje
+   8:    1  ->  fototoestel
+   9:    1  ->  goeiendag
+  10:    1  ->  iedereen
+  11:    1  ->  konijnenhok
+  12:    1  ->  limonade
+  13:    1  ->  paddenstoelen*(paddenstoel)
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel*(schoenwinkel)
+  16:    1  ->  slaapkamer
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+  26:    1  ->  ziekenhuis
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  de
+   2:    2  ->  fo
+   3:    2  ->  o
+   4:    1  ->  a
+   5:    1  ->  alstikjes
+   6:    1  ->  ap
+   7:    1  ->  bostel
+   8:    1  ->  dag
+   9:    1  ->  dan
+  10:    1  ->  den
+  11:    1  ->  en
+  12:    1  ->  enie
+  13:    1  ->  familliechocolade
+  14:    1  ->  fotos
+  15:    1  ->  go
+  16:    1  ->  goeie
+  17:    1  ->  hoe
+  18:    1  ->  hok
+  19:    1  ->  huis
+  20:    1  ->  i
+  21:    1  ->  imaken
+  22:    1  ->  in
+  23:    1  ->  je
+  24:    1  ->  kamer-achterdeurziek
+  25:    1  ->  koi
+  26:    1  ->  kuensuh
+  27:    1  ->  kunnen
+  28:    1  ->  limuna
+  29:    1  ->  ma
+  30:    1  ->  niet
+  31:    1  ->  onade
+  32:    1  ->  ook
+  33:    1  ->  reen
+  34:    1  ->  rus
+  35:    1  ->  scho
+  36:    1  ->  schoonwinkel
+  37:    1  ->  seh
+  38:    1  ->  sho
+  39:    1  ->  sifer
+  40:    1  ->  sn
+  41:    1  ->  t
+  42:    1  ->  teerk
+  43:    1  ->  u
+  44:    1  ->  verwacht
+  45:    1  ->  werk
+  46:    1  ->  én
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

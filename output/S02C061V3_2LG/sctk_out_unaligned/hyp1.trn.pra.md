@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C061V3_2LG
+
+#### (S02C061V3_2LG-words)
+
+- Cor=55.8%	Sub=39.5%	Del=0.0%	Ins=4.7%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen*(droog) | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder |  |  | liedje | potlood | fietsbel | vinger | dichtbij | meisje | *s | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | mevrouw | thoog | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | rijgen | vliegtuig | stoppen | opnieuw | goeien | sneeuw | moeder | liet | je | brotloot | fiets | del | vinger | dichterbij | nashe | sjaufer | wis | ik? | waarom? | schelen | lawai | swemmen | vuurwerk | appel | kola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| EVAL |  |  | S |  |  |  |  |  |  |  |  |  | S |  |  |  | S | S |  | I | I | S | S | S |  | S | S | S | S | S | S | S | S | S |  |  | S |  |  |  |  |  |  |
+---
+
+---

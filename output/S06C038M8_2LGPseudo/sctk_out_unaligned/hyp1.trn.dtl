@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.5%   (  42)
+
+Percent Correct           =    4.5%   (   2)
+
+Percent Substitution      =   93.2%   (  41)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  * ==> foki
+   2:    1  ->  * ==> saarwen
+   3:    1  ->  * ==> schielstag
+   4:    1  ->  *(wals) ==> wals
+   5:    1  ->  bepoud ==> beaut
+   6:    1  ->  eemde ==> ende
+   7:    1  ->  fiewon ==> fegon
+   8:    1  ->  foetbans ==> foet
+   9:    1  ->  gefouw ==> gofaw
+  10:    1  ->  geutel ==> sheutel
+  11:    1  ->  grijnken ==> maar
+  12:    1  ->  hiffreeuw ==> hieftrij
+  13:    1  ->  ierpieuw ==> ierpe
+  14:    1  ->  ijpo ==> appov
+  15:    1  ->  kloeien ==> ploeien
+  16:    1  ->  kneurem ==> kneuren
+  17:    1  ->  menuur ==> meneur
+  18:    1  ->  millen ==> mielen
+  19:    1  ->  milste ==> milster
+  20:    1  ->  muider ==> onste
+  21:    1  ->  nizung ==> insdag
+  22:    1  ->  oonste ==> band
+  23:    1  ->  orponk ==> oorbonk
+  24:    1  ->  orstalk ==> oorstalk
+  25:    1  ->  prilsood ==> prilbrilsoot
+  26:    1  ->  saarweng ==> hawel
+  27:    1  ->  schielstaug ==> srinkem
+  28:    1  ->  schodig ==> schoddig
+  29:    1  ->  sjobel ==> schobel
+  30:    1  ->  spreikje ==> spraakje
+  31:    1  ->  strellen*(strelen) ==> strijlen
+  32:    1  ->  ulen ==> pulen
+  33:    1  ->  vawaai ==> faai
+  34:    1  ->  veten*(vetten) ==> vetten
+  35:    1  ->  veurder ==> verdeg
+  36:    1  ->  vloender ==> floeder
+  37:    1  ->  vocil ==> fokil
+  38:    1  ->  vurpaand ==> vuurpaand
+  39:    1  ->  walaan ==> wallan
+  40:    1  ->  wooien ==> wayen
+  41:    1  ->  zwieten ==> zweeten
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  haweel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  *
+   2:    1  ->  *(wals)
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orponk
+  22:    1  ->  orstalk
+  23:    1  ->  prilsood
+  24:    1  ->  saarweng
+  25:    1  ->  schielstaug
+  26:    1  ->  schodig
+  27:    1  ->  sjobel
+  28:    1  ->  spreikje
+  29:    1  ->  strellen*(strelen)
+  30:    1  ->  ulen
+  31:    1  ->  vawaai
+  32:    1  ->  veten*(vetten)
+  33:    1  ->  veurder
+  34:    1  ->  vloender
+  35:    1  ->  vocil
+  36:    1  ->  vurpaand
+  37:    1  ->  walaan
+  38:    1  ->  wooien
+  39:    1  ->  zwieten
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  appov
+   2:    1  ->  band
+   3:    1  ->  beaut
+   4:    1  ->  ende
+   5:    1  ->  faai
+   6:    1  ->  fegon
+   7:    1  ->  floeder
+   8:    1  ->  foet
+   9:    1  ->  foki
+  10:    1  ->  fokil
+  11:    1  ->  gofaw
+  12:    1  ->  hawel
+  13:    1  ->  hieftrij
+  14:    1  ->  ierpe
+  15:    1  ->  insdag
+  16:    1  ->  kneuren
+  17:    1  ->  maar
+  18:    1  ->  meneur
+  19:    1  ->  mielen
+  20:    1  ->  milster
+  21:    1  ->  onste
+  22:    1  ->  oorbonk
+  23:    1  ->  oorstalk
+  24:    1  ->  ploeien
+  25:    1  ->  prilbrilsoot
+  26:    1  ->  pulen
+  27:    1  ->  saarwen
+  28:    1  ->  schielstag
+  29:    1  ->  schobel
+  30:    1  ->  schoddig
+  31:    1  ->  sheutel
+  32:    1  ->  spraakje
+  33:    1  ->  srinkem
+  34:    1  ->  strijlen
+  35:    1  ->  verdeg
+  36:    1  ->  vetten
+  37:    1  ->  vuurpaand
+  38:    1  ->  wallan
+  39:    1  ->  wals
+  40:    1  ->  wayen
+  41:    1  ->  zweeten
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

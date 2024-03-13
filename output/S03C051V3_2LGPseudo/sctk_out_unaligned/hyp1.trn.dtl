@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   77.5%   (  31)
+
+Percent Correct           =   25.0%   (  10)
+
+Percent Substitution      =   75.0%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   22.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bepoud ==> bepauld
+   2:    1  ->  eemde ==> ende
+   3:    1  ->  fiewon ==> fibon
+   4:    1  ->  foetbans ==> voetband
+   5:    1  ->  gefouw ==> gefal
+   6:    1  ->  geutel ==> foel
+   7:    1  ->  grijnken ==> grejnken
+   8:    1  ->  hiffreeuw ==> istere
+   9:    1  ->  ierpieuw ==> peel
+  10:    1  ->  ijpo ==> ipol
+  11:    1  ->  kloeien ==> clouen
+  12:    1  ->  kneurem ==> kneuren
+  13:    1  ->  millen ==> forsil
+  14:    1  ->  muider ==> nadder
+  15:    1  ->  nizung ==> mesun
+  16:    1  ->  oonste ==> onste
+  17:    1  ->  orstalk ==> orstald
+  18:    1  ->  prilsood ==> prilsoot
+  19:    1  ->  saarweng ==> sarwing
+  20:    1  ->  schielstaug ==> schilstau
+  21:    1  ->  schodig ==> schotig
+  22:    1  ->  sjobel ==> ier
+  23:    1  ->  strellen ==> strillen
+  24:    1  ->  vawaai ==> vawai
+  25:    1  ->  veten ==> vetel
+  26:    1  ->  veurder ==> verder
+  27:    1  ->  vloender ==> vlounder
+  28:    1  ->  vocil ==> getel
+  29:    1  ->  vurpaand ==> vurpant
+  30:    1  ->  zwieten ==> jiten
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mile
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bepoud
+   2:    1  ->  eemde
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  geutel
+   7:    1  ->  grijnken
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kloeien
+  12:    1  ->  kneurem
+  13:    1  ->  millen
+  14:    1  ->  muider
+  15:    1  ->  nizung
+  16:    1  ->  oonste
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  schodig
+  22:    1  ->  sjobel
+  23:    1  ->  strellen
+  24:    1  ->  vawaai
+  25:    1  ->  veten
+  26:    1  ->  veurder
+  27:    1  ->  vloender
+  28:    1  ->  vocil
+  29:    1  ->  vurpaand
+  30:    1  ->  zwieten
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bepauld
+   2:    1  ->  clouen
+   3:    1  ->  ende
+   4:    1  ->  fibon
+   5:    1  ->  foel
+   6:    1  ->  forsil
+   7:    1  ->  gefal
+   8:    1  ->  getel
+   9:    1  ->  grejnken
+  10:    1  ->  ier
+  11:    1  ->  ipol
+  12:    1  ->  istere
+  13:    1  ->  jiten
+  14:    1  ->  kneuren
+  15:    1  ->  mesun
+  16:    1  ->  nadder
+  17:    1  ->  onste
+  18:    1  ->  orstald
+  19:    1  ->  peel
+  20:    1  ->  prilsoot
+  21:    1  ->  sarwing
+  22:    1  ->  schilstau
+  23:    1  ->  schotig
+  24:    1  ->  strillen
+  25:    1  ->  vawai
+  26:    1  ->  verder
+  27:    1  ->  vetel
+  28:    1  ->  vlounder
+  29:    1  ->  voetband
+  30:    1  ->  vurpant
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

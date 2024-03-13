@@ -1,0 +1,351 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S07C011M8_2LG": {
+   "(S07C011M8_2LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S07C011M8_2LG",
+    "sentence_id": "(S07C011M8_2LG-words)",
+    "sequence": 0,
+    "word_count": 67,
+    "words": [
+     {
+      "eval_label": "D",
+      "ref": "water",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "waner"
+     },
+     {
+      "eval_label": "C",
+      "ref": "water",
+      "hyp": "water"
+     },
+     {
+      "eval_label": "S",
+      "ref": "mevrouw",
+      "hyp": "maarvouw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dera"
+     },
+     {
+      "eval_label": "S",
+      "ref": "drogen*(dranken)",
+      "hyp": "ken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "winkel*(wikkel)",
+      "hyp": "wikel"
+     },
+     {
+      "eval_label": "C",
+      "ref": "auto",
+      "hyp": "auto"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "schoenteleis"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "svel"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "moe"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "dat"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "lang"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schouders",
+      "hyp": "en"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*x",
+      "hyp": "vin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "gal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verhaal",
+      "hyp": "bou"
+     },
+     {
+      "eval_label": "S",
+      "ref": "koning",
+      "hyp": "neen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "moeilijk",
+      "hyp": "maik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "speelplaats",
+      "hyp": "spereplot"
+     },
+     {
+      "eval_label": "C",
+      "ref": "drinken",
+      "hyp": "drinken"
+     },
+     {
+      "eval_label": "D",
+      "ref": "hoofdpijn",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "hoofdkepen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "regen",
+      "hyp": "rengen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vliegtuig",
+      "hyp": "lenkkin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "stoppen",
+      "hyp": "stopen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "opnieuw",
+      "hyp": "opnieuw"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "voen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "sneewwinv"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "modere"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "te"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "le"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gooien",
+      "hyp": "e"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sneeuwen",
+      "hyp": "pot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "moeder*(modder)",
+      "hyp": "loud"
+     },
+     {
+      "eval_label": "S",
+      "ref": "liedje",
+      "hyp": "pot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "lout"
+     },
+     {
+      "eval_label": "S",
+      "ref": "potlood",
+      "hyp": "gitsbel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "potlood",
+      "hyp": "fits"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fietsbel",
+      "hyp": "mel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "vin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fietsbel",
+      "hyp": "gr"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vinger",
+      "hyp": "dik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "bij"
+     },
+     {
+      "eval_label": "S",
+      "ref": "dichtbij",
+      "hyp": "mes"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "meisje",
+      "hyp": "weet"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*x",
+      "hyp": "niet"
+     },
+     {
+      "eval_label": "S",
+      "ref": "muziek",
+      "hyp": "miski"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "muski"
+     },
+     {
+      "eval_label": "C",
+      "ref": "waarom",
+      "hyp": "waarom"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "schurden"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "leuwen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "scheuren",
+      "hyp": "zwimmen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "lawaai*(leeuwen)",
+      "hyp": "veel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwemmen",
+      "hyp": "werk"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vuurwerk",
+      "hyp": "apel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "appel",
+      "hyp": "gool"
+     },
+     {
+      "eval_label": "S",
+      "ref": "cola",
+      "hyp": "kissin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kussen",
+      "hyp": "restiis"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eerste",
+      "hyp": "ger"
+     },
+     {
+      "eval_label": "S",
+      "ref": "circus",
+      "hyp": "pos"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "klelin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kleuren",
+      "hyp": "vint"
+     },
+     {
+      "eval_label": "S",
+      "ref": "voetbal",
+      "hyp": "bal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vlinder",
+      "hyp": "leter"
+     }
+    ]
+   }
+  }
+ }
+}

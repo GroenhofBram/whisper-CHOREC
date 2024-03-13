@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.3%   (  19)
+
+Percent Correct           =   63.4%   (  26)
+
+Percent Substitution      =   34.1%   (  14)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    9.8%   (   4)
+Percent Word Accuracy     =   53.7%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  44)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  *(buurman) ==> buurman
+   2:    1  ->  buurmannen ==> buurmanan
+   3:    1  ->  chocolade ==> familiechocolade
+   4:    1  ->  dierentuin ==> dieretaan
+   5:    1  ->  fototoestel ==> voetotoestel
+   6:    1  ->  kabouter ==> as
+   7:    1  ->  konijnenhok ==> konijnenhook
+   8:    1  ->  limonade ==> lumonade
+   9:    1  ->  ruziemaken ==> maken
+  10:    1  ->  sneeuwwitje ==> sneeuwetje
+  11:    1  ->  tandenborstel ==> borstel
+  12:    1  ->  teddybeer ==> daddibier
+  13:    1  ->  verstoppertje ==> stoppertje
+  14:    1  ->  washandje ==> handje
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kawouter
+   2:    1  ->  ruzie
+   3:    1  ->  tandon
+   4:    1  ->  voor
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  familie
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  *(buurman)
+   2:    1  ->  buurmannen
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  fototoestel
+   6:    1  ->  kabouter
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  ruziemaken
+  10:    1  ->  sneeuwwitje
+  11:    1  ->  tandenborstel
+  12:    1  ->  teddybeer
+  13:    1  ->  verstoppertje
+  14:    1  ->  washandje
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  as
+   2:    1  ->  borstel
+   3:    1  ->  buurman
+   4:    1  ->  buurmanan
+   5:    1  ->  daddibier
+   6:    1  ->  dieretaan
+   7:    1  ->  familiechocolade
+   8:    1  ->  handje
+   9:    1  ->  konijnenhook
+  10:    1  ->  lumonade
+  11:    1  ->  maken
+  12:    1  ->  sneeuwetje
+  13:    1  ->  stoppertje
+  14:    1  ->  voetotoestel
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

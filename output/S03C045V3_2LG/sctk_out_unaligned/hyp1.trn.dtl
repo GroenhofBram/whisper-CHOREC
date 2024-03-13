@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.1%   (  16)
+
+Percent Correct           =   64.3%   (  27)
+
+Percent Substitution      =   35.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   61.9%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> goa
+   2:    1  ->  * ==> wagom
+   3:    1  ->  chauffeur ==> i
+   4:    1  ->  cola ==> coele
+   5:    1  ->  liedje ==> lietje
+   6:    1  ->  mevrouw ==> mefrel
+   7:    1  ->  moeder ==> mode
+   8:    1  ->  muziek ==> zei
+   9:    1  ->  potlood ==> potloot
+  10:    1  ->  regen ==> huizen
+  11:    1  ->  sneeuwen ==> sneeuen
+  12:    1  ->  vinger ==> venger
+  13:    1  ->  voetbal ==> voetspel
+  14:    1  ->  vuurwerk ==> vulwerk
+  15:    1  ->  waarom ==> ik
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  gafchaufuur
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  *
+   2:    1  ->  chauffeur
+   3:    1  ->  cola
+   4:    1  ->  liedje
+   5:    1  ->  mevrouw
+   6:    1  ->  moeder
+   7:    1  ->  muziek
+   8:    1  ->  potlood
+   9:    1  ->  regen
+  10:    1  ->  sneeuwen
+  11:    1  ->  vinger
+  12:    1  ->  voetbal
+  13:    1  ->  vuurwerk
+  14:    1  ->  waarom
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  coele
+   2:    1  ->  goa
+   3:    1  ->  huizen
+   4:    1  ->  i
+   5:    1  ->  ik
+   6:    1  ->  lietje
+   7:    1  ->  mefrel
+   8:    1  ->  mode
+   9:    1  ->  potloot
+  10:    1  ->  sneeuen
+  11:    1  ->  venger
+  12:    1  ->  voetspel
+  13:    1  ->  vulwerk
+  14:    1  ->  wagom
+  15:    1  ->  zei
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

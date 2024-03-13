@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.6%   (  33)
+
+Percent Correct           =   45.2%   (  19)
+
+Percent Substitution      =   54.8%   (  23)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   23.8%   (  10)
+Percent Word Accuracy     =   21.4%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  52)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> hok
+   2:    1  ->  * ==> maken
+   3:    1  ->  achterdeur ==> deur
+   4:    1  ->  buurmannen*(buurman) ==> buurman
+   5:    1  ->  chocolade ==> chocolabe
+   6:    1  ->  dierentuin ==> padestoelen
+   7:    1  ->  fototoestel ==> doalect
+   8:    1  ->  goeiendag ==> goeienddag
+   9:    1  ->  knutselen ==> zoen
+  10:    1  ->  konijnenhok ==> konijne
+  11:    1  ->  lucifer ==> lucfer
+  12:    1  ->  nieuwsgierig ==> nieuwsgievig
+  13:    1  ->  paddenstoelen ==> da's
+  14:    1  ->  poppenwagen ==> popenwagen
+  15:    1  ->  ruziemaken ==> terdibier
+  16:    1  ->  schoenenwinkel ==> net
+  17:    1  ->  sneeuwwitje ==> je?
+  18:    1  ->  sprookjesboek ==> tanden
+  19:    1  ->  tandenborstel ==> borstel
+  20:    1  ->  teddybeer ==> diertuin
+  21:    1  ->  toiletpapier ==> papier
+  22:    1  ->  verstoppertje ==> stobbertje
+  23:    1  ->  washandje ==> wit
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  acht
+   2:    1  ->  antje?
+   3:    1  ->  boek
+   4:    1  ->  broukius
+   5:    1  ->  duur
+   6:    1  ->  eruzie
+   7:    1  ->  schoenewinkel
+   8:    1  ->  sneeuw
+   9:    1  ->  vototoestel
+  10:    1  ->  was
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  fototoestel
+   7:    1  ->  goeiendag
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  lucifer
+  11:    1  ->  nieuwsgierig
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  sprookjesboek
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verstoppertje
+  22:    1  ->  washandje
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  borstel
+   2:    1  ->  buurman
+   3:    1  ->  chocolabe
+   4:    1  ->  da's
+   5:    1  ->  deur
+   6:    1  ->  diertuin
+   7:    1  ->  doalect
+   8:    1  ->  goeienddag
+   9:    1  ->  hok
+  10:    1  ->  je?
+  11:    1  ->  konijne
+  12:    1  ->  lucfer
+  13:    1  ->  maken
+  14:    1  ->  net
+  15:    1  ->  nieuwsgievig
+  16:    1  ->  padestoelen
+  17:    1  ->  papier
+  18:    1  ->  popenwagen
+  19:    1  ->  stobbertje
+  20:    1  ->  tanden
+  21:    1  ->  terdibier
+  22:    1  ->  wit
+  23:    1  ->  zoen
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

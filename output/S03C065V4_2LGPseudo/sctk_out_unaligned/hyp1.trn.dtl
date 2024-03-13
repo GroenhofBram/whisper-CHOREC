@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   75.6%   (  31)
+
+Percent Correct           =   24.4%   (  10)
+
+Percent Substitution      =   73.2%   (  30)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   24.4%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> brilso-soot
+   2:    1  ->  bepoud ==> inde
+   3:    1  ->  fiewon ==> niseu
+   4:    1  ->  foetbans ==> sweten
+   5:    1  ->  gefouw ==> vitten
+   6:    1  ->  grijnken ==> meiter
+   7:    1  ->  hiffreeuw ==> hifereel
+   8:    1  ->  ierpieuw ==> ierpiel
+   9:    1  ->  ijpo ==> eipol
+  10:    1  ->  kneurem ==> fion
+  11:    1  ->  menuur ==> menu
+  12:    1  ->  millen ==> mielen
+  13:    1  ->  muider ==> oonster
+  14:    1  ->  nizung ==> suurband
+  15:    1  ->  oonste ==> foedbans
+  16:    1  ->  orponk ==> orbonk
+  17:    1  ->  orstalk ==> bepaald
+  18:    1  ->  prilsood ==> schielstalg
+  19:    1  ->  saarweng ==> starwing
+  20:    1  ->  schielstaug ==> genken
+  21:    1  ->  schodig ==> shhodig
+  22:    1  ->  sjobel ==> sjuobel
+  23:    1  ->  strellen*(strelen) ==> vawai
+  24:    1  ->  vawaai ==> kneuren
+  25:    1  ->  veten*(vitten) ==> oorstalk
+  26:    1  ->  veurder ==> veertig
+  27:    1  ->  vocil ==> vokel
+  28:    1  ->  vurpaand ==> goufal
+  29:    1  ->  walaan ==> waaan
+  30:    1  ->  zwieten ==> strelen
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  eemde
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  grijnken
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ierpieuw
+   9:    1  ->  ijpo
+  10:    1  ->  kneurem
+  11:    1  ->  menuur
+  12:    1  ->  millen
+  13:    1  ->  muider
+  14:    1  ->  nizung
+  15:    1  ->  oonste
+  16:    1  ->  orponk
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  schodig
+  22:    1  ->  sjobel
+  23:    1  ->  strellen*(strelen)
+  24:    1  ->  vawaai
+  25:    1  ->  veten*(vitten)
+  26:    1  ->  veurder
+  27:    1  ->  vocil
+  28:    1  ->  vurpaand
+  29:    1  ->  walaan
+  30:    1  ->  zwieten
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bepaald
+   2:    1  ->  brilso-soot
+   3:    1  ->  eipol
+   4:    1  ->  fion
+   5:    1  ->  foedbans
+   6:    1  ->  genken
+   7:    1  ->  goufal
+   8:    1  ->  hifereel
+   9:    1  ->  ierpiel
+  10:    1  ->  inde
+  11:    1  ->  kneuren
+  12:    1  ->  meiter
+  13:    1  ->  menu
+  14:    1  ->  mielen
+  15:    1  ->  niseu
+  16:    1  ->  oonster
+  17:    1  ->  oorstalk
+  18:    1  ->  orbonk
+  19:    1  ->  schielstalg
+  20:    1  ->  shhodig
+  21:    1  ->  sjuobel
+  22:    1  ->  starwing
+  23:    1  ->  strelen
+  24:    1  ->  suurband
+  25:    1  ->  sweten
+  26:    1  ->  vawai
+  27:    1  ->  veertig
+  28:    1  ->  vitten
+  29:    1  ->  vokel
+  30:    1  ->  waaan
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

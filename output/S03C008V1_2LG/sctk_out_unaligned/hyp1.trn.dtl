@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  66)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   65.2%   (  43)
+Percent Deletions         =   34.8%   (  23)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  66)
+Hyp. words                =           (  43)
+Aligned words             =           (  66)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  *s ==> apel
+   2:    1  ->  *s ==> chauffeur
+   3:    1  ->  *s ==> egem
+   4:    1  ->  *s ==> en
+   5:    1  ->  *s ==> fiets
+   6:    1  ->  *s ==> goed
+   7:    1  ->  *s ==> halder
+   8:    1  ->  *s ==> hoof
+   9:    1  ->  *s ==> ik
+  10:    1  ->  *s ==> ikam
+  11:    1  ->  *s ==> ka
+  12:    1  ->  *s ==> koni
+  13:    1  ->  *s ==> las
+  14:    1  ->  *s ==> liem
+  15:    1  ->  *s ==> mit
+  16:    1  ->  *s ==> moeder
+  17:    1  ->  *s ==> moeilijk
+  18:    1  ->  *s ==> nerum
+  19:    1  ->  *s ==> opni
+  20:    1  ->  *s ==> r
+  21:    1  ->  *s ==> riegen
+  22:    1  ->  *s ==> rus
+  23:    1  ->  *s ==> us
+  24:    1  ->  *s ==> vanmaar
+  25:    1  ->  *s ==> waae
+  26:    1  ->  appel ==> waaruhm
+  27:    1  ->  circus ==> kan
+  28:    1  ->  cola ==> la
+  29:    1  ->  eerste*(eersten) ==> kisen
+  30:    1  ->  gooien ==> weato
+  31:    1  ->  kussen ==> vuurwerk
+  32:    1  ->  lawaai ==> die
+  33:    1  ->  liedje*(liedjes) ==> ee
+  34:    1  ->  meisje ==> stoin
+  35:    1  ->  muziek*(ziek) ==> e
+  36:    1  ->  opnieuw ==> mevrouw
+  37:    1  ->  scheuren ==> me
+  38:    1  ->  sneeuwen*(sneeuw) ==> hu
+  39:    1  ->  vinger ==> hoofpijn
+  40:    1  ->  vlinder ==> vvr
+  41:    1  ->  voetbal ==> ne
+  42:    1  ->  waarom ==> olo
+  43:    1  ->  zwemmen ==> r
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:   12  ->  *s
+   2:    1  ->  drinken
+   3:    1  ->  drogen
+   4:    1  ->  hoofdpijn
+   5:    1  ->  koning
+   6:    1  ->  regen
+   7:    1  ->  schouders*(schouder)
+   8:    1  ->  stoppen
+   9:    1  ->  verhaal*(haan)
+  10:    1  ->  vliegtuig*(vliegen)
+  11:    1  ->  water
+  12:    1  ->  winkel
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:   25  ->  *s
+   2:    1  ->  appel
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  eerste*(eersten)
+   6:    1  ->  gooien
+   7:    1  ->  kussen
+   8:    1  ->  lawaai
+   9:    1  ->  liedje*(liedjes)
+  10:    1  ->  meisje
+  11:    1  ->  muziek*(ziek)
+  12:    1  ->  opnieuw
+  13:    1  ->  scheuren
+  14:    1  ->  sneeuwen*(sneeuw)
+  15:    1  ->  vinger
+  16:    1  ->  vlinder
+  17:    1  ->  voetbal
+  18:    1  ->  waarom
+  19:    1  ->  zwemmen
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  r
+   2:    1  ->  apel
+   3:    1  ->  chauffeur
+   4:    1  ->  die
+   5:    1  ->  e
+   6:    1  ->  ee
+   7:    1  ->  egem
+   8:    1  ->  en
+   9:    1  ->  fiets
+  10:    1  ->  goed
+  11:    1  ->  halder
+  12:    1  ->  hoof
+  13:    1  ->  hoofpijn
+  14:    1  ->  hu
+  15:    1  ->  ik
+  16:    1  ->  ikam
+  17:    1  ->  ka
+  18:    1  ->  kan
+  19:    1  ->  kisen
+  20:    1  ->  koni
+  21:    1  ->  la
+  22:    1  ->  las
+  23:    1  ->  liem
+  24:    1  ->  me
+  25:    1  ->  mevrouw
+  26:    1  ->  mit
+  27:    1  ->  moeder
+  28:    1  ->  moeilijk
+  29:    1  ->  ne
+  30:    1  ->  nerum
+  31:    1  ->  olo
+  32:    1  ->  opni
+  33:    1  ->  riegen
+  34:    1  ->  rus
+  35:    1  ->  stoin
+  36:    1  ->  us
+  37:    1  ->  vanmaar
+  38:    1  ->  vuurwerk
+  39:    1  ->  vvr
+  40:    1  ->  waae
+  41:    1  ->  waaruhm
+  42:    1  ->  weato
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

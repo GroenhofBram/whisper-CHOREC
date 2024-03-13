@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.4%   (  53)
+
+Percent Correct           =   13.8%   (   8)
+
+Percent Substitution      =   75.9%   (  44)
+Percent Deletions         =   10.3%   (   6)
+Percent Insertions        =    5.2%   (   3)
+Percent Word Accuracy     =    8.6%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  55)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  * ==> fa
+   2:    1  ->  * ==> a
+   3:    1  ->  * ==> bebouwd
+   4:    1  ->  * ==> bril
+   5:    1  ->  * ==> ge
+   6:    1  ->  * ==> gevigt
+   7:    1  ->  * ==> inde
+   8:    1  ->  * ==> kneugen
+   9:    1  ->  * ==> mas
+  10:    1  ->  * ==> men
+  11:    1  ->  * ==> moien
+  12:    1  ->  * ==> o
+  13:    1  ->  * ==> oer
+  14:    1  ->  * ==> on
+  15:    1  ->  * ==> ook
+  16:    1  ->  * ==> qn
+  17:    1  ->  * ==> sarwing
+  18:    1  ->  * ==> vat
+  19:    1  ->  * ==> verder
+  20:    1  ->  * ==> vetten
+  21:    1  ->  * ==> wi
+  22:    1  ->  *(strelen) ==> sstrelen
+  23:    1  ->  eemde ==> gia
+  24:    1  ->  fiewon ==> nin
+  25:    1  ->  gefouw ==> gewouw
+  26:    1  ->  geutel ==> getel
+  27:    1  ->  hiffreeuw ==> hifleeuw
+  28:    1  ->  ierpieuw ==> irpeo
+  29:    1  ->  ijpo ==> epol
+  30:    1  ->  kloeien ==> kleukloeien
+  31:    1  ->  kneurem*(kneuzen) ==> faon
+  32:    1  ->  menuur ==> menneur
+  33:    1  ->  millen ==> milen
+  34:    1  ->  nizung ==> fuurband
+  35:    1  ->  oonste ==> ste
+  36:    1  ->  prilsood ==> sot
+  37:    1  ->  schodig ==> orbonsschodig
+  38:    1  ->  sjobel ==> schobel
+  39:    1  ->  veten*(vetten) ==> stalk
+  40:    1  ->  vloender ==> flunder
+  41:    1  ->  vocil ==> fokil
+  42:    1  ->  vurpaand ==> gefal
+  43:    1  ->  walaan ==> walan
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  dat
+   2:    1  ->  fot
+   3:    1  ->  schels
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    3  ->  *
+   2:    1  ->  orponk
+   3:    1  ->  saarweng
+   4:    1  ->  veurder
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   22  ->  *
+   2:    1  ->  *(strelen)
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  gefouw
+   6:    1  ->  geutel
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ierpieuw
+   9:    1  ->  ijpo
+  10:    1  ->  kloeien
+  11:    1  ->  kneurem*(kneuzen)
+  12:    1  ->  menuur
+  13:    1  ->  millen
+  14:    1  ->  nizung
+  15:    1  ->  oonste
+  16:    1  ->  prilsood
+  17:    1  ->  schodig
+  18:    1  ->  sjobel
+  19:    1  ->  veten*(vetten)
+  20:    1  ->  vloender
+  21:    1  ->  vocil
+  22:    1  ->  vurpaand
+  23:    1  ->  walaan
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  fa
+   2:    1  ->  a
+   3:    1  ->  bebouwd
+   4:    1  ->  bril
+   5:    1  ->  epol
+   6:    1  ->  faon
+   7:    1  ->  flunder
+   8:    1  ->  fokil
+   9:    1  ->  fuurband
+  10:    1  ->  ge
+  11:    1  ->  gefal
+  12:    1  ->  getel
+  13:    1  ->  gevigt
+  14:    1  ->  gewouw
+  15:    1  ->  gia
+  16:    1  ->  hifleeuw
+  17:    1  ->  inde
+  18:    1  ->  irpeo
+  19:    1  ->  kleukloeien
+  20:    1  ->  kneugen
+  21:    1  ->  mas
+  22:    1  ->  men
+  23:    1  ->  menneur
+  24:    1  ->  milen
+  25:    1  ->  moien
+  26:    1  ->  nin
+  27:    1  ->  o
+  28:    1  ->  oer
+  29:    1  ->  on
+  30:    1  ->  ook
+  31:    1  ->  orbonsschodig
+  32:    1  ->  qn
+  33:    1  ->  sarwing
+  34:    1  ->  schobel
+  35:    1  ->  sot
+  36:    1  ->  sstrelen
+  37:    1  ->  stalk
+  38:    1  ->  ste
+  39:    1  ->  vat
+  40:    1  ->  verder
+  41:    1  ->  vetten
+  42:    1  ->  walan
+  43:    1  ->  wi
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

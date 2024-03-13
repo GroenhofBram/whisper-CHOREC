@@ -30,12 +30,14 @@ def main():
     sctk_run_aligned()
     conf_mat()
 
-
+# Do not use: 'S04C031M2_1LGPseudo' & 'S07C049M8_1LG'
 def main_generalised():
     print("- Running generalised process -")
     base_dir = get_base_dir_for_generalised_path()
     base_output_dir_in_repo = get_abs_folder_path("output")
     wav_files = glob(f"{base_dir}/**/*.wav", recursive=True)
+    # No pseudo
+    # wav_files = glob(f"{base_dir}/**/*LG.wav", recursive=True)
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
     participant_sessions = get_participant_sessions_with_textgrids(wav_files_with_properties, base_dir)
 

@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.2%   (  33)
+
+Percent Correct           =   48.9%   (  23)
+
+Percent Substitution      =   51.1%   (  24)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   19.1%   (   9)
+Percent Word Accuracy     =   29.8%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  56)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> konijnenhoek
+   2:    1  ->  * ==> om
+   3:    1  ->  * ==> ruzie
+   4:    1  ->  * ==> sneeuwitje
+   5:    1  ->  * ==> wez
+   6:    1  ->  *t ==> uh
+   7:    1  ->  achterdeur ==> achterder
+   8:    1  ->  dierentuin ==> tierentuin
+   9:    1  ->  eindelijk ==> uk
+  10:    1  ->  elastiekje ==> musa
+  11:    1  ->  fototoestel ==> foutotoustel
+  12:    1  ->  goeiendag ==> dag
+  13:    1  ->  konijnenhok ==> elastikia
+  14:    1  ->  lucifer ==> sifer
+  15:    1  ->  poppenwagen ==> kon
+  16:    1  ->  ruziemaken ==> maken
+  17:    1  ->  schoenenwinkel ==> winkel
+  18:    1  ->  sneeuwwitje ==> een
+  19:    1  ->  tandenborstel ==> lu
+  20:    1  ->  teddybeer ==> teddiber
+  21:    1  ->  verjaardag ==> jaardag
+  22:    1  ->  vogelkooi ==> kooy
+  23:    1  ->  vrachtwagen ==> vrechtwagen
+  24:    1  ->  washandje ==> hoe
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  borstel
+   2:    1  ->  en
+   3:    1  ->  poepenwagen
+   4:    1  ->  schoenen
+   5:    1  ->  tanden
+   6:    1  ->  ver
+   7:    1  ->  vogel
+   8:    1  ->  washa
+   9:    1  ->  washendje
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    5  ->  *
+   2:    1  ->  *t
+   3:    1  ->  achterdeur
+   4:    1  ->  dierentuin
+   5:    1  ->  eindelijk
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  konijnenhok
+  10:    1  ->  lucifer
+  11:    1  ->  poppenwagen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  verjaardag
+  18:    1  ->  vogelkooi
+  19:    1  ->  vrachtwagen
+  20:    1  ->  washandje
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  achterder
+   2:    1  ->  dag
+   3:    1  ->  een
+   4:    1  ->  elastikia
+   5:    1  ->  foutotoustel
+   6:    1  ->  hoe
+   7:    1  ->  jaardag
+   8:    1  ->  kon
+   9:    1  ->  konijnenhoek
+  10:    1  ->  kooy
+  11:    1  ->  lu
+  12:    1  ->  maken
+  13:    1  ->  musa
+  14:    1  ->  om
+  15:    1  ->  ruzie
+  16:    1  ->  sifer
+  17:    1  ->  sneeuwitje
+  18:    1  ->  teddiber
+  19:    1  ->  tierentuin
+  20:    1  ->  uh
+  21:    1  ->  uk
+  22:    1  ->  vrechtwagen
+  23:    1  ->  wez
+  24:    1  ->  winkel
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

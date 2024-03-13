@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.5%   (  19)
+
+Percent Correct           =   57.5%   (  23)
+
+Percent Substitution      =   40.0%   (  16)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    5.0%   (   2)
+Percent Word Accuracy     =   52.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  auto ==> minto
+   2:    1  ->  cola ==> kola
+   3:    1  ->  drogen ==> novrauw
+   4:    1  ->  fietsbel ==> fitsbel
+   5:    1  ->  kleuren ==> kluiren
+   6:    1  ->  koning ==> coni
+   7:    1  ->  kussen ==> cussen
+   8:    1  ->  liedje ==> lidje
+   9:    1  ->  moeder ==> moder
+  10:    1  ->  muziek ==> ik
+  11:    1  ->  potlood ==> potloot
+  12:    1  ->  regen ==> reigen
+  13:    1  ->  schouders ==> autosouders
+  14:    1  ->  speelplaats ==> speelplaat
+  15:    1  ->  vlinder ==> vleende
+  16:    1  ->  winkel ==> drongen
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  nu
+   2:    1  ->  zie
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mevrouw
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  auto
+   2:    1  ->  cola
+   3:    1  ->  drogen
+   4:    1  ->  fietsbel
+   5:    1  ->  kleuren
+   6:    1  ->  koning
+   7:    1  ->  kussen
+   8:    1  ->  liedje
+   9:    1  ->  moeder
+  10:    1  ->  muziek
+  11:    1  ->  potlood
+  12:    1  ->  regen
+  13:    1  ->  schouders
+  14:    1  ->  speelplaats
+  15:    1  ->  vlinder
+  16:    1  ->  winkel
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  autosouders
+   2:    1  ->  coni
+   3:    1  ->  cussen
+   4:    1  ->  drongen
+   5:    1  ->  fitsbel
+   6:    1  ->  ik
+   7:    1  ->  kluiren
+   8:    1  ->  kola
+   9:    1  ->  lidje
+  10:    1  ->  minto
+  11:    1  ->  moder
+  12:    1  ->  novrauw
+  13:    1  ->  potloot
+  14:    1  ->  reigen
+  15:    1  ->  speelplaat
+  16:    1  ->  vleende
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C034V8_2LGPseudo
+
+#### (S06C034V8_2LGPseudo-words)
+
+- Cor=10.6%	Sub=78.7%	Del=0.0%	Ins=10.6%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel |  | sjobel | ierpieuw | walaan | erke | haweel | saarweng | * | gevicht | eemde |  | bepoud | orstalk | veten*(vetten) | gefouw | vurpaand | nizung | fiewon | * | kneurem | vawaai | strellen*(stellen) | zwieten | foetbans | oonste*(oosten) | muider | grijnken |  |  |  | schielstaug | prilsood | vloender | milste | veurder | kloeien | ulen | orponk | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 | wielen | voih | geutel | gnouwol | eerpiel | val | an | erken | hawe | sarweng | gevecha | gevicht | eemde | bepaald | orstank | vetten | gefal | vurpennizur | fe | on | ke | knren | van | w | stellen | zweten | voetband | oosten | muider | grijnken | cilstal | billen | stoot | vouter | wilste | veurde | koend | ee | ar | kon | schondig | eijpen | nuur | gesprekje | hinfir | moe | en |
+| EVAL | S | S |  | I | S | S | S | S | S | S | S |  |  | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  |  | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

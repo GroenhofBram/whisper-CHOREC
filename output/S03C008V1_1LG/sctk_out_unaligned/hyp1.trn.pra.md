@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C008V1_1LG
+
+#### (S03C008V1_1LG-words)
+
+- Cor=3.2%	Sub=61.3%	Del=35.5%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | *s | arm | *s | strand | bed | *s | eerst | voor | *s | draai | *s | sjaal | *s | herfst | * | duur | *s | straat | leeuw | hoek | *s | krant | hout | *s | vriend*(friet) | *s | gauw*(grauw) | *s | *s | groen | *s | feest | *s | reis | *s | jas | *s | huis | *s | * | *s | vijf | *s | muts*(mus) | nieuw | kind | bang | *s | oog | *s | schoen | *s | plas | neus | *s | knoop | *s | plank*(plak) | *s |
+| HYP1 |  |  | klaas | mie | ko | um | groi | stelaan | at | ur | voor |  |  |  |  |  |  |  |  |  |  |  | ra | m | hre | keer | sternaat | jeel | kla | et | kraant | houd | vriet | al | ships | onie | ves | ja | jas |  |  |  |  |  |  |  |  |  | hu | put | v | mees | d | end | o | zacht | shoen | las | nees | kn | op | plak |
+| EVAL | D | D | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   77.3%   (  34)
+
+Percent Correct           =   36.4%   (  16)
+
+Percent Substitution      =   63.6%   (  28)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   13.6%   (   6)
+Percent Word Accuracy     =   22.7%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  50)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *(droog) ==> droog
+   2:    1  ->  *(verhalen) ==> verhalen
+   3:    1  ->  *s ==> der
+   4:    1  ->  auto ==> ato
+   5:    1  ->  chauffeur*(schuifdeur) ==> nis
+   6:    1  ->  circus ==> gierkus
+   7:    1  ->  dichtbij ==> a
+   8:    1  ->  drinken ==> d'rinki
+   9:    1  ->  drogen ==> droogwinbloen
+  10:    1  ->  fietsbel ==> bij
+  11:    1  ->  gooien ==> potlot
+  12:    1  ->  koning ==> cony
+  13:    1  ->  kussen ==> issen
+  14:    1  ->  lawaai ==> lawi
+  15:    1  ->  liedje ==> wine
+  16:    1  ->  meisje ==> schijf
+  17:    1  ->  moeder ==> pel
+  18:    1  ->  moeilijk ==> moelijk
+  19:    1  ->  muziek ==> niet
+  20:    1  ->  potlood ==> dicht
+  21:    1  ->  scheuren ==> sheren
+  22:    1  ->  schouders ==> scadog
+  23:    1  ->  sneeuwen ==> fiets
+  24:    1  ->  verhaal ==> verhl
+  25:    1  ->  vinger ==> bijisje
+  26:    1  ->  vlinder ==> vienden
+  27:    1  ->  vuurwerk ==> murwefk
+  28:    1  ->  waarom ==> waarom?
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  der
+   2:    1  ->  en
+   3:    1  ->  goeien
+   4:    1  ->  moe
+   5:    1  ->  nietje
+   6:    1  ->  seeuw
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *(droog)
+   2:    1  ->  *(verhalen)
+   3:    1  ->  *s
+   4:    1  ->  auto
+   5:    1  ->  chauffeur*(schuifdeur)
+   6:    1  ->  circus
+   7:    1  ->  dichtbij
+   8:    1  ->  drinken
+   9:    1  ->  drogen
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  koning
+  13:    1  ->  kussen
+  14:    1  ->  lawaai
+  15:    1  ->  liedje
+  16:    1  ->  meisje
+  17:    1  ->  moeder
+  18:    1  ->  moeilijk
+  19:    1  ->  muziek
+  20:    1  ->  potlood
+  21:    1  ->  scheuren
+  22:    1  ->  schouders
+  23:    1  ->  sneeuwen
+  24:    1  ->  verhaal
+  25:    1  ->  vinger
+  26:    1  ->  vlinder
+  27:    1  ->  vuurwerk
+  28:    1  ->  waarom
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a
+   2:    1  ->  ato
+   3:    1  ->  bij
+   4:    1  ->  bijisje
+   5:    1  ->  cony
+   6:    1  ->  d'rinki
+   7:    1  ->  der
+   8:    1  ->  dicht
+   9:    1  ->  droog
+  10:    1  ->  droogwinbloen
+  11:    1  ->  fiets
+  12:    1  ->  gierkus
+  13:    1  ->  issen
+  14:    1  ->  lawi
+  15:    1  ->  moelijk
+  16:    1  ->  murwefk
+  17:    1  ->  niet
+  18:    1  ->  nis
+  19:    1  ->  pel
+  20:    1  ->  potlot
+  21:    1  ->  scadog
+  22:    1  ->  schijf
+  23:    1  ->  sheren
+  24:    1  ->  verhalen
+  25:    1  ->  verhl
+  26:    1  ->  vienden
+  27:    1  ->  waarom?
+  28:    1  ->  wine
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

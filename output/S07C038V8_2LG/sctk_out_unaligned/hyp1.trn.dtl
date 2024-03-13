@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.7%   (  41)
+
+Percent Correct           =   32.8%   (  19)
+
+Percent Substitution      =   51.7%   (  30)
+Percent Deletions         =   15.5%   (   9)
+Percent Insertions        =    3.4%   (   2)
+Percent Word Accuracy     =   29.3%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  51)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> chauffeur
+   2:    1  ->  * ==> doch
+   3:    1  ->  * ==> kervoes
+   4:    1  ->  * ==> lida
+   5:    1  ->  * ==> lija
+   6:    1  ->  * ==> moder
+   7:    1  ->  * ==> nee
+   8:    1  ->  * ==> scheren
+   9:    1  ->  * ==> waarom?
+  10:    1  ->  * ==> watter
+  11:    1  ->  * ==> wi
+  12:    1  ->  cola ==> kola
+  13:    1  ->  drinken ==> ken
+  14:    1  ->  fietsbel ==> bel
+  15:    1  ->  gooien ==> groeien
+  16:    1  ->  hoofdpijn ==> hoofpijn
+  17:    1  ->  kleuren ==> leren
+  18:    1  ->  lawaai ==> laway
+  19:    1  ->  liedje ==> borlout
+  20:    1  ->  moeder ==> en
+  21:    1  ->  muziek ==> zie
+  22:    1  ->  potlood ==> fits
+  23:    1  ->  scheuren ==> s
+  24:    1  ->  sneeuwen ==> ne
+  25:    1  ->  stoppen ==> stopen
+  26:    1  ->  vliegtuig ==> vleegduig
+  27:    1  ->  vlinder ==> minder
+  28:    1  ->  waarom ==> ik?
+  29:    1  ->  water ==> wetter
+  30:    1  ->  zwemmen ==> jumen
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  chauffeur
+   2:    1  ->  derin
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    9  ->  *
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   11  ->  *
+   2:    1  ->  cola
+   3:    1  ->  drinken
+   4:    1  ->  fietsbel
+   5:    1  ->  gooien
+   6:    1  ->  hoofdpijn
+   7:    1  ->  kleuren
+   8:    1  ->  lawaai
+   9:    1  ->  liedje
+  10:    1  ->  moeder
+  11:    1  ->  muziek
+  12:    1  ->  potlood
+  13:    1  ->  scheuren
+  14:    1  ->  sneeuwen
+  15:    1  ->  stoppen
+  16:    1  ->  vliegtuig
+  17:    1  ->  vlinder
+  18:    1  ->  waarom
+  19:    1  ->  water
+  20:    1  ->  zwemmen
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bel
+   2:    1  ->  borlout
+   3:    1  ->  chauffeur
+   4:    1  ->  doch
+   5:    1  ->  en
+   6:    1  ->  fits
+   7:    1  ->  groeien
+   8:    1  ->  hoofpijn
+   9:    1  ->  ik?
+  10:    1  ->  jumen
+  11:    1  ->  ken
+  12:    1  ->  kervoes
+  13:    1  ->  kola
+  14:    1  ->  laway
+  15:    1  ->  leren
+  16:    1  ->  lida
+  17:    1  ->  lija
+  18:    1  ->  minder
+  19:    1  ->  moder
+  20:    1  ->  ne
+  21:    1  ->  nee
+  22:    1  ->  s
+  23:    1  ->  scheren
+  24:    1  ->  stopen
+  25:    1  ->  vleegduig
+  26:    1  ->  waarom?
+  27:    1  ->  watter
+  28:    1  ->  wetter
+  29:    1  ->  wi
+  30:    1  ->  zie
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C021M2_2LG
+
+#### (S03C021M2_2LG-words)
+
+- Cor=64.3%	Sub=33.3%	Del=0.0%	Ins=2.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen |  | opnieuw | gooien | sneeuwen | moeder | liedje | potlood | fietsbel | vinger | dichtbij | meisje | * | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | vrouw | drogen | winkel | audo | schouders | vrouw | koning | moeilijk | beelplaas | drinken | hoofdpijn | regen | vliegtuig | stoppen | nieuw | goien | snee | joen | moeder | vlietje | potloot | fietsbel | vinger | dichtbij | meisje | schauf | chauffeur | muziek | waarom | scheuren | lawaai | zwenmen | vuurwerk | appel | kola | cussen | eerste | circus | kleuren | voetbal | linder |
+| EVAL |  | S |  |  | S |  | S |  |  | S |  |  |  |  |  | I | S | S | S |  | S | S |  |  |  |  | S |  |  |  |  |  | S |  |  | S | S |  |  |  |  | S |
+---
+
+---

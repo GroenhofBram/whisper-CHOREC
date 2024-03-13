@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.6%   (  32)
+
+Percent Correct           =   32.6%   (  15)
+
+Percent Substitution      =   65.2%   (  30)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   30.4%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  46)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> guil
+   2:    1  ->  * ==> hoek
+   3:    1  ->  * ==> sjattelt
+   4:    1  ->  * ==> stuif
+   5:    1  ->  *(lars) ==> lars
+   6:    1  ->  *(school) ==> school
+   7:    1  ->  ant ==> and
+   8:    1  ->  beeg ==> be
+   9:    1  ->  blard ==> jen
+  10:    1  ->  dau ==> u
+  11:    1  ->  dron ==> droon
+  12:    1  ->  eem ==> één
+  13:    1  ->  fam ==> fan
+  14:    1  ->  guul ==> blart
+  15:    1  ->  haans ==> hans
+  16:    1  ->  hoekt ==> thoekt
+  17:    1  ->  jien*(jen) ==> spliert
+  18:    1  ->  leum ==> le
+  19:    1  ->  noork ==> nort
+  20:    1  ->  rachts ==> racht
+  21:    1  ->  schard ==> schart
+  22:    1  ->  sjalt ==> slalt
+  23:    1  ->  snaaf ==> snaf
+  24:    1  ->  sooi ==> dat
+  25:    1  ->  spaai ==> spei
+  26:    1  ->  sprieuw ==> spreeuw
+  27:    1  ->  sprunt ==> sprund
+  28:    1  ->  stuid ==> stat
+  29:    1  ->  vid ==> vint
+  30:    1  ->  vout ==> fout
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  soi
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  plirt
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  *
+   2:    1  ->  *(lars)
+   3:    1  ->  *(school)
+   4:    1  ->  ant
+   5:    1  ->  beeg
+   6:    1  ->  blard
+   7:    1  ->  dau
+   8:    1  ->  dron
+   9:    1  ->  eem
+  10:    1  ->  fam
+  11:    1  ->  guul
+  12:    1  ->  haans
+  13:    1  ->  hoekt
+  14:    1  ->  jien*(jen)
+  15:    1  ->  leum
+  16:    1  ->  noork
+  17:    1  ->  rachts
+  18:    1  ->  schard
+  19:    1  ->  sjalt
+  20:    1  ->  snaaf
+  21:    1  ->  sooi
+  22:    1  ->  spaai
+  23:    1  ->  sprieuw
+  24:    1  ->  sprunt
+  25:    1  ->  stuid
+  26:    1  ->  vid
+  27:    1  ->  vout
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  and
+   2:    1  ->  be
+   3:    1  ->  blart
+   4:    1  ->  dat
+   5:    1  ->  droon
+   6:    1  ->  fan
+   7:    1  ->  fout
+   8:    1  ->  guil
+   9:    1  ->  hans
+  10:    1  ->  hoek
+  11:    1  ->  jen
+  12:    1  ->  lars
+  13:    1  ->  le
+  14:    1  ->  nort
+  15:    1  ->  racht
+  16:    1  ->  schart
+  17:    1  ->  school
+  18:    1  ->  sjattelt
+  19:    1  ->  slalt
+  20:    1  ->  snaf
+  21:    1  ->  spei
+  22:    1  ->  spliert
+  23:    1  ->  spreeuw
+  24:    1  ->  sprund
+  25:    1  ->  stat
+  26:    1  ->  stuif
+  27:    1  ->  thoekt
+  28:    1  ->  u
+  29:    1  ->  vint
+  30:    1  ->  één
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

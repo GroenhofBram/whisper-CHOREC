@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.3%   (  48)
+
+Percent Correct           =   14.5%   (   8)
+
+Percent Substitution      =   81.8%   (  45)
+Percent Deletions         =    3.6%   (   2)
+Percent Insertions        =    1.8%   (   1)
+Percent Word Accuracy     =   12.7%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  54)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  * ==> walan
+   2:    1  ->  * ==> bon
+   3:    1  ->  * ==> e
+   4:    1  ->  * ==> gefoud
+   5:    1  ->  * ==> hilstalste
+   6:    1  ->  * ==> ot
+   7:    1  ->  * ==> prils
+   8:    1  ->  * ==> uen
+   9:    1  ->  * ==> wing
+  10:    1  ->  * ==> wonfon
+  11:    1  ->  *(gevouw) ==> geval
+  12:    1  ->  bepoud ==> depat
+  13:    1  ->  eemde ==> inde
+  14:    1  ->  fiewon ==> fee
+  15:    1  ->  gefouw ==> feten
+  16:    1  ->  gevicht ==> gevi
+  17:    1  ->  gevicht ==> geviecht
+  18:    1  ->  grijnken ==> medder
+  19:    1  ->  hiffreeuw ==> hifrew
+  20:    1  ->  ierpieuw ==> piel
+  21:    1  ->  ijpo ==> eppel
+  22:    1  ->  kneurem ==> kneuren
+  23:    1  ->  milste ==> milster
+  24:    1  ->  muider ==> onste
+  25:    1  ->  nizung ==> nu
+  26:    1  ->  orponk ==> orbonk
+  27:    1  ->  orstalk ==> ors
+  28:    1  ->  prilsood ==> bol
+  29:    1  ->  saarweng ==> sarwe
+  30:    1  ->  schielstaug ==> grenken
+  31:    1  ->  schodig ==> shoding
+  32:    1  ->  sjobel ==> eer
+  33:    1  ->  spreikje ==> spreispreikje
+  34:    1  ->  strellen*(strelen) ==> stelen
+  35:    1  ->  ulen ==> illen
+  36:    1  ->  vawaai ==> hawai
+  37:    1  ->  vawaai ==> vawai
+  38:    1  ->  veten ==> talk
+  39:    1  ->  veurder ==> slurder
+  40:    1  ->  vloender ==> slounder
+  41:    1  ->  vocil ==> fokul
+  42:    1  ->  vurpaand ==> vuurpaand
+  43:    1  ->  walaan ==> walan
+  44:    1  ->  zwieten ==> sweten
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sjobbel
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  oonste
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   11  ->  *
+   2:    2  ->  gevicht
+   3:    2  ->  vawaai
+   4:    1  ->  *(gevouw)
+   5:    1  ->  bepoud
+   6:    1  ->  eemde
+   7:    1  ->  fiewon
+   8:    1  ->  gefouw
+   9:    1  ->  grijnken
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kneurem
+  14:    1  ->  milste
+  15:    1  ->  muider
+  16:    1  ->  nizung
+  17:    1  ->  orponk
+  18:    1  ->  orstalk
+  19:    1  ->  prilsood
+  20:    1  ->  saarweng
+  21:    1  ->  schielstaug
+  22:    1  ->  schodig
+  23:    1  ->  sjobel
+  24:    1  ->  spreikje
+  25:    1  ->  strellen*(strelen)
+  26:    1  ->  ulen
+  27:    1  ->  veten
+  28:    1  ->  veurder
+  29:    1  ->  vloender
+  30:    1  ->  vocil
+  31:    1  ->  vurpaand
+  32:    1  ->  walaan
+  33:    1  ->  zwieten
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  walan
+   2:    1  ->  bol
+   3:    1  ->  bon
+   4:    1  ->  depat
+   5:    1  ->  e
+   6:    1  ->  eer
+   7:    1  ->  eppel
+   8:    1  ->  fee
+   9:    1  ->  feten
+  10:    1  ->  fokul
+  11:    1  ->  gefoud
+  12:    1  ->  geval
+  13:    1  ->  gevi
+  14:    1  ->  geviecht
+  15:    1  ->  grenken
+  16:    1  ->  hawai
+  17:    1  ->  hifrew
+  18:    1  ->  hilstalste
+  19:    1  ->  illen
+  20:    1  ->  inde
+  21:    1  ->  kneuren
+  22:    1  ->  medder
+  23:    1  ->  milster
+  24:    1  ->  nu
+  25:    1  ->  onste
+  26:    1  ->  orbonk
+  27:    1  ->  ors
+  28:    1  ->  ot
+  29:    1  ->  piel
+  30:    1  ->  prils
+  31:    1  ->  sarwe
+  32:    1  ->  shoding
+  33:    1  ->  slounder
+  34:    1  ->  slurder
+  35:    1  ->  spreispreikje
+  36:    1  ->  stelen
+  37:    1  ->  sweten
+  38:    1  ->  talk
+  39:    1  ->  uen
+  40:    1  ->  vawai
+  41:    1  ->  vuurpaand
+  42:    1  ->  wing
+  43:    1  ->  wonfon
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

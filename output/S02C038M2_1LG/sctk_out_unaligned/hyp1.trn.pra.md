@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C038M2_1LG
+
+#### (S02C038M2_1LG-words)
+
+- Cor=23.8%	Sub=71.4%	Del=2.4%	Ins=2.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard*(paars) | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas |  | neus | knoop | plank |
+| HYP1 | klas |  | moi | ko | gan | vro | ant | bet | eerst | voor | drei | sal | herst | deur | straat | ne | glo | hou | khout | halt | vreemd | gal | schipt | goen | feest | veis | jan | s | ers | vijf | met | niem | kind | ban | oog | zacht | schoon | plas | nes | knog | op | kan |
+| EVAL |  | D | S | S | S | S | S | S |  |  | S | S | S | S |  | S | S | S | S | S | S | S | S | S |  | S | S | S | S |  | S | S |  | S |  |  | S |  | I | S | S | S |
+---
+
+---

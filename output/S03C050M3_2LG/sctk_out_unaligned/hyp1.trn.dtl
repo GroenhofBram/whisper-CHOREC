@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  22)
+
+Percent Correct           =   63.0%   (  29)
+
+Percent Substitution      =   32.6%   (  15)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =   10.9%   (   5)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  49)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> groeien
+   2:    1  ->  * ==> ke
+   3:    1  ->  * ==> lie
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> school
+   6:    1  ->  * ==> wek
+   7:    1  ->  *s ==> vliende
+   8:    1  ->  dichtbij*(dichterbij) ==> d'rbij
+   9:    1  ->  eerste ==> esta
+  10:    1  ->  fietsbel ==> fietspel
+  11:    1  ->  kleuren ==> leuren
+  12:    1  ->  koning ==> kooning
+  13:    1  ->  liedje ==> lietje
+  14:    1  ->  moeilijk ==> moeielijk
+  15:    1  ->  sneeuwen ==> snejuwen
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  chauffe
+   2:    1  ->  chauffeur
+   3:    1  ->  die
+   4:    1  ->  dieg
+   5:    1  ->  voor
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  gooien*(groeien)
+   2:    1  ->  vlinder
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    6  ->  *
+   2:    1  ->  *s
+   3:    1  ->  dichtbij*(dichterbij)
+   4:    1  ->  eerste
+   5:    1  ->  fietsbel
+   6:    1  ->  kleuren
+   7:    1  ->  koning
+   8:    1  ->  liedje
+   9:    1  ->  moeilijk
+  10:    1  ->  sneeuwen
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  d'rbij
+   2:    1  ->  esta
+   3:    1  ->  fietspel
+   4:    1  ->  groeien
+   5:    1  ->  ke
+   6:    1  ->  kooning
+   7:    1  ->  leuren
+   8:    1  ->  lie
+   9:    1  ->  lietje
+  10:    1  ->  moeielijk
+  11:    1  ->  s
+  12:    1  ->  school
+  13:    1  ->  snejuwen
+  14:    1  ->  vliende
+  15:    1  ->  wek
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   90.2%   (  37)
+
+Percent Correct           =   39.0%   (  16)
+
+Percent Substitution      =   61.0%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   29.3%   (  12)
+Percent Word Accuracy     =    9.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  53)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  *(goedendag) ==> dag
+   2:    1  ->  buurmannen ==> vogel
+   3:    1  ->  dierentuin ==> stoelen
+   4:    1  ->  elastiekje ==> taddiber
+   5:    1  ->  familie ==> fanmilie
+   6:    1  ->  fototoestel ==> papier
+   7:    1  ->  iedereen ==> idereen
+   8:    1  ->  kabouter ==> ashandje
+   9:    1  ->  konijnenhok ==> maken
+  10:    1  ->  limonade ==> nada
+  11:    1  ->  lucifer ==> lisifer
+  12:    1  ->  olifant ==> oalifant
+  13:    1  ->  paddenstoelen ==> verstobertjo
+  14:    1  ->  poppenwagen ==> ruzie
+  15:    1  ->  ruziemaken ==> terentun
+  16:    1  ->  schoenenwinkel ==> schoenwinkel
+  17:    1  ->  schommelen ==> schomelen
+  18:    1  ->  sneeuwwitje ==> goeden
+  19:    1  ->  tandenborstel ==> bortel
+  20:    1  ->  teddybeer ==> wadde
+  21:    1  ->  toiletpapier ==> vraagdwagen
+  22:    1  ->  verstoppertje ==> met
+  23:    1  ->  vogelkooi ==> kooi
+  24:    1  ->  vrachtwagen ==> buermannen
+  25:    1  ->  washandje ==> snewitj
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  elastik
+   2:    1  ->  foto't
+   3:    1  ->  hook
+   4:    1  ->  jo
+   5:    1  ->  jonge
+   6:    1  ->  kawouter
+   7:    1  ->  konijnen
+   8:    1  ->  poppen
+   9:    1  ->  tanden
+  10:    1  ->  toilet
+  11:    1  ->  wagen
+  12:    1  ->  woustel
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  *(goedendag)
+   2:    1  ->  buurmannen
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  familie
+   6:    1  ->  fototoestel
+   7:    1  ->  iedereen
+   8:    1  ->  kabouter
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  lucifer
+  12:    1  ->  olifant
+  13:    1  ->  paddenstoelen
+  14:    1  ->  poppenwagen
+  15:    1  ->  ruziemaken
+  16:    1  ->  schoenenwinkel
+  17:    1  ->  schommelen
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  vrachtwagen
+  25:    1  ->  washandje
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  ashandje
+   2:    1  ->  bortel
+   3:    1  ->  buermannen
+   4:    1  ->  dag
+   5:    1  ->  fanmilie
+   6:    1  ->  goeden
+   7:    1  ->  idereen
+   8:    1  ->  kooi
+   9:    1  ->  lisifer
+  10:    1  ->  maken
+  11:    1  ->  met
+  12:    1  ->  nada
+  13:    1  ->  oalifant
+  14:    1  ->  papier
+  15:    1  ->  ruzie
+  16:    1  ->  schoenwinkel
+  17:    1  ->  schomelen
+  18:    1  ->  snewitj
+  19:    1  ->  stoelen
+  20:    1  ->  taddiber
+  21:    1  ->  terentun
+  22:    1  ->  verstobertjo
+  23:    1  ->  vogel
+  24:    1  ->  vraagdwagen
+  25:    1  ->  wadde
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

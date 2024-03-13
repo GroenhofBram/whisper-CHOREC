@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.2%   (  30)
+
+Percent Correct           =   26.8%   (  11)
+
+Percent Substitution      =   70.7%   (  29)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   26.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  blard ==> len
+   2:    1  ->  dau ==> dou
+   3:    1  ->  doer ==> sour
+   4:    1  ->  dron ==> drom
+   5:    1  ->  eem ==> één
+   6:    1  ->  fook ==> vork
+   7:    1  ->  frijk ==> frek
+   8:    1  ->  grek ==> gek
+   9:    1  ->  guul ==> blaad
+  10:    1  ->  haans ==> hand
+  11:    1  ->  heik ==> hek
+  12:    1  ->  hool ==> hol
+  13:    1  ->  jien ==> blerd
+  14:    1  ->  leum ==> nen
+  15:    1  ->  neeuw ==> neew
+  16:    1  ->  plirt ==> dour
+  17:    1  ->  rachts ==> rachst
+  18:    1  ->  schard ==> scgerk
+  19:    1  ->  snaaf ==> snaf
+  20:    1  ->  sooi ==> soy
+  21:    1  ->  sprieuw ==> spreel
+  22:    1  ->  sprieuw*(spreeuw) ==> spreel
+  23:    1  ->  sprunt ==> sprund
+  24:    1  ->  stuid ==> stuit
+  25:    1  ->  vaap ==> aap
+  26:    1  ->  vid ==> vit
+  27:    1  ->  vout*(voet) ==> voet
+  28:    1  ->  zans ==> zand
+  29:    1  ->  zwoei ==> zoi
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  swoers
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  blard
+   2:    1  ->  dau
+   3:    1  ->  doer
+   4:    1  ->  dron
+   5:    1  ->  eem
+   6:    1  ->  fook
+   7:    1  ->  frijk
+   8:    1  ->  grek
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  leum
+  15:    1  ->  neeuw
+  16:    1  ->  plirt
+  17:    1  ->  rachts
+  18:    1  ->  schard
+  19:    1  ->  snaaf
+  20:    1  ->  sooi
+  21:    1  ->  sprieuw
+  22:    1  ->  sprieuw*(spreeuw)
+  23:    1  ->  sprunt
+  24:    1  ->  stuid
+  25:    1  ->  vaap
+  26:    1  ->  vid
+  27:    1  ->  vout*(voet)
+  28:    1  ->  zans
+  29:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  spreel
+   2:    1  ->  aap
+   3:    1  ->  blaad
+   4:    1  ->  blerd
+   5:    1  ->  dou
+   6:    1  ->  dour
+   7:    1  ->  drom
+   8:    1  ->  frek
+   9:    1  ->  gek
+  10:    1  ->  hand
+  11:    1  ->  hek
+  12:    1  ->  hol
+  13:    1  ->  len
+  14:    1  ->  neew
+  15:    1  ->  nen
+  16:    1  ->  rachst
+  17:    1  ->  scgerk
+  18:    1  ->  snaf
+  19:    1  ->  sour
+  20:    1  ->  soy
+  21:    1  ->  sprund
+  22:    1  ->  stuit
+  23:    1  ->  vit
+  24:    1  ->  voet
+  25:    1  ->  vork
+  26:    1  ->  zand
+  27:    1  ->  zoi
+  28:    1  ->  één
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

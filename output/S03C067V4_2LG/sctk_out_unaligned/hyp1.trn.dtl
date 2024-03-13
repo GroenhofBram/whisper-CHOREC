@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.0%   (  10)
+
+Percent Correct           =   75.0%   (  30)
+
+Percent Substitution      =   25.0%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  cola ==> cole
+   2:    1  ->  drogen ==> droge
+   3:    1  ->  eerste ==> este
+   4:    1  ->  kleuren ==> kloren
+   5:    1  ->  lawaai ==> lawaiy
+   6:    1  ->  liedje ==> liedsje
+   7:    1  ->  potlood ==> potloot
+   8:    1  ->  verhaal ==> vraal
+   9:    1  ->  vlinder ==> kleen
+  10:    1  ->  zwemmen ==> zummen
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  cola
+   2:    1  ->  drogen
+   3:    1  ->  eerste
+   4:    1  ->  kleuren
+   5:    1  ->  lawaai
+   6:    1  ->  liedje
+   7:    1  ->  potlood
+   8:    1  ->  verhaal
+   9:    1  ->  vlinder
+  10:    1  ->  zwemmen
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  cole
+   2:    1  ->  droge
+   3:    1  ->  este
+   4:    1  ->  kleen
+   5:    1  ->  kloren
+   6:    1  ->  lawaiy
+   7:    1  ->  liedsje
+   8:    1  ->  potloot
+   9:    1  ->  vraal
+  10:    1  ->  zummen
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   48.9%   (  22)
+
+Percent Correct           =   57.8%   (  26)
+
+Percent Substitution      =   42.2%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    6.7%   (   3)
+Percent Word Accuracy     =   51.1%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> elastieje
+   2:    1  ->  * ==> ia
+   3:    1  ->  * ==> mallen
+   4:    1  ->  * ==> schom
+   5:    1  ->  * ==> ta
+   6:    1  ->  chocolade ==> chocola
+   7:    1  ->  elastiekje ==> ruzie
+   8:    1  ->  goeiendag ==> dag
+   9:    1  ->  kabouter ==> kabater
+  10:    1  ->  konijnenhok ==> en
+  11:    1  ->  ophangen ==> opgehangen
+  12:    1  ->  ruziemaken ==> maken
+  13:    1  ->  schoenenwinkel ==> schoenwinkel
+  14:    1  ->  schommelen ==> schoa
+  15:    1  ->  sneeuwwitje ==> goeie
+  16:    1  ->  sprookjesboek ==> tanden
+  17:    1  ->  tandenborstel ==> borstel
+  18:    1  ->  teddybeer ==> tadib
+  19:    1  ->  verstoppertje ==> verstopperdje
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  konijnenhoek
+   2:    1  ->  sneeuwwietje
+   3:    1  ->  spolkjesboek
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    5  ->  *
+   2:    1  ->  chocolade
+   3:    1  ->  elastiekje
+   4:    1  ->  goeiendag
+   5:    1  ->  kabouter
+   6:    1  ->  konijnenhok
+   7:    1  ->  ophangen
+   8:    1  ->  ruziemaken
+   9:    1  ->  schoenenwinkel
+  10:    1  ->  schommelen
+  11:    1  ->  sneeuwwitje
+  12:    1  ->  sprookjesboek
+  13:    1  ->  tandenborstel
+  14:    1  ->  teddybeer
+  15:    1  ->  verstoppertje
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  borstel
+   2:    1  ->  chocola
+   3:    1  ->  dag
+   4:    1  ->  elastieje
+   5:    1  ->  en
+   6:    1  ->  goeie
+   7:    1  ->  ia
+   8:    1  ->  kabater
+   9:    1  ->  maken
+  10:    1  ->  mallen
+  11:    1  ->  opgehangen
+  12:    1  ->  ruzie
+  13:    1  ->  schoa
+  14:    1  ->  schoenwinkel
+  15:    1  ->  schom
+  16:    1  ->  ta
+  17:    1  ->  tadib
+  18:    1  ->  tanden
+  19:    1  ->  verstopperdje
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

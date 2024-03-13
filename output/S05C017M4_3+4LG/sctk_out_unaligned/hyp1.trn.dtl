@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.5%   (  49)
+
+Percent Correct           =   26.8%   (  15)
+
+Percent Substitution      =   69.6%   (  39)
+Percent Deletions         =    3.6%   (   2)
+Percent Insertions        =   14.3%   (   8)
+Percent Word Accuracy     =   12.5%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  62)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> al
+   2:    1  ->  * ==> allee
+   3:    1  ->  * ==> dat
+   4:    1  ->  * ==> enastiek
+   5:    1  ->  * ==> eta
+   6:    1  ->  * ==> etala
+   7:    1  ->  * ==> schoene
+   8:    1  ->  * ==> stie
+   9:    1  ->  * ==> teddibeer
+  10:    1  ->  * ==> toilet
+  11:    1  ->  * ==> ververjaardag
+  12:    1  ->  * ==> was
+  13:    1  ->  *(elastiek) ==> maken
+  14:    1  ->  *x ==> gja
+  15:    1  ->  *x ==> ruzie
+  16:    1  ->  afblijven ==> ofblijven
+  17:    1  ->  autorijden ==> libondeautorijde
+  18:    1  ->  chocolade ==> choucolajo
+  19:    1  ->  dierentuin ==> pade
+  20:    1  ->  elastiekje ==> et
+  21:    1  ->  familie ==> famili
+  22:    1  ->  goeiendag ==> goeienddag
+  23:    1  ->  iedereen ==> iedereenschoa
+  24:    1  ->  kabouter ==> kabater
+  25:    1  ->  knutselen ==> knutsullen
+  26:    1  ->  konijnenhok ==> allee
+  27:    1  ->  olifant ==> onlifant
+  28:    1  ->  omdraaien ==> hi
+  29:    1  ->  paddenstoelen ==> stoelen
+  30:    1  ->  poppenwagen ==> ete
+  31:    1  ->  ruziemaken ==> dieren
+  32:    1  ->  schoenenwinkel ==> winkel
+  33:    1  ->  schommelen ==> schobbelen
+  34:    1  ->  sneeuwwitje ==> isniweetje
+  35:    1  ->  sprookjesboek ==> boek
+  36:    1  ->  tandenborstel ==> tandeborstel
+  37:    1  ->  teddybeer ==> tuin
+  38:    1  ->  toiletpapier ==> papier
+  39:    1  ->  verjaardag ==> sprookjes
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  konijnen
+   2:    1  ->  ondraien
+   3:    1  ->  ook
+   4:    1  ->  pop
+   5:    1  ->  popen
+   6:    1  ->  tot
+   7:    1  ->  wa
+   8:    1  ->  wagen
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  limonade
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   12  ->  *
+   2:    2  ->  *x
+   3:    1  ->  *(elastiek)
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  elastiekje
+   9:    1  ->  familie
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  kabouter
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  olifant
+  16:    1  ->  omdraaien
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  schommelen
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  sprookjesboek
+  24:    1  ->  tandenborstel
+  25:    1  ->  teddybeer
+  26:    1  ->  toiletpapier
+  27:    1  ->  verjaardag
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  allee
+   2:    1  ->  al
+   3:    1  ->  boek
+   4:    1  ->  choucolajo
+   5:    1  ->  dat
+   6:    1  ->  dieren
+   7:    1  ->  enastiek
+   8:    1  ->  et
+   9:    1  ->  eta
+  10:    1  ->  etala
+  11:    1  ->  ete
+  12:    1  ->  famili
+  13:    1  ->  gja
+  14:    1  ->  goeienddag
+  15:    1  ->  hi
+  16:    1  ->  iedereenschoa
+  17:    1  ->  isniweetje
+  18:    1  ->  kabater
+  19:    1  ->  knutsullen
+  20:    1  ->  libondeautorijde
+  21:    1  ->  maken
+  22:    1  ->  ofblijven
+  23:    1  ->  onlifant
+  24:    1  ->  pade
+  25:    1  ->  papier
+  26:    1  ->  ruzie
+  27:    1  ->  schobbelen
+  28:    1  ->  schoene
+  29:    1  ->  sprookjes
+  30:    1  ->  stie
+  31:    1  ->  stoelen
+  32:    1  ->  tandeborstel
+  33:    1  ->  teddibeer
+  34:    1  ->  toilet
+  35:    1  ->  tuin
+  36:    1  ->  ververjaardag
+  37:    1  ->  was
+  38:    1  ->  winkel
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

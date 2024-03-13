@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.5%   (  46)
+
+Percent Correct           =   31.8%   (  14)
+
+Percent Substitution      =   68.2%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   36.4%   (  16)
+Percent Word Accuracy     =   -4.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  60)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> borcel
+   2:    1  ->  * ==> papirv
+   3:    1  ->  * ==> u
+   4:    1  ->  * ==> vrachtwag
+   5:    1  ->  afblijven ==> hantje
+   6:    1  ->  autorijden ==> autorijde
+   7:    1  ->  buurmannen ==> en
+   8:    1  ->  dierentuin ==> patenstola
+   9:    1  ->  goeiendag ==> dag
+  10:    1  ->  kabouter ==> snee
+  11:    1  ->  knutselen ==> knitzellen
+  12:    1  ->  konijnenhok ==> hook
+  13:    1  ->  limonade ==> manade
+  14:    1  ->  olifant ==> kolifant
+  15:    1  ->  paddenstoelen ==> verstoparka
+  16:    1  ->  poppenwagen ==> en
+  17:    1  ->  ruziemaken ==> diber
+  18:    1  ->  schoenenwinkel ==> winkel
+  19:    1  ->  schommelen ==> schoonmallen
+  20:    1  ->  sneeuwwitje ==> goeien
+  21:    1  ->  sprookjesboek ==> dan
+  22:    1  ->  tandenborstel ==> de
+  23:    1  ->  teddybeer ==> direten
+  24:    1  ->  toiletpapier ==> en
+  25:    1  ->  verstoppertje ==> was
+  26:    1  ->  vogelkooi ==> vorgaelkohe
+  27:    1  ->  vrachtwagen ==> buurman
+  28:    1  ->  washandje ==> wietje
+  29:    1  ->  wasmachine ==> machio
+  30:    1  ->  ziekenhuis ==> zekenas
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  af
+   2:    1  ->  blijven
+   3:    1  ->  book
+   4:    1  ->  ded
+   5:    1  ->  kabauter
+   6:    1  ->  komn
+   7:    1  ->  lettv
+   8:    1  ->  maken
+   9:    1  ->  nie
+  10:    1  ->  poppenweggen
+  11:    1  ->  ruzie
+  12:    1  ->  schoned
+  13:    1  ->  sprookjes
+  14:    1  ->  toilette
+  15:    1  ->  toy
+  16:    1  ->  was
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen
+   5:    1  ->  dierentuin
+   6:    1  ->  goeiendag
+   7:    1  ->  kabouter
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  olifant
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  vrachtwagen
+  25:    1  ->  washandje
+  26:    1  ->  wasmachine
+  27:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  en
+   2:    1  ->  autorijde
+   3:    1  ->  borcel
+   4:    1  ->  buurman
+   5:    1  ->  dag
+   6:    1  ->  dan
+   7:    1  ->  de
+   8:    1  ->  diber
+   9:    1  ->  direten
+  10:    1  ->  goeien
+  11:    1  ->  hantje
+  12:    1  ->  hook
+  13:    1  ->  knitzellen
+  14:    1  ->  kolifant
+  15:    1  ->  machio
+  16:    1  ->  manade
+  17:    1  ->  papirv
+  18:    1  ->  patenstola
+  19:    1  ->  schoonmallen
+  20:    1  ->  snee
+  21:    1  ->  u
+  22:    1  ->  verstoparka
+  23:    1  ->  vorgaelkohe
+  24:    1  ->  vrachtwag
+  25:    1  ->  was
+  26:    1  ->  wietje
+  27:    1  ->  winkel
+  28:    1  ->  zekenas
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

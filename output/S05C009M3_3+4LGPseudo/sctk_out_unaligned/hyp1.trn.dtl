@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  117.8%   (  53)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   17.8%   (   8)
+Percent Word Accuracy     =  -17.8%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  53)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> geeften
+   2:    1  ->  * ==> kan
+   3:    1  ->  * ==> sholden
+   4:    1  ->  *(juisten) ==> mam
+   5:    1  ->  *s ==> handen
+   6:    1  ->  *s ==> konden
+   7:    1  ->  blottenduuf ==> jeter
+   8:    1  ->  choporatie*(koprolt) ==> konwold
+   9:    1  ->  crobeklunker*(konden) ==> ni
+  10:    1  ->  deuveltek ==> nee
+  11:    1  ->  fandelig ==> em
+  12:    1  ->  gerauwejaak ==> vre
+  13:    1  ->  gevijdel ==> naen
+  14:    1  ->  girdofhaalder ==> moten
+  15:    1  ->  hapeneren ==> scheefhal
+  16:    1  ->  havedil ==> waden
+  17:    1  ->  ijraspangen ==> um
+  18:    1  ->  jalekrewen ==> karon
+  19:    1  ->  jattesiet ==> juisten
+  20:    1  ->  juitonie ==> vorbik
+  21:    1  ->  kabbestepen ==> je
+  22:    1  ->  kanaroe ==> zich
+  23:    1  ->  kantelogsten*(kantelen) ==> tilden
+  24:    1  ->  mantaroen*(manden) ==> mel
+  25:    1  ->  nappegreeuw ==> hoe
+  26:    1  ->  nurudien ==> staarden
+  27:    1  ->  ometuif ==> sladen
+  28:    1  ->  ondermind ==> odormin
+  29:    1  ->  ooiebiekje ==> jon
+  30:    1  ->  oonwijlen ==> s
+  31:    1  ->  poentalschouden ==> poten
+  32:    1  ->  schielendaspen ==> vam
+  33:    1  ->  sidowaan ==> adede
+  34:    1  ->  smoralij*(zon) ==> nene
+  35:    1  ->  spekkeraai*(spaarden) ==> kam
+  36:    1  ->  stoenydaas ==> weg
+  37:    1  ->  tobbermoeit ==> gilo
+  38:    1  ->  toejietsen ==> delken
+  39:    1  ->  toineetlijgen ==> hak?
+  40:    1  ->  verbrakkertje ==> ganden
+  41:    1  ->  verpierik ==> derwijs
+  42:    1  ->  verwarig*(verwijs) ==> e
+  43:    1  ->  wachteniek ==> i
+  44:    1  ->  zeekvlachine ==> weet
+  45:    1  ->  zennebral ==> nen
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  entuur
+   2:    1  ->  ja
+   3:    1  ->  jaten
+   4:    1  ->  nee
+   5:    1  ->  nuren
+   6:    1  ->  onde
+   7:    1  ->  tem
+   8:    1  ->  to
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  *
+   2:    2  ->  *s
+   3:    1  ->  *(juisten)
+   4:    1  ->  blottenduuf
+   5:    1  ->  choporatie*(koprolt)
+   6:    1  ->  crobeklunker*(konden)
+   7:    1  ->  deuveltek
+   8:    1  ->  fandelig
+   9:    1  ->  gerauwejaak
+  10:    1  ->  gevijdel
+  11:    1  ->  girdofhaalder
+  12:    1  ->  hapeneren
+  13:    1  ->  havedil
+  14:    1  ->  ijraspangen
+  15:    1  ->  jalekrewen
+  16:    1  ->  jattesiet
+  17:    1  ->  juitonie
+  18:    1  ->  kabbestepen
+  19:    1  ->  kanaroe
+  20:    1  ->  kantelogsten*(kantelen)
+  21:    1  ->  mantaroen*(manden)
+  22:    1  ->  nappegreeuw
+  23:    1  ->  nurudien
+  24:    1  ->  ometuif
+  25:    1  ->  ondermind
+  26:    1  ->  ooiebiekje
+  27:    1  ->  oonwijlen
+  28:    1  ->  poentalschouden
+  29:    1  ->  schielendaspen
+  30:    1  ->  sidowaan
+  31:    1  ->  smoralij*(zon)
+  32:    1  ->  spekkeraai*(spaarden)
+  33:    1  ->  stoenydaas
+  34:    1  ->  tobbermoeit
+  35:    1  ->  toejietsen
+  36:    1  ->  toineetlijgen
+  37:    1  ->  verbrakkertje
+  38:    1  ->  verpierik
+  39:    1  ->  verwarig*(verwijs)
+  40:    1  ->  wachteniek
+  41:    1  ->  zeekvlachine
+  42:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  adede
+   2:    1  ->  delken
+   3:    1  ->  derwijs
+   4:    1  ->  e
+   5:    1  ->  em
+   6:    1  ->  ganden
+   7:    1  ->  geeften
+   8:    1  ->  gilo
+   9:    1  ->  hak?
+  10:    1  ->  handen
+  11:    1  ->  hoe
+  12:    1  ->  i
+  13:    1  ->  je
+  14:    1  ->  jeter
+  15:    1  ->  jon
+  16:    1  ->  juisten
+  17:    1  ->  kam
+  18:    1  ->  kan
+  19:    1  ->  karon
+  20:    1  ->  konden
+  21:    1  ->  konwold
+  22:    1  ->  mam
+  23:    1  ->  mel
+  24:    1  ->  moten
+  25:    1  ->  naen
+  26:    1  ->  nee
+  27:    1  ->  nen
+  28:    1  ->  nene
+  29:    1  ->  ni
+  30:    1  ->  odormin
+  31:    1  ->  poten
+  32:    1  ->  s
+  33:    1  ->  scheefhal
+  34:    1  ->  sholden
+  35:    1  ->  sladen
+  36:    1  ->  staarden
+  37:    1  ->  tilden
+  38:    1  ->  um
+  39:    1  ->  vam
+  40:    1  ->  vorbik
+  41:    1  ->  vre
+  42:    1  ->  waden
+  43:    1  ->  weet
+  44:    1  ->  weg
+  45:    1  ->  zich
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

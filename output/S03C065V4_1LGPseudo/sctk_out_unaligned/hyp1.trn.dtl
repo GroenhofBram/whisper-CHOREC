@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.2%   (  30)
+
+Percent Correct           =   31.8%   (  14)
+
+Percent Substitution      =   68.2%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   31.8%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> gerea
+   2:    1  ->  * ==> scha
+   3:    1  ->  * ==> su
+   4:    1  ->  *(meeuw) ==> meel
+   5:    1  ->  ant ==> an
+   6:    1  ->  blard ==> blaht
+   7:    1  ->  dau ==> daw
+   8:    1  ->  doer ==> door
+   9:    1  ->  eem ==> één
+  10:    1  ->  fam ==> van
+  11:    1  ->  frijk ==> freik
+  12:    1  ->  grek ==> gerek
+  13:    1  ->  haans ==> hans
+  14:    1  ->  hool ==> hot
+  15:    1  ->  jien ==> jin
+  16:    1  ->  keng ==> king
+  17:    1  ->  larst ==> lerst
+  18:    1  ->  leum ==> lum
+  19:    1  ->  neeuw ==> neel
+  20:    1  ->  plirt ==> pliert
+  21:    1  ->  rachts ==> hecht
+  22:    1  ->  sank ==> stank
+  23:    1  ->  schard ==> schart
+  24:    1  ->  spaai ==> spai
+  25:    1  ->  sprieuw ==> sprigel
+  26:    1  ->  stuid ==> steit
+  27:    1  ->  swoers ==> swors
+  28:    1  ->  vaap ==> fhep
+  29:    1  ->  vid ==> vit
+  30:    1  ->  zwoei ==> swoi
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  *
+   2:    1  ->  *(meeuw)
+   3:    1  ->  ant
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  frijk
+  10:    1  ->  grek
+  11:    1  ->  haans
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  keng
+  15:    1  ->  larst
+  16:    1  ->  leum
+  17:    1  ->  neeuw
+  18:    1  ->  plirt
+  19:    1  ->  rachts
+  20:    1  ->  sank
+  21:    1  ->  schard
+  22:    1  ->  spaai
+  23:    1  ->  sprieuw
+  24:    1  ->  stuid
+  25:    1  ->  swoers
+  26:    1  ->  vaap
+  27:    1  ->  vid
+  28:    1  ->  zwoei
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  an
+   2:    1  ->  blaht
+   3:    1  ->  daw
+   4:    1  ->  door
+   5:    1  ->  fhep
+   6:    1  ->  freik
+   7:    1  ->  gerea
+   8:    1  ->  gerek
+   9:    1  ->  hans
+  10:    1  ->  hecht
+  11:    1  ->  hot
+  12:    1  ->  jin
+  13:    1  ->  king
+  14:    1  ->  lerst
+  15:    1  ->  lum
+  16:    1  ->  meel
+  17:    1  ->  neel
+  18:    1  ->  pliert
+  19:    1  ->  scha
+  20:    1  ->  schart
+  21:    1  ->  spai
+  22:    1  ->  sprigel
+  23:    1  ->  stank
+  24:    1  ->  steit
+  25:    1  ->  su
+  26:    1  ->  swoi
+  27:    1  ->  swors
+  28:    1  ->  van
+  29:    1  ->  vit
+  30:    1  ->  één
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

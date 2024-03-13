@@ -1,0 +1,217 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  165.9%   (  68)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  41)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   65.9%   (  27)
+Percent Word Accuracy     =  -65.9%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  68)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  *s ==> e
+   2:    1  ->  *s ==> gaat
+   3:    1  ->  *s ==> krobukie
+   4:    1  ->  *s ==> meren
+   5:    1  ->  blottenduuf ==> adermoiet
+   6:    1  ->  choporatie ==> loten
+   7:    1  ->  deuveltek ==> vin
+   8:    1  ->  fandelig ==> nogten
+   9:    1  ->  gerauwejaak ==> vrauw
+  10:    1  ->  gevijdel ==> oi
+  11:    1  ->  hapeneren ==> a
+  12:    1  ->  havedil ==> avie
+  13:    1  ->  ijraspangen ==> gierdoha
+  14:    1  ->  jalekrewen ==> emeet
+  15:    1  ->  jattesiet ==> dagpen
+  16:    1  ->  juitonie ==> erwari?
+  17:    1  ->  kabbestepen ==> a
+  18:    1  ->  kanaroe ==> en
+  19:    1  ->  kantelogsten ==> e
+  20:    1  ->  mantaroen ==> flesi
+  21:    1  ->  meitsegrok ==> va
+  22:    1  ->  nappegreeuw ==> geik
+  23:    1  ->  nurudien ==> ken
+  24:    1  ->  ometuif ==> nan
+  25:    1  ->  ondermind ==> egaan
+  26:    1  ->  ooiebiekje ==> kante
+  27:    1  ->  oonwijlen ==> henen
+  28:    1  ->  poentalschouden ==> haalten
+  29:    1  ->  schielendaspen ==> kanao
+  30:    1  ->  sidowaan ==> bekje
+  31:    1  ->  smoralij ==> choporati
+  32:    1  ->  spekkeraai ==> fanbele
+  33:    1  ->  stoenydaas ==> wiste
+  34:    1  ->  tobbermoeit ==> voedaals
+  35:    1  ->  toejietsen ==> eoen
+  36:    1  ->  toineetlijgen ==> en
+  37:    1  ->  verbrakkertje ==> verakie
+  38:    1  ->  verpierik ==> morala
+  39:    1  ->  verwarig ==> meerok
+  40:    1  ->  wachteniek ==> ween
+  41:    1  ->  zennebral ==> des
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  anie
+   2:    1  ->  begnee
+   3:    1  ->  da
+   4:    1  ->  da?
+   5:    1  ->  doan
+   6:    1  ->  doe
+   7:    1  ->  e
+   8:    1  ->  en?
+   9:    1  ->  eraan
+  10:    1  ->  geest
+  11:    1  ->  jatetie
+  12:    1  ->  je
+  13:    1  ->  jefedo
+  14:    1  ->  jij
+  15:    1  ->  kik
+  16:    1  ->  mee
+  17:    1  ->  nat
+  18:    1  ->  neren
+  19:    1  ->  niet
+  20:    1  ->  ommek
+  21:    1  ->  omwil
+  22:    1  ->  spik
+  23:    1  ->  stin
+  24:    1  ->  toe
+  25:    1  ->  vel
+  26:    1  ->  verpiik
+  27:    1  ->  wegt
+     -------
+        27
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  *s
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  deuveltek
+   5:    1  ->  fandelig
+   6:    1  ->  gerauwejaak
+   7:    1  ->  gevijdel
+   8:    1  ->  hapeneren
+   9:    1  ->  havedil
+  10:    1  ->  ijraspangen
+  11:    1  ->  jalekrewen
+  12:    1  ->  jattesiet
+  13:    1  ->  juitonie
+  14:    1  ->  kabbestepen
+  15:    1  ->  kanaroe
+  16:    1  ->  kantelogsten
+  17:    1  ->  mantaroen
+  18:    1  ->  meitsegrok
+  19:    1  ->  nappegreeuw
+  20:    1  ->  nurudien
+  21:    1  ->  ometuif
+  22:    1  ->  ondermind
+  23:    1  ->  ooiebiekje
+  24:    1  ->  oonwijlen
+  25:    1  ->  poentalschouden
+  26:    1  ->  schielendaspen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  stoenydaas
+  31:    1  ->  tobbermoeit
+  32:    1  ->  toejietsen
+  33:    1  ->  toineetlijgen
+  34:    1  ->  verbrakkertje
+  35:    1  ->  verpierik
+  36:    1  ->  verwarig
+  37:    1  ->  wachteniek
+  38:    1  ->  zennebral
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  a
+   2:    2  ->  e
+   3:    2  ->  en
+   4:    1  ->  adermoiet
+   5:    1  ->  avie
+   6:    1  ->  bekje
+   7:    1  ->  choporati
+   8:    1  ->  dagpen
+   9:    1  ->  des
+  10:    1  ->  egaan
+  11:    1  ->  emeet
+  12:    1  ->  eoen
+  13:    1  ->  erwari?
+  14:    1  ->  fanbele
+  15:    1  ->  flesi
+  16:    1  ->  gaat
+  17:    1  ->  geik
+  18:    1  ->  gierdoha
+  19:    1  ->  haalten
+  20:    1  ->  henen
+  21:    1  ->  kanao
+  22:    1  ->  kante
+  23:    1  ->  ken
+  24:    1  ->  krobukie
+  25:    1  ->  loten
+  26:    1  ->  meerok
+  27:    1  ->  meren
+  28:    1  ->  morala
+  29:    1  ->  nan
+  30:    1  ->  nogten
+  31:    1  ->  oi
+  32:    1  ->  va
+  33:    1  ->  verakie
+  34:    1  ->  vin
+  35:    1  ->  voedaals
+  36:    1  ->  vrauw
+  37:    1  ->  ween
+  38:    1  ->  wiste
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.0%   (  27)
+
+Percent Correct           =   46.7%   (  21)
+
+Percent Substitution      =   53.3%   (  24)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    6.7%   (   3)
+Percent Word Accuracy     =   40.0%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> lawai
+   2:    1  ->  * ==> mot
+   3:    1  ->  * ==> s
+   4:    1  ->  * ==> want
+   5:    1  ->  * ==> zier
+   6:    1  ->  appel ==> opel
+   7:    1  ->  auto ==> otto
+   8:    1  ->  cola*(chocola) ==> chocola
+   9:    1  ->  dichtbij*(dichterbij) ==> wij
+  10:    1  ->  fietsbel ==> winger
+  11:    1  ->  hoofdpijn ==> hooftpen
+  12:    1  ->  koning ==> koining
+  13:    1  ->  kussen ==> qusen
+  14:    1  ->  lawaai ==> ze
+  15:    1  ->  liedje ==> lietje
+  16:    1  ->  meisje ==> ese
+  17:    1  ->  schouders*(schouder) ==> schouder
+  18:    1  ->  sneeuwen*(sneeuw) ==> sneeuw
+  19:    1  ->  vinger ==> dichter
+  20:    1  ->  vlinder ==> veender
+  21:    1  ->  voetbal*(voetballen) ==> voetbal
+  22:    1  ->  vuurwerk ==> vurwerk
+  23:    1  ->  winkel ==> pinkul
+  24:    1  ->  zwemmen ==> wenen
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  awai
+   2:    1  ->  fiets
+   3:    1  ->  wel
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    5  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  cola*(chocola)
+   5:    1  ->  dichtbij*(dichterbij)
+   6:    1  ->  fietsbel
+   7:    1  ->  hoofdpijn
+   8:    1  ->  koning
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  schouders*(schouder)
+  14:    1  ->  sneeuwen*(sneeuw)
+  15:    1  ->  vinger
+  16:    1  ->  vlinder
+  17:    1  ->  voetbal*(voetballen)
+  18:    1  ->  vuurwerk
+  19:    1  ->  winkel
+  20:    1  ->  zwemmen
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  chocola
+   2:    1  ->  dichter
+   3:    1  ->  ese
+   4:    1  ->  hooftpen
+   5:    1  ->  koining
+   6:    1  ->  lawai
+   7:    1  ->  lietje
+   8:    1  ->  mot
+   9:    1  ->  opel
+  10:    1  ->  otto
+  11:    1  ->  pinkul
+  12:    1  ->  qusen
+  13:    1  ->  s
+  14:    1  ->  schouder
+  15:    1  ->  sneeuw
+  16:    1  ->  veender
+  17:    1  ->  voetbal
+  18:    1  ->  vurwerk
+  19:    1  ->  want
+  20:    1  ->  wenen
+  21:    1  ->  wij
+  22:    1  ->  winger
+  23:    1  ->  ze
+  24:    1  ->  zier
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

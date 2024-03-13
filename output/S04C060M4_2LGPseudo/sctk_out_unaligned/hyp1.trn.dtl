@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   92.9%   (  52)
+
+Percent Correct           =   10.7%   (   6)
+
+Percent Substitution      =   87.5%   (  49)
+Percent Deletions         =    1.8%   (   1)
+Percent Insertions        =    3.6%   (   2)
+Percent Word Accuracy     =    7.1%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  * ==> feo
+   2:    1  ->  * ==> fndre
+   3:    1  ->  * ==> gren
+   4:    1  ->  * ==> kin
+   5:    1  ->  * ==> mooin
+   6:    1  ->  * ==> neeu
+   7:    1  ->  * ==> nesing
+   8:    1  ->  * ==> nie
+   9:    1  ->  * ==> oor
+  10:    1  ->  * ==> or
+  11:    1  ->  * ==> osta
+  12:    1  ->  * ==> ponk
+  13:    1  ->  * ==> schieltang
+  14:    1  ->  * ==> schoding
+  15:    1  ->  * ==> schu
+  16:    1  ->  * ==> v
+  17:    1  ->  * ==> vanway
+  18:    1  ->  * ==> vochiel
+  19:    1  ->  * ==> voog
+  20:    1  ->  * ==> voor
+  21:    1  ->  * ==> vuureband
+  22:    1  ->  * ==> webuit
+  23:    1  ->  * ==> zweten
+  24:    1  ->  *(gevouw) ==> gefouw
+  25:    1  ->  *(strelen) ==> zweteren
+  26:    1  ->  eemde ==> inde
+  27:    1  ->  erke ==> irke
+  28:    1  ->  fiewon ==> kneem
+  29:    1  ->  foetbans ==> bons
+  30:    1  ->  haweel ==> henweel
+  31:    1  ->  hiffreeuw ==> hifvre
+  32:    1  ->  ierpieuw ==> piel
+  33:    1  ->  ijpo ==> eppe
+  34:    1  ->  kloeien ==> loeien
+  35:    1  ->  kneurem ==> va
+  36:    1  ->  millen ==> mielen
+  37:    1  ->  nizung ==> sun
+  38:    1  ->  oonste ==> unste
+  39:    1  ->  orstalk ==> ostelk
+  40:    1  ->  prilsood ==> prilut
+  41:    1  ->  saarweng ==> sarwen
+  42:    1  ->  sjobel ==> ier
+  43:    1  ->  spreikje ==> sprekje
+  44:    1  ->  vawaai ==> strillen
+  45:    1  ->  veten*(vetten) ==> witte
+  46:    1  ->  veurder ==> vurder
+  47:    1  ->  vloender ==> gundar
+  48:    1  ->  walaan ==> wallan
+  49:    1  ->  zwieten ==> voet
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  o
+   2:    1  ->  sjobbel
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  grijnken
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   23  ->  *
+   2:    1  ->  *(gevouw)
+   3:    1  ->  *(strelen)
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  foetbans
+   8:    1  ->  haweel
+   9:    1  ->  hiffreeuw
+  10:    1  ->  ierpieuw
+  11:    1  ->  ijpo
+  12:    1  ->  kloeien
+  13:    1  ->  kneurem
+  14:    1  ->  millen
+  15:    1  ->  nizung
+  16:    1  ->  oonste
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  sjobel
+  21:    1  ->  spreikje
+  22:    1  ->  vawaai
+  23:    1  ->  veten*(vetten)
+  24:    1  ->  veurder
+  25:    1  ->  vloender
+  26:    1  ->  walaan
+  27:    1  ->  zwieten
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  bons
+   2:    1  ->  eppe
+   3:    1  ->  feo
+   4:    1  ->  fndre
+   5:    1  ->  gefouw
+   6:    1  ->  gren
+   7:    1  ->  gundar
+   8:    1  ->  henweel
+   9:    1  ->  hifvre
+  10:    1  ->  ier
+  11:    1  ->  inde
+  12:    1  ->  irke
+  13:    1  ->  kin
+  14:    1  ->  kneem
+  15:    1  ->  loeien
+  16:    1  ->  mielen
+  17:    1  ->  mooin
+  18:    1  ->  neeu
+  19:    1  ->  nesing
+  20:    1  ->  nie
+  21:    1  ->  oor
+  22:    1  ->  or
+  23:    1  ->  osta
+  24:    1  ->  ostelk
+  25:    1  ->  piel
+  26:    1  ->  ponk
+  27:    1  ->  prilut
+  28:    1  ->  sarwen
+  29:    1  ->  schieltang
+  30:    1  ->  schoding
+  31:    1  ->  schu
+  32:    1  ->  sprekje
+  33:    1  ->  strillen
+  34:    1  ->  sun
+  35:    1  ->  unste
+  36:    1  ->  v
+  37:    1  ->  va
+  38:    1  ->  vanway
+  39:    1  ->  vochiel
+  40:    1  ->  voet
+  41:    1  ->  voog
+  42:    1  ->  voor
+  43:    1  ->  vurder
+  44:    1  ->  vuureband
+  45:    1  ->  wallan
+  46:    1  ->  webuit
+  47:    1  ->  witte
+  48:    1  ->  zweten
+  49:    1  ->  zweteren
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

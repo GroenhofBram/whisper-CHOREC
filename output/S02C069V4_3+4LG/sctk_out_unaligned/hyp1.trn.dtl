@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.0%   (  24)
+
+Percent Correct           =   52.5%   (  21)
+
+Percent Substitution      =   47.5%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   12.5%   (   5)
+Percent Word Accuracy     =   40.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  45)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  buurmannen ==> buurbannen
+   2:    1  ->  chocolade ==> chocolara
+   3:    1  ->  dierentuin ==> de
+   4:    1  ->  elastiekje ==> die
+   5:    1  ->  fototoestel ==> foutottoestel
+   6:    1  ->  konijnenhok ==> terribeer
+   7:    1  ->  limonade ==> gumonara
+   8:    1  ->  lucifer ==> lusiver
+   9:    1  ->  paddenstoelen ==> stoelen
+  10:    1  ->  poppenwagen ==> maken
+  11:    1  ->  ruziemaken ==> erentuyn
+  12:    1  ->  schoenenwinkel ==> schoenwinkel
+  13:    1  ->  schommelen ==> schomallen
+  14:    1  ->  sneeuwwitje ==> snewitje
+  15:    1  ->  tandenborstel ==> borstel
+  16:    1  ->  teddybeer ==> batzen
+  17:    1  ->  verstoppertje ==> vostoportja
+  18:    1  ->  washandje ==> boshantje
+  19:    1  ->  wasmachine ==> asmachine
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  dann
+   2:    1  ->  helastiekje
+   3:    1  ->  konijnenhoek
+   4:    1  ->  poepenwagen
+   5:    1  ->  ruzie
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  buurmannen
+   2:    1  ->  chocolade
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  konijnenhok
+   7:    1  ->  limonade
+   8:    1  ->  lucifer
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  schommelen
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  verstoppertje
+  18:    1  ->  washandje
+  19:    1  ->  wasmachine
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  asmachine
+   2:    1  ->  batzen
+   3:    1  ->  borstel
+   4:    1  ->  boshantje
+   5:    1  ->  buurbannen
+   6:    1  ->  chocolara
+   7:    1  ->  de
+   8:    1  ->  die
+   9:    1  ->  erentuyn
+  10:    1  ->  foutottoestel
+  11:    1  ->  gumonara
+  12:    1  ->  lusiver
+  13:    1  ->  maken
+  14:    1  ->  schoenwinkel
+  15:    1  ->  schomallen
+  16:    1  ->  snewitje
+  17:    1  ->  stoelen
+  18:    1  ->  terribeer
+  19:    1  ->  vostoportja
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

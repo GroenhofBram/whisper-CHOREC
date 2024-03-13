@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  70)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   61.4%   (  43)
+Percent Deletions         =   38.6%   (  27)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  70)
+Hyp. words                =           (  43)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  *s ==> na
+   2:    1  ->  *s ==> a
+   3:    1  ->  *s ==> bepaald
+   4:    1  ->  *s ==> fodedans
+   5:    1  ->  *s ==> gawel
+   6:    1  ->  *s ==> gevichd
+   7:    1  ->  *s ==> grijken
+   8:    1  ->  *s ==> ja
+   9:    1  ->  *s ==> je
+  10:    1  ->  *s ==> kerel
+  11:    1  ->  *s ==> loi
+  12:    1  ->  *s ==> metem
+  13:    1  ->  *s ==> miaste
+  14:    1  ->  *s ==> nisin
+  15:    1  ->  *s ==> opel
+  16:    1  ->  *s ==> oron
+  17:    1  ->  *s ==> telen
+  18:    1  ->  *s ==> tesat
+  19:    1  ->  *s ==> upo
+  20:    1  ->  *s ==> wawaan
+  21:    1  ->  fiewon ==> miren
+  22:    1  ->  foetbans ==> sarrewenk
+  23:    1  ->  grijnken ==> veeval
+  24:    1  ->  hiffreeuw ==> spraak
+  25:    1  ->  ijpo ==> len
+  26:    1  ->  kloeien ==> der
+  27:    1  ->  kneurem ==> tjel
+  28:    1  ->  menuur ==> sotis
+  29:    1  ->  milste ==> sweken
+  30:    1  ->  muider ==> orstelk
+  31:    1  ->  oonste ==> eende
+  32:    1  ->  orponk ==> javlonder
+  33:    1  ->  prilsood ==> fee
+  34:    1  ->  schodig ==> ffeder
+  35:    1  ->  spreikje ==> nneer
+  36:    1  ->  strellen ==> er
+  37:    1  ->  ulen ==> schielstalf
+  38:    1  ->  vawaai ==> ierpi
+  39:    1  ->  veurder ==> onste
+  40:    1  ->  vloender ==> aa
+  41:    1  ->  wooien ==> jefreel
+  42:    1  ->  zwieten ==> a
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   12  ->  *s
+   2:    1  ->  eemde
+   3:    1  ->  erke
+   4:    1  ->  gefouw
+   5:    1  ->  geutel
+   6:    1  ->  gevicht
+   7:    1  ->  haweel
+   8:    1  ->  ierpieuw
+   9:    1  ->  millen
+  10:    1  ->  nizung
+  11:    1  ->  orstalk
+  12:    1  ->  saarweng
+  13:    1  ->  sjobel
+  14:    1  ->  vocil
+  15:    1  ->  vurpaand
+  16:    1  ->  walaan
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   21  ->  *s
+   2:    1  ->  fiewon
+   3:    1  ->  foetbans
+   4:    1  ->  grijnken
+   5:    1  ->  hiffreeuw
+   6:    1  ->  ijpo
+   7:    1  ->  kloeien
+   8:    1  ->  kneurem
+   9:    1  ->  menuur
+  10:    1  ->  milste
+  11:    1  ->  muider
+  12:    1  ->  oonste
+  13:    1  ->  orponk
+  14:    1  ->  prilsood
+  15:    1  ->  schodig
+  16:    1  ->  spreikje
+  17:    1  ->  strellen
+  18:    1  ->  ulen
+  19:    1  ->  vawaai
+  20:    1  ->  veurder
+  21:    1  ->  vloender
+  22:    1  ->  wooien
+  23:    1  ->  zwieten
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  a
+   2:    2  ->  na
+   3:    1  ->  aa
+   4:    1  ->  bepaald
+   5:    1  ->  der
+   6:    1  ->  eende
+   7:    1  ->  er
+   8:    1  ->  fee
+   9:    1  ->  ffeder
+  10:    1  ->  fodedans
+  11:    1  ->  gawel
+  12:    1  ->  gevichd
+  13:    1  ->  grijken
+  14:    1  ->  ierpi
+  15:    1  ->  ja
+  16:    1  ->  javlonder
+  17:    1  ->  je
+  18:    1  ->  jefreel
+  19:    1  ->  kerel
+  20:    1  ->  len
+  21:    1  ->  loi
+  22:    1  ->  metem
+  23:    1  ->  miaste
+  24:    1  ->  miren
+  25:    1  ->  nisin
+  26:    1  ->  nneer
+  27:    1  ->  onste
+  28:    1  ->  opel
+  29:    1  ->  oron
+  30:    1  ->  orstelk
+  31:    1  ->  sarrewenk
+  32:    1  ->  schielstalf
+  33:    1  ->  sotis
+  34:    1  ->  spraak
+  35:    1  ->  sweken
+  36:    1  ->  telen
+  37:    1  ->  tesat
+  38:    1  ->  tjel
+  39:    1  ->  upo
+  40:    1  ->  veeval
+  41:    1  ->  wawaan
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

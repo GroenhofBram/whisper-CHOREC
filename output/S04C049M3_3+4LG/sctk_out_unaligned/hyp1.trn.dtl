@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   76.2%   (  32)
+
+Percent Correct           =   40.5%   (  17)
+
+Percent Substitution      =   57.1%   (  24)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   16.7%   (   7)
+Percent Word Accuracy     =   23.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> inhuis
+   2:    1  ->  * ==> neeuwsgierig
+   3:    1  ->  autorijden ==> autoreden
+   4:    1  ->  dierentuin ==> verstopportje
+   5:    1  ->  eindelijk ==> endelijk
+   6:    1  ->  goeiendag*(goedendag) ==> goedendag
+   7:    1  ->  iedereen ==> ideren
+   8:    1  ->  kabouter ==> handje
+   9:    1  ->  konijnenhok ==> konijnenhoek
+  10:    1  ->  limonade ==> clumonade
+  11:    1  ->  nieuwsgierig ==> zik
+  12:    1  ->  olifant ==> olifan
+  13:    1  ->  paddenstoelen ==> stord
+  14:    1  ->  poppenwagen ==> openwagen
+  15:    1  ->  ruziemaken ==> dierentuinpaden
+  16:    1  ->  schoenenwinkel ==> schoonwinkel
+  17:    1  ->  sneeuwwitje ==> je
+  18:    1  ->  sprookjesboek ==> tanden
+  19:    1  ->  tandenborstel ==> borstel
+  20:    1  ->  teddybeer ==> stoelen
+  21:    1  ->  toiletpapier ==> lidpapier
+  22:    1  ->  verstoppertje ==> je
+  23:    1  ->  washandje ==> snijwit
+  24:    1  ->  ziekenhuis ==> achterder
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  dribeer
+   2:    1  ->  maken
+   3:    1  ->  ruzie
+   4:    1  ->  sprogjesbook
+   5:    1  ->  tabater
+   6:    1  ->  toa
+   7:    1  ->  was
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  achterdeur
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  dierentuin
+   4:    1  ->  eindelijk
+   5:    1  ->  goeiendag*(goedendag)
+   6:    1  ->  iedereen
+   7:    1  ->  kabouter
+   8:    1  ->  konijnenhok
+   9:    1  ->  limonade
+  10:    1  ->  nieuwsgierig
+  11:    1  ->  olifant
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  sprookjesboek
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verstoppertje
+  22:    1  ->  washandje
+  23:    1  ->  ziekenhuis
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  je
+   2:    1  ->  achterder
+   3:    1  ->  autoreden
+   4:    1  ->  borstel
+   5:    1  ->  clumonade
+   6:    1  ->  dierentuinpaden
+   7:    1  ->  endelijk
+   8:    1  ->  goedendag
+   9:    1  ->  handje
+  10:    1  ->  ideren
+  11:    1  ->  inhuis
+  12:    1  ->  konijnenhoek
+  13:    1  ->  lidpapier
+  14:    1  ->  neeuwsgierig
+  15:    1  ->  olifan
+  16:    1  ->  openwagen
+  17:    1  ->  schoonwinkel
+  18:    1  ->  snijwit
+  19:    1  ->  stoelen
+  20:    1  ->  stord
+  21:    1  ->  tanden
+  22:    1  ->  verstopportje
+  23:    1  ->  zik
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

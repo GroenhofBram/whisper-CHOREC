@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C008V3_1LG
+
+#### (S05C008V3_1LG-words)
+
+- Cor=8.3%	Sub=58.3%	Del=31.7%	Ins=1.7%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat*(staart) | leeuw | * | clown*(school) | * | * | hoek | krant*(klant) | hout | * | * | * | * | * | * | gauw | * | * | * | * | * | groen | feest |  | reis | jas | huis | paard | vijf | * | * | nieuw | * | * | kind | * | * | * | oog | zacht | schoen | plas*(past) | neus | knoop | * | * | * |
+| HYP1 |  | clas | moli | koem | m | t | det | eerst | voor |  |  |  |  |  | dr | hert | ki | len | gl | hoek |  |  |  |  |  |  | k | hu | var | sit | ge | hou | mge | s | goen | feest | reeis | jast | hus | pard | s | vijf |  |  |  |  |  |  |  | ne | me | nit | v | o | oe | niet | pat | nu | s | j |
+| EVAL | D | S | S | S | S | S | S |  |  | D | D | D | D | D | S | S | S | S | S |  | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S |  | I | S | S | S | S |  | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

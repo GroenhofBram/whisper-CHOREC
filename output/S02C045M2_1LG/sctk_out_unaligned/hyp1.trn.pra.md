@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C045M2_1LG
+
+#### (S02C045M2_1LG-words)
+
+- Cor=35.7%	Sub=57.1%	Del=7.1%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | *(hak) | hoek | krant | hout | vriend | gauw | * | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | moi | oe | an | roi | krant | bet | erst | voor | drei | cel | herfst | tuur | straat | leeuw |  |  | klouwn | lathook | rant | out | frient | gaol | chips | goen | feest | res | jas |  | vet | pert | fes | metsnieuw | kind | bang | oog | zacht | schoon | plas | neus | knop | plank |
+| EVAL |  | S | S | S | S | S | S | S |  | S | S |  | S |  |  | D | D | S | S | S | S | S | S |  | S |  | S |  | D | S | S | S | S |  |  |  |  | S |  |  | S |  |
+---
+
+---

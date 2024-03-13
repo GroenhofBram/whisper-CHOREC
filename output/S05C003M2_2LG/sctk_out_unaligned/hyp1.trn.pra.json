@@ -1,0 +1,356 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S05C003M2_2LG": {
+   "(S05C003M2_2LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S05C003M2_2LG",
+    "sentence_id": "(S05C003M2_2LG-words)",
+    "sequence": 0,
+    "word_count": 68,
+    "words": [
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "wat"
+     },
+     {
+      "eval_label": "C",
+      "ref": "water",
+      "hyp": "water"
+     },
+     {
+      "eval_label": "S",
+      "ref": "mevrouw*(meervoud)",
+      "hyp": "meerveld"
+     },
+     {
+      "eval_label": "C",
+      "ref": "drogen",
+      "hyp": "drogen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "winkel",
+      "hyp": "winkel"
+     },
+     {
+      "eval_label": "C",
+      "ref": "auto",
+      "hyp": "auto"
+     },
+     {
+      "eval_label": "C",
+      "ref": "schouders",
+      "hyp": "schouders"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verhaal",
+      "hyp": "verhel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "konniet"
+     },
+     {
+      "eval_label": "C",
+      "ref": "koning",
+      "hyp": "koning"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "moeeilijk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "moeilijk",
+      "hyp": "moeilijk"
+     },
+     {
+      "eval_label": "S",
+      "ref": "moeilijk",
+      "hyp": "speel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "speelplaats",
+      "hyp": "plat"
+     },
+     {
+      "eval_label": "C",
+      "ref": "drinken",
+      "hyp": "drinken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hoofdpijn",
+      "hyp": "hooft"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "plein"
+     },
+     {
+      "eval_label": "C",
+      "ref": "regen",
+      "hyp": "regen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vliegtuig",
+      "hyp": "vliegtuig"
+     },
+     {
+      "eval_label": "S",
+      "ref": "stoppen",
+      "hyp": "stopen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "opnieuw",
+      "hyp": "opnieuw"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "go"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "je"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gooien",
+      "hyp": "nu"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sneeuwen",
+      "hyp": "sneeuwe"
+     },
+     {
+      "eval_label": "C",
+      "ref": "sneeuwen",
+      "hyp": "sneeuwen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "moeder",
+      "hyp": "moeder"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "u"
+     },
+     {
+      "eval_label": "S",
+      "ref": "liedje",
+      "hyp": "li"
+     },
+     {
+      "eval_label": "S",
+      "ref": "potlood",
+      "hyp": "tia"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "potloot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fietsbel",
+      "hyp": "fit"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "bel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vinger",
+      "hyp": "vinviner"
+     },
+     {
+      "eval_label": "S",
+      "ref": "dichtbij",
+      "hyp": "dicht"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "bij"
+     },
+     {
+      "eval_label": "S",
+      "ref": "meisje",
+      "hyp": "met"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "mijsje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "eur"
+     },
+     {
+      "eval_label": "C",
+      "ref": "chauffeur",
+      "hyp": "chauffeur"
+     },
+     {
+      "eval_label": "C",
+      "ref": "muziek",
+      "hyp": "muziek"
+     },
+     {
+      "eval_label": "D",
+      "ref": "waarom",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "scheuren",
+      "hyp": "waarom?"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "schuren"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "lau"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "u"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "auwei"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "a"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "hoe"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "i"
+     },
+     {
+      "eval_label": "S",
+      "ref": "lawaai",
+      "hyp": "lawiy"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwemmen",
+      "hyp": "zemmen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vuurwerk",
+      "hyp": "vuurwerk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "appel",
+      "hyp": "appel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "cola",
+      "hyp": "schooaa"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "schoolaak"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "schola"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kussen",
+      "hyp": "kus"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eerste",
+      "hyp": "ten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ierst"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "te"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "i"
+     },
+     {
+      "eval_label": "S",
+      "ref": "circus",
+      "hyp": "sirus"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kleuren",
+      "hyp": "kleuren"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "voe"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "de"
+     },
+     {
+      "eval_label": "S",
+      "ref": "voetbal",
+      "hyp": "bal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vlinder",
+      "hyp": "linde"
+     }
+    ]
+   }
+  }
+ }
+}

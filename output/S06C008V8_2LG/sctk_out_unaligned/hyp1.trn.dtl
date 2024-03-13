@@ -1,0 +1,93 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.6%   (   8)
+
+Percent Correct           =   83.7%   (  36)
+
+Percent Substitution      =   16.3%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   81.4%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  * ==> chauf
+   2:    1  ->  * ==> sch
+   3:    1  ->  * ==> schaa
+   4:    1  ->  chauffeur ==> cafer
+   5:    1  ->  fietsbel ==> bed
+   6:    1  ->  gooien*(groeien) ==> groeien
+   7:    1  ->  kussen ==> pussen
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fiets
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  *
+   2:    1  ->  chauffeur
+   3:    1  ->  fietsbel
+   4:    1  ->  gooien*(groeien)
+   5:    1  ->  kussen
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bed
+   2:    1  ->  cafer
+   3:    1  ->  chauf
+   4:    1  ->  groeien
+   5:    1  ->  pussen
+   6:    1  ->  sch
+   7:    1  ->  schaa
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

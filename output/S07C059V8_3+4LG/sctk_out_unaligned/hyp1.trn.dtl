@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  109.6%   (  57)
+
+Percent Correct           =   28.8%   (  15)
+
+Percent Substitution      =   65.4%   (  34)
+Percent Deletions         =    5.8%   (   3)
+Percent Insertions        =   38.5%   (  20)
+Percent Word Accuracy     =   -9.6%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  69)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> ber
+   2:    1  ->  * ==> i
+   3:    1  ->  * ==> ten
+   4:    1  ->  * ==> toulen
+   5:    1  ->  *(nieuweling) ==> nieuweling
+   6:    1  ->  *s ==> chocolada
+   7:    1  ->  achterdeur ==> i't
+   8:    1  ->  autorijden ==> de
+   9:    1  ->  dierentuin ==> fluhs
+  10:    1  ->  eindelijk ==> endelak
+  11:    1  ->  elastiekje ==> dieren
+  12:    1  ->  elastiekje ==> hobe
+  13:    1  ->  goeiendag ==> dag
+  14:    1  ->  knutselen ==> nutsullen
+  15:    1  ->  konijnenhok ==> maken
+  16:    1  ->  limonade ==> autore
+  17:    1  ->  lucifer ==> slaapzak
+  18:    1  ->  nieuwsgierig*(nieuwelingen) ==> weling
+  19:    1  ->  paddenstoelen ==> topbordhe
+  20:    1  ->  poppenwagen ==> moet
+  21:    1  ->  poppenwagen ==> ziek
+  22:    1  ->  ruziemaken*(muziekmaken) ==> ten
+  23:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoenwinkel
+  24:    1  ->  schommelen ==> schoelen
+  25:    1  ->  slaapkamer ==> deur
+  26:    1  ->  sneeuwwitje ==> goeien
+  27:    1  ->  sprookjesboek ==> borttal
+  28:    1  ->  tandenborstel ==> lufsiffer
+  29:    1  ->  teddybeer*(hobby) ==> pades
+  30:    1  ->  toiletpapier ==> papier
+  31:    1  ->  verstoppertje ==> isen
+  32:    1  ->  vrachtwagen ==> verwacht
+  33:    1  ->  washandje ==> wietje
+  34:    1  ->  washandje*(washanden) ==> sneeuw
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  dan
+   2:    2  ->  was
+   3:    1  ->  achtder
+   4:    1  ->  boek
+   5:    1  ->  den
+   6:    1  ->  elastiek
+   7:    1  ->  en
+   8:    1  ->  hangtj?
+   9:    1  ->  il
+  10:    1  ->  juja
+  11:    1  ->  kas
+  12:    1  ->  koneenerok
+  13:    1  ->  lymmonade
+  14:    1  ->  nieuw
+  15:    1  ->  poppoppen
+  16:    1  ->  sprookjes
+  17:    1  ->  tal
+  18:    1  ->  wagen
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  chocolade
+   2:    1  ->  *t
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  *
+   2:    2  ->  elastiekje
+   3:    2  ->  poppenwagen
+   4:    1  ->  *(nieuweling)
+   5:    1  ->  *s
+   6:    1  ->  achterdeur
+   7:    1  ->  autorijden
+   8:    1  ->  dierentuin
+   9:    1  ->  eindelijk
+  10:    1  ->  goeiendag
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig*(nieuwelingen)
+  16:    1  ->  paddenstoelen
+  17:    1  ->  ruziemaken*(muziekmaken)
+  18:    1  ->  schoenenwinkel*(schoenwinkel)
+  19:    1  ->  schommelen
+  20:    1  ->  slaapkamer
+  21:    1  ->  sneeuwwitje
+  22:    1  ->  sprookjesboek
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer*(hobby)
+  25:    1  ->  toiletpapier
+  26:    1  ->  verstoppertje
+  27:    1  ->  vrachtwagen
+  28:    1  ->  washandje
+  29:    1  ->  washandje*(washanden)
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  ten
+   2:    1  ->  autore
+   3:    1  ->  ber
+   4:    1  ->  borttal
+   5:    1  ->  chocolada
+   6:    1  ->  dag
+   7:    1  ->  de
+   8:    1  ->  deur
+   9:    1  ->  dieren
+  10:    1  ->  endelak
+  11:    1  ->  fluhs
+  12:    1  ->  goeien
+  13:    1  ->  hobe
+  14:    1  ->  i
+  15:    1  ->  i't
+  16:    1  ->  isen
+  17:    1  ->  lufsiffer
+  18:    1  ->  maken
+  19:    1  ->  moet
+  20:    1  ->  nieuweling
+  21:    1  ->  nutsullen
+  22:    1  ->  pades
+  23:    1  ->  papier
+  24:    1  ->  schoelen
+  25:    1  ->  schoenwinkel
+  26:    1  ->  slaapzak
+  27:    1  ->  sneeuw
+  28:    1  ->  topbordhe
+  29:    1  ->  toulen
+  30:    1  ->  verwacht
+  31:    1  ->  weling
+  32:    1  ->  wietje
+  33:    1  ->  ziek
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

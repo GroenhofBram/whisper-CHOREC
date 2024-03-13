@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S06C029M8_3+4LG
+
+(S06C029M8_3+4LG-words)
+
+Cor=43.1%	Sub=37.3%	Del=2.0%	Ins=17.6%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,omdraaien,poppenwagen,konijnenhok,elastiekje,,*,ruziemaken,teddybeer,dierentuin,paddenstoelen,verstoppertje,wasmachine,fototoestel,toiletpapier,vrachtwagen,buurmannen,vogelkooi,olifant,schommelen,iedereen,,,schoenenwinkel,knutselen,ophangen,,,,,verjaardag,sprookjesboek,tandenborstel,lucifer,slaapkamer,achterdeur,ziekenhuis,nieuwsgierig,afblijven,kabouter,*,washandje,,,sneeuwwitje,goeiendag,vakantie,limonade,autorijden,eindelijk,familie,chocolade
+HYP1,omdraaien,poppenwagen,kornijnenhok,elastiekje,re,ruzie,maken,teddibeer,dierentuin,paddestoelen,verstoppertje,wasmachine,fototoestel,toaletpapier,vrachtwagen,beurmannen,vogelkooi,olifant,schombelen,iedereen,schoen,en,winkel,knutselen,ophangen,voor,jaar,dag,sprookjes,boek,tanden,borstel,lucifer,slaapkamer,echterdeur,ziekenhuis,nieuwsgierig,afblejven,kabouter,wasm,washandje,nee,wietje,goeien,dag,vakantie,limomade,autorijden,eindelijk,,familiechocolade
+EVAL,,,S,,I,S,S,S,,S,,,,S,,S,,,S,,I,I,S,,,I,I,I,I,S,S,S,,,S,,,S,,S,,I,I,S,S,,S,,,D,S
+
+
+

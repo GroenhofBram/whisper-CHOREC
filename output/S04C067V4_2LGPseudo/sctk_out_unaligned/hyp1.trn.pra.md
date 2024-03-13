@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C067V4_2LGPseudo
+
+#### (S04C067V4_2LGPseudo-words)
+
+- Cor=6.4%	Sub=89.4%	Del=2.1%	Ins=2.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel | sjobel | * | * | * | erke |  | haweel | saarweng | gevicht | eemde | * | bepoud | orstalk | veten | * | * | * | nizung | fiewon | kneurem | vawaai | strellen | zwieten | foetbans | oonste | muider | grijnken | * | * | prilsood | vloender | milste | veurder | kloeien | ulen | orponk | * | * | ijpo | * | * | spreikje | hiffreeuw | wooien |
+| HYP1 | mielen | voorkeel | getel | sjobur | ier | bewel | welan | erke | hawel | sare | gewicht | inde | be | bepaald | oorst | zalk | veten |  | ga | gewou | verpaand | misum | feon | kneuuren | vawai | strillen | zweten | voetbans | onster | medder | grenken | schilttag | brilsoot | vlunder | milster | verder | kloeien | eulen | oorpank | schading | schotin | eppe | meneur | sspreekje | hifriuw | wo | je |
+| EVAL | S | S | S | S | S | S | S |  | I | S | S | S | S | S | S | S |  | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

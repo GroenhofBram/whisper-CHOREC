@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.7%   (  21)
+
+Percent Correct           =   63.8%   (  30)
+
+Percent Substitution      =   34.0%   (  16)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =    8.5%   (   4)
+Percent Word Accuracy     =   55.3%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  50)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> ach
+   2:    1  ->  * ==> je
+   3:    1  ->  * ==> na
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> wasm
+   6:    1  ->  *(schommel) ==> schommel
+   7:    1  ->  *t ==> uhm
+   8:    1  ->  chocolade ==> familiegocolae
+   9:    1  ->  elastiekje ==> ruzie
+  10:    1  ->  konijnenhok ==> llastiekje
+  11:    1  ->  ruziemaken ==> maken
+  12:    1  ->  schoenenwinkel ==> schoenwinkel
+  13:    1  ->  sneeuwwitje*(sneeuw) ==> wit
+  14:    1  ->  sprookjesboek ==> boek
+  15:    1  ->  teddybeer ==> teddibeer
+  16:    1  ->  vogelkooi ==> kooi
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  konijnenhoek
+   2:    1  ->  sneeuw
+   3:    1  ->  sprookjes
+   4:    1  ->  vogo
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  familie
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    5  ->  *
+   2:    1  ->  *(schommel)
+   3:    1  ->  *t
+   4:    1  ->  chocolade
+   5:    1  ->  elastiekje
+   6:    1  ->  konijnenhok
+   7:    1  ->  ruziemaken
+   8:    1  ->  schoenenwinkel
+   9:    1  ->  sneeuwwitje*(sneeuw)
+  10:    1  ->  sprookjesboek
+  11:    1  ->  teddybeer
+  12:    1  ->  vogelkooi
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ach
+   2:    1  ->  boek
+   3:    1  ->  familiegocolae
+   4:    1  ->  je
+   5:    1  ->  kooi
+   6:    1  ->  llastiekje
+   7:    1  ->  maken
+   8:    1  ->  na
+   9:    1  ->  ruzie
+  10:    1  ->  s
+  11:    1  ->  schoenwinkel
+  12:    1  ->  schommel
+  13:    1  ->  teddibeer
+  14:    1  ->  uhm
+  15:    1  ->  wasm
+  16:    1  ->  wit
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

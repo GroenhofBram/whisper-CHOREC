@@ -1,0 +1,436 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   ( 200)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   93.0%   ( 186)
+Percent Deletions         =    7.0%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           ( 200)
+Hyp. words                =           ( 186)
+Aligned words             =           ( 200)
+
+CONFUSION PAIRS                  Total                 (164)
+                                 With >=  1 occurrences (164)
+
+   1:    4  ->  * ==> ik
+   2:    4  ->  * ==> o
+   3:    3  ->  * ==> een
+   4:    3  ->  * ==> on
+   5:    2  ->  * ==> at
+   6:    2  ->  * ==> eit
+   7:    2  ->  * ==> er
+   8:    2  ->  * ==> ga
+   9:    2  ->  * ==> i
+  10:    2  ->  * ==> is
+  11:    2  ->  * ==> jat
+  12:    2  ->  * ==> k
+  13:    2  ->  * ==> s
+  14:    2  ->  * ==> t
+  15:    2  ->  * ==> uh
+  16:    2  ->  * ==> uit
+  17:    1  ->  * ==> 't
+  18:    1  ->  * ==> a
+  19:    1  ->  * ==> ai
+  20:    1  ->  * ==> al
+  21:    1  ->  * ==> alllei
+  22:    1  ->  * ==> aq
+  23:    1  ->  * ==> ar
+  24:    1  ->  * ==> as
+  25:    1  ->  * ==> begrejl
+  26:    1  ->  * ==> blottenbruf
+  27:    1  ->  * ==> buuf
+  28:    1  ->  * ==> cidovan
+  29:    1  ->  * ==> d
+  30:    1  ->  * ==> dans
+  31:    1  ->  * ==> danspen
+  32:    1  ->  * ==> dellin
+  33:    1  ->  * ==> dik
+  34:    1  ->  * ==> dolv
+  35:    1  ->  * ==> duif
+  36:    1  ->  * ==> duiveldick
+  37:    1  ->  * ==> e
+  38:    1  ->  * ==> ebben
+  39:    1  ->  * ==> eel
+  40:    1  ->  * ==> eelleigen
+  41:    1  ->  * ==> eet
+  42:    1  ->  * ==> eigrok
+  43:    1  ->  * ==> eker
+  44:    1  ->  * ==> el
+  45:    1  ->  * ==> en
+  46:    1  ->  * ==> eppen
+  47:    1  ->  * ==> eral
+  48:    1  ->  * ==> eren
+  49:    1  ->  * ==> est
+  50:    1  ->  * ==> ev
+  51:    1  ->  * ==> flak
+  52:    1  ->  * ==> ge
+  53:    1  ->  * ==> gef
+  54:    1  ->  * ==> grawezaq
+  55:    1  ->  * ==> griet
+  56:    1  ->  * ==> grotik
+  57:    1  ->  * ==> halder
+  58:    1  ->  * ==> hap
+  59:    1  ->  * ==> havidil
+  60:    1  ->  * ==> hia
+  61:    1  ->  * ==> hier
+  62:    1  ->  * ==> hoe
+  63:    1  ->  * ==> id
+  64:    1  ->  * ==> ien
+  65:    1  ->  * ==> igerok
+  66:    1  ->  * ==> ir
+  67:    1  ->  * ==> iser
+  68:    1  ->  * ==> jalikreeuwen
+  69:    1  ->  * ==> je
+  70:    1  ->  * ==> kateloosten
+  71:    1  ->  * ==> kra
+  72:    1  ->  * ==> krot
+  73:    1  ->  * ==> kur
+  74:    1  ->  * ==> logst
+  75:    1  ->  * ==> luker
+  76:    1  ->  * ==> lunker
+  77:    1  ->  * ==> m
+  78:    1  ->  * ==> man
+  79:    1  ->  * ==> mantern
+  80:    1  ->  * ==> me
+  81:    1  ->  * ==> met
+  82:    1  ->  * ==> mot
+  83:    1  ->  * ==> mureding
+  84:    1  ->  * ==> n
+  85:    1  ->  * ==> napuhgrel
+  86:    1  ->  * ==> nt
+  87:    1  ->  * ==> ofhelder
+  88:    1  ->  * ==> oi
+  89:    1  ->  * ==> om
+  90:    1  ->  * ==> onderni
+  91:    1  ->  * ==> oniv
+  92:    1  ->  * ==> oor
+  93:    1  ->  * ==> op
+  94:    1  ->  * ==> ott
+  95:    1  ->  * ==> over
+  96:    1  ->  * ==> r
+  97:    1  ->  * ==> ra
+  98:    1  ->  * ==> scgouden
+  99:    1  ->  * ==> sch
+ 100:    1  ->  * ==> schillen
+ 101:    1  ->  * ==> seek
+ 102:    1  ->  * ==> shoprati
+ 103:    1  ->  * ==> spekerai
+ 104:    1  ->  * ==> st
+ 105:    1  ->  * ==> stoibos
+ 106:    1  ->  * ==> tie
+ 107:    1  ->  * ==> to
+ 108:    1  ->  * ==> tony
+ 109:    1  ->  * ==> treitsenv
+ 110:    1  ->  * ==> uf
+ 111:    1  ->  * ==> uhm
+ 112:    1  ->  * ==> unik
+ 113:    1  ->  * ==> utuf
+ 114:    1  ->  * ==> uéén
+ 115:    1  ->  * ==> van
+ 116:    1  ->  * ==> verbraak
+ 117:    1  ->  * ==> verbruke
+ 118:    1  ->  * ==> verp
+ 119:    1  ->  * ==> verwaring
+ 120:    1  ->  * ==> vun
+ 121:    1  ->  * ==> wachten
+ 122:    1  ->  * ==> wam
+ 123:    1  ->  * ==> wijlen
+ 124:    1  ->  * ==> wont
+ 125:    1  ->  * ==> yetoni
+ 126:    1  ->  * ==> zenedral
+ 127:    1  ->  blottenduuf ==> bel
+ 128:    1  ->  choporatie ==> ondermint
+ 129:    1  ->  crobeklunker ==> run
+ 130:    1  ->  deuveltek ==> onwijlen
+ 131:    1  ->  fandelig ==> dat
+ 132:    1  ->  gerauwejaak ==> g
+ 133:    1  ->  gevijdel ==> mu
+ 134:    1  ->  girdofhaalder ==> irdoof
+ 135:    1  ->  hapeneren ==> habeneren
+ 136:    1  ->  havedil ==> uf
+ 137:    1  ->  ijraspangen ==> e
+ 138:    1  ->  jalekrewen ==> hodeikje
+ 139:    1  ->  jattesiet ==> uit
+ 140:    1  ->  juitonie ==> iit
+ 141:    1  ->  kabbestepen ==> oh
+ 142:    1  ->  kanaroe ==> wen
+ 143:    1  ->  kantelogsten ==> otlen
+ 144:    1  ->  mantaroen ==> ik
+ 145:    1  ->  meitsegrok ==> kan
+ 146:    1  ->  nappegreeuw ==> wacht
+ 147:    1  ->  nurudien ==> toiv
+ 148:    1  ->  ondermind ==> had
+ 149:    1  ->  ooiebiekje ==> au
+ 150:    1  ->  poentalschouden ==> gouden
+ 151:    1  ->  poentalschouden ==> pont
+ 152:    1  ->  schielendaspen ==> verbirik
+ 153:    1  ->  sidowaan ==> bas
+ 154:    1  ->  smoralij ==> van
+ 155:    1  ->  spekkeraai ==> hi
+ 156:    1  ->  stoenydaas ==> eetsen
+ 157:    1  ->  tobbermoeit ==> als
+ 158:    1  ->  toineetlijgen ==> oor
+ 159:    1  ->  verbrakkertje ==> ediol
+ 160:    1  ->  verpierik ==> s
+ 161:    1  ->  verwarig ==> iglunger
+ 162:    1  ->  wachteniek ==> edel
+ 163:    1  ->  zeekvlachine ==> deling
+ 164:    1  ->  zennebral ==> ca
+     -------
+       186
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:   11  ->  *
+   2:    1  ->  ometuif
+   3:    1  ->  oonwijlen
+   4:    1  ->  toejietsen
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:  148  ->  *
+   2:    2  ->  poentalschouden
+   3:    1  ->  blottenduuf
+   4:    1  ->  choporatie
+   5:    1  ->  crobeklunker
+   6:    1  ->  deuveltek
+   7:    1  ->  fandelig
+   8:    1  ->  gerauwejaak
+   9:    1  ->  gevijdel
+  10:    1  ->  girdofhaalder
+  11:    1  ->  hapeneren
+  12:    1  ->  havedil
+  13:    1  ->  ijraspangen
+  14:    1  ->  jalekrewen
+  15:    1  ->  jattesiet
+  16:    1  ->  juitonie
+  17:    1  ->  kabbestepen
+  18:    1  ->  kanaroe
+  19:    1  ->  kantelogsten
+  20:    1  ->  mantaroen
+  21:    1  ->  meitsegrok
+  22:    1  ->  nappegreeuw
+  23:    1  ->  nurudien
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  schielendaspen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  stoenydaas
+  31:    1  ->  tobbermoeit
+  32:    1  ->  toineetlijgen
+  33:    1  ->  verbrakkertje
+  34:    1  ->  verpierik
+  35:    1  ->  verwarig
+  36:    1  ->  wachteniek
+  37:    1  ->  zeekvlachine
+  38:    1  ->  zennebral
+     -------
+       186
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (157)
+                                 With >=  1 occurrences (157)
+
+   1:    5  ->  ik
+   2:    4  ->  o
+   3:    3  ->  een
+   4:    3  ->  on
+   5:    3  ->  s
+   6:    3  ->  uit
+   7:    2  ->  at
+   8:    2  ->  e
+   9:    2  ->  eit
+  10:    2  ->  er
+  11:    2  ->  ga
+  12:    2  ->  i
+  13:    2  ->  is
+  14:    2  ->  jat
+  15:    2  ->  k
+  16:    2  ->  oor
+  17:    2  ->  t
+  18:    2  ->  uf
+  19:    2  ->  uh
+  20:    2  ->  van
+  21:    1  ->  't
+  22:    1  ->  a
+  23:    1  ->  ai
+  24:    1  ->  al
+  25:    1  ->  alllei
+  26:    1  ->  als
+  27:    1  ->  aq
+  28:    1  ->  ar
+  29:    1  ->  as
+  30:    1  ->  au
+  31:    1  ->  bas
+  32:    1  ->  begrejl
+  33:    1  ->  bel
+  34:    1  ->  blottenbruf
+  35:    1  ->  buuf
+  36:    1  ->  ca
+  37:    1  ->  cidovan
+  38:    1  ->  d
+  39:    1  ->  dans
+  40:    1  ->  danspen
+  41:    1  ->  dat
+  42:    1  ->  deling
+  43:    1  ->  dellin
+  44:    1  ->  dik
+  45:    1  ->  dolv
+  46:    1  ->  duif
+  47:    1  ->  duiveldick
+  48:    1  ->  ebben
+  49:    1  ->  edel
+  50:    1  ->  ediol
+  51:    1  ->  eel
+  52:    1  ->  eelleigen
+  53:    1  ->  eet
+  54:    1  ->  eetsen
+  55:    1  ->  eigrok
+  56:    1  ->  eker
+  57:    1  ->  el
+  58:    1  ->  en
+  59:    1  ->  eppen
+  60:    1  ->  eral
+  61:    1  ->  eren
+  62:    1  ->  est
+  63:    1  ->  ev
+  64:    1  ->  flak
+  65:    1  ->  g
+  66:    1  ->  ge
+  67:    1  ->  gef
+  68:    1  ->  gouden
+  69:    1  ->  grawezaq
+  70:    1  ->  griet
+  71:    1  ->  grotik
+  72:    1  ->  habeneren
+  73:    1  ->  had
+  74:    1  ->  halder
+  75:    1  ->  hap
+  76:    1  ->  havidil
+  77:    1  ->  hi
+  78:    1  ->  hia
+  79:    1  ->  hier
+  80:    1  ->  hodeikje
+  81:    1  ->  hoe
+  82:    1  ->  id
+  83:    1  ->  ien
+  84:    1  ->  igerok
+  85:    1  ->  iglunger
+  86:    1  ->  iit
+  87:    1  ->  ir
+  88:    1  ->  irdoof
+  89:    1  ->  iser
+  90:    1  ->  jalikreeuwen
+  91:    1  ->  je
+  92:    1  ->  kan
+  93:    1  ->  kateloosten
+  94:    1  ->  kra
+  95:    1  ->  krot
+  96:    1  ->  kur
+  97:    1  ->  logst
+  98:    1  ->  luker
+  99:    1  ->  lunker
+ 100:    1  ->  m
+ 101:    1  ->  man
+ 102:    1  ->  mantern
+ 103:    1  ->  me
+ 104:    1  ->  met
+ 105:    1  ->  mot
+ 106:    1  ->  mu
+ 107:    1  ->  mureding
+ 108:    1  ->  n
+ 109:    1  ->  napuhgrel
+ 110:    1  ->  nt
+ 111:    1  ->  ofhelder
+ 112:    1  ->  oh
+ 113:    1  ->  oi
+ 114:    1  ->  om
+ 115:    1  ->  ondermint
+ 116:    1  ->  onderni
+ 117:    1  ->  oniv
+ 118:    1  ->  onwijlen
+ 119:    1  ->  op
+ 120:    1  ->  otlen
+ 121:    1  ->  ott
+ 122:    1  ->  over
+ 123:    1  ->  pont
+ 124:    1  ->  r
+ 125:    1  ->  ra
+ 126:    1  ->  run
+ 127:    1  ->  scgouden
+ 128:    1  ->  sch
+ 129:    1  ->  schillen
+ 130:    1  ->  seek
+ 131:    1  ->  shoprati
+ 132:    1  ->  spekerai
+ 133:    1  ->  st
+ 134:    1  ->  stoibos
+ 135:    1  ->  tie
+ 136:    1  ->  to
+ 137:    1  ->  toiv
+ 138:    1  ->  tony
+ 139:    1  ->  treitsenv
+ 140:    1  ->  uhm
+ 141:    1  ->  unik
+ 142:    1  ->  utuf
+ 143:    1  ->  uéén
+ 144:    1  ->  verbirik
+ 145:    1  ->  verbraak
+ 146:    1  ->  verbruke
+ 147:    1  ->  verp
+ 148:    1  ->  verwaring
+ 149:    1  ->  vun
+ 150:    1  ->  wacht
+ 151:    1  ->  wachten
+ 152:    1  ->  wam
+ 153:    1  ->  wen
+ 154:    1  ->  wijlen
+ 155:    1  ->  wont
+ 156:    1  ->  yetoni
+ 157:    1  ->  zenedral
+     -------
+       186
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

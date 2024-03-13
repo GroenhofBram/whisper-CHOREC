@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.2%   (  32)
+
+Percent Correct           =   41.8%   (  23)
+
+Percent Substitution      =   41.8%   (  23)
+Percent Deletions         =   16.4%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   41.8%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  46)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  * ==> klan
+   2:    1  ->  * ==> drei
+   3:    1  ->  * ==> her
+   4:    1  ->  * ==> mus
+   5:    1  ->  * ==> ns
+   6:    1  ->  *s ==> meet
+   7:    1  ->  bed ==> bet
+   8:    1  ->  chips ==> schips
+   9:    1  ->  clown ==> uh
+  10:    1  ->  eerst*(eerste) ==> eerste
+  11:    1  ->  gauw ==> gaal
+  12:    1  ->  herfst ==> erst
+  13:    1  ->  hoek ==> hook
+  14:    1  ->  klas ==> kas
+  15:    1  ->  muts ==> ne
+  16:    1  ->  nieuw ==> o
+  17:    1  ->  paard ==> paart
+  18:    1  ->  plank ==> blank
+  19:    1  ->  schoen ==> schoon
+  20:    1  ->  straat ==> traat
+  21:    1  ->  strand ==> oi
+  22:    1  ->  vriend ==> vrent
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  *
+   2:    1  ->  draai
+   3:    1  ->  groei
+   4:    1  ->  herfst
+   5:    1  ->  knoop
+   6:    1  ->  muts*(mus)
+   7:    1  ->  neus
+   8:    1  ->  sjaal
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    6  ->  *
+   2:    1  ->  *s
+   3:    1  ->  bed
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  eerst*(eerste)
+   7:    1  ->  gauw
+   8:    1  ->  herfst
+   9:    1  ->  hoek
+  10:    1  ->  klas
+  11:    1  ->  muts
+  12:    1  ->  nieuw
+  13:    1  ->  paard
+  14:    1  ->  plank
+  15:    1  ->  schoen
+  16:    1  ->  straat
+  17:    1  ->  strand
+  18:    1  ->  vriend
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  klan
+   2:    1  ->  bet
+   3:    1  ->  blank
+   4:    1  ->  drei
+   5:    1  ->  eerste
+   6:    1  ->  erst
+   7:    1  ->  gaal
+   8:    1  ->  her
+   9:    1  ->  hook
+  10:    1  ->  kas
+  11:    1  ->  meet
+  12:    1  ->  mus
+  13:    1  ->  ne
+  14:    1  ->  ns
+  15:    1  ->  o
+  16:    1  ->  oi
+  17:    1  ->  paart
+  18:    1  ->  schips
+  19:    1  ->  schoon
+  20:    1  ->  traat
+  21:    1  ->  uh
+  22:    1  ->  vrent
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,270 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.8%   ( 151)
+
+Percent Correct           =    3.2%   (   5)
+
+Percent Substitution      =   55.8%   (  87)
+Percent Deletions         =   41.0%   (  64)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.2%
+
+
+Ref. words                =           ( 156)
+Hyp. words                =           (  92)
+Aligned words             =           ( 156)
+
+CONFUSION PAIRS                  Total                 (81)
+                                 With >=  1 occurrences (81)
+
+   1:    3  ->  * ==> i
+   2:    2  ->  * ==> a
+   3:    2  ->  * ==> acht
+   4:    2  ->  * ==> o
+   5:    2  ->  * ==> s
+   6:    1  ->  * ==> abaca
+   7:    1  ->  * ==> af
+   8:    1  ->  * ==> ah
+   9:    1  ->  * ==> als
+  10:    1  ->  * ==> ams
+  11:    1  ->  * ==> as
+  12:    1  ->  * ==> boek
+  13:    1  ->  * ==> boen
+  14:    1  ->  * ==> borste
+  15:    1  ->  * ==> dag
+  16:    1  ->  * ==> eekje
+  17:    1  ->  * ==> een
+  18:    1  ->  * ==> en
+  19:    1  ->  * ==> f
+  20:    1  ->  * ==> fa
+  21:    1  ->  * ==> foto
+  22:    1  ->  * ==> gerder
+  23:    1  ->  * ==> ggeen
+  24:    1  ->  * ==> h
+  25:    1  ->  * ==> hoe
+  26:    1  ->  * ==> inst
+  27:    1  ->  * ==> ja
+  28:    1  ->  * ==> jer
+  29:    1  ->  * ==> juis
+  30:    1  ->  * ==> kknutsellen
+  31:    1  ->  * ==> koniuh-hok
+  32:    1  ->  * ==> kooi
+  33:    1  ->  * ==> luk
+  34:    1  ->  * ==> maken
+  35:    1  ->  * ==> meewitge
+  36:    1  ->  * ==> muziek
+  37:    1  ->  * ==> n
+  38:    1  ->  * ==> od
+  39:    1  ->  * ==> oelen
+  40:    1  ->  * ==> oh
+  41:    1  ->  * ==> opege
+  42:    1  ->  * ==> ou
+  43:    1  ->  * ==> oud
+  44:    1  ->  * ==> outo
+  45:    1  ->  * ==> schommel
+  46:    1  ->  * ==> sprook
+  47:    1  ->  * ==> stel
+  48:    1  ->  * ==> t
+  49:    1  ->  * ==> ta
+  50:    1  ->  * ==> tedeseer
+  51:    1  ->  * ==> to
+  52:    1  ->  * ==> u
+  53:    1  ->  * ==> varstopertia
+  54:    1  ->  * ==> vikhuis
+  55:    1  ->  * ==> wa
+  56:    1  ->  * ==> was
+  57:    1  ->  * ==> wasmagingel
+  58:    1  ->  * ==> wil
+  59:    1  ->  * ==> zo
+  60:    1  ->  *s ==> slaapslaapka
+  61:    1  ->  achterdeur ==> inschoenenwinkel
+  62:    1  ->  afblijven ==> tanden
+  63:    1  ->  autorijden*(autorijder) ==> en
+  64:    1  ->  buurmannen*(buurman) ==> buurman
+  65:    1  ->  chocolade ==> dat
+  66:    1  ->  eindelijk ==> de
+  67:    1  ->  fototoestel ==> pasbe
+  68:    1  ->  goeiendag ==> blijf
+  69:    1  ->  kabouter ==> derter
+  70:    1  ->  limonade ==> em
+  71:    1  ->  nieuwsgierig ==> srjaardag
+  72:    1  ->  olifant ==> isant
+  73:    1  ->  ruziemaken*(muziekmaken) ==> komnin
+  74:    1  ->  schommelen ==> een
+  75:    1  ->  slaapkamer ==> schoeneen
+  76:    1  ->  sneeuwwitje ==> a
+  77:    1  ->  teddybeer ==> ak
+  78:    1  ->  vakantie ==> al
+  79:    1  ->  vogelkooi ==> voge
+  80:    1  ->  washandje ==> luister
+  81:    1  ->  ziekenhuis ==> opingen
+     -------
+        87
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:   49  ->  *
+   2:    2  ->  *s
+   3:    1  ->  elastiekje
+   4:    1  ->  knutselen
+   5:    1  ->  konijnenhok
+   6:    1  ->  lucifer
+   7:    1  ->  ophangen
+   8:    1  ->  paddenstoelen
+   9:    1  ->  poppenwagen
+  10:    1  ->  schoenenwinkel
+  11:    1  ->  sprookjesboek
+  12:    1  ->  tandenborstel
+  13:    1  ->  verjaardag
+  14:    1  ->  verstoppertje
+  15:    1  ->  wasmachine
+     -------
+        64
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   65  ->  *
+   2:    1  ->  *s
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden*(autorijder)
+   6:    1  ->  buurmannen*(buurman)
+   7:    1  ->  chocolade
+   8:    1  ->  eindelijk
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  kabouter
+  12:    1  ->  limonade
+  13:    1  ->  nieuwsgierig
+  14:    1  ->  olifant
+  15:    1  ->  ruziemaken*(muziekmaken)
+  16:    1  ->  schommelen
+  17:    1  ->  slaapkamer
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  teddybeer
+  20:    1  ->  vakantie
+  21:    1  ->  vogelkooi
+  22:    1  ->  washandje
+  23:    1  ->  ziekenhuis
+     -------
+        87
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:    3  ->  a
+   2:    3  ->  i
+   3:    2  ->  acht
+   4:    2  ->  een
+   5:    2  ->  en
+   6:    2  ->  o
+   7:    2  ->  s
+   8:    1  ->  abaca
+   9:    1  ->  af
+  10:    1  ->  ah
+  11:    1  ->  ak
+  12:    1  ->  al
+  13:    1  ->  als
+  14:    1  ->  ams
+  15:    1  ->  as
+  16:    1  ->  blijf
+  17:    1  ->  boek
+  18:    1  ->  boen
+  19:    1  ->  borste
+  20:    1  ->  buurman
+  21:    1  ->  dag
+  22:    1  ->  dat
+  23:    1  ->  de
+  24:    1  ->  derter
+  25:    1  ->  eekje
+  26:    1  ->  em
+  27:    1  ->  f
+  28:    1  ->  fa
+  29:    1  ->  foto
+  30:    1  ->  gerder
+  31:    1  ->  ggeen
+  32:    1  ->  h
+  33:    1  ->  hoe
+  34:    1  ->  inschoenenwinkel
+  35:    1  ->  inst
+  36:    1  ->  isant
+  37:    1  ->  ja
+  38:    1  ->  jer
+  39:    1  ->  juis
+  40:    1  ->  kknutsellen
+  41:    1  ->  komnin
+  42:    1  ->  koniuh-hok
+  43:    1  ->  kooi
+  44:    1  ->  luister
+  45:    1  ->  luk
+  46:    1  ->  maken
+  47:    1  ->  meewitge
+  48:    1  ->  muziek
+  49:    1  ->  n
+  50:    1  ->  od
+  51:    1  ->  oelen
+  52:    1  ->  oh
+  53:    1  ->  opege
+  54:    1  ->  opingen
+  55:    1  ->  ou
+  56:    1  ->  oud
+  57:    1  ->  outo
+  58:    1  ->  pasbe
+  59:    1  ->  schoeneen
+  60:    1  ->  schommel
+  61:    1  ->  slaapslaapka
+  62:    1  ->  sprook
+  63:    1  ->  srjaardag
+  64:    1  ->  stel
+  65:    1  ->  t
+  66:    1  ->  ta
+  67:    1  ->  tanden
+  68:    1  ->  tedeseer
+  69:    1  ->  to
+  70:    1  ->  u
+  71:    1  ->  varstopertia
+  72:    1  ->  vikhuis
+  73:    1  ->  voge
+  74:    1  ->  wa
+  75:    1  ->  was
+  76:    1  ->  wasmagingel
+  77:    1  ->  wil
+  78:    1  ->  zo
+     -------
+        87
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

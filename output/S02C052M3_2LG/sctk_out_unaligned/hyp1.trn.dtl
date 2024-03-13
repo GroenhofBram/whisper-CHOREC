@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.2%   (  30)
+
+Percent Correct           =   46.3%   (  19)
+
+Percent Substitution      =   51.2%   (  21)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   19.5%   (   8)
+Percent Word Accuracy     =   26.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> sa
+   2:    1  ->  auto ==> auter
+   3:    1  ->  chauffeur ==> caufer
+   4:    1  ->  circus ==> cercus
+   5:    1  ->  cola ==> oppolv
+   6:    1  ->  dichtbij ==> meise
+   7:    1  ->  drogen ==> droggen
+   8:    1  ->  eerste ==> custenveerster
+   9:    1  ->  fietsbel ==> bel
+  10:    1  ->  hoofdpijn ==> holfttijn
+  11:    1  ->  koning ==> korning
+  12:    1  ->  kussen ==> qola
+  13:    1  ->  lawaai ==> wawi
+  14:    1  ->  liedje ==> potlod
+  15:    1  ->  meisje ==> sa
+  16:    1  ->  moeder ==> litje
+  17:    1  ->  muziek ==> muzeik
+  18:    1  ->  potlood ==> fiet
+  19:    1  ->  scheuren ==> scheren
+  20:    1  ->  vlinder ==> vlind
+  21:    1  ->  zwemmen ==> jummen
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bit
+   2:    1  ->  de
+   3:    1  ->  dicht
+   4:    1  ->  es
+   5:    1  ->  lezers
+   6:    1  ->  moder
+   7:    1  ->  te
+   8:    1  ->  zes
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  appel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *
+   2:    1  ->  auto
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  dichtbij
+   7:    1  ->  drogen
+   8:    1  ->  eerste
+   9:    1  ->  fietsbel
+  10:    1  ->  hoofdpijn
+  11:    1  ->  koning
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje
+  15:    1  ->  meisje
+  16:    1  ->  moeder
+  17:    1  ->  muziek
+  18:    1  ->  potlood
+  19:    1  ->  scheuren
+  20:    1  ->  vlinder
+  21:    1  ->  zwemmen
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  sa
+   2:    1  ->  auter
+   3:    1  ->  bel
+   4:    1  ->  caufer
+   5:    1  ->  cercus
+   6:    1  ->  custenveerster
+   7:    1  ->  droggen
+   8:    1  ->  fiet
+   9:    1  ->  holfttijn
+  10:    1  ->  jummen
+  11:    1  ->  korning
+  12:    1  ->  litje
+  13:    1  ->  meise
+  14:    1  ->  muzeik
+  15:    1  ->  oppolv
+  16:    1  ->  potlod
+  17:    1  ->  qola
+  18:    1  ->  scheren
+  19:    1  ->  vlind
+  20:    1  ->  wawi
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

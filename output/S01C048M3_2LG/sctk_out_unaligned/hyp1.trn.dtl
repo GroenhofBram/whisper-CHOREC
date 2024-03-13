@@ -1,0 +1,104 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   75.0%   (  30)
+
+Percent Substitution      =   25.0%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  chauffeur*(coiffeur) ==> quafeur
+   2:    1  ->  fietsbel ==> bil
+   3:    1  ->  hoofdpijn ==> hoofpijn
+   4:    1  ->  liedje ==> potloot
+   5:    1  ->  muziek ==> misieq
+   6:    1  ->  potlood ==> fiets
+   7:    1  ->  regen ==> reigen
+   8:    1  ->  verhaal ==> vorel
+   9:    1  ->  vlinder ==> vlinde
+  10:    1  ->  zwemmen ==> swemmen
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  lietje
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  chauffeur*(coiffeur)
+   2:    1  ->  fietsbel
+   3:    1  ->  hoofdpijn
+   4:    1  ->  liedje
+   5:    1  ->  muziek
+   6:    1  ->  potlood
+   7:    1  ->  regen
+   8:    1  ->  verhaal
+   9:    1  ->  vlinder
+  10:    1  ->  zwemmen
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bil
+   2:    1  ->  fiets
+   3:    1  ->  hoofpijn
+   4:    1  ->  misieq
+   5:    1  ->  potloot
+   6:    1  ->  quafeur
+   7:    1  ->  reigen
+   8:    1  ->  swemmen
+   9:    1  ->  vlinde
+  10:    1  ->  vorel
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

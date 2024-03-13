@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S04C048M3_3+4LG
+
+(S04C048M3_3+4LG-words)
+
+Cor=39.0%	Sub=49.2%	Del=0.0%	Ins=11.9%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,omdraaien,poppenwagen,konijnenhok,*,elastiekje,,ruziemaken,*,teddybeer,dierentuin,paddenstoelen*(paddenstoel),*,*(verstoppen),verstoppertje,,wasmachine,fototoestel,,,*,*,*,*,toiletpapier,vrachtwagen,buurmannen,vogelkooi,olifant,schommelen,iedereen,schoenenwinkel,knutselen,ophangen,verjaardag,,,,sprookjesboek,tandenborstel,*,*,*,lucifer,slaapkamer,achterdeur,ziekenhuis,nieuwsgierig,afblijven,kabouter,washandje,sneeuwwitje,*,goeiendag,vakantie,limonade,autorijden,eindelijk,familie,chocolade
+HYP1,omdraaien,poppenwagen,konijn,ook,elastiekje,muzieku,maken,de,dibir,dierentuin,pardenstoel,een,verstoppen,verstoppertje,was,machina,fototoestel,olie,tov,te,tolid,papier,tolit,papier,vrachtwagen,buurmannen,vogelkooi,olifant,schomdelen,iedereen,schoenwinkel,knitselen,ophangen,verjaardag,spookjes,boek,tanden,borsten,borstel,nu,quif,nus,sifer,slaapkamer,achterdeur,ziekenhuis,nieuwsgierig,afblijven,kabater,washandje,sneeuwtje,goe,goeiendag,vakanti,limonade,autorijden,endelijk,famili,chocolade
+EVAL,,,S,S,,I,S,S,S,,S,S,S,,I,S,,I,I,S,S,S,S,S,,,,,S,,S,S,,,I,I,I,S,S,S,S,S,S,,,,,,S,,S,S,,S,,,S,S,
+
+
+

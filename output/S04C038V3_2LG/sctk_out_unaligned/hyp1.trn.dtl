@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.2%   (  19)
+
+Percent Correct           =   59.1%   (  26)
+
+Percent Substitution      =   36.4%   (  16)
+Percent Deletions         =    4.5%   (   2)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   56.8%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  43)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> goeen
+   2:    1  ->  * ==> mea
+   3:    1  ->  *(dichter) ==> dichter
+   4:    1  ->  auto ==> winkeol
+   5:    1  ->  cola ==> kola
+   6:    1  ->  gooien ==> sneeuw
+   7:    1  ->  hoofdpijn ==> hoftpen
+   8:    1  ->  kleuren ==> kleren
+   9:    1  ->  liedje ==> liedjer
+  10:    1  ->  potlood ==> petlood
+  11:    1  ->  scheuren ==> schuren
+  12:    1  ->  schouders ==> autschouders
+  13:    1  ->  verhaal ==> verhel
+  14:    1  ->  vlinder ==> vrienden
+  15:    1  ->  waarom ==> haron
+  16:    1  ->  water ==> wetter
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  goeien
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  winkel
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  *
+   2:    1  ->  *(dichter)
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  gooien
+   6:    1  ->  hoofdpijn
+   7:    1  ->  kleuren
+   8:    1  ->  liedje
+   9:    1  ->  potlood
+  10:    1  ->  scheuren
+  11:    1  ->  schouders
+  12:    1  ->  verhaal
+  13:    1  ->  vlinder
+  14:    1  ->  waarom
+  15:    1  ->  water
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  autschouders
+   2:    1  ->  dichter
+   3:    1  ->  goeen
+   4:    1  ->  haron
+   5:    1  ->  hoftpen
+   6:    1  ->  kleren
+   7:    1  ->  kola
+   8:    1  ->  liedjer
+   9:    1  ->  mea
+  10:    1  ->  petlood
+  11:    1  ->  schuren
+  12:    1  ->  sneeuw
+  13:    1  ->  verhel
+  14:    1  ->  vrienden
+  15:    1  ->  wetter
+  16:    1  ->  winkeol
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

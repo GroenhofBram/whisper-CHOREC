@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   ( 109)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   56.9%   (  62)
+Percent Deletions         =   43.1%   (  47)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           ( 109)
+Hyp. words                =           (  62)
+Aligned words             =           ( 109)
+
+CONFUSION PAIRS                  Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  * ==> u
+   2:    2  ->  * ==> v
+   3:    2  ->  * ==> één
+   4:    1  ->  * ==> an
+   5:    1  ->  * ==> awn
+   6:    1  ->  * ==> balt
+   7:    1  ->  * ==> faway
+   8:    1  ->  * ==> fokun
+   9:    1  ->  * ==> ger
+  10:    1  ->  * ==> gerekenoen
+  11:    1  ->  * ==> geveeht
+  12:    1  ->  * ==> guta
+  13:    1  ->  * ==> heer
+  14:    1  ->  * ==> herk
+  15:    1  ->  * ==> i
+  16:    1  ->  * ==> irpol
+  17:    1  ->  * ==> is
+  18:    1  ->  * ==> kfij
+  19:    1  ->  * ==> meurneg
+  20:    1  ->  * ==> miseum
+  21:    1  ->  * ==> miter
+  22:    1  ->  * ==> muste
+  23:    1  ->  * ==> odadr
+  24:    1  ->  * ==> of
+  25:    1  ->  * ==> onster
+  26:    1  ->  * ==> opse
+  27:    1  ->  * ==> or
+  28:    1  ->  * ==> sarwn
+  29:    1  ->  * ==> scchele
+  30:    1  ->  * ==> sopo
+  31:    1  ->  * ==> sorstenk
+  32:    1  ->  * ==> speratie
+  33:    1  ->  * ==> sprinstort
+  34:    1  ->  * ==> sta
+  35:    1  ->  * ==> strak
+  36:    1  ->  * ==> strakkolen
+  37:    1  ->  * ==> te
+  38:    1  ->  * ==> teneuren
+  39:    1  ->  * ==> touw
+  40:    1  ->  * ==> voeibai
+  41:    1  ->  * ==> voorlanter
+  42:    1  ->  * ==> vrouw
+  43:    1  ->  * ==> weten
+  44:    1  ->  * ==> woon
+  45:    1  ->  * ==> ze
+  46:    1  ->  *(verband) ==> mit
+  47:    1  ->  *(waaien) ==> waen
+  48:    1  ->  foetbans ==> vouw
+  49:    1  ->  ijpo ==> uken
+  50:    1  ->  kneurem ==> één
+  51:    1  ->  menuur ==> orpen
+  52:    1  ->  milste ==> bres
+  53:    1  ->  muider ==> verband
+  54:    1  ->  oonste ==> va
+  55:    1  ->  orponk ==> vorde
+  56:    1  ->  schodig ==> ko
+  57:    1  ->  spreikje ==> sheter
+  58:    1  ->  ulen ==> g
+  59:    1  ->  zwieten ==> vacten
+     -------
+        62
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:   38  ->  *
+   2:    2  ->  eemde
+   3:    1  ->  *(getel)
+   4:    1  ->  erke
+   5:    1  ->  gefouw
+   6:    1  ->  gevicht
+   7:    1  ->  millen*(mild)
+   8:    1  ->  sjobel
+   9:    1  ->  vocil
+     -------
+        47
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:   48  ->  *
+   2:    1  ->  *(verband)
+   3:    1  ->  *(waaien)
+   4:    1  ->  foetbans
+   5:    1  ->  ijpo
+   6:    1  ->  kneurem
+   7:    1  ->  menuur
+   8:    1  ->  milste
+   9:    1  ->  muider
+  10:    1  ->  oonste
+  11:    1  ->  orponk
+  12:    1  ->  schodig
+  13:    1  ->  spreikje
+  14:    1  ->  ulen
+  15:    1  ->  zwieten
+     -------
+        62
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    3  ->  één
+   2:    2  ->  u
+   3:    2  ->  v
+   4:    1  ->  an
+   5:    1  ->  awn
+   6:    1  ->  balt
+   7:    1  ->  bres
+   8:    1  ->  faway
+   9:    1  ->  fokun
+  10:    1  ->  g
+  11:    1  ->  ger
+  12:    1  ->  gerekenoen
+  13:    1  ->  geveeht
+  14:    1  ->  guta
+  15:    1  ->  heer
+  16:    1  ->  herk
+  17:    1  ->  i
+  18:    1  ->  irpol
+  19:    1  ->  is
+  20:    1  ->  kfij
+  21:    1  ->  ko
+  22:    1  ->  meurneg
+  23:    1  ->  miseum
+  24:    1  ->  mit
+  25:    1  ->  miter
+  26:    1  ->  muste
+  27:    1  ->  odadr
+  28:    1  ->  of
+  29:    1  ->  onster
+  30:    1  ->  opse
+  31:    1  ->  or
+  32:    1  ->  orpen
+  33:    1  ->  sarwn
+  34:    1  ->  scchele
+  35:    1  ->  sheter
+  36:    1  ->  sopo
+  37:    1  ->  sorstenk
+  38:    1  ->  speratie
+  39:    1  ->  sprinstort
+  40:    1  ->  sta
+  41:    1  ->  strak
+  42:    1  ->  strakkolen
+  43:    1  ->  te
+  44:    1  ->  teneuren
+  45:    1  ->  touw
+  46:    1  ->  uken
+  47:    1  ->  va
+  48:    1  ->  vacten
+  49:    1  ->  verband
+  50:    1  ->  voeibai
+  51:    1  ->  voorlanter
+  52:    1  ->  vorde
+  53:    1  ->  vouw
+  54:    1  ->  vrouw
+  55:    1  ->  waen
+  56:    1  ->  weten
+  57:    1  ->  woon
+  58:    1  ->  ze
+     -------
+        62
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

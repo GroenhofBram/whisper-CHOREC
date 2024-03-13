@@ -1,0 +1,167 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.7%   (  39)
+
+Percent Correct           =   28.9%   (  13)
+
+Percent Substitution      =   66.7%   (  30)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =   15.6%   (   7)
+Percent Word Accuracy     =   13.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  50)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> e
+   2:    1  ->  * ==> schaschaufleur
+   3:    1  ->  * ==> sneeuw
+   4:    1  ->  * ==> swennen
+   5:    1  ->  appel ==> abol
+   6:    1  ->  auto ==> binkal
+   7:    1  ->  chauffeur ==> meche
+   8:    1  ->  circus ==> voor
+   9:    1  ->  cola ==> kola
+  10:    1  ->  dichtbij ==> dig
+  11:    1  ->  fietsbel ==> fitsbel
+  12:    1  ->  gooien ==> en
+  13:    1  ->  hoofdpijn ==> hoofdpen
+  14:    1  ->  kleuren ==> de
+  15:    1  ->  koning ==> vorhaalbonin
+  16:    1  ->  kussen ==> kushen
+  17:    1  ->  lawaai ==> serom
+  18:    1  ->  liedje ==> hita
+  19:    1  ->  meisje*(mesje) ==> bij
+  20:    1  ->  muziek ==> wizeeik
+  21:    1  ->  potlood ==> boterlout
+  22:    1  ->  potlood ==> pot
+  23:    1  ->  schouders ==> autal
+  24:    1  ->  sneeuwen ==> tontas
+  25:    1  ->  stoppen ==> en
+  26:    1  ->  verhaal ==> schouder
+  27:    1  ->  vinger ==> viner
+  28:    1  ->  voetbal ==> bel
+  29:    1  ->  vuurwerk ==> vierwerk
+  30:    1  ->  zwemmen ==> wai
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  en
+   2:    1  ->  goei
+   3:    1  ->  goh
+   4:    1  ->  goi
+   5:    1  ->  kleren
+   6:    1  ->  seerkus
+   7:    1  ->  stop
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  scheuren
+   2:    1  ->  winkel
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  *
+   2:    2  ->  potlood
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  cola
+   8:    1  ->  dichtbij
+   9:    1  ->  fietsbel
+  10:    1  ->  gooien
+  11:    1  ->  hoofdpijn
+  12:    1  ->  kleuren
+  13:    1  ->  koning
+  14:    1  ->  kussen
+  15:    1  ->  lawaai
+  16:    1  ->  liedje
+  17:    1  ->  meisje*(mesje)
+  18:    1  ->  muziek
+  19:    1  ->  schouders
+  20:    1  ->  sneeuwen
+  21:    1  ->  stoppen
+  22:    1  ->  verhaal
+  23:    1  ->  vinger
+  24:    1  ->  voetbal
+  25:    1  ->  vuurwerk
+  26:    1  ->  zwemmen
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  en
+   2:    1  ->  abol
+   3:    1  ->  autal
+   4:    1  ->  bel
+   5:    1  ->  bij
+   6:    1  ->  binkal
+   7:    1  ->  boterlout
+   8:    1  ->  de
+   9:    1  ->  dig
+  10:    1  ->  e
+  11:    1  ->  fitsbel
+  12:    1  ->  hita
+  13:    1  ->  hoofdpen
+  14:    1  ->  kola
+  15:    1  ->  kushen
+  16:    1  ->  meche
+  17:    1  ->  pot
+  18:    1  ->  schaschaufleur
+  19:    1  ->  schouder
+  20:    1  ->  serom
+  21:    1  ->  sneeuw
+  22:    1  ->  swennen
+  23:    1  ->  tontas
+  24:    1  ->  vierwerk
+  25:    1  ->  viner
+  26:    1  ->  voor
+  27:    1  ->  vorhaalbonin
+  28:    1  ->  wai
+  29:    1  ->  wizeeik
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

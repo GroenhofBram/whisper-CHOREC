@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  13)
+
+Percent Correct           =   68.3%   (  28)
+
+Percent Substitution      =   29.3%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> stand
+   2:    1  ->  bang ==> pank
+   3:    1  ->  bed ==> sbet
+   4:    1  ->  chips ==> ships
+   5:    1  ->  clown ==> klan
+   6:    1  ->  gauw ==> gaal
+   7:    1  ->  knoop ==> koop
+   8:    1  ->  leeuw ==> lijl
+   9:    1  ->  nieuw ==> niew
+  10:    1  ->  reis ==> rijs
+  11:    1  ->  straat ==> staraat
+  12:    1  ->  vriend ==> vrient
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  strand*(stand)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  *
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  gauw
+   7:    1  ->  knoop
+   8:    1  ->  leeuw
+   9:    1  ->  nieuw
+  10:    1  ->  reis
+  11:    1  ->  straat
+  12:    1  ->  vriend
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  gaal
+   2:    1  ->  klan
+   3:    1  ->  koop
+   4:    1  ->  lijl
+   5:    1  ->  niew
+   6:    1  ->  pank
+   7:    1  ->  rijs
+   8:    1  ->  sbet
+   9:    1  ->  ships
+  10:    1  ->  stand
+  11:    1  ->  staraat
+  12:    1  ->  vrient
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.9%   (  18)
+
+Percent Correct           =   60.5%   (  26)
+
+Percent Substitution      =   39.5%   (  17)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   58.1%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> kush
+   2:    1  ->  * ==> m
+   3:    1  ->  auto ==> ouder
+   4:    1  ->  chauffeur ==> gau
+   5:    1  ->  circus ==> kir
+   6:    1  ->  cola ==> kola
+   7:    1  ->  fietsbel ==> bal
+   8:    1  ->  gooien ==> golen
+   9:    1  ->  hoofdpijn ==> hoordpijn
+  10:    1  ->  muziek ==> moziek
+  11:    1  ->  potlood ==> fiets
+  12:    1  ->  sneeuwen*(sneeuw) ==> sneeuw
+  13:    1  ->  speelplaats ==> veelplaats
+  14:    1  ->  verhaal ==> verhel
+  15:    1  ->  vinger ==> finr
+  16:    1  ->  vlinder ==> der
+  17:    1  ->  zwemmen ==> zwennen
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  potloot
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  *
+   2:    1  ->  auto
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  hoofdpijn
+   9:    1  ->  muziek
+  10:    1  ->  potlood
+  11:    1  ->  sneeuwen*(sneeuw)
+  12:    1  ->  speelplaats
+  13:    1  ->  verhaal
+  14:    1  ->  vinger
+  15:    1  ->  vlinder
+  16:    1  ->  zwemmen
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bal
+   2:    1  ->  der
+   3:    1  ->  fiets
+   4:    1  ->  finr
+   5:    1  ->  gau
+   6:    1  ->  golen
+   7:    1  ->  hoordpijn
+   8:    1  ->  kir
+   9:    1  ->  kola
+  10:    1  ->  kush
+  11:    1  ->  m
+  12:    1  ->  moziek
+  13:    1  ->  ouder
+  14:    1  ->  sneeuw
+  15:    1  ->  veelplaats
+  16:    1  ->  verhel
+  17:    1  ->  zwennen
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

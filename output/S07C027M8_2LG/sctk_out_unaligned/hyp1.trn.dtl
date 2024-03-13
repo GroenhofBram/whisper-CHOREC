@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.9%   (  28)
+
+Percent Correct           =   49.1%   (  27)
+
+Percent Substitution      =   43.6%   (  24)
+Percent Deletions         =    7.3%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   49.1%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  51)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> cha
+   2:    1  ->  * ==> chafeu
+   3:    1  ->  * ==> droa
+   4:    1  ->  * ==> gga
+   5:    1  ->  * ==> ggoa
+   6:    1  ->  * ==> gooia
+   7:    1  ->  * ==> lia
+   8:    1  ->  * ==> mete
+   9:    1  ->  * ==> s
+  10:    1  ->  * ==> schout
+  11:    1  ->  * ==> v
+  12:    1  ->  * ==> warom
+  13:    1  ->  *(dichterbij) ==> ber
+  14:    1  ->  *(kus) ==> kus
+  15:    1  ->  cola ==> kola
+  16:    1  ->  kussen ==> kuschen
+  17:    1  ->  meisje ==> dichterbij
+  18:    1  ->  moeder ==> moeier
+  19:    1  ->  potlood ==> potloot
+  20:    1  ->  speelplaats ==> speelplet
+  21:    1  ->  stoppen ==> verstoppen
+  22:    1  ->  vlinder ==> voetbalvlinder
+  23:    1  ->  winkel ==> winkeol
+  24:    1  ->  zwemmen ==> zwimmen
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  voetbal
+   3:    1  ->  waarom
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:   12  ->  *
+   2:    1  ->  *(dichterbij)
+   3:    1  ->  *(kus)
+   4:    1  ->  cola
+   5:    1  ->  kussen
+   6:    1  ->  meisje
+   7:    1  ->  moeder
+   8:    1  ->  potlood
+   9:    1  ->  speelplaats
+  10:    1  ->  stoppen
+  11:    1  ->  vlinder
+  12:    1  ->  winkel
+  13:    1  ->  zwemmen
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  ber
+   2:    1  ->  cha
+   3:    1  ->  chafeu
+   4:    1  ->  dichterbij
+   5:    1  ->  droa
+   6:    1  ->  gga
+   7:    1  ->  ggoa
+   8:    1  ->  gooia
+   9:    1  ->  kola
+  10:    1  ->  kus
+  11:    1  ->  kuschen
+  12:    1  ->  lia
+  13:    1  ->  mete
+  14:    1  ->  moeier
+  15:    1  ->  potloot
+  16:    1  ->  s
+  17:    1  ->  schout
+  18:    1  ->  speelplet
+  19:    1  ->  v
+  20:    1  ->  verstoppen
+  21:    1  ->  voetbalvlinder
+  22:    1  ->  warom
+  23:    1  ->  winkeol
+  24:    1  ->  zwimmen
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.2%   (  40)
+
+Percent Correct           =    7.1%   (   3)
+
+Percent Substitution      =   92.9%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =    4.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> blart
+   2:    1  ->  * ==> gl
+   3:    1  ->  * ==> goof
+   4:    1  ->  * ==> snoea
+   5:    1  ->  blard ==> ge
+   6:    1  ->  dau*(bouw) ==> bal
+   7:    1  ->  doer ==> peleerd
+   8:    1  ->  dron ==> dronm
+   9:    1  ->  eem ==> ejm
+  10:    1  ->  fam ==> racht
+  11:    1  ->  frijk ==> friijk
+  12:    1  ->  grek ==> grijk
+  13:    1  ->  guul ==> hoeft
+  14:    1  ->  haans ==> hent
+  15:    1  ->  hoekt*(hoeft) ==> neel
+  16:    1  ->  hool ==> larsst
+  17:    1  ->  keng ==> swoord
+  18:    1  ->  larst ==> fout
+  19:    1  ->  leum*(lauw) ==> la
+  20:    1  ->  neeuw ==> nork
+  21:    1  ->  noork ==> fid
+  22:    1  ->  plirt ==> ien
+  23:    1  ->  rachts ==> fap
+  24:    1  ->  roen ==> groen
+  25:    1  ->  sank ==> sent
+  26:    1  ->  schard ==> card
+  27:    1  ->  sjalt ==> sjot
+  28:    1  ->  snaaf ==> snaf
+  29:    1  ->  sooi ==> sori
+  30:    1  ->  spaai ==> spooy
+  31:    1  ->  sprieuw ==> kijnk
+  32:    1  ->  sprunt ==> go
+  33:    1  ->  stuid ==> stuit
+  34:    1  ->  swoers ==> door
+  35:    1  ->  vaap ==> frea
+  36:    1  ->  vid ==> ban
+  37:    1  ->  vout ==> sooi
+  38:    1  ->  zans ==> zant
+  39:    1  ->  zwoei ==> van
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  spun
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau*(bouw)
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  frijk
+   9:    1  ->  grek
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  hoekt*(hoeft)
+  13:    1  ->  hool
+  14:    1  ->  keng
+  15:    1  ->  larst
+  16:    1  ->  leum*(lauw)
+  17:    1  ->  neeuw
+  18:    1  ->  noork
+  19:    1  ->  plirt
+  20:    1  ->  rachts
+  21:    1  ->  roen
+  22:    1  ->  sank
+  23:    1  ->  schard
+  24:    1  ->  sjalt
+  25:    1  ->  snaaf
+  26:    1  ->  sooi
+  27:    1  ->  spaai
+  28:    1  ->  sprieuw
+  29:    1  ->  sprunt
+  30:    1  ->  stuid
+  31:    1  ->  swoers
+  32:    1  ->  vaap
+  33:    1  ->  vid
+  34:    1  ->  vout
+  35:    1  ->  zans
+  36:    1  ->  zwoei
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  bal
+   2:    1  ->  ban
+   3:    1  ->  blart
+   4:    1  ->  card
+   5:    1  ->  door
+   6:    1  ->  dronm
+   7:    1  ->  ejm
+   8:    1  ->  fap
+   9:    1  ->  fid
+  10:    1  ->  fout
+  11:    1  ->  frea
+  12:    1  ->  friijk
+  13:    1  ->  ge
+  14:    1  ->  gl
+  15:    1  ->  go
+  16:    1  ->  goof
+  17:    1  ->  grijk
+  18:    1  ->  groen
+  19:    1  ->  hent
+  20:    1  ->  hoeft
+  21:    1  ->  ien
+  22:    1  ->  kijnk
+  23:    1  ->  la
+  24:    1  ->  larsst
+  25:    1  ->  neel
+  26:    1  ->  nork
+  27:    1  ->  peleerd
+  28:    1  ->  racht
+  29:    1  ->  sent
+  30:    1  ->  sjot
+  31:    1  ->  snaf
+  32:    1  ->  snoea
+  33:    1  ->  sooi
+  34:    1  ->  sori
+  35:    1  ->  spooy
+  36:    1  ->  stuit
+  37:    1  ->  swoord
+  38:    1  ->  van
+  39:    1  ->  zant
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

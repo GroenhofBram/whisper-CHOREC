@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.9%   (  18)
+
+Percent Correct           =   57.1%   (  24)
+
+Percent Substitution      =   40.5%   (  17)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   57.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> je
+   3:    1  ->  * ==> sjelt
+   4:    1  ->  *(leem) ==> leem
+   5:    1  ->  *(stunt) ==> stunt
+   6:    1  ->  blard ==> lert
+   7:    1  ->  doer ==> dour
+   8:    1  ->  fam ==> van
+   9:    1  ->  heik ==> heilhek
+  10:    1  ->  hoekt ==> hookt
+  11:    1  ->  jien ==> hier
+  12:    1  ->  plirt ==> pleert
+  13:    1  ->  schard ==> schaart
+  14:    1  ->  swoers ==> swoors
+  15:    1  ->  vid ==> wit
+  16:    1  ->  vout ==> wat
+  17:    1  ->  zwoei ==> zwooi
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sjalt
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  *
+   2:    1  ->  *(leem)
+   3:    1  ->  *(stunt)
+   4:    1  ->  blard
+   5:    1  ->  doer
+   6:    1  ->  fam
+   7:    1  ->  heik
+   8:    1  ->  hoekt
+   9:    1  ->  jien
+  10:    1  ->  plirt
+  11:    1  ->  schard
+  12:    1  ->  swoers
+  13:    1  ->  vid
+  14:    1  ->  vout
+  15:    1  ->  zwoei
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  de
+   2:    1  ->  dour
+   3:    1  ->  heilhek
+   4:    1  ->  hier
+   5:    1  ->  hookt
+   6:    1  ->  je
+   7:    1  ->  leem
+   8:    1  ->  lert
+   9:    1  ->  pleert
+  10:    1  ->  schaart
+  11:    1  ->  sjelt
+  12:    1  ->  stunt
+  13:    1  ->  swoors
+  14:    1  ->  van
+  15:    1  ->  wat
+  16:    1  ->  wit
+  17:    1  ->  zwooi
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

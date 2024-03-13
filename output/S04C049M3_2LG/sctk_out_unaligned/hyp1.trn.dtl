@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.6%   (  20)
+
+Percent Correct           =   57.1%   (  24)
+
+Percent Substitution      =   38.1%   (  16)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   52.4%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> moel
+   2:    1  ->  * ==> scha
+   3:    1  ->  circus ==> cirpus
+   4:    1  ->  dichtbij*(dichterbij) ==> dichterbij
+   5:    1  ->  drogen ==> ogen
+   6:    1  ->  fietsbel ==> fiedsbel
+   7:    1  ->  koning ==> ralkoning
+   8:    1  ->  kussen ==> cusen
+   9:    1  ->  liedje ==> lietja
+  10:    1  ->  meisje ==> nesia
+  11:    1  ->  mevrouw ==> de
+  12:    1  ->  potlood ==> potloot
+  13:    1  ->  regen ==> hooftpijnregen
+  14:    1  ->  speelplaats ==> speelblaad
+  15:    1  ->  vinger ==> inger
+  16:    1  ->  vlinder ==> vlin
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  en
+   2:    1  ->  vrouw
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  hoofdpijn
+   2:    1  ->  verhaal
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  *
+   2:    1  ->  circus
+   3:    1  ->  dichtbij*(dichterbij)
+   4:    1  ->  drogen
+   5:    1  ->  fietsbel
+   6:    1  ->  koning
+   7:    1  ->  kussen
+   8:    1  ->  liedje
+   9:    1  ->  meisje
+  10:    1  ->  mevrouw
+  11:    1  ->  potlood
+  12:    1  ->  regen
+  13:    1  ->  speelplaats
+  14:    1  ->  vinger
+  15:    1  ->  vlinder
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  cirpus
+   2:    1  ->  cusen
+   3:    1  ->  de
+   4:    1  ->  dichterbij
+   5:    1  ->  fiedsbel
+   6:    1  ->  hooftpijnregen
+   7:    1  ->  inger
+   8:    1  ->  lietja
+   9:    1  ->  moel
+  10:    1  ->  nesia
+  11:    1  ->  ogen
+  12:    1  ->  potloot
+  13:    1  ->  ralkoning
+  14:    1  ->  scha
+  15:    1  ->  speelblaad
+  16:    1  ->  vlin
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

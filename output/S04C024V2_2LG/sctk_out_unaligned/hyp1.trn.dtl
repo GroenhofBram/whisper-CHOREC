@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.4%   (  27)
+
+Percent Correct           =   44.7%   (  21)
+
+Percent Substitution      =   55.3%   (  26)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.1%   (   1)
+Percent Word Accuracy     =   42.6%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  * ==> e
+   2:    1  ->  * ==> en
+   3:    1  ->  * ==> ka
+   4:    1  ->  * ==> kafur
+   5:    1  ->  * ==> kafé
+   6:    1  ->  *(schoen) ==> schoen
+   7:    1  ->  *s ==> chauffer
+   8:    1  ->  auto ==> atto
+   9:    1  ->  chauffeur ==> met
+  10:    1  ->  circus ==> ihte
+  11:    1  ->  dichtbij ==> de
+  12:    1  ->  drogen ==> droegen
+  13:    1  ->  eerste ==> ve
+  14:    1  ->  fietsbel ==> fitisbil
+  15:    1  ->  gooien ==> kooien
+  16:    1  ->  kussen ==> er
+  17:    1  ->  lawaai ==> lawaiy
+  18:    1  ->  liedje ==> liier
+  19:    1  ->  meisje ==> nes
+  20:    1  ->  muziek ==> lik
+  21:    1  ->  potlood ==> poloot
+  22:    1  ->  scheuren ==> skeren
+  23:    1  ->  sneeuwen ==> snin
+  24:    1  ->  vuurwerk ==> vurwerk
+  25:    1  ->  water ==> watter
+  26:    1  ->  zwemmen ==> swemmen
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  dich
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  *
+   2:    1  ->  *(schoen)
+   3:    1  ->  *s
+   4:    1  ->  auto
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  dichtbij
+   8:    1  ->  drogen
+   9:    1  ->  eerste
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje
+  15:    1  ->  meisje
+  16:    1  ->  muziek
+  17:    1  ->  potlood
+  18:    1  ->  scheuren
+  19:    1  ->  sneeuwen
+  20:    1  ->  vuurwerk
+  21:    1  ->  water
+  22:    1  ->  zwemmen
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  atto
+   2:    1  ->  chauffer
+   3:    1  ->  de
+   4:    1  ->  droegen
+   5:    1  ->  e
+   6:    1  ->  en
+   7:    1  ->  er
+   8:    1  ->  fitisbil
+   9:    1  ->  ihte
+  10:    1  ->  ka
+  11:    1  ->  kafur
+  12:    1  ->  kafé
+  13:    1  ->  kooien
+  14:    1  ->  lawaiy
+  15:    1  ->  liier
+  16:    1  ->  lik
+  17:    1  ->  met
+  18:    1  ->  nes
+  19:    1  ->  poloot
+  20:    1  ->  schoen
+  21:    1  ->  skeren
+  22:    1  ->  snin
+  23:    1  ->  swemmen
+  24:    1  ->  ve
+  25:    1  ->  vurwerk
+  26:    1  ->  watter
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

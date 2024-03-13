@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   72.5%   (  29)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> tweelplaats
+   2:    1  ->  drinken ==> drienken
+   3:    1  ->  fietsbel ==> vietsbel
+   4:    1  ->  kussen ==> tuschen
+   5:    1  ->  lawaai ==> laai
+   6:    1  ->  opnieuw ==> opniel
+   7:    1  ->  regen ==> vlegen
+   8:    1  ->  scheuren ==> schuren
+   9:    1  ->  sneeuwen ==> smeeuwen
+  10:    1  ->  waarom ==> waron
+  11:    1  ->  zwemmen ==> wemmen
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  drinken
+   3:    1  ->  fietsbel
+   4:    1  ->  kussen
+   5:    1  ->  lawaai
+   6:    1  ->  opnieuw
+   7:    1  ->  regen
+   8:    1  ->  scheuren
+   9:    1  ->  sneeuwen
+  10:    1  ->  waarom
+  11:    1  ->  zwemmen
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  drienken
+   2:    1  ->  laai
+   3:    1  ->  opniel
+   4:    1  ->  schuren
+   5:    1  ->  smeeuwen
+   6:    1  ->  tuschen
+   7:    1  ->  tweelplaats
+   8:    1  ->  vietsbel
+   9:    1  ->  vlegen
+  10:    1  ->  waron
+  11:    1  ->  wemmen
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

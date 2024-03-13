@@ -1,0 +1,256 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  105.5%   (  96)
+
+Percent Correct           =    5.5%   (   5)
+
+Percent Substitution      =   89.0%   (  81)
+Percent Deletions         =    5.5%   (   5)
+Percent Insertions        =   11.0%   (  10)
+Percent Word Accuracy     =   -5.5%
+
+
+Ref. words                =           (  91)
+Hyp. words                =           (  96)
+Aligned words             =           ( 101)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    2  ->  * ==> een
+   2:    2  ->  * ==> je
+   3:    1  ->  * ==> achtter
+   4:    1  ->  * ==> af
+   5:    1  ->  * ==> auto
+   6:    1  ->  * ==> balde
+   7:    1  ->  * ==> ber
+   8:    1  ->  * ==> blijven
+   9:    1  ->  * ==> bo
+  10:    1  ->  * ==> boek
+  11:    1  ->  * ==> chocola
+  12:    1  ->  * ==> choconade
+  13:    1  ->  * ==> daar
+  14:    1  ->  * ==> dag
+  15:    1  ->  * ==> de
+  16:    1  ->  * ==> deur
+  17:    1  ->  * ==> diertuin
+  18:    1  ->  * ==> dx
+  19:    1  ->  * ==> ee
+  20:    1  ->  * ==> els
+  21:    1  ->  * ==> en
+  22:    1  ->  * ==> famulie
+  23:    1  ->  * ==> foto
+  24:    1  ->  * ==> g
+  25:    1  ->  * ==> gooi
+  26:    1  ->  * ==> hand
+  27:    1  ->  * ==> hanging
+  28:    1  ->  * ==> hok
+  29:    1  ->  * ==> iber
+  30:    1  ->  * ==> jaar
+  31:    1  ->  * ==> kat
+  32:    1  ->  * ==> ken
+  33:    1  ->  * ==> kiers
+  34:    1  ->  * ==> kis
+  35:    1  ->  * ==> len
+  36:    1  ->  * ==> lim
+  37:    1  ->  * ==> limenade
+  38:    1  ->  * ==> lu
+  39:    1  ->  * ==> m
+  40:    1  ->  * ==> maar
+  41:    1  ->  * ==> maken
+  42:    1  ->  * ==> nade
+  43:    1  ->  * ==> nieewwe
+  44:    1  ->  * ==> niel
+  45:    1  ->  * ==> niieuwgrig
+  46:    1  ->  * ==> nusiver
+  47:    1  ->  * ==> op
+  48:    1  ->  * ==> pan
+  49:    1  ->  * ==> rede
+  50:    1  ->  * ==> schoen
+  51:    1  ->  * ==> sneeuw
+  52:    1  ->  * ==> tedi
+  53:    1  ->  * ==> tee
+  54:    1  ->  * ==> tel
+  55:    1  ->  * ==> toestel
+  56:    1  ->  * ==> toide
+  57:    1  ->  * ==> uchefe
+  58:    1  ->  * ==> van
+  59:    1  ->  * ==> vo
+  60:    1  ->  * ==> wan
+  61:    1  ->  * ==> was
+  62:    1  ->  * ==> winje
+  63:    1  ->  * ==> winkel
+  64:    1  ->  * ==> xx
+  65:    1  ->  * ==> zee
+  66:    1  ->  afblijven ==> nieuwskeenwerk
+  67:    1  ->  buurmannen ==> mannen
+  68:    1  ->  dierentuin ==> stoel
+  69:    1  ->  familie ==> duldik
+  70:    1  ->  iedereen ==> telu
+  71:    1  ->  konijnenhok ==> u
+  72:    1  ->  paddenstoelen*(paddenstoel) ==> verstopperdje
+  73:    1  ->  poppenwagen ==> tiekje
+  74:    1  ->  schommelen ==> kunst
+  75:    1  ->  sprookjesboek ==> dan
+  76:    1  ->  teddybeer ==> den
+  77:    1  ->  toiletpapier ==> papier
+  78:    1  ->  verjaardag ==> spro
+  79:    1  ->  verstoppertje ==> was
+     -------
+        81
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  duur
+   2:    1  ->  ideleen
+   3:    1  ->  kolmijn
+   4:    1  ->  nen
+   5:    1  ->  ol
+   6:    1  ->  omdralen
+   7:    1  ->  orefant
+   8:    1  ->  poppen
+   9:    1  ->  skommellen
+  10:    1  ->  wagen
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    5  ->  *
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:   67  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  buurmannen
+   4:    1  ->  dierentuin
+   5:    1  ->  familie
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  paddenstoelen*(paddenstoel)
+   9:    1  ->  poppenwagen
+  10:    1  ->  schommelen
+  11:    1  ->  sprookjesboek
+  12:    1  ->  teddybeer
+  13:    1  ->  toiletpapier
+  14:    1  ->  verjaardag
+  15:    1  ->  verstoppertje
+     -------
+        81
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:    2  ->  een
+   2:    2  ->  je
+   3:    2  ->  was
+   4:    1  ->  achtter
+   5:    1  ->  af
+   6:    1  ->  auto
+   7:    1  ->  balde
+   8:    1  ->  ber
+   9:    1  ->  blijven
+  10:    1  ->  bo
+  11:    1  ->  boek
+  12:    1  ->  chocola
+  13:    1  ->  choconade
+  14:    1  ->  daar
+  15:    1  ->  dag
+  16:    1  ->  dan
+  17:    1  ->  de
+  18:    1  ->  den
+  19:    1  ->  deur
+  20:    1  ->  diertuin
+  21:    1  ->  duldik
+  22:    1  ->  dx
+  23:    1  ->  ee
+  24:    1  ->  els
+  25:    1  ->  en
+  26:    1  ->  famulie
+  27:    1  ->  foto
+  28:    1  ->  g
+  29:    1  ->  gooi
+  30:    1  ->  hand
+  31:    1  ->  hanging
+  32:    1  ->  hok
+  33:    1  ->  iber
+  34:    1  ->  jaar
+  35:    1  ->  kat
+  36:    1  ->  ken
+  37:    1  ->  kiers
+  38:    1  ->  kis
+  39:    1  ->  kunst
+  40:    1  ->  len
+  41:    1  ->  lim
+  42:    1  ->  limenade
+  43:    1  ->  lu
+  44:    1  ->  m
+  45:    1  ->  maar
+  46:    1  ->  maken
+  47:    1  ->  mannen
+  48:    1  ->  nade
+  49:    1  ->  nieewwe
+  50:    1  ->  niel
+  51:    1  ->  nieuwskeenwerk
+  52:    1  ->  niieuwgrig
+  53:    1  ->  nusiver
+  54:    1  ->  op
+  55:    1  ->  pan
+  56:    1  ->  papier
+  57:    1  ->  rede
+  58:    1  ->  schoen
+  59:    1  ->  sneeuw
+  60:    1  ->  spro
+  61:    1  ->  stoel
+  62:    1  ->  tedi
+  63:    1  ->  tee
+  64:    1  ->  tel
+  65:    1  ->  telu
+  66:    1  ->  tiekje
+  67:    1  ->  toestel
+  68:    1  ->  toide
+  69:    1  ->  u
+  70:    1  ->  uchefe
+  71:    1  ->  van
+  72:    1  ->  verstopperdje
+  73:    1  ->  vo
+  74:    1  ->  wan
+  75:    1  ->  winje
+  76:    1  ->  winkel
+  77:    1  ->  xx
+  78:    1  ->  zee
+     -------
+        81
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.5%   (  20)
+
+Percent Correct           =   53.5%   (  23)
+
+Percent Substitution      =   41.9%   (  18)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  41)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  * ==> sa
+   2:    1  ->  * ==> dray
+   3:    1  ->  clown ==> klown
+   4:    1  ->  feest ==> fest
+   5:    1  ->  gauw ==> gaaw
+   6:    1  ->  groei ==> grooi
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  hout ==> halt
+   9:    1  ->  huis ==> hars
+  10:    1  ->  knoop ==> knop
+  11:    1  ->  leeuw ==> straatleeuw
+  12:    1  ->  muts ==> nut
+  13:    1  ->  oog ==> orh
+  14:    1  ->  paard ==> paart
+  15:    1  ->  sjaal ==> ssjaal
+  16:    1  ->  straat ==> deur
+  17:    1  ->  vriend ==> vreemd
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  draai
+   2:    1  ->  duur
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  *
+   2:    1  ->  clown
+   3:    1  ->  feest
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  hoek
+   7:    1  ->  hout
+   8:    1  ->  huis
+   9:    1  ->  knoop
+  10:    1  ->  leeuw
+  11:    1  ->  muts
+  12:    1  ->  oog
+  13:    1  ->  paard
+  14:    1  ->  sjaal
+  15:    1  ->  straat
+  16:    1  ->  vriend
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  sa
+   2:    1  ->  deur
+   3:    1  ->  dray
+   4:    1  ->  fest
+   5:    1  ->  gaaw
+   6:    1  ->  grooi
+   7:    1  ->  halt
+   8:    1  ->  hars
+   9:    1  ->  hook
+  10:    1  ->  klown
+  11:    1  ->  knop
+  12:    1  ->  nut
+  13:    1  ->  orh
+  14:    1  ->  paart
+  15:    1  ->  ssjaal
+  16:    1  ->  straatleeuw
+  17:    1  ->  vreemd
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

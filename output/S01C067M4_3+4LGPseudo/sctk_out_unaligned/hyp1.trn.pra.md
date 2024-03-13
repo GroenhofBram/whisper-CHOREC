@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C067M4_3+4LGPseudo
+
+#### (S01C067M4_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=68.0%	Del=0.0%	Ins=32.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | * | jattesiet | * | nurudien | * | * | * | * | * | * | * | * | deuveltek | juitonie | gevijdel | * | sidowaan | spekkeraai | wachteniek | verpierik | * | nappegreeuw | mantaroen | schielendaspen | * | * | crobeklunker | kabbestepen | verwarig*(verwarring) | ooiebiekje | fandelig | jalekrewen | * | * | smoralij | * | zeekvlachine | kanaroe | toineetlijgen | meitsegrok | * | kantelogsten | * | ondermind | * | choporatie | * | * | zennebral | * | * | ijraspangen | blottenduuf | * | * | girdofhaalder | * | tobbermoeit | * | poentalschouden | * | * | havedil | verbrakkertje | gerauwejaak | *(haperen) | hapeneren |
+| HYP1 | ommet | de | doe | ietsen | oenwijlen | h | jat | des | setv | ner | ne | rudin | fte | stoeln | eh | das | stuin | stoel | i | das | deva | deiveltek | ju | tany | ge | fa | videl | cedo | ced | van | spiker | wacht | enieq | verpirik | na | napen | gre | mamterlon | schelen | das | en | gr | kro | beklunder | kambes | tipen | ver | warring | oimiker | vandeling | jae | ku | kreuwen | so | s | morelli | eik | z | k | fak | ine | kanda | ho | toi | net | liigen | meite | grok | kante | kantel | oogsteng | onder | mit | de | mind | shoo | ati | senel | be | bral | e | eraspan | blotende | duuf | gea | gedof | hel | tober | en | mot | bn | poen | palshouden | shouden | hve | hedin | ve | akrte | ge | ek | heperen | aen | naren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C021M8_3+4LGPseudo
+
+#### (S06C021M8_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=70.1%	Del=0.0%	Ins=29.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | *s | ometuif | * | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | deuveltek | * | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | mantaroen | schielendaspen | crobeklunker | * | kabbestepen | verwarig | ooiebiekje | fandelig | jalekrewen | smoralij | zeekvlachine | * | kanaroe | toineetlijgen | * | meitsegrok | kantelogsten | * | ondermind | choporatie | zennebral | ijraspangen | blottenduuf | girdofhaalder | tobbermoeit | poentalschouden | havedil | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | om | metuif | toes | ten | onwerlen | ja | tesv | seetv | neruv | tinv | stunidas | duivel | dik | yuv | ton | geveidel | cidoen | spekerai | wahteniek | verbirik | nappiggereeuw | mantarun | gen | daspen | gro | bik | kluder | kabesteben | ver | warig | ooibeekje | van | deling | jaer | rewen | smorale | cek | fa | flagcine | tanaru | tornel | lejgen | mij | metser | grok | ganden | leelogsten | honder | mi | choburati | cene | bra | eras | paren | bloten | duef | herendof | helder | doper | moeit | boentasgouden | avijl | dil | verbrakerte | grouwejak | hapen | ren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

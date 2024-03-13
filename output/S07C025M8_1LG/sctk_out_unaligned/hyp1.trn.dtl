@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.9%   (  18)
+
+Percent Correct           =   58.1%   (  25)
+
+Percent Substitution      =   39.5%   (  17)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.1%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> sl
+   2:    1  ->  clown ==> klow
+   3:    1  ->  duur*(duurt) ==> keert
+   4:    1  ->  gauw ==> gal
+   5:    1  ->  groen ==> groep
+   6:    1  ->  herfst ==> hust
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  hout ==> helt
+   9:    1  ->  jas ==> jos
+  10:    1  ->  knoop ==> k
+  11:    1  ->  muts ==> nust
+  12:    1  ->  neus ==> dus
+  13:    1  ->  paard ==> paart
+  14:    1  ->  plas ==> plaas
+  15:    1  ->  schoen ==> schoenen
+  16:    1  ->  sjaal ==> sil
+  17:    1  ->  straat*(staart) ==> start
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sjaal
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  clown
+   3:    1  ->  duur*(duurt)
+   4:    1  ->  gauw
+   5:    1  ->  groen
+   6:    1  ->  herfst
+   7:    1  ->  hoek
+   8:    1  ->  hout
+   9:    1  ->  jas
+  10:    1  ->  knoop
+  11:    1  ->  muts
+  12:    1  ->  neus
+  13:    1  ->  paard
+  14:    1  ->  plas
+  15:    1  ->  schoen
+  16:    1  ->  sjaal
+  17:    1  ->  straat*(staart)
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  dus
+   2:    1  ->  gal
+   3:    1  ->  groep
+   4:    1  ->  helt
+   5:    1  ->  hook
+   6:    1  ->  hust
+   7:    1  ->  jos
+   8:    1  ->  k
+   9:    1  ->  keert
+  10:    1  ->  klow
+  11:    1  ->  nust
+  12:    1  ->  paart
+  13:    1  ->  plaas
+  14:    1  ->  schoenen
+  15:    1  ->  sil
+  16:    1  ->  sl
+  17:    1  ->  start
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

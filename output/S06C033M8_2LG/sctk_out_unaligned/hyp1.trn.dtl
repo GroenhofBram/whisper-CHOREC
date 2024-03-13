@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  16)
+
+Percent Correct           =   69.6%   (  32)
+
+Percent Substitution      =   28.3%   (  13)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    4.3%   (   2)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  47)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> eersten
+   2:    1  ->  * ==> ga
+   3:    1  ->  * ==> lija
+   4:    1  ->  * ==> scheur
+   5:    1  ->  * ==> schoua
+   6:    1  ->  * ==> werk
+   7:    1  ->  cola ==> kola
+   8:    1  ->  dichtbij ==> bij
+   9:    1  ->  fietsbel ==> inger
+  10:    1  ->  vinger ==> dicht
+  11:    1  ->  vuurwerk ==> vuurwe
+  12:    1  ->  waarom ==> waarom?
+  13:    1  ->  water ==> watter
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fiets
+   2:    1  ->  wel
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  eerste*(eersten)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    6  ->  *
+   2:    1  ->  cola
+   3:    1  ->  dichtbij
+   4:    1  ->  fietsbel
+   5:    1  ->  vinger
+   6:    1  ->  vuurwerk
+   7:    1  ->  waarom
+   8:    1  ->  water
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bij
+   2:    1  ->  dicht
+   3:    1  ->  eersten
+   4:    1  ->  ga
+   5:    1  ->  inger
+   6:    1  ->  kola
+   7:    1  ->  lija
+   8:    1  ->  scheur
+   9:    1  ->  schoua
+  10:    1  ->  vuurwe
+  11:    1  ->  waarom?
+  12:    1  ->  watter
+  13:    1  ->  werk
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.1%   (  28)
+
+Percent Correct           =   46.9%   (  23)
+
+Percent Substitution      =   53.1%   (  26)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.1%   (   2)
+Percent Word Accuracy     =   42.9%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  51)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  * ==> dochter
+   2:    1  ->  * ==> litues
+   3:    1  ->  * ==> rous
+   4:    1  ->  * ==> schoea
+   5:    1  ->  * ==> ske
+   6:    1  ->  * ==> waar
+   7:    1  ->  *t ==> an
+   8:    1  ->  *t ==> en
+   9:    1  ->  *t ==> uhm
+  10:    1  ->  appel ==> anpan
+  11:    1  ->  circus ==> ki
+  12:    1  ->  dichtbij ==> dichtbir
+  13:    1  ->  drinken ==> drinkend
+  14:    1  ->  fietsbel ==> bel
+  15:    1  ->  kleuren*(kleur) ==> cler
+  16:    1  ->  koning ==> cony
+  17:    1  ->  kussen ==> kusser
+  18:    1  ->  liedje*(liedjes) ==> potloot
+  19:    1  ->  meisje ==> meice
+  20:    1  ->  potlood ==> fiets
+  21:    1  ->  regen ==> regenn
+  22:    1  ->  scheuren ==> skeren
+  23:    1  ->  schouders ==> schouwders
+  24:    1  ->  vinger ==> linge
+  25:    1  ->  vlinder ==> vinger
+  26:    1  ->  winkel*(winkelen) ==> winkelen
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ku
+   2:    1  ->  lia
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    6  ->  *
+   2:    3  ->  *t
+   3:    1  ->  appel
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  drinken
+   7:    1  ->  fietsbel
+   8:    1  ->  kleuren*(kleur)
+   9:    1  ->  koning
+  10:    1  ->  kussen
+  11:    1  ->  liedje*(liedjes)
+  12:    1  ->  meisje
+  13:    1  ->  potlood
+  14:    1  ->  regen
+  15:    1  ->  scheuren
+  16:    1  ->  schouders
+  17:    1  ->  vinger
+  18:    1  ->  vlinder
+  19:    1  ->  winkel*(winkelen)
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  an
+   2:    1  ->  anpan
+   3:    1  ->  bel
+   4:    1  ->  cler
+   5:    1  ->  cony
+   6:    1  ->  dichtbir
+   7:    1  ->  dochter
+   8:    1  ->  drinkend
+   9:    1  ->  en
+  10:    1  ->  fiets
+  11:    1  ->  ki
+  12:    1  ->  kusser
+  13:    1  ->  linge
+  14:    1  ->  litues
+  15:    1  ->  meice
+  16:    1  ->  potloot
+  17:    1  ->  regenn
+  18:    1  ->  rous
+  19:    1  ->  schoea
+  20:    1  ->  schouwders
+  21:    1  ->  ske
+  22:    1  ->  skeren
+  23:    1  ->  uhm
+  24:    1  ->  vinger
+  25:    1  ->  waar
+  26:    1  ->  winkelen
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

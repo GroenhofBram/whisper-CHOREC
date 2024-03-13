@@ -1,0 +1,250 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.4%   ( 103)
+
+Percent Correct           =    4.6%   (   5)
+
+Percent Substitution      =   71.3%   (  77)
+Percent Deletions         =   24.1%   (  26)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.6%
+
+
+Ref. words                =           ( 108)
+Hyp. words                =           (  82)
+Aligned words             =           ( 108)
+
+CONFUSION PAIRS                  Total                 (74)
+                                 With >=  1 occurrences (74)
+
+   1:    3  ->  * ==> hoe
+   2:    2  ->  * ==> een
+   3:    1  ->  * ==> al
+   4:    1  ->  * ==> coch
+   5:    1  ->  * ==> deda
+   6:    1  ->  * ==> deinken
+   7:    1  ->  * ==> den
+   8:    1  ->  * ==> en
+   9:    1  ->  * ==> ga
+  10:    1  ->  * ==> gade
+  11:    1  ->  * ==> ge
+  12:    1  ->  * ==> gel
+  13:    1  ->  * ==> goe
+  14:    1  ->  * ==> gunwn
+  15:    1  ->  * ==> h
+  16:    1  ->  * ==> hoa
+  17:    1  ->  * ==> hoder
+  18:    1  ->  * ==> hooft
+  19:    1  ->  * ==> hooier
+  20:    1  ->  * ==> iel
+  21:    1  ->  * ==> ifuld
+  22:    1  ->  * ==> in
+  23:    1  ->  * ==> komkonni
+  24:    1  ->  * ==> komni
+  25:    1  ->  * ==> lijhuit
+  26:    1  ->  * ==> lo
+  27:    1  ->  * ==> loen
+  28:    1  ->  * ==> meshen
+  29:    1  ->  * ==> ne
+  30:    1  ->  * ==> neel
+  31:    1  ->  * ==> nn
+  32:    1  ->  * ==> oen
+  33:    1  ->  * ==> op
+  34:    1  ->  * ==> open
+  35:    1  ->  * ==> oren
+  36:    1  ->  * ==> polo
+  37:    1  ->  * ==> rijk
+  38:    1  ->  * ==> shouder
+  39:    1  ->  * ==> shun
+  40:    1  ->  * ==> spelpalet
+  41:    1  ->  * ==> t
+  42:    1  ->  * ==> u
+  43:    1  ->  * ==> uh
+  44:    1  ->  * ==> val
+  45:    1  ->  * ==> ver
+  46:    1  ->  * ==> veraal
+  47:    1  ->  * ==> verel
+  48:    1  ->  * ==> vi
+  49:    1  ->  * ==> voetbaul
+  50:    1  ->  * ==> wanter
+  51:    1  ->  * ==> warom
+  52:    1  ->  * ==> wlig
+  53:    1  ->  * ==> wnant
+  54:    1  ->  * ==> wum
+  55:    1  ->  *(bij) ==> diton
+  56:    1  ->  *(dichten) ==> gen
+  57:    1  ->  *(dun) ==> fit
+  58:    1  ->  *(een) ==> n
+  59:    1  ->  *(fiets) ==> hir
+  60:    1  ->  *(kleur) ==> u
+  61:    1  ->  *(kussens) ==> cusun
+  62:    1  ->  *(licht) ==> s
+  63:    1  ->  *(om) ==> die
+  64:    1  ->  *(polo) ==> de
+  65:    1  ->  *(recht) ==> ah
+  66:    1  ->  *(stop) ==> een
+  67:    1  ->  *(uit) ==> top
+  68:    1  ->  appel*(appels) ==> appels
+  69:    1  ->  eerste ==> eerto
+  70:    1  ->  kussen ==> sen
+  71:    1  ->  meisje ==> bij
+  72:    1  ->  opnieuw ==> nieuw
+  73:    1  ->  vuurwerk ==> werk
+  74:    1  ->  zwemmen ==> vuu
+     -------
+        77
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:   17  ->  *
+   2:    1  ->  *(de)
+   3:    1  ->  *(hal)
+   4:    1  ->  *(veer)
+   5:    1  ->  koning
+   6:    1  ->  moeder
+   7:    1  ->  schouders
+   8:    1  ->  verhaal
+   9:    1  ->  voetbal
+  10:    1  ->  waarom
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   57  ->  *
+   2:    1  ->  *(bij)
+   3:    1  ->  *(dichten)
+   4:    1  ->  *(dun)
+   5:    1  ->  *(een)
+   6:    1  ->  *(fiets)
+   7:    1  ->  *(kleur)
+   8:    1  ->  *(kussens)
+   9:    1  ->  *(licht)
+  10:    1  ->  *(om)
+  11:    1  ->  *(polo)
+  12:    1  ->  *(recht)
+  13:    1  ->  *(stop)
+  14:    1  ->  *(uit)
+  15:    1  ->  appel*(appels)
+  16:    1  ->  eerste
+  17:    1  ->  kussen
+  18:    1  ->  meisje
+  19:    1  ->  opnieuw
+  20:    1  ->  vuurwerk
+  21:    1  ->  zwemmen
+     -------
+        77
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    3  ->  een
+   2:    3  ->  hoe
+   3:    2  ->  u
+   4:    1  ->  ah
+   5:    1  ->  al
+   6:    1  ->  appels
+   7:    1  ->  bij
+   8:    1  ->  coch
+   9:    1  ->  cusun
+  10:    1  ->  de
+  11:    1  ->  deda
+  12:    1  ->  deinken
+  13:    1  ->  den
+  14:    1  ->  die
+  15:    1  ->  diton
+  16:    1  ->  eerto
+  17:    1  ->  en
+  18:    1  ->  fit
+  19:    1  ->  ga
+  20:    1  ->  gade
+  21:    1  ->  ge
+  22:    1  ->  gel
+  23:    1  ->  gen
+  24:    1  ->  goe
+  25:    1  ->  gunwn
+  26:    1  ->  h
+  27:    1  ->  hir
+  28:    1  ->  hoa
+  29:    1  ->  hoder
+  30:    1  ->  hooft
+  31:    1  ->  hooier
+  32:    1  ->  iel
+  33:    1  ->  ifuld
+  34:    1  ->  in
+  35:    1  ->  komkonni
+  36:    1  ->  komni
+  37:    1  ->  lijhuit
+  38:    1  ->  lo
+  39:    1  ->  loen
+  40:    1  ->  meshen
+  41:    1  ->  n
+  42:    1  ->  ne
+  43:    1  ->  neel
+  44:    1  ->  nieuw
+  45:    1  ->  nn
+  46:    1  ->  oen
+  47:    1  ->  op
+  48:    1  ->  open
+  49:    1  ->  oren
+  50:    1  ->  polo
+  51:    1  ->  rijk
+  52:    1  ->  s
+  53:    1  ->  sen
+  54:    1  ->  shouder
+  55:    1  ->  shun
+  56:    1  ->  spelpalet
+  57:    1  ->  t
+  58:    1  ->  top
+  59:    1  ->  uh
+  60:    1  ->  val
+  61:    1  ->  ver
+  62:    1  ->  veraal
+  63:    1  ->  verel
+  64:    1  ->  vi
+  65:    1  ->  voetbaul
+  66:    1  ->  vuu
+  67:    1  ->  wanter
+  68:    1  ->  warom
+  69:    1  ->  werk
+  70:    1  ->  wlig
+  71:    1  ->  wnant
+  72:    1  ->  wum
+     -------
+        77
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

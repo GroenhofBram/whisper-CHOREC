@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   67.3%   (  33)
+
+Percent Correct           =   44.9%   (  22)
+
+Percent Substitution      =   44.9%   (  22)
+Percent Deletions         =   10.2%   (   5)
+Percent Insertions        =   12.2%   (   6)
+Percent Word Accuracy     =   32.7%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  50)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  * ==> niet
+   2:    1  ->  * ==> co
+   3:    1  ->  * ==> euren
+   4:    1  ->  * ==> i
+   5:    1  ->  * ==> schha
+   6:    1  ->  * ==> va
+   7:    1  ->  * ==> wirukni
+   8:    1  ->  appel ==> appol
+   9:    1  ->  chauffeur ==> ik
+  10:    1  ->  cola ==> uh
+  11:    1  ->  drinken ==> seelplats
+  12:    1  ->  drogen ==> weet
+  13:    1  ->  fietsbel ==> potlootfietsbel
+  14:    1  ->  hoofdpijn ==> derienkenhoofdpijn
+  15:    1  ->  koning ==> konin
+  16:    1  ->  kussen ==> cola-kussen
+  17:    1  ->  lawaai ==> awa
+  18:    1  ->  potlood ==> liedjes
+  19:    1  ->  vinger*(vlieger) ==> vlieger
+  20:    1  ->  vlinder ==> voetballeender
+  21:    1  ->  water ==> watter
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  'k
+   2:    1  ->  d
+   3:    1  ->  dro
+   4:    1  ->  scha
+   5:    1  ->  schauw
+   6:    1  ->  weet
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  liedje*(liedjes)
+   4:    1  ->  speelplaats
+   5:    1  ->  voetbal
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    8  ->  *
+   2:    1  ->  appel
+   3:    1  ->  chauffeur
+   4:    1  ->  cola
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  hoofdpijn
+   9:    1  ->  koning
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  potlood
+  13:    1  ->  vinger*(vlieger)
+  14:    1  ->  vlinder
+  15:    1  ->  water
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  niet
+   2:    1  ->  appol
+   3:    1  ->  awa
+   4:    1  ->  co
+   5:    1  ->  cola-kussen
+   6:    1  ->  derienkenhoofdpijn
+   7:    1  ->  euren
+   8:    1  ->  i
+   9:    1  ->  ik
+  10:    1  ->  konin
+  11:    1  ->  liedjes
+  12:    1  ->  potlootfietsbel
+  13:    1  ->  schha
+  14:    1  ->  seelplats
+  15:    1  ->  uh
+  16:    1  ->  va
+  17:    1  ->  vlieger
+  18:    1  ->  voetballeender
+  19:    1  ->  watter
+  20:    1  ->  weet
+  21:    1  ->  wirukni
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

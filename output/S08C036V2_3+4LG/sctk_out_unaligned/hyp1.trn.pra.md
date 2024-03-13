@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S08C036V2_3+4LG
+
+#### (S08C036V2_3+4LG-words)
+
+- Cor=7.9%	Sub=60.7%	Del=3.4%	Ins=28.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  | omdraaien | konijnenhok | elastiekje | * | ruziemaken | * | * | * | * | dierentuin | paddenstoelen | verstoppertje |  |  |  |  |  | * | fototoestel | toiletpapier | * | vrachtwagen | * | * | buurmannen | vogelkooi |  |  | olifant | * | *s | schommelen*(schommel) | iedereen | schoenenwinkel | knutselen | *(knuffel) | * | * | * | ophangen | verjaardag | sprookjesboek | tandenborstel | * | lucifer | * | slaapkamer |  |  |  |  |  |  |  | achterdeur | ziekenhuis*(muziekhuis) | nieuwsgierig | * | * | afblijven | kabouter | washandje | sneeuwwitje | * | * | * | goeiendag | vakantie | limonade | * | autorijden | * | eindelijk | familie | chocolade*(schoolzak) | *s | *s | *s |
+| HYP1 | a | popewagen | popewagen | konijnen | hok | ezelte | z | nee | rez | a | kam | kekt | i | weer? | kedidie | i | en | tuin | a | de | stoelen? | nar | verstoppertje | ist | was | e? | vod | fototoestaan | goed | tumaet | papier | m | va | sgraag | wege | biurmannen | vogelkooi | holifand? | lieand | soman | idereen | schoenen | winkel | kni | kniffen | opgaan | op | handen | gejaag | daar | sprookjes | boek | tante | tanten | brosel | le | li | slaapkamer | achter | de | deur | muziekhuis | ni | e | i | bschrift | u | nieuwsgierig | afblijven | aborten | wat | hand | je? | ni | tug | hoe | gin | daar | vakantie | ro | endak | ozo | rijder | eindelijk | familie |  |  |  | schoolzaak |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | S | S | S | S | S | S | S | S |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | I | I | S | S |  | S | S | S | S | S | S | S | S | S | S |  | S | S | S | S |  |  | D | D | D | S |
+---
+
+---

@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.5%   (  26)
+
+Percent Correct           =   52.2%   (  24)
+
+Percent Substitution      =   45.7%   (  21)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    8.7%   (   4)
+Percent Word Accuracy     =   43.5%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  49)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> fiets
+   2:    1  ->  * ==> gauw
+   3:    1  ->  * ==> ko
+   4:    1  ->  * ==> moeielijk
+   5:    1  ->  * ==> veurs
+   6:    1  ->  *(eerst) ==> t
+   7:    1  ->  chauffeur ==> schouw
+   8:    1  ->  circus ==> kus
+   9:    1  ->  drinken ==> rieken
+  10:    1  ->  drogen ==> drohuba
+  11:    1  ->  fietsbel ==> fietsbul
+  12:    1  ->  gooien*(groeien) ==> groeien
+  13:    1  ->  hoofdpijn ==> hoofdpen
+  14:    1  ->  kussen ==> eerst
+  15:    1  ->  liedje ==> lietje
+  16:    1  ->  moeder ==> dus
+  17:    1  ->  potlood ==> potloot
+  18:    1  ->  scheuren ==> schuiren
+  19:    1  ->  speelplaats ==> sspeelplaats
+  20:    1  ->  vinger ==> vitder
+  21:    1  ->  zwemmen ==> zwebben
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kus
+   2:    1  ->  moet
+   3:    1  ->  seet
+   4:    1  ->  uit
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  moeilijk
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    5  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien*(groeien)
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kussen
+  11:    1  ->  liedje
+  12:    1  ->  moeder
+  13:    1  ->  potlood
+  14:    1  ->  scheuren
+  15:    1  ->  speelplaats
+  16:    1  ->  vinger
+  17:    1  ->  zwemmen
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  drohuba
+   2:    1  ->  dus
+   3:    1  ->  eerst
+   4:    1  ->  fiets
+   5:    1  ->  fietsbul
+   6:    1  ->  gauw
+   7:    1  ->  groeien
+   8:    1  ->  hoofdpen
+   9:    1  ->  ko
+  10:    1  ->  kus
+  11:    1  ->  lietje
+  12:    1  ->  moeielijk
+  13:    1  ->  potloot
+  14:    1  ->  rieken
+  15:    1  ->  schouw
+  16:    1  ->  schuiren
+  17:    1  ->  sspeelplaats
+  18:    1  ->  t
+  19:    1  ->  veurs
+  20:    1  ->  vitder
+  21:    1  ->  zwebben
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

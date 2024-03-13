@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   76.7%   (  33)
+
+Percent Correct           =   25.6%   (  11)
+
+Percent Substitution      =   69.8%   (  30)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   23.3%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> ke
+   2:    1  ->  * ==> ki
+   3:    1  ->  appel ==> lurberk
+   4:    1  ->  auto ==> outl
+   5:    1  ->  chauffeur ==> chafeur
+   6:    1  ->  circus ==> eersjus
+   7:    1  ->  cola ==> apel
+   8:    1  ->  dichtbij ==> difsper
+   9:    1  ->  drogen ==> trogen
+  10:    1  ->  eerste ==> erste
+  11:    1  ->  fietsbel ==> fietspel
+  12:    1  ->  gooien ==> snieeuw
+  13:    1  ->  kleuren ==> kleren
+  14:    1  ->  kussen ==> gola-cusem
+  15:    1  ->  lawaai ==> eren
+  16:    1  ->  liedje ==> letia
+  17:    1  ->  meisje ==> macu
+  18:    1  ->  moeder ==> mota
+  19:    1  ->  opnieuw ==> goen
+  20:    1  ->  potlood ==> bodklot
+  21:    1  ->  regen ==> hegen
+  22:    1  ->  schouders ==> outer
+  23:    1  ->  sneeuwen ==> en
+  24:    1  ->  stoppen ==> opniel
+  25:    1  ->  verhaal ==> verha
+  26:    1  ->  vinger ==> firna
+  27:    1  ->  vlinder ==> vlenter
+  28:    1  ->  vuurwerk ==> svemen
+  29:    1  ->  winkel ==> inkol
+  30:    1  ->  zwemmen ==> nari
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  soppen
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  scheuren
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  drogen
+   9:    1  ->  eerste
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  kleuren
+  13:    1  ->  kussen
+  14:    1  ->  lawaai
+  15:    1  ->  liedje
+  16:    1  ->  meisje
+  17:    1  ->  moeder
+  18:    1  ->  opnieuw
+  19:    1  ->  potlood
+  20:    1  ->  regen
+  21:    1  ->  schouders
+  22:    1  ->  sneeuwen
+  23:    1  ->  stoppen
+  24:    1  ->  verhaal
+  25:    1  ->  vinger
+  26:    1  ->  vlinder
+  27:    1  ->  vuurwerk
+  28:    1  ->  winkel
+  29:    1  ->  zwemmen
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  apel
+   2:    1  ->  bodklot
+   3:    1  ->  chafeur
+   4:    1  ->  difsper
+   5:    1  ->  eersjus
+   6:    1  ->  en
+   7:    1  ->  eren
+   8:    1  ->  erste
+   9:    1  ->  fietspel
+  10:    1  ->  firna
+  11:    1  ->  goen
+  12:    1  ->  gola-cusem
+  13:    1  ->  hegen
+  14:    1  ->  inkol
+  15:    1  ->  ke
+  16:    1  ->  ki
+  17:    1  ->  kleren
+  18:    1  ->  letia
+  19:    1  ->  lurberk
+  20:    1  ->  macu
+  21:    1  ->  mota
+  22:    1  ->  nari
+  23:    1  ->  opniel
+  24:    1  ->  outer
+  25:    1  ->  outl
+  26:    1  ->  snieeuw
+  27:    1  ->  svemen
+  28:    1  ->  trogen
+  29:    1  ->  verha
+  30:    1  ->  vlenter
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

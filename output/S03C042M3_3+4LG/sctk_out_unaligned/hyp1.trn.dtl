@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  118.0%   (  59)
+
+Percent Correct           =   20.0%   (  10)
+
+Percent Substitution      =   78.0%   (  39)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =   38.0%   (  19)
+Percent Word Accuracy     =  -18.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  * ==> dan
+   2:    1  ->  * ==> den
+   3:    1  ->  * ==> girug
+   4:    1  ->  * ==> hea
+   5:    1  ->  * ==> heiden
+   6:    1  ->  * ==> luzi
+   7:    1  ->  * ==> maken
+   8:    1  ->  * ==> sneewitje
+   9:    1  ->  *s ==> ngives
+  10:    1  ->  achterdeur ==> terdeur
+  11:    1  ->  autorijden ==> de
+  12:    1  ->  buurmannen ==> koi
+  13:    1  ->  chocolade ==> focolade
+  14:    1  ->  eindelijk ==> indelijk
+  15:    1  ->  elastiekje ==> tiekje
+  16:    1  ->  fototoestel ==> waren
+  17:    1  ->  goeiendag ==> hoiendeg
+  18:    1  ->  knutselen ==> jaardag
+  19:    1  ->  konijnenhok ==> als
+  20:    1  ->  lucifer ==> slaapkabels
+  21:    1  ->  nieuwsgierig ==> nihos
+  22:    1  ->  olifant ==> schomme
+  23:    1  ->  ophangen ==> sprokjus
+  24:    1  ->  paddenstoelen ==> stoelen
+  25:    1  ->  poppenwagen ==> el
+  26:    1  ->  ruziemaken ==> teddi
+  27:    1  ->  schoenenwinkel ==> ver
+  28:    1  ->  schommelen ==> en
+  29:    1  ->  slaapkamer ==> acht
+  30:    1  ->  sneeuwwitje ==> washoudje
+  31:    1  ->  sprookjesboek ==> boa
+  32:    1  ->  tandenborstel ==> borstel
+  33:    1  ->  teddybeer ==> beer
+  34:    1  ->  toiletpapier ==> buurmanen
+  35:    1  ->  verjaardag ==> boek
+  36:    1  ->  vogelkooi ==> olifout
+  37:    1  ->  vrachtwagen ==> vogo
+  38:    1  ->  ziekenhuis ==> zikelas
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  auto
+   2:    1  ->  badden
+   3:    1  ->  en
+   4:    1  ->  fototostel
+   5:    1  ->  goura
+   6:    1  ->  hoek
+   7:    1  ->  knot
+   8:    1  ->  ko
+   9:    1  ->  konijnen
+  10:    1  ->  op
+  11:    1  ->  pop
+  12:    1  ->  popenwagen
+  13:    1  ->  popier
+  14:    1  ->  scgd
+  15:    1  ->  schoon
+  16:    1  ->  toalit
+  17:    1  ->  vrecht
+  18:    1  ->  wien
+  19:    1  ->  zolen
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  washandje
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    9  ->  *
+   2:    1  ->  *s
+   3:    1  ->  achterdeur
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  lucifer
+  14:    1  ->  nieuwsgierig
+  15:    1  ->  olifant
+  16:    1  ->  ophangen
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  schommelen
+  22:    1  ->  slaapkamer
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  verjaardag
+  29:    1  ->  vogelkooi
+  30:    1  ->  vrachtwagen
+  31:    1  ->  ziekenhuis
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  dan
+   2:    1  ->  acht
+   3:    1  ->  als
+   4:    1  ->  beer
+   5:    1  ->  boa
+   6:    1  ->  boek
+   7:    1  ->  borstel
+   8:    1  ->  buurmanen
+   9:    1  ->  de
+  10:    1  ->  den
+  11:    1  ->  el
+  12:    1  ->  en
+  13:    1  ->  focolade
+  14:    1  ->  girug
+  15:    1  ->  hea
+  16:    1  ->  heiden
+  17:    1  ->  hoiendeg
+  18:    1  ->  indelijk
+  19:    1  ->  jaardag
+  20:    1  ->  koi
+  21:    1  ->  luzi
+  22:    1  ->  maken
+  23:    1  ->  ngives
+  24:    1  ->  nihos
+  25:    1  ->  olifout
+  26:    1  ->  schomme
+  27:    1  ->  slaapkabels
+  28:    1  ->  sneewitje
+  29:    1  ->  sprokjus
+  30:    1  ->  stoelen
+  31:    1  ->  teddi
+  32:    1  ->  terdeur
+  33:    1  ->  tiekje
+  34:    1  ->  ver
+  35:    1  ->  vogo
+  36:    1  ->  waren
+  37:    1  ->  washoudje
+  38:    1  ->  zikelas
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.8%   (  67)
+
+Percent Correct           =    8.2%   (   6)
+
+Percent Substitution      =   67.1%   (  49)
+Percent Deletions         =   24.7%   (  18)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    8.2%
+
+
+Ref. words                =           (  73)
+Hyp. words                =           (  55)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  * ==> ho
+   2:    2  ->  * ==> k
+   3:    1  ->  * ==> es
+   4:    1  ->  * ==> hrust
+   5:    1  ->  * ==> j
+   6:    1  ->  * ==> jit
+   7:    1  ->  * ==> jols
+   8:    1  ->  * ==> ko
+   9:    1  ->  * ==> kuur
+  10:    1  ->  * ==> nuutnut
+  11:    1  ->  * ==> on
+  12:    1  ->  * ==> ook
+  13:    1  ->  * ==> pls
+  14:    1  ->  * ==> ra
+  15:    1  ->  * ==> s
+  16:    1  ->  * ==> snee
+  17:    1  ->  * ==> strat
+  18:    1  ->  * ==> t
+  19:    1  ->  * ==> us
+  20:    1  ->  * ==> zoug
+  21:    1  ->  *t ==> verind
+  22:    1  ->  *x ==> go
+  23:    1  ->  bang ==> int
+  24:    1  ->  chips ==> o
+  25:    1  ->  clown ==> le
+  26:    1  ->  duur ==> sse
+  27:    1  ->  eerst ==> heerst
+  28:    1  ->  groei ==> o
+  29:    1  ->  groen ==> goen
+  30:    1  ->  herfst ==> sa
+  31:    1  ->  herfst ==> si
+  32:    1  ->  hoek ==> k
+  33:    1  ->  knoop ==> gp
+  34:    1  ->  krant ==> at
+  35:    1  ->  leeuw ==> ger
+  36:    1  ->  muts ==> pard
+  37:    1  ->  neus ==> nes
+  38:    1  ->  nieuw ==> vers
+  39:    1  ->  oog*(hoog) ==> den
+  40:    1  ->  plank ==> lank
+  41:    1  ->  plas ==> sgoen
+  42:    1  ->  schoen ==> zoucht
+  43:    1  ->  sjaal ==> do
+  44:    1  ->  straat ==> al
+  45:    1  ->  strand ==> and
+  46:    1  ->  vijf*(vijs) ==> riri
+  47:    1  ->  zacht ==> hoog
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    9  ->  *
+   2:    1  ->  arm
+   3:    1  ->  draai
+   4:    1  ->  gauw
+   5:    1  ->  huis
+   6:    1  ->  jas
+   7:    1  ->  koe
+   8:    1  ->  paard
+   9:    1  ->  reis
+  10:    1  ->  vriend
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   22  ->  *
+   2:    2  ->  herfst
+   3:    1  ->  *t
+   4:    1  ->  *x
+   5:    1  ->  bang
+   6:    1  ->  chips
+   7:    1  ->  clown
+   8:    1  ->  duur
+   9:    1  ->  eerst
+  10:    1  ->  groei
+  11:    1  ->  groen
+  12:    1  ->  hoek
+  13:    1  ->  knoop
+  14:    1  ->  krant
+  15:    1  ->  leeuw
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  nieuw
+  19:    1  ->  oog*(hoog)
+  20:    1  ->  plank
+  21:    1  ->  plas
+  22:    1  ->  schoen
+  23:    1  ->  sjaal
+  24:    1  ->  straat
+  25:    1  ->  strand
+  26:    1  ->  vijf*(vijs)
+  27:    1  ->  zacht
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  k
+   2:    2  ->  ho
+   3:    2  ->  o
+   4:    1  ->  al
+   5:    1  ->  and
+   6:    1  ->  at
+   7:    1  ->  den
+   8:    1  ->  do
+   9:    1  ->  es
+  10:    1  ->  ger
+  11:    1  ->  go
+  12:    1  ->  goen
+  13:    1  ->  gp
+  14:    1  ->  heerst
+  15:    1  ->  hoog
+  16:    1  ->  hrust
+  17:    1  ->  int
+  18:    1  ->  j
+  19:    1  ->  jit
+  20:    1  ->  jols
+  21:    1  ->  ko
+  22:    1  ->  kuur
+  23:    1  ->  lank
+  24:    1  ->  le
+  25:    1  ->  nes
+  26:    1  ->  nuutnut
+  27:    1  ->  on
+  28:    1  ->  ook
+  29:    1  ->  pard
+  30:    1  ->  pls
+  31:    1  ->  ra
+  32:    1  ->  riri
+  33:    1  ->  s
+  34:    1  ->  sa
+  35:    1  ->  sgoen
+  36:    1  ->  si
+  37:    1  ->  snee
+  38:    1  ->  sse
+  39:    1  ->  strat
+  40:    1  ->  t
+  41:    1  ->  us
+  42:    1  ->  verind
+  43:    1  ->  vers
+  44:    1  ->  zoucht
+  45:    1  ->  zoug
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

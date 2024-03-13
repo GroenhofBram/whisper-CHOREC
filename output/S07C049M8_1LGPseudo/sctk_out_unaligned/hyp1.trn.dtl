@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  67)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   80.6%   (  54)
+Percent Deletions         =   19.4%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  67)
+Hyp. words                =           (  54)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  * ==> ba
+   2:    2  ->  * ==> van
+   3:    1  ->  * ==> and
+   4:    1  ->  * ==> ben
+   5:    1  ->  * ==> bla
+   6:    1  ->  * ==> bn
+   7:    1  ->  * ==> boer
+   8:    1  ->  * ==> dant
+   9:    1  ->  * ==> e
+  10:    1  ->  * ==> eek
+  11:    1  ->  * ==> en
+  12:    1  ->  * ==> gu
+  13:    1  ->  * ==> gun
+  14:    1  ->  * ==> hol
+  15:    1  ->  * ==> ieflier
+  16:    1  ->  * ==> ik
+  17:    1  ->  * ==> jeno
+  18:    1  ->  * ==> keg
+  19:    1  ->  * ==> laf
+  20:    1  ->  * ==> lig
+  21:    1  ->  * ==> o
+  22:    1  ->  * ==> slan
+  23:    1  ->  * ==> sper
+  24:    1  ->  * ==> vang
+  25:    1  ->  * ==> woud
+  26:    1  ->  * ==> één
+  27:    1  ->  *(blaarde) ==> tje
+  28:    1  ->  *(een) ==> eigelijk
+  29:    1  ->  *(nieuw) ==> gun
+  30:    1  ->  *(oor) ==> kt
+  31:    1  ->  *(schaft) ==> shaschra
+  32:    1  ->  doer*(boer) ==> g
+  33:    1  ->  dron*(doorn) ==> rik
+  34:    1  ->  fam*(fan) ==> rrook
+  35:    1  ->  frijk ==> hn
+  36:    1  ->  grek ==> schaft
+  37:    1  ->  guul ==> ba
+  38:    1  ->  haans ==> ans
+  39:    1  ->  heik ==> op
+  40:    1  ->  hoekt ==> de
+  41:    1  ->  leum ==> vit
+  42:    1  ->  noork ==> nil
+  43:    1  ->  plirt ==> zot
+  44:    1  ->  rachts ==> soi
+  45:    1  ->  roen ==> vanek
+  46:    1  ->  sjalt ==> hon
+  47:    1  ->  snaaf ==> door
+  48:    1  ->  spaai ==> luhm
+  49:    1  ->  stuid ==> t
+  50:    1  ->  swoers ==> s
+  51:    1  ->  vid ==> ne
+  52:    1  ->  zans*(zwans) ==> e
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  *
+   2:    2  ->  *(bouw)
+   3:    1  ->  ant
+   4:    1  ->  fook*(rook)
+   5:    1  ->  hool
+   6:    1  ->  larst
+   7:    1  ->  sooi
+   8:    1  ->  sprunt
+   9:    1  ->  vout
+  10:    1  ->  zwoei
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   28  ->  *
+   2:    1  ->  *(blaarde)
+   3:    1  ->  *(een)
+   4:    1  ->  *(nieuw)
+   5:    1  ->  *(oor)
+   6:    1  ->  *(schaft)
+   7:    1  ->  doer*(boer)
+   8:    1  ->  dron*(doorn)
+   9:    1  ->  fam*(fan)
+  10:    1  ->  frijk
+  11:    1  ->  grek
+  12:    1  ->  guul
+  13:    1  ->  haans
+  14:    1  ->  heik
+  15:    1  ->  hoekt
+  16:    1  ->  leum
+  17:    1  ->  noork
+  18:    1  ->  plirt
+  19:    1  ->  rachts
+  20:    1  ->  roen
+  21:    1  ->  sjalt
+  22:    1  ->  snaaf
+  23:    1  ->  spaai
+  24:    1  ->  stuid
+  25:    1  ->  swoers
+  26:    1  ->  vid
+  27:    1  ->  zans*(zwans)
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  ba
+   2:    2  ->  e
+   3:    2  ->  gun
+   4:    2  ->  van
+   5:    1  ->  and
+   6:    1  ->  ans
+   7:    1  ->  ben
+   8:    1  ->  bla
+   9:    1  ->  bn
+  10:    1  ->  boer
+  11:    1  ->  dant
+  12:    1  ->  de
+  13:    1  ->  door
+  14:    1  ->  eek
+  15:    1  ->  eigelijk
+  16:    1  ->  en
+  17:    1  ->  g
+  18:    1  ->  gu
+  19:    1  ->  hn
+  20:    1  ->  hol
+  21:    1  ->  hon
+  22:    1  ->  ieflier
+  23:    1  ->  ik
+  24:    1  ->  jeno
+  25:    1  ->  keg
+  26:    1  ->  kt
+  27:    1  ->  laf
+  28:    1  ->  lig
+  29:    1  ->  luhm
+  30:    1  ->  ne
+  31:    1  ->  nil
+  32:    1  ->  o
+  33:    1  ->  op
+  34:    1  ->  rik
+  35:    1  ->  rrook
+  36:    1  ->  s
+  37:    1  ->  schaft
+  38:    1  ->  shaschra
+  39:    1  ->  slan
+  40:    1  ->  soi
+  41:    1  ->  sper
+  42:    1  ->  t
+  43:    1  ->  tje
+  44:    1  ->  vanek
+  45:    1  ->  vang
+  46:    1  ->  vit
+  47:    1  ->  woud
+  48:    1  ->  zot
+  49:    1  ->  één
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

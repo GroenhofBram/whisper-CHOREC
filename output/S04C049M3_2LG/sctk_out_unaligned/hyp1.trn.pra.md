@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C049M3_2LG
+
+#### (S04C049M3_2LG-words)
+
+- Cor=54.5%	Sub=36.4%	Del=4.5%	Ins=4.5%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water |  |  | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | * | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder | liedje | potlood | fietsbel | vinger | dichtbij*(dichterbij) | meisje | * | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | en | vrouw | de | ogen | winkel | auto | schouders |  | ralkoning | moel | moeilijk | speelblaad | drinken |  | hooftpijnregen | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder | lietja | potloot | fiedsbel | inger | dichterbij | nesia | scha | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | cusen | eerste | cirpus | kleuren | voetbal | vlin |
+| EVAL |  | I | I | S | S |  |  |  | D | S | S |  | S |  | D | S |  |  |  |  |  |  | S | S | S | S | S | S | S |  |  |  |  |  |  |  |  |  | S |  | S |  |  | S |
+---
+
+---

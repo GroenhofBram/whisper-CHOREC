@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.7%   (  77)
+
+Percent Correct           =    1.3%   (   1)
+
+Percent Substitution      =   80.8%   (  63)
+Percent Deletions         =   17.9%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.3%
+
+
+Ref. words                =           (  78)
+Hyp. words                =           (  64)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    3  ->  *s ==> i
+   2:    2  ->  *s ==> ai
+   3:    2  ->  *s ==> e
+   4:    1  ->  * ==> eten
+   5:    1  ->  * ==> um
+   6:    1  ->  *s ==> amoste
+   7:    1  ->  *s ==> capi
+   8:    1  ->  *s ==> das
+   9:    1  ->  *s ==> eende
+  10:    1  ->  *s ==> gees
+  11:    1  ->  *s ==> gefaal
+  12:    1  ->  *s ==> gevicht
+  13:    1  ->  *s ==> ha
+  14:    1  ->  *s ==> hè
+  15:    1  ->  *s ==> ja
+  16:    1  ->  *s ==> maaruit
+  17:    1  ->  *s ==> neure
+  18:    1  ->  *s ==> nie
+  19:    1  ->  *s ==> po
+  20:    1  ->  *s ==> runste
+  21:    1  ->  *s ==> saren
+  22:    1  ->  *s ==> schotig
+  23:    1  ->  *s ==> selt
+  24:    1  ->  *s ==> sgng
+  25:    1  ->  *s ==> spreek
+  26:    1  ->  *s ==> tel
+  27:    1  ->  *s ==> vio
+  28:    1  ->  *s ==> voke
+  29:    1  ->  *s ==> waar
+  30:    1  ->  bepoud ==> subal
+  31:    1  ->  eemde ==> geld
+  32:    1  ->  erke ==> u
+  33:    1  ->  fiewon ==> bon
+  34:    1  ->  foetbans ==> hoe
+  35:    1  ->  gefouw ==> weg
+  36:    1  ->  grijnken ==> v
+  37:    1  ->  haweel ==> i
+  38:    1  ->  ijpo ==> p
+  39:    1  ->  kloeien ==> ouek
+  40:    1  ->  kneurem ==> staat
+  41:    1  ->  menuur ==> eer
+  42:    1  ->  milste ==> enkn
+  43:    1  ->  muider ==> a
+  44:    1  ->  oonste ==> vee
+  45:    1  ->  orstalk ==> i
+  46:    1  ->  prilsood ==> vooetpas
+  47:    1  ->  saarweng ==> genoeg
+  48:    1  ->  schielstaug ==> sstrenlin
+  49:    1  ->  spreikje ==> ier
+  50:    1  ->  strellen ==> an
+  51:    1  ->  ulen ==> ja
+  52:    1  ->  vawaai ==> et
+  53:    1  ->  veten ==> s
+  54:    1  ->  veten ==> wijn
+  55:    1  ->  veurder ==> scherstaag
+  56:    1  ->  vloender ==> made
+  57:    1  ->  vurpaand ==> ja
+  58:    1  ->  wooien ==> ollee
+  59:    1  ->  zwieten ==> sum
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    8  ->  *s
+   2:    1  ->  *
+   3:    1  ->  geutel
+   4:    1  ->  millen
+   5:    1  ->  schodig
+   6:    1  ->  vocil
+   7:    1  ->  walaan
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   31  ->  *s
+   2:    2  ->  *
+   3:    2  ->  veten
+   4:    1  ->  bepoud
+   5:    1  ->  eemde
+   6:    1  ->  erke
+   7:    1  ->  fiewon
+   8:    1  ->  foetbans
+   9:    1  ->  gefouw
+  10:    1  ->  grijnken
+  11:    1  ->  haweel
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  milste
+  17:    1  ->  muider
+  18:    1  ->  oonste
+  19:    1  ->  orstalk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  spreikje
+  24:    1  ->  strellen
+  25:    1  ->  ulen
+  26:    1  ->  vawaai
+  27:    1  ->  veurder
+  28:    1  ->  vloender
+  29:    1  ->  vurpaand
+  30:    1  ->  wooien
+  31:    1  ->  zwieten
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    5  ->  i
+   2:    3  ->  ja
+   3:    2  ->  ai
+   4:    2  ->  e
+   5:    1  ->  a
+   6:    1  ->  amoste
+   7:    1  ->  an
+   8:    1  ->  bon
+   9:    1  ->  capi
+  10:    1  ->  das
+  11:    1  ->  eende
+  12:    1  ->  eer
+  13:    1  ->  enkn
+  14:    1  ->  et
+  15:    1  ->  eten
+  16:    1  ->  gees
+  17:    1  ->  gefaal
+  18:    1  ->  geld
+  19:    1  ->  genoeg
+  20:    1  ->  gevicht
+  21:    1  ->  ha
+  22:    1  ->  hoe
+  23:    1  ->  hè
+  24:    1  ->  ier
+  25:    1  ->  maaruit
+  26:    1  ->  made
+  27:    1  ->  neure
+  28:    1  ->  nie
+  29:    1  ->  ollee
+  30:    1  ->  ouek
+  31:    1  ->  p
+  32:    1  ->  po
+  33:    1  ->  runste
+  34:    1  ->  s
+  35:    1  ->  saren
+  36:    1  ->  scherstaag
+  37:    1  ->  schotig
+  38:    1  ->  selt
+  39:    1  ->  sgng
+  40:    1  ->  spreek
+  41:    1  ->  sstrenlin
+  42:    1  ->  staat
+  43:    1  ->  subal
+  44:    1  ->  sum
+  45:    1  ->  tel
+  46:    1  ->  u
+  47:    1  ->  um
+  48:    1  ->  v
+  49:    1  ->  vee
+  50:    1  ->  vio
+  51:    1  ->  voke
+  52:    1  ->  vooetpas
+  53:    1  ->  waar
+  54:    1  ->  weg
+  55:    1  ->  wijn
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

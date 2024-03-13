@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.8%   (  10)
+
+Percent Correct           =   78.6%   (  33)
+
+Percent Substitution      =   21.4%   (   9)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   76.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  * ==> koninging
+   2:    1  ->  *(eerst) ==> eerst
+   3:    1  ->  auto ==> attel
+   4:    1  ->  cola ==> kola
+   5:    1  ->  dichtbij ==> bij
+   6:    1  ->  drogen ==> drongen
+   7:    1  ->  mevrouw ==> nrouw
+   8:    1  ->  schouders ==> schouder
+   9:    1  ->  vlinder ==> vliender
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  dicht
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  mevrouw
+   8:    1  ->  schouders
+   9:    1  ->  vlinder
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  attel
+   2:    1  ->  bij
+   3:    1  ->  drongen
+   4:    1  ->  eerst
+   5:    1  ->  kola
+   6:    1  ->  koninging
+   7:    1  ->  nrouw
+   8:    1  ->  schouder
+   9:    1  ->  vliender
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

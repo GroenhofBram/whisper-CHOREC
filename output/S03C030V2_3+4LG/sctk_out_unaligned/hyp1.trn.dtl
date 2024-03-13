@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.5%   (  25)
+
+Percent Correct           =   57.5%   (  23)
+
+Percent Substitution      =   40.0%   (  16)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =   20.0%   (   8)
+Percent Word Accuracy     =   37.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  47)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  achterdeur ==> echterdeur
+   2:    1  ->  elastiekje ==> ruzie
+   3:    1  ->  fototoestel ==> fototostel
+   4:    1  ->  iedereen ==> schonen
+   5:    1  ->  knutselen ==> knutsjelen
+   6:    1  ->  olifant ==> olifand
+   7:    1  ->  paddenstoelen ==> verstopperd
+   8:    1  ->  poppenwagen ==> koppenwagen
+   9:    1  ->  ruziemaken ==> maken
+  10:    1  ->  schoenenwinkel ==> winkel
+  11:    1  ->  sneeuwwitje ==> washandjesneeuwitje
+  12:    1  ->  sprookjesboek ==> sprookjesbook
+  13:    1  ->  teddybeer ==> dibbibeer
+  14:    1  ->  verstoppertje ==> je
+  15:    1  ->  vogelkooi ==> koai
+  16:    1  ->  washandje ==> kabauter
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  dereen
+   2:    1  ->  en
+   3:    1  ->  is
+   4:    1  ->  lastiekje
+   5:    1  ->  nu
+   6:    1  ->  stolen
+   7:    1  ->  vogel
+   8:    1  ->  wat
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  kabouter
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  achterdeur
+   2:    1  ->  elastiekje
+   3:    1  ->  fototoestel
+   4:    1  ->  iedereen
+   5:    1  ->  knutselen
+   6:    1  ->  olifant
+   7:    1  ->  paddenstoelen
+   8:    1  ->  poppenwagen
+   9:    1  ->  ruziemaken
+  10:    1  ->  schoenenwinkel
+  11:    1  ->  sneeuwwitje
+  12:    1  ->  sprookjesboek
+  13:    1  ->  teddybeer
+  14:    1  ->  verstoppertje
+  15:    1  ->  vogelkooi
+  16:    1  ->  washandje
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  dibbibeer
+   2:    1  ->  echterdeur
+   3:    1  ->  fototostel
+   4:    1  ->  je
+   5:    1  ->  kabauter
+   6:    1  ->  knutsjelen
+   7:    1  ->  koai
+   8:    1  ->  koppenwagen
+   9:    1  ->  maken
+  10:    1  ->  olifand
+  11:    1  ->  ruzie
+  12:    1  ->  schonen
+  13:    1  ->  sprookjesbook
+  14:    1  ->  verstopperd
+  15:    1  ->  washandjesneeuwitje
+  16:    1  ->  winkel
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.0%   (  31)
+
+Percent Correct           =   40.0%   (  20)
+
+Percent Substitution      =   52.0%   (  26)
+Percent Deletions         =    8.0%   (   4)
+Percent Insertions        =    2.0%   (   1)
+Percent Word Accuracy     =   38.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  47)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  * ==> chauffeur
+   2:    1  ->  * ==> dichtbij
+   3:    1  ->  * ==> dih
+   4:    1  ->  * ==> te
+   5:    1  ->  * ==> wen
+   6:    1  ->  *(kikker) ==> sirkish
+   7:    1  ->  appel ==> appal
+   8:    1  ->  circus ==> sierkis?
+   9:    1  ->  dichtbij ==> lieger
+  10:    1  ->  drinken ==> hoofd
+  11:    1  ->  eerste ==> kerstem
+  12:    1  ->  gooien*(ogen) ==> bougen
+  13:    1  ->  hoofdpijn ==> pijn
+  14:    1  ->  kleuren ==> luggen
+  15:    1  ->  koning ==> onkin
+  16:    1  ->  kussen ==> kushem
+  17:    1  ->  lawaai ==> semen
+  18:    1  ->  liedje*(liefste) ==> liefste
+  19:    1  ->  regen ==> klegen
+  20:    1  ->  scheuren ==> laway
+  21:    1  ->  schouders ==> schouwdurhs
+  22:    1  ->  sneeuwen ==> sneeuw
+  23:    1  ->  vuurwerk ==> wark
+  24:    1  ->  waarom ==> waarom?
+  25:    1  ->  water ==> watter
+  26:    1  ->  zwemmen ==> siv
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  derinker
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  vinger*(vlieger)
+   3:    1  ->  vlinder
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  *
+   2:    1  ->  *(kikker)
+   3:    1  ->  appel
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  drinken
+   7:    1  ->  eerste
+   8:    1  ->  gooien*(ogen)
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  koning
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje*(liefste)
+  15:    1  ->  regen
+  16:    1  ->  scheuren
+  17:    1  ->  schouders
+  18:    1  ->  sneeuwen
+  19:    1  ->  vuurwerk
+  20:    1  ->  waarom
+  21:    1  ->  water
+  22:    1  ->  zwemmen
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  appal
+   2:    1  ->  bougen
+   3:    1  ->  chauffeur
+   4:    1  ->  dichtbij
+   5:    1  ->  dih
+   6:    1  ->  hoofd
+   7:    1  ->  kerstem
+   8:    1  ->  klegen
+   9:    1  ->  kushem
+  10:    1  ->  laway
+  11:    1  ->  liefste
+  12:    1  ->  lieger
+  13:    1  ->  luggen
+  14:    1  ->  onkin
+  15:    1  ->  pijn
+  16:    1  ->  schouwdurhs
+  17:    1  ->  semen
+  18:    1  ->  sierkis?
+  19:    1  ->  sirkish
+  20:    1  ->  siv
+  21:    1  ->  sneeuw
+  22:    1  ->  te
+  23:    1  ->  waarom?
+  24:    1  ->  wark
+  25:    1  ->  watter
+  26:    1  ->  wen
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

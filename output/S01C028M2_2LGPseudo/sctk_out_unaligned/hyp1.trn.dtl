@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  46)
+
+Percent Correct           =    8.7%   (   4)
+
+Percent Substitution      =   89.1%   (  41)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    8.7%   (   4)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  49)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  * ==> geval
+   2:    1  ->  * ==> gu
+   3:    1  ->  * ==> nuin
+   4:    1  ->  * ==> schoddig
+   5:    1  ->  * ==> ustan
+   6:    1  ->  * ==> vlonder
+   7:    1  ->  bepoud ==> bebaald
+   8:    1  ->  eemde ==> inde
+   9:    1  ->  erke ==> arke
+  10:    1  ->  fiewon ==> feon
+  11:    1  ->  foetbans ==> scheel
+  12:    1  ->  geutel ==> sobel
+  13:    1  ->  grijnken ==> prilsot
+  14:    1  ->  haweel ==> hawel
+  15:    1  ->  hiffreeuw ==> hifri
+  16:    1  ->  ierpieuw ==> pil
+  17:    1  ->  ijpo ==> nuur
+  18:    1  ->  kloeien ==> lan
+  19:    1  ->  kneurem ==> kneren
+  20:    1  ->  menuur ==> sprek
+  21:    1  ->  millen ==> foki
+  22:    1  ->  milste ==> ur
+  23:    1  ->  muider ==> prea
+  24:    1  ->  nizung ==> verpent
+  25:    1  ->  oonste ==> staug
+  26:    1  ->  orponk ==> shoa
+  27:    1  ->  prilsood ==> mel
+  28:    1  ->  saarweng ==> sarwijn
+  29:    1  ->  schielstaug ==> v
+  30:    1  ->  schodig ==> epel
+  31:    1  ->  sjobel ==> hir
+  32:    1  ->  spreikje ==> je
+  33:    1  ->  ulen ==> arbon
+  34:    1  ->  vawaai ==> fawi
+  35:    1  ->  veurder*(voordeur) ==> kloan
+  36:    1  ->  vloender ==> voor
+  37:    1  ->  vocil ==> guta
+  38:    1  ->  vurpaand ==> va
+  39:    1  ->  walaan ==> walan
+  40:    1  ->  wooien ==> woen
+  41:    1  ->  zwieten ==> nedargrenken
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  gwiten
+   2:    1  ->  melan
+   3:    1  ->  onstan
+   4:    1  ->  voetbans
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  gefouw*(gevouw)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    6  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  geutel
+   8:    1  ->  grijnken
+   9:    1  ->  haweel
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orponk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  schodig
+  26:    1  ->  sjobel
+  27:    1  ->  spreikje
+  28:    1  ->  ulen
+  29:    1  ->  vawaai
+  30:    1  ->  veurder*(voordeur)
+  31:    1  ->  vloender
+  32:    1  ->  vocil
+  33:    1  ->  vurpaand
+  34:    1  ->  walaan
+  35:    1  ->  wooien
+  36:    1  ->  zwieten
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  arbon
+   2:    1  ->  arke
+   3:    1  ->  bebaald
+   4:    1  ->  epel
+   5:    1  ->  fawi
+   6:    1  ->  feon
+   7:    1  ->  foki
+   8:    1  ->  geval
+   9:    1  ->  gu
+  10:    1  ->  guta
+  11:    1  ->  hawel
+  12:    1  ->  hifri
+  13:    1  ->  hir
+  14:    1  ->  inde
+  15:    1  ->  je
+  16:    1  ->  kloan
+  17:    1  ->  kneren
+  18:    1  ->  lan
+  19:    1  ->  mel
+  20:    1  ->  nedargrenken
+  21:    1  ->  nuin
+  22:    1  ->  nuur
+  23:    1  ->  pil
+  24:    1  ->  prea
+  25:    1  ->  prilsot
+  26:    1  ->  sarwijn
+  27:    1  ->  scheel
+  28:    1  ->  schoddig
+  29:    1  ->  shoa
+  30:    1  ->  sobel
+  31:    1  ->  sprek
+  32:    1  ->  staug
+  33:    1  ->  ur
+  34:    1  ->  ustan
+  35:    1  ->  v
+  36:    1  ->  va
+  37:    1  ->  verpent
+  38:    1  ->  vlonder
+  39:    1  ->  voor
+  40:    1  ->  walan
+  41:    1  ->  woen
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

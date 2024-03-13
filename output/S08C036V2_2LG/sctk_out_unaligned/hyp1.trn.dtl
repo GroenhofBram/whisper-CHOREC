@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.0%   (  40)
+
+Percent Correct           =   18.6%   (   8)
+
+Percent Substitution      =   81.4%   (  35)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   11.6%   (   5)
+Percent Word Accuracy     =    7.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> atto
+   2:    1  ->  * ==> o
+   3:    1  ->  * ==> wilba
+   4:    1  ->  appel ==> appels
+   5:    1  ->  auto ==> s
+   6:    1  ->  chauffeur ==> ni
+   7:    1  ->  circus ==> heden
+   8:    1  ->  cola ==> kola
+   9:    1  ->  dichtbij ==> ghou
+  10:    1  ->  drinken ==> hoofdkuin
+  11:    1  ->  drogen ==> dromen
+  12:    1  ->  eerste*(eerst) ==> eerst
+  13:    1  ->  fietsbel ==> vijfendertig
+  14:    1  ->  gooien*(gooi) ==> gooi
+  15:    1  ->  hoofdpijn ==> renden
+  16:    1  ->  kleuren ==> leren?
+  17:    1  ->  koning*(koningin) ==> moeierk
+  18:    1  ->  kussen ==> kessen
+  19:    1  ->  liedje ==> fiet
+  20:    1  ->  meisje ==> vier
+  21:    1  ->  mevrouw*(merel) ==> nerel
+  22:    1  ->  moeilijk ==> ikaat
+  23:    1  ->  muziek ==> ziek
+  24:    1  ->  potlood ==> poei
+  25:    1  ->  regen*(rennen) ==> vligijr
+  26:    1  ->  scheuren*(schuren) ==> schiren
+  27:    1  ->  schouders ==> hoender
+  28:    1  ->  sneeuwen ==> neeuwwen
+  29:    1  ->  speelplaats ==> vinken
+  30:    1  ->  stoppen ==> em
+  31:    1  ->  vinger ==> mesje
+  32:    1  ->  vliegtuig ==> stop
+  33:    1  ->  vlinder ==> minder
+  34:    1  ->  vuurwerk ==> werk
+  35:    1  ->  waarom ==> waarom?
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  at
+   2:    1  ->  koningin
+   3:    1  ->  meitjes
+   4:    1  ->  potloot
+   5:    1  ->  vier
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  drinken
+   9:    1  ->  drogen
+  10:    1  ->  eerste*(eerst)
+  11:    1  ->  fietsbel
+  12:    1  ->  gooien*(gooi)
+  13:    1  ->  hoofdpijn
+  14:    1  ->  kleuren
+  15:    1  ->  koning*(koningin)
+  16:    1  ->  kussen
+  17:    1  ->  liedje
+  18:    1  ->  meisje
+  19:    1  ->  mevrouw*(merel)
+  20:    1  ->  moeilijk
+  21:    1  ->  muziek
+  22:    1  ->  potlood
+  23:    1  ->  regen*(rennen)
+  24:    1  ->  scheuren*(schuren)
+  25:    1  ->  schouders
+  26:    1  ->  sneeuwen
+  27:    1  ->  speelplaats
+  28:    1  ->  stoppen
+  29:    1  ->  vinger
+  30:    1  ->  vliegtuig
+  31:    1  ->  vlinder
+  32:    1  ->  vuurwerk
+  33:    1  ->  waarom
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  appels
+   2:    1  ->  atto
+   3:    1  ->  dromen
+   4:    1  ->  eerst
+   5:    1  ->  em
+   6:    1  ->  fiet
+   7:    1  ->  ghou
+   8:    1  ->  gooi
+   9:    1  ->  heden
+  10:    1  ->  hoender
+  11:    1  ->  hoofdkuin
+  12:    1  ->  ikaat
+  13:    1  ->  kessen
+  14:    1  ->  kola
+  15:    1  ->  leren?
+  16:    1  ->  mesje
+  17:    1  ->  minder
+  18:    1  ->  moeierk
+  19:    1  ->  neeuwwen
+  20:    1  ->  nerel
+  21:    1  ->  ni
+  22:    1  ->  o
+  23:    1  ->  poei
+  24:    1  ->  renden
+  25:    1  ->  s
+  26:    1  ->  schiren
+  27:    1  ->  stop
+  28:    1  ->  vier
+  29:    1  ->  vijfendertig
+  30:    1  ->  vinken
+  31:    1  ->  vligijr
+  32:    1  ->  waarom?
+  33:    1  ->  werk
+  34:    1  ->  wilba
+  35:    1  ->  ziek
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

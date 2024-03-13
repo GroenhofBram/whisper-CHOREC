@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  117.6%   (  60)
+
+Percent Correct           =   25.5%   (  13)
+
+Percent Substitution      =   72.5%   (  37)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =   43.1%   (  22)
+Percent Word Accuracy     =  -17.6%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  72)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  * ==> aa
+   2:    1  ->  * ==> buurman
+   3:    1  ->  * ==> een
+   4:    1  ->  * ==> hok
+   5:    1  ->  * ==> nit
+   6:    1  ->  * ==> oning
+   7:    1  ->  * ==> vorstop
+   8:    1  ->  * ==> vos
+   9:    1  ->  *(toilettenpapier) ==> ver
+  10:    1  ->  achterdeur ==> achterder
+  11:    1  ->  afblijven*(opblijven) ==> nee
+  12:    1  ->  buurmannen ==> e
+  13:    1  ->  dierentuin ==> paden
+  14:    1  ->  eindelijk*(eigenlijk) ==> fan
+  15:    1  ->  familie ==> milie
+  16:    1  ->  fototoestel ==> 't
+  17:    1  ->  iedereen ==> schone
+  18:    1  ->  kabouter ==> hoe
+  19:    1  ->  konijnenhok ==> konijnen
+  20:    1  ->  limonade ==> madede
+  21:    1  ->  lucifer ==> qfr
+  22:    1  ->  lucifer ==> zover
+  23:    1  ->  nieuwsgierig ==> runden
+  24:    1  ->  olifant ==> allefant
+  25:    1  ->  ophangen*(ophanging) ==> ophangen
+  26:    1  ->  paddenstoelen ==> stolen
+  27:    1  ->  poppenwagen ==> popenwargen
+  28:    1  ->  ruziemaken ==> dediber
+  29:    1  ->  schoenenwinkel ==> winkel
+  30:    1  ->  sneeuwwitje ==> ie
+  31:    1  ->  sprookjesboek ==> lus
+  32:    1  ->  tandenborstel ==> de
+  33:    1  ->  teddybeer ==> drenton
+  34:    1  ->  toiletpapier ==> vigt
+  35:    1  ->  verstoppertje ==> topperke
+  36:    1  ->  vrachtwagen ==> kwijgen
+  37:    1  ->  washandje*(washanden) ==> weet
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  wal
+   2:    1  ->  blijven
+   3:    1  ->  boek
+   4:    1  ->  borstel
+   5:    1  ->  eder
+   6:    1  ->  eigen
+   7:    1  ->  in
+   8:    1  ->  kaboter
+   9:    1  ->  lijk
+  10:    1  ->  maken
+  11:    1  ->  neten
+  12:    1  ->  nieuwsgris
+  13:    1  ->  nn
+  14:    1  ->  op
+  15:    1  ->  papier
+  16:    1  ->  ruzie
+  17:    1  ->  sprookjes
+  18:    1  ->  tanden
+  19:    1  ->  toestel
+  20:    1  ->  voto
+  21:    1  ->  was
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  *
+   2:    2  ->  lucifer
+   3:    1  ->  *(toilettenpapier)
+   4:    1  ->  achterdeur
+   5:    1  ->  afblijven*(opblijven)
+   6:    1  ->  buurmannen
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk*(eigenlijk)
+   9:    1  ->  familie
+  10:    1  ->  fototoestel
+  11:    1  ->  iedereen
+  12:    1  ->  kabouter
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  olifant
+  17:    1  ->  ophangen*(ophanging)
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  sprookjesboek
+  24:    1  ->  tandenborstel
+  25:    1  ->  teddybeer
+  26:    1  ->  toiletpapier
+  27:    1  ->  verstoppertje
+  28:    1  ->  vrachtwagen
+  29:    1  ->  washandje*(washanden)
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  't
+   2:    1  ->  aa
+   3:    1  ->  achterder
+   4:    1  ->  allefant
+   5:    1  ->  buurman
+   6:    1  ->  de
+   7:    1  ->  dediber
+   8:    1  ->  drenton
+   9:    1  ->  e
+  10:    1  ->  een
+  11:    1  ->  fan
+  12:    1  ->  hoe
+  13:    1  ->  hok
+  14:    1  ->  ie
+  15:    1  ->  konijnen
+  16:    1  ->  kwijgen
+  17:    1  ->  lus
+  18:    1  ->  madede
+  19:    1  ->  milie
+  20:    1  ->  nee
+  21:    1  ->  nit
+  22:    1  ->  oning
+  23:    1  ->  ophangen
+  24:    1  ->  paden
+  25:    1  ->  popenwargen
+  26:    1  ->  qfr
+  27:    1  ->  runden
+  28:    1  ->  schone
+  29:    1  ->  stolen
+  30:    1  ->  topperke
+  31:    1  ->  ver
+  32:    1  ->  vigt
+  33:    1  ->  vorstop
+  34:    1  ->  vos
+  35:    1  ->  weet
+  36:    1  ->  winkel
+  37:    1  ->  zover
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

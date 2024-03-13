@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C052M3_3+4LG
+
+#### (S02C052M3_3+4LG-words)
+
+- Cor=32.7%	Sub=43.6%	Del=0.0%	Ins=23.6%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien | poppenwagen | konijnenhok | elastiekje |  |  |  |  |  | ruziemaken | teddybeer | dierentuin | * | paddenstoelen | verstoppertje | wasmachine | fototoestel | * | toiletpapier | vrachtwagen | buurmannen |  | vogelkooi | olifant | schommelen | iedereen |  | schoenenwinkel | knutselen | ophangen | verjaardag | sprookjesboek |  |  | tandenborstel | lucifer | slaapkamer | achterdeur | ziekenhuis | nieuwsgierig |  |  | afblijven | kabouter | washandje | sneeuwwitje | goeiendag | vakantie |  |  | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | omdraaien | poppenwagen | konijnenhok | elastiekje | reuzie | maken | teddi | ber | diarentun | patde | s | patten | stoelen | verstopperdja | wasmachina | vat | tot | toestel | toilettentoilettenpapier | vrachtwargen | buurmannen | vogel | coy | olifant | schommelen | iedereen | schoenen | winkel | knutselen | ophangen | variarweg | sprookjesboek | tans | en | borstel | lziever | slaapkamer | achterder | ziekenhuis | nieuwsgierig | of | blijven | kawouter | was | handje | sneeuwwietje | goeiendag | vakantie | lio | manade | auto | rijden | eindelijk | familie | chocolad |
+| EVAL |  |  |  |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S |  | I | S |  |  |  | I | S |  |  | S |  | I | I | S | S |  | S |  |  | I | I | S | S | S | S |  |  | I | I | S | S |  |  | S |
+---
+
+---

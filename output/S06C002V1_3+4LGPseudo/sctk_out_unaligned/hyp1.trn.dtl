@@ -1,0 +1,253 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  187.5%   (  90)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  48)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   87.5%   (  42)
+Percent Word Accuracy     =  -87.5%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  90)
+Aligned words             =           (  90)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  * ==> ler
+   2:    1  ->  * ==> ma
+   3:    1  ->  * ==> mee
+   4:    1  ->  * ==> nuif
+   5:    1  ->  * ==> om
+   6:    1  ->  *(neer) ==> kan
+   7:    1  ->  *(rat) ==> toor
+   8:    1  ->  *s ==> lig
+   9:    1  ->  blottenduuf ==> le
+  10:    1  ->  choporatie ==> gaen
+  11:    1  ->  crobeklunker ==> won
+  12:    1  ->  deuveltek ==> zwem
+  13:    1  ->  fandelig ==> bah
+  14:    1  ->  gerauwejaak ==> rap
+  15:    1  ->  gevijdel ==> klimn
+  16:    1  ->  girdofhaalder ==> voor
+  17:    1  ->  hapeneren ==> rul
+  18:    1  ->  havedil ==> ge
+  19:    1  ->  ijraspangen ==> veel
+  20:    1  ->  jalekrewen ==> en
+  21:    1  ->  jattesiet ==> sno
+  22:    1  ->  juitonie ==> we
+  23:    1  ->  kabbestepen ==> rin
+  24:    1  ->  kanaroe ==> o
+  25:    1  ->  kantelogsten ==> toon
+  26:    1  ->  mantaroen*(mat) ==> nee
+  27:    1  ->  meitsegrok ==> pen
+  28:    1  ->  nappegreeuw ==> lieg
+  29:    1  ->  nurudien ==> wee
+  30:    1  ->  ometuif ==> neen
+  31:    1  ->  ondermind ==> hangengen
+  32:    1  ->  ooiebiekje ==> swep
+  33:    1  ->  oonwijlen ==> weg
+  34:    1  ->  poentalschouden ==> ja
+  35:    1  ->  schielendaspen ==> tun
+  36:    1  ->  sidowaan ==> wieg
+  37:    1  ->  smoralij ==> ritofran
+  38:    1  ->  spekkeraai ==> kan
+  39:    1  ->  stoenydaas ==> ja
+  40:    1  ->  tobbermoeit ==> kaptai
+  41:    1  ->  toejietsen ==> jan
+  42:    1  ->  toineetlijgen ==> me
+  43:    1  ->  verbrakkertje ==> vrouwjerk
+  44:    1  ->  verpierik ==> ton
+  45:    1  ->  verwarig ==> calte
+  46:    1  ->  wachteniek ==> ho
+  47:    1  ->  zeekvlachine ==> geem
+  48:    1  ->  zennebral ==> w
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  bank
+   2:    1  ->  der
+   3:    1  ->  doit
+   4:    1  ->  gi
+   5:    1  ->  i
+   6:    1  ->  ja
+   7:    1  ->  jan
+   8:    1  ->  jand
+   9:    1  ->  jas
+  10:    1  ->  je
+  11:    1  ->  jeels
+  12:    1  ->  lat
+  13:    1  ->  maar
+  14:    1  ->  mafwart
+  15:    1  ->  napv
+  16:    1  ->  neer
+  17:    1  ->  niet
+  18:    1  ->  nuur
+  19:    1  ->  o
+  20:    1  ->  oi
+  21:    1  ->  on
+  22:    1  ->  pri
+  23:    1  ->  rat
+  24:    1  ->  rui
+  25:    1  ->  sai
+  26:    1  ->  schiew
+  27:    1  ->  school
+  28:    1  ->  sda
+  29:    1  ->  spen
+  30:    1  ->  spreek
+  31:    1  ->  tambest
+  32:    1  ->  ties
+  33:    1  ->  toen
+  34:    1  ->  tos
+  35:    1  ->  van
+  36:    1  ->  veeld
+  37:    1  ->  verpriekik
+  38:    1  ->  vit
+  39:    1  ->  waar
+  40:    1  ->  wan
+  41:    1  ->  weeld
+  42:    1  ->  wn
+     -------
+        42
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    5  ->  *
+   2:    1  ->  *(neer)
+   3:    1  ->  *(rat)
+   4:    1  ->  *s
+   5:    1  ->  blottenduuf
+   6:    1  ->  choporatie
+   7:    1  ->  crobeklunker
+   8:    1  ->  deuveltek
+   9:    1  ->  fandelig
+  10:    1  ->  gerauwejaak
+  11:    1  ->  gevijdel
+  12:    1  ->  girdofhaalder
+  13:    1  ->  hapeneren
+  14:    1  ->  havedil
+  15:    1  ->  ijraspangen
+  16:    1  ->  jalekrewen
+  17:    1  ->  jattesiet
+  18:    1  ->  juitonie
+  19:    1  ->  kabbestepen
+  20:    1  ->  kanaroe
+  21:    1  ->  kantelogsten
+  22:    1  ->  mantaroen*(mat)
+  23:    1  ->  meitsegrok
+  24:    1  ->  nappegreeuw
+  25:    1  ->  nurudien
+  26:    1  ->  ometuif
+  27:    1  ->  ondermind
+  28:    1  ->  ooiebiekje
+  29:    1  ->  oonwijlen
+  30:    1  ->  poentalschouden
+  31:    1  ->  schielendaspen
+  32:    1  ->  sidowaan
+  33:    1  ->  smoralij
+  34:    1  ->  spekkeraai
+  35:    1  ->  stoenydaas
+  36:    1  ->  tobbermoeit
+  37:    1  ->  toejietsen
+  38:    1  ->  toineetlijgen
+  39:    1  ->  verbrakkertje
+  40:    1  ->  verpierik
+  41:    1  ->  verwarig
+  42:    1  ->  wachteniek
+  43:    1  ->  zeekvlachine
+  44:    1  ->  zennebral
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  ja
+   2:    2  ->  kan
+   3:    1  ->  bah
+   4:    1  ->  calte
+   5:    1  ->  en
+   6:    1  ->  gaen
+   7:    1  ->  ge
+   8:    1  ->  geem
+   9:    1  ->  hangengen
+  10:    1  ->  ho
+  11:    1  ->  jan
+  12:    1  ->  kaptai
+  13:    1  ->  klimn
+  14:    1  ->  le
+  15:    1  ->  ler
+  16:    1  ->  lieg
+  17:    1  ->  lig
+  18:    1  ->  ma
+  19:    1  ->  me
+  20:    1  ->  mee
+  21:    1  ->  nee
+  22:    1  ->  neen
+  23:    1  ->  nuif
+  24:    1  ->  o
+  25:    1  ->  om
+  26:    1  ->  pen
+  27:    1  ->  rap
+  28:    1  ->  rin
+  29:    1  ->  ritofran
+  30:    1  ->  rul
+  31:    1  ->  sno
+  32:    1  ->  swep
+  33:    1  ->  ton
+  34:    1  ->  toon
+  35:    1  ->  toor
+  36:    1  ->  tun
+  37:    1  ->  veel
+  38:    1  ->  voor
+  39:    1  ->  vrouwjerk
+  40:    1  ->  w
+  41:    1  ->  we
+  42:    1  ->  wee
+  43:    1  ->  weg
+  44:    1  ->  wieg
+  45:    1  ->  won
+  46:    1  ->  zwem
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

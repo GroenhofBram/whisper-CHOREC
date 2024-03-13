@@ -1,0 +1,97 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.0%   (   8)
+
+Percent Correct           =   80.0%   (  32)
+
+Percent Substitution      =   20.0%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   80.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  * ==> goeien
+   2:    1  ->  *(eerst) ==> eerst
+   3:    1  ->  kussen ==> cussen
+   4:    1  ->  liedje ==> lietje
+   5:    1  ->  moeder ==> moder
+   6:    1  ->  moeilijk ==> moeileuk
+   7:    1  ->  vinger ==> winger
+   8:    1  ->  vlinder ==> vlien
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  kussen
+   4:    1  ->  liedje
+   5:    1  ->  moeder
+   6:    1  ->  moeilijk
+   7:    1  ->  vinger
+   8:    1  ->  vlinder
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cussen
+   2:    1  ->  eerst
+   3:    1  ->  goeien
+   4:    1  ->  lietje
+   5:    1  ->  moder
+   6:    1  ->  moeileuk
+   7:    1  ->  vlien
+   8:    1  ->  winger
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

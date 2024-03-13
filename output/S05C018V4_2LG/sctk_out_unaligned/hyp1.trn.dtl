@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.9%   (  18)
+
+Percent Correct           =   58.1%   (  25)
+
+Percent Substitution      =   39.5%   (  17)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.1%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> da
+   2:    1  ->  * ==> lie
+   3:    1  ->  appel ==> apel
+   4:    1  ->  auto ==> autol
+   5:    1  ->  chauffeur ==> softer
+   6:    1  ->  circus ==> sesus
+   7:    1  ->  fietsbel ==> fietsbil
+   8:    1  ->  gooien ==> goegooien
+   9:    1  ->  koning ==> kooning
+  10:    1  ->  lawaai ==> lawai
+  11:    1  ->  liedje*(liedjes) ==> liedjes
+  12:    1  ->  moeilijk*(moeilijke) ==> moeilijke
+  13:    1  ->  potlood ==> potloot
+  14:    1  ->  scheuren ==> schuren
+  15:    1  ->  speelplaats ==> seelplaats
+  16:    1  ->  vlinder*(vinger) ==> vinger
+  17:    1  ->  voetbal ==> voetbouw
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  koning
+   9:    1  ->  lawaai
+  10:    1  ->  liedje*(liedjes)
+  11:    1  ->  moeilijk*(moeilijke)
+  12:    1  ->  potlood
+  13:    1  ->  scheuren
+  14:    1  ->  speelplaats
+  15:    1  ->  vlinder*(vinger)
+  16:    1  ->  voetbal
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  apel
+   2:    1  ->  autol
+   3:    1  ->  da
+   4:    1  ->  fietsbil
+   5:    1  ->  goegooien
+   6:    1  ->  kooning
+   7:    1  ->  lawai
+   8:    1  ->  lie
+   9:    1  ->  liedjes
+  10:    1  ->  moeilijke
+  11:    1  ->  potloot
+  12:    1  ->  schuren
+  13:    1  ->  seelplaats
+  14:    1  ->  sesus
+  15:    1  ->  softer
+  16:    1  ->  vinger
+  17:    1  ->  voetbouw
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

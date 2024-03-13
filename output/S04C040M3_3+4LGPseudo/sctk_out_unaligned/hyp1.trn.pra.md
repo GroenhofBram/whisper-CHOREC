@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C040M3_3+4LGPseudo
+
+#### (S04C040M3_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=67.1%	Del=0.0%	Ins=32.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | * | * | oonwijlen | jattesiet | nurudien | stoenydaas | * | * | * | deuveltek | juitonie | gevijdel | sidowaan | * | spekkeraai | wachteniek | * | verpierik | nappegreeuw | mantaroen | schielendaspen | crobeklunker | kabbestepen | verwarig*(verwarring) | * | ooiebiekje | fandelig | * | jalekrewen | smoralij | * | * | zeekvlachine | kanaroe | toineetlijgen | meitsegrok | kantelogsten | * | ondermind | choporatie | * | zennebral | ijraspangen | *s | blottenduuf | girdofhaalder | * | tobbermoeit | * | poentalschouden | havedil | * | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | omkijf | does | doedoest | ietste | ominn | e | iet | jurdin | toen | ja | ik | das | stoen | ja | jas | stoen | ja | de | vetek | utoniv | sev | vdenv | sevdoniv | in | pikr | spekr | wachttehniek | er | borbilik | na | tagrel | mentaron | schinen | daspen | kobik | munker | kakbis | depen | verwarring | verwarig | oh | ju | bikje | van | noni | van | nonic | jan | grewen | smoran | smorae | s | gik | vanargin | vau | a | e | meschrok | en | tehmoo | een | tegmoogsten | ondermint | soco | operatie | gi | senderbran | erg | spannen | h | den | buuf | greden | of | hangder | dober | not | bom | bomtanshouden | avenden | ververbekkertje | growsjacqu | ha | parn | ruyn |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

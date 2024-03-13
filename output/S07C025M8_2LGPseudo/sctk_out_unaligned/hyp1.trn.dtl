@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.0%   (  48)
+
+Percent Correct           =    8.0%   (   4)
+
+Percent Substitution      =   84.0%   (  42)
+Percent Deletions         =    8.0%   (   4)
+Percent Insertions        =    4.0%   (   2)
+Percent Word Accuracy     =    4.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  48)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> da
+   2:    1  ->  * ==> freew
+   3:    1  ->  * ==> hic
+   4:    1  ->  * ==> hich
+   5:    1  ->  * ==> mileen
+   6:    1  ->  * ==> nuidar
+   7:    1  ->  * ==> o
+   8:    1  ->  * ==> rei
+   9:    1  ->  * ==> schoondeg
+  10:    1  ->  * ==> spil
+  11:    1  ->  * ==> spree
+  12:    1  ->  * ==> spreken
+  13:    1  ->  * ==> wal
+  14:    1  ->  bepoud ==> oordstalk
+  15:    1  ->  eemde ==> bepaart
+  16:    1  ->  fiewon ==> ken
+  17:    1  ->  foetbans ==> oonst
+  18:    1  ->  gefouw ==> vuurpam
+  19:    1  ->  haweel ==> hambel
+  20:    1  ->  ijpo ==> oorpon
+  21:    1  ->  kloeien ==> nismilste
+  22:    1  ->  kneurem ==> va
+  23:    1  ->  menuur ==> eio-meneur
+  24:    1  ->  milste ==> spielsoort
+  25:    1  ->  nizung ==> ion
+  26:    1  ->  oonste ==> moet
+  27:    1  ->  orponk ==> kloyen
+  28:    1  ->  orstalk ==> vitten
+  29:    1  ->  saarweng ==> sarwijn
+  30:    1  ->  schodig ==> le
+  31:    1  ->  sjobel ==> eyerpaun
+  32:    1  ->  strellen ==> zweten
+  33:    1  ->  ulen ==> vuerte
+  34:    1  ->  vawaai ==> stre
+  35:    1  ->  veten*(vetten) ==> gefel
+  36:    1  ->  veurder ==> vlonder
+  37:    1  ->  vloender ==> schildstag
+  38:    1  ->  vocil ==> vohil
+  39:    1  ->  vurpaand ==> izen
+  40:    1  ->  walaan ==> en
+  41:    1  ->  wooien*(wonen) ==> wonen
+  42:    1  ->  zwieten ==> voetband
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  inde
+   2:    1  ->  sobel
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    3  ->  *
+   2:    1  ->  schielstaug
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:   13  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  haweel
+   8:    1  ->  ijpo
+   9:    1  ->  kloeien
+  10:    1  ->  kneurem
+  11:    1  ->  menuur
+  12:    1  ->  milste
+  13:    1  ->  nizung
+  14:    1  ->  oonste
+  15:    1  ->  orponk
+  16:    1  ->  orstalk
+  17:    1  ->  saarweng
+  18:    1  ->  schodig
+  19:    1  ->  sjobel
+  20:    1  ->  strellen
+  21:    1  ->  ulen
+  22:    1  ->  vawaai
+  23:    1  ->  veten*(vetten)
+  24:    1  ->  veurder
+  25:    1  ->  vloender
+  26:    1  ->  vocil
+  27:    1  ->  vurpaand
+  28:    1  ->  walaan
+  29:    1  ->  wooien*(wonen)
+  30:    1  ->  zwieten
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  bepaart
+   2:    1  ->  da
+   3:    1  ->  eio-meneur
+   4:    1  ->  en
+   5:    1  ->  eyerpaun
+   6:    1  ->  freew
+   7:    1  ->  gefel
+   8:    1  ->  hambel
+   9:    1  ->  hic
+  10:    1  ->  hich
+  11:    1  ->  ion
+  12:    1  ->  izen
+  13:    1  ->  ken
+  14:    1  ->  kloyen
+  15:    1  ->  le
+  16:    1  ->  mileen
+  17:    1  ->  moet
+  18:    1  ->  nismilste
+  19:    1  ->  nuidar
+  20:    1  ->  o
+  21:    1  ->  oonst
+  22:    1  ->  oordstalk
+  23:    1  ->  oorpon
+  24:    1  ->  rei
+  25:    1  ->  sarwijn
+  26:    1  ->  schildstag
+  27:    1  ->  schoondeg
+  28:    1  ->  spielsoort
+  29:    1  ->  spil
+  30:    1  ->  spree
+  31:    1  ->  spreken
+  32:    1  ->  stre
+  33:    1  ->  va
+  34:    1  ->  vitten
+  35:    1  ->  vlonder
+  36:    1  ->  voetband
+  37:    1  ->  vohil
+  38:    1  ->  vuerte
+  39:    1  ->  vuurpam
+  40:    1  ->  wal
+  41:    1  ->  wonen
+  42:    1  ->  zweten
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  24)
+
+Percent Correct           =   54.3%   (  25)
+
+Percent Substitution      =   41.3%   (  19)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =    6.5%   (   3)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  47)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  *x ==> chauffeur
+   2:    1  ->  * ==> eersta
+   3:    1  ->  * ==> liet
+   4:    1  ->  *x ==> jahè
+   5:    1  ->  *x ==> jé
+   6:    1  ->  *x ==> niet
+   7:    1  ->  cola ==> huurwerk
+   8:    1  ->  dichtbij ==> dichterbij
+   9:    1  ->  eerste ==> dussen
+  10:    1  ->  gooien ==> goeien
+  11:    1  ->  kussen ==> apecola
+  12:    1  ->  liedje ==> iop
+  13:    1  ->  potlood ==> potloot
+  14:    1  ->  scheuren ==> scheren
+  15:    1  ->  vinger ==> vinar
+  16:    1  ->  vlinder ==> blinder
+  17:    1  ->  waarom ==> waarom?
+  18:    1  ->  water ==> watter
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ik
+   2:    1  ->  lietiis
+   3:    1  ->  weet
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  appel
+   2:    1  ->  vuurwerk
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    5  ->  *x
+   2:    2  ->  *
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  eerste
+   6:    1  ->  gooien
+   7:    1  ->  kussen
+   8:    1  ->  liedje
+   9:    1  ->  potlood
+  10:    1  ->  scheuren
+  11:    1  ->  vinger
+  12:    1  ->  vlinder
+  13:    1  ->  waarom
+  14:    1  ->  water
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  chauffeur
+   2:    1  ->  apecola
+   3:    1  ->  blinder
+   4:    1  ->  dichterbij
+   5:    1  ->  dussen
+   6:    1  ->  eersta
+   7:    1  ->  goeien
+   8:    1  ->  huurwerk
+   9:    1  ->  iop
+  10:    1  ->  jahè
+  11:    1  ->  jé
+  12:    1  ->  liet
+  13:    1  ->  niet
+  14:    1  ->  potloot
+  15:    1  ->  scheren
+  16:    1  ->  vinar
+  17:    1  ->  waarom?
+  18:    1  ->  watter
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

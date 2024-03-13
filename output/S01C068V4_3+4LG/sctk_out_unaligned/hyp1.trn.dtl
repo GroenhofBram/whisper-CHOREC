@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   80.5%   (  33)
+
+Percent Correct           =   48.8%   (  20)
+
+Percent Substitution      =   48.8%   (  20)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   29.3%   (  12)
+Percent Word Accuracy     =   19.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  52)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  autorijden ==> outerijde
+   2:    1  ->  dierentuin ==> paddestoelen
+   3:    1  ->  elastiekje ==> taddi
+   4:    1  ->  fototoestel ==> toilet
+   5:    1  ->  goeiendag ==> dag
+   6:    1  ->  iedereen ==> schone
+   7:    1  ->  konijnenhok ==> maken
+   8:    1  ->  limonade ==> lemonade
+   9:    1  ->  lucifer ==> lusefer
+  10:    1  ->  paddenstoelen ==> voor
+  11:    1  ->  poppenwagen ==> ruzie
+  12:    1  ->  ruziemaken ==> bier
+  13:    1  ->  schoenenwinkel ==> winkel
+  14:    1  ->  sneeuwwitje ==> goeie
+  15:    1  ->  sprookjesboek ==> tanden
+  16:    1  ->  tandenborstel ==> borstel
+  17:    1  ->  teddybeer ==> dierentuyn
+  18:    1  ->  toiletpapier ==> papier
+  19:    1  ->  verstoppertje ==> stoppertjie
+  20:    1  ->  vogelkooi ==> koi
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  al
+   2:    1  ->  fotatoestel
+   3:    1  ->  hok
+   4:    1  ->  idereen
+   5:    1  ->  konijnen
+   6:    1  ->  lastikje
+   7:    1  ->  popen
+   8:    1  ->  snee
+   9:    1  ->  sprolkjesbok
+  10:    1  ->  vogal
+  11:    1  ->  waben
+  12:    1  ->  witje
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  autorijden
+   2:    1  ->  dierentuin
+   3:    1  ->  elastiekje
+   4:    1  ->  fototoestel
+   5:    1  ->  goeiendag
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  lucifer
+  10:    1  ->  paddenstoelen
+  11:    1  ->  poppenwagen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  sprookjesboek
+  16:    1  ->  tandenborstel
+  17:    1  ->  teddybeer
+  18:    1  ->  toiletpapier
+  19:    1  ->  verstoppertje
+  20:    1  ->  vogelkooi
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  bier
+   2:    1  ->  borstel
+   3:    1  ->  dag
+   4:    1  ->  dierentuyn
+   5:    1  ->  goeie
+   6:    1  ->  koi
+   7:    1  ->  lemonade
+   8:    1  ->  lusefer
+   9:    1  ->  maken
+  10:    1  ->  outerijde
+  11:    1  ->  paddestoelen
+  12:    1  ->  papier
+  13:    1  ->  ruzie
+  14:    1  ->  schone
+  15:    1  ->  stoppertjie
+  16:    1  ->  taddi
+  17:    1  ->  tanden
+  18:    1  ->  toilet
+  19:    1  ->  voor
+  20:    1  ->  winkel
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

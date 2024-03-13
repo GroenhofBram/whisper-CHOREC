@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   67.4%   (  29)
+
+Percent Correct           =   32.6%   (  14)
+
+Percent Substitution      =   67.4%   (  29)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   32.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> ak
+   2:    1  ->  * ==> rachs
+   3:    1  ->  * ==> zand
+   4:    1  ->  blard ==> lacht
+   5:    1  ->  dau ==> taal
+   6:    1  ->  dron ==> drom
+   7:    1  ->  fam ==> fan
+   8:    1  ->  fook ==> vork
+   9:    1  ->  haans ==> hend
+  10:    1  ->  jien ==> hien
+  11:    1  ->  keng ==> ken
+  12:    1  ->  larst ==> narst
+  13:    1  ->  leum ==> leun
+  14:    1  ->  neeuw ==> neel
+  15:    1  ->  noork ==> noord
+  16:    1  ->  plirt ==> lit
+  17:    1  ->  rachts ==> rachs
+  18:    1  ->  roen ==> groen
+  19:    1  ->  schard ==> schart
+  20:    1  ->  sooi ==> sory
+  21:    1  ->  sprieuw ==> spriel
+  22:    1  ->  sprunt ==> sprint
+  23:    1  ->  stuid ==> stuit
+  24:    1  ->  swoers ==> soers
+  25:    1  ->  vaap ==> zaap
+  26:    1  ->  vid ==> vit
+  27:    1  ->  vout ==> vaut
+  28:    1  ->  zans ==> zand
+  29:    1  ->  zwoei ==> zoi
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  dron
+   5:    1  ->  fam
+   6:    1  ->  fook
+   7:    1  ->  haans
+   8:    1  ->  jien
+   9:    1  ->  keng
+  10:    1  ->  larst
+  11:    1  ->  leum
+  12:    1  ->  neeuw
+  13:    1  ->  noork
+  14:    1  ->  plirt
+  15:    1  ->  rachts
+  16:    1  ->  roen
+  17:    1  ->  schard
+  18:    1  ->  sooi
+  19:    1  ->  sprieuw
+  20:    1  ->  sprunt
+  21:    1  ->  stuid
+  22:    1  ->  swoers
+  23:    1  ->  vaap
+  24:    1  ->  vid
+  25:    1  ->  vout
+  26:    1  ->  zans
+  27:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  rachs
+   2:    2  ->  zand
+   3:    1  ->  ak
+   4:    1  ->  drom
+   5:    1  ->  fan
+   6:    1  ->  groen
+   7:    1  ->  hend
+   8:    1  ->  hien
+   9:    1  ->  ken
+  10:    1  ->  lacht
+  11:    1  ->  leun
+  12:    1  ->  lit
+  13:    1  ->  narst
+  14:    1  ->  neel
+  15:    1  ->  noord
+  16:    1  ->  schart
+  17:    1  ->  soers
+  18:    1  ->  sory
+  19:    1  ->  spriel
+  20:    1  ->  sprint
+  21:    1  ->  stuit
+  22:    1  ->  taal
+  23:    1  ->  vaut
+  24:    1  ->  vit
+  25:    1  ->  vork
+  26:    1  ->  zaap
+  27:    1  ->  zoi
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

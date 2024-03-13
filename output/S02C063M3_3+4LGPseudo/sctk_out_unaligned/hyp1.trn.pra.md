@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C063M3_3+4LGPseudo
+
+#### (S02C063M3_3+4LGPseudo-words)
+
+- Cor=3.8%	Sub=72.2%	Del=0.0%	Ins=24.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | * | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | * | * | * | nappegreeuw | mantaroen | schielendaspen | crobeklunker | * | kabbestepen | verwarig | * | ooiebiekje | fandelig | * | * | * | jalekrewen | smoralij | * | * | zeekvlachine | kanaroe | toineetlijgen | meitsegrok | * | kantelogsten | ondermind |  |  |  | choporatie | * | zennebral | * | ijraspangen | blottenduuf | girdofhaalder | * | *x | *x | tobbermoeit | * | poentalschouden | * | havedil |  | verbrakkertje | * | gerauwejaak | hapeneren |
+| HYP1 | ometde | touice | onwillen | j | ad | dusseen | ne | dien | stonitas | defels | dek | getoni | gev | ferdv | siv | dov | emv | spekeraiv | wahteneek | verperik | nape | napegreew | mantaron | schelendaspen | oekr | kabes | teppen | verwarrig | o | biku | van | derlic | ja | jale | k | ja | halde | kre | wen | smoralle | ze | ik | ziik | v | lag | geen | canarou | ko | nit | leggen | met | e | rok | kante | en | ondermind | soporati | sé | sé | ne | fra | ero | es | pangen | plotten | bief | geerdof | valde | tbermtobber | moit | poln | tals | souden | havedil | verbrakken | etje | gerae | ak | hapeneren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S | S |  |
+---
+
+---

@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   72.5%   (  29)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  cola ==> kola
+   2:    1  ->  drinken ==> dinken
+   3:    1  ->  fietsbel ==> vietspel
+   4:    1  ->  kussen ==> bussen
+   5:    1  ->  liedje ==> lietje
+   6:    1  ->  potlood ==> poplord
+   7:    1  ->  sneeuwen ==> smeeuwen
+   8:    1  ->  verhaal ==> varaal
+   9:    1  ->  vuurwerk ==> vurwerk
+  10:    1  ->  waarom ==> waron
+  11:    1  ->  water ==> watter?
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  cola
+   2:    1  ->  drinken
+   3:    1  ->  fietsbel
+   4:    1  ->  kussen
+   5:    1  ->  liedje
+   6:    1  ->  potlood
+   7:    1  ->  sneeuwen
+   8:    1  ->  verhaal
+   9:    1  ->  vuurwerk
+  10:    1  ->  waarom
+  11:    1  ->  water
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bussen
+   2:    1  ->  dinken
+   3:    1  ->  kola
+   4:    1  ->  lietje
+   5:    1  ->  poplord
+   6:    1  ->  smeeuwen
+   7:    1  ->  varaal
+   8:    1  ->  vietspel
+   9:    1  ->  vurwerk
+  10:    1  ->  waron
+  11:    1  ->  watter?
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

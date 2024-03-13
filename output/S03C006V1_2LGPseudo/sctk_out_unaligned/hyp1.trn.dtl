@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  61)
+
+Percent Correct           =    1.6%   (   1)
+
+Percent Substitution      =   73.8%   (  45)
+Percent Deletions         =   24.6%   (  15)
+Percent Insertions        =    1.6%   (   1)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  61)
+Hyp. words                =           (  47)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> ne
+   2:    1  ->  * ==> sopen
+   3:    1  ->  *s ==> dorte
+   4:    1  ->  *s ==> empo
+   5:    1  ->  *s ==> erte
+   6:    1  ->  *s ==> grenken
+   7:    1  ->  *s ==> ievreel
+   8:    1  ->  *s ==> jesal
+   9:    1  ->  *s ==> lere
+  10:    1  ->  *s ==> n
+  11:    1  ->  *s ==> ne
+  12:    1  ->  *s ==> neveen
+  13:    1  ->  *s ==> orstel
+  14:    1  ->  *s ==> sarwen
+  15:    1  ->  *s ==> sawa
+  16:    1  ->  *s ==> striikje
+  17:    1  ->  *s ==> uh
+  18:    1  ->  *s ==> uhm
+  19:    1  ->  *s ==> voema
+  20:    1  ->  *s ==> weet
+  21:    1  ->  *s ==> woen
+  22:    1  ->  *t ==> git
+  23:    1  ->  *t ==> ierpi
+  24:    1  ->  *t ==> rold
+  25:    1  ->  fiewon ==> weel
+  26:    1  ->  foetbans ==> zipte
+  27:    1  ->  geutel ==> el
+  28:    1  ->  ijpo ==> vortin
+  29:    1  ->  kneurem ==> is
+  30:    1  ->  menuur ==> schoordi
+  31:    1  ->  millen ==> vatien
+  32:    1  ->  milste*(middelste) ==> meder
+  33:    1  ->  muider ==> fewoon
+  34:    1  ->  oonste ==> neerda
+  35:    1  ->  orponk ==> veerde
+  36:    1  ->  prilsood ==> u
+  37:    1  ->  schodig ==> kloen
+  38:    1  ->  sjobel ==> vo
+  39:    1  ->  spreikje ==> meneer
+  40:    1  ->  strellen ==> vlieht
+  41:    1  ->  ulen ==> voordeer
+  42:    1  ->  vawaai ==> een
+  43:    1  ->  veurder ==> hielsta
+  44:    1  ->  vloender ==> hote
+  45:    1  ->  zwieten ==> pou
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  u
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    7  ->  *s
+   2:    1  ->  *t
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  haweel
+   6:    1  ->  nizung
+   7:    1  ->  orstalk
+   8:    1  ->  veten*(vetten)
+   9:    1  ->  vurpaand
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   19  ->  *s
+   2:    3  ->  *t
+   3:    2  ->  *
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  geutel
+   7:    1  ->  ijpo
+   8:    1  ->  kneurem
+   9:    1  ->  menuur
+  10:    1  ->  millen
+  11:    1  ->  milste*(middelste)
+  12:    1  ->  muider
+  13:    1  ->  oonste
+  14:    1  ->  orponk
+  15:    1  ->  prilsood
+  16:    1  ->  schodig
+  17:    1  ->  sjobel
+  18:    1  ->  spreikje
+  19:    1  ->  strellen
+  20:    1  ->  ulen
+  21:    1  ->  vawaai
+  22:    1  ->  veurder
+  23:    1  ->  vloender
+  24:    1  ->  zwieten
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  ne
+   2:    1  ->  dorte
+   3:    1  ->  een
+   4:    1  ->  el
+   5:    1  ->  empo
+   6:    1  ->  erte
+   7:    1  ->  fewoon
+   8:    1  ->  git
+   9:    1  ->  grenken
+  10:    1  ->  hielsta
+  11:    1  ->  hote
+  12:    1  ->  ierpi
+  13:    1  ->  ievreel
+  14:    1  ->  is
+  15:    1  ->  jesal
+  16:    1  ->  kloen
+  17:    1  ->  lere
+  18:    1  ->  meder
+  19:    1  ->  meneer
+  20:    1  ->  n
+  21:    1  ->  neerda
+  22:    1  ->  neveen
+  23:    1  ->  orstel
+  24:    1  ->  pou
+  25:    1  ->  rold
+  26:    1  ->  sarwen
+  27:    1  ->  sawa
+  28:    1  ->  schoordi
+  29:    1  ->  sopen
+  30:    1  ->  striikje
+  31:    1  ->  u
+  32:    1  ->  uh
+  33:    1  ->  uhm
+  34:    1  ->  vatien
+  35:    1  ->  veerde
+  36:    1  ->  vlieht
+  37:    1  ->  vo
+  38:    1  ->  voema
+  39:    1  ->  voordeer
+  40:    1  ->  vortin
+  41:    1  ->  weel
+  42:    1  ->  weet
+  43:    1  ->  woen
+  44:    1  ->  zipte
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

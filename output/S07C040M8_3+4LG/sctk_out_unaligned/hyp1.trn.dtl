@@ -1,0 +1,259 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  127.9%   (  87)
+
+Percent Correct           =    4.4%   (   3)
+
+Percent Substitution      =   95.6%   (  65)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   32.4%   (  22)
+Percent Word Accuracy     =  -27.9%
+
+
+Ref. words                =           (  68)
+Hyp. words                =           (  90)
+Aligned words             =           (  90)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> badden
+   3:    1  ->  * ==> burenen
+   4:    1  ->  * ==> dagijn
+   5:    1  ->  * ==> e
+   6:    1  ->  * ==> gerig
+   7:    1  ->  * ==> goeiedag
+   8:    1  ->  * ==> ie
+   9:    1  ->  * ==> kabauter
+  10:    1  ->  * ==> kin
+  11:    1  ->  * ==> len
+  12:    1  ->  * ==> ollifand
+  13:    1  ->  * ==> s
+  14:    1  ->  * ==> schoenen
+  15:    1  ->  * ==> schoom
+  16:    1  ->  * ==> sla
+  17:    1  ->  * ==> stel
+  18:    1  ->  * ==> stnetje
+  19:    1  ->  * ==> stoel
+  20:    1  ->  * ==> t
+  21:    1  ->  * ==> toletpabeg
+  22:    1  ->  * ==> verstopportje
+  23:    1  ->  * ==> vier
+  24:    1  ->  * ==> voacht
+  25:    1  ->  * ==> vogelboy
+  26:    1  ->  * ==> wagen
+  27:    1  ->  * ==> weg
+  28:    1  ->  * ==> xx
+  29:    1  ->  achterdeur ==> ziekenuis
+  30:    1  ->  afblijven ==> ka
+  31:    1  ->  autorijden ==> in
+  32:    1  ->  buurmannen ==> koo
+  33:    1  ->  chocolade ==> chocolal
+  34:    1  ->  dierentuin ==> machina
+  35:    1  ->  eindelijk ==> deluk
+  36:    1  ->  elastiekje*(elastiekjes) ==> diber
+  37:    1  ->  fototoestel ==> één
+  38:    1  ->  goeiendag ==> vakante
+  39:    1  ->  iedereen ==> winkel
+  40:    1  ->  kabouter ==> was
+  41:    1  ->  knutselen ==> kenitselen
+  42:    1  ->  konijnenhok ==> de
+  43:    1  ->  limonade ==> autoredden
+  44:    1  ->  lucifer ==> un
+  45:    1  ->  olifant ==> len
+  46:    1  ->  omdraaien ==> te
+  47:    1  ->  paddenstoelen ==> fototostel
+  48:    1  ->  poppenwagen ==> de
+  49:    1  ->  ruziemaken ==> dientaan
+  50:    1  ->  schoenenwinkel ==> kn
+  51:    1  ->  schommelen ==> i
+  52:    1  ->  slaapkamer ==> ahdedug
+  53:    1  ->  sneeuwwitje ==> hoe
+  54:    1  ->  sprookjesboek ==> kior
+  55:    1  ->  tandenborstel ==> iis
+  56:    1  ->  teddybeer ==> was
+  57:    1  ->  toiletpapier ==> vo
+  58:    1  ->  vakantie ==> lenada
+  59:    1  ->  verjaardag ==> l
+  60:    1  ->  verstoppertje ==> to
+  61:    1  ->  vogelkooi ==> mel
+  62:    1  ->  vrachtwagen ==> u
+  63:    1  ->  washandje ==> hantje
+  64:    1  ->  wasmachine ==> tot
+  65:    1  ->  ziekenhuis ==> new
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  o
+   2:    1  ->  blejven
+   3:    1  ->  boek
+   4:    1  ->  dan
+   5:    1  ->  de
+   6:    1  ->  den
+   7:    1  ->  diekes
+   8:    1  ->  en
+   9:    1  ->  hok
+  10:    1  ->  keeffor
+  11:    1  ->  las
+  12:    1  ->  lig
+  13:    1  ->  of
+  14:    1  ->  op
+  15:    1  ->  reyen
+  16:    1  ->  sprokees
+  17:    1  ->  stil
+  18:    1  ->  vegjaardag
+  19:    1  ->  warn
+  20:    1  ->  wor
+  21:    1  ->  ziemaken
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   28  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje*(elastiekjes)
+  10:    1  ->  fototoestel
+  11:    1  ->  goeiendag
+  12:    1  ->  iedereen
+  13:    1  ->  kabouter
+  14:    1  ->  knutselen
+  15:    1  ->  konijnenhok
+  16:    1  ->  limonade
+  17:    1  ->  lucifer
+  18:    1  ->  olifant
+  19:    1  ->  omdraaien
+  20:    1  ->  paddenstoelen
+  21:    1  ->  poppenwagen
+  22:    1  ->  ruziemaken
+  23:    1  ->  schoenenwinkel
+  24:    1  ->  schommelen
+  25:    1  ->  slaapkamer
+  26:    1  ->  sneeuwwitje
+  27:    1  ->  sprookjesboek
+  28:    1  ->  tandenborstel
+  29:    1  ->  teddybeer
+  30:    1  ->  toiletpapier
+  31:    1  ->  vakantie
+  32:    1  ->  verjaardag
+  33:    1  ->  verstoppertje
+  34:    1  ->  vogelkooi
+  35:    1  ->  vrachtwagen
+  36:    1  ->  washandje
+  37:    1  ->  wasmachine
+  38:    1  ->  ziekenhuis
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    2  ->  de
+   2:    2  ->  len
+   3:    2  ->  was
+   4:    1  ->  a
+   5:    1  ->  ahdedug
+   6:    1  ->  autoredden
+   7:    1  ->  badden
+   8:    1  ->  burenen
+   9:    1  ->  chocolal
+  10:    1  ->  dagijn
+  11:    1  ->  deluk
+  12:    1  ->  diber
+  13:    1  ->  dientaan
+  14:    1  ->  e
+  15:    1  ->  fototostel
+  16:    1  ->  gerig
+  17:    1  ->  goeiedag
+  18:    1  ->  hantje
+  19:    1  ->  hoe
+  20:    1  ->  i
+  21:    1  ->  ie
+  22:    1  ->  iis
+  23:    1  ->  in
+  24:    1  ->  ka
+  25:    1  ->  kabauter
+  26:    1  ->  kenitselen
+  27:    1  ->  kin
+  28:    1  ->  kior
+  29:    1  ->  kn
+  30:    1  ->  koo
+  31:    1  ->  l
+  32:    1  ->  lenada
+  33:    1  ->  machina
+  34:    1  ->  mel
+  35:    1  ->  new
+  36:    1  ->  ollifand
+  37:    1  ->  s
+  38:    1  ->  schoenen
+  39:    1  ->  schoom
+  40:    1  ->  sla
+  41:    1  ->  stel
+  42:    1  ->  stnetje
+  43:    1  ->  stoel
+  44:    1  ->  t
+  45:    1  ->  te
+  46:    1  ->  to
+  47:    1  ->  toletpabeg
+  48:    1  ->  tot
+  49:    1  ->  u
+  50:    1  ->  un
+  51:    1  ->  vakante
+  52:    1  ->  verstopportje
+  53:    1  ->  vier
+  54:    1  ->  vo
+  55:    1  ->  voacht
+  56:    1  ->  vogelboy
+  57:    1  ->  wagen
+  58:    1  ->  weg
+  59:    1  ->  winkel
+  60:    1  ->  xx
+  61:    1  ->  ziekenuis
+  62:    1  ->  één
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

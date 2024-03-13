@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.5%   (   9)
+
+Percent Correct           =   77.5%   (  31)
+
+Percent Substitution      =   22.5%   (   9)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   77.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  dichtbij ==> dichttbij
+   2:    1  ->  gooien ==> goljen
+   3:    1  ->  kussen ==> kussel
+   4:    1  ->  mevrouw ==> mevroal
+   5:    1  ->  moeder ==> nogder
+   6:    1  ->  potlood ==> potloot
+   7:    1  ->  sneeuwen ==> smijlen
+   8:    1  ->  vlinder ==> vlimner
+   9:    1  ->  winkel ==> winto
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  dichtbij
+   2:    1  ->  gooien
+   3:    1  ->  kussen
+   4:    1  ->  mevrouw
+   5:    1  ->  moeder
+   6:    1  ->  potlood
+   7:    1  ->  sneeuwen
+   8:    1  ->  vlinder
+   9:    1  ->  winkel
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  dichttbij
+   2:    1  ->  goljen
+   3:    1  ->  kussel
+   4:    1  ->  mevroal
+   5:    1  ->  nogder
+   6:    1  ->  potloot
+   7:    1  ->  smijlen
+   8:    1  ->  vlimner
+   9:    1  ->  winto
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

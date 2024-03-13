@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   76.6%   (  36)
+
+Percent Correct           =   23.4%   (  11)
+
+Percent Substitution      =   72.3%   (  34)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   23.4%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  45)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> fa
+   3:    1  ->  * ==> hookt
+   4:    1  ->  * ==> rach
+   5:    1  ->  * ==> sjon
+   6:    1  ->  *(nieuw) ==> niew
+   7:    1  ->  ant ==> and
+   8:    1  ->  blard ==> lart
+   9:    1  ->  dau ==> da
+  10:    1  ->  dron ==> drom
+  11:    1  ->  eem ==> éém
+  12:    1  ->  fam ==> fan
+  13:    1  ->  frijk ==> frek
+  14:    1  ->  haans ==> hans
+  15:    1  ->  heik ==> hek
+  16:    1  ->  hool ==> hol
+  17:    1  ->  jien ==> ji
+  18:    1  ->  leum ==> m
+  19:    1  ->  neeuw ==> nijl
+  20:    1  ->  noork ==> nork
+  21:    1  ->  plirt ==> leert
+  22:    1  ->  roen ==> groen
+  23:    1  ->  schard ==> schart
+  24:    1  ->  sjalt ==> schild
+  25:    1  ->  spaai ==> spai
+  26:    1  ->  sprieuw ==> spriel
+  27:    1  ->  sprunt ==> tprunt
+  28:    1  ->  stuid ==> stuit
+  29:    1  ->  swoers ==> hoers
+  30:    1  ->  vaap ==> fap
+  31:    1  ->  vid ==> vit
+  32:    1  ->  vout ==> fout
+  33:    1  ->  zans ==> san
+  34:    1  ->  zwoei ==> swo
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  hoekt
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  *
+   2:    1  ->  *(nieuw)
+   3:    1  ->  ant
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  dron
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  frijk
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  leum
+  15:    1  ->  neeuw
+  16:    1  ->  noork
+  17:    1  ->  plirt
+  18:    1  ->  roen
+  19:    1  ->  schard
+  20:    1  ->  sjalt
+  21:    1  ->  spaai
+  22:    1  ->  sprieuw
+  23:    1  ->  sprunt
+  24:    1  ->  stuid
+  25:    1  ->  swoers
+  26:    1  ->  vaap
+  27:    1  ->  vid
+  28:    1  ->  vout
+  29:    1  ->  zans
+  30:    1  ->  zwoei
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  and
+   2:    1  ->  da
+   3:    1  ->  de
+   4:    1  ->  drom
+   5:    1  ->  fa
+   6:    1  ->  fan
+   7:    1  ->  fap
+   8:    1  ->  fout
+   9:    1  ->  frek
+  10:    1  ->  groen
+  11:    1  ->  hans
+  12:    1  ->  hek
+  13:    1  ->  hoers
+  14:    1  ->  hol
+  15:    1  ->  hookt
+  16:    1  ->  ji
+  17:    1  ->  lart
+  18:    1  ->  leert
+  19:    1  ->  m
+  20:    1  ->  niew
+  21:    1  ->  nijl
+  22:    1  ->  nork
+  23:    1  ->  rach
+  24:    1  ->  san
+  25:    1  ->  schart
+  26:    1  ->  schild
+  27:    1  ->  sjon
+  28:    1  ->  spai
+  29:    1  ->  spriel
+  30:    1  ->  stuit
+  31:    1  ->  swo
+  32:    1  ->  tprunt
+  33:    1  ->  vit
+  34:    1  ->  éém
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

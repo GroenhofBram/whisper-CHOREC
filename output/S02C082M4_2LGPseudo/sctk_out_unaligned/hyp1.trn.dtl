@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  117.1%   (  48)
+
+Percent Correct           =    4.9%   (   2)
+
+Percent Substitution      =   95.1%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   22.0%   (   9)
+Percent Word Accuracy     =  -17.1%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  50)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> ordstalk
+   2:    1  ->  * ==> scheelstaag
+   3:    1  ->  * ==> siobbel
+   4:    1  ->  bepoud ==> bebouwd
+   5:    1  ->  eemde ==> inder
+   6:    1  ->  erke ==> erkas
+   7:    1  ->  fiewon ==> strillen
+   8:    1  ->  foetbans ==> da
+   9:    1  ->  gefouw ==> me
+  10:    1  ->  geutel ==> g<unk>tel
+  11:    1  ->  gevicht ==> gewicht
+  12:    1  ->  grijnken ==> sch
+  13:    1  ->  haweel ==> hanleel
+  14:    1  ->  hiffreeuw ==> veri
+  15:    1  ->  ierpieuw ==> ierbi
+  16:    1  ->  ijpo ==> meneer
+  17:    1  ->  kloeien ==> en
+  18:    1  ->  kneurem ==> zweten
+  19:    1  ->  menuur ==> spreke
+  20:    1  ->  millen ==> milin
+  21:    1  ->  milste ==> verd
+  22:    1  ->  muider ==> nken
+  23:    1  ->  nizung ==> awa
+  24:    1  ->  oonste ==> ga
+  25:    1  ->  orponk ==> et
+  26:    1  ->  prilsood ==> vlunda
+  27:    1  ->  saarweng ==> saring
+  28:    1  ->  schielstaug ==> brilsort
+  29:    1  ->  schodig ==> bo
+  30:    1  ->  spreikje ==> heeft
+  31:    1  ->  strellen ==> onste
+  32:    1  ->  vawaai ==> voetbans
+  33:    1  ->  veurder ==> glou
+  34:    1  ->  vloender ==> milsta
+  35:    1  ->  vocil ==> forkil
+  36:    1  ->  vurpaand ==> an
+  37:    1  ->  walaan ==> holaan
+  38:    1  ->  wooien ==> woyen
+  39:    1  ->  zwieten ==> maar
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bonkv
+   2:    1  ->  f
+   3:    1  ->  gerba
+   4:    1  ->  mison
+   5:    1  ->  o
+   6:    1  ->  our
+   7:    1  ->  schodich
+   8:    1  ->  uurband
+   9:    1  ->  won
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  gevicht
+  10:    1  ->  grijnken
+  11:    1  ->  haweel
+  12:    1  ->  hiffreeuw
+  13:    1  ->  ierpieuw
+  14:    1  ->  ijpo
+  15:    1  ->  kloeien
+  16:    1  ->  kneurem
+  17:    1  ->  menuur
+  18:    1  ->  millen
+  19:    1  ->  milste
+  20:    1  ->  muider
+  21:    1  ->  nizung
+  22:    1  ->  oonste
+  23:    1  ->  orponk
+  24:    1  ->  prilsood
+  25:    1  ->  saarweng
+  26:    1  ->  schielstaug
+  27:    1  ->  schodig
+  28:    1  ->  spreikje
+  29:    1  ->  strellen
+  30:    1  ->  vawaai
+  31:    1  ->  veurder
+  32:    1  ->  vloender
+  33:    1  ->  vocil
+  34:    1  ->  vurpaand
+  35:    1  ->  walaan
+  36:    1  ->  wooien
+  37:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  an
+   2:    1  ->  awa
+   3:    1  ->  bebouwd
+   4:    1  ->  bo
+   5:    1  ->  brilsort
+   6:    1  ->  da
+   7:    1  ->  en
+   8:    1  ->  erkas
+   9:    1  ->  et
+  10:    1  ->  forkil
+  11:    1  ->  g<unk>tel
+  12:    1  ->  ga
+  13:    1  ->  gewicht
+  14:    1  ->  glou
+  15:    1  ->  hanleel
+  16:    1  ->  heeft
+  17:    1  ->  holaan
+  18:    1  ->  ierbi
+  19:    1  ->  inder
+  20:    1  ->  maar
+  21:    1  ->  me
+  22:    1  ->  meneer
+  23:    1  ->  milin
+  24:    1  ->  milsta
+  25:    1  ->  nken
+  26:    1  ->  onste
+  27:    1  ->  ordstalk
+  28:    1  ->  saring
+  29:    1  ->  sch
+  30:    1  ->  scheelstaag
+  31:    1  ->  siobbel
+  32:    1  ->  spreke
+  33:    1  ->  strillen
+  34:    1  ->  verd
+  35:    1  ->  veri
+  36:    1  ->  vlunda
+  37:    1  ->  voetbans
+  38:    1  ->  woyen
+  39:    1  ->  zweten
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

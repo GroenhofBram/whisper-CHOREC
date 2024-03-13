@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  14)
+
+Percent Correct           =   71.4%   (  30)
+
+Percent Substitution      =   28.6%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> dicht
+   2:    1  ->  * ==> sleeuw
+   3:    1  ->  dichtbij ==> bij
+   4:    1  ->  koning ==> coli
+   5:    1  ->  liedje ==> lietje
+   6:    1  ->  meisje ==> bese
+   7:    1  ->  moeilijk ==> moelijk
+   8:    1  ->  potlood ==> potnoot
+   9:    1  ->  regen ==> reigen
+  10:    1  ->  sneeuwen ==> en
+  11:    1  ->  vinger ==> dich
+  12:    1  ->  zwemmen ==> slerren
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snea
+   2:    1  ->  vier
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  koning
+   4:    1  ->  liedje
+   5:    1  ->  meisje
+   6:    1  ->  moeilijk
+   7:    1  ->  potlood
+   8:    1  ->  regen
+   9:    1  ->  sneeuwen
+  10:    1  ->  vinger
+  11:    1  ->  zwemmen
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bese
+   2:    1  ->  bij
+   3:    1  ->  coli
+   4:    1  ->  dich
+   5:    1  ->  dicht
+   6:    1  ->  en
+   7:    1  ->  lietje
+   8:    1  ->  moelijk
+   9:    1  ->  potnoot
+  10:    1  ->  reigen
+  11:    1  ->  sleeuw
+  12:    1  ->  slerren
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

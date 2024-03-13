@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.9%   (  18)
+
+Percent Correct           =   60.5%   (  26)
+
+Percent Substitution      =   37.2%   (  16)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   58.1%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> fiet
+   2:    1  ->  * ==> n
+   3:    1  ->  * ==> waarom?
+   4:    1  ->  auto ==> aider
+   5:    1  ->  circus ==> cirkes
+   6:    1  ->  cola ==> kola
+   7:    1  ->  dichtbij ==> bij
+   8:    1  ->  drogen ==> dogen
+   9:    1  ->  eerste ==> eerde
+  10:    1  ->  kussen ==> kissen
+  11:    1  ->  meisje ==> meisjer
+  12:    1  ->  moeder ==> moedeg
+  13:    1  ->  potlood ==> potlod
+  14:    1  ->  speelplaats ==> speelplad
+  15:    1  ->  vinger ==> dek
+  16:    1  ->  vlinder ==> vlinde
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  finger
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  waarom
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  *
+   2:    1  ->  auto
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  eerste
+   8:    1  ->  kussen
+   9:    1  ->  meisje
+  10:    1  ->  moeder
+  11:    1  ->  potlood
+  12:    1  ->  speelplaats
+  13:    1  ->  vinger
+  14:    1  ->  vlinder
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  aider
+   2:    1  ->  bij
+   3:    1  ->  cirkes
+   4:    1  ->  dek
+   5:    1  ->  dogen
+   6:    1  ->  eerde
+   7:    1  ->  fiet
+   8:    1  ->  kissen
+   9:    1  ->  kola
+  10:    1  ->  meisjer
+  11:    1  ->  moedeg
+  12:    1  ->  n
+  13:    1  ->  potlod
+  14:    1  ->  speelplad
+  15:    1  ->  vlinde
+  16:    1  ->  waarom?
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

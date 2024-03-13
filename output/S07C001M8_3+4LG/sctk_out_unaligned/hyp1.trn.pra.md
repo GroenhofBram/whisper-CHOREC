@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C001M8_3+4LG
+
+#### (S07C001M8_3+4LG-words)
+
+- Cor=0.9%	Sub=91.8%	Del=0.0%	Ins=7.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  | omdraaien | poppenwagen | * | * | * | elastiekje | * | * | * | * | * | * | * | dierentuin | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | buurmannen | * | * | * | olifant | * | * | schommelen | iedereen | schoenenwinkel | knutselen | * | * | * | * | * | * | * | sprookjesboek | * | * | * | * | * | * | * | lucifer | * | * | * | * | * | * | * | ziekenhuis | nieuwsgierig | afblijven | * | * | * | * | * | * | * | * | * | * | * | goeiendag | * | * | * | * | * | * | limonade | autorijden*(autorijder) | eindelijk | familie | * | * | * |
+| HYP1 | om | dga | jen | wat | gaen | conijn | nun | hoek | uh | enlastika | goem | makun | ki | e | b | weer | dieen | tuien | a | adenstoelen | gut | stondaja | was | ze | was | manen | één | dan | asp | fototos | too | to | to | tomen | papier | vach | vaken | duur | man | buur | man | envor | kooi | olif | fanta | gonmulden | iderien | sconnen | wien | kur | nuut | el | gen | op | gum | opum | vem | vur | ja | dag | g | kies | woren | dan | di | ank | de | ortel | li | kuffier | stelaslakaur | dicht | der | deur | ziekin | huis | nieuw | sri | r | rig | of | blèève | k | kataal | ter | was | tja | nee | wieja | hooi | jen | dag | va | a | en | ké | le | mo | ma | o | lumoada | auto | heder | en | de | lik | familie | ech | ook | conlat |
+| EVAL | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S | S |
+---
+
+---

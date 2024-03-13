@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   61.9%   (  26)
+
+Percent Correct           =   38.1%   (  16)
+
+Percent Substitution      =   59.5%   (  25)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   38.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> kla
+   2:    1  ->  bang ==> ban
+   3:    1  ->  bed ==> bit
+   4:    1  ->  clown ==> klauwen
+   5:    1  ->  draai ==> tri
+   6:    1  ->  gauw ==> gau
+   7:    1  ->  groei ==> grooi
+   8:    1  ->  herfst ==> herst
+   9:    1  ->  hoek ==> hook
+  10:    1  ->  hout ==> hut
+  11:    1  ->  huis ==> hus
+  12:    1  ->  kind ==> kin
+  13:    1  ->  koe ==> koo
+  14:    1  ->  krant ==> krand
+  15:    1  ->  leeuw ==> leel
+  16:    1  ->  muts ==> minuut
+  17:    1  ->  neus ==> neer
+  18:    1  ->  nieuw ==> miw
+  19:    1  ->  oog ==> org
+  20:    1  ->  paard ==> pat
+  21:    1  ->  reis ==> ges
+  22:    1  ->  schoen ==> schoon
+  23:    1  ->  sjaal ==> caal
+  24:    1  ->  strand ==> strant
+  25:    1  ->  vijf ==> veijf
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  *
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  gauw
+   7:    1  ->  groei
+   8:    1  ->  herfst
+   9:    1  ->  hoek
+  10:    1  ->  hout
+  11:    1  ->  huis
+  12:    1  ->  kind
+  13:    1  ->  koe
+  14:    1  ->  krant
+  15:    1  ->  leeuw
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  nieuw
+  19:    1  ->  oog
+  20:    1  ->  paard
+  21:    1  ->  reis
+  22:    1  ->  schoen
+  23:    1  ->  sjaal
+  24:    1  ->  strand
+  25:    1  ->  vijf
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  ban
+   2:    1  ->  bit
+   3:    1  ->  caal
+   4:    1  ->  gau
+   5:    1  ->  ges
+   6:    1  ->  grooi
+   7:    1  ->  herst
+   8:    1  ->  hook
+   9:    1  ->  hus
+  10:    1  ->  hut
+  11:    1  ->  kin
+  12:    1  ->  kla
+  13:    1  ->  klauwen
+  14:    1  ->  koo
+  15:    1  ->  krand
+  16:    1  ->  leel
+  17:    1  ->  minuut
+  18:    1  ->  miw
+  19:    1  ->  neer
+  20:    1  ->  org
+  21:    1  ->  pat
+  22:    1  ->  schoon
+  23:    1  ->  strant
+  24:    1  ->  tri
+  25:    1  ->  veijf
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

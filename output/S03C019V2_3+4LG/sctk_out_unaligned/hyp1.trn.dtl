@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  127.9%   (  55)
+
+Percent Correct           =   25.6%   (  11)
+
+Percent Substitution      =   74.4%   (  32)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   53.5%   (  23)
+Percent Word Accuracy     =  -27.9%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  66)
+Aligned words             =           (  66)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> fototoostil
+   2:    1  ->  * ==> hand
+   3:    1  ->  *(nieuwjaar) ==> er
+   4:    1  ->  achterdeur ==> dat
+   5:    1  ->  afblijven ==> je
+   6:    1  ->  autorijden ==> autoraden
+   7:    1  ->  buurmannen ==> duurmannen
+   8:    1  ->  chocolade ==> chocolabe
+   9:    1  ->  dierentuin ==> padderstoelen
+  10:    1  ->  eindelijk ==> endelijk
+  11:    1  ->  elastiekje ==> ber
+  12:    1  ->  fototoestel ==> toilet
+  13:    1  ->  iedereen ==> winkel
+  14:    1  ->  kabouter ==> snee
+  15:    1  ->  knutselen ==> zoulen
+  16:    1  ->  konijnenhok ==> die
+  17:    1  ->  limonade ==> lumonaden
+  18:    1  ->  lucifer ==> lusifer
+  19:    1  ->  nieuwsgierig ==> was
+  20:    1  ->  olifant ==> schoon
+  21:    1  ->  paddenstoelen ==> voor
+  22:    1  ->  poppenwagen ==> dat
+  23:    1  ->  ruziemaken ==> dieren
+  24:    1  ->  schoenenwinkel ==> kniet
+  25:    1  ->  schommelen ==> in
+  26:    1  ->  sneeuwwitje ==> je
+  27:    1  ->  tandenborstel ==> borstel
+  28:    1  ->  teddybeer ==> zaan
+  29:    1  ->  toiletpapier ==> papier
+  30:    1  ->  verstoppertje ==> stoppertje
+  31:    1  ->  washandje ==> weet
+  32:    1  ->  ziekenhuis ==> beut
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  achter
+   2:    1  ->  afbel
+   3:    1  ->  afblavin
+   4:    1  ->  deur
+   5:    1  ->  hij
+   6:    1  ->  hok
+   7:    1  ->  hus
+   8:    1  ->  ieder
+   9:    1  ->  jaar
+  10:    1  ->  kon
+  11:    1  ->  laatstikje
+  12:    1  ->  maken
+  13:    1  ->  mijnen
+  14:    1  ->  no
+  15:    1  ->  nosgierig
+  16:    1  ->  open
+  17:    1  ->  orliefand
+  18:    1  ->  rijen
+  19:    1  ->  ruzie
+  20:    1  ->  schoonmannen
+  21:    1  ->  tanden
+  22:    1  ->  vielten
+  23:    1  ->  wagen
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  *
+   2:    1  ->  *(nieuwjaar)
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen
+   7:    1  ->  chocolade
+   8:    1  ->  dierentuin
+   9:    1  ->  eindelijk
+  10:    1  ->  elastiekje
+  11:    1  ->  fototoestel
+  12:    1  ->  iedereen
+  13:    1  ->  kabouter
+  14:    1  ->  knutselen
+  15:    1  ->  konijnenhok
+  16:    1  ->  limonade
+  17:    1  ->  lucifer
+  18:    1  ->  nieuwsgierig
+  19:    1  ->  olifant
+  20:    1  ->  paddenstoelen
+  21:    1  ->  poppenwagen
+  22:    1  ->  ruziemaken
+  23:    1  ->  schoenenwinkel
+  24:    1  ->  schommelen
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  tandenborstel
+  27:    1  ->  teddybeer
+  28:    1  ->  toiletpapier
+  29:    1  ->  verstoppertje
+  30:    1  ->  washandje
+  31:    1  ->  ziekenhuis
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  dat
+   2:    2  ->  je
+   3:    1  ->  autoraden
+   4:    1  ->  ber
+   5:    1  ->  beut
+   6:    1  ->  borstel
+   7:    1  ->  chocolabe
+   8:    1  ->  die
+   9:    1  ->  dieren
+  10:    1  ->  duurmannen
+  11:    1  ->  endelijk
+  12:    1  ->  er
+  13:    1  ->  fototoostil
+  14:    1  ->  hand
+  15:    1  ->  in
+  16:    1  ->  kniet
+  17:    1  ->  lumonaden
+  18:    1  ->  lusifer
+  19:    1  ->  padderstoelen
+  20:    1  ->  papier
+  21:    1  ->  schoon
+  22:    1  ->  snee
+  23:    1  ->  stoppertje
+  24:    1  ->  toilet
+  25:    1  ->  voor
+  26:    1  ->  was
+  27:    1  ->  weet
+  28:    1  ->  winkel
+  29:    1  ->  zaan
+  30:    1  ->  zoulen
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

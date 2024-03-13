@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  125.0%   (  60)
+
+Percent Correct           =    4.2%   (   2)
+
+Percent Substitution      =   95.8%   (  46)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   29.2%   (  14)
+Percent Word Accuracy     =  -25.0%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  62)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  * ==> blote
+   2:    1  ->  * ==> diuf
+   3:    1  ->  * ==> ga
+   4:    1  ->  * ==> geoeldir
+   5:    1  ->  * ==> i
+   6:    1  ->  * ==> jallekreeuwen
+   7:    1  ->  * ==> tonnetletiligen
+   8:    1  ->  * ==> vanelik
+   9:    1  ->  blottenduuf ==> blo
+  10:    1  ->  choporatie ==> bra
+  11:    1  ->  crobeklunker ==> krobuklenker
+  12:    1  ->  deuveltek ==> citv
+  13:    1  ->  fandelig ==> g
+  14:    1  ->  gerauwejaak ==> groukek
+  15:    1  ->  gevijdel ==> perav
+  16:    1  ->  girdofhaalder ==> dopdermoed
+  17:    1  ->  hapeneren ==> hapen
+  18:    1  ->  havedil ==> havendil
+  19:    1  ->  ijraspangen ==> panien
+  20:    1  ->  jalekrewen ==> smor
+  21:    1  ->  jattesiet ==> domiv
+  22:    1  ->  juitonie ==> duanv
+  23:    1  ->  kabbestepen ==> kapbestippen
+  24:    1  ->  kanaroe ==> valahime
+  25:    1  ->  mantaroen ==> en
+  26:    1  ->  meitsegrok ==> meteok
+  27:    1  ->  nappegreeuw ==> scheel
+  28:    1  ->  nurudien ==> gefe
+  29:    1  ->  ometuif ==> dev
+  30:    1  ->  ooiebiekje ==> obia
+  31:    1  ->  oonwijlen ==> jetv
+  32:    1  ->  poentalschouden ==> algauten
+  33:    1  ->  schielendaspen ==> dasspin
+  34:    1  ->  sidowaan ==> wahtenik
+  35:    1  ->  smoralij ==> gellei
+  36:    1  ->  spekkeraai ==> verpirik
+  37:    1  ->  stoenydaas ==> div
+  38:    1  ->  tobbermoeit ==> bent
+  39:    1  ->  toejietsen ==> velvdeqv
+  40:    1  ->  toineetlijgen ==> canaru
+  41:    1  ->  verbrakkertje ==> verbrekertje
+  42:    1  ->  verpierik ==> mandaron
+  43:    1  ->  verwarig ==> verwarring
+  44:    1  ->  wachteniek ==> madegrel
+  45:    1  ->  zeekvlachine ==> sek
+  46:    1  ->  zennebral ==> eas
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  daf
+   2:    1  ->  ge
+   3:    1  ->  getsen
+   4:    1  ->  goporti
+   5:    1  ->  jan
+   6:    1  ->  men
+   7:    1  ->  nerudinv
+   8:    1  ->  of
+   9:    1  ->  on
+  10:    1  ->  sitv
+  11:    1  ->  stundas
+  12:    1  ->  ten
+  13:    1  ->  to
+  14:    1  ->  wijlen
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    8  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  mantaroen
+  19:    1  ->  meitsegrok
+  20:    1  ->  nappegreeuw
+  21:    1  ->  nurudien
+  22:    1  ->  ometuif
+  23:    1  ->  ooiebiekje
+  24:    1  ->  oonwijlen
+  25:    1  ->  poentalschouden
+  26:    1  ->  schielendaspen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  stoenydaas
+  31:    1  ->  tobbermoeit
+  32:    1  ->  toejietsen
+  33:    1  ->  toineetlijgen
+  34:    1  ->  verbrakkertje
+  35:    1  ->  verpierik
+  36:    1  ->  verwarig
+  37:    1  ->  wachteniek
+  38:    1  ->  zeekvlachine
+  39:    1  ->  zennebral
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  algauten
+   2:    1  ->  bent
+   3:    1  ->  blo
+   4:    1  ->  blote
+   5:    1  ->  bra
+   6:    1  ->  canaru
+   7:    1  ->  citv
+   8:    1  ->  dasspin
+   9:    1  ->  dev
+  10:    1  ->  diuf
+  11:    1  ->  div
+  12:    1  ->  domiv
+  13:    1  ->  dopdermoed
+  14:    1  ->  duanv
+  15:    1  ->  eas
+  16:    1  ->  en
+  17:    1  ->  g
+  18:    1  ->  ga
+  19:    1  ->  gefe
+  20:    1  ->  gellei
+  21:    1  ->  geoeldir
+  22:    1  ->  groukek
+  23:    1  ->  hapen
+  24:    1  ->  havendil
+  25:    1  ->  i
+  26:    1  ->  jallekreeuwen
+  27:    1  ->  jetv
+  28:    1  ->  kapbestippen
+  29:    1  ->  krobuklenker
+  30:    1  ->  madegrel
+  31:    1  ->  mandaron
+  32:    1  ->  meteok
+  33:    1  ->  obia
+  34:    1  ->  panien
+  35:    1  ->  perav
+  36:    1  ->  scheel
+  37:    1  ->  sek
+  38:    1  ->  smor
+  39:    1  ->  tonnetletiligen
+  40:    1  ->  valahime
+  41:    1  ->  vanelik
+  42:    1  ->  velvdeqv
+  43:    1  ->  verbrekertje
+  44:    1  ->  verpirik
+  45:    1  ->  verwarring
+  46:    1  ->  wahtenik
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

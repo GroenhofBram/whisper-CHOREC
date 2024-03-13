@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  22)
+
+Percent Correct           =   55.1%   (  27)
+
+Percent Substitution      =   42.9%   (  21)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> geklauw
+   2:    1  ->  * ==> klouw
+   3:    1  ->  *t ==> klauw
+   4:    1  ->  bang ==> bank
+   5:    1  ->  bang*(bank) ==> bank
+   6:    1  ->  chips ==> schips
+   7:    1  ->  clown ==> klouwen
+   8:    1  ->  feest ==> vist
+   9:    1  ->  gauw ==> gal
+  10:    1  ->  herfst ==> harfst
+  11:    1  ->  hout ==> gout
+  12:    1  ->  huis ==> hars
+  13:    1  ->  jas ==> jos
+  14:    1  ->  knoop ==> knoup
+  15:    1  ->  muts ==> mutc
+  16:    1  ->  paard ==> part
+  17:    1  ->  plas*(plat) ==> plat
+  18:    1  ->  reis ==> rie
+  19:    1  ->  sjaal ==> chaal
+  20:    1  ->  sjaal ==> shia
+  21:    1  ->  vriend ==> vreend
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  clown
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  *
+   2:    2  ->  sjaal
+   3:    1  ->  *t
+   4:    1  ->  bang
+   5:    1  ->  bang*(bank)
+   6:    1  ->  chips
+   7:    1  ->  clown
+   8:    1  ->  feest
+   9:    1  ->  gauw
+  10:    1  ->  herfst
+  11:    1  ->  hout
+  12:    1  ->  huis
+  13:    1  ->  jas
+  14:    1  ->  knoop
+  15:    1  ->  muts
+  16:    1  ->  paard
+  17:    1  ->  plas*(plat)
+  18:    1  ->  reis
+  19:    1  ->  vriend
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  bank
+   2:    1  ->  chaal
+   3:    1  ->  gal
+   4:    1  ->  geklauw
+   5:    1  ->  gout
+   6:    1  ->  harfst
+   7:    1  ->  hars
+   8:    1  ->  jos
+   9:    1  ->  klauw
+  10:    1  ->  klouw
+  11:    1  ->  klouwen
+  12:    1  ->  knoup
+  13:    1  ->  mutc
+  14:    1  ->  part
+  15:    1  ->  plat
+  16:    1  ->  rie
+  17:    1  ->  schips
+  18:    1  ->  shia
+  19:    1  ->  vist
+  20:    1  ->  vreend
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

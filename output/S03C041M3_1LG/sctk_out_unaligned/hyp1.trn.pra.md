@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C041M3_1LG
+
+#### (S03C041M3_1LG-words)
+
+- Cor=41.5%	Sub=56.1%	Del=2.4%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed*(pet) | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | * | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | kwas | mooi | koe | arm | gloei | stramd | bed | eerst | voor | draai | jouw | herfst | tuur | strat | leeuw | kloon | hoek | kralt | haut | vriend | gauw |  | schips | gloen | fest | reis | jas | huus | paart | veis | nuc | niew | ind | pan | oog | zecgt | schoen | plas | neus | knop | plan |
+| EVAL | S |  |  |  | S | S | S |  |  |  | S |  | S | S |  | S |  | S | S |  |  | D | S | S | S |  |  | S | S | S | S | S | S | S |  | S |  |  |  | S | S |
+---
+
+---

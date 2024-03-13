@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.5%   (  52)
+
+Percent Correct           =    5.5%   (   3)
+
+Percent Substitution      =   76.4%   (  42)
+Percent Deletions         =   18.2%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    5.5%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  45)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  *s ==> bij
+   2:    1  ->  *s ==> dende
+   3:    1  ->  *s ==> drou
+   4:    1  ->  *s ==> e
+   5:    1  ->  *s ==> goedbal
+   6:    1  ->  *s ==> hoofdpan
+   7:    1  ->  *s ==> kol
+   8:    1  ->  *s ==> kussun
+   9:    1  ->  *s ==> lak
+  10:    1  ->  *s ==> les
+  11:    1  ->  *s ==> moeten
+  12:    1  ->  *s ==> opnieu
+  13:    1  ->  *s ==> plaat
+  14:    1  ->  *s ==> schouders
+  15:    1  ->  *s ==> spel
+  16:    1  ->  *s ==> winten
+  17:    1  ->  *s ==> wy
+  18:    1  ->  appel ==> weerwerk
+  19:    1  ->  chauffeur ==> dicht
+  20:    1  ->  cola ==> ae
+  21:    1  ->  drinken ==> speel
+  22:    1  ->  drogen ==> was
+  23:    1  ->  hoofdpijn ==> ken
+  24:    1  ->  kussen ==> kola
+  25:    1  ->  lawaai ==> waarom?
+  26:    1  ->  liedje ==> etje
+  27:    1  ->  meisje ==> e
+  28:    1  ->  moeder ==> um
+  29:    1  ->  moeilijk ==> hal
+  30:    1  ->  muziek ==> masje
+  31:    1  ->  potlood ==> mo
+  32:    1  ->  regen ==> jeven
+  33:    1  ->  scheuren ==> musik
+  34:    1  ->  vinger ==> i
+  35:    1  ->  vliegtuig ==> daar
+  36:    1  ->  vlinder ==> dus
+  37:    1  ->  voetbal ==> sier
+  38:    1  ->  vuurwerk ==> lenen
+  39:    1  ->  waarom ==> hae
+  40:    1  ->  water ==> later
+  41:    1  ->  winkel ==> ogan
+  42:    1  ->  zwemmen ==> eren
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    5  ->  *s
+   2:    1  ->  gooien
+   3:    1  ->  kleuren
+   4:    1  ->  koning
+   5:    1  ->  sneeuwen
+   6:    1  ->  verhaal
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   17  ->  *s
+   2:    1  ->  appel
+   3:    1  ->  chauffeur
+   4:    1  ->  cola
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  hoofdpijn
+   8:    1  ->  kussen
+   9:    1  ->  lawaai
+  10:    1  ->  liedje
+  11:    1  ->  meisje
+  12:    1  ->  moeder
+  13:    1  ->  moeilijk
+  14:    1  ->  muziek
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  scheuren
+  18:    1  ->  vinger
+  19:    1  ->  vliegtuig
+  20:    1  ->  vlinder
+  21:    1  ->  voetbal
+  22:    1  ->  vuurwerk
+  23:    1  ->  waarom
+  24:    1  ->  water
+  25:    1  ->  winkel
+  26:    1  ->  zwemmen
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  e
+   2:    1  ->  ae
+   3:    1  ->  bij
+   4:    1  ->  daar
+   5:    1  ->  dende
+   6:    1  ->  dicht
+   7:    1  ->  drou
+   8:    1  ->  dus
+   9:    1  ->  eren
+  10:    1  ->  etje
+  11:    1  ->  goedbal
+  12:    1  ->  hae
+  13:    1  ->  hal
+  14:    1  ->  hoofdpan
+  15:    1  ->  i
+  16:    1  ->  jeven
+  17:    1  ->  ken
+  18:    1  ->  kol
+  19:    1  ->  kola
+  20:    1  ->  kussun
+  21:    1  ->  lak
+  22:    1  ->  later
+  23:    1  ->  lenen
+  24:    1  ->  les
+  25:    1  ->  masje
+  26:    1  ->  mo
+  27:    1  ->  moeten
+  28:    1  ->  musik
+  29:    1  ->  ogan
+  30:    1  ->  opnieu
+  31:    1  ->  plaat
+  32:    1  ->  schouders
+  33:    1  ->  sier
+  34:    1  ->  speel
+  35:    1  ->  spel
+  36:    1  ->  um
+  37:    1  ->  waarom?
+  38:    1  ->  was
+  39:    1  ->  weerwerk
+  40:    1  ->  winten
+  41:    1  ->  wy
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

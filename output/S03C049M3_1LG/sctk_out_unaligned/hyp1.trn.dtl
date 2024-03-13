@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.5%   (  17)
+
+Percent Correct           =   60.0%   (  24)
+
+Percent Substitution      =   37.5%   (  15)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   57.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bang ==> ban
+   2:    1  ->  bed ==> bit
+   3:    1  ->  chips ==> sips
+   4:    1  ->  clown ==> klouwn
+   5:    1  ->  draai ==> trai
+   6:    1  ->  duur ==> muur
+   7:    1  ->  gauw ==> gou
+   8:    1  ->  knoop ==> knop
+   9:    1  ->  muts ==> fetmuch
+  10:    1  ->  neus ==> is
+  11:    1  ->  oog ==> ocg
+  12:    1  ->  paard ==> has
+  13:    1  ->  reis ==> res
+  14:    1  ->  vijf ==> part
+  15:    1  ->  zacht ==> zecht
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  nu
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  huis
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bang
+   2:    1  ->  bed
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  duur
+   7:    1  ->  gauw
+   8:    1  ->  knoop
+   9:    1  ->  muts
+  10:    1  ->  neus
+  11:    1  ->  oog
+  12:    1  ->  paard
+  13:    1  ->  reis
+  14:    1  ->  vijf
+  15:    1  ->  zacht
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ban
+   2:    1  ->  bit
+   3:    1  ->  fetmuch
+   4:    1  ->  gou
+   5:    1  ->  has
+   6:    1  ->  is
+   7:    1  ->  klouwn
+   8:    1  ->  knop
+   9:    1  ->  muur
+  10:    1  ->  ocg
+  11:    1  ->  part
+  12:    1  ->  res
+  13:    1  ->  sips
+  14:    1  ->  trai
+  15:    1  ->  zecht
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

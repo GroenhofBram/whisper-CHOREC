@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S08C032V2_3+4LG
+
+#### (S08C032V2_3+4LG-words)
+
+- Cor=8.9%	Sub=57.0%	Del=0.0%	Ins=34.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  | omdraaien | poppenwagen | * | * | konijnenhok | elastiekje | ruziemaken | teddybeer | dierentuin | *(verstoppen) | * | verstoppertje | wasmachine | * | * | fototoestel |  | toiletpapier | vrachtwagen | buurmannen | vogelkooi | olifant | schommelen*(schoenmaken) | iedereen |  |  |  |  |  |  |  |  | * | schoenenwinkel | knutselen | ophangen | verjaardag | sprookjesboek | tandenborstel | lucifer | slaapkamer |  |  | achterdeur | ziekenhuis |  |  |  |  |  |  |  |  |  |  | nieuwsgierig | * | afblijven | * | kabouter | washandje | * | sneeuwwitje | goeiendag | vakantie | limonade | autorijden | * | * | eindelijk | familie | chocolade | *s |
+| HYP1 | omdraaienpoppen | hoe | waar | zijn | konijn | en | rol | astike | ruzie | maken | tadibier | diren | tuin | paddestoelen | verstoppen | verstoppert | jen | was | was | machin | fotoesta | fototoestel | joret | papier | voorrestwagen | buurmannen | vogelkooi | olifant | schoenmaken | iedereen | schoen | schoen | aan | de | wink | kal | knetselen | opbrenggen | voor | jaardag | sprookjes | boek | tanden | borstal | leg | vier | slaapkamer | acht | uur | door | ziekenhuis | nieuw | spron | af | be | af | blijven | kabot | was | hant | ja | neew | wit | h | hoe | heb | ik | ja | goeietuis | waaen | u | iemand | ater | reten | endelik | van | malies | so | sulede |
+| EVAL | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S |  |  |  | S |  | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S |  | I | I | S |  | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

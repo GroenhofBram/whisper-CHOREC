@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.0%   (  16)
+
+Percent Correct           =   63.4%   (  26)
+
+Percent Substitution      =   36.6%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   61.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> chauffer
+   2:    1  ->  chauffeur ==> me
+   3:    1  ->  cola ==> kola
+   4:    1  ->  drinken ==> dringen
+   5:    1  ->  koning ==> korning
+   6:    1  ->  kussen ==> cussen
+   7:    1  ->  liedje ==> liatsje
+   8:    1  ->  moeilijk ==> moewelijk
+   9:    1  ->  muziek ==> ziek
+  10:    1  ->  potlood ==> potloid
+  11:    1  ->  regen ==> rijgin
+  12:    1  ->  vinger ==> finger
+  13:    1  ->  vlinder ==> vlidder
+  14:    1  ->  voetbal ==> futbal
+  15:    1  ->  zwemmen ==> swemmen
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chauffe
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  *
+   2:    1  ->  chauffeur
+   3:    1  ->  cola
+   4:    1  ->  drinken
+   5:    1  ->  koning
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  moeilijk
+   9:    1  ->  muziek
+  10:    1  ->  potlood
+  11:    1  ->  regen
+  12:    1  ->  vinger
+  13:    1  ->  vlinder
+  14:    1  ->  voetbal
+  15:    1  ->  zwemmen
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chauffer
+   2:    1  ->  cussen
+   3:    1  ->  dringen
+   4:    1  ->  finger
+   5:    1  ->  futbal
+   6:    1  ->  kola
+   7:    1  ->  korning
+   8:    1  ->  liatsje
+   9:    1  ->  me
+  10:    1  ->  moewelijk
+  11:    1  ->  potloid
+  12:    1  ->  rijgin
+  13:    1  ->  swemmen
+  14:    1  ->  vlidder
+  15:    1  ->  ziek
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

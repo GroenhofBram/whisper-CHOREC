@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.5%   (  46)
+
+Percent Correct           =    9.1%   (   4)
+
+Percent Substitution      =   90.9%   (  40)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   13.6%   (   6)
+Percent Word Accuracy     =   -4.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  50)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> der
+   2:    1  ->  * ==> nulsta
+   3:    1  ->  * ==> vlu
+   4:    1  ->  * ==> zoot
+   5:    1  ->  bepoud ==> talk
+   6:    1  ->  eemde ==> orts
+   7:    1  ->  erke ==> erka
+   8:    1  ->  fiewon ==> fehon
+   9:    1  ->  foetbans ==> gr<unk>n
+  10:    1  ->  gefouw ==> furband
+  11:    1  ->  geutel ==> suopel
+  12:    1  ->  grijnken ==> strau
+  13:    1  ->  haweel ==> houweel
+  14:    1  ->  hiffreeuw ==> hifreeuw
+  15:    1  ->  ierpieuw ==> piel
+  16:    1  ->  ijpo ==> eppol
+  17:    1  ->  kloeien ==> lenv
+  18:    1  ->  kneurem ==> kneuren
+  19:    1  ->  millen ==> fokil
+  20:    1  ->  milste ==> verdar
+  21:    1  ->  muider ==> shiel
+  22:    1  ->  nizung ==> u
+  23:    1  ->  oonste ==> kan
+  24:    1  ->  orponk ==> ponk
+  25:    1  ->  orstalk ==> vetten
+  26:    1  ->  prilsood ==> nou
+  27:    1  ->  saarweng ==> saring
+  28:    1  ->  schielstaug ==> prilsa
+  29:    1  ->  schodig ==> schouding
+  30:    1  ->  sjobel ==> ier
+  31:    1  ->  spreikje ==> sprekjon
+  32:    1  ->  ulen ==> op
+  33:    1  ->  vawaai ==> faa
+  34:    1  ->  veten*(vetten) ==> gefal
+  35:    1  ->  veurder ==> clouenv
+  36:    1  ->  vloender ==> t
+  37:    1  ->  vocil ==> gutel
+  38:    1  ->  vurpaand ==> nie
+  39:    1  ->  wooien ==> wouien
+  40:    1  ->  zwieten ==> nadar
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bebouwd
+   2:    1  ->  eende
+   3:    1  ->  futbans
+   4:    1  ->  mielen
+   5:    1  ->  onsta
+   6:    1  ->  sitan
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kloeien
+  15:    1  ->  kneurem
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orponk
+  22:    1  ->  orstalk
+  23:    1  ->  prilsood
+  24:    1  ->  saarweng
+  25:    1  ->  schielstaug
+  26:    1  ->  schodig
+  27:    1  ->  sjobel
+  28:    1  ->  spreikje
+  29:    1  ->  ulen
+  30:    1  ->  vawaai
+  31:    1  ->  veten*(vetten)
+  32:    1  ->  veurder
+  33:    1  ->  vloender
+  34:    1  ->  vocil
+  35:    1  ->  vurpaand
+  36:    1  ->  wooien
+  37:    1  ->  zwieten
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  clouenv
+   2:    1  ->  der
+   3:    1  ->  eppol
+   4:    1  ->  erka
+   5:    1  ->  faa
+   6:    1  ->  fehon
+   7:    1  ->  fokil
+   8:    1  ->  furband
+   9:    1  ->  gefal
+  10:    1  ->  gr<unk>n
+  11:    1  ->  gutel
+  12:    1  ->  hifreeuw
+  13:    1  ->  houweel
+  14:    1  ->  ier
+  15:    1  ->  kan
+  16:    1  ->  kneuren
+  17:    1  ->  lenv
+  18:    1  ->  nadar
+  19:    1  ->  nie
+  20:    1  ->  nou
+  21:    1  ->  nulsta
+  22:    1  ->  op
+  23:    1  ->  orts
+  24:    1  ->  piel
+  25:    1  ->  ponk
+  26:    1  ->  prilsa
+  27:    1  ->  saring
+  28:    1  ->  schouding
+  29:    1  ->  shiel
+  30:    1  ->  sprekjon
+  31:    1  ->  strau
+  32:    1  ->  suopel
+  33:    1  ->  t
+  34:    1  ->  talk
+  35:    1  ->  u
+  36:    1  ->  verdar
+  37:    1  ->  vetten
+  38:    1  ->  vlu
+  39:    1  ->  wouien
+  40:    1  ->  zoot
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,222 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  112.3%   (  64)
+
+Percent Correct           =    7.0%   (   4)
+
+Percent Substitution      =   89.5%   (  51)
+Percent Deletions         =    3.5%   (   2)
+Percent Insertions        =   19.3%   (  11)
+Percent Word Accuracy     =  -12.3%
+
+
+Ref. words                =           (  57)
+Hyp. words                =           (  66)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  * ==> ik
+   2:    1  ->  * ==> aé
+   3:    1  ->  * ==> bij
+   4:    1  ->  * ==> boe
+   5:    1  ->  * ==> di
+   6:    1  ->  * ==> e
+   7:    1  ->  * ==> ger
+   8:    1  ->  * ==> komt
+   9:    1  ->  * ==> lijtje
+  10:    1  ->  * ==> mma
+  11:    1  ->  * ==> nis
+  12:    1  ->  * ==> nooit
+  13:    1  ->  * ==> plaat
+  14:    1  ->  * ==> ze
+  15:    1  ->  *x ==> leven
+  16:    1  ->  appel ==> apen
+  17:    1  ->  auto ==> out
+  18:    1  ->  chauffeur ==> ja
+  19:    1  ->  cola ==> schola
+  20:    1  ->  dichtbij ==> dij
+  21:    1  ->  drogen ==> ato
+  22:    1  ->  fietsbel ==> ie
+  23:    1  ->  gooien ==> daar
+  24:    1  ->  hoofdpijn ==> ne
+  25:    1  ->  kleuren ==> kikis
+  26:    1  ->  koning ==> kommin
+  27:    1  ->  kussen ==> kusem
+  28:    1  ->  lawaai ==> enen
+  29:    1  ->  liedje ==> niet
+  30:    1  ->  meisje ==> en
+  31:    1  ->  moeder ==> er
+  32:    1  ->  moeilijk ==> mo
+  33:    1  ->  muziek ==> misaiq?
+  34:    1  ->  opnieuw ==> hir
+  35:    1  ->  potlood ==> meer
+  36:    1  ->  regen*(erg) ==> moder
+  37:    1  ->  scheuren ==> zai
+  38:    1  ->  schouders ==> word
+  39:    1  ->  sneeuwen ==> zijn
+  40:    1  ->  speelplaats ==> ipa
+  41:    1  ->  stoppen ==> n
+  42:    1  ->  verhaal ==> al
+  43:    1  ->  vinger ==> uhm
+  44:    1  ->  vliegtuig ==> i
+  45:    1  ->  vlinder ==> inder
+  46:    1  ->  voetbal ==> bo
+  47:    1  ->  vuurwerk ==> werk
+  48:    1  ->  water ==> watter
+  49:    1  ->  winkel ==> gol
+  50:    1  ->  zwemmen ==> ze
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  e
+   2:    1  ->  g
+   3:    1  ->  i
+   4:    1  ->  o
+   5:    1  ->  oe
+   6:    1  ->  opnee
+   7:    1  ->  ta
+   8:    1  ->  to
+   9:    1  ->  torgen
+  10:    1  ->  vliegta
+  11:    1  ->  wintel
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:   15  ->  *
+   2:    1  ->  *x
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  chauffeur
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  drogen
+   9:    1  ->  fietsbel
+  10:    1  ->  gooien
+  11:    1  ->  hoofdpijn
+  12:    1  ->  kleuren
+  13:    1  ->  koning
+  14:    1  ->  kussen
+  15:    1  ->  lawaai
+  16:    1  ->  liedje
+  17:    1  ->  meisje
+  18:    1  ->  moeder
+  19:    1  ->  moeilijk
+  20:    1  ->  muziek
+  21:    1  ->  opnieuw
+  22:    1  ->  potlood
+  23:    1  ->  regen*(erg)
+  24:    1  ->  scheuren
+  25:    1  ->  schouders
+  26:    1  ->  sneeuwen
+  27:    1  ->  speelplaats
+  28:    1  ->  stoppen
+  29:    1  ->  verhaal
+  30:    1  ->  vinger
+  31:    1  ->  vliegtuig
+  32:    1  ->  vlinder
+  33:    1  ->  voetbal
+  34:    1  ->  vuurwerk
+  35:    1  ->  water
+  36:    1  ->  winkel
+  37:    1  ->  zwemmen
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  ik
+   2:    2  ->  ze
+   3:    1  ->  al
+   4:    1  ->  apen
+   5:    1  ->  ato
+   6:    1  ->  aé
+   7:    1  ->  bij
+   8:    1  ->  bo
+   9:    1  ->  boe
+  10:    1  ->  daar
+  11:    1  ->  di
+  12:    1  ->  dij
+  13:    1  ->  e
+  14:    1  ->  en
+  15:    1  ->  enen
+  16:    1  ->  er
+  17:    1  ->  ger
+  18:    1  ->  gol
+  19:    1  ->  hir
+  20:    1  ->  i
+  21:    1  ->  ie
+  22:    1  ->  inder
+  23:    1  ->  ipa
+  24:    1  ->  ja
+  25:    1  ->  kikis
+  26:    1  ->  kommin
+  27:    1  ->  komt
+  28:    1  ->  kusem
+  29:    1  ->  leven
+  30:    1  ->  lijtje
+  31:    1  ->  meer
+  32:    1  ->  misaiq?
+  33:    1  ->  mma
+  34:    1  ->  mo
+  35:    1  ->  moder
+  36:    1  ->  n
+  37:    1  ->  ne
+  38:    1  ->  niet
+  39:    1  ->  nis
+  40:    1  ->  nooit
+  41:    1  ->  out
+  42:    1  ->  plaat
+  43:    1  ->  schola
+  44:    1  ->  uhm
+  45:    1  ->  watter
+  46:    1  ->  werk
+  47:    1  ->  word
+  48:    1  ->  zai
+  49:    1  ->  zijn
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

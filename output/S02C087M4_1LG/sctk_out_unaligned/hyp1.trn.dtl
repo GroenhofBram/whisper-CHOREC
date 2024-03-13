@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.0%   (  18)
+
+Percent Correct           =   55.0%   (  22)
+
+Percent Substitution      =   40.0%   (  16)
+Percent Deletions         =    5.0%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  38)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  *(toen) ==> hoen
+   2:    1  ->  bang ==> van
+   3:    1  ->  bed ==> met
+   4:    1  ->  duur ==> tuur
+   5:    1  ->  gauw ==> gou
+   6:    1  ->  groei ==> oei
+   7:    1  ->  hoek ==> klauhoek
+   8:    1  ->  huis ==> vufs
+   9:    1  ->  jas ==> ijsjas
+  10:    1  ->  koe ==> oe
+  11:    1  ->  krant ==> gant
+  12:    1  ->  neus ==> us
+  13:    1  ->  paard ==> vaaft
+  14:    1  ->  reis ==> ijst
+  15:    1  ->  sjaal ==> schaal
+  16:    1  ->  zacht ==> sacht
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  clown
+   2:    1  ->  feest
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  *(toen)
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  duur
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  hoek
+   8:    1  ->  huis
+   9:    1  ->  jas
+  10:    1  ->  koe
+  11:    1  ->  krant
+  12:    1  ->  neus
+  13:    1  ->  paard
+  14:    1  ->  reis
+  15:    1  ->  sjaal
+  16:    1  ->  zacht
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  gant
+   2:    1  ->  gou
+   3:    1  ->  hoen
+   4:    1  ->  ijsjas
+   5:    1  ->  ijst
+   6:    1  ->  klauhoek
+   7:    1  ->  met
+   8:    1  ->  oe
+   9:    1  ->  oei
+  10:    1  ->  sacht
+  11:    1  ->  schaal
+  12:    1  ->  tuur
+  13:    1  ->  us
+  14:    1  ->  vaaft
+  15:    1  ->  van
+  16:    1  ->  vufs
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

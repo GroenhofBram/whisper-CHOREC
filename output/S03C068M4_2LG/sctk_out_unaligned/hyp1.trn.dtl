@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.0%   (  18)
+
+Percent Correct           =   60.0%   (  24)
+
+Percent Substitution      =   40.0%   (  16)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    5.0%   (   2)
+Percent Word Accuracy     =   55.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  dichtbij ==> daar
+   2:    1  ->  drinken ==> drinker
+   3:    1  ->  fietsbel ==> vinor
+   4:    1  ->  gooien ==> moeler
+   5:    1  ->  hoofdpijn ==> hoofdpan
+   6:    1  ->  koning ==> kooin
+   7:    1  ->  liedje ==> fiets
+   8:    1  ->  meisje ==> mese
+   9:    1  ->  moeder ==> boetelot
+  10:    1  ->  muziek ==> museer
+  11:    1  ->  potlood ==> bil
+  12:    1  ->  regen ==> dregen
+  13:    1  ->  sneeuwen ==> beetje
+  14:    1  ->  vinger ==> deed
+  15:    1  ->  vlinder ==> flien
+  16:    1  ->  water ==> later
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  oier
+   2:    1  ->  sneeuwwer
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  dichtbij
+   2:    1  ->  drinken
+   3:    1  ->  fietsbel
+   4:    1  ->  gooien
+   5:    1  ->  hoofdpijn
+   6:    1  ->  koning
+   7:    1  ->  liedje
+   8:    1  ->  meisje
+   9:    1  ->  moeder
+  10:    1  ->  muziek
+  11:    1  ->  potlood
+  12:    1  ->  regen
+  13:    1  ->  sneeuwen
+  14:    1  ->  vinger
+  15:    1  ->  vlinder
+  16:    1  ->  water
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  beetje
+   2:    1  ->  bil
+   3:    1  ->  boetelot
+   4:    1  ->  daar
+   5:    1  ->  deed
+   6:    1  ->  dregen
+   7:    1  ->  drinker
+   8:    1  ->  fiets
+   9:    1  ->  flien
+  10:    1  ->  hoofdpan
+  11:    1  ->  kooin
+  12:    1  ->  later
+  13:    1  ->  mese
+  14:    1  ->  moeler
+  15:    1  ->  museer
+  16:    1  ->  vinor
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

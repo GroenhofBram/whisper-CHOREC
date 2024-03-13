@@ -1,0 +1,257 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  107.3%   (  88)
+
+Percent Correct           =    6.1%   (   5)
+
+Percent Substitution      =   91.5%   (  75)
+Percent Deletions         =    2.4%   (   2)
+Percent Insertions        =   13.4%   (  11)
+Percent Word Accuracy     =   -7.3%
+
+
+Ref. words                =           (  82)
+Hyp. words                =           (  91)
+Aligned words             =           (  93)
+
+CONFUSION PAIRS                  Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    2  ->  * ==> de
+   2:    2  ->  * ==> di
+   3:    2  ->  * ==> do
+   4:    1  ->  * ==> as
+   5:    1  ->  * ==> beer
+   6:    1  ->  * ==> borstel
+   7:    1  ->  * ==> die
+   8:    1  ->  * ==> e
+   9:    1  ->  * ==> grie
+  10:    1  ->  * ==> hontje
+  11:    1  ->  * ==> iderijen
+  12:    1  ->  * ==> ja
+  13:    1  ->  * ==> k
+  14:    1  ->  * ==> kabater
+  15:    1  ->  * ==> kver
+  16:    1  ->  * ==> le
+  17:    1  ->  * ==> mag
+  18:    1  ->  * ==> maken
+  19:    1  ->  * ==> nie
+  20:    1  ->  * ==> nieuws
+  21:    1  ->  * ==> pa
+  22:    1  ->  * ==> ren
+  23:    1  ->  * ==> ruzie
+  24:    1  ->  * ==> scroenen
+  25:    1  ->  * ==> sneel
+  26:    1  ->  * ==> stol
+  27:    1  ->  * ==> ver
+  28:    1  ->  * ==> voorstoppors
+  29:    1  ->  * ==> wi
+  30:    1  ->  * ==> wietje
+  31:    1  ->  * ==> winkel
+  32:    1  ->  achterdeur ==> der
+  33:    1  ->  afblijven ==> gige
+  34:    1  ->  autorijden ==> en
+  35:    1  ->  buurmannen ==> epapier
+  36:    1  ->  chocolade ==> familiechocolader
+  37:    1  ->  dierentuin ==> en
+  38:    1  ->  eindelijk ==> de
+  39:    1  ->  eindelijk ==> lej
+  40:    1  ->  elastiekje ==> reh
+  41:    1  ->  familie ==> endelik
+  42:    1  ->  fototoestel ==> ja
+  43:    1  ->  iedereen ==> olifant
+  44:    1  ->  kabouter ==> af
+  45:    1  ->  knutselen ==> schonmolen
+  46:    1  ->  konijnenhok*(konijnhok) ==> as
+  47:    1  ->  limonade ==> rijden
+  48:    1  ->  lucifer ==> tanden
+  49:    1  ->  olifant ==> durmunnen
+  50:    1  ->  omdraaien ==> ale
+  51:    1  ->  ophangen ==> hanen
+  52:    1  ->  ophangen ==> op
+  53:    1  ->  paddenstoelen*(paddenstoel) ==> padenv
+  54:    1  ->  poppenwagen ==> l
+  55:    1  ->  ruziemaken ==> beer
+  56:    1  ->  ruziemaken ==> de
+  57:    1  ->  schoenenwinkel ==> schoenmols
+  58:    1  ->  schommelen ==> kooi
+  59:    1  ->  schommelen*(schommels) ==> vogel
+  60:    1  ->  sneeuwwitje ==> hunwas
+  61:    1  ->  tandenborstel ==> sprokjusmoek
+  62:    1  ->  teddybeer ==> de
+  63:    1  ->  teddybeer ==> run
+  64:    1  ->  toiletpapier ==> fototoestil
+  65:    1  ->  toiletpapier ==> pier
+  66:    1  ->  verstoppertje ==> nun
+  67:    1  ->  verstoppertje ==> voortoprtja
+  68:    1  ->  vogelkooi ==> vraagwagen
+  69:    1  ->  vrachtwagen ==> a
+  70:    1  ->  washandje ==> blijven
+  71:    1  ->  washandje ==> was
+  72:    1  ->  wasmachine ==> was
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  achter
+   2:    1  ->  auto
+   3:    1  ->  draaieno
+   4:    1  ->  hook
+   5:    1  ->  konijn
+   6:    1  ->  lumon
+   7:    1  ->  nade
+   8:    1  ->  o
+   9:    1  ->  ox
+  10:    1  ->  toen
+  11:    1  ->  wagen
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  nieuwsgierig
+   2:    1  ->  sprookjesboek
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:   34  ->  *
+   2:    2  ->  eindelijk
+   3:    2  ->  ophangen
+   4:    2  ->  ruziemaken
+   5:    2  ->  teddybeer
+   6:    2  ->  toiletpapier
+   7:    2  ->  verstoppertje
+   8:    2  ->  washandje
+   9:    1  ->  achterdeur
+  10:    1  ->  afblijven
+  11:    1  ->  autorijden
+  12:    1  ->  buurmannen
+  13:    1  ->  chocolade
+  14:    1  ->  dierentuin
+  15:    1  ->  elastiekje
+  16:    1  ->  familie
+  17:    1  ->  fototoestel
+  18:    1  ->  iedereen
+  19:    1  ->  kabouter
+  20:    1  ->  knutselen
+  21:    1  ->  konijnenhok*(konijnhok)
+  22:    1  ->  limonade
+  23:    1  ->  lucifer
+  24:    1  ->  olifant
+  25:    1  ->  omdraaien
+  26:    1  ->  paddenstoelen*(paddenstoel)
+  27:    1  ->  poppenwagen
+  28:    1  ->  schoenenwinkel
+  29:    1  ->  schommelen
+  30:    1  ->  schommelen*(schommels)
+  31:    1  ->  sneeuwwitje
+  32:    1  ->  tandenborstel
+  33:    1  ->  vogelkooi
+  34:    1  ->  vrachtwagen
+  35:    1  ->  wasmachine
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    5  ->  de
+   2:    2  ->  as
+   3:    2  ->  beer
+   4:    2  ->  di
+   5:    2  ->  do
+   6:    2  ->  en
+   7:    2  ->  ja
+   8:    2  ->  was
+   9:    1  ->  a
+  10:    1  ->  af
+  11:    1  ->  ale
+  12:    1  ->  blijven
+  13:    1  ->  borstel
+  14:    1  ->  der
+  15:    1  ->  die
+  16:    1  ->  durmunnen
+  17:    1  ->  e
+  18:    1  ->  endelik
+  19:    1  ->  epapier
+  20:    1  ->  familiechocolader
+  21:    1  ->  fototoestil
+  22:    1  ->  gige
+  23:    1  ->  grie
+  24:    1  ->  hanen
+  25:    1  ->  hontje
+  26:    1  ->  hunwas
+  27:    1  ->  iderijen
+  28:    1  ->  k
+  29:    1  ->  kabater
+  30:    1  ->  kooi
+  31:    1  ->  kver
+  32:    1  ->  l
+  33:    1  ->  le
+  34:    1  ->  lej
+  35:    1  ->  mag
+  36:    1  ->  maken
+  37:    1  ->  nie
+  38:    1  ->  nieuws
+  39:    1  ->  nun
+  40:    1  ->  olifant
+  41:    1  ->  op
+  42:    1  ->  pa
+  43:    1  ->  padenv
+  44:    1  ->  pier
+  45:    1  ->  reh
+  46:    1  ->  ren
+  47:    1  ->  rijden
+  48:    1  ->  run
+  49:    1  ->  ruzie
+  50:    1  ->  schoenmols
+  51:    1  ->  schonmolen
+  52:    1  ->  scroenen
+  53:    1  ->  sneel
+  54:    1  ->  sprokjusmoek
+  55:    1  ->  stol
+  56:    1  ->  tanden
+  57:    1  ->  ver
+  58:    1  ->  vogel
+  59:    1  ->  voorstoppors
+  60:    1  ->  voortoprtja
+  61:    1  ->  vraagwagen
+  62:    1  ->  wi
+  63:    1  ->  wietje
+  64:    1  ->  winkel
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

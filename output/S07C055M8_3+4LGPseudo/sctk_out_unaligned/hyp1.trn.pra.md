@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C055M8_3+4LGPseudo
+
+#### (S07C055M8_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=97.4%	Del=0.0%	Ins=2.6%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  | ometuif | * | * | * | toejietsen | toejietsen | oonwijlen | jattesiet | * | * | * | nurudien | * | nurudien | stoenydaas | * | * | * | * | deuveltek | deuveltek | juitonie | gevijdel | sidowaan | * | * | *x | spekkeraai | * | * | wachteniek | * | * | * | * | verpierik | nappegreeuw | * | mantaroen | mantaroen | mantaroen | schielendaspen | * | * | crobeklunker | kabbestepen | * | * | * | verwarig*(verwarming) | * | * | * | ooiebiekje | * | * | fandelig | * | * | *x | fandelig | jalekrewen | * | * | * | * | smoralij | * | zeekvlachine | * | * | kanaroe | * | * | toineetlijgen | * | * | * | meitsegrok | * | * | kantelogsten | * | * | *x | kantelogsten | ondermind | choporatie | zennebral | ijraspangen | * | * | blottenduuf | * | blottenduuf | girdofhaalder | * | * | * | * | * | tobbermoeit | poentalschouden | * | havedil | * | verbrakkertje | gerauwejaak | * | * | hapeneren | * |
+| HYP1 | om | oe | fel | fef | nee | ja | to | to | ien | on | wilen | ja | ja | jatensie | nu | n | udé | neudin | s | toen | uh | stun | ni | tas | de | veldek | jetoni | ge | frei | dl | cidua | og | de | spe | kerai | wacht | waht | wach | den | nee | ferpi | ik | naper | geeuwen | man | taon | schrilen | daspen | krode | klunker | da | besstepen | verwarming | oen | o | beke | van | deling | meneer | van | delig | jaa | ja | kel | kre | win | smoral | lan | ce | fla | sin | nu | kan | ka | kaa | oe | do | dolo | nee | leen | mijj | mijt | sunok | kn | tl | nekan | tol | o | stun | omder | miet | shoborati | sende | brul | eras | spaen | lo | lo | dendus | grik | gri | doha | den | der | do | der | mot | boen | taal | schouders | haveldin | ferbragerde | ge | jak | haenleren |
+| EVAL | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

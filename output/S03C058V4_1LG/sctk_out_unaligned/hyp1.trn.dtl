@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.8%   (  11)
+
+Percent Correct           =   73.2%   (  30)
+
+Percent Substitution      =   26.8%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> pl
+   2:    1  ->  bed ==> bit
+   3:    1  ->  clown ==> kloon
+   4:    1  ->  gauw ==> gel
+   5:    1  ->  hoek ==> hook
+   6:    1  ->  huis ==> hui
+   7:    1  ->  muts ==> mut
+   8:    1  ->  nieuw ==> nel
+   9:    1  ->  paard ==> paart
+  10:    1  ->  plank ==> plang
+  11:    1  ->  reis ==> rs
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  gauw
+   5:    1  ->  hoek
+   6:    1  ->  huis
+   7:    1  ->  muts
+   8:    1  ->  nieuw
+   9:    1  ->  paard
+  10:    1  ->  plank
+  11:    1  ->  reis
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bit
+   2:    1  ->  gel
+   3:    1  ->  hook
+   4:    1  ->  hui
+   5:    1  ->  kloon
+   6:    1  ->  mut
+   7:    1  ->  nel
+   8:    1  ->  paart
+   9:    1  ->  pl
+  10:    1  ->  plang
+  11:    1  ->  rs
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

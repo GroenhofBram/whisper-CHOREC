@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.8%   (  17)
+
+Percent Correct           =   71.1%   (  32)
+
+Percent Substitution      =   24.4%   (  11)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    8.9%   (   4)
+Percent Word Accuracy     =   62.2%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  47)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  schoenenwinkel ==> schoenwinkel
+   2:    1  ->  * ==> goeien
+   3:    1  ->  * ==> koning
+   4:    1  ->  * ==> verstopperdje
+   5:    1  ->  chocolade ==> chocalade
+   6:    1  ->  limonade ==> lumonade
+   7:    1  ->  poppenwagen ==> poepenwagen
+   8:    1  ->  ruziemaken ==> maken
+   9:    1  ->  sneeuwwitje ==> sneeuwwietje
+  10:    1  ->  tandenborstel ==> borstel
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  den
+   2:    1  ->  padden
+   3:    1  ->  resi
+   4:    1  ->  tan
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  verstoppertje
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  *
+   2:    2  ->  schoenenwinkel
+   3:    1  ->  chocolade
+   4:    1  ->  limonade
+   5:    1  ->  poppenwagen
+   6:    1  ->  ruziemaken
+   7:    1  ->  sneeuwwitje
+   8:    1  ->  tandenborstel
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  schoenwinkel
+   2:    1  ->  borstel
+   3:    1  ->  chocalade
+   4:    1  ->  goeien
+   5:    1  ->  koning
+   6:    1  ->  lumonade
+   7:    1  ->  maken
+   8:    1  ->  poepenwagen
+   9:    1  ->  sneeuwwietje
+  10:    1  ->  verstopperdje
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

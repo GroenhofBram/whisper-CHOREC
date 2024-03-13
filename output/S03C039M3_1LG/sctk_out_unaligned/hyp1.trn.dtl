@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.5%   (   9)
+
+Percent Correct           =   77.5%   (  31)
+
+Percent Substitution      =   20.0%   (   8)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   77.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bed ==> pet
+   2:    1  ->  clown ==> kloon
+   3:    1  ->  gauw ==> gouw
+   4:    1  ->  herfst ==> herst
+   5:    1  ->  muts ==> mut
+   6:    1  ->  paard ==> paart
+   7:    1  ->  plank ==> knoopplank
+   8:    1  ->  reis ==> res
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  knoop
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bed
+   2:    1  ->  clown
+   3:    1  ->  gauw
+   4:    1  ->  herfst
+   5:    1  ->  muts
+   6:    1  ->  paard
+   7:    1  ->  plank
+   8:    1  ->  reis
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  gouw
+   2:    1  ->  herst
+   3:    1  ->  kloon
+   4:    1  ->  knoopplank
+   5:    1  ->  mut
+   6:    1  ->  paart
+   7:    1  ->  pet
+   8:    1  ->  res
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  52)
+
+Percent Correct           =   30.8%   (  16)
+
+Percent Substitution      =   67.3%   (  35)
+Percent Deletions         =    1.9%   (   1)
+Percent Insertions        =   30.8%   (  16)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  67)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> ad
+   3:    1  ->  * ==> ati
+   4:    1  ->  * ==> badden
+   5:    1  ->  * ==> dag
+   6:    1  ->  * ==> dieren
+   7:    1  ->  * ==> goeien
+   8:    1  ->  * ==> je
+   9:    1  ->  * ==> kat
+  10:    1  ->  * ==> vra
+  11:    1  ->  * ==> vrachtwag
+  12:    1  ->  achterdeur ==> derdeur
+  13:    1  ->  autorijden ==> autoreiden
+  14:    1  ->  buurmannen ==> vochel
+  15:    1  ->  chocolade ==> soewaden
+  16:    1  ->  dierentuin ==> baden
+  17:    1  ->  elastiekje ==> die
+  18:    1  ->  goeiendag ==> goei
+  19:    1  ->  iedereen ==> schoenen
+  20:    1  ->  knutselen ==> knutseln
+  21:    1  ->  konijnenhok ==> dat
+  22:    1  ->  paddenstoelen ==> stoelen
+  23:    1  ->  poppenwagen ==> maken
+  24:    1  ->  ruziemaken ==> we
+  25:    1  ->  schoenenwinkel ==> winkel
+  26:    1  ->  schommelen ==> iederleen
+  27:    1  ->  sneeuwwitje ==> wit
+  28:    1  ->  sprookjesboek ==> tan
+  29:    1  ->  tandenborstel ==> borstel
+  30:    1  ->  teddybeer ==> te
+  31:    1  ->  toiletpapier ==> e
+  32:    1  ->  vogelkooi ==> kooi
+  33:    1  ->  vrachtwagen ==> buurman
+  34:    1  ->  washandje ==> sneewn
+  35:    1  ->  wasmachine ==> machine
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  was
+   2:    1  ->  acht
+   3:    1  ->  boek
+   4:    1  ->  handje
+   5:    1  ->  ho
+   6:    1  ->  konlijnen
+   7:    1  ->  las
+   8:    1  ->  miem
+   9:    1  ->  omollen
+  10:    1  ->  popen
+  11:    1  ->  splosus
+  12:    1  ->  ta
+  13:    1  ->  tike
+  14:    1  ->  toi
+  15:    1  ->  wagen
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   11  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  goeiendag
+   9:    1  ->  iedereen
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  vogelkooi
+  23:    1  ->  vrachtwagen
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  a
+   2:    1  ->  ad
+   3:    1  ->  ati
+   4:    1  ->  autoreiden
+   5:    1  ->  badden
+   6:    1  ->  baden
+   7:    1  ->  borstel
+   8:    1  ->  buurman
+   9:    1  ->  dag
+  10:    1  ->  dat
+  11:    1  ->  derdeur
+  12:    1  ->  die
+  13:    1  ->  dieren
+  14:    1  ->  e
+  15:    1  ->  goei
+  16:    1  ->  goeien
+  17:    1  ->  iederleen
+  18:    1  ->  je
+  19:    1  ->  kat
+  20:    1  ->  knutseln
+  21:    1  ->  kooi
+  22:    1  ->  machine
+  23:    1  ->  maken
+  24:    1  ->  schoenen
+  25:    1  ->  sneewn
+  26:    1  ->  soewaden
+  27:    1  ->  stoelen
+  28:    1  ->  tan
+  29:    1  ->  te
+  30:    1  ->  vochel
+  31:    1  ->  vra
+  32:    1  ->  vrachtwag
+  33:    1  ->  we
+  34:    1  ->  winkel
+  35:    1  ->  wit
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.0%   (  28)
+
+Percent Correct           =   30.0%   (  12)
+
+Percent Substitution      =   67.5%   (  27)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   30.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  beeg ==> deeg
+   2:    1  ->  blard ==> lart
+   3:    1  ->  dau ==> dao
+   4:    1  ->  doer ==> door
+   5:    1  ->  dron ==> drom
+   6:    1  ->  eem ==> één
+   7:    1  ->  fam ==> swoy
+   8:    1  ->  fook ==> vok
+   9:    1  ->  frijk ==> srijk
+  10:    1  ->  haans ==> hans
+  11:    1  ->  heik ==> hek
+  12:    1  ->  hoekt ==> hookt
+  13:    1  ->  jien ==> één
+  14:    1  ->  leum ==> lem
+  15:    1  ->  neeuw ==> niel
+  16:    1  ->  plirt ==> pleert
+  17:    1  ->  rachts ==> van
+  18:    1  ->  roen ==> roon
+  19:    1  ->  schard ==> schart
+  20:    1  ->  spaai ==> spai
+  21:    1  ->  sprieuw ==> vaatspriel
+  22:    1  ->  stuid ==> stuit
+  23:    1  ->  swoers ==> swoort
+  24:    1  ->  vaap ==> racht
+  25:    1  ->  vid ==> zit
+  26:    1  ->  zans ==> zants
+  27:    1  ->  zwoei ==> folt
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  vout
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  beeg
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  fook
+   9:    1  ->  frijk
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hoekt
+  13:    1  ->  jien
+  14:    1  ->  leum
+  15:    1  ->  neeuw
+  16:    1  ->  plirt
+  17:    1  ->  rachts
+  18:    1  ->  roen
+  19:    1  ->  schard
+  20:    1  ->  spaai
+  21:    1  ->  sprieuw
+  22:    1  ->  stuid
+  23:    1  ->  swoers
+  24:    1  ->  vaap
+  25:    1  ->  vid
+  26:    1  ->  zans
+  27:    1  ->  zwoei
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  één
+   2:    1  ->  dao
+   3:    1  ->  deeg
+   4:    1  ->  door
+   5:    1  ->  drom
+   6:    1  ->  folt
+   7:    1  ->  hans
+   8:    1  ->  hek
+   9:    1  ->  hookt
+  10:    1  ->  lart
+  11:    1  ->  lem
+  12:    1  ->  niel
+  13:    1  ->  pleert
+  14:    1  ->  racht
+  15:    1  ->  roon
+  16:    1  ->  schart
+  17:    1  ->  spai
+  18:    1  ->  srijk
+  19:    1  ->  stuit
+  20:    1  ->  swoort
+  21:    1  ->  swoy
+  22:    1  ->  vaatspriel
+  23:    1  ->  van
+  24:    1  ->  vok
+  25:    1  ->  zants
+  26:    1  ->  zit
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

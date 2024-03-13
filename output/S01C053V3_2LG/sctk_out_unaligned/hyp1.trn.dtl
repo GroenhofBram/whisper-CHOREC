@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.1%   (  23)
+
+Percent Correct           =   51.1%   (  23)
+
+Percent Substitution      =   44.4%   (  20)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   48.9%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> dooftijn
+   2:    1  ->  * ==> o
+   3:    1  ->  *(droog) ==> droog
+   4:    1  ->  circus ==> cercus
+   5:    1  ->  drinken ==> drinkun
+   6:    1  ->  drogen ==> droge
+   7:    1  ->  fietsbel ==> zietsbijl
+   8:    1  ->  gooien*(groeien) ==> spreek
+   9:    1  ->  hoofdpijn ==> hoftijn
+  10:    1  ->  kussen*(tussen) ==> tussen
+  11:    1  ->  lawaai ==> lawel
+  12:    1  ->  meisje ==> bashe
+  13:    1  ->  moeder ==> moede
+  14:    1  ->  potlood ==> potluid
+  15:    1  ->  sneeuwen ==> er
+  16:    1  ->  vinger*(vlinder) ==> vlinder
+  17:    1  ->  vlinder ==> vinde
+  18:    1  ->  vuurwerk*(uurwerk) ==> unwerk
+  19:    1  ->  waarom ==> wa
+  20:    1  ->  zwemmen ==> swemmen
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  groeien
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  *
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  *
+   2:    1  ->  *(droog)
+   3:    1  ->  circus
+   4:    1  ->  drinken
+   5:    1  ->  drogen
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien*(groeien)
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kussen*(tussen)
+  10:    1  ->  lawaai
+  11:    1  ->  meisje
+  12:    1  ->  moeder
+  13:    1  ->  potlood
+  14:    1  ->  sneeuwen
+  15:    1  ->  vinger*(vlinder)
+  16:    1  ->  vlinder
+  17:    1  ->  vuurwerk*(uurwerk)
+  18:    1  ->  waarom
+  19:    1  ->  zwemmen
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  bashe
+   2:    1  ->  cercus
+   3:    1  ->  dooftijn
+   4:    1  ->  drinkun
+   5:    1  ->  droge
+   6:    1  ->  droog
+   7:    1  ->  er
+   8:    1  ->  hoftijn
+   9:    1  ->  lawel
+  10:    1  ->  moede
+  11:    1  ->  o
+  12:    1  ->  potluid
+  13:    1  ->  spreek
+  14:    1  ->  swemmen
+  15:    1  ->  tussen
+  16:    1  ->  unwerk
+  17:    1  ->  vinde
+  18:    1  ->  vlinder
+  19:    1  ->  wa
+  20:    1  ->  zietsbijl
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

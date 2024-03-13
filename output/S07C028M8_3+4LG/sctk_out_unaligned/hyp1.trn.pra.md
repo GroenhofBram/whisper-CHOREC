@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C028M8_3+4LG
+
+#### (S07C028M8_3+4LG-words)
+
+- Cor=14.0%	Sub=65.1%	Del=0.0%	Ins=20.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  | omdraaien | poppenwagen | konijnenhok | * | elastiekje | * | ruziemaken | * | teddybeer | dierentuin |  | paddenstoelen | *(verstoppen) | verstoppertje | wasmachine | fototoestel | * | toiletpapier | * | vrachtwagen |  | *(buurman) | buurmannen | * | * | * | vogelkooi | olifant | * | schommelen | iedereen |  | schoenenwinkel | * | knutselen | ophangen | verjaardag |  |  |  |  | * | * | sprookjesboek | * | tandenborstel | * | * | * | slaapkamer | * | achterdeur | ziekenhuis | * | * | * | * | nieuwsgierig |  | afblijven | kabouter |  |  |  | * | washandje | sneeuwwitje | * | * | sneeuwwitje | goeiendag |  | vakantie |  | limonade | * | * | autorijden | eindelijk | familie | chocolade |
+| HYP1 | om | draaien | boppen | warken | konijnen | hook | al | ena | steekje | rusi | rsimaken | d | de | diber | dierentuin | padden | stolenverstoppen | verstopperdje | was | machine | fototoestel | zowel | uit | papier | vrachtwagen | buurman | buurman | f | voor | voor | vogel | kooiing | worifand | schua | schomelen | iedereen | schonen | winter | kni | knucheren | ophangen | verjaardag | s | spe | sprookjes | book | dan | danen | borste | uk | lk | lu | hiver | is | ie | luchiferv | sslaapkamer | achter | acterdeur | ziekenhuis | sneeuw | sneeuws | nieuwsgierig | af | blijven | kabouter | was | was | hond | je | sneel | weet | je | snee | weetje | goeiendag | of | vakantie | limonada | auto | autorejden | en | de | luik | familie | chocolade |
+| EVAL | I | I | I | I | I | S | S | S | S | S | S | S | S | S |  | I | S | S | S | S |  | S | S | S |  | I | S | S | S | S | S | S | S | S | S |  | I | S | S | S |  |  | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S |  | I | I | I | S | S | S | S | S | S |  | I |  | I | S | S | S | S | S |  |  |
+---
+
+---

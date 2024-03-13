@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  138.8%   (  68)
+
+Percent Correct           =    6.1%   (   3)
+
+Percent Substitution      =   93.9%   (  46)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   44.9%   (  22)
+Percent Word Accuracy     =  -38.8%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  71)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  * ==> canaro
+   2:    1  ->  * ==> cidowanv
+   3:    1  ->  * ==> dasen
+   4:    1  ->  * ==> dof
+   5:    1  ->  * ==> fibe
+   6:    1  ->  * ==> ge
+   7:    1  ->  * ==> happeren
+   8:    1  ->  * ==> jetoni
+   9:    1  ->  * ==> kabestepen
+  10:    1  ->  * ==> matarn
+  11:    1  ->  * ==> mijt
+  12:    1  ->  * ==> nape
+  13:    1  ->  * ==> rok
+  14:    1  ->  * ==> schuroporatie
+  15:    1  ->  * ==> stoeindas
+  16:    1  ->  * ==> stoenda
+  17:    1  ->  * ==> tek
+  18:    1  ->  * ==> tnneetleggen
+  19:    1  ->  * ==> veidel
+  20:    1  ->  * ==> wacht
+  21:    1  ->  * ==> zwuinebral
+  22:    1  ->  blottenduuf ==> helder
+  23:    1  ->  crobeklunker ==> krobeknunker
+  24:    1  ->  deuveltek ==> spekerai
+  25:    1  ->  fandelig ==> val
+  26:    1  ->  gerauwejaak ==> gerouwejerk
+  27:    1  ->  gevijdel ==> teg
+  28:    1  ->  girdofhaalder ==> tobber
+  29:    1  ->  jattesiet ==> deuvel
+  30:    1  ->  kanaroe ==> meitzeg
+  31:    1  ->  kantelogsten ==> ochsten
+  32:    1  ->  meitsegrok ==> kandel
+  33:    1  ->  nappegreeuw ==> schile
+  34:    1  ->  ometuif ==> stuindas
+  35:    1  ->  ondermind ==> ondermimd
+  36:    1  ->  ooiebiekje ==> zekl
+  37:    1  ->  poentalschouden ==> bontelsgouden
+  38:    1  ->  schielendaspen ==> daspen
+  39:    1  ->  schielendaspen ==> schile
+  40:    1  ->  sidowaan ==> wachttanik
+  41:    1  ->  smoralij ==> v
+  42:    1  ->  spekkeraai ==> velpirik
+  43:    1  ->  tobbermoeit ==> moit
+  44:    1  ->  verbrakkertje ==> virbrakkertje
+  45:    1  ->  verpierik ==> greo
+  46:    1  ->  wachteniek ==> nape
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  blokte
+   2:    1  ->  dofv
+   3:    1  ->  duuf
+   4:    1  ->  girt
+   5:    1  ->  ijsgas
+   6:    1  ->  ja
+   7:    1  ->  je
+   8:    1  ->  jitsen
+   9:    1  ->  krawen
+  10:    1  ->  me
+  11:    1  ->  neuravdinv
+  12:    1  ->  neurev
+  13:    1  ->  o
+  14:    1  ->  onwijlen
+  15:    1  ->  ov
+  16:    1  ->  pangen
+  17:    1  ->  piekje
+  18:    1  ->  smourale
+  19:    1  ->  tescitv
+  20:    1  ->  toev
+  21:    1  ->  vandeling
+  22:    1  ->  yeller
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   21  ->  *
+   2:    2  ->  schielendaspen
+   3:    1  ->  blottenduuf
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  jattesiet
+  11:    1  ->  kanaroe
+  12:    1  ->  kantelogsten
+  13:    1  ->  meitsegrok
+  14:    1  ->  nappegreeuw
+  15:    1  ->  ometuif
+  16:    1  ->  ondermind
+  17:    1  ->  ooiebiekje
+  18:    1  ->  poentalschouden
+  19:    1  ->  sidowaan
+  20:    1  ->  smoralij
+  21:    1  ->  spekkeraai
+  22:    1  ->  tobbermoeit
+  23:    1  ->  verbrakkertje
+  24:    1  ->  verpierik
+  25:    1  ->  wachteniek
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  nape
+   2:    2  ->  schile
+   3:    1  ->  bontelsgouden
+   4:    1  ->  canaro
+   5:    1  ->  cidowanv
+   6:    1  ->  dasen
+   7:    1  ->  daspen
+   8:    1  ->  deuvel
+   9:    1  ->  dof
+  10:    1  ->  fibe
+  11:    1  ->  ge
+  12:    1  ->  gerouwejerk
+  13:    1  ->  greo
+  14:    1  ->  happeren
+  15:    1  ->  helder
+  16:    1  ->  jetoni
+  17:    1  ->  kabestepen
+  18:    1  ->  kandel
+  19:    1  ->  krobeknunker
+  20:    1  ->  matarn
+  21:    1  ->  meitzeg
+  22:    1  ->  mijt
+  23:    1  ->  moit
+  24:    1  ->  ochsten
+  25:    1  ->  ondermimd
+  26:    1  ->  rok
+  27:    1  ->  schuroporatie
+  28:    1  ->  spekerai
+  29:    1  ->  stoeindas
+  30:    1  ->  stoenda
+  31:    1  ->  stuindas
+  32:    1  ->  teg
+  33:    1  ->  tek
+  34:    1  ->  tnneetleggen
+  35:    1  ->  tobber
+  36:    1  ->  v
+  37:    1  ->  val
+  38:    1  ->  veidel
+  39:    1  ->  velpirik
+  40:    1  ->  virbrakkertje
+  41:    1  ->  wacht
+  42:    1  ->  wachttanik
+  43:    1  ->  zekl
+  44:    1  ->  zwuinebral
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.4%   (  10)
+
+Percent Correct           =   75.6%   (  31)
+
+Percent Substitution      =   22.0%   (   9)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.6%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bed ==> wit
+   2:    1  ->  clown ==> klan
+   3:    1  ->  draai ==> traai
+   4:    1  ->  feest ==> fest
+   5:    1  ->  hout ==> hat
+   6:    1  ->  huis ==> res
+   7:    1  ->  paard ==> paart
+   8:    1  ->  plank ==> pl
+   9:    1  ->  reis ==> res
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bed
+   2:    1  ->  clown
+   3:    1  ->  draai
+   4:    1  ->  feest
+   5:    1  ->  hout
+   6:    1  ->  huis
+   7:    1  ->  paard
+   8:    1  ->  plank
+   9:    1  ->  reis
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  res
+   2:    1  ->  fest
+   3:    1  ->  hat
+   4:    1  ->  klan
+   5:    1  ->  paart
+   6:    1  ->  pl
+   7:    1  ->  traai
+   8:    1  ->  wit
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.5%   (  19)
+
+Percent Correct           =   60.0%   (  24)
+
+Percent Substitution      =   40.0%   (  16)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.5%   (   3)
+Percent Word Accuracy     =   52.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  autorijden ==> autoredden
+   2:    1  ->  eindelijk ==> endelijk
+   3:    1  ->  elastiekje ==> ruzie
+   4:    1  ->  fototoestel ==> fototostel
+   5:    1  ->  goeiendag ==> goeiendeg
+   6:    1  ->  kabouter ==> kaboute
+   7:    1  ->  knutselen ==> kloetsolun
+   8:    1  ->  konijnenhok ==> lastiekje
+   9:    1  ->  limonade ==> lemonade
+  10:    1  ->  ruziemaken ==> maken
+  11:    1  ->  schoenenwinkel ==> winkel
+  12:    1  ->  sneeuwwitje ==> sneeuwietje
+  13:    1  ->  teddybeer ==> teddibeer
+  14:    1  ->  verjaardag ==> verjardag
+  15:    1  ->  washandje ==> washantje
+  16:    1  ->  ziekenhuis ==> ziekenhais
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  en
+   2:    1  ->  konijnenhoek
+   3:    1  ->  schoene
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  autorijden
+   2:    1  ->  eindelijk
+   3:    1  ->  elastiekje
+   4:    1  ->  fototoestel
+   5:    1  ->  goeiendag
+   6:    1  ->  kabouter
+   7:    1  ->  knutselen
+   8:    1  ->  konijnenhok
+   9:    1  ->  limonade
+  10:    1  ->  ruziemaken
+  11:    1  ->  schoenenwinkel
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  teddybeer
+  14:    1  ->  verjaardag
+  15:    1  ->  washandje
+  16:    1  ->  ziekenhuis
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  autoredden
+   2:    1  ->  endelijk
+   3:    1  ->  fototostel
+   4:    1  ->  goeiendeg
+   5:    1  ->  kaboute
+   6:    1  ->  kloetsolun
+   7:    1  ->  lastiekje
+   8:    1  ->  lemonade
+   9:    1  ->  maken
+  10:    1  ->  ruzie
+  11:    1  ->  sneeuwietje
+  12:    1  ->  teddibeer
+  13:    1  ->  verjardag
+  14:    1  ->  washantje
+  15:    1  ->  winkel
+  16:    1  ->  ziekenhais
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

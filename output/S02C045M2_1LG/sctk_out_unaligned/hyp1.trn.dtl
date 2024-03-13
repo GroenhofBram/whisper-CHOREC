@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   64.3%   (  27)
+
+Percent Correct           =   35.7%   (  15)
+
+Percent Substitution      =   57.1%   (  24)
+Percent Deletions         =    7.1%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   35.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  39)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> gaol
+   2:    1  ->  arm ==> an
+   3:    1  ->  bed ==> bet
+   4:    1  ->  draai ==> drei
+   5:    1  ->  duur ==> tuur
+   6:    1  ->  eerst ==> erst
+   7:    1  ->  gauw ==> frient
+   8:    1  ->  groei ==> roi
+   9:    1  ->  groen ==> goen
+  10:    1  ->  hoek ==> klouwn
+  11:    1  ->  hout ==> rant
+  12:    1  ->  knoop ==> knop
+  13:    1  ->  koe ==> oe
+  14:    1  ->  krant ==> lathook
+  15:    1  ->  mooi ==> moi
+  16:    1  ->  muts ==> fes
+  17:    1  ->  nieuw ==> metsnieuw
+  18:    1  ->  paard ==> vet
+  19:    1  ->  reis ==> res
+  20:    1  ->  schoen ==> schoon
+  21:    1  ->  sjaal ==> cel
+  22:    1  ->  strand ==> krant
+  23:    1  ->  vijf ==> pert
+  24:    1  ->  vriend ==> out
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *(hak)
+   2:    1  ->  clown
+   3:    1  ->  huis
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  *
+   2:    1  ->  arm
+   3:    1  ->  bed
+   4:    1  ->  draai
+   5:    1  ->  duur
+   6:    1  ->  eerst
+   7:    1  ->  gauw
+   8:    1  ->  groei
+   9:    1  ->  groen
+  10:    1  ->  hoek
+  11:    1  ->  hout
+  12:    1  ->  knoop
+  13:    1  ->  koe
+  14:    1  ->  krant
+  15:    1  ->  mooi
+  16:    1  ->  muts
+  17:    1  ->  nieuw
+  18:    1  ->  paard
+  19:    1  ->  reis
+  20:    1  ->  schoen
+  21:    1  ->  sjaal
+  22:    1  ->  strand
+  23:    1  ->  vijf
+  24:    1  ->  vriend
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  an
+   2:    1  ->  bet
+   3:    1  ->  cel
+   4:    1  ->  drei
+   5:    1  ->  erst
+   6:    1  ->  fes
+   7:    1  ->  frient
+   8:    1  ->  gaol
+   9:    1  ->  goen
+  10:    1  ->  klouwn
+  11:    1  ->  knop
+  12:    1  ->  krant
+  13:    1  ->  lathook
+  14:    1  ->  metsnieuw
+  15:    1  ->  moi
+  16:    1  ->  oe
+  17:    1  ->  out
+  18:    1  ->  pert
+  19:    1  ->  rant
+  20:    1  ->  res
+  21:    1  ->  roi
+  22:    1  ->  schoon
+  23:    1  ->  tuur
+  24:    1  ->  vet
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

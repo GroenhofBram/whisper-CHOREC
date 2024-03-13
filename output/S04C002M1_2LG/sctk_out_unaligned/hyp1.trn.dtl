@@ -1,0 +1,250 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.4%   ( 101)
+
+Percent Correct           =    7.5%   (   8)
+
+Percent Substitution      =   67.3%   (  72)
+Percent Deletions         =   25.2%   (  27)
+Percent Insertions        =    1.9%   (   2)
+Percent Word Accuracy     =    5.6%
+
+
+Ref. words                =           ( 107)
+Hyp. words                =           (  82)
+Aligned words             =           ( 109)
+
+CONFUSION PAIRS                  Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    2  ->  * ==> uh
+   2:    1  ->  * ==> ae
+   3:    1  ->  * ==> allee
+   4:    1  ->  * ==> apen
+   5:    1  ->  * ==> di
+   6:    1  ->  * ==> doedal
+   7:    1  ->  * ==> e
+   8:    1  ->  * ==> erste
+   9:    1  ->  * ==> f
+  10:    1  ->  * ==> feu
+  11:    1  ->  * ==> go
+  12:    1  ->  * ==> gooi
+  13:    1  ->  * ==> h
+  14:    1  ->  * ==> irus
+  15:    1  ->  * ==> ja
+  16:    1  ->  * ==> k
+  17:    1  ->  * ==> koi
+  18:    1  ->  * ==> kon
+  19:    1  ->  * ==> l
+  20:    1  ->  * ==> la
+  21:    1  ->  * ==> m
+  22:    1  ->  * ==> nieuw
+  23:    1  ->  * ==> nu
+  24:    1  ->  * ==> o
+  25:    1  ->  * ==> oning
+  26:    1  ->  * ==> opnee
+  27:    1  ->  * ==> po
+  28:    1  ->  * ==> puen
+  29:    1  ->  * ==> regem
+  30:    1  ->  * ==> swemen
+  31:    1  ->  * ==> toppen
+  32:    1  ->  * ==> vdeg
+  33:    1  ->  * ==> vietsere
+  34:    1  ->  * ==> vine
+  35:    1  ->  * ==> vrouw
+  36:    1  ->  * ==> w
+  37:    1  ->  * ==> we
+  38:    1  ->  * ==> wi
+  39:    1  ->  * ==> woedeg
+  40:    1  ->  *(vliegen) ==> rotin
+  41:    1  ->  *s ==> ato
+  42:    1  ->  *s ==> ivig
+  43:    1  ->  *s ==> lu
+  44:    1  ->  *s ==> neee
+  45:    1  ->  *s ==> vo
+  46:    1  ->  *s ==> vur
+  47:    1  ->  *x ==> m
+  48:    1  ->  auto ==> to
+  49:    1  ->  chauffeur ==> e
+  50:    1  ->  drinken ==> molep
+  51:    1  ->  fietsbel ==> not
+  52:    1  ->  hoofdpijn ==> penplaats
+  53:    1  ->  kleuren ==> ssolag
+  54:    1  ->  lawaai ==> skuren
+  55:    1  ->  liedje ==> snee
+  56:    1  ->  meisje ==> d
+  57:    1  ->  moeder ==> goi
+  58:    1  ->  muziek ==> giek
+  59:    1  ->  potlood ==> kier
+  60:    1  ->  regen ==> kringdrinken
+  61:    1  ->  scheuren ==> sea
+  62:    1  ->  schouders ==> schoonderst
+  63:    1  ->  sneeuwen ==> ni
+  64:    1  ->  speelplaats ==> m
+  65:    1  ->  stoppen ==> lugem
+  66:    1  ->  vliegtuig ==> ho
+  67:    1  ->  vlinder ==> vlindor
+  68:    1  ->  voetbal ==> vo
+  69:    1  ->  water ==> mijn
+  70:    1  ->  winkel ==> wi
+  71:    1  ->  zwemmen ==> z
+     -------
+        72
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  der
+   2:    1  ->  wat
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:   14  ->  *
+   2:    5  ->  *s
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  eerste
+   7:    1  ->  gooien
+   8:    1  ->  koning
+   9:    1  ->  kussen
+  10:    1  ->  moeilijk
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:   40  ->  *
+   2:    6  ->  *s
+   3:    1  ->  *(vliegen)
+   4:    1  ->  *x
+   5:    1  ->  auto
+   6:    1  ->  chauffeur
+   7:    1  ->  drinken
+   8:    1  ->  fietsbel
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  meisje
+  14:    1  ->  moeder
+  15:    1  ->  muziek
+  16:    1  ->  potlood
+  17:    1  ->  regen
+  18:    1  ->  scheuren
+  19:    1  ->  schouders
+  20:    1  ->  sneeuwen
+  21:    1  ->  speelplaats
+  22:    1  ->  stoppen
+  23:    1  ->  vliegtuig
+  24:    1  ->  vlinder
+  25:    1  ->  voetbal
+  26:    1  ->  water
+  27:    1  ->  winkel
+  28:    1  ->  zwemmen
+     -------
+        72
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (66)
+                                 With >=  1 occurrences (66)
+
+   1:    3  ->  m
+   2:    2  ->  e
+   3:    2  ->  uh
+   4:    2  ->  vo
+   5:    2  ->  wi
+   6:    1  ->  ae
+   7:    1  ->  allee
+   8:    1  ->  apen
+   9:    1  ->  ato
+  10:    1  ->  d
+  11:    1  ->  di
+  12:    1  ->  doedal
+  13:    1  ->  erste
+  14:    1  ->  f
+  15:    1  ->  feu
+  16:    1  ->  giek
+  17:    1  ->  go
+  18:    1  ->  goi
+  19:    1  ->  gooi
+  20:    1  ->  h
+  21:    1  ->  ho
+  22:    1  ->  irus
+  23:    1  ->  ivig
+  24:    1  ->  ja
+  25:    1  ->  k
+  26:    1  ->  kier
+  27:    1  ->  koi
+  28:    1  ->  kon
+  29:    1  ->  kringdrinken
+  30:    1  ->  l
+  31:    1  ->  la
+  32:    1  ->  lu
+  33:    1  ->  lugem
+  34:    1  ->  mijn
+  35:    1  ->  molep
+  36:    1  ->  neee
+  37:    1  ->  ni
+  38:    1  ->  nieuw
+  39:    1  ->  not
+  40:    1  ->  nu
+  41:    1  ->  o
+  42:    1  ->  oning
+  43:    1  ->  opnee
+  44:    1  ->  penplaats
+  45:    1  ->  po
+  46:    1  ->  puen
+  47:    1  ->  regem
+  48:    1  ->  rotin
+  49:    1  ->  schoonderst
+  50:    1  ->  sea
+  51:    1  ->  skuren
+  52:    1  ->  snee
+  53:    1  ->  ssolag
+  54:    1  ->  swemen
+  55:    1  ->  to
+  56:    1  ->  toppen
+  57:    1  ->  vdeg
+  58:    1  ->  vietsere
+  59:    1  ->  vine
+  60:    1  ->  vlindor
+  61:    1  ->  vrouw
+  62:    1  ->  vur
+  63:    1  ->  w
+  64:    1  ->  we
+  65:    1  ->  woedeg
+  66:    1  ->  z
+     -------
+        72
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

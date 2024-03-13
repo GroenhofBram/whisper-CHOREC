@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.8%   (  33)
+
+Percent Correct           =   52.1%   (  25)
+
+Percent Substitution      =   45.8%   (  22)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =   20.8%   (  10)
+Percent Word Accuracy     =   31.3%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> g
+   2:    1  ->  * ==> nee
+   3:    1  ->  * ==> pijn
+   4:    1  ->  * ==> popt
+   5:    1  ->  * ==> potloot
+   6:    1  ->  * ==> scha
+   7:    1  ->  * ==> sofuofer
+   8:    1  ->  *(hoog) ==> hoogt
+   9:    1  ->  *x ==> loot
+  10:    1  ->  auto ==> winkelauto
+  11:    1  ->  circus ==> suurkuus
+  12:    1  ->  cola ==> kola
+  13:    1  ->  eerste ==> heerste
+  14:    1  ->  fietsbel ==> bel
+  15:    1  ->  gooien ==> oh
+  16:    1  ->  koning ==> niet
+  17:    1  ->  kussen ==> kusen
+  18:    1  ->  potlood ==> fiets
+  19:    1  ->  stoppen ==> toppen
+  20:    1  ->  vlinder ==> nder
+  21:    1  ->  vuurwerk ==> voorwerk
+  22:    1  ->  winkel ==> droegen
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  s
+   2:    1  ->  ggooien
+   3:    1  ->  hogen
+   4:    1  ->  kon
+   5:    1  ->  nu
+   6:    1  ->  popt
+   7:    1  ->  schouuven
+   8:    1  ->  schuif
+   9:    1  ->  vini
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  drogen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    7  ->  *
+   2:    1  ->  *(hoog)
+   3:    1  ->  *x
+   4:    1  ->  auto
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  gooien
+  10:    1  ->  koning
+  11:    1  ->  kussen
+  12:    1  ->  potlood
+  13:    1  ->  stoppen
+  14:    1  ->  vlinder
+  15:    1  ->  vuurwerk
+  16:    1  ->  winkel
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bel
+   2:    1  ->  droegen
+   3:    1  ->  fiets
+   4:    1  ->  g
+   5:    1  ->  heerste
+   6:    1  ->  hoogt
+   7:    1  ->  kola
+   8:    1  ->  kusen
+   9:    1  ->  loot
+  10:    1  ->  nder
+  11:    1  ->  nee
+  12:    1  ->  niet
+  13:    1  ->  oh
+  14:    1  ->  pijn
+  15:    1  ->  popt
+  16:    1  ->  potloot
+  17:    1  ->  scha
+  18:    1  ->  sofuofer
+  19:    1  ->  suurkuus
+  20:    1  ->  toppen
+  21:    1  ->  voorwerk
+  22:    1  ->  winkelauto
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

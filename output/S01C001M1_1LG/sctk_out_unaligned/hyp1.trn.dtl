@@ -1,0 +1,240 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.8%   (  90)
+
+Percent Correct           =    6.5%   (   6)
+
+Percent Substitution      =   71.0%   (  66)
+Percent Deletions         =   22.6%   (  21)
+Percent Insertions        =    3.2%   (   3)
+Percent Word Accuracy     =    3.2%
+
+
+Ref. words                =           (  93)
+Hyp. words                =           (  75)
+Aligned words             =           (  96)
+
+CONFUSION PAIRS                  Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    2  ->  * ==> feest
+   2:    2  ->  * ==> hoe
+   3:    2  ->  * ==> ships
+   4:    2  ->  *(knop) ==> knop
+   5:    1  ->  * ==> a
+   6:    1  ->  * ==> ah
+   7:    1  ->  * ==> alas
+   8:    1  ->  * ==> ane
+   9:    1  ->  * ==> bin
+  10:    1  ->  * ==> brad
+  11:    1  ->  * ==> er
+  12:    1  ->  * ==> gloi
+  13:    1  ->  * ==> haar
+  14:    1  ->  * ==> haarm
+  15:    1  ->  * ==> hori
+  16:    1  ->  * ==> i
+  17:    1  ->  * ==> jorf
+  18:    1  ->  * ==> ka
+  19:    1  ->  * ==> kla
+  20:    1  ->  * ==> knop
+  21:    1  ->  * ==> mo
+  22:    1  ->  * ==> nee
+  23:    1  ->  * ==> nerkon
+  24:    1  ->  * ==> nik
+  25:    1  ->  * ==> oi
+  26:    1  ->  * ==> ola
+  27:    1  ->  * ==> paals
+  28:    1  ->  * ==> saram
+  29:    1  ->  * ==> tal
+  30:    1  ->  * ==> zit
+  31:    1  ->  *(friet) ==> vi
+  32:    1  ->  *(haar) ==> ke
+  33:    1  ->  *(plak) ==> piak
+  34:    1  ->  *(zal) ==> schel
+  35:    1  ->  *(zat) ==> at
+  36:    1  ->  *t ==> uh
+  37:    1  ->  *x ==> ko
+  38:    1  ->  arm ==> mi
+  39:    1  ->  bed*(ben) ==> ar
+  40:    1  ->  chips ==> ka
+  41:    1  ->  clown ==> ja
+  42:    1  ->  draai*(daar) ==> val
+  43:    1  ->  eerst ==> rst
+  44:    1  ->  gauw ==> vrit
+  45:    1  ->  groei ==> haar
+  46:    1  ->  groen ==> ho
+  47:    1  ->  herfst ==> ur
+  48:    1  ->  huis ==> uh
+  49:    1  ->  jas ==> hag
+  50:    1  ->  koe ==> kl
+  51:    1  ->  leeuw ==> u
+  52:    1  ->  neus ==> pals
+  53:    1  ->  oog ==> ki
+  54:    1  ->  paard ==> had
+  55:    1  ->  plank*(plak) ==> pak
+  56:    1  ->  plas ==> goern
+  57:    1  ->  reis ==> gijs
+  58:    1  ->  schoen ==> zat
+  59:    1  ->  sjaal ==> tal
+  60:    1  ->  straat*(schaar) ==> lem
+  61:    1  ->  strand ==> ori
+  62:    1  ->  zacht*(zat) ==> og
+     -------
+        66
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  daar
+   2:    1  ->  ge
+   3:    1  ->  schaar
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    9  ->  *
+   2:    2  ->  *x
+   3:    2  ->  muts
+   4:    1  ->  *t
+   5:    1  ->  bang
+   6:    1  ->  kind
+   7:    1  ->  klas
+   8:    1  ->  krant*(kraan)
+   9:    1  ->  mooi
+  10:    1  ->  nieuw
+  11:    1  ->  vriend
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   32  ->  *
+   2:    2  ->  *(knop)
+   3:    1  ->  *(friet)
+   4:    1  ->  *(haar)
+   5:    1  ->  *(plak)
+   6:    1  ->  *(zal)
+   7:    1  ->  *(zat)
+   8:    1  ->  *t
+   9:    1  ->  *x
+  10:    1  ->  arm
+  11:    1  ->  bed*(ben)
+  12:    1  ->  chips
+  13:    1  ->  clown
+  14:    1  ->  draai*(daar)
+  15:    1  ->  eerst
+  16:    1  ->  gauw
+  17:    1  ->  groei
+  18:    1  ->  groen
+  19:    1  ->  herfst
+  20:    1  ->  huis
+  21:    1  ->  jas
+  22:    1  ->  koe
+  23:    1  ->  leeuw
+  24:    1  ->  neus
+  25:    1  ->  oog
+  26:    1  ->  paard
+  27:    1  ->  plank*(plak)
+  28:    1  ->  plas
+  29:    1  ->  reis
+  30:    1  ->  schoen
+  31:    1  ->  sjaal
+  32:    1  ->  straat*(schaar)
+  33:    1  ->  strand
+  34:    1  ->  zacht*(zat)
+     -------
+        66
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    3  ->  knop
+   2:    2  ->  feest
+   3:    2  ->  haar
+   4:    2  ->  hoe
+   5:    2  ->  ka
+   6:    2  ->  ships
+   7:    2  ->  tal
+   8:    2  ->  uh
+   9:    1  ->  a
+  10:    1  ->  ah
+  11:    1  ->  alas
+  12:    1  ->  ane
+  13:    1  ->  ar
+  14:    1  ->  at
+  15:    1  ->  bin
+  16:    1  ->  brad
+  17:    1  ->  er
+  18:    1  ->  gijs
+  19:    1  ->  gloi
+  20:    1  ->  goern
+  21:    1  ->  haarm
+  22:    1  ->  had
+  23:    1  ->  hag
+  24:    1  ->  ho
+  25:    1  ->  hori
+  26:    1  ->  i
+  27:    1  ->  ja
+  28:    1  ->  jorf
+  29:    1  ->  ke
+  30:    1  ->  ki
+  31:    1  ->  kl
+  32:    1  ->  kla
+  33:    1  ->  ko
+  34:    1  ->  lem
+  35:    1  ->  mi
+  36:    1  ->  mo
+  37:    1  ->  nee
+  38:    1  ->  nerkon
+  39:    1  ->  nik
+  40:    1  ->  og
+  41:    1  ->  oi
+  42:    1  ->  ola
+  43:    1  ->  ori
+  44:    1  ->  paals
+  45:    1  ->  pak
+  46:    1  ->  pals
+  47:    1  ->  piak
+  48:    1  ->  rst
+  49:    1  ->  saram
+  50:    1  ->  schel
+  51:    1  ->  u
+  52:    1  ->  ur
+  53:    1  ->  val
+  54:    1  ->  vi
+  55:    1  ->  vrit
+  56:    1  ->  zat
+  57:    1  ->  zit
+     -------
+        66
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

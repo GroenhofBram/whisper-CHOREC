@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.2%   (  45)
+
+Percent Correct           =   34.8%   (  23)
+
+Percent Substitution      =   57.6%   (  38)
+Percent Deletions         =    7.6%   (   5)
+Percent Insertions        =    3.0%   (   2)
+Percent Word Accuracy     =   31.8%
+
+
+Ref. words                =           (  66)
+Hyp. words                =           (  63)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  *x ==> nee
+   2:    2  ->  * ==> lei
+   3:    2  ->  * ==> lijtje
+   4:    1  ->  * ==> cirv
+   5:    1  ->  * ==> dih
+   6:    1  ->  * ==> dihde
+   7:    1  ->  * ==> erste
+   8:    1  ->  * ==> kuzen
+   9:    1  ->  * ==> neeschrejschre
+  10:    1  ->  * ==> run
+  11:    1  ->  * ==> scha
+  12:    1  ->  * ==> schijve
+  13:    1  ->  * ==> schrel
+  14:    1  ->  *(dichter) ==> nee
+  15:    1  ->  *(dik) ==> dik
+  16:    1  ->  *x ==> cevwardet
+  17:    1  ->  *x ==> dicht
+  18:    1  ->  *x ==> nit
+  19:    1  ->  *x ==> see
+  20:    1  ->  chauffeur ==> chaufer
+  21:    1  ->  circus ==> cirquis
+  22:    1  ->  dichtbij ==> bij
+  23:    1  ->  eerste ==> kola
+  24:    1  ->  fietsbel ==> wel
+  25:    1  ->  hoofdpijn ==> pijn
+  26:    1  ->  lawaai ==> lawai
+  27:    1  ->  liedje ==> nietje
+  28:    1  ->  muziek ==> musiek
+  29:    1  ->  opnieuw ==> oppnieuw
+  30:    1  ->  speelplaats ==> speekdaatst
+  31:    1  ->  vlinder ==> veender
+  32:    1  ->  vuurwerk ==> fuurwerk
+  33:    1  ->  winkel ==> winken
+  34:    1  ->  zwemmen ==> slimmen
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fiets
+   2:    1  ->  hooft
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  *
+   2:    1  ->  *x
+   3:    1  ->  cola
+   4:    1  ->  kussen
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:   14  ->  *
+   2:    7  ->  *x
+   3:    1  ->  *(dichter)
+   4:    1  ->  *(dik)
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  dichtbij
+   8:    1  ->  eerste
+   9:    1  ->  fietsbel
+  10:    1  ->  hoofdpijn
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  muziek
+  14:    1  ->  opnieuw
+  15:    1  ->  speelplaats
+  16:    1  ->  vlinder
+  17:    1  ->  vuurwerk
+  18:    1  ->  winkel
+  19:    1  ->  zwemmen
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    4  ->  nee
+   2:    2  ->  lei
+   3:    2  ->  lijtje
+   4:    1  ->  bij
+   5:    1  ->  cevwardet
+   6:    1  ->  chaufer
+   7:    1  ->  cirquis
+   8:    1  ->  cirv
+   9:    1  ->  dicht
+  10:    1  ->  dih
+  11:    1  ->  dihde
+  12:    1  ->  dik
+  13:    1  ->  erste
+  14:    1  ->  fuurwerk
+  15:    1  ->  kola
+  16:    1  ->  kuzen
+  17:    1  ->  lawai
+  18:    1  ->  musiek
+  19:    1  ->  neeschrejschre
+  20:    1  ->  nietje
+  21:    1  ->  nit
+  22:    1  ->  oppnieuw
+  23:    1  ->  pijn
+  24:    1  ->  run
+  25:    1  ->  scha
+  26:    1  ->  schijve
+  27:    1  ->  schrel
+  28:    1  ->  see
+  29:    1  ->  slimmen
+  30:    1  ->  speekdaatst
+  31:    1  ->  veender
+  32:    1  ->  wel
+  33:    1  ->  winken
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

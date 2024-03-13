@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   72.5%   (  29)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bed ==> bet
+   2:    1  ->  clown ==> klouwn
+   3:    1  ->  feest ==> veest
+   4:    1  ->  gauw ==> gouw
+   5:    1  ->  groei ==> goei
+   6:    1  ->  knoop ==> knop
+   7:    1  ->  koe ==> koel
+   8:    1  ->  krant ==> krand
+   9:    1  ->  neus ==> nes
+  10:    1  ->  plas ==> plat
+  11:    1  ->  reis ==> erijs
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bed
+   2:    1  ->  clown
+   3:    1  ->  feest
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  knoop
+   7:    1  ->  koe
+   8:    1  ->  krant
+   9:    1  ->  neus
+  10:    1  ->  plas
+  11:    1  ->  reis
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bet
+   2:    1  ->  erijs
+   3:    1  ->  goei
+   4:    1  ->  gouw
+   5:    1  ->  klouwn
+   6:    1  ->  knop
+   7:    1  ->  koel
+   8:    1  ->  krand
+   9:    1  ->  nes
+  10:    1  ->  plat
+  11:    1  ->  veest
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

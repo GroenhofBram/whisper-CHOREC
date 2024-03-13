@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C026V2_3+4LGPseudo
+
+#### (S02C026V2_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=70.5%	Del=0.0%	Ins=29.5%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | * | toejietsen | oonwijlen | * | jattesiet | nurudien | stoenydaas | deuveltek | * | * | juitonie | * | gevijdel | sidowaan | spekkeraai | wachteniek | * | verpierik | nappegreeuw | mantaroen | * | schielendaspen | * | * | crobeklunker | kabbestepen | verwarig | * | ooiebiekje | fandelig | * | * | jalekrewen | smoralij | zeekvlachine | kanaroe | * | * | * | toineetlijgen | * | meitsegrok | kantelogsten | ondermind*(ondervinden) | choporatie | zennebral | ijraspangen | blottenduuf | * | * | * | girdofhaalder | tobbermoeit | poentalschouden | havedil | * | * | * | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | taf | doe | doe | ita | onwijlen | ja | tief | ek | jes | trn | leven | stooinidas | de | veltek | je | ja | doni | ldn | al | cidon | egr | wahde | biek | vrtpi | pirik | na | parce | man | darocile | da | das | te | o | u | lundar | klunke | klabes | tepen | vowarg | hoh | hoe | pekia | fan | deli | ae | ku | kein | mor | l | gi | kamaro | t | zo | doi | bij | klijgen | net | ok | kantogten | m | derginda | supoti | sendebra | e | san | gen | budedus | girig | do | d | gerd | ddob | mot | bord | tls | de | a | vldi | verb | ar | a | br | rakat | g | gojak | o | en | neren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

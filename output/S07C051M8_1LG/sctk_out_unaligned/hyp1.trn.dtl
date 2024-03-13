@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.3%   (  28)
+
+Percent Correct           =   45.8%   (  22)
+
+Percent Substitution      =   45.8%   (  22)
+Percent Deletions         =    8.3%   (   4)
+Percent Insertions        =    4.2%   (   2)
+Percent Word Accuracy     =   41.7%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  46)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> ja
+   2:    1  ->  * ==> s
+   3:    1  ->  * ==> sla
+   4:    1  ->  *(straat) ==> sstraat
+   5:    1  ->  *x ==> s
+   6:    1  ->  bed ==> wit
+   7:    1  ->  feest ==> fest
+   8:    1  ->  gauw ==> gau
+   9:    1  ->  groei ==> ellem
+  10:    1  ->  herfst ==> hert
+  11:    1  ->  hout ==> gat
+  12:    1  ->  jas ==> jors
+  13:    1  ->  knoop ==> knop
+  14:    1  ->  krant ==> krand
+  15:    1  ->  muts ==> must
+  16:    1  ->  neus ==> neis
+  17:    1  ->  oog ==> hoog
+  18:    1  ->  paard ==> bart
+  19:    1  ->  reis ==> rijs
+  20:    1  ->  sjaal ==> s
+  21:    1  ->  strand ==> goei
+  22:    1  ->  zacht*(zag) ==> zag
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  klauwen
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  *
+   2:    1  ->  *(sla)
+   3:    1  ->  *s
+   4:    1  ->  arm
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  *
+   2:    1  ->  *(straat)
+   3:    1  ->  *x
+   4:    1  ->  bed
+   5:    1  ->  feest
+   6:    1  ->  gauw
+   7:    1  ->  groei
+   8:    1  ->  herfst
+   9:    1  ->  hout
+  10:    1  ->  jas
+  11:    1  ->  knoop
+  12:    1  ->  krant
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  oog
+  16:    1  ->  paard
+  17:    1  ->  reis
+  18:    1  ->  sjaal
+  19:    1  ->  strand
+  20:    1  ->  zacht*(zag)
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  s
+   2:    1  ->  bart
+   3:    1  ->  ellem
+   4:    1  ->  fest
+   5:    1  ->  gat
+   6:    1  ->  gau
+   7:    1  ->  goei
+   8:    1  ->  hert
+   9:    1  ->  hoog
+  10:    1  ->  ja
+  11:    1  ->  jors
+  12:    1  ->  knop
+  13:    1  ->  krand
+  14:    1  ->  must
+  15:    1  ->  neis
+  16:    1  ->  rijs
+  17:    1  ->  sla
+  18:    1  ->  sstraat
+  19:    1  ->  wit
+  20:    1  ->  zag
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

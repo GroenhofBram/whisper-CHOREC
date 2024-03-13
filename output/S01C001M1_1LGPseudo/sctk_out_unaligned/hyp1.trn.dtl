@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  82)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   64.6%   (  53)
+Percent Deletions         =   35.4%   (  29)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  82)
+Hyp. words                =           (  53)
+Aligned words             =           (  82)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  * ==> gat
+   2:    1  ->  * ==> dam
+   3:    1  ->  * ==> fam
+   4:    1  ->  * ==> gegt
+   5:    1  ->  * ==> goed
+   6:    1  ->  * ==> hiier
+   7:    1  ->  * ==> is
+   8:    1  ->  * ==> ja
+   9:    1  ->  * ==> kis
+  10:    1  ->  * ==> meer
+  11:    1  ->  * ==> nee
+  12:    1  ->  * ==> ok
+  13:    1  ->  * ==> sdi
+  14:    1  ->  * ==> spi
+  15:    1  ->  * ==> sta
+  16:    1  ->  * ==> trand
+  17:    1  ->  * ==> umt
+  18:    1  ->  * ==> veld
+  19:    1  ->  * ==> vo
+  20:    1  ->  * ==> vrijk
+  21:    1  ->  * ==> zgat
+  22:    1  ->  *(staf) ==> kgrat
+  23:    1  ->  *s ==> fap
+  24:    1  ->  *s ==> han
+  25:    1  ->  *s ==> ki
+  26:    1  ->  *s ==> nee
+  27:    1  ->  *s ==> sori
+  28:    1  ->  *s ==> spai
+  29:    1  ->  *s ==> staar
+  30:    1  ->  blard ==> s
+  31:    1  ->  doer*(duur) ==> jaast
+  32:    1  ->  eem*(heem) ==> sank
+  33:    1  ->  frijk ==> e
+  34:    1  ->  grek ==> heen
+  35:    1  ->  guul ==> gug
+  36:    1  ->  haans ==> ok
+  37:    1  ->  heik ==> stein
+  38:    1  ->  hoekt ==> fp
+  39:    1  ->  jien ==> hoi
+  40:    1  ->  keng ==> sori
+  41:    1  ->  leum ==> um
+  42:    1  ->  neeuw ==> ne
+  43:    1  ->  noork ==> spoer
+  44:    1  ->  roen ==> sta
+  45:    1  ->  schard ==> san
+  46:    1  ->  sjalt ==> ja
+  47:    1  ->  snaaf ==> schaart
+  48:    1  ->  spaai ==> viet
+  49:    1  ->  stuid ==> taf
+  50:    1  ->  swoers ==> pi
+  51:    1  ->  vid ==> door
+  52:    1  ->  zans ==> nee
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:   14  ->  *
+   2:    4  ->  *s
+   3:    1  ->  ant
+   4:    1  ->  beeg
+   5:    1  ->  dau
+   6:    1  ->  fam*(fan)
+   7:    1  ->  fook
+   8:    1  ->  hool
+   9:    1  ->  larst
+  10:    1  ->  sprieuw
+  11:    1  ->  sprunt
+  12:    1  ->  vaap
+  13:    1  ->  vout*(fout)
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   22  ->  *
+   2:    7  ->  *s
+   3:    1  ->  *(staf)
+   4:    1  ->  blard
+   5:    1  ->  doer*(duur)
+   6:    1  ->  eem*(heem)
+   7:    1  ->  frijk
+   8:    1  ->  grek
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hoekt
+  13:    1  ->  jien
+  14:    1  ->  keng
+  15:    1  ->  leum
+  16:    1  ->  neeuw
+  17:    1  ->  noork
+  18:    1  ->  roen
+  19:    1  ->  schard
+  20:    1  ->  sjalt
+  21:    1  ->  snaaf
+  22:    1  ->  spaai
+  23:    1  ->  stuid
+  24:    1  ->  swoers
+  25:    1  ->  vid
+  26:    1  ->  zans
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  nee
+   2:    2  ->  gat
+   3:    2  ->  ja
+   4:    2  ->  ok
+   5:    2  ->  sori
+   6:    2  ->  sta
+   7:    1  ->  dam
+   8:    1  ->  door
+   9:    1  ->  e
+  10:    1  ->  fam
+  11:    1  ->  fap
+  12:    1  ->  fp
+  13:    1  ->  gegt
+  14:    1  ->  goed
+  15:    1  ->  gug
+  16:    1  ->  han
+  17:    1  ->  heen
+  18:    1  ->  hiier
+  19:    1  ->  hoi
+  20:    1  ->  is
+  21:    1  ->  jaast
+  22:    1  ->  kgrat
+  23:    1  ->  ki
+  24:    1  ->  kis
+  25:    1  ->  meer
+  26:    1  ->  ne
+  27:    1  ->  pi
+  28:    1  ->  s
+  29:    1  ->  san
+  30:    1  ->  sank
+  31:    1  ->  schaart
+  32:    1  ->  sdi
+  33:    1  ->  spai
+  34:    1  ->  spi
+  35:    1  ->  spoer
+  36:    1  ->  staar
+  37:    1  ->  stein
+  38:    1  ->  taf
+  39:    1  ->  trand
+  40:    1  ->  um
+  41:    1  ->  umt
+  42:    1  ->  veld
+  43:    1  ->  viet
+  44:    1  ->  vo
+  45:    1  ->  vrijk
+  46:    1  ->  zgat
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

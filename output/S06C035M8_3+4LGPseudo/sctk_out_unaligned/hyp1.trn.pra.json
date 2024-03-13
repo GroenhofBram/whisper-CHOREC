@@ -1,0 +1,421 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S06C035M8_3+4LGPseudo": {
+   "(S06C035M8_3+4LGPseudo-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S06C035M8_3+4LGPseudo",
+    "sentence_id": "(S06C035M8_3+4LGPseudo-words)",
+    "sequence": 0,
+    "word_count": 81,
+    "words": [
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "omeertuis"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "doe"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "je"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ietsten"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "oenwijlen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ja"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "te"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "siet"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "neru"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "di"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "din"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "digen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "stone"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "dans"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "duiveldik"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ja"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "toni"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ometuif",
+      "hyp": "geverdel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "toejietsen",
+      "hyp": "sido"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "wan"
+     },
+     {
+      "eval_label": "S",
+      "ref": "oonwijlen",
+      "hyp": "spickera"
+     },
+     {
+      "eval_label": "S",
+      "ref": "jattesiet",
+      "hyp": "wachtte"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nurudien",
+      "hyp": "diek"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "verpirik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "nappe"
+     },
+     {
+      "eval_label": "S",
+      "ref": "stoenydaas",
+      "hyp": "grejl"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "mantaroon"
+     },
+     {
+      "eval_label": "S",
+      "ref": "deuveltek",
+      "hyp": "schelen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "juitonie",
+      "hyp": "daspin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gevijdel",
+      "hyp": "krobbelklunker"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sidowaan",
+      "hyp": "kabes"
+     },
+     {
+      "eval_label": "S",
+      "ref": "spekkeraai",
+      "hyp": "tepen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "wachteniek",
+      "hyp": "verwarring"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verpierik",
+      "hyp": "verwarrig"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nappegreeuw",
+      "hyp": "oh"
+     },
+     {
+      "eval_label": "S",
+      "ref": "mantaroen",
+      "hyp": "je"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schielendaspen",
+      "hyp": "bij"
+     },
+     {
+      "eval_label": "S",
+      "ref": "crobeklunker",
+      "hyp": "beeke"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kabbestepen",
+      "hyp": "beeke"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verwarig*(verwarring)",
+      "hyp": "fann"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "duling"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ooiebiekje",
+      "hyp": "jallekrebben"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "smoralan"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "zeek"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fandelig",
+      "hyp": "vlag"
+     },
+     {
+      "eval_label": "S",
+      "ref": "jalekrewen",
+      "hyp": "chine"
+     },
+     {
+      "eval_label": "S",
+      "ref": "smoralij",
+      "hyp": "kanaro"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zeekvlachine",
+      "hyp": "toi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kanaroe",
+      "hyp": "neetleggen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "toineetlijgen",
+      "hyp": "net"
+     },
+     {
+      "eval_label": "S",
+      "ref": "meitsegrok",
+      "hyp": "okze"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "grok"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kantelogsten",
+      "hyp": "kantoloogsten"
+     },
+     {
+      "eval_label": "C",
+      "ref": "ondermind",
+      "hyp": "ondermind"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "schoa"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "schouaarniet"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "rad"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "i"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "ze"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "zijn"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "er"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "bal"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "brol"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "en"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "raspangen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "bloten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "choporatie",
+      "hyp": "daf"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "geeldof"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "elder"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zennebral",
+      "hyp": "to"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "bermoeid"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ijraspangen",
+      "hyp": "bontal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "blottenduuf",
+      "hyp": "schouder"
+     },
+     {
+      "eval_label": "S",
+      "ref": "girdofhaalder",
+      "hyp": "schouden"
+     },
+     {
+      "eval_label": "S",
+      "ref": "tobbermoeit",
+      "hyp": "havendeel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "poentalschouden",
+      "hyp": "verbrakerte"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "gerauw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "havedil",
+      "hyp": "jak"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verbrakkertje",
+      "hyp": "gap"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gerauwejaak",
+      "hyp": "e"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hapeneren",
+      "hyp": "bein"
+     }
+    ]
+   }
+  }
+ }
+}

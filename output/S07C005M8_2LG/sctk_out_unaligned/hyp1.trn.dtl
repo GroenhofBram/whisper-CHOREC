@@ -1,0 +1,254 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.2%   ( 140)
+
+Percent Correct           =    4.8%   (   7)
+
+Percent Substitution      =   47.6%   (  70)
+Percent Deletions         =   47.6%   (  70)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.8%
+
+
+Ref. words                =           ( 147)
+Hyp. words                =           (  77)
+Aligned words             =           ( 147)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    1  ->  * ==> aast
+   2:    1  ->  * ==> abun
+   3:    1  ->  * ==> al
+   4:    1  ->  * ==> ato
+   5:    1  ->  * ==> bal
+   6:    1  ->  * ==> bel
+   7:    1  ->  * ==> cafier
+   8:    1  ->  * ==> dum
+   9:    1  ->  * ==> egen
+  10:    1  ->  * ==> en
+  11:    1  ->  * ==> gade
+  12:    1  ->  * ==> gara
+  13:    1  ->  * ==> geluid
+  14:    1  ->  * ==> goi
+  15:    1  ->  * ==> hoofdi
+  16:    1  ->  * ==> i
+  17:    1  ->  * ==> in
+  18:    1  ->  * ==> kni
+  19:    1  ->  * ==> kornu
+  20:    1  ->  * ==> kou
+  21:    1  ->  * ==> lat
+  22:    1  ->  * ==> luwan
+  23:    1  ->  * ==> mooiten
+  24:    1  ->  * ==> niehtug
+  25:    1  ->  * ==> nu?
+  26:    1  ->  * ==> onijn
+  27:    1  ->  * ==> or
+  28:    1  ->  * ==> pee
+  29:    1  ->  * ==> s
+  30:    1  ->  * ==> sirkus
+  31:    1  ->  * ==> smeisje
+  32:    1  ->  * ==> u
+  33:    1  ->  * ==> vek
+  34:    1  ->  * ==> voorbal
+  35:    1  ->  * ==> wien
+  36:    1  ->  * ==> wij
+  37:    1  ->  *(wringer) ==> moeter
+  38:    1  ->  *s ==> kusen
+  39:    1  ->  *s ==> nusik
+  40:    1  ->  *s ==> o
+  41:    1  ->  *s ==> serkus
+  42:    1  ->  *s ==> shoe
+  43:    1  ->  *s ==> zo
+  44:    1  ->  *x ==> de
+  45:    1  ->  *x ==> g
+  46:    1  ->  *x ==> volgende
+  47:    1  ->  *x ==> was
+  48:    1  ->  appel ==> an
+  49:    1  ->  chauffeur ==> a
+  50:    1  ->  cola ==> was
+  51:    1  ->  cola ==> wemennu
+  52:    1  ->  dichtbij ==> e
+  53:    1  ->  drinken ==> ton
+  54:    1  ->  eerste*(een) ==> kola
+  55:    1  ->  hoofdpijn ==> veraal
+  56:    1  ->  kleuren ==> e
+  57:    1  ->  kussen ==> duurwerk
+  58:    1  ->  kussen ==> oi
+  59:    1  ->  meisje ==> e
+  60:    1  ->  muziek ==> fit
+  61:    1  ->  opnieuw ==> opopnie
+  62:    1  ->  regen ==> cnijk
+  63:    1  ->  regen ==> kome
+  64:    1  ->  speelplaats ==> tor
+  65:    1  ->  stoppen ==> ken
+  66:    1  ->  vliegtuig ==> ri
+  67:    1  ->  vlinder ==> flinda
+  68:    1  ->  voetbal ==> voren
+  69:    1  ->  waarom ==> tin
+  70:    1  ->  water ==> wat
+     -------
+        70
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   41  ->  *
+   2:    9  ->  *s
+   3:    2  ->  koning
+   4:    2  ->  winkel
+   5:    1  ->  *(doorn)
+   6:    1  ->  *(konijn)
+   7:    1  ->  auto
+   8:    1  ->  drogen
+   9:    1  ->  lawaai
+  10:    1  ->  liedje
+  11:    1  ->  moeder
+  12:    1  ->  moeilijk
+  13:    1  ->  opnieuw
+  14:    1  ->  potlood
+  15:    1  ->  scheuren
+  16:    1  ->  scheuren*(scheur)
+  17:    1  ->  schouders*(schouder)
+  18:    1  ->  speelplaats
+  19:    1  ->  verhaal
+  20:    1  ->  zwemmen
+     -------
+        70
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   36  ->  *
+   2:    6  ->  *s
+   3:    4  ->  *x
+   4:    2  ->  cola
+   5:    2  ->  kussen
+   6:    2  ->  regen
+   7:    1  ->  *(wringer)
+   8:    1  ->  appel
+   9:    1  ->  chauffeur
+  10:    1  ->  dichtbij
+  11:    1  ->  drinken
+  12:    1  ->  eerste*(een)
+  13:    1  ->  hoofdpijn
+  14:    1  ->  kleuren
+  15:    1  ->  meisje
+  16:    1  ->  muziek
+  17:    1  ->  opnieuw
+  18:    1  ->  speelplaats
+  19:    1  ->  stoppen
+  20:    1  ->  vliegtuig
+  21:    1  ->  vlinder
+  22:    1  ->  voetbal
+  23:    1  ->  waarom
+  24:    1  ->  water
+     -------
+        70
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (67)
+                                 With >=  1 occurrences (67)
+
+   1:    3  ->  e
+   2:    2  ->  was
+   3:    1  ->  a
+   4:    1  ->  aast
+   5:    1  ->  abun
+   6:    1  ->  al
+   7:    1  ->  an
+   8:    1  ->  ato
+   9:    1  ->  bal
+  10:    1  ->  bel
+  11:    1  ->  cafier
+  12:    1  ->  cnijk
+  13:    1  ->  de
+  14:    1  ->  dum
+  15:    1  ->  duurwerk
+  16:    1  ->  egen
+  17:    1  ->  en
+  18:    1  ->  fit
+  19:    1  ->  flinda
+  20:    1  ->  g
+  21:    1  ->  gade
+  22:    1  ->  gara
+  23:    1  ->  geluid
+  24:    1  ->  goi
+  25:    1  ->  hoofdi
+  26:    1  ->  i
+  27:    1  ->  in
+  28:    1  ->  ken
+  29:    1  ->  kni
+  30:    1  ->  kola
+  31:    1  ->  kome
+  32:    1  ->  kornu
+  33:    1  ->  kou
+  34:    1  ->  kusen
+  35:    1  ->  lat
+  36:    1  ->  luwan
+  37:    1  ->  moeter
+  38:    1  ->  mooiten
+  39:    1  ->  niehtug
+  40:    1  ->  nu?
+  41:    1  ->  nusik
+  42:    1  ->  o
+  43:    1  ->  oi
+  44:    1  ->  onijn
+  45:    1  ->  opopnie
+  46:    1  ->  or
+  47:    1  ->  pee
+  48:    1  ->  ri
+  49:    1  ->  s
+  50:    1  ->  serkus
+  51:    1  ->  shoe
+  52:    1  ->  sirkus
+  53:    1  ->  smeisje
+  54:    1  ->  tin
+  55:    1  ->  ton
+  56:    1  ->  tor
+  57:    1  ->  u
+  58:    1  ->  vek
+  59:    1  ->  veraal
+  60:    1  ->  volgende
+  61:    1  ->  voorbal
+  62:    1  ->  voren
+  63:    1  ->  wat
+  64:    1  ->  wemennu
+  65:    1  ->  wien
+  66:    1  ->  wij
+  67:    1  ->  zo
+     -------
+        70
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.9%   (  46)
+
+Percent Correct           =    8.5%   (   4)
+
+Percent Substitution      =   87.2%   (  41)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =    6.4%   (   3)
+Percent Word Accuracy     =    2.1%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  48)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  * ==> bebaald
+   2:    1  ->  * ==> gerig
+   3:    1  ->  * ==> geslobbel
+   4:    1  ->  * ==> guind
+   5:    1  ->  * ==> kloeen
+   6:    1  ->  * ==> lal
+   7:    1  ->  * ==> ohpold
+   8:    1  ->  * ==> omtrap
+   9:    1  ->  * ==> rijkken
+  10:    1  ->  * ==> slie
+  11:    1  ->  * ==> vocrkt
+  12:    1  ->  *(wonen) ==> wnen
+  13:    1  ->  bepoud ==> einden
+  14:    1  ->  fiewon ==> trillen
+  15:    1  ->  foetbans ==> ma
+  16:    1  ->  gefouw ==> feon
+  17:    1  ->  grijnken ==> tag
+  18:    1  ->  haweel ==> howil
+  19:    1  ->  hiffreeuw ==> histre
+  20:    1  ->  ierpieuw ==> irpel
+  21:    1  ->  ijpo ==> pal
+  22:    1  ->  kloeien ==> len
+  23:    1  ->  kneurem*(kreuner) ==> ze
+  24:    1  ->  milste ==> verder
+  25:    1  ->  nizung ==> vana
+  26:    1  ->  oonste*(oosten) ==> duren
+  27:    1  ->  prilsood ==> voud
+  28:    1  ->  saarweng ==> snareg
+  29:    1  ->  schielstaug ==> priloos
+  30:    1  ->  schodig ==> es
+  31:    1  ->  spreikje*(spijkers) ==> spekers
+  32:    1  ->  strellen*(strelen) ==> voetbast
+  33:    1  ->  ulen ==> ol
+  34:    1  ->  vawaai ==> weten
+  35:    1  ->  veurder ==> ko
+  36:    1  ->  vloender*(voeder) ==> neter
+  37:    1  ->  vocil*(vocht) ==> mille
+  38:    1  ->  vurpaand ==> grunur
+  39:    1  ->  walaan ==> walan
+  40:    1  ->  wooien ==> woen
+  41:    1  ->  zwieten ==> ostn
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  gefal
+   2:    1  ->  nezo
+   3:    1  ->  zurpent
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  eemde*(eenden)
+   2:    1  ->  millen
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   11  ->  *
+   2:    1  ->  *(wonen)
+   3:    1  ->  bepoud
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  grijnken
+   8:    1  ->  haweel
+   9:    1  ->  hiffreeuw
+  10:    1  ->  ierpieuw
+  11:    1  ->  ijpo
+  12:    1  ->  kloeien
+  13:    1  ->  kneurem*(kreuner)
+  14:    1  ->  milste
+  15:    1  ->  nizung
+  16:    1  ->  oonste*(oosten)
+  17:    1  ->  prilsood
+  18:    1  ->  saarweng
+  19:    1  ->  schielstaug
+  20:    1  ->  schodig
+  21:    1  ->  spreikje*(spijkers)
+  22:    1  ->  strellen*(strelen)
+  23:    1  ->  ulen
+  24:    1  ->  vawaai
+  25:    1  ->  veurder
+  26:    1  ->  vloender*(voeder)
+  27:    1  ->  vocil*(vocht)
+  28:    1  ->  vurpaand
+  29:    1  ->  walaan
+  30:    1  ->  wooien
+  31:    1  ->  zwieten
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  bebaald
+   2:    1  ->  duren
+   3:    1  ->  einden
+   4:    1  ->  es
+   5:    1  ->  feon
+   6:    1  ->  gerig
+   7:    1  ->  geslobbel
+   8:    1  ->  grunur
+   9:    1  ->  guind
+  10:    1  ->  histre
+  11:    1  ->  howil
+  12:    1  ->  irpel
+  13:    1  ->  kloeen
+  14:    1  ->  ko
+  15:    1  ->  lal
+  16:    1  ->  len
+  17:    1  ->  ma
+  18:    1  ->  mille
+  19:    1  ->  neter
+  20:    1  ->  ohpold
+  21:    1  ->  ol
+  22:    1  ->  omtrap
+  23:    1  ->  ostn
+  24:    1  ->  pal
+  25:    1  ->  priloos
+  26:    1  ->  rijkken
+  27:    1  ->  slie
+  28:    1  ->  snareg
+  29:    1  ->  spekers
+  30:    1  ->  tag
+  31:    1  ->  trillen
+  32:    1  ->  vana
+  33:    1  ->  verder
+  34:    1  ->  vocrkt
+  35:    1  ->  voetbast
+  36:    1  ->  voud
+  37:    1  ->  walan
+  38:    1  ->  weten
+  39:    1  ->  wnen
+  40:    1  ->  woen
+  41:    1  ->  ze
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

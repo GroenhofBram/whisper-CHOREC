@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   85.7%   (  36)
+
+Percent Correct           =   19.0%   (   8)
+
+Percent Substitution      =   81.0%   (  34)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   14.3%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> brils
+   2:    1  ->  * ==> brilsoort
+   3:    1  ->  bepoud ==> bepaald
+   4:    1  ->  erke ==> erkr
+   5:    1  ->  fiewon ==> vanwaai
+   6:    1  ->  foetbans ==> medder
+   7:    1  ->  gefouw ==> nizun
+   8:    1  ->  grijnken ==> touwg
+   9:    1  ->  haweel ==> hauweel
+  10:    1  ->  hiffreeuw ==> hifriel
+  11:    1  ->  ierpieuw ==> ipio
+  12:    1  ->  ijpo ==> eppel
+  13:    1  ->  kloeien ==> lulan
+  14:    1  ->  kneurem ==> strillend
+  15:    1  ->  milste ==> verter
+  16:    1  ->  muider ==> iels
+  17:    1  ->  nizung ==> kleuren
+  18:    1  ->  oonste ==> grenkend
+  19:    1  ->  orponk ==> s
+  20:    1  ->  prilsood ==> vlunder
+  21:    1  ->  saarweng ==> sarweng
+  22:    1  ->  schielstaug ==> de
+  23:    1  ->  schodig ==> groldig
+  24:    1  ->  sjobel ==> sjobbel
+  25:    1  ->  spreikje ==> sprekje
+  26:    1  ->  strellen ==> voetballers
+  27:    1  ->  ulen ==> oorspong
+  28:    1  ->  vawaai ==> zweten
+  29:    1  ->  veurder ==> kluyen
+  30:    1  ->  vloender ==> milster
+  31:    1  ->  vocil ==> vokul
+  32:    1  ->  vurpaand ==> fiuon
+  33:    1  ->  wooien ==> woiend
+  34:    1  ->  zwieten ==> onste
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  gefaal
+   2:    1  ->  vuurpand
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  erke
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  grijnken
+   8:    1  ->  haweel
+   9:    1  ->  hiffreeuw
+  10:    1  ->  ierpieuw
+  11:    1  ->  ijpo
+  12:    1  ->  kloeien
+  13:    1  ->  kneurem
+  14:    1  ->  milste
+  15:    1  ->  muider
+  16:    1  ->  nizung
+  17:    1  ->  oonste
+  18:    1  ->  orponk
+  19:    1  ->  prilsood
+  20:    1  ->  saarweng
+  21:    1  ->  schielstaug
+  22:    1  ->  schodig
+  23:    1  ->  sjobel
+  24:    1  ->  spreikje
+  25:    1  ->  strellen
+  26:    1  ->  ulen
+  27:    1  ->  vawaai
+  28:    1  ->  veurder
+  29:    1  ->  vloender
+  30:    1  ->  vocil
+  31:    1  ->  vurpaand
+  32:    1  ->  wooien
+  33:    1  ->  zwieten
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  bepaald
+   2:    1  ->  brils
+   3:    1  ->  brilsoort
+   4:    1  ->  de
+   5:    1  ->  eppel
+   6:    1  ->  erkr
+   7:    1  ->  fiuon
+   8:    1  ->  grenkend
+   9:    1  ->  groldig
+  10:    1  ->  hauweel
+  11:    1  ->  hifriel
+  12:    1  ->  iels
+  13:    1  ->  ipio
+  14:    1  ->  kleuren
+  15:    1  ->  kluyen
+  16:    1  ->  lulan
+  17:    1  ->  medder
+  18:    1  ->  milster
+  19:    1  ->  nizun
+  20:    1  ->  onste
+  21:    1  ->  oorspong
+  22:    1  ->  s
+  23:    1  ->  sarweng
+  24:    1  ->  sjobbel
+  25:    1  ->  sprekje
+  26:    1  ->  strillend
+  27:    1  ->  touwg
+  28:    1  ->  vanwaai
+  29:    1  ->  verter
+  30:    1  ->  vlunder
+  31:    1  ->  voetballers
+  32:    1  ->  vokul
+  33:    1  ->  woiend
+  34:    1  ->  zweten
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

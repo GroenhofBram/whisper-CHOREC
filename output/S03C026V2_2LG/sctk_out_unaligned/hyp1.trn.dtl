@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.5%   (  23)
+
+Percent Correct           =   47.5%   (  19)
+
+Percent Substitution      =   50.0%   (  20)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    5.0%   (   2)
+Percent Word Accuracy     =   42.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  appel ==> abbel
+   2:    1  ->  circus ==> sefkus
+   3:    1  ->  cola ==> kole
+   4:    1  ->  dichtbij ==> bij
+   5:    1  ->  drinken ==> tinken
+   6:    1  ->  drogen ==> boggen
+   7:    1  ->  fietsbel ==> bil
+   8:    1  ->  hoofdpijn ==> hooftpen
+   9:    1  ->  kleuren ==> kleren
+  10:    1  ->  koning ==> konien
+  11:    1  ->  lawaai ==> awi
+  12:    1  ->  liedje ==> potloot
+  13:    1  ->  potlood ==> vit
+  14:    1  ->  regen ==> vlegen
+  15:    1  ->  schouders ==> autoschouders
+  16:    1  ->  verhaal ==> voral
+  17:    1  ->  vlinder ==> vliende
+  18:    1  ->  vuurwerk ==> gurwerk
+  19:    1  ->  water ==> watter
+  20:    1  ->  zwemmen ==> swimnen
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  dicht
+   2:    1  ->  leekje
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  auto
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  appel
+   2:    1  ->  circus
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  koning
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  potlood
+  14:    1  ->  regen
+  15:    1  ->  schouders
+  16:    1  ->  verhaal
+  17:    1  ->  vlinder
+  18:    1  ->  vuurwerk
+  19:    1  ->  water
+  20:    1  ->  zwemmen
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  abbel
+   2:    1  ->  autoschouders
+   3:    1  ->  awi
+   4:    1  ->  bij
+   5:    1  ->  bil
+   6:    1  ->  boggen
+   7:    1  ->  gurwerk
+   8:    1  ->  hooftpen
+   9:    1  ->  kleren
+  10:    1  ->  kole
+  11:    1  ->  konien
+  12:    1  ->  potloot
+  13:    1  ->  sefkus
+  14:    1  ->  swimnen
+  15:    1  ->  tinken
+  16:    1  ->  vit
+  17:    1  ->  vlegen
+  18:    1  ->  vliende
+  19:    1  ->  voral
+  20:    1  ->  watter
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   72.9%   (  35)
+
+Percent Correct           =   47.9%   (  23)
+
+Percent Substitution      =   50.0%   (  24)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =   20.8%   (  10)
+Percent Word Accuracy     =   27.1%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> fo
+   2:    1  ->  * ==> g
+   3:    1  ->  * ==> maken
+   4:    1  ->  * ==> reuie
+   5:    1  ->  * ==> ruzie
+   6:    1  ->  * ==> toilek
+   7:    1  ->  * ==> u
+   8:    1  ->  buurmannen*(buurman) ==> buurman
+   9:    1  ->  dierentuin ==> padden
+  10:    1  ->  elastiekje ==> maak
+  11:    1  ->  fototoestel ==> tox
+  12:    1  ->  goeiendag ==> goeiemiddag
+  13:    1  ->  konijnenhok ==> reuzen
+  14:    1  ->  limonade ==> de
+  15:    1  ->  paddenstoelen ==> stoelen
+  16:    1  ->  poppenwagen ==> helastiekje
+  17:    1  ->  ruziemaken ==> deddibeer
+  18:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoenwinkel
+  19:    1  ->  sneeuwwitje ==> wietje
+  20:    1  ->  tandenborstel ==> borstel
+  21:    1  ->  teddybeer ==> dierenterm
+  22:    1  ->  toiletpapier ==> papier
+  23:    1  ->  verstoppertje ==> verstopperdje
+  24:    1  ->  washandje ==> sneeen
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  handje
+   2:    1  ->  heel
+   3:    1  ->  konnijnnog
+   4:    1  ->  liemer
+   5:    1  ->  na
+   6:    1  ->  ook
+   7:    1  ->  poppenwaken
+   8:    1  ->  tande
+   9:    1  ->  votetoestel
+  10:    1  ->  was
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    7  ->  *
+   2:    1  ->  buurmannen*(buurman)
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  goeiendag
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel*(schoenwinkel)
+  13:    1  ->  sneeuwwitje
+  14:    1  ->  tandenborstel
+  15:    1  ->  teddybeer
+  16:    1  ->  toiletpapier
+  17:    1  ->  verstoppertje
+  18:    1  ->  washandje
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  borstel
+   2:    1  ->  buurman
+   3:    1  ->  de
+   4:    1  ->  deddibeer
+   5:    1  ->  dierenterm
+   6:    1  ->  fo
+   7:    1  ->  g
+   8:    1  ->  goeiemiddag
+   9:    1  ->  helastiekje
+  10:    1  ->  maak
+  11:    1  ->  maken
+  12:    1  ->  padden
+  13:    1  ->  papier
+  14:    1  ->  reuie
+  15:    1  ->  reuzen
+  16:    1  ->  ruzie
+  17:    1  ->  schoenwinkel
+  18:    1  ->  sneeen
+  19:    1  ->  stoelen
+  20:    1  ->  toilek
+  21:    1  ->  tox
+  22:    1  ->  u
+  23:    1  ->  verstopperdje
+  24:    1  ->  wietje
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

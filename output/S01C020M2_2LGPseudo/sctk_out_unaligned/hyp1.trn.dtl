@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.2%   (  49)
+
+Percent Correct           =   17.3%   (   9)
+
+Percent Substitution      =   80.8%   (  42)
+Percent Deletions         =    1.9%   (   1)
+Percent Insertions        =   11.5%   (   6)
+Percent Word Accuracy     =    5.8%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> fos
+   2:    1  ->  * ==> gif
+   3:    1  ->  * ==> ir
+   4:    1  ->  * ==> kin
+   5:    1  ->  * ==> muder
+   6:    1  ->  * ==> onte
+   7:    1  ->  * ==> pristsot
+   8:    1  ->  * ==> schoa
+   9:    1  ->  * ==> shovblev
+  10:    1  ->  * ==> sprit
+  11:    1  ->  * ==> vov
+  12:    1  ->  bepoud ==> talt
+  13:    1  ->  eemde ==> de
+  14:    1  ->  fiewon ==> un
+  15:    1  ->  foetbans ==> foedsband
+  16:    1  ->  gefouw ==> zurpant
+  17:    1  ->  geutel ==> s
+  18:    1  ->  gevicht ==> inde
+  19:    1  ->  grijnken ==> gre
+  20:    1  ->  hiffreeuw ==> hifreel
+  21:    1  ->  ierpieuw ==> pilv
+  22:    1  ->  ijpo ==> appo
+  23:    1  ->  kneurem ==> kneuren
+  24:    1  ->  menuur ==> nenier
+  25:    1  ->  millen ==> k
+  26:    1  ->  muider ==> ma
+  27:    1  ->  nizung ==> fi
+  28:    1  ->  oonste ==> votband
+  29:    1  ->  orstalk ==> oertalk
+  30:    1  ->  prilsood ==> schierstoug
+  31:    1  ->  saarweng ==> gevist
+  32:    1  ->  schielstaug ==> grenten
+  33:    1  ->  sjobel ==> del
+  34:    1  ->  spreikje ==> spreitje
+  35:    1  ->  strellen ==> sterrellen
+  36:    1  ->  vawaai ==> vawai
+  37:    1  ->  veurder ==> verder
+  38:    1  ->  vloender ==> vlonder
+  39:    1  ->  vocil ==> getel
+  40:    1  ->  vurpaand ==> nedun
+  41:    1  ->  walaan ==> walan
+  42:    1  ->  wooien ==> woien
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fal
+   2:    1  ->  ge
+   3:    1  ->  gofeg
+   4:    1  ->  nemen
+   5:    1  ->  sarwen
+   6:    1  ->  vov
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:   11  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kneurem
+  14:    1  ->  menuur
+  15:    1  ->  millen
+  16:    1  ->  muider
+  17:    1  ->  nizung
+  18:    1  ->  oonste
+  19:    1  ->  orstalk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  sjobel
+  24:    1  ->  spreikje
+  25:    1  ->  strellen
+  26:    1  ->  vawaai
+  27:    1  ->  veurder
+  28:    1  ->  vloender
+  29:    1  ->  vocil
+  30:    1  ->  vurpaand
+  31:    1  ->  walaan
+  32:    1  ->  wooien
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  appo
+   2:    1  ->  de
+   3:    1  ->  del
+   4:    1  ->  fi
+   5:    1  ->  foedsband
+   6:    1  ->  fos
+   7:    1  ->  getel
+   8:    1  ->  gevist
+   9:    1  ->  gif
+  10:    1  ->  gre
+  11:    1  ->  grenten
+  12:    1  ->  hifreel
+  13:    1  ->  inde
+  14:    1  ->  ir
+  15:    1  ->  k
+  16:    1  ->  kin
+  17:    1  ->  kneuren
+  18:    1  ->  ma
+  19:    1  ->  muder
+  20:    1  ->  nedun
+  21:    1  ->  nenier
+  22:    1  ->  oertalk
+  23:    1  ->  onte
+  24:    1  ->  pilv
+  25:    1  ->  pristsot
+  26:    1  ->  s
+  27:    1  ->  schierstoug
+  28:    1  ->  schoa
+  29:    1  ->  shovblev
+  30:    1  ->  spreitje
+  31:    1  ->  sprit
+  32:    1  ->  sterrellen
+  33:    1  ->  talt
+  34:    1  ->  un
+  35:    1  ->  vawai
+  36:    1  ->  verder
+  37:    1  ->  vlonder
+  38:    1  ->  votband
+  39:    1  ->  vov
+  40:    1  ->  walan
+  41:    1  ->  woien
+  42:    1  ->  zurpant
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   74.5%   (  35)
+
+Percent Correct           =   25.5%   (  12)
+
+Percent Substitution      =   61.7%   (  29)
+Percent Deletions         =   12.8%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   25.5%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  41)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> dor
+   2:    1  ->  * ==> ken
+   3:    1  ->  * ==> spi
+   4:    1  ->  * ==> sr
+   5:    1  ->  *(fout) ==> fat
+   6:    1  ->  *x ==> en
+   7:    1  ->  blard ==> blart
+   8:    1  ->  dau ==> da
+   9:    1  ->  doer ==> sprim
+  10:    1  ->  eem ==> één
+  11:    1  ->  fam ==> an
+  12:    1  ->  fook ==> folk
+  13:    1  ->  frijk ==> rijk
+  14:    1  ->  guul ==> ul
+  15:    1  ->  haans ==> lun
+  16:    1  ->  heik ==> gek
+  17:    1  ->  hool ==> go
+  18:    1  ->  jien ==> in
+  19:    1  ->  noork ==> nelnork
+  20:    1  ->  plirt ==> ssblirt
+  21:    1  ->  roen ==> roon
+  22:    1  ->  schard ==> shart
+  23:    1  ->  sooi ==> soi
+  24:    1  ->  spaai ==> hans
+  25:    1  ->  stuid ==> sduit
+  26:    1  ->  swoers ==> fap
+  27:    1  ->  vid ==> vit
+  28:    1  ->  vout ==> vat
+  29:    1  ->  zwoei ==> zoir
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  *
+   2:    1  ->  keng
+   3:    1  ->  leum
+   4:    1  ->  neeuw
+   5:    1  ->  sprieuw
+   6:    1  ->  vaap
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  *
+   2:    1  ->  *(fout)
+   3:    1  ->  *x
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  frijk
+  11:    1  ->  guul
+  12:    1  ->  haans
+  13:    1  ->  heik
+  14:    1  ->  hool
+  15:    1  ->  jien
+  16:    1  ->  noork
+  17:    1  ->  plirt
+  18:    1  ->  roen
+  19:    1  ->  schard
+  20:    1  ->  sooi
+  21:    1  ->  spaai
+  22:    1  ->  stuid
+  23:    1  ->  swoers
+  24:    1  ->  vid
+  25:    1  ->  vout
+  26:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  an
+   2:    1  ->  blart
+   3:    1  ->  da
+   4:    1  ->  dor
+   5:    1  ->  en
+   6:    1  ->  fap
+   7:    1  ->  fat
+   8:    1  ->  folk
+   9:    1  ->  gek
+  10:    1  ->  go
+  11:    1  ->  hans
+  12:    1  ->  in
+  13:    1  ->  ken
+  14:    1  ->  lun
+  15:    1  ->  nelnork
+  16:    1  ->  rijk
+  17:    1  ->  roon
+  18:    1  ->  sduit
+  19:    1  ->  shart
+  20:    1  ->  soi
+  21:    1  ->  spi
+  22:    1  ->  sprim
+  23:    1  ->  sr
+  24:    1  ->  ssblirt
+  25:    1  ->  ul
+  26:    1  ->  vat
+  27:    1  ->  vit
+  28:    1  ->  zoir
+  29:    1  ->  één
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

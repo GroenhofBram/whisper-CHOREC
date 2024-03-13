@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C031M2_1LG
+
+#### (S04C031M2_1LG-words)
+
+- Cor=56.1%	Sub=43.9%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai*(draait) | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | *(mus) | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | groe | sterant | bit | eerst | voor | draait | signaal | herfst | duur | straat | leeuw | knen | hoek | krant | god | vriend | gouw | hip | groen | veest | ris | jas | huis | pert | vef | mus | mut | nieuw | kind | ban | oog | zacht | schoen | plots | neus | knoop | plang |
+| EVAL |  |  |  |  | S | S | S |  |  | S | S |  |  |  |  | S |  |  | S |  | S | S |  | S | S |  |  | S | S | S | S |  |  | S |  |  |  | S |  |  | S |
+---
+
+---

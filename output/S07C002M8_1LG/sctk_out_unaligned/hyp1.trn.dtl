@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.1%   (  32)
+
+Percent Correct           =   31.9%   (  15)
+
+Percent Substitution      =   66.0%   (  31)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   31.9%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  46)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> bank
+   2:    1  ->  * ==> ste
+   3:    1  ->  *(staart) ==> start
+   4:    1  ->  arm ==> erm
+   5:    1  ->  arm ==> kook
+   6:    1  ->  bang ==> de
+   7:    1  ->  chips*(gips) ==> gip
+   8:    1  ->  clown*(klom) ==> lo
+   9:    1  ->  draai ==> darai
+  10:    1  ->  draai*(daar) ==> daar
+  11:    1  ->  gauw ==> al
+  12:    1  ->  groei ==> grooi
+  13:    1  ->  hoek ==> hook
+  14:    1  ->  hout ==> hand
+  15:    1  ->  huis ==> hus
+  16:    1  ->  jas ==> jos
+  17:    1  ->  klas ==> kas
+  18:    1  ->  krant ==> kun
+  19:    1  ->  leeuw ==> lew
+  20:    1  ->  muts ==> mit
+  21:    1  ->  neus ==> neuis
+  22:    1  ->  paard ==> pet
+  23:    1  ->  plank ==> beang
+  24:    1  ->  plank ==> belang
+  25:    1  ->  reis ==> rest
+  26:    1  ->  sjaal ==> jal
+  27:    1  ->  sjaal ==> s
+  28:    1  ->  straat*(start) ==> start
+  29:    1  ->  strand*(start) ==> start
+  30:    1  ->  vijf ==> ge
+  31:    1  ->  voor ==> hoor
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  koe*(koek)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  *
+   2:    2  ->  arm
+   3:    2  ->  plank
+   4:    2  ->  sjaal
+   5:    1  ->  *(staart)
+   6:    1  ->  bang
+   7:    1  ->  chips*(gips)
+   8:    1  ->  clown*(klom)
+   9:    1  ->  draai
+  10:    1  ->  draai*(daar)
+  11:    1  ->  gauw
+  12:    1  ->  groei
+  13:    1  ->  hoek
+  14:    1  ->  hout
+  15:    1  ->  huis
+  16:    1  ->  jas
+  17:    1  ->  klas
+  18:    1  ->  krant
+  19:    1  ->  leeuw
+  20:    1  ->  muts
+  21:    1  ->  neus
+  22:    1  ->  paard
+  23:    1  ->  reis
+  24:    1  ->  straat*(start)
+  25:    1  ->  strand*(start)
+  26:    1  ->  vijf
+  27:    1  ->  voor
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  start
+   2:    1  ->  al
+   3:    1  ->  bank
+   4:    1  ->  beang
+   5:    1  ->  belang
+   6:    1  ->  daar
+   7:    1  ->  darai
+   8:    1  ->  de
+   9:    1  ->  erm
+  10:    1  ->  ge
+  11:    1  ->  gip
+  12:    1  ->  grooi
+  13:    1  ->  hand
+  14:    1  ->  hook
+  15:    1  ->  hoor
+  16:    1  ->  hus
+  17:    1  ->  jal
+  18:    1  ->  jos
+  19:    1  ->  kas
+  20:    1  ->  kook
+  21:    1  ->  kun
+  22:    1  ->  lew
+  23:    1  ->  lo
+  24:    1  ->  mit
+  25:    1  ->  neuis
+  26:    1  ->  pet
+  27:    1  ->  rest
+  28:    1  ->  s
+  29:    1  ->  ste
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

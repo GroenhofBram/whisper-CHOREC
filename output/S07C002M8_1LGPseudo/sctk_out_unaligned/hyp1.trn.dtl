@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.4%   (  53)
+
+Percent Correct           =    8.6%   (   5)
+
+Percent Substitution      =   84.5%   (  49)
+Percent Deletions         =    6.9%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    8.6%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  54)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  * ==> sa
+   2:    1  ->  * ==> dren
+   3:    1  ->  * ==> ee
+   4:    1  ->  * ==> ja
+   5:    1  ->  * ==> sla
+   6:    1  ->  * ==> spe
+   7:    1  ->  * ==> spr
+   8:    1  ->  * ==> sul
+   9:    1  ->  * ==> van
+  10:    1  ->  *(doorn) ==> doo
+  11:    1  ->  *(saus) ==> sous
+  12:    1  ->  *x ==> zand
+  13:    1  ->  blard ==> bet
+  14:    1  ->  dau ==> dal
+  15:    1  ->  doer ==> sos
+  16:    1  ->  eem ==> één
+  17:    1  ->  fam ==> azo
+  18:    1  ->  fook ==> vook
+  19:    1  ->  frijk ==> rijt
+  20:    1  ->  haans ==> m
+  21:    1  ->  heik ==> gam
+  22:    1  ->  heik*(hel) ==> alt
+  23:    1  ->  hoekt ==> hoek
+  24:    1  ->  hool ==> hoe
+  25:    1  ->  jien ==> rurt
+  26:    1  ->  keng ==> sprin
+  27:    1  ->  larst ==> lagst
+  28:    1  ->  leum*(leeuw) ==> n
+  29:    1  ->  neeuw ==> t
+  30:    1  ->  noork ==> ne
+  31:    1  ->  plirt ==> do
+  32:    1  ->  rachts ==> o
+  33:    1  ->  roen ==> hoen
+  34:    1  ->  sank ==> gerk
+  35:    1  ->  sank ==> nank
+  36:    1  ->  schard ==> schart
+  37:    1  ->  sjalt ==> spera
+  38:    1  ->  snaaf ==> a
+  39:    1  ->  sooi ==> sos
+  40:    1  ->  spaai ==> hens
+  41:    1  ->  sprieuw ==> spring
+  42:    1  ->  sprieuw*(spring) ==> ragvap
+  43:    1  ->  sprunt*(sprint) ==> sprint
+  44:    1  ->  stuid ==> stat
+  45:    1  ->  swoers ==> ken
+  46:    1  ->  vaap ==> racht
+  47:    1  ->  vid ==> noort
+  48:    1  ->  zans ==> viet
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  zwoei
+   2:    1  ->  *
+   3:    1  ->  dron
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:   10  ->  *
+   2:    2  ->  sank
+   3:    1  ->  *(doorn)
+   4:    1  ->  *(saus)
+   5:    1  ->  *x
+   6:    1  ->  blard
+   7:    1  ->  dau
+   8:    1  ->  doer
+   9:    1  ->  eem
+  10:    1  ->  fam
+  11:    1  ->  fook
+  12:    1  ->  frijk
+  13:    1  ->  haans
+  14:    1  ->  heik
+  15:    1  ->  heik*(hel)
+  16:    1  ->  hoekt
+  17:    1  ->  hool
+  18:    1  ->  jien
+  19:    1  ->  keng
+  20:    1  ->  larst
+  21:    1  ->  leum*(leeuw)
+  22:    1  ->  neeuw
+  23:    1  ->  noork
+  24:    1  ->  plirt
+  25:    1  ->  rachts
+  26:    1  ->  roen
+  27:    1  ->  schard
+  28:    1  ->  sjalt
+  29:    1  ->  snaaf
+  30:    1  ->  sooi
+  31:    1  ->  spaai
+  32:    1  ->  sprieuw
+  33:    1  ->  sprieuw*(spring)
+  34:    1  ->  sprunt*(sprint)
+  35:    1  ->  stuid
+  36:    1  ->  swoers
+  37:    1  ->  vaap
+  38:    1  ->  vid
+  39:    1  ->  zans
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  sa
+   2:    2  ->  sos
+   3:    1  ->  a
+   4:    1  ->  alt
+   5:    1  ->  azo
+   6:    1  ->  bet
+   7:    1  ->  dal
+   8:    1  ->  do
+   9:    1  ->  doo
+  10:    1  ->  dren
+  11:    1  ->  ee
+  12:    1  ->  gam
+  13:    1  ->  gerk
+  14:    1  ->  hens
+  15:    1  ->  hoe
+  16:    1  ->  hoek
+  17:    1  ->  hoen
+  18:    1  ->  ja
+  19:    1  ->  ken
+  20:    1  ->  lagst
+  21:    1  ->  m
+  22:    1  ->  n
+  23:    1  ->  nank
+  24:    1  ->  ne
+  25:    1  ->  noort
+  26:    1  ->  o
+  27:    1  ->  racht
+  28:    1  ->  ragvap
+  29:    1  ->  rijt
+  30:    1  ->  rurt
+  31:    1  ->  schart
+  32:    1  ->  sla
+  33:    1  ->  sous
+  34:    1  ->  spe
+  35:    1  ->  spera
+  36:    1  ->  spr
+  37:    1  ->  sprin
+  38:    1  ->  spring
+  39:    1  ->  sprint
+  40:    1  ->  stat
+  41:    1  ->  sul
+  42:    1  ->  t
+  43:    1  ->  van
+  44:    1  ->  viet
+  45:    1  ->  vook
+  46:    1  ->  zand
+  47:    1  ->  één
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

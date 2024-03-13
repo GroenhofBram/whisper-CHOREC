@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.0%   (  16)
+
+Percent Correct           =   61.0%   (  25)
+
+Percent Substitution      =   39.0%   (  16)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   61.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> bea
+   2:    1  ->  bed ==> bet
+   3:    1  ->  clown ==> klauw
+   4:    1  ->  draai ==> drij
+   5:    1  ->  duur ==> tuur
+   6:    1  ->  feest ==> vest
+   7:    1  ->  gauw ==> gou
+   8:    1  ->  groei ==> goei
+   9:    1  ->  huis ==> hus
+  10:    1  ->  knoop ==> knoor
+  11:    1  ->  neus ==> neuis
+  12:    1  ->  paard ==> part
+  13:    1  ->  reis ==> res
+  14:    1  ->  schoen ==> groen
+  15:    1  ->  sjaal ==> signaal
+  16:    1  ->  vijf ==> ves
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  *
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  draai
+   5:    1  ->  duur
+   6:    1  ->  feest
+   7:    1  ->  gauw
+   8:    1  ->  groei
+   9:    1  ->  huis
+  10:    1  ->  knoop
+  11:    1  ->  neus
+  12:    1  ->  paard
+  13:    1  ->  reis
+  14:    1  ->  schoen
+  15:    1  ->  sjaal
+  16:    1  ->  vijf
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  bea
+   2:    1  ->  bet
+   3:    1  ->  drij
+   4:    1  ->  goei
+   5:    1  ->  gou
+   6:    1  ->  groen
+   7:    1  ->  hus
+   8:    1  ->  klauw
+   9:    1  ->  knoor
+  10:    1  ->  neuis
+  11:    1  ->  part
+  12:    1  ->  res
+  13:    1  ->  signaal
+  14:    1  ->  tuur
+  15:    1  ->  ves
+  16:    1  ->  vest
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

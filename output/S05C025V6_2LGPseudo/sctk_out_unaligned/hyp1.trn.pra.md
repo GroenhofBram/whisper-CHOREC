@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C025V6_2LGPseudo
+
+#### (S05C025V6_2LGPseudo-words)
+
+- Cor=5.9%	Sub=77.9%	Del=0.0%	Ins=16.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | * | geutel |  |  |  | sjobel | * | * | ierpieuw | walaan | * | erke | haweel | saarweng | * | gevicht |  |  |  |  |  |  |  |  | * | * | eemde | bepoud | * | orstalk | veten | *(vatten) | gefouw | vurpaand | * | nizung | fiewon | kneurem | vawaai | * | strellen | zwieten | foetbans | oonste | muider | grijnken | schielstaug | prilsood | vloender | milste | veurder | * | kloeien | ulen | orponk | schodig | * | * | *x | ijpo | * | menuur | spreikje | * | hiffreeuw | wooien |
+| HYP1 | millen | vokil | geur | geutel | schjobel | er | ier | pen | ir | pi | walsan | er | ehker | hauweel | sar | wen | gef | gevicht | me | a | em | de | bepaald | ord | ors | talk | vette | vetten | gefal | vuurpal | vurpant | niesn | fie | wond | kneur | em | ava | ava | strelen | swieten | voet | bans | oenste | de | der | grijn | kun | sielstou | briloot | vlon | der | milste | veurde | kn | loeien | zuiren | por | ponk | sgodig | j | epo | men | met | nuur | spreke | h | heeo | woen |
+| EVAL |  | S | S |  | I | I | I | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

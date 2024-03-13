@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   82.5%   (  33)
+
+Percent Correct           =   52.5%   (  21)
+
+Percent Substitution      =   47.5%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   35.0%   (  14)
+Percent Word Accuracy     =   17.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  dierentuin ==> padden
+   2:    1  ->  elastiekje ==> dieje
+   3:    1  ->  iedereen ==> winkel
+   4:    1  ->  knutselen ==> zullen
+   5:    1  ->  konijnenhok ==> weer
+   6:    1  ->  limonade ==> hemonaden
+   7:    1  ->  lucifer ==> lugiver
+   8:    1  ->  olifant ==> d
+   9:    1  ->  paddenstoelen ==> stoelen
+  10:    1  ->  poppenwagen ==> dari
+  11:    1  ->  ruziemaken ==> van
+  12:    1  ->  schoenenwinkel ==> moet
+  13:    1  ->  sneeuwwitje ==> sneeuwetje
+  14:    1  ->  sprookjesboek ==> tanden
+  15:    1  ->  tandenborstel ==> borsten
+  16:    1  ->  teddybeer ==> tuin
+  17:    1  ->  toiletpapier ==> foaletpapier
+  18:    1  ->  washandje ==> wachthandje
+  19:    1  ->  ziekenhuis ==> huis
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  derejen
+   2:    1  ->  di
+   3:    1  ->  gijnen
+   4:    1  ->  hook
+   5:    1  ->  ilastiekje
+   6:    1  ->  kon
+   7:    1  ->  maken
+   8:    1  ->  olifan
+   9:    1  ->  open
+  10:    1  ->  ruzie
+  11:    1  ->  schoenen
+  12:    1  ->  spronkjesboek
+  13:    1  ->  wagen
+  14:    1  ->  zeken
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  dierentuin
+   2:    1  ->  elastiekje
+   3:    1  ->  iedereen
+   4:    1  ->  knutselen
+   5:    1  ->  konijnenhok
+   6:    1  ->  limonade
+   7:    1  ->  lucifer
+   8:    1  ->  olifant
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  sneeuwwitje
+  14:    1  ->  sprookjesboek
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  washandje
+  19:    1  ->  ziekenhuis
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  borsten
+   2:    1  ->  d
+   3:    1  ->  dari
+   4:    1  ->  dieje
+   5:    1  ->  foaletpapier
+   6:    1  ->  hemonaden
+   7:    1  ->  huis
+   8:    1  ->  lugiver
+   9:    1  ->  moet
+  10:    1  ->  padden
+  11:    1  ->  sneeuwetje
+  12:    1  ->  stoelen
+  13:    1  ->  tanden
+  14:    1  ->  tuin
+  15:    1  ->  van
+  16:    1  ->  wachthandje
+  17:    1  ->  weer
+  18:    1  ->  winkel
+  19:    1  ->  zullen
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

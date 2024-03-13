@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C004M1_2LGPseudo
+
+#### (S03C004M1_2LGPseudo-words)
+
+- Cor=0.0%	Sub=59.5%	Del=40.5%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | * | * | geutel | sjobel | * | * | ierpieuw | * | * | walaan | * | * | erke | * | haweel | saarweng | * | * | * | * | gevicht | * | * | * | * | * | eemde | bepoud | * | orstalk | * | * | * | * | * | * | * | * | * | veten | * | * | gefouw | * | * | vurpaand | * | * | * | * | nizung | * | * | * | * | fiewon | * | kneurem | * | vawaai | * | * | strellen | * | * | * | * | zwieten | * | foetbans | * | oonste | * | muider | * | grijnken | * | schielstaug | * | * | * | * | * | * | prilsood | vloender | milste | * | * | * | * | veurder | * | * | kloeien | * | * | ulen | orponk | * | * | * | * | schodig | * | * | ijpo | menuur | spreikje | * | hiffreeuw | wooien | * | * |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | m | getel | sin | o | bel | eerp | uhm | erk | u | hael | sar | uhm | de | ne | ul | od | oer | l | s | a | hulk | i | i | sa | and | i | ren | w | twee | ster | e | len | z | eten | od | bels | oh | oms | te | uder | er | unken | s | n | st | a | pr | prinsot | vlender | i | ta | er | der | uuh | én | lin | oer | eh | o | denk | epol | minuur | sper | e | e | hiter | e | oh | hien |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

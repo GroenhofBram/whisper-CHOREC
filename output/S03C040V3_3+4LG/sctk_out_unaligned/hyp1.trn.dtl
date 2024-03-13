@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.8%   (  31)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   23.8%   (  10)
+Percent Word Accuracy     =   26.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  52)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> toilit
+   2:    1  ->  * ==> was
+   3:    1  ->  buurmannen ==> vuurmannen
+   4:    1  ->  dierentuin ==> dieerentuin
+   5:    1  ->  fototoestel ==> pa
+   6:    1  ->  iedereen ==> schonen
+   7:    1  ->  konijnenhok ==> hook
+   8:    1  ->  lucifer ==> musiekfer
+   9:    1  ->  olifant ==> olifoonnd
+  10:    1  ->  ophangen ==> hengen
+  11:    1  ->  paddenstoelen ==> paddestoelen
+  12:    1  ->  poppenwagen ==> konijnen
+  13:    1  ->  ruziemaken ==> die
+  14:    1  ->  schoenenwinkel ==> winkel
+  15:    1  ->  sneeuwwitje ==> sneeuwwiedje
+  16:    1  ->  tandenborstel ==> borstel
+  17:    1  ->  teddybeer ==> weer
+  18:    1  ->  toiletpapier ==> popsr
+  19:    1  ->  vogelkooi ==> vogelkooy
+  20:    1  ->  vrachtwagen ==> vracgtzuigen
+  21:    1  ->  washandje ==> handje
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bij
+   2:    1  ->  fotostoeltje
+   3:    1  ->  hah
+   4:    1  ->  maken
+   5:    1  ->  niderin
+   6:    1  ->  of
+   7:    1  ->  poepenwagen
+   8:    1  ->  ruzie
+   9:    1  ->  tannum
+  10:    1  ->  toilid
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  *
+   2:    1  ->  buurmannen
+   3:    1  ->  dierentuin
+   4:    1  ->  fototoestel
+   5:    1  ->  iedereen
+   6:    1  ->  konijnenhok
+   7:    1  ->  lucifer
+   8:    1  ->  olifant
+   9:    1  ->  ophangen
+  10:    1  ->  paddenstoelen
+  11:    1  ->  poppenwagen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  vogelkooi
+  19:    1  ->  vrachtwagen
+  20:    1  ->  washandje
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  borstel
+   2:    1  ->  die
+   3:    1  ->  dieerentuin
+   4:    1  ->  handje
+   5:    1  ->  hengen
+   6:    1  ->  hook
+   7:    1  ->  konijnen
+   8:    1  ->  musiekfer
+   9:    1  ->  olifoonnd
+  10:    1  ->  pa
+  11:    1  ->  paddestoelen
+  12:    1  ->  popsr
+  13:    1  ->  schonen
+  14:    1  ->  sneeuwwiedje
+  15:    1  ->  toilit
+  16:    1  ->  vogelkooy
+  17:    1  ->  vracgtzuigen
+  18:    1  ->  vuurmannen
+  19:    1  ->  was
+  20:    1  ->  weer
+  21:    1  ->  winkel
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

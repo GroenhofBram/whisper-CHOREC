@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C018V2_2LGPseudo
+
+#### (S01C018V2_2LGPseudo-words)
+
+- Cor=1.8%	Sub=84.2%	Del=0.0%	Ins=14.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  | millen | vocil | geutel | sjobel | ierpieuw | walaan | erke | * | haweel | saarweng | gevicht | eemde | bepoud | orstalk | veten | gefouw | * | vurpaand | nizung | fiewon | * | kneurem | vawaai | strellen | * | * | * | zwieten | foetbans | oonste | muider | grijnken | schielstaug | prilsood | vloender | milste | veurder | kloeien | ulen |  |  |  |  |  | orponk | * | schodig | * | ijpo | menuur | * | spreikje | hiffreeuw | wooien |
+| HYP1 | mile | vo | te | bel | nii | g | go | weel | saveem | ge | niet | gimte | de | bout | oortstalk | eten | gevel | figuurtand | nzm | vi | nee | nm | i | sta | sta | sta | te | stun | ske | moelik | mt | baan | onster | deder | genken | stag | sod | mdar | melsta | werda | kloeen | ulen | orpolk | sco | scoding | uh | po | ip | wat | bedoel | ik | minuur | srek | ja | ireel | mo | jam |
+| EVAL | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

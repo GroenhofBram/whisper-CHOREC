@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   71.2%   (  37)
+
+Percent Correct           =   44.2%   (  23)
+
+Percent Substitution      =   51.9%   (  27)
+Percent Deletions         =    3.8%   (   2)
+Percent Insertions        =   15.4%   (   8)
+Percent Word Accuracy     =   28.8%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  58)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> auto
+   2:    1  ->  * ==> beer
+   3:    1  ->  * ==> gia
+   4:    1  ->  * ==> knussollen
+   5:    1  ->  * ==> maken
+   6:    1  ->  * ==> mm
+   7:    1  ->  * ==> nieuw
+   8:    1  ->  * ==> schommel
+   9:    1  ->  * ==> tanden
+  10:    1  ->  * ==> waa
+  11:    1  ->  afblijven ==> afafblijven
+  12:    1  ->  buurmannen*(buurman) ==> vogel
+  13:    1  ->  dierentuin ==> stoel
+  14:    1  ->  elastiekje ==> di
+  15:    1  ->  knutselen*(kussen) ==> kussen
+  16:    1  ->  konijnenhok ==> te
+  17:    1  ->  limonade ==> lemonale
+  18:    1  ->  lucifer ==> lusiferr
+  19:    1  ->  paddenstoelen*(paddenstoel) ==> eend
+  20:    1  ->  ruziemaken ==> dierentun
+  21:    1  ->  sprookjesboek ==> boek
+  22:    1  ->  tandenborstel ==> borstel
+  23:    1  ->  teddybeer ==> pabden
+  24:    1  ->  toiletpapier ==> doaletpapier
+  25:    1  ->  verstoppertje ==> stoppertje
+  26:    1  ->  vogelkooi ==> kooi
+  27:    1  ->  washandje ==> washamdje
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  buurman
+   2:    1  ->  el
+   3:    1  ->  elstietje
+   4:    1  ->  gooi
+   5:    1  ->  konijnenrok
+   6:    1  ->  konings
+   7:    1  ->  ruzie
+   8:    1  ->  sprookjesboa
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  *
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   10  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  knutselen*(kussen)
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  lucifer
+  10:    1  ->  paddenstoelen*(paddenstoel)
+  11:    1  ->  ruziemaken
+  12:    1  ->  sprookjesboek
+  13:    1  ->  tandenborstel
+  14:    1  ->  teddybeer
+  15:    1  ->  toiletpapier
+  16:    1  ->  verstoppertje
+  17:    1  ->  vogelkooi
+  18:    1  ->  washandje
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  afafblijven
+   2:    1  ->  auto
+   3:    1  ->  beer
+   4:    1  ->  boek
+   5:    1  ->  borstel
+   6:    1  ->  di
+   7:    1  ->  dierentun
+   8:    1  ->  doaletpapier
+   9:    1  ->  eend
+  10:    1  ->  gia
+  11:    1  ->  knussollen
+  12:    1  ->  kooi
+  13:    1  ->  kussen
+  14:    1  ->  lemonale
+  15:    1  ->  lusiferr
+  16:    1  ->  maken
+  17:    1  ->  mm
+  18:    1  ->  nieuw
+  19:    1  ->  pabden
+  20:    1  ->  schommel
+  21:    1  ->  stoel
+  22:    1  ->  stoppertje
+  23:    1  ->  tanden
+  24:    1  ->  te
+  25:    1  ->  vogel
+  26:    1  ->  waa
+  27:    1  ->  washamdje
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

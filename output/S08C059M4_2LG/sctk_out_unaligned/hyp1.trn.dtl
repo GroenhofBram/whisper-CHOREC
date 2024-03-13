@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.9%   (  29)
+
+Percent Correct           =   45.5%   (  20)
+
+Percent Substitution      =   50.0%   (  22)
+Percent Deletions         =    4.5%   (   2)
+Percent Insertions        =   11.4%   (   5)
+Percent Word Accuracy     =   34.1%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  47)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> goa
+   2:    1  ->  * ==> m
+   3:    1  ->  * ==> maat
+   4:    1  ->  chauffeur ==> chanfeui
+   5:    1  ->  circus ==> semkus
+   6:    1  ->  dichtbij ==> bij
+   7:    1  ->  drogen ==> droge
+   8:    1  ->  eerste ==> ieste
+   9:    1  ->  fietsbel ==> bel
+  10:    1  ->  kleuren ==> kleren
+  11:    1  ->  koning ==> koningu
+  12:    1  ->  lawaai ==> toe
+  13:    1  ->  liedje ==> loot
+  14:    1  ->  potlood ==> fiets
+  15:    1  ->  regen ==> plegen
+  16:    1  ->  scheuren*(schuren) ==> lawai
+  17:    1  ->  schouders ==> autoschouders
+  18:    1  ->  sneeuwen ==> en
+  19:    1  ->  vlinder ==> vlender
+  20:    1  ->  vuurwerk ==> ver
+  21:    1  ->  water ==> watteg
+  22:    1  ->  zwemmen ==> zexn
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  dicht
+   2:    1  ->  lietje
+   3:    1  ->  pad
+   4:    1  ->  shulen
+   5:    1  ->  sneeuw
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  auto
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  *
+   2:    1  ->  chauffeur
+   3:    1  ->  circus
+   4:    1  ->  dichtbij
+   5:    1  ->  drogen
+   6:    1  ->  eerste
+   7:    1  ->  fietsbel
+   8:    1  ->  kleuren
+   9:    1  ->  koning
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  potlood
+  13:    1  ->  regen
+  14:    1  ->  scheuren*(schuren)
+  15:    1  ->  schouders
+  16:    1  ->  sneeuwen
+  17:    1  ->  vlinder
+  18:    1  ->  vuurwerk
+  19:    1  ->  water
+  20:    1  ->  zwemmen
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  autoschouders
+   2:    1  ->  bel
+   3:    1  ->  bij
+   4:    1  ->  chanfeui
+   5:    1  ->  droge
+   6:    1  ->  en
+   7:    1  ->  fiets
+   8:    1  ->  goa
+   9:    1  ->  ieste
+  10:    1  ->  kleren
+  11:    1  ->  koningu
+  12:    1  ->  lawai
+  13:    1  ->  loot
+  14:    1  ->  m
+  15:    1  ->  maat
+  16:    1  ->  plegen
+  17:    1  ->  semkus
+  18:    1  ->  toe
+  19:    1  ->  ver
+  20:    1  ->  vlender
+  21:    1  ->  watteg
+  22:    1  ->  zexn
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

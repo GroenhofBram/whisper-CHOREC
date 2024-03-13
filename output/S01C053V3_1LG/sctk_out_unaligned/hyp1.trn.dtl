@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.8%   (  23)
+
+Percent Correct           =   45.2%   (  19)
+
+Percent Substitution      =   52.4%   (  22)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   45.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> pla
+   2:    1  ->  *(kaart) ==> kart
+   3:    1  ->  arm ==> arom
+   4:    1  ->  bang ==> wang
+   5:    1  ->  bed ==> det
+   6:    1  ->  clown ==> clau
+   7:    1  ->  draai ==> draal
+   8:    1  ->  duur*(deur) ==> deur
+   9:    1  ->  gauw*(grauw) ==> gaal
+  10:    1  ->  groei ==> groi
+  11:    1  ->  herfst ==> hegest
+  12:    1  ->  huis ==> jashus
+  13:    1  ->  jas ==> ruis
+  14:    1  ->  krant ==> kart
+  15:    1  ->  leeuw ==> leel
+  16:    1  ->  muts ==> nut
+  17:    1  ->  neus ==> nuis
+  18:    1  ->  paard ==> part
+  19:    1  ->  plas ==> plach
+  20:    1  ->  sjaal ==> saal
+  21:    1  ->  straat ==> staat
+  22:    1  ->  vijf ==> vaf
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  reis
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  *
+   2:    1  ->  *(kaart)
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  bed
+   6:    1  ->  clown
+   7:    1  ->  draai
+   8:    1  ->  duur*(deur)
+   9:    1  ->  gauw*(grauw)
+  10:    1  ->  groei
+  11:    1  ->  herfst
+  12:    1  ->  huis
+  13:    1  ->  jas
+  14:    1  ->  krant
+  15:    1  ->  leeuw
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  paard
+  19:    1  ->  plas
+  20:    1  ->  sjaal
+  21:    1  ->  straat
+  22:    1  ->  vijf
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  kart
+   2:    1  ->  arom
+   3:    1  ->  clau
+   4:    1  ->  det
+   5:    1  ->  deur
+   6:    1  ->  draal
+   7:    1  ->  gaal
+   8:    1  ->  groi
+   9:    1  ->  hegest
+  10:    1  ->  jashus
+  11:    1  ->  leel
+  12:    1  ->  nuis
+  13:    1  ->  nut
+  14:    1  ->  part
+  15:    1  ->  pla
+  16:    1  ->  plach
+  17:    1  ->  ruis
+  18:    1  ->  saal
+  19:    1  ->  staat
+  20:    1  ->  vaf
+  21:    1  ->  wang
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

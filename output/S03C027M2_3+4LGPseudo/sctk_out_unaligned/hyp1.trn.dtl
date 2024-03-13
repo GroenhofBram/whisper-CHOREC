@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  171.7%   (  79)
+
+Percent Correct           =    2.2%   (   1)
+
+Percent Substitution      =   97.8%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   73.9%   (  34)
+Percent Word Accuracy     =  -71.7%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  80)
+Aligned words             =           (  80)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> bed
+   2:    1  ->  * ==> eo
+   3:    1  ->  * ==> no
+   4:    1  ->  * ==> o
+   5:    1  ->  * ==> verbrakere
+   6:    1  ->  *s ==> ak
+   7:    1  ->  *s ==> brul
+   8:    1  ->  *s ==> gapeneren
+   9:    1  ->  *s ==> gouden
+  10:    1  ->  *s ==> zegt
+  11:    1  ->  blottenduuf ==> der
+  12:    1  ->  choporatie ==> du
+  13:    1  ->  crobeklunker ==> dustes
+  14:    1  ->  deuveltek ==> nee
+  15:    1  ->  fandelig ==> kana
+  16:    1  ->  gerauwejaak ==> o
+  17:    1  ->  gevijdel ==> naper
+  18:    1  ->  girdofhaalder ==> o
+  19:    1  ->  hapeneren ==> rou
+  20:    1  ->  havedil ==> haffendel
+  21:    1  ->  ijraspangen ==> ha
+  22:    1  ->  jalekrewen ==> lousae?
+  23:    1  ->  jattesiet ==> pika
+  24:    1  ->  juitonie ==> pireek
+  25:    1  ->  kabbestepen ==> in
+  26:    1  ->  kanaroe ==> zijn
+  27:    1  ->  kantelogsten ==> ijspareen
+  28:    1  ->  mantaroen ==> kapen
+  29:    1  ->  nappegreeuw ==> kronbeklinter
+  30:    1  ->  nurudien ==> wachte
+  31:    1  ->  ometuif ==> es
+  32:    1  ->  ondermind ==> bloten
+  33:    1  ->  ooiebiekje ==> groe
+  34:    1  ->  oonwijlen ==> waar
+  35:    1  ->  sidowaan ==> nantaron
+  36:    1  ->  smoralij ==> ondermiet?
+  37:    1  ->  spekkeraai ==> heren
+  38:    1  ->  tobbermoeit ==> boentons
+  39:    1  ->  toejietsen ==> ie
+  40:    1  ->  toineetlijgen ==> le
+  41:    1  ->  verbrakkertje ==> veba
+  42:    1  ->  verpierik ==> korgom
+  43:    1  ->  wachteniek ==> dapen
+  44:    1  ->  zeekvlachine ==> hoperaadje
+  45:    1  ->  zennebral ==> scheloa
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  de
+   2:    2  ->  e
+   3:    2  ->  ja
+   4:    2  ->  to
+   5:    2  ->  van
+   6:    1  ->  canaro
+   7:    1  ->  daas
+   8:    1  ->  delin
+   9:    1  ->  geep
+  10:    1  ->  jander
+  11:    1  ->  jasit
+  12:    1  ->  lagen
+  13:    1  ->  me
+  14:    1  ->  mima
+  15:    1  ->  mouralla
+  16:    1  ->  ne
+  17:    1  ->  o
+  18:    1  ->  om
+  19:    1  ->  omdealf
+  20:    1  ->  onween
+  21:    1  ->  pleben
+  22:    1  ->  pé
+  23:    1  ->  stoni
+  24:    1  ->  tone
+  25:    1  ->  tonii
+  26:    1  ->  uh
+  27:    1  ->  vaten
+  28:    1  ->  zan
+  29:    1  ->  zi
+     -------
+        34
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  *
+   2:    5  ->  *s
+   3:    1  ->  blottenduuf
+   4:    1  ->  choporatie
+   5:    1  ->  crobeklunker
+   6:    1  ->  deuveltek
+   7:    1  ->  fandelig
+   8:    1  ->  gerauwejaak
+   9:    1  ->  gevijdel
+  10:    1  ->  girdofhaalder
+  11:    1  ->  hapeneren
+  12:    1  ->  havedil
+  13:    1  ->  ijraspangen
+  14:    1  ->  jalekrewen
+  15:    1  ->  jattesiet
+  16:    1  ->  juitonie
+  17:    1  ->  kabbestepen
+  18:    1  ->  kanaroe
+  19:    1  ->  kantelogsten
+  20:    1  ->  mantaroen
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  tobbermoeit
+  31:    1  ->  toejietsen
+  32:    1  ->  toineetlijgen
+  33:    1  ->  verbrakkertje
+  34:    1  ->  verpierik
+  35:    1  ->  wachteniek
+  36:    1  ->  zeekvlachine
+  37:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  o
+   2:    1  ->  ak
+   3:    1  ->  bed
+   4:    1  ->  bloten
+   5:    1  ->  boentons
+   6:    1  ->  brul
+   7:    1  ->  dapen
+   8:    1  ->  der
+   9:    1  ->  du
+  10:    1  ->  dustes
+  11:    1  ->  eo
+  12:    1  ->  es
+  13:    1  ->  gapeneren
+  14:    1  ->  gouden
+  15:    1  ->  groe
+  16:    1  ->  ha
+  17:    1  ->  haffendel
+  18:    1  ->  heren
+  19:    1  ->  hoperaadje
+  20:    1  ->  ie
+  21:    1  ->  ijspareen
+  22:    1  ->  in
+  23:    1  ->  kana
+  24:    1  ->  kapen
+  25:    1  ->  korgom
+  26:    1  ->  kronbeklinter
+  27:    1  ->  le
+  28:    1  ->  lousae?
+  29:    1  ->  nantaron
+  30:    1  ->  naper
+  31:    1  ->  nee
+  32:    1  ->  no
+  33:    1  ->  ondermiet?
+  34:    1  ->  pika
+  35:    1  ->  pireek
+  36:    1  ->  rou
+  37:    1  ->  scheloa
+  38:    1  ->  veba
+  39:    1  ->  verbrakere
+  40:    1  ->  waar
+  41:    1  ->  wachte
+  42:    1  ->  zegt
+  43:    1  ->  zijn
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

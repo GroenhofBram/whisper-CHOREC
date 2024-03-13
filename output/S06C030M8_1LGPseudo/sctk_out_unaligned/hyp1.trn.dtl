@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.3%   (  28)
+
+Percent Correct           =   31.7%   (  13)
+
+Percent Substitution      =   68.3%   (  28)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   31.7%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> zwoog
+   2:    1  ->  ant ==> and
+   3:    1  ->  beeg*(weeg) ==> weeg
+   4:    1  ->  blard ==> lart
+   5:    1  ->  dau ==> daul
+   6:    1  ->  eem ==> éém
+   7:    1  ->  frijk ==> frik
+   8:    1  ->  grek ==> grik
+   9:    1  ->  guul ==> guin
+  10:    1  ->  haans ==> hans
+  11:    1  ->  heik ==> hek
+  12:    1  ->  hool ==> hooi
+  13:    1  ->  jien ==> geen
+  14:    1  ->  leum ==> lum
+  15:    1  ->  neeuw ==> neel
+  16:    1  ->  plirt ==> spliert
+  17:    1  ->  rachts ==> rechts
+  18:    1  ->  roen ==> roon
+  19:    1  ->  schard ==> schurt
+  20:    1  ->  sjalt ==> sholt
+  21:    1  ->  spaai ==> spy
+  22:    1  ->  sprieuw*(spreeuw) ==> sprijl
+  23:    1  ->  sprunt*(sprint) ==> sprint
+  24:    1  ->  stuid ==> stuit
+  25:    1  ->  vaap ==> faap
+  26:    1  ->  vid ==> vit
+  27:    1  ->  zans ==> sons
+  28:    1  ->  zwoei ==> zoi
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *
+   2:    1  ->  ant
+   3:    1  ->  beeg*(weeg)
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  eem
+   7:    1  ->  frijk
+   8:    1  ->  grek
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  leum
+  15:    1  ->  neeuw
+  16:    1  ->  plirt
+  17:    1  ->  rachts
+  18:    1  ->  roen
+  19:    1  ->  schard
+  20:    1  ->  sjalt
+  21:    1  ->  spaai
+  22:    1  ->  sprieuw*(spreeuw)
+  23:    1  ->  sprunt*(sprint)
+  24:    1  ->  stuid
+  25:    1  ->  vaap
+  26:    1  ->  vid
+  27:    1  ->  zans
+  28:    1  ->  zwoei
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  and
+   2:    1  ->  daul
+   3:    1  ->  faap
+   4:    1  ->  frik
+   5:    1  ->  geen
+   6:    1  ->  grik
+   7:    1  ->  guin
+   8:    1  ->  hans
+   9:    1  ->  hek
+  10:    1  ->  hooi
+  11:    1  ->  lart
+  12:    1  ->  lum
+  13:    1  ->  neel
+  14:    1  ->  rechts
+  15:    1  ->  roon
+  16:    1  ->  schurt
+  17:    1  ->  sholt
+  18:    1  ->  sons
+  19:    1  ->  spliert
+  20:    1  ->  sprijl
+  21:    1  ->  sprint
+  22:    1  ->  spy
+  23:    1  ->  stuit
+  24:    1  ->  vit
+  25:    1  ->  weeg
+  26:    1  ->  zoi
+  27:    1  ->  zwoog
+  28:    1  ->  éém
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

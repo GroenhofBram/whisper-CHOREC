@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C028M2_3+4LGPseudo
+
+#### (S01C028M2_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=67.1%	Del=0.0%	Ins=32.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | * | oonwijlen | jattesiet | nurudien | stoenydaas | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | * | verpierik | nappegreeuw | mantaroen | schielendaspen | * | crobeklunker | * | * | kabbestepen | * | verwarig*(verwarring) | * | ooiebiekje | fandelig | jalekrewen | smoralij | zeekvlachine | kanaroe | toineetlijgen | meitsegrok | kantelogsten | ondermind | choporatie | * | * | zennebral | ijraspangen | * | blottenduuf | * | girdofhaalder | * | tobbermoeit | poentalschouden | havedil | verbrakkertje | gerauwejaak | hapeneren | * |
+| HYP1 | omettelf | toe | jjen | onwejlen | onen | god | de | siet | ner | uin | stondas | duvel | dek | ji | doni | gevedel | si | dowen | spikre | warenik | ve | verpirik | na | e | gril | man | daroen | schelen | daspo | dsfen | koelue | e | er | kopes | kepen | varwarring | ohi | ohi | je | boek | ja | van | dering | jaler | krewen | smorale | zk | fla | china | candaro | tonel | leggen | literg | hok | kandellogsten | om | der | min | sosho | poreti | cernen | bral | eires | paspannen | blot | in | de | duuf | gerdof | harl | elder | topuh | mot | bontal | shalden | hevedel | verbrakerte | greek | hueneren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   84.8%   (  39)
+
+Percent Correct           =   45.7%   (  21)
+
+Percent Substitution      =   54.3%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   30.4%   (  14)
+Percent Word Accuracy     =   15.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  60)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> choqelade
+   2:    1  ->  * ==> dieren
+   3:    1  ->  * ==> do
+   4:    1  ->  * ==> doa
+   5:    1  ->  * ==> op
+   6:    1  ->  * ==> veroa
+   7:    1  ->  *(schoen) ==> schoen
+   8:    1  ->  achterdeur ==> deur
+   9:    1  ->  autorijden ==> altoorrijden
+  10:    1  ->  dierentuin ==> verstopperd
+  11:    1  ->  elastiekje ==> taan
+  12:    1  ->  fototoestel ==> fototostel
+  13:    1  ->  kabouter ==> houter
+  14:    1  ->  konijnenhok ==> beer
+  15:    1  ->  limonade ==> lemonade
+  16:    1  ->  paddenstoelen ==> ja
+  17:    1  ->  ruziemaken ==> padden
+  18:    1  ->  schoenenwinkel ==> winkel
+  19:    1  ->  sneeuwwitje ==> sneeuwietje
+  20:    1  ->  tandenborstel ==> borstel
+  21:    1  ->  teddybeer ==> stoelen
+  22:    1  ->  verstoppertje ==> was
+  23:    1  ->  vogelkooi ==> kooi
+  24:    1  ->  washandje ==> washantje
+  25:    1  ->  wasmachine ==> machine
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  achter
+   2:    1  ->  al
+   3:    1  ->  cap
+   4:    1  ->  de
+   5:    1  ->  detdi
+   6:    1  ->  ellastiekje
+   7:    1  ->  hok
+   8:    1  ->  konijnen
+   9:    1  ->  maken
+  10:    1  ->  ruzie
+  11:    1  ->  schoenen
+  12:    1  ->  tanden
+  13:    1  ->  tanten
+  14:    1  ->  vogel
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    6  ->  *
+   2:    1  ->  *(schoen)
+   3:    1  ->  achterdeur
+   4:    1  ->  autorijden
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  kabouter
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  paddenstoelen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  verstoppertje
+  18:    1  ->  vogelkooi
+  19:    1  ->  washandje
+  20:    1  ->  wasmachine
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  altoorrijden
+   2:    1  ->  beer
+   3:    1  ->  borstel
+   4:    1  ->  choqelade
+   5:    1  ->  deur
+   6:    1  ->  dieren
+   7:    1  ->  do
+   8:    1  ->  doa
+   9:    1  ->  fototostel
+  10:    1  ->  houter
+  11:    1  ->  ja
+  12:    1  ->  kooi
+  13:    1  ->  lemonade
+  14:    1  ->  machine
+  15:    1  ->  op
+  16:    1  ->  padden
+  17:    1  ->  schoen
+  18:    1  ->  sneeuwietje
+  19:    1  ->  stoelen
+  20:    1  ->  taan
+  21:    1  ->  veroa
+  22:    1  ->  verstopperd
+  23:    1  ->  was
+  24:    1  ->  washantje
+  25:    1  ->  winkel
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

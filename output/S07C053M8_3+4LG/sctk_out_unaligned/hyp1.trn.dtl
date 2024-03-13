@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.6%   (  56)
+
+Percent Correct           =   27.6%   (  16)
+
+Percent Substitution      =   72.4%   (  42)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   24.1%   (  14)
+Percent Word Accuracy     =    3.4%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> asteeke
+   2:    1  ->  * ==> beg
+   3:    1  ->  * ==> e
+   4:    1  ->  * ==> f
+   5:    1  ->  * ==> hè
+   6:    1  ->  * ==> luer
+   7:    1  ->  * ==> lusi
+   8:    1  ->  * ==> ntief
+   9:    1  ->  * ==> wasma
+  10:    1  ->  achterdeur ==> deur
+  11:    1  ->  afblijven ==> ofblijven
+  12:    1  ->  dierentuin ==> de
+  13:    1  ->  elastiekje ==> en
+  14:    1  ->  elastiekje ==> ruz
+  15:    1  ->  elastiekje ==> steeker
+  16:    1  ->  goeiendag ==> goedendag
+  17:    1  ->  iedereen ==> schoenen
+  18:    1  ->  knutselen ==> knutsellen
+  19:    1  ->  konijnenhok ==> keur
+  20:    1  ->  limonade ==> imonade
+  21:    1  ->  lucifer ==> lug
+  22:    1  ->  nieuwsgierig ==> nieuwgierig
+  23:    1  ->  olifant ==> schomeln
+  24:    1  ->  omdraaien ==> els
+  25:    1  ->  omdraaien ==> hok
+  26:    1  ->  paddenstoelen ==> belden
+  27:    1  ->  poppenwagen ==> twee
+  28:    1  ->  ruziemaken ==> maken
+  29:    1  ->  ruziemaken ==> ruzie
+  30:    1  ->  schoenenwinkel ==> winkel
+  31:    1  ->  schommelen ==> idereen
+  32:    1  ->  sneeuwwitje ==> ja
+  33:    1  ->  sprookjesboek ==> borstel
+  34:    1  ->  sprookjesboek ==> lug
+  35:    1  ->  tandenborstel ==> lu
+  36:    1  ->  teddybeer ==> den
+  37:    1  ->  teddybeer ==> deribeer
+  38:    1  ->  toiletpapier ==> papier
+  39:    1  ->  verstoppertje ==> stoelen
+  40:    1  ->  vogelkooi ==> olfant
+  41:    1  ->  washandje ==> sneeuwgoed
+  42:    1  ->  wasmachine ==> verstoopkordje
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  en
+   2:    1  ->  achter
+   3:    1  ->  handja
+   4:    1  ->  koen
+   5:    1  ->  kopenwagen
+   6:    1  ->  omdraai
+   7:    1  ->  omdreiend
+   8:    1  ->  spoor
+   9:    1  ->  sprokjesmook
+  10:    1  ->  tanden
+  11:    1  ->  tolit
+  12:    1  ->  vo
+  13:    1  ->  was
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    9  ->  *
+   2:    3  ->  elastiekje
+   3:    2  ->  omdraaien
+   4:    2  ->  ruziemaken
+   5:    2  ->  sprookjesboek
+   6:    2  ->  teddybeer
+   7:    1  ->  achterdeur
+   8:    1  ->  afblijven
+   9:    1  ->  dierentuin
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  nieuwsgierig
+  17:    1  ->  olifant
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  schommelen
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  tandenborstel
+  24:    1  ->  toiletpapier
+  25:    1  ->  verstoppertje
+  26:    1  ->  vogelkooi
+  27:    1  ->  washandje
+  28:    1  ->  wasmachine
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  lug
+   2:    1  ->  asteeke
+   3:    1  ->  beg
+   4:    1  ->  belden
+   5:    1  ->  borstel
+   6:    1  ->  de
+   7:    1  ->  den
+   8:    1  ->  deribeer
+   9:    1  ->  deur
+  10:    1  ->  e
+  11:    1  ->  els
+  12:    1  ->  en
+  13:    1  ->  f
+  14:    1  ->  goedendag
+  15:    1  ->  hok
+  16:    1  ->  hè
+  17:    1  ->  idereen
+  18:    1  ->  imonade
+  19:    1  ->  ja
+  20:    1  ->  keur
+  21:    1  ->  knutsellen
+  22:    1  ->  lu
+  23:    1  ->  luer
+  24:    1  ->  lusi
+  25:    1  ->  maken
+  26:    1  ->  nieuwgierig
+  27:    1  ->  ntief
+  28:    1  ->  ofblijven
+  29:    1  ->  olfant
+  30:    1  ->  papier
+  31:    1  ->  ruz
+  32:    1  ->  ruzie
+  33:    1  ->  schoenen
+  34:    1  ->  schomeln
+  35:    1  ->  sneeuwgoed
+  36:    1  ->  steeker
+  37:    1  ->  stoelen
+  38:    1  ->  twee
+  39:    1  ->  verstoopkordje
+  40:    1  ->  wasma
+  41:    1  ->  winkel
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.1%   (  51)
+
+Percent Correct           =    5.8%   (   3)
+
+Percent Substitution      =   90.4%   (  47)
+Percent Deletions         =    3.8%   (   2)
+Percent Insertions        =    3.8%   (   2)
+Percent Word Accuracy     =    1.9%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  52)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    1  ->  * ==> alam
+   2:    1  ->  * ==> beider
+   3:    1  ->  * ==> efal
+   4:    1  ->  * ==> grijken
+   5:    1  ->  * ==> ir
+   6:    1  ->  * ==> mij
+   7:    1  ->  * ==> nenen
+   8:    1  ->  * ==> risschoot
+   9:    1  ->  * ==> sot
+  10:    1  ->  * ==> weten
+  11:    1  ->  *(een) ==> o
+  12:    1  ->  *s ==> civen
+  13:    1  ->  bepoud ==> saran
+  14:    1  ->  eemde ==> wel
+  15:    1  ->  erke ==> so
+  16:    1  ->  fiewon ==> orstakelk
+  17:    1  ->  foetbans ==> i
+  18:    1  ->  gefouw ==> én
+  19:    1  ->  geutel ==> forteel
+  20:    1  ->  gevicht*(gevit) ==> erke
+  21:    1  ->  grijnken ==> foedbans
+  22:    1  ->  haweel ==> delv
+  23:    1  ->  hiffreeuw ==> hivrel
+  24:    1  ->  ierpieuw ==> ge
+  25:    1  ->  ijpo ==> m'n
+  26:    1  ->  kloeien ==> nu
+  27:    1  ->  kneurem ==> surend
+  28:    1  ->  menuur ==> muer
+  29:    1  ->  muider ==> weten
+  30:    1  ->  nizung ==> debat
+  31:    1  ->  oonste ==> tee
+  32:    1  ->  orstalk ==> a
+  33:    1  ->  prilsood ==> sutal
+  34:    1  ->  saarweng ==> pil
+  35:    1  ->  schielstaug ==> onsde
+  36:    1  ->  schodig ==> epel
+  37:    1  ->  sjobel ==> forteel
+  38:    1  ->  spreikje ==> spreiker
+  39:    1  ->  strellen ==> uren
+  40:    1  ->  ulen ==> en
+  41:    1  ->  vawaai ==> nejun
+  42:    1  ->  veten ==> gevikt
+  43:    1  ->  veurder ==> klon
+  44:    1  ->  vloender ==> veroende
+  45:    1  ->  vurpaand ==> éénde
+  46:    1  ->  walaan ==> bil
+  47:    1  ->  zwieten ==> kneuren
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  schotic
+   2:    1  ->  verder
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  millen
+   2:    1  ->  vocil
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   10  ->  *
+   2:    1  ->  *(een)
+   3:    1  ->  *s
+   4:    1  ->  bepoud
+   5:    1  ->  eemde
+   6:    1  ->  erke
+   7:    1  ->  fiewon
+   8:    1  ->  foetbans
+   9:    1  ->  gefouw
+  10:    1  ->  geutel
+  11:    1  ->  gevicht*(gevit)
+  12:    1  ->  grijnken
+  13:    1  ->  haweel
+  14:    1  ->  hiffreeuw
+  15:    1  ->  ierpieuw
+  16:    1  ->  ijpo
+  17:    1  ->  kloeien
+  18:    1  ->  kneurem
+  19:    1  ->  menuur
+  20:    1  ->  muider
+  21:    1  ->  nizung
+  22:    1  ->  oonste
+  23:    1  ->  orstalk
+  24:    1  ->  prilsood
+  25:    1  ->  saarweng
+  26:    1  ->  schielstaug
+  27:    1  ->  schodig
+  28:    1  ->  sjobel
+  29:    1  ->  spreikje
+  30:    1  ->  strellen
+  31:    1  ->  ulen
+  32:    1  ->  vawaai
+  33:    1  ->  veten
+  34:    1  ->  veurder
+  35:    1  ->  vloender
+  36:    1  ->  vurpaand
+  37:    1  ->  walaan
+  38:    1  ->  zwieten
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  forteel
+   2:    2  ->  weten
+   3:    1  ->  a
+   4:    1  ->  alam
+   5:    1  ->  beider
+   6:    1  ->  bil
+   7:    1  ->  civen
+   8:    1  ->  debat
+   9:    1  ->  delv
+  10:    1  ->  efal
+  11:    1  ->  en
+  12:    1  ->  epel
+  13:    1  ->  erke
+  14:    1  ->  foedbans
+  15:    1  ->  ge
+  16:    1  ->  gevikt
+  17:    1  ->  grijken
+  18:    1  ->  hivrel
+  19:    1  ->  i
+  20:    1  ->  ir
+  21:    1  ->  klon
+  22:    1  ->  kneuren
+  23:    1  ->  m'n
+  24:    1  ->  mij
+  25:    1  ->  muer
+  26:    1  ->  nejun
+  27:    1  ->  nenen
+  28:    1  ->  nu
+  29:    1  ->  o
+  30:    1  ->  onsde
+  31:    1  ->  orstakelk
+  32:    1  ->  pil
+  33:    1  ->  risschoot
+  34:    1  ->  saran
+  35:    1  ->  so
+  36:    1  ->  sot
+  37:    1  ->  spreiker
+  38:    1  ->  surend
+  39:    1  ->  sutal
+  40:    1  ->  tee
+  41:    1  ->  uren
+  42:    1  ->  veroende
+  43:    1  ->  wel
+  44:    1  ->  én
+  45:    1  ->  éénde
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

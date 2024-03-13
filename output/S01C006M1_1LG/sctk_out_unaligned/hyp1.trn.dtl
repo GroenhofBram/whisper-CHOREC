@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.5%   (  17)
+
+Percent Correct           =   60.5%   (  26)
+
+Percent Substitution      =   34.9%   (  15)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  41)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> nuis
+   2:    1  ->  * ==> scha
+   3:    1  ->  bang ==> bal
+   4:    1  ->  clown ==> klon
+   5:    1  ->  duur ==> gr
+   6:    1  ->  gauw ==> gou
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  knoop ==> knoaknoop
+   9:    1  ->  leeuw ==> neuw
+  10:    1  ->  muts ==> mut
+  11:    1  ->  oog*(hoog) ==> hoch
+  12:    1  ->  paard ==> paart
+  13:    1  ->  plank ==> plark
+  14:    1  ->  reis ==> gareis
+  15:    1  ->  sjaal ==> saal
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  neus
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  *
+   2:    1  ->  bang
+   3:    1  ->  clown
+   4:    1  ->  duur
+   5:    1  ->  gauw
+   6:    1  ->  hoek
+   7:    1  ->  knoop
+   8:    1  ->  leeuw
+   9:    1  ->  muts
+  10:    1  ->  oog*(hoog)
+  11:    1  ->  paard
+  12:    1  ->  plank
+  13:    1  ->  reis
+  14:    1  ->  sjaal
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bal
+   2:    1  ->  gareis
+   3:    1  ->  gou
+   4:    1  ->  gr
+   5:    1  ->  hoch
+   6:    1  ->  hook
+   7:    1  ->  klon
+   8:    1  ->  knoaknoop
+   9:    1  ->  mut
+  10:    1  ->  neuw
+  11:    1  ->  nuis
+  12:    1  ->  paart
+  13:    1  ->  plark
+  14:    1  ->  saal
+  15:    1  ->  scha
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

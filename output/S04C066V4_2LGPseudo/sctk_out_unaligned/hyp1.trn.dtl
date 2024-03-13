@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   84.8%   (  39)
+
+Percent Correct           =   19.6%   (   9)
+
+Percent Substitution      =   78.3%   (  36)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    4.3%   (   2)
+Percent Word Accuracy     =   15.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  47)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> epel
+   2:    1  ->  * ==> erderklooien
+   3:    1  ->  * ==> f
+   4:    1  ->  * ==> milse
+   5:    1  ->  * ==> ok
+   6:    1  ->  * ==> sobel
+   7:    1  ->  * ==> sobi
+   8:    1  ->  * ==> vokil
+   9:    1  ->  *(strelen) ==> strijlen
+  10:    1  ->  bepoud ==> bebout
+  11:    1  ->  eemde ==> eende
+  12:    1  ->  fiewon ==> fibon
+  13:    1  ->  foetbans ==> voetbals
+  14:    1  ->  gefouw ==> gefuw
+  15:    1  ->  geutel ==> getel
+  16:    1  ->  grijnken ==> grenken
+  17:    1  ->  haweel ==> havweel
+  18:    1  ->  hiffreeuw ==> giffreeuw
+  19:    1  ->  ierpieuw ==> piel
+  20:    1  ->  ijpo ==> men
+  21:    1  ->  kneurem ==> kneuren
+  22:    1  ->  menuur ==> uur
+  23:    1  ->  millen ==> milen
+  24:    1  ->  milste ==> vlunder
+  25:    1  ->  nizung ==> nisum
+  26:    1  ->  oonste ==> onste
+  27:    1  ->  orponk ==> schondig
+  28:    1  ->  orstalk ==> oorstalk
+  29:    1  ->  saarweng ==> sarwing
+  30:    1  ->  spreikje ==> sprejkje
+  31:    1  ->  ulen ==> orbonk
+  32:    1  ->  veurder ==> f
+  33:    1  ->  vloender ==> prilsout
+  34:    1  ->  vurpaand ==> vuurpant
+  35:    1  ->  walaan ==> walan
+  36:    1  ->  wooien ==> wooie
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ielen
+   2:    1  ->  ir
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  prilsood
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  *
+   2:    1  ->  *(strelen)
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  nizung
+  19:    1  ->  oonste
+  20:    1  ->  orponk
+  21:    1  ->  orstalk
+  22:    1  ->  saarweng
+  23:    1  ->  spreikje
+  24:    1  ->  ulen
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vurpaand
+  28:    1  ->  walaan
+  29:    1  ->  wooien
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  f
+   2:    1  ->  bebout
+   3:    1  ->  eende
+   4:    1  ->  epel
+   5:    1  ->  erderklooien
+   6:    1  ->  fibon
+   7:    1  ->  gefuw
+   8:    1  ->  getel
+   9:    1  ->  giffreeuw
+  10:    1  ->  grenken
+  11:    1  ->  havweel
+  12:    1  ->  kneuren
+  13:    1  ->  men
+  14:    1  ->  milen
+  15:    1  ->  milse
+  16:    1  ->  nisum
+  17:    1  ->  ok
+  18:    1  ->  onste
+  19:    1  ->  oorstalk
+  20:    1  ->  orbonk
+  21:    1  ->  piel
+  22:    1  ->  prilsout
+  23:    1  ->  sarwing
+  24:    1  ->  schondig
+  25:    1  ->  sobel
+  26:    1  ->  sobi
+  27:    1  ->  sprejkje
+  28:    1  ->  strijlen
+  29:    1  ->  uur
+  30:    1  ->  vlunder
+  31:    1  ->  voetbals
+  32:    1  ->  vokil
+  33:    1  ->  vuurpant
+  34:    1  ->  walan
+  35:    1  ->  wooie
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

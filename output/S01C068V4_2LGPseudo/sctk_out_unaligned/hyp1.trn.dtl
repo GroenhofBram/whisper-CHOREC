@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.0%   (  37)
+
+Percent Correct           =   20.9%   (   9)
+
+Percent Substitution      =   76.7%   (  33)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    7.0%   (   3)
+Percent Word Accuracy     =   14.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> stag
+   2:    1  ->  *t ==> saarweg
+   3:    1  ->  *x ==> uh
+   4:    1  ->  bepoud ==> bepaald
+   5:    1  ->  eemde ==> eende
+   6:    1  ->  fiewon ==> fiwon
+   7:    1  ->  foetbans ==> voetbans
+   8:    1  ->  gefouw ==> gefaal
+   9:    1  ->  geutel ==> shoppel
+  10:    1  ->  gevicht ==> gevecht
+  11:    1  ->  grijnken ==> schiel
+  12:    1  ->  hiffreeuw ==> gifvrijl
+  13:    1  ->  ierpieuw ==> piolv
+  14:    1  ->  ijpo ==> eipel
+  15:    1  ->  kneurem ==> kneuren
+  16:    1  ->  menuur ==> manuur
+  17:    1  ->  milste ==> milster
+  18:    1  ->  nizung ==> mezing
+  19:    1  ->  orstalk ==> ortstalk
+  20:    1  ->  prilsood ==> sout
+  21:    1  ->  saarweng ==> hauweel
+  22:    1  ->  schielstaug ==> pril
+  23:    1  ->  schodig ==> schorig
+  24:    1  ->  sjobel ==> ier
+  25:    1  ->  spreikje ==> spraakje
+  26:    1  ->  strellen*(strelen) ==> strilen
+  27:    1  ->  ulen ==> uelen
+  28:    1  ->  veurder ==> verder
+  29:    1  ->  vloender ==> vlonder
+  30:    1  ->  vocil ==> gitel
+  31:    1  ->  vurpaand ==> vierpaand
+  32:    1  ->  wooien ==> woien
+  33:    1  ->  zwieten ==> zweten
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  grenken
+   2:    1  ->  schiets
+   3:    1  ->  vokil
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  haweel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  *
+   2:    1  ->  *t
+   3:    1  ->  *x
+   4:    1  ->  bepoud
+   5:    1  ->  eemde
+   6:    1  ->  fiewon
+   7:    1  ->  foetbans
+   8:    1  ->  gefouw
+   9:    1  ->  geutel
+  10:    1  ->  gevicht
+  11:    1  ->  grijnken
+  12:    1  ->  hiffreeuw
+  13:    1  ->  ierpieuw
+  14:    1  ->  ijpo
+  15:    1  ->  kneurem
+  16:    1  ->  menuur
+  17:    1  ->  milste
+  18:    1  ->  nizung
+  19:    1  ->  orstalk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  schodig
+  24:    1  ->  sjobel
+  25:    1  ->  spreikje
+  26:    1  ->  strellen*(strelen)
+  27:    1  ->  ulen
+  28:    1  ->  veurder
+  29:    1  ->  vloender
+  30:    1  ->  vocil
+  31:    1  ->  vurpaand
+  32:    1  ->  wooien
+  33:    1  ->  zwieten
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  bepaald
+   2:    1  ->  eende
+   3:    1  ->  eipel
+   4:    1  ->  fiwon
+   5:    1  ->  gefaal
+   6:    1  ->  gevecht
+   7:    1  ->  gifvrijl
+   8:    1  ->  gitel
+   9:    1  ->  hauweel
+  10:    1  ->  ier
+  11:    1  ->  kneuren
+  12:    1  ->  manuur
+  13:    1  ->  mezing
+  14:    1  ->  milster
+  15:    1  ->  ortstalk
+  16:    1  ->  piolv
+  17:    1  ->  pril
+  18:    1  ->  saarweg
+  19:    1  ->  schiel
+  20:    1  ->  schorig
+  21:    1  ->  shoppel
+  22:    1  ->  sout
+  23:    1  ->  spraakje
+  24:    1  ->  stag
+  25:    1  ->  strilen
+  26:    1  ->  uelen
+  27:    1  ->  uh
+  28:    1  ->  verder
+  29:    1  ->  vierpaand
+  30:    1  ->  vlonder
+  31:    1  ->  voetbans
+  32:    1  ->  woien
+  33:    1  ->  zweten
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

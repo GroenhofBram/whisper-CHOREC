@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.1%   (  74)
+
+Percent Correct           =   12.9%   (  11)
+
+Percent Substitution      =   43.5%   (  37)
+Percent Deletions         =   43.5%   (  37)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   12.9%
+
+
+Ref. words                =           (  85)
+Hyp. words                =           (  48)
+Aligned words             =           (  85)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  * ==> bel
+   2:    1  ->  * ==> drein
+   3:    1  ->  * ==> em
+   4:    1  ->  * ==> herest
+   5:    1  ->  * ==> hé
+   6:    1  ->  * ==> jashus
+   7:    1  ->  * ==> just
+   8:    1  ->  * ==> kent
+   9:    1  ->  * ==> neel
+  10:    1  ->  * ==> og
+  11:    1  ->  * ==> paart
+  12:    1  ->  * ==> res
+  13:    1  ->  * ==> slaen
+  14:    1  ->  * ==> st
+  15:    1  ->  * ==> zeik
+  16:    1  ->  *s ==> groen
+  17:    1  ->  *s ==> knop
+  18:    1  ->  *s ==> koel
+  19:    1  ->  *s ==> leeeu
+  20:    1  ->  *s ==> lo
+  21:    1  ->  *s ==> schoon
+  22:    1  ->  *s ==> ships
+  23:    1  ->  *s ==> sops
+  24:    1  ->  *s ==> vreemd
+  25:    1  ->  bang ==> s
+  26:    1  ->  gauw ==> gaal
+  27:    1  ->  groei ==> arem
+  28:    1  ->  kind ==> e
+  29:    1  ->  klas ==> tals
+  30:    1  ->  knoop ==> neer
+  31:    1  ->  leeuw ==> kloun
+  32:    1  ->  oog ==> vanmos
+  33:    1  ->  plank ==> lank
+  34:    1  ->  schoen ==> da
+  35:    1  ->  straat ==> tstraat
+  36:    1  ->  vriend ==> vea
+  37:    1  ->  zacht ==> a
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:   12  ->  *
+   2:   10  ->  *s
+   3:    1  ->  arm
+   4:    1  ->  bed*(bel)
+   5:    1  ->  draai
+   6:    1  ->  herfst
+   7:    1  ->  huis
+   8:    1  ->  jas
+   9:    1  ->  kind
+  10:    1  ->  koe
+  11:    1  ->  muts
+  12:    1  ->  neus
+  13:    1  ->  nieuw
+  14:    1  ->  paard
+  15:    1  ->  reis
+  16:    1  ->  sjaal
+  17:    1  ->  vijf
+     -------
+        37
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:   15  ->  *
+   2:    9  ->  *s
+   3:    1  ->  bang
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  kind
+   7:    1  ->  klas
+   8:    1  ->  knoop
+   9:    1  ->  leeuw
+  10:    1  ->  oog
+  11:    1  ->  plank
+  12:    1  ->  schoen
+  13:    1  ->  straat
+  14:    1  ->  vriend
+  15:    1  ->  zacht
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  a
+   2:    1  ->  arem
+   3:    1  ->  bel
+   4:    1  ->  da
+   5:    1  ->  drein
+   6:    1  ->  e
+   7:    1  ->  em
+   8:    1  ->  gaal
+   9:    1  ->  groen
+  10:    1  ->  herest
+  11:    1  ->  hé
+  12:    1  ->  jashus
+  13:    1  ->  just
+  14:    1  ->  kent
+  15:    1  ->  kloun
+  16:    1  ->  knop
+  17:    1  ->  koel
+  18:    1  ->  lank
+  19:    1  ->  leeeu
+  20:    1  ->  lo
+  21:    1  ->  neel
+  22:    1  ->  neer
+  23:    1  ->  og
+  24:    1  ->  paart
+  25:    1  ->  res
+  26:    1  ->  s
+  27:    1  ->  schoon
+  28:    1  ->  ships
+  29:    1  ->  slaen
+  30:    1  ->  sops
+  31:    1  ->  st
+  32:    1  ->  tals
+  33:    1  ->  tstraat
+  34:    1  ->  vanmos
+  35:    1  ->  vea
+  36:    1  ->  vreemd
+  37:    1  ->  zeik
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

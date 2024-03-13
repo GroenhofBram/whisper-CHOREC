@@ -1,0 +1,287 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  136.5%   ( 101)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  74)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   36.5%   (  27)
+Percent Word Accuracy     =  -36.5%
+
+
+Ref. words                =           (  74)
+Hyp. words                =           ( 101)
+Aligned words             =           ( 101)
+
+CONFUSION PAIRS                  Total                 (74)
+                                 With >=  1 occurrences (74)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> da
+   3:    1  ->  * ==> dat
+   4:    1  ->  * ==> deling
+   5:    1  ->  * ==> dral
+   6:    1  ->  * ==> erasbae
+   7:    1  ->  * ==> errij
+   8:    1  ->  * ==> geen
+   9:    1  ->  * ==> graw
+  10:    1  ->  * ==> jak
+  11:    1  ->  * ==> kane
+  12:    1  ->  * ==> lai
+  13:    1  ->  * ==> li
+  14:    1  ->  * ==> lores
+  15:    1  ->  * ==> meste
+  16:    1  ->  * ==> mijseg
+  17:    1  ->  * ==> mogen
+  18:    1  ->  * ==> o
+  19:    1  ->  * ==> on
+  20:    1  ->  * ==> ook
+  21:    1  ->  * ==> roud
+  22:    1  ->  * ==> se
+  23:    1  ->  * ==> see
+  24:    1  ->  * ==> ser
+  25:    1  ->  * ==> ten
+  26:    1  ->  * ==> tja
+  27:    1  ->  * ==> uh
+  28:    1  ->  * ==> van
+  29:    1  ->  * ==> verbraken
+  30:    1  ->  * ==> vert
+  31:    1  ->  * ==> verwaring
+  32:    1  ->  * ==> xas
+  33:    1  ->  *s ==> nbreekik
+  34:    1  ->  *x ==> di
+  35:    1  ->  blottenduuf ==> de
+  36:    1  ->  choporatie ==> don
+  37:    1  ->  crobeklunker ==> wen
+  38:    1  ->  deuveltek ==> korenbek
+  39:    1  ->  fandelig ==> ginde
+  40:    1  ->  gerauwejaak ==> aen
+  41:    1  ->  gevijdel ==> kabes
+  42:    1  ->  girdofhaalder ==> moet
+  43:    1  ->  hapeneren ==> n
+  44:    1  ->  havedil ==> en
+  45:    1  ->  ijraspangen ==> dom
+  46:    1  ->  jalekrewen ==> kandari
+  47:    1  ->  jattesiet ==> dik
+  48:    1  ->  juitonie ==> er
+  49:    1  ->  kabbestepen ==> ge
+  50:    1  ->  kanaroe*(kanarie) ==> de
+  51:    1  ->  kantelogsten ==> plo
+  52:    1  ->  mantaroen ==> lekr
+  53:    1  ->  meitsegrok ==> gnperi
+  54:    1  ->  nappegreeuw ==> jal
+  55:    1  ->  nurudien ==> man
+  56:    1  ->  ometuif ==> rai
+  57:    1  ->  ondermind ==> ls
+  58:    1  ->  ooiebiekje ==> vlak
+  59:    1  ->  oonwijlen ==> den
+  60:    1  ->  poentalschouden ==> have
+  61:    1  ->  schielendaspen ==> i
+  62:    1  ->  sidowaan ==> ten
+  63:    1  ->  smoralij ==> onlien
+  64:    1  ->  spekkeraai ==> en
+  65:    1  ->  stoenydaas ==> pijn
+  66:    1  ->  tobbermoeit ==> bontalshaden
+  67:    1  ->  toejietsen ==> wach
+  68:    1  ->  toineetlijgen ==> gemeent
+  69:    1  ->  verbrakkertje ==> deen
+  70:    1  ->  verpierik ==> beekje
+  71:    1  ->  verwarig ==> vk
+  72:    1  ->  wachteniek ==> een
+  73:    1  ->  zeekvlachine ==> rooken
+  74:    1  ->  zennebral ==> hader
+     -------
+        74
+
+
+
+INSERTIONS                       Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  i
+   2:    1  ->  das
+   3:    1  ->  defelv
+   4:    1  ->  del
+   5:    1  ->  die
+   6:    1  ->  dien
+   7:    1  ->  dik
+   8:    1  ->  doan
+   9:    1  ->  e
+  10:    1  ->  en
+  11:    1  ->  fn
+  12:    1  ->  gel
+  13:    1  ->  iet
+  14:    1  ->  jat
+  15:    1  ->  juist
+  16:    1  ->  lecterv
+  17:    1  ->  nier
+  18:    1  ->  nuer
+  19:    1  ->  odif
+  20:    1  ->  om
+  21:    1  ->  onrilen
+  22:    1  ->  r
+  23:    1  ->  sbe
+  24:    1  ->  stoni
+  25:    1  ->  to
+  26:    1  ->  tsias
+     -------
+        27
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:   32  ->  *
+   2:    1  ->  *s
+   3:    1  ->  *x
+   4:    1  ->  blottenduuf
+   5:    1  ->  choporatie
+   6:    1  ->  crobeklunker
+   7:    1  ->  deuveltek
+   8:    1  ->  fandelig
+   9:    1  ->  gerauwejaak
+  10:    1  ->  gevijdel
+  11:    1  ->  girdofhaalder
+  12:    1  ->  hapeneren
+  13:    1  ->  havedil
+  14:    1  ->  ijraspangen
+  15:    1  ->  jalekrewen
+  16:    1  ->  jattesiet
+  17:    1  ->  juitonie
+  18:    1  ->  kabbestepen
+  19:    1  ->  kanaroe*(kanarie)
+  20:    1  ->  kantelogsten
+  21:    1  ->  mantaroen
+  22:    1  ->  meitsegrok
+  23:    1  ->  nappegreeuw
+  24:    1  ->  nurudien
+  25:    1  ->  ometuif
+  26:    1  ->  ondermind
+  27:    1  ->  ooiebiekje
+  28:    1  ->  oonwijlen
+  29:    1  ->  poentalschouden
+  30:    1  ->  schielendaspen
+  31:    1  ->  sidowaan
+  32:    1  ->  smoralij
+  33:    1  ->  spekkeraai
+  34:    1  ->  stoenydaas
+  35:    1  ->  tobbermoeit
+  36:    1  ->  toejietsen
+  37:    1  ->  toineetlijgen
+  38:    1  ->  verbrakkertje
+  39:    1  ->  verpierik
+  40:    1  ->  verwarig
+  41:    1  ->  wachteniek
+  42:    1  ->  zeekvlachine
+  43:    1  ->  zennebral
+     -------
+        74
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    2  ->  de
+   2:    2  ->  en
+   3:    2  ->  ten
+   4:    1  ->  a
+   5:    1  ->  aen
+   6:    1  ->  beekje
+   7:    1  ->  bontalshaden
+   8:    1  ->  da
+   9:    1  ->  dat
+  10:    1  ->  deen
+  11:    1  ->  deling
+  12:    1  ->  den
+  13:    1  ->  di
+  14:    1  ->  dik
+  15:    1  ->  dom
+  16:    1  ->  don
+  17:    1  ->  dral
+  18:    1  ->  een
+  19:    1  ->  er
+  20:    1  ->  erasbae
+  21:    1  ->  errij
+  22:    1  ->  ge
+  23:    1  ->  geen
+  24:    1  ->  gemeent
+  25:    1  ->  ginde
+  26:    1  ->  gnperi
+  27:    1  ->  graw
+  28:    1  ->  hader
+  29:    1  ->  have
+  30:    1  ->  i
+  31:    1  ->  jak
+  32:    1  ->  jal
+  33:    1  ->  kabes
+  34:    1  ->  kandari
+  35:    1  ->  kane
+  36:    1  ->  korenbek
+  37:    1  ->  lai
+  38:    1  ->  lekr
+  39:    1  ->  li
+  40:    1  ->  lores
+  41:    1  ->  ls
+  42:    1  ->  man
+  43:    1  ->  meste
+  44:    1  ->  mijseg
+  45:    1  ->  moet
+  46:    1  ->  mogen
+  47:    1  ->  n
+  48:    1  ->  nbreekik
+  49:    1  ->  o
+  50:    1  ->  on
+  51:    1  ->  onlien
+  52:    1  ->  ook
+  53:    1  ->  pijn
+  54:    1  ->  plo
+  55:    1  ->  rai
+  56:    1  ->  rooken
+  57:    1  ->  roud
+  58:    1  ->  se
+  59:    1  ->  see
+  60:    1  ->  ser
+  61:    1  ->  tja
+  62:    1  ->  uh
+  63:    1  ->  van
+  64:    1  ->  verbraken
+  65:    1  ->  vert
+  66:    1  ->  verwaring
+  67:    1  ->  vk
+  68:    1  ->  vlak
+  69:    1  ->  wach
+  70:    1  ->  wen
+  71:    1  ->  xas
+     -------
+        74
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

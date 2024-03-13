@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  143.9%   (  59)
+
+Percent Correct           =   24.4%   (  10)
+
+Percent Substitution      =   68.3%   (  28)
+Percent Deletions         =    7.3%   (   3)
+Percent Insertions        =   68.3%   (  28)
+Percent Word Accuracy     =  -43.9%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> winkel
+   2:    1  ->  achterdeur ==> je
+   3:    1  ->  afblijven ==> je?
+   4:    1  ->  buurmannen*(buurman) ==> vohelkooi
+   5:    1  ->  dierentuin ==> talet
+   6:    1  ->  elastiekje ==> mat
+   7:    1  ->  fototoestel ==> vraagtwagen
+   8:    1  ->  kabouter ==> goeiendag
+   9:    1  ->  konijnenhok*(konijnenhol) ==> ass
+  10:    1  ->  limonade ==> livonade
+  11:    1  ->  nieuwsgierig ==> weet
+  12:    1  ->  olifant ==> d
+  13:    1  ->  omdraaien ==> ertobbertje
+  14:    1  ->  paddenstoelen ==> papier
+  15:    1  ->  poppenwagen ==> mar
+  16:    1  ->  ruziemaken ==> chine
+  17:    1  ->  schoenenwinkel ==> schoonweel
+  18:    1  ->  schommelen ==> schomwelen
+  19:    1  ->  sneeuwwitje ==> dat
+  20:    1  ->  tandenborstel ==> efer
+  21:    1  ->  teddybeer ==> fototostel
+  22:    1  ->  vakantie ==> kansol
+  23:    1  ->  verstoppertje ==> gai
+  24:    1  ->  vogelkooi ==> colifan
+  25:    1  ->  vrachtwagen ==> buurman
+  26:    1  ->  washandje ==> goeiendag
+  27:    1  ->  wasmachine ==> pabi
+  28:    1  ->  ziekenhuis ==> snee
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  in
+   2:    1  ->  achterde
+   3:    1  ->  afblerven
+   4:    1  ->  borstol
+   5:    1  ->  da
+   6:    1  ->  danen
+   7:    1  ->  den
+   8:    1  ->  ebauter
+   9:    1  ->  hant
+  10:    1  ->  hier
+  11:    1  ->  i
+  12:    1  ->  ibeer
+  13:    1  ->  ifer
+  14:    1  ->  ik
+  15:    1  ->  konnanenol
+  16:    1  ->  lastite
+  17:    1  ->  les
+  18:    1  ->  lus
+  19:    1  ->  m
+  20:    1  ->  nakan
+  21:    1  ->  omdraien
+  22:    1  ->  oppen
+  23:    1  ->  parinstoel
+  24:    1  ->  u
+  25:    1  ->  viekenanieuwsgierig
+  26:    1  ->  wagen
+  27:    1  ->  wat
+     -------
+        28
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    3  ->  *s
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  buurmannen*(buurman)
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  kabouter
+   9:    1  ->  konijnenhok*(konijnenhol)
+  10:    1  ->  limonade
+  11:    1  ->  nieuwsgierig
+  12:    1  ->  olifant
+  13:    1  ->  omdraaien
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  schommelen
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  tandenborstel
+  21:    1  ->  teddybeer
+  22:    1  ->  vakantie
+  23:    1  ->  verstoppertje
+  24:    1  ->  vogelkooi
+  25:    1  ->  vrachtwagen
+  26:    1  ->  washandje
+  27:    1  ->  wasmachine
+  28:    1  ->  ziekenhuis
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  goeiendag
+   2:    1  ->  ass
+   3:    1  ->  buurman
+   4:    1  ->  chine
+   5:    1  ->  colifan
+   6:    1  ->  d
+   7:    1  ->  dat
+   8:    1  ->  efer
+   9:    1  ->  ertobbertje
+  10:    1  ->  fototostel
+  11:    1  ->  gai
+  12:    1  ->  je
+  13:    1  ->  je?
+  14:    1  ->  kansol
+  15:    1  ->  livonade
+  16:    1  ->  mar
+  17:    1  ->  mat
+  18:    1  ->  pabi
+  19:    1  ->  papier
+  20:    1  ->  schomwelen
+  21:    1  ->  schoonweel
+  22:    1  ->  snee
+  23:    1  ->  talet
+  24:    1  ->  vohelkooi
+  25:    1  ->  vraagtwagen
+  26:    1  ->  weet
+  27:    1  ->  winkel
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

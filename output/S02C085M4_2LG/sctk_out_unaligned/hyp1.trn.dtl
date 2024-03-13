@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  14)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   28.6%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  auto ==> outel
+   2:    1  ->  chauffeur ==> chaffer
+   3:    1  ->  cola ==> tla
+   4:    1  ->  fietsbel ==> wel
+   5:    1  ->  gooien ==> goeien
+   6:    1  ->  kussen ==> kola-cusen
+   7:    1  ->  liedje ==> botloot
+   8:    1  ->  moeder ==> litia
+   9:    1  ->  moeilijk ==> moelijk
+  10:    1  ->  potlood ==> fiets
+  11:    1  ->  schouders ==> sghouders
+  12:    1  ->  speelplaats ==> sspeelplaats
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  moedag
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *(klauw)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  auto
+   2:    1  ->  chauffeur
+   3:    1  ->  cola
+   4:    1  ->  fietsbel
+   5:    1  ->  gooien
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  moeder
+   9:    1  ->  moeilijk
+  10:    1  ->  potlood
+  11:    1  ->  schouders
+  12:    1  ->  speelplaats
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  botloot
+   2:    1  ->  chaffer
+   3:    1  ->  fiets
+   4:    1  ->  goeien
+   5:    1  ->  kola-cusen
+   6:    1  ->  litia
+   7:    1  ->  moelijk
+   8:    1  ->  outel
+   9:    1  ->  sghouders
+  10:    1  ->  sspeelplaats
+  11:    1  ->  tla
+  12:    1  ->  wel
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

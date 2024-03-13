@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.5%   (  43)
+
+Percent Correct           =    8.5%   (   4)
+
+Percent Substitution      =   72.3%   (  34)
+Percent Deletions         =   19.1%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    8.5%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  38)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> em
+   3:    1  ->  * ==> nd
+   4:    1  ->  * ==> venro
+   5:    1  ->  * ==> was
+   6:    1  ->  *s ==> an
+   7:    1  ->  *s ==> l
+   8:    1  ->  bang ==> bij
+   9:    1  ->  bed*(pet) ==> eet
+  10:    1  ->  chips*(gips) ==> gip
+  11:    1  ->  duur ==> hert
+  12:    1  ->  eerst ==> erst
+  13:    1  ->  gauw ==> ga
+  14:    1  ->  groei ==> las
+  15:    1  ->  groei ==> m
+  16:    1  ->  groen ==> em
+  17:    1  ->  herfst ==> sa
+  18:    1  ->  hoek ==> uk
+  19:    1  ->  hout ==> hut
+  20:    1  ->  huis ==> a
+  21:    1  ->  jas ==> js
+  22:    1  ->  kind ==> kin
+  23:    1  ->  knoop ==> ger
+  24:    1  ->  krant ==> umt
+  25:    1  ->  leeuw ==> klan
+  26:    1  ->  muts ==> iet
+  27:    1  ->  nieuw ==> nie
+  28:    1  ->  oog ==> og
+  29:    1  ->  paard ==> aart
+  30:    1  ->  reis ==> eeest
+  31:    1  ->  straat*(staart) ==> tard
+  32:    1  ->  strand ==> co
+  33:    1  ->  vriend ==> vreemd
+  34:    1  ->  zacht ==> segt
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  *
+   2:    1  ->  arm
+   3:    1  ->  draai
+   4:    1  ->  klas
+   5:    1  ->  koe
+   6:    1  ->  mooi
+   7:    1  ->  neus
+   8:    1  ->  plas
+   9:    1  ->  sjaal
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  *
+   2:    2  ->  *s
+   3:    2  ->  groei
+   4:    1  ->  bang
+   5:    1  ->  bed*(pet)
+   6:    1  ->  chips*(gips)
+   7:    1  ->  duur
+   8:    1  ->  eerst
+   9:    1  ->  gauw
+  10:    1  ->  groen
+  11:    1  ->  herfst
+  12:    1  ->  hoek
+  13:    1  ->  hout
+  14:    1  ->  huis
+  15:    1  ->  jas
+  16:    1  ->  kind
+  17:    1  ->  knoop
+  18:    1  ->  krant
+  19:    1  ->  leeuw
+  20:    1  ->  muts
+  21:    1  ->  nieuw
+  22:    1  ->  oog
+  23:    1  ->  paard
+  24:    1  ->  reis
+  25:    1  ->  straat*(staart)
+  26:    1  ->  strand
+  27:    1  ->  vriend
+  28:    1  ->  zacht
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  a
+   2:    2  ->  em
+   3:    1  ->  aart
+   4:    1  ->  an
+   5:    1  ->  bij
+   6:    1  ->  co
+   7:    1  ->  eeest
+   8:    1  ->  eet
+   9:    1  ->  erst
+  10:    1  ->  ga
+  11:    1  ->  ger
+  12:    1  ->  gip
+  13:    1  ->  hert
+  14:    1  ->  hut
+  15:    1  ->  iet
+  16:    1  ->  js
+  17:    1  ->  kin
+  18:    1  ->  klan
+  19:    1  ->  l
+  20:    1  ->  las
+  21:    1  ->  m
+  22:    1  ->  nd
+  23:    1  ->  nie
+  24:    1  ->  og
+  25:    1  ->  sa
+  26:    1  ->  segt
+  27:    1  ->  tard
+  28:    1  ->  uk
+  29:    1  ->  umt
+  30:    1  ->  venro
+  31:    1  ->  vreemd
+  32:    1  ->  was
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

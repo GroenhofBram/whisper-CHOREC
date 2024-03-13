@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.5%   (  18)
+
+Percent Correct           =   64.6%   (  31)
+
+Percent Substitution      =   33.3%   (  16)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =    2.1%   (   1)
+Percent Word Accuracy     =   62.5%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  * ==> kristus
+   2:    1  ->  * ==> flia
+   3:    1  ->  * ==> scheu
+   4:    1  ->  * ==> se
+   5:    1  ->  * ==> vlen
+   6:    1  ->  *(eerst) ==> eerst
+   7:    1  ->  circus ==> kra
+   8:    1  ->  drinken ==> drinke
+   9:    1  ->  gooien ==> gooiend
+  10:    1  ->  koning ==> code
+  11:    1  ->  scheuren ==> scheurende
+  12:    1  ->  sneeuwen ==> sneeuwende
+  13:    1  ->  vinger ==> vier
+  14:    1  ->  vlinder ==> lindeg
+  15:    1  ->  zwemmen ==> hebben
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  swe
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    6  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  circus
+   4:    1  ->  drinken
+   5:    1  ->  gooien
+   6:    1  ->  koning
+   7:    1  ->  scheuren
+   8:    1  ->  sneeuwen
+   9:    1  ->  vinger
+  10:    1  ->  vlinder
+  11:    1  ->  zwemmen
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  kristus
+   2:    1  ->  code
+   3:    1  ->  drinke
+   4:    1  ->  eerst
+   5:    1  ->  flia
+   6:    1  ->  gooiend
+   7:    1  ->  hebben
+   8:    1  ->  kra
+   9:    1  ->  lindeg
+  10:    1  ->  scheu
+  11:    1  ->  scheurende
+  12:    1  ->  se
+  13:    1  ->  sneeuwende
+  14:    1  ->  vier
+  15:    1  ->  vlen
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

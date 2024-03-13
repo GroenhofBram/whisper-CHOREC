@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   72.5%   (  29)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bang ==> pang
+   2:    1  ->  bed ==> ped
+   3:    1  ->  chips ==> ships
+   4:    1  ->  clown ==> klaun
+   5:    1  ->  draai ==> draaien
+   6:    1  ->  feest ==> veest
+   7:    1  ->  herfst ==> helst
+   8:    1  ->  huis ==> ruis
+   9:    1  ->  kind ==> kint
+  10:    1  ->  muts ==> mits
+  11:    1  ->  oog ==> hoor
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bang
+   2:    1  ->  bed
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  feest
+   7:    1  ->  herfst
+   8:    1  ->  huis
+   9:    1  ->  kind
+  10:    1  ->  muts
+  11:    1  ->  oog
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  draaien
+   2:    1  ->  helst
+   3:    1  ->  hoor
+   4:    1  ->  kint
+   5:    1  ->  klaun
+   6:    1  ->  mits
+   7:    1  ->  pang
+   8:    1  ->  ped
+   9:    1  ->  ruis
+  10:    1  ->  ships
+  11:    1  ->  veest
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

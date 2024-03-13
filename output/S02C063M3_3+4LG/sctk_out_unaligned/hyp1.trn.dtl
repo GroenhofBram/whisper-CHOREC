@@ -1,0 +1,182 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  109.3%   (  47)
+
+Percent Correct           =   27.9%   (  12)
+
+Percent Substitution      =   72.1%   (  31)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   37.2%   (  16)
+Percent Word Accuracy     =   -9.3%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  59)
+Aligned words             =           (  59)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> deddi
+   2:    1  ->  *(paddestoel) ==> hè
+   3:    1  ->  *t ==> beer
+   4:    1  ->  afblijven ==> blijven
+   5:    1  ->  autorijden ==> autorejden
+   6:    1  ->  buurmannen ==> vogel
+   7:    1  ->  dierentuin ==> toel
+   8:    1  ->  elastiekje ==> uin
+   9:    1  ->  fototoestel ==> toustel?
+  10:    1  ->  konijnenhok ==> hiere
+  11:    1  ->  limonade ==> dumanato
+  12:    1  ->  lucifer ==> lusiver
+  13:    1  ->  nieuwsgierig ==> af
+  14:    1  ->  olifant ==> olifand
+  15:    1  ->  omdraaien ==> ruzie
+  16:    1  ->  ophangen ==> oprallen
+  17:    1  ->  paddenstoelen ==> vorstoppertje
+  18:    1  ->  poppenwagen ==> maken
+  19:    1  ->  ruziemaken ==> wat
+  20:    1  ->  schoenenwinkel ==> winkel
+  21:    1  ->  sneeuwwitje ==> bietje
+  22:    1  ->  sprookjesboek ==> vroukjesboek
+  23:    1  ->  tandenborstel ==> tandeborstel
+  24:    1  ->  teddybeer ==> is
+  25:    1  ->  vakantie ==> aaitje
+  26:    1  ->  verjaardag ==> vejaardag
+  27:    1  ->  verstoppertje ==> wasmachina
+  28:    1  ->  vogelkooi ==> kooi
+  29:    1  ->  washandje ==> snee
+  30:    1  ->  wasmachine ==> voto
+  31:    1  ->  ziekenhuis ==> giegenhis
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  antje
+   2:    1  ->  cmdraaien
+   3:    1  ->  conijnol
+   4:    1  ->  dan
+   5:    1  ->  duurmannen
+   6:    1  ->  en
+   7:    1  ->  hij
+   8:    1  ->  konijner
+   9:    1  ->  koppewaren
+  10:    1  ->  la
+  11:    1  ->  nieuws
+  12:    1  ->  ook
+  13:    1  ->  schoene
+  14:    1  ->  steekje
+  15:    1  ->  was
+  16:    1  ->  ziekenais
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  *
+   2:    1  ->  *(paddestoel)
+   3:    1  ->  *t
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen
+   7:    1  ->  dierentuin
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  lucifer
+  13:    1  ->  nieuwsgierig
+  14:    1  ->  olifant
+  15:    1  ->  omdraaien
+  16:    1  ->  ophangen
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  sneeuwwitje
+  22:    1  ->  sprookjesboek
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer
+  25:    1  ->  vakantie
+  26:    1  ->  verjaardag
+  27:    1  ->  verstoppertje
+  28:    1  ->  vogelkooi
+  29:    1  ->  washandje
+  30:    1  ->  wasmachine
+  31:    1  ->  ziekenhuis
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  aaitje
+   2:    1  ->  af
+   3:    1  ->  autorejden
+   4:    1  ->  beer
+   5:    1  ->  bietje
+   6:    1  ->  blijven
+   7:    1  ->  deddi
+   8:    1  ->  dumanato
+   9:    1  ->  giegenhis
+  10:    1  ->  hiere
+  11:    1  ->  hè
+  12:    1  ->  is
+  13:    1  ->  kooi
+  14:    1  ->  lusiver
+  15:    1  ->  maken
+  16:    1  ->  olifand
+  17:    1  ->  oprallen
+  18:    1  ->  ruzie
+  19:    1  ->  snee
+  20:    1  ->  tandeborstel
+  21:    1  ->  toel
+  22:    1  ->  toustel?
+  23:    1  ->  uin
+  24:    1  ->  vejaardag
+  25:    1  ->  vogel
+  26:    1  ->  vorstoppertje
+  27:    1  ->  voto
+  28:    1  ->  vroukjesboek
+  29:    1  ->  wasmachina
+  30:    1  ->  wat
+  31:    1  ->  winkel
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

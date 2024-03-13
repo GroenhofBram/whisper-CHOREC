@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C054M8_3+4LGPseudo
+
+#### (S07C054M8_3+4LGPseudo-words)
+
+- Cor=1.2%	Sub=74.1%	Del=0.0%	Ins=24.7%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | * | * | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | * | * | * | spekkeraai | wachteniek | wachteniek | verpierik | nappegreeuw | * | * | * | nappegreeuw | mantaroen | schielendaspen | crobeklunker | * | * | kabbestepen | * | verwarig | *(verwarring) | ooiebiekje | fandelig | * | jalekrewen | smoralij | zeekvlachine | * | kanaroe | toineetlijgen | meitsegrok | kantelogsten | * | ondermind | choporatie | * | zennebral | * | ijraspangen | * | * | blottenduuf | * | girdofhaalder | girdofhaalder | tobbermoeit | poentalschouden | havedil | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | ommet | duf | toe | geen | oenbelen | dat | der | ziet | neuredin | stoe | sstoene | das | duivel | dek | jutoni | gefer | del | cidowan | spekker | in | ai | specker | ai | wacht | wachttaniek | vor | pirik | nape | greeuw | nae | grew | mantarn | gilden | daspen | krobeklen | klunker | kromdan | klunker | kaks | tempen | verwa | verwarring | o | jenbikje | van | van | de | ling | jaulkrewen | smoral | hè | zk | zek | vlagine | kanaru | done | legen | met | surkrokun | kantelodin | ondemint | opoati | sen | sendem | bra | e | ere | spannaar | ku | blokden | durf | hier | dor | gier | dof | hal | der | dob | mot | boental | schaaldun | havendeel | verbrakkertje | geralejak | haeneren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S |
+---
+
+---

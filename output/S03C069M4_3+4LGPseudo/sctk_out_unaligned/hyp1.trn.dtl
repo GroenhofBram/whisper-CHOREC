@@ -1,0 +1,231 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  138.2%   (  76)
+
+Percent Correct           =    9.1%   (   5)
+
+Percent Substitution      =   90.9%   (  50)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   47.3%   (  26)
+Percent Word Accuracy     =  -38.2%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  81)
+Aligned words             =           (  81)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> do
+   3:    1  ->  * ==> gevaar
+   4:    1  ->  * ==> halder
+   5:    1  ->  * ==> hate
+   6:    1  ->  * ==> hier
+   7:    1  ->  * ==> jak
+   8:    1  ->  * ==> kantol
+   9:    1  ->  * ==> klunker
+  10:    1  ->  * ==> kranaro
+  11:    1  ->  * ==> smoralla
+  12:    1  ->  * ==> tone
+  13:    1  ->  * ==> touneet
+  14:    1  ->  * ==> vandelin
+  15:    1  ->  * ==> verwarring
+  16:    1  ->  blottenduuf ==> dof
+  17:    1  ->  choporatie ==> angen
+  18:    1  ->  crobeklunker ==> stepen
+  19:    1  ->  deuveltek ==> ge
+  20:    1  ->  fandelig ==> jallekreeuwen
+  21:    1  ->  gerauwejaak ==> jak
+  22:    1  ->  gevijdel ==> cidowan
+  23:    1  ->  girdofhaalder ==> ton
+  24:    1  ->  hapeneren ==> eren
+  25:    1  ->  havedil ==> tio
+  26:    1  ->  ijraspangen ==> uuf
+  27:    1  ->  jalekrewen ==> zik
+  28:    1  ->  jattesiet ==> das
+  29:    1  ->  juitonie ==> ga
+  30:    1  ->  kabbestepen ==> verwarring
+  31:    1  ->  kanaroe ==> lagen
+  32:    1  ->  kantelogsten ==> osten
+  33:    1  ->  mantaroen ==> kabe
+  34:    1  ->  meitsegrok ==> lok
+  35:    1  ->  nappegreeuw ==> kropde
+  36:    1  ->  nurudien ==> duiveltek
+  37:    1  ->  ometuif ==> ston
+  38:    1  ->  ooiebiekje ==> lig
+  39:    1  ->  oonwijlen ==> das
+  40:    1  ->  schielendaspen ==> steppen
+  41:    1  ->  sidowaan ==> spik
+  42:    1  ->  smoralij ==> f
+  43:    1  ->  spekkeraai ==> erai
+  44:    1  ->  stoenydaas ==> ja
+  45:    1  ->  tobbermoeit ==> vermoeid
+  46:    1  ->  toejietsen ==> hier
+  47:    1  ->  toineetlijgen ==> natser
+  48:    1  ->  verwarig*(verwarring) ==> oiobiekje
+  49:    1  ->  zeekvlachine ==> lacene
+  50:    1  ->  zennebral ==> plotten
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  araspij
+   2:    1  ->  cofo
+   3:    1  ->  daarvoegen
+   4:    1  ->  daspen
+   5:    1  ->  el
+   6:    1  ->  ge
+   7:    1  ->  halve
+   8:    1  ->  heet
+   9:    1  ->  hoe
+  10:    1  ->  jt
+  11:    1  ->  man
+  12:    1  ->  mana
+  13:    1  ->  ne
+  14:    1  ->  noppig
+  15:    1  ->  nuruidien
+  16:    1  ->  onmitaf
+  17:    1  ->  onwelen
+  18:    1  ->  raue
+  19:    1  ->  reatie
+  20:    1  ->  schiellen
+  21:    1  ->  siet
+  22:    1  ->  ter
+  23:    1  ->  uh
+  24:    1  ->  vrouw
+  25:    1  ->  zen
+  26:    1  ->  zij
+     -------
+        26
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   15  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ooiebiekje
+  25:    1  ->  oonwijlen
+  26:    1  ->  schielendaspen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  stoenydaas
+  31:    1  ->  tobbermoeit
+  32:    1  ->  toejietsen
+  33:    1  ->  toineetlijgen
+  34:    1  ->  verwarig*(verwarring)
+  35:    1  ->  zeekvlachine
+  36:    1  ->  zennebral
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  das
+   2:    2  ->  hier
+   3:    2  ->  jak
+   4:    2  ->  verwarring
+   5:    1  ->  angen
+   6:    1  ->  cidowan
+   7:    1  ->  de
+   8:    1  ->  do
+   9:    1  ->  dof
+  10:    1  ->  duiveltek
+  11:    1  ->  erai
+  12:    1  ->  eren
+  13:    1  ->  f
+  14:    1  ->  ga
+  15:    1  ->  ge
+  16:    1  ->  gevaar
+  17:    1  ->  halder
+  18:    1  ->  hate
+  19:    1  ->  ja
+  20:    1  ->  jallekreeuwen
+  21:    1  ->  kabe
+  22:    1  ->  kantol
+  23:    1  ->  klunker
+  24:    1  ->  kranaro
+  25:    1  ->  kropde
+  26:    1  ->  lacene
+  27:    1  ->  lagen
+  28:    1  ->  lig
+  29:    1  ->  lok
+  30:    1  ->  natser
+  31:    1  ->  oiobiekje
+  32:    1  ->  osten
+  33:    1  ->  plotten
+  34:    1  ->  smoralla
+  35:    1  ->  spik
+  36:    1  ->  stepen
+  37:    1  ->  steppen
+  38:    1  ->  ston
+  39:    1  ->  tio
+  40:    1  ->  ton
+  41:    1  ->  tone
+  42:    1  ->  touneet
+  43:    1  ->  uuf
+  44:    1  ->  vandelin
+  45:    1  ->  vermoeid
+  46:    1  ->  zik
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

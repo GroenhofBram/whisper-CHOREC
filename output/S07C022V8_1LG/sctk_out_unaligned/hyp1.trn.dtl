@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.4%   (  22)
+
+Percent Correct           =   47.6%   (  20)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   47.6%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *(buur) ==> dur
+   2:    1  ->  *s ==> leel
+   3:    1  ->  bang ==> ban
+   4:    1  ->  bed ==> ded
+   5:    1  ->  chips*(gips) ==> sip
+   6:    1  ->  clown ==> lul
+   7:    1  ->  draai ==> draaien
+   8:    1  ->  gauw ==> ha
+   9:    1  ->  groen ==> grorie
+  10:    1  ->  hout ==> goud
+  11:    1  ->  huis ==> hes
+  12:    1  ->  krant ==> krand
+  13:    1  ->  muts ==> nust
+  14:    1  ->  neus ==> nees
+  15:    1  ->  nieuw ==> n
+  16:    1  ->  paard ==> kaart
+  17:    1  ->  plank ==> klank
+  18:    1  ->  schoen ==> schoore
+  19:    1  ->  sjaal ==> schiaal
+  20:    1  ->  vriend ==> vreemd
+  21:    1  ->  zacht*(zag) ==> zach
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  leeuw
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *(buur)
+   2:    1  ->  *s
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips*(gips)
+   6:    1  ->  clown
+   7:    1  ->  draai
+   8:    1  ->  gauw
+   9:    1  ->  groen
+  10:    1  ->  hout
+  11:    1  ->  huis
+  12:    1  ->  krant
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  nieuw
+  16:    1  ->  paard
+  17:    1  ->  plank
+  18:    1  ->  schoen
+  19:    1  ->  sjaal
+  20:    1  ->  vriend
+  21:    1  ->  zacht*(zag)
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  ban
+   2:    1  ->  ded
+   3:    1  ->  draaien
+   4:    1  ->  dur
+   5:    1  ->  goud
+   6:    1  ->  grorie
+   7:    1  ->  ha
+   8:    1  ->  hes
+   9:    1  ->  kaart
+  10:    1  ->  klank
+  11:    1  ->  krand
+  12:    1  ->  leel
+  13:    1  ->  lul
+  14:    1  ->  n
+  15:    1  ->  nees
+  16:    1  ->  nust
+  17:    1  ->  schiaal
+  18:    1  ->  schoore
+  19:    1  ->  sip
+  20:    1  ->  vreemd
+  21:    1  ->  zach
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

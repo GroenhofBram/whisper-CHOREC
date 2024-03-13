@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   88.9%   (  40)
+
+Percent Correct           =   37.8%   (  17)
+
+Percent Substitution      =   57.8%   (  26)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =   26.7%   (  12)
+Percent Word Accuracy     =   11.1%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  55)
+Aligned words             =           (  57)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  * ==> opea
+   2:    1  ->  * ==> schoenen
+   3:    1  ->  * ==> via
+   4:    1  ->  *(schommels) ==> olifants
+   5:    1  ->  achterdeur ==> in
+   6:    1  ->  autorijden ==> rijden
+   7:    1  ->  chocolade ==> familiechocolade
+   8:    1  ->  dierentuin ==> dierentem
+   9:    1  ->  elastiekje ==> ruzie
+  10:    1  ->  fototoestel ==> toilet
+  11:    1  ->  goeiendag ==> dag
+  12:    1  ->  konijnenhok ==> lastiekje
+  13:    1  ->  limonade ==> auto
+  14:    1  ->  olifant ==> of
+  15:    1  ->  paddenstoelen ==> paddensdoelen
+  16:    1  ->  poppenwagen ==> in
+  17:    1  ->  ruziemaken ==> maken
+  18:    1  ->  schommelen ==> schommelsschommelen
+  19:    1  ->  sneeuwwitje ==> goeied
+  20:    1  ->  tandenborstel ==> borstel
+  21:    1  ->  teddybeer ==> teddibeer
+  22:    1  ->  toiletpapier ==> papier
+  23:    1  ->  vrachtwagen ==> vrachtweggen
+  24:    1  ->  washandje ==> wicje
+  25:    1  ->  wasmachine ==> toustel
+  26:    1  ->  ziekenhuis ==> huis
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  achtere
+   2:    1  ->  deur
+   3:    1  ->  foto
+   4:    1  ->  jumorade
+   5:    1  ->  konnenenhoek
+   6:    1  ->  machine
+   7:    1  ->  popenwegen
+   8:    1  ->  sle
+   9:    1  ->  tanden
+  10:    1  ->  tziek
+  11:    1  ->  was
+  12:    1  ->  wasrandje
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  familie
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  *
+   2:    1  ->  *(schommels)
+   3:    1  ->  achterdeur
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  fototoestel
+   9:    1  ->  goeiendag
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  olifant
+  13:    1  ->  paddenstoelen
+  14:    1  ->  poppenwagen
+  15:    1  ->  ruziemaken
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  vrachtwagen
+  22:    1  ->  washandje
+  23:    1  ->  wasmachine
+  24:    1  ->  ziekenhuis
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  in
+   2:    1  ->  auto
+   3:    1  ->  borstel
+   4:    1  ->  dag
+   5:    1  ->  dierentem
+   6:    1  ->  familiechocolade
+   7:    1  ->  goeied
+   8:    1  ->  huis
+   9:    1  ->  lastiekje
+  10:    1  ->  maken
+  11:    1  ->  of
+  12:    1  ->  olifants
+  13:    1  ->  opea
+  14:    1  ->  paddensdoelen
+  15:    1  ->  papier
+  16:    1  ->  rijden
+  17:    1  ->  ruzie
+  18:    1  ->  schoenen
+  19:    1  ->  schommelsschommelen
+  20:    1  ->  teddibeer
+  21:    1  ->  toilet
+  22:    1  ->  toustel
+  23:    1  ->  via
+  24:    1  ->  vrachtweggen
+  25:    1  ->  wicje
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

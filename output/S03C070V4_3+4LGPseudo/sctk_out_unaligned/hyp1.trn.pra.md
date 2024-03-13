@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C070V4_3+4LGPseudo
+
+#### (S03C070V4_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=64.9%	Del=0.0%	Ins=35.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | jattesiet | * | nurudien | stoenydaas | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | mantaroen | * | schielendaspen | crobeklunker | kabbestepen | verwarig | *(verwarring) | * | ooiebiekje | fandelig | jalekrewen | smoralij | zeekvlachine | * | kanaroe | toineetlijgen | * | meitsegrok | kantelogsten | ondermind | * | choporatie | * | zennebral | ijraspangen | blottenduuf | * | * | girdofhaalder | tobbermoeit | poentalschouden | havedil | verbrakkertje | gerauwejaak | hapeneren |
+| HYP1 | ommet | uf | tuisen | onwerlen | jat | desv | sietv | nuro | nurrudin | stonedas | deuveltik | juitonni | geveidel | cidoan | speckerai | wachtenik | ver | pirik | nat | pe | greu | manto | mantaroon | schelen | daspen | krobbe | klun | ker | kabestepen | verwera | verwarring | oh | o | je | piek | je | sandeling | ja | lekre | wen | smoralat | sequefla | china | can | can | narou | toi | neet | leigen | meitikgrok | kantel | oog- | stin | onder | mind | schopau | chopor | ati | cenebral | arespangen | bloen | duf | girdo | f | gidf | helder | tobber | mooid | pontalschouden | havendil | ver | brakkertje | gerouw | weak | hapen | uh | run |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

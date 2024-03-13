@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.7%   (  15)
+
+Percent Correct           =   66.7%   (  28)
+
+Percent Substitution      =   31.0%   (  13)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   64.3%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> gwemmen
+   2:    1  ->  * ==> qwai
+   3:    1  ->  drinken ==> rinken
+   4:    1  ->  gooien ==> goeien
+   5:    1  ->  kussen ==> kushen
+   6:    1  ->  liedje ==> nietje
+   7:    1  ->  mevrouw ==> mevroul
+   8:    1  ->  moeilijk ==> moeider
+   9:    1  ->  potlood ==> potloot
+  10:    1  ->  scheuren ==> sceuren
+  11:    1  ->  verhaal ==> haal
+  12:    1  ->  vlinder ==> viender
+  13:    1  ->  vuurwerk ==> zuurwerk
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  zijn
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  zwemmen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  *
+   2:    1  ->  drinken
+   3:    1  ->  gooien
+   4:    1  ->  kussen
+   5:    1  ->  liedje
+   6:    1  ->  mevrouw
+   7:    1  ->  moeilijk
+   8:    1  ->  potlood
+   9:    1  ->  scheuren
+  10:    1  ->  verhaal
+  11:    1  ->  vlinder
+  12:    1  ->  vuurwerk
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  goeien
+   2:    1  ->  gwemmen
+   3:    1  ->  haal
+   4:    1  ->  kushen
+   5:    1  ->  mevroul
+   6:    1  ->  moeider
+   7:    1  ->  nietje
+   8:    1  ->  potloot
+   9:    1  ->  qwai
+  10:    1  ->  rinken
+  11:    1  ->  sceuren
+  12:    1  ->  viender
+  13:    1  ->  zuurwerk
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

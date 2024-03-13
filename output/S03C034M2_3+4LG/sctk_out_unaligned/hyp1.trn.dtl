@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  138.9%   (  75)
+
+Percent Correct           =   22.2%   (  12)
+
+Percent Substitution      =   77.8%   (  42)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   61.1%   (  33)
+Percent Word Accuracy     =  -38.9%
+
+
+Ref. words                =           (  54)
+Hyp. words                =           (  87)
+Aligned words             =           (  87)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> de
+   3:    1  ->  * ==> machina
+   4:    1  ->  * ==> newend
+   5:    1  ->  * ==> ollifant
+   6:    1  ->  * ==> op
+   7:    1  ->  * ==> sneeu
+   8:    1  ->  * ==> u
+   9:    1  ->  * ==> uh
+  10:    1  ->  * ==> vraagt
+  11:    1  ->  * ==> was
+  12:    1  ->  * ==> wie
+  13:    1  ->  * ==> wietje
+  14:    1  ->  achterdeur ==> derter
+  15:    1  ->  afblijven ==> alblijven
+  16:    1  ->  buurmannen ==> berman
+  17:    1  ->  chocolade ==> chocolado
+  18:    1  ->  dierentuin ==> foodoustelv
+  19:    1  ->  eindelijk ==> endelijk
+  20:    1  ->  elastiekje ==> wan
+  21:    1  ->  fototoestel ==> let
+  22:    1  ->  iedereen ==> winkel
+  23:    1  ->  knutselen ==> zullen
+  24:    1  ->  konijnenhok ==> doelen
+  25:    1  ->  konijnenhok ==> verstoptere
+  26:    1  ->  limonade ==> do
+  27:    1  ->  lucifer ==> slaapkander
+  28:    1  ->  nieuwsgierig ==> hir
+  29:    1  ->  olifant ==> olefant
+  30:    1  ->  paddenstoelen ==> toy
+  31:    1  ->  poppenwagen ==> dus
+  32:    1  ->  ruziemaken ==> was
+  33:    1  ->  schoenenwinkel ==> knut
+  34:    1  ->  slaapkamer ==> acht
+  35:    1  ->  sneeuwwitje ==> wietje
+  36:    1  ->  tandenborstel ==> kiffer
+  37:    1  ->  teddybeer ==> voeev
+  38:    1  ->  toiletpapier ==> papier
+  39:    1  ->  verstoppertje ==> lec
+  40:    1  ->  vrachtwagen ==> dwaagden
+  41:    1  ->  washandje ==> nwashandje
+  42:    1  ->  wasmachine ==> alee
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  en
+   2:    1  ->  al
+   3:    1  ->  borstal
+   4:    1  ->  codi
+   5:    1  ->  dan
+   6:    1  ->  de
+   7:    1  ->  den
+   8:    1  ->  dibier
+   9:    1  ->  dieren
+  10:    1  ->  een
+  11:    1  ->  el
+  12:    1  ->  et
+  13:    1  ->  hop
+  14:    1  ->  idereen
+  15:    1  ->  kil
+  16:    1  ->  kon
+  17:    1  ->  loman
+  18:    1  ->  luk
+  19:    1  ->  maken
+  20:    1  ->  niew
+  21:    1  ->  open
+  22:    1  ->  reuzie
+  23:    1  ->  scchoenen
+  24:    1  ->  scho
+  25:    1  ->  sco
+  26:    1  ->  te
+  27:    1  ->  tuin
+  28:    1  ->  u
+  29:    1  ->  voor
+  30:    1  ->  wagen
+  31:    1  ->  was
+  32:    1  ->  wat
+     -------
+        33
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:   13  ->  *
+   2:    2  ->  konijnenhok
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje
+  10:    1  ->  fototoestel
+  11:    1  ->  iedereen
+  12:    1  ->  knutselen
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  olifant
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  slaapkamer
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer
+  25:    1  ->  toiletpapier
+  26:    1  ->  verstoppertje
+  27:    1  ->  vrachtwagen
+  28:    1  ->  washandje
+  29:    1  ->  wasmachine
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  was
+   2:    2  ->  wietje
+   3:    1  ->  a
+   4:    1  ->  acht
+   5:    1  ->  alblijven
+   6:    1  ->  alee
+   7:    1  ->  berman
+   8:    1  ->  chocolado
+   9:    1  ->  de
+  10:    1  ->  derter
+  11:    1  ->  do
+  12:    1  ->  doelen
+  13:    1  ->  dus
+  14:    1  ->  dwaagden
+  15:    1  ->  endelijk
+  16:    1  ->  foodoustelv
+  17:    1  ->  hir
+  18:    1  ->  kiffer
+  19:    1  ->  knut
+  20:    1  ->  lec
+  21:    1  ->  let
+  22:    1  ->  machina
+  23:    1  ->  newend
+  24:    1  ->  nwashandje
+  25:    1  ->  olefant
+  26:    1  ->  ollifant
+  27:    1  ->  op
+  28:    1  ->  papier
+  29:    1  ->  slaapkander
+  30:    1  ->  sneeu
+  31:    1  ->  toy
+  32:    1  ->  u
+  33:    1  ->  uh
+  34:    1  ->  verstoptere
+  35:    1  ->  voeev
+  36:    1  ->  vraagt
+  37:    1  ->  wan
+  38:    1  ->  wie
+  39:    1  ->  winkel
+  40:    1  ->  zullen
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

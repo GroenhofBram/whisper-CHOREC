@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  53)
+
+Percent Correct           =   37.7%   (  20)
+
+Percent Substitution      =   62.3%   (  33)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   37.7%   (  20)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  53)
+Hyp. words                =           (  73)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> fot
+   3:    1  ->  * ==> go
+   4:    1  ->  * ==> han
+   5:    1  ->  * ==> handje
+   6:    1  ->  * ==> hok
+   7:    1  ->  * ==> kuns
+   8:    1  ->  * ==> lug
+   9:    1  ->  * ==> nieuw
+  10:    1  ->  * ==> ofblaven
+  11:    1  ->  * ==> schrig
+  12:    1  ->  * ==> selm
+  13:    1  ->  * ==> tot
+  14:    1  ->  * ==> verwag
+  15:    1  ->  * ==> vrag
+  16:    1  ->  * ==> winkel
+  17:    1  ->  chocolade*(colalight) ==> lit
+  18:    1  ->  elastiekje ==> maker
+  19:    1  ->  kabouter ==> was
+  20:    1  ->  konijnenhok ==> hezie
+  21:    1  ->  limonade*(limonaden) ==> juoaden
+  22:    1  ->  olifant ==> olifand
+  23:    1  ->  omdraaien ==> konijnen
+  24:    1  ->  paddenstoelen ==> stoelen
+  25:    1  ->  poppenwagen ==> allistiekje
+  26:    1  ->  ruziemaken*(ruziemaker) ==> teddie
+  27:    1  ->  schoenenwinkel ==> kunste
+  28:    1  ->  sneeuwwitje ==> sneeuwrietje
+  29:    1  ->  tandenborstel ==> borstel
+  30:    1  ->  teddybeer ==> weer
+  31:    1  ->  toiletpapier ==> papier?
+  32:    1  ->  vogelkooi*(vogelhok) ==> ook
+  33:    1  ->  wasmachine ==> nu?
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  poppen
+   2:    1  ->  al
+   3:    1  ->  cola
+   4:    1  ->  da
+   5:    1  ->  een
+   6:    1  ->  et
+   7:    1  ->  kabelter
+   8:    1  ->  mag
+   9:    1  ->  nieuw
+  10:    1  ->  padden
+  11:    1  ->  schonen
+  12:    1  ->  schrik
+  13:    1  ->  scoenen
+  14:    1  ->  tanden
+  15:    1  ->  toh
+  16:    1  ->  vogel
+  17:    1  ->  vrijen
+  18:    1  ->  waren
+  19:    1  ->  wat
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   16  ->  *
+   2:    1  ->  chocolade*(colalight)
+   3:    1  ->  elastiekje
+   4:    1  ->  kabouter
+   5:    1  ->  konijnenhok
+   6:    1  ->  limonade*(limonaden)
+   7:    1  ->  olifant
+   8:    1  ->  omdraaien
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken*(ruziemaker)
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  sneeuwwitje
+  14:    1  ->  tandenborstel
+  15:    1  ->  teddybeer
+  16:    1  ->  toiletpapier
+  17:    1  ->  vogelkooi*(vogelhok)
+  18:    1  ->  wasmachine
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  allistiekje
+   2:    1  ->  borstel
+   3:    1  ->  de
+   4:    1  ->  fot
+   5:    1  ->  go
+   6:    1  ->  han
+   7:    1  ->  handje
+   8:    1  ->  hezie
+   9:    1  ->  hok
+  10:    1  ->  juoaden
+  11:    1  ->  konijnen
+  12:    1  ->  kuns
+  13:    1  ->  kunste
+  14:    1  ->  lit
+  15:    1  ->  lug
+  16:    1  ->  maker
+  17:    1  ->  nieuw
+  18:    1  ->  nu?
+  19:    1  ->  ofblaven
+  20:    1  ->  olifand
+  21:    1  ->  ook
+  22:    1  ->  papier?
+  23:    1  ->  schrig
+  24:    1  ->  selm
+  25:    1  ->  sneeuwrietje
+  26:    1  ->  stoelen
+  27:    1  ->  teddie
+  28:    1  ->  tot
+  29:    1  ->  verwag
+  30:    1  ->  vrag
+  31:    1  ->  was
+  32:    1  ->  weer
+  33:    1  ->  winkel
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

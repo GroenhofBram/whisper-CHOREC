@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C035M2_2LGPseudo
+
+#### (S02C035M2_2LGPseudo-words)
+
+- Cor=1.1%	Sub=55.2%	Del=43.7%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | * | * | * | millen | vocil | vocil | geutel | sjobel | * | * | * | *s | * | walaan | erke | haweel | * | * | saarweng | gevicht | eemde | * | * | * | *(poot) | bepoud | orstalk | *(vet) | veten | *s | gefouw | *s | vurpaand | nizung | fiewon | kneurem | * | * | * | vawaai | * | strellen*(strelen) | * | zwieten | * | foetbans | * | * | oonste | muider | *s | grijnken | *s | schielstaug | * | * | prilsood | *s | vloender | *s | milste | * | * | * | * | * | veurder | *s | kloeien | *s | ulen | orponk | orponk | * | * | * | schodig | ijpo | *s | menuur | * | * | * | spreikje | *s | hiffreeuw | wooien |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | nee | s | milem | fofokil | getel | io | bl | efbie | waar | waar | er | te | houil | a | sain | gvigt | t | bepot | wors | talk | vetem | fal | re | pan | isu | jo | er | um | i | voriy | stelen | siten | voorbalns | losta | luider | eta | heen | stan | flonsvoord | vloender |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | olsta | ude | arpa | gat | eeg | é | poor | sprijkje | ifrel |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S |
+---
+
+---

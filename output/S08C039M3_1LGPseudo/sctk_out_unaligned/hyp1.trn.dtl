@@ -1,0 +1,167 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   71.7%   (  33)
+
+Percent Correct           =   28.3%   (  13)
+
+Percent Substitution      =   69.6%   (  32)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   28.3%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> free
+   2:    1  ->  * ==> s
+   3:    1  ->  * ==> spura
+   4:    1  ->  * ==> zwieren
+   5:    1  ->  *(zwier) ==> zwier
+   6:    1  ->  *(zwoeg) ==> zwoeg
+   7:    1  ->  ant ==> an
+   8:    1  ->  beeg ==> weeg
+   9:    1  ->  blard ==> plart
+  10:    1  ->  dau ==> do
+  11:    1  ->  eem ==> één
+  12:    1  ->  fam ==> van
+  13:    1  ->  fook ==> vook
+  14:    1  ->  grek ==> gek
+  15:    1  ->  guul ==> gno
+  16:    1  ->  haans*(hans) ==> hans
+  17:    1  ->  heik ==> hek
+  18:    1  ->  hool ==> ho
+  19:    1  ->  jien ==> n
+  20:    1  ->  keng ==> kenn
+  21:    1  ->  noork ==> niwnoork
+  22:    1  ->  plirt ==> plert
+  23:    1  ->  rachts ==> rechts
+  24:    1  ->  schard ==> schart
+  25:    1  ->  sjalt ==> celt
+  26:    1  ->  spaai ==> spai
+  27:    1  ->  sprieuw ==> zwierp
+  28:    1  ->  stuid ==> stuit
+  29:    1  ->  swoers ==> swoorts
+  30:    1  ->  vaap ==> vap
+  31:    1  ->  vid ==> fet
+  32:    1  ->  zans ==> zan
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  neeuw*(nieuw)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  *
+   2:    1  ->  *(zwier)
+   3:    1  ->  *(zwoeg)
+   4:    1  ->  ant
+   5:    1  ->  beeg
+   6:    1  ->  blard
+   7:    1  ->  dau
+   8:    1  ->  eem
+   9:    1  ->  fam
+  10:    1  ->  fook
+  11:    1  ->  grek
+  12:    1  ->  guul
+  13:    1  ->  haans*(hans)
+  14:    1  ->  heik
+  15:    1  ->  hool
+  16:    1  ->  jien
+  17:    1  ->  keng
+  18:    1  ->  noork
+  19:    1  ->  plirt
+  20:    1  ->  rachts
+  21:    1  ->  schard
+  22:    1  ->  sjalt
+  23:    1  ->  spaai
+  24:    1  ->  sprieuw
+  25:    1  ->  stuid
+  26:    1  ->  swoers
+  27:    1  ->  vaap
+  28:    1  ->  vid
+  29:    1  ->  zans
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  an
+   2:    1  ->  celt
+   3:    1  ->  do
+   4:    1  ->  fet
+   5:    1  ->  free
+   6:    1  ->  gek
+   7:    1  ->  gno
+   8:    1  ->  hans
+   9:    1  ->  hek
+  10:    1  ->  ho
+  11:    1  ->  kenn
+  12:    1  ->  n
+  13:    1  ->  niwnoork
+  14:    1  ->  plart
+  15:    1  ->  plert
+  16:    1  ->  rechts
+  17:    1  ->  s
+  18:    1  ->  schart
+  19:    1  ->  spai
+  20:    1  ->  spura
+  21:    1  ->  stuit
+  22:    1  ->  swoorts
+  23:    1  ->  van
+  24:    1  ->  vap
+  25:    1  ->  vook
+  26:    1  ->  weeg
+  27:    1  ->  zan
+  28:    1  ->  zwier
+  29:    1  ->  zwieren
+  30:    1  ->  zwierp
+  31:    1  ->  zwoeg
+  32:    1  ->  één
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

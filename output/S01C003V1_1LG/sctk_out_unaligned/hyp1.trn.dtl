@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   84.4%   (  38)
+
+Percent Correct           =   24.4%   (  11)
+
+Percent Substitution      =   71.1%   (  32)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    8.9%   (   4)
+Percent Word Accuracy     =   15.6%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  47)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  *x ==> zacht
+   2:    1  ->  *s ==> nalk
+   3:    1  ->  *x ==> di
+   4:    1  ->  *x ==> herfst
+   5:    1  ->  *x ==> kokio
+   6:    1  ->  *x ==> nee
+   7:    1  ->  *x ==> start
+   8:    1  ->  arm ==> uhm
+   9:    1  ->  bang ==> as
+  10:    1  ->  bed*(ben) ==> nen
+  11:    1  ->  chips ==> ge
+  12:    1  ->  draai ==> stra
+  13:    1  ->  duur ==> l
+  14:    1  ->  gauw ==> gaal
+  15:    1  ->  groei ==> groey
+  16:    1  ->  hoek ==> houk
+  17:    1  ->  huis ==> is
+  18:    1  ->  jas ==> hij
+  19:    1  ->  kind ==> o
+  20:    1  ->  krant ==> kent
+  21:    1  ->  mooi ==> moi
+  22:    1  ->  muts ==> kend
+  23:    1  ->  neus ==> niee
+  24:    1  ->  nieuw ==> kan
+  25:    1  ->  oog ==> moe
+  26:    1  ->  paard ==> art
+  27:    1  ->  reis ==> ja
+  28:    1  ->  sjaal ==> herfst
+  29:    1  ->  straat*(start) ==> lan
+  30:    1  ->  strand ==> stand
+  31:    1  ->  vriend ==> vreemd
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  lis
+   3:    1  ->  niel
+   4:    1  ->  nist
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *s
+   2:    1  ->  plank
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    7  ->  *x
+   2:    1  ->  *s
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  bed*(ben)
+   6:    1  ->  chips
+   7:    1  ->  draai
+   8:    1  ->  duur
+   9:    1  ->  gauw
+  10:    1  ->  groei
+  11:    1  ->  hoek
+  12:    1  ->  huis
+  13:    1  ->  jas
+  14:    1  ->  kind
+  15:    1  ->  krant
+  16:    1  ->  mooi
+  17:    1  ->  muts
+  18:    1  ->  neus
+  19:    1  ->  nieuw
+  20:    1  ->  oog
+  21:    1  ->  paard
+  22:    1  ->  reis
+  23:    1  ->  sjaal
+  24:    1  ->  straat*(start)
+  25:    1  ->  strand
+  26:    1  ->  vriend
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  herfst
+   2:    2  ->  zacht
+   3:    1  ->  art
+   4:    1  ->  as
+   5:    1  ->  di
+   6:    1  ->  gaal
+   7:    1  ->  ge
+   8:    1  ->  groey
+   9:    1  ->  hij
+  10:    1  ->  houk
+  11:    1  ->  is
+  12:    1  ->  ja
+  13:    1  ->  kan
+  14:    1  ->  kend
+  15:    1  ->  kent
+  16:    1  ->  kokio
+  17:    1  ->  l
+  18:    1  ->  lan
+  19:    1  ->  moe
+  20:    1  ->  moi
+  21:    1  ->  nalk
+  22:    1  ->  nee
+  23:    1  ->  nen
+  24:    1  ->  niee
+  25:    1  ->  o
+  26:    1  ->  stand
+  27:    1  ->  start
+  28:    1  ->  stra
+  29:    1  ->  uhm
+  30:    1  ->  vreemd
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

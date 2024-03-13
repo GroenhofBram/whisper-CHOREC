@@ -1,0 +1,186 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   89.8%   (  53)
+
+Percent Correct           =   22.0%   (  13)
+
+Percent Substitution      =   67.8%   (  40)
+Percent Deletions         =   10.2%   (   6)
+Percent Insertions        =   11.9%   (   7)
+Percent Word Accuracy     =   10.2%
+
+
+Ref. words                =           (  59)
+Hyp. words                =           (  60)
+Aligned words             =           (  66)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> die
+   2:    1  ->  * ==> g
+   3:    1  ->  * ==> gal
+   4:    1  ->  * ==> ghi
+   5:    1  ->  * ==> groei
+   6:    1  ->  * ==> her
+   7:    1  ->  * ==> kul
+   8:    1  ->  * ==> meneer
+   9:    1  ->  * ==> oen
+  10:    1  ->  * ==> pa
+  11:    1  ->  * ==> tray
+  12:    1  ->  * ==> ut
+  13:    1  ->  *(knop) ==> lat
+  14:    1  ->  *(mus) ==> nus
+  15:    1  ->  *(vijs) ==> vijf
+  16:    1  ->  *x ==> groen
+  17:    1  ->  *x ==> pik
+  18:    1  ->  arm ==> t
+  19:    1  ->  bang ==> ban
+  20:    1  ->  bed ==> t
+  21:    1  ->  clown ==> clawen
+  22:    1  ->  duur ==> d
+  23:    1  ->  feest ==> fest
+  24:    1  ->  gauw ==> vrind
+  25:    1  ->  groen ==> gon
+  26:    1  ->  herfst ==> t
+  27:    1  ->  hoek ==> hook
+  28:    1  ->  kind ==> t
+  29:    1  ->  knoop ==> nes
+  30:    1  ->  muts ==> nutt
+  31:    1  ->  neus ==> o
+  32:    1  ->  nieuw ==> nil
+  33:    1  ->  oog ==> o
+  34:    1  ->  paard ==> paart
+  35:    1  ->  plank ==> knopknoop
+  36:    1  ->  plank ==> planokplank
+  37:    1  ->  reis ==> re
+  38:    1  ->  sjaal ==> gacia
+  39:    1  ->  straat ==> trat
+  40:    1  ->  zacht ==> segt
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  g
+   2:    1  ->  ach
+   3:    1  ->  allee
+   4:    1  ->  de
+   5:    1  ->  gag
+   6:    1  ->  m
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    3  ->  *
+   2:    1  ->  draai
+   3:    1  ->  plas
+   4:    1  ->  vriend
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   12  ->  *
+   2:    2  ->  *x
+   3:    2  ->  plank
+   4:    1  ->  *(knop)
+   5:    1  ->  *(mus)
+   6:    1  ->  *(vijs)
+   7:    1  ->  arm
+   8:    1  ->  bang
+   9:    1  ->  bed
+  10:    1  ->  clown
+  11:    1  ->  duur
+  12:    1  ->  feest
+  13:    1  ->  gauw
+  14:    1  ->  groen
+  15:    1  ->  herfst
+  16:    1  ->  hoek
+  17:    1  ->  kind
+  18:    1  ->  knoop
+  19:    1  ->  muts
+  20:    1  ->  neus
+  21:    1  ->  nieuw
+  22:    1  ->  oog
+  23:    1  ->  paard
+  24:    1  ->  reis
+  25:    1  ->  sjaal
+  26:    1  ->  straat
+  27:    1  ->  zacht
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  t
+   2:    2  ->  o
+   3:    1  ->  ban
+   4:    1  ->  clawen
+   5:    1  ->  d
+   6:    1  ->  die
+   7:    1  ->  fest
+   8:    1  ->  g
+   9:    1  ->  gacia
+  10:    1  ->  gal
+  11:    1  ->  ghi
+  12:    1  ->  gon
+  13:    1  ->  groei
+  14:    1  ->  groen
+  15:    1  ->  her
+  16:    1  ->  hook
+  17:    1  ->  knopknoop
+  18:    1  ->  kul
+  19:    1  ->  lat
+  20:    1  ->  meneer
+  21:    1  ->  nes
+  22:    1  ->  nil
+  23:    1  ->  nus
+  24:    1  ->  nutt
+  25:    1  ->  oen
+  26:    1  ->  pa
+  27:    1  ->  paart
+  28:    1  ->  pik
+  29:    1  ->  planokplank
+  30:    1  ->  re
+  31:    1  ->  segt
+  32:    1  ->  trat
+  33:    1  ->  tray
+  34:    1  ->  ut
+  35:    1  ->  vijf
+  36:    1  ->  vrind
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.2%   (  30)
+
+Percent Correct           =   34.1%   (  15)
+
+Percent Substitution      =   63.6%   (  28)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   31.8%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  44)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> bria
+   2:    1  ->  * ==> f
+   3:    1  ->  * ==> geval
+   4:    1  ->  * ==> vuurvuurpan
+   5:    1  ->  bepoud ==> bebouwd
+   6:    1  ->  eemde ==> imder
+   7:    1  ->  fiewon ==> fiwon
+   8:    1  ->  gefouw*(gevouw) ==> vitten
+   9:    1  ->  hiffreeuw ==> hifreuw
+  10:    1  ->  ierpieuw ==> ierpio
+  11:    1  ->  ijpo ==> epo
+  12:    1  ->  kneurem ==> kneuren
+  13:    1  ->  menuur ==> minnuur
+  14:    1  ->  millen ==> milen
+  15:    1  ->  milste ==> milster
+  16:    1  ->  nizung ==> nising
+  17:    1  ->  oonste ==> onster
+  18:    1  ->  prilsood ==> brilsoot
+  19:    1  ->  saarweng ==> weng
+  20:    1  ->  schodig ==> schoddig
+  21:    1  ->  sjobel ==> sjobbel
+  22:    1  ->  vawaai ==> vanwai
+  23:    1  ->  veurder ==> verder
+  24:    1  ->  vloender ==> vlunder
+  25:    1  ->  vocil ==> vokil
+  26:    1  ->  vurpaand ==> vuurpent
+  27:    1  ->  walaan ==> walan
+  28:    1  ->  zwieten ==> zweten
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sar
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  veten
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  gefouw*(gevouw)
+   6:    1  ->  hiffreeuw
+   7:    1  ->  ierpieuw
+   8:    1  ->  ijpo
+   9:    1  ->  kneurem
+  10:    1  ->  menuur
+  11:    1  ->  millen
+  12:    1  ->  milste
+  13:    1  ->  nizung
+  14:    1  ->  oonste
+  15:    1  ->  prilsood
+  16:    1  ->  saarweng
+  17:    1  ->  schodig
+  18:    1  ->  sjobel
+  19:    1  ->  vawaai
+  20:    1  ->  veurder
+  21:    1  ->  vloender
+  22:    1  ->  vocil
+  23:    1  ->  vurpaand
+  24:    1  ->  walaan
+  25:    1  ->  zwieten
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  bebouwd
+   2:    1  ->  bria
+   3:    1  ->  brilsoot
+   4:    1  ->  epo
+   5:    1  ->  f
+   6:    1  ->  fiwon
+   7:    1  ->  geval
+   8:    1  ->  hifreuw
+   9:    1  ->  ierpio
+  10:    1  ->  imder
+  11:    1  ->  kneuren
+  12:    1  ->  milen
+  13:    1  ->  milster
+  14:    1  ->  minnuur
+  15:    1  ->  nising
+  16:    1  ->  onster
+  17:    1  ->  schoddig
+  18:    1  ->  sjobbel
+  19:    1  ->  vanwai
+  20:    1  ->  verder
+  21:    1  ->  vitten
+  22:    1  ->  vlunder
+  23:    1  ->  vokil
+  24:    1  ->  vuurpent
+  25:    1  ->  vuurvuurpan
+  26:    1  ->  walan
+  27:    1  ->  weng
+  28:    1  ->  zweten
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,222 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  140.0%   (  63)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   40.0%   (  18)
+Percent Word Accuracy     =  -40.0%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  63)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> bietje
+   2:    1  ->  * ==> dicker
+   3:    1  ->  * ==> ja
+   4:    1  ->  * ==> rien
+   5:    1  ->  * ==> tandelosten
+   6:    1  ->  blottenduuf ==> dodermoit
+   7:    1  ->  choporatie ==> dis
+   8:    1  ->  crobeklunker ==> kan
+   9:    1  ->  deuveltek ==> kobeke
+  10:    1  ->  fandelig ==> mep
+  11:    1  ->  gerauwejaak ==> grouwenjak
+  12:    1  ->  gevijdel ==> keppen
+  13:    1  ->  girdofhaalder ==> kon
+  14:    1  ->  hapeneren ==> happeronden
+  15:    1  ->  havedil ==> haedeel
+  16:    1  ->  ijraspangen ==> doshaandig
+  17:    1  ->  jalekrewen ==> de
+  18:    1  ->  jattesiet ==> mam
+  19:    1  ->  juitonie ==> kabef
+  20:    1  ->  kabbestepen ==> o
+  21:    1  ->  kanaroe ==> choperai
+  22:    1  ->  kantelogsten ==> gaspanken
+  23:    1  ->  mantaroen ==> vik
+  24:    1  ->  meitsegrok ==> en
+  25:    1  ->  nappegreeuw ==> smora
+  26:    1  ->  nurudien ==> tegn
+  27:    1  ->  ometuif ==> fido
+  28:    1  ->  ondermind ==> botten
+  29:    1  ->  ooiebiekje ==> legen
+  30:    1  ->  oonwijlen ==> brenglae
+  31:    1  ->  poentalschouden ==> saren
+  32:    1  ->  schielendaspen ==> fles
+  33:    1  ->  sidowaan ==> vwain
+  34:    1  ->  smoralij ==> hok
+  35:    1  ->  spekkeraai ==> oh
+  36:    1  ->  stoenydaas ==> eldendaften
+  37:    1  ->  tobbermoeit ==> tas
+  38:    1  ->  toejietsen ==> wahti
+  39:    1  ->  toineetlijgen ==> fineba
+  40:    1  ->  verbrakkertje ==> vehakkerje
+  41:    1  ->  verpierik ==> dele
+  42:    1  ->  verwarig*(verwarring) ==> to
+  43:    1  ->  wachteniek ==> van
+  44:    1  ->  zeekvlachine ==> ondernint
+  45:    1  ->  zennebral ==> zeer
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  af
+   2:    1  ->  baas
+   3:    1  ->  del
+   4:    1  ->  gevel
+   5:    1  ->  h
+   6:    1  ->  jetoni
+   7:    1  ->  lai
+   8:    1  ->  met
+   9:    1  ->  neer
+  10:    1  ->  ommet
+  11:    1  ->  on
+  12:    1  ->  su
+  13:    1  ->  tek
+  14:    1  ->  tf
+  15:    1  ->  toin
+  16:    1  ->  tosun
+  17:    1  ->  tweee
+  18:    1  ->  welen
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    5  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  poentalschouden
+  28:    1  ->  schielendaspen
+  29:    1  ->  sidowaan
+  30:    1  ->  smoralij
+  31:    1  ->  spekkeraai
+  32:    1  ->  stoenydaas
+  33:    1  ->  tobbermoeit
+  34:    1  ->  toejietsen
+  35:    1  ->  toineetlijgen
+  36:    1  ->  verbrakkertje
+  37:    1  ->  verpierik
+  38:    1  ->  verwarig*(verwarring)
+  39:    1  ->  wachteniek
+  40:    1  ->  zeekvlachine
+  41:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  bietje
+   2:    1  ->  botten
+   3:    1  ->  brenglae
+   4:    1  ->  choperai
+   5:    1  ->  de
+   6:    1  ->  dele
+   7:    1  ->  dicker
+   8:    1  ->  dis
+   9:    1  ->  dodermoit
+  10:    1  ->  doshaandig
+  11:    1  ->  eldendaften
+  12:    1  ->  en
+  13:    1  ->  fido
+  14:    1  ->  fineba
+  15:    1  ->  fles
+  16:    1  ->  gaspanken
+  17:    1  ->  grouwenjak
+  18:    1  ->  haedeel
+  19:    1  ->  happeronden
+  20:    1  ->  hok
+  21:    1  ->  ja
+  22:    1  ->  kabef
+  23:    1  ->  kan
+  24:    1  ->  keppen
+  25:    1  ->  kobeke
+  26:    1  ->  kon
+  27:    1  ->  legen
+  28:    1  ->  mam
+  29:    1  ->  mep
+  30:    1  ->  o
+  31:    1  ->  oh
+  32:    1  ->  ondernint
+  33:    1  ->  rien
+  34:    1  ->  saren
+  35:    1  ->  smora
+  36:    1  ->  tandelosten
+  37:    1  ->  tas
+  38:    1  ->  tegn
+  39:    1  ->  to
+  40:    1  ->  van
+  41:    1  ->  vehakkerje
+  42:    1  ->  vik
+  43:    1  ->  vwain
+  44:    1  ->  wahti
+  45:    1  ->  zeer
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

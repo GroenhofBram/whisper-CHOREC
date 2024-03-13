@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.1%   (  25)
+
+Percent Correct           =   55.8%   (  24)
+
+Percent Substitution      =   44.2%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   14.0%   (   6)
+Percent Word Accuracy     =   41.9%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  49)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> cocacol
+   2:    1  ->  *(nieuw) ==> nieuw
+   3:    1  ->  *t ==> e
+   4:    1  ->  afblijven ==> kabater
+   5:    1  ->  buurmannen ==> vogo
+   6:    1  ->  goeiendag ==> dag
+   7:    1  ->  kabouter ==> washendje
+   8:    1  ->  konijnenhok ==> koninginnenhok
+   9:    1  ->  lucifer ==> rucifer
+  10:    1  ->  ruziemaken ==> maken
+  11:    1  ->  schoenenwinkel ==> winkel
+  12:    1  ->  sneeuwwitje ==> goeien
+  13:    1  ->  sprookjesboek ==> tande
+  14:    1  ->  tandenborstel ==> borstel
+  15:    1  ->  teddybeer ==> terribeer
+  16:    1  ->  verstoppertje ==> verstopperdje
+  17:    1  ->  vogelkooi ==> kooi
+  18:    1  ->  vrachtwagen ==> huurmannen
+  19:    1  ->  washandje ==> sneeuwwiedje
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  boek
+   2:    1  ->  ofblijven
+   3:    1  ->  ruzie
+   4:    1  ->  schoenen
+   5:    1  ->  sprookjes
+   6:    1  ->  vrechtwagen
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  *
+   2:    1  ->  *(nieuw)
+   3:    1  ->  *t
+   4:    1  ->  afblijven
+   5:    1  ->  buurmannen
+   6:    1  ->  goeiendag
+   7:    1  ->  kabouter
+   8:    1  ->  konijnenhok
+   9:    1  ->  lucifer
+  10:    1  ->  ruziemaken
+  11:    1  ->  schoenenwinkel
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  sprookjesboek
+  14:    1  ->  tandenborstel
+  15:    1  ->  teddybeer
+  16:    1  ->  verstoppertje
+  17:    1  ->  vogelkooi
+  18:    1  ->  vrachtwagen
+  19:    1  ->  washandje
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  borstel
+   2:    1  ->  cocacol
+   3:    1  ->  dag
+   4:    1  ->  e
+   5:    1  ->  goeien
+   6:    1  ->  huurmannen
+   7:    1  ->  kabater
+   8:    1  ->  koninginnenhok
+   9:    1  ->  kooi
+  10:    1  ->  maken
+  11:    1  ->  nieuw
+  12:    1  ->  rucifer
+  13:    1  ->  sneeuwwiedje
+  14:    1  ->  tande
+  15:    1  ->  terribeer
+  16:    1  ->  verstopperdje
+  17:    1  ->  vogo
+  18:    1  ->  washendje
+  19:    1  ->  winkel
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

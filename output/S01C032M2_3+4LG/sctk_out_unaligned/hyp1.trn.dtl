@@ -1,0 +1,182 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  106.7%   (  48)
+
+Percent Correct           =   28.9%   (  13)
+
+Percent Substitution      =   71.1%   (  32)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   35.6%   (  16)
+Percent Word Accuracy     =   -6.7%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  61)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> ka
+   2:    1  ->  * ==> keefer
+   3:    1  ->  * ==> kok
+   4:    1  ->  * ==> s
+   5:    1  ->  *x ==> ne
+   6:    1  ->  afblijven ==> blijven
+   7:    1  ->  buurmannen ==> olie
+   8:    1  ->  chocolade ==> chocolada
+   9:    1  ->  dierentuin ==> to
+  10:    1  ->  eindelijk ==> inlijk
+  11:    1  ->  elastiekje ==> stoppertje
+  12:    1  ->  fototoestel ==> vrachtweggen
+  13:    1  ->  kabouter ==> kabelter
+  14:    1  ->  knutselen ==> knusselen
+  15:    1  ->  konijnenhok ==> uh
+  16:    1  ->  limonade ==> demonada
+  17:    1  ->  lucifer ==> m
+  18:    1  ->  olifant ==> ons
+  19:    1  ->  ophangen ==> ohangen
+  20:    1  ->  paddenstoelen ==> toestel
+  21:    1  ->  ruziemaken ==> wat-machine
+  22:    1  ->  schoenenwinkel ==> winkel
+  23:    1  ->  schommelen ==> schomelen
+  24:    1  ->  sprookjesboek ==> den
+  25:    1  ->  tandenborstel ==> borstel
+  26:    1  ->  teddybeer ==> voor
+  27:    1  ->  toiletpapier ==> buurmanan
+  28:    1  ->  vakantie ==> vankantie
+  29:    1  ->  verstoppertje ==> tolet
+  30:    1  ->  vogelkooi ==> van
+  31:    1  ->  vrachtwagen ==> vogelgooi
+  32:    1  ->  wasmachine ==> papier
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  boek
+   2:    1  ->  det
+   3:    1  ->  di
+   4:    1  ->  dierentuim
+   5:    1  ->  en
+   6:    1  ->  konijnenhook
+   7:    1  ->  maken
+   8:    1  ->  of
+   9:    1  ->  pattestoelen
+  10:    1  ->  ruzie
+  11:    1  ->  schonen
+  12:    1  ->  sprookjis
+  13:    1  ->  steekje
+  14:    1  ->  tan
+  15:    1  ->  wa
+  16:    1  ->  weer
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  *
+   2:    1  ->  *x
+   3:    1  ->  afblijven
+   4:    1  ->  buurmannen
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  kabouter
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  olifant
+  16:    1  ->  ophangen
+  17:    1  ->  paddenstoelen
+  18:    1  ->  ruziemaken
+  19:    1  ->  schoenenwinkel
+  20:    1  ->  schommelen
+  21:    1  ->  sprookjesboek
+  22:    1  ->  tandenborstel
+  23:    1  ->  teddybeer
+  24:    1  ->  toiletpapier
+  25:    1  ->  vakantie
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  vrachtwagen
+  29:    1  ->  wasmachine
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  blijven
+   2:    1  ->  borstel
+   3:    1  ->  buurmanan
+   4:    1  ->  chocolada
+   5:    1  ->  demonada
+   6:    1  ->  den
+   7:    1  ->  inlijk
+   8:    1  ->  ka
+   9:    1  ->  kabelter
+  10:    1  ->  keefer
+  11:    1  ->  knusselen
+  12:    1  ->  kok
+  13:    1  ->  m
+  14:    1  ->  ne
+  15:    1  ->  ohangen
+  16:    1  ->  olie
+  17:    1  ->  ons
+  18:    1  ->  papier
+  19:    1  ->  s
+  20:    1  ->  schomelen
+  21:    1  ->  stoppertje
+  22:    1  ->  to
+  23:    1  ->  toestel
+  24:    1  ->  tolet
+  25:    1  ->  uh
+  26:    1  ->  van
+  27:    1  ->  vankantie
+  28:    1  ->  vogelgooi
+  29:    1  ->  voor
+  30:    1  ->  vrachtweggen
+  31:    1  ->  wat-machine
+  32:    1  ->  winkel
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

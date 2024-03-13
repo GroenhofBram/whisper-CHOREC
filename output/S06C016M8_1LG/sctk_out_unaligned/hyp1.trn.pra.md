@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C016M8_1LG
+
+#### (S06C016M8_1LG-words)
+
+- Cor=38.5%	Sub=59.6%	Del=1.9%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | *(goei) | groei | strand | bed | eerst | voor | draai | * | * | * | * | sjaal | herfst | duur | straat | leeuw | *(chocola) | clown | * | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | *(vrij) | vijf | muts | nieuw | *(kit) | kind | bang | oog | zacht | * | schoen | plas | neus | * | knoop | plank | plank |
+| HYP1 | klas | mooi | koe | arm | goei | goei | strand | bet | eerst | voor | drai | slaa | sjai | sla | s | sjal | herfst | duur | straat |  | neeuw | chocola | sloon | hoek | krant | haud | reent | ou | schip | roen | feest | res | jas | vus | peht | vi | vif | nut | niew | kid | kin | bang | oog | zacht | koea | schoen | plas | neis | ko | knop | plk | plank |
+| EVAL |  |  |  |  | S | S |  | S |  |  | S | S | S | S | S | S |  |  |  | D | S | S | S |  |  | S | S | S | S | S |  | S |  | S | S | S | S | S | S | S | S |  |  |  | S |  |  | S | S | S | S |  |
+---
+
+---

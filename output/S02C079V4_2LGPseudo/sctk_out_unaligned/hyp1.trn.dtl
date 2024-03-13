@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.3%   (  36)
+
+Percent Correct           =   23.9%   (  11)
+
+Percent Substitution      =   69.6%   (  32)
+Percent Deletions         =    6.5%   (   3)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   21.7%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  44)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> gefl
+   2:    1  ->  * ==> grenker
+   3:    1  ->  * ==> i
+   4:    1  ->  * ==> u
+   5:    1  ->  * ==> vlo
+   6:    1  ->  bepoud ==> pepalt
+   7:    1  ->  fiewon ==> feo
+   8:    1  ->  foetbans ==> voetband
+   9:    1  ->  geutel ==> sjobbe
+  10:    1  ->  grijnken ==> muder
+  11:    1  ->  hiffreeuw ==> hifreel
+  12:    1  ->  ierpieuw ==> pio
+  13:    1  ->  ijpo ==> jepo
+  14:    1  ->  kneurem ==> knuuren
+  15:    1  ->  milste ==> milstan
+  16:    1  ->  nizung ==> negun
+  17:    1  ->  orstalk ==> ortstlk
+  18:    1  ->  prilsood ==> brilsoot
+  19:    1  ->  saarweng ==> sarwen
+  20:    1  ->  schielstaug ==> gielstalg
+  21:    1  ->  schodig ==> schondig
+  22:    1  ->  sjobel ==> ier
+  23:    1  ->  spreikje ==> sspreikje
+  24:    1  ->  strellen*(strelen) ==> strelen
+  25:    1  ->  vawaai ==> vawei
+  26:    1  ->  veurder ==> verder
+  27:    1  ->  vloender ==> vlonder
+  28:    1  ->  vocil ==> getel
+  29:    1  ->  vurpaand ==> vurverpend
+  30:    1  ->  walaan ==> walan
+  31:    1  ->  wooien ==> woien
+  32:    1  ->  zwieten ==> zweten
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  votil
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *
+   2:    1  ->  gefouw
+   3:    1  ->  muider
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  geutel
+   6:    1  ->  grijnken
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ierpieuw
+   9:    1  ->  ijpo
+  10:    1  ->  kneurem
+  11:    1  ->  milste
+  12:    1  ->  nizung
+  13:    1  ->  orstalk
+  14:    1  ->  prilsood
+  15:    1  ->  saarweng
+  16:    1  ->  schielstaug
+  17:    1  ->  schodig
+  18:    1  ->  sjobel
+  19:    1  ->  spreikje
+  20:    1  ->  strellen*(strelen)
+  21:    1  ->  vawaai
+  22:    1  ->  veurder
+  23:    1  ->  vloender
+  24:    1  ->  vocil
+  25:    1  ->  vurpaand
+  26:    1  ->  walaan
+  27:    1  ->  wooien
+  28:    1  ->  zwieten
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  brilsoot
+   2:    1  ->  feo
+   3:    1  ->  gefl
+   4:    1  ->  getel
+   5:    1  ->  gielstalg
+   6:    1  ->  grenker
+   7:    1  ->  hifreel
+   8:    1  ->  i
+   9:    1  ->  ier
+  10:    1  ->  jepo
+  11:    1  ->  knuuren
+  12:    1  ->  milstan
+  13:    1  ->  muder
+  14:    1  ->  negun
+  15:    1  ->  ortstlk
+  16:    1  ->  pepalt
+  17:    1  ->  pio
+  18:    1  ->  sarwen
+  19:    1  ->  schondig
+  20:    1  ->  sjobbe
+  21:    1  ->  sspreikje
+  22:    1  ->  strelen
+  23:    1  ->  u
+  24:    1  ->  vawei
+  25:    1  ->  verder
+  26:    1  ->  vlo
+  27:    1  ->  vlonder
+  28:    1  ->  voetband
+  29:    1  ->  vurverpend
+  30:    1  ->  walan
+  31:    1  ->  woien
+  32:    1  ->  zweten
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

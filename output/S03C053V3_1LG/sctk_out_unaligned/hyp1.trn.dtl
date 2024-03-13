@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  16)
+
+Percent Correct           =   60.0%   (  24)
+
+Percent Substitution      =   37.5%   (  15)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bang ==> ban
+   2:    1  ->  bed ==> ded
+   3:    1  ->  clown ==> klown
+   4:    1  ->  gauw ==> gel
+   5:    1  ->  groei ==> gloei
+   6:    1  ->  huis ==> huif
+   7:    1  ->  klas ==> tlas
+   8:    1  ->  koe ==> koel
+   9:    1  ->  muts ==> mut
+  10:    1  ->  paard ==> paart
+  11:    1  ->  plank ==> knoopplank
+  12:    1  ->  reis ==> leis
+  13:    1  ->  sjaal ==> cjaal
+  14:    1  ->  strand ==> sdrant
+  15:    1  ->  vriend ==> vreemd
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  knoop
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bang
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  huis
+   7:    1  ->  klas
+   8:    1  ->  koe
+   9:    1  ->  muts
+  10:    1  ->  paard
+  11:    1  ->  plank
+  12:    1  ->  reis
+  13:    1  ->  sjaal
+  14:    1  ->  strand
+  15:    1  ->  vriend
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ban
+   2:    1  ->  cjaal
+   3:    1  ->  ded
+   4:    1  ->  gel
+   5:    1  ->  gloei
+   6:    1  ->  huif
+   7:    1  ->  klown
+   8:    1  ->  knoopplank
+   9:    1  ->  koel
+  10:    1  ->  leis
+  11:    1  ->  mut
+  12:    1  ->  paart
+  13:    1  ->  sdrant
+  14:    1  ->  tlas
+  15:    1  ->  vreemd
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

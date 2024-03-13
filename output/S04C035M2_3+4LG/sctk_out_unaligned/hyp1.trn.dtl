@@ -1,0 +1,325 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  109.2%   ( 130)
+
+Percent Correct           =    4.2%   (   5)
+
+Percent Substitution      =   95.8%   ( 114)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   13.4%   (  16)
+Percent Word Accuracy     =   -9.2%
+
+
+Ref. words                =           ( 119)
+Hyp. words                =           ( 135)
+Aligned words             =           ( 135)
+
+CONFUSION PAIRS                  Total                 (105)
+                                 With >=  1 occurrences (105)
+
+   1:    2  ->  * ==> el
+   2:    2  ->  * ==> ko
+   3:    2  ->  * ==> ma
+   4:    2  ->  * ==> nen
+   5:    2  ->  * ==> o
+   6:    2  ->  * ==> oh
+   7:    2  ->  * ==> schoen
+   8:    2  ->  * ==> von
+   9:    2  ->  * ==> was
+  10:    1  ->  * ==> been
+  11:    1  ->  * ==> bek
+  12:    1  ->  * ==> bor
+  13:    1  ->  * ==> bouter
+  14:    1  ->  * ==> buur
+  15:    1  ->  * ==> de
+  16:    1  ->  * ==> dereen
+  17:    1  ->  * ==> die
+  18:    1  ->  * ==> geen
+  19:    1  ->  * ==> geenma
+  20:    1  ->  * ==> gering
+  21:    1  ->  * ==> goeie
+  22:    1  ->  * ==> gun
+  23:    1  ->  * ==> hangen
+  24:    1  ->  * ==> hi
+  25:    1  ->  * ==> hok
+  26:    1  ->  * ==> i
+  27:    1  ->  * ==> ka
+  28:    1  ->  * ==> kif
+  29:    1  ->  * ==> knust
+  30:    1  ->  * ==> knut
+  31:    1  ->  * ==> konijn
+  32:    1  ->  * ==> kun
+  33:    1  ->  * ==> lader
+  34:    1  ->  * ==> linade
+  35:    1  ->  * ==> lucht
+  36:    1  ->  * ==> mam
+  37:    1  ->  * ==> mer
+  38:    1  ->  * ==> niet
+  39:    1  ->  * ==> nieuws
+  40:    1  ->  * ==> onliep
+  41:    1  ->  * ==> op
+  42:    1  ->  * ==> re
+  43:    1  ->  * ==> rentuin
+  44:    1  ->  * ==> ru
+  45:    1  ->  * ==> ruk
+  46:    1  ->  * ==> s
+  47:    1  ->  * ==> schoenewinkel
+  48:    1  ->  * ==> schom
+  49:    1  ->  * ==> se
+  50:    1  ->  * ==> shi
+  51:    1  ->  * ==> sneeuw
+  52:    1  ->  * ==> so
+  53:    1  ->  * ==> sprocus
+  54:    1  ->  * ==> stel
+  55:    1  ->  * ==> stoelen
+  56:    1  ->  * ==> stol
+  57:    1  ->  * ==> stopertja
+  58:    1  ->  * ==> tebij
+  59:    1  ->  * ==> to
+  60:    1  ->  * ==> ton
+  61:    1  ->  * ==> tou
+  62:    1  ->  * ==> un
+  63:    1  ->  * ==> v
+  64:    1  ->  * ==> vo
+  65:    1  ->  * ==> vond
+  66:    1  ->  * ==> vor
+  67:    1  ->  * ==> winkel
+  68:    1  ->  * ==> zi
+  69:    1  ->  * ==> zie
+  70:    1  ->  * ==> zim
+  71:    1  ->  achterdeur ==> duur
+  72:    1  ->  autorijden ==> en
+  73:    1  ->  buurmannen ==> kooi
+  74:    1  ->  chocolade ==> ko
+  75:    1  ->  dierentuin ==> die
+  76:    1  ->  eindelijk ==> deluk
+  77:    1  ->  elastiekje ==> nastiqu
+  78:    1  ->  goeiendag ==> dag
+  79:    1  ->  iedereen ==> len
+  80:    1  ->  kabouter ==> kamkam
+  81:    1  ->  knutselen ==> rdach
+  82:    1  ->  konijnenhok ==> nen
+  83:    1  ->  limonade ==> den
+  84:    1  ->  lucifer ==> slaap
+  85:    1  ->  nieuwsgierig ==> nieuws
+  86:    1  ->  olifant ==> mellen
+  87:    1  ->  ophangen ==> tem
+  88:    1  ->  paddenstoelen ==> opte
+  89:    1  ->  poppenwagen ==> ko
+  90:    1  ->  ruziemaken ==> makun
+  91:    1  ->  schoenenwinkel ==> ja
+  92:    1  ->  schommelen ==> k
+  93:    1  ->  slaapkamer ==> ach
+  94:    1  ->  sneeuwwitje ==> witje
+  95:    1  ->  sprookjesboek ==> tu
+  96:    1  ->  tandenborstel ==> ver
+  97:    1  ->  teddybeer ==> de
+  98:    1  ->  toiletpapier ==> ma
+  99:    1  ->  verjaardag ==> den
+ 100:    1  ->  verstoppertje ==> vers
+ 101:    1  ->  vogelkooi ==> sch
+ 102:    1  ->  vrachtwagen ==> gel
+ 103:    1  ->  washandje ==> hamtje
+ 104:    1  ->  wasmachine ==> mee
+ 105:    1  ->  ziekenhuis ==> huis
+     -------
+       114
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  o
+   2:    2  ->  to
+   3:    1  ->  at
+   4:    1  ->  bu
+   5:    1  ->  buur
+   6:    1  ->  etv
+   7:    1  ->  il
+   8:    1  ->  k
+   9:    1  ->  lim
+  10:    1  ->  pa
+  11:    1  ->  pir
+  12:    1  ->  popen
+  13:    1  ->  vrachttwagen
+  14:    1  ->  wagen
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   79  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  goeiendag
+  10:    1  ->  iedereen
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  nieuwsgierig
+  17:    1  ->  olifant
+  18:    1  ->  ophangen
+  19:    1  ->  paddenstoelen
+  20:    1  ->  poppenwagen
+  21:    1  ->  ruziemaken
+  22:    1  ->  schoenenwinkel
+  23:    1  ->  schommelen
+  24:    1  ->  slaapkamer
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  sprookjesboek
+  27:    1  ->  tandenborstel
+  28:    1  ->  teddybeer
+  29:    1  ->  toiletpapier
+  30:    1  ->  verjaardag
+  31:    1  ->  verstoppertje
+  32:    1  ->  vogelkooi
+  33:    1  ->  vrachtwagen
+  34:    1  ->  washandje
+  35:    1  ->  wasmachine
+  36:    1  ->  ziekenhuis
+     -------
+       114
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (97)
+                                 With >=  1 occurrences (97)
+
+   1:    4  ->  ko
+   2:    3  ->  ma
+   3:    3  ->  nen
+   4:    2  ->  de
+   5:    2  ->  den
+   6:    2  ->  die
+   7:    2  ->  el
+   8:    2  ->  nieuws
+   9:    2  ->  o
+  10:    2  ->  oh
+  11:    2  ->  schoen
+  12:    2  ->  von
+  13:    2  ->  was
+  14:    1  ->  ach
+  15:    1  ->  been
+  16:    1  ->  bek
+  17:    1  ->  bor
+  18:    1  ->  bouter
+  19:    1  ->  buur
+  20:    1  ->  dag
+  21:    1  ->  deluk
+  22:    1  ->  dereen
+  23:    1  ->  duur
+  24:    1  ->  en
+  25:    1  ->  geen
+  26:    1  ->  geenma
+  27:    1  ->  gel
+  28:    1  ->  gering
+  29:    1  ->  goeie
+  30:    1  ->  gun
+  31:    1  ->  hamtje
+  32:    1  ->  hangen
+  33:    1  ->  hi
+  34:    1  ->  hok
+  35:    1  ->  huis
+  36:    1  ->  i
+  37:    1  ->  ja
+  38:    1  ->  k
+  39:    1  ->  ka
+  40:    1  ->  kamkam
+  41:    1  ->  kif
+  42:    1  ->  knust
+  43:    1  ->  knut
+  44:    1  ->  konijn
+  45:    1  ->  kooi
+  46:    1  ->  kun
+  47:    1  ->  lader
+  48:    1  ->  len
+  49:    1  ->  linade
+  50:    1  ->  lucht
+  51:    1  ->  makun
+  52:    1  ->  mam
+  53:    1  ->  mee
+  54:    1  ->  mellen
+  55:    1  ->  mer
+  56:    1  ->  nastiqu
+  57:    1  ->  niet
+  58:    1  ->  onliep
+  59:    1  ->  op
+  60:    1  ->  opte
+  61:    1  ->  rdach
+  62:    1  ->  re
+  63:    1  ->  rentuin
+  64:    1  ->  ru
+  65:    1  ->  ruk
+  66:    1  ->  s
+  67:    1  ->  sch
+  68:    1  ->  schoenewinkel
+  69:    1  ->  schom
+  70:    1  ->  se
+  71:    1  ->  shi
+  72:    1  ->  slaap
+  73:    1  ->  sneeuw
+  74:    1  ->  so
+  75:    1  ->  sprocus
+  76:    1  ->  stel
+  77:    1  ->  stoelen
+  78:    1  ->  stol
+  79:    1  ->  stopertja
+  80:    1  ->  tebij
+  81:    1  ->  tem
+  82:    1  ->  to
+  83:    1  ->  ton
+  84:    1  ->  tou
+  85:    1  ->  tu
+  86:    1  ->  un
+  87:    1  ->  v
+  88:    1  ->  ver
+  89:    1  ->  vers
+  90:    1  ->  vo
+  91:    1  ->  vond
+  92:    1  ->  vor
+  93:    1  ->  winkel
+  94:    1  ->  witje
+  95:    1  ->  zi
+  96:    1  ->  zie
+  97:    1  ->  zim
+     -------
+       114
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

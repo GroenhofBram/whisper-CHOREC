@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.1%   (  23)
+
+Percent Correct           =   56.1%   (  23)
+
+Percent Substitution      =   41.5%   (  17)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   12.2%   (   5)
+Percent Word Accuracy     =   43.9%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> boot
+   2:    1  ->  circus ==> cirkus
+   3:    1  ->  dichtbij ==> bij
+   4:    1  ->  koning ==> conin
+   5:    1  ->  lawaai ==> wai
+   6:    1  ->  liedje ==> lietje
+   7:    1  ->  meisje ==> mesje
+   8:    1  ->  muziek ==> darn
+   9:    1  ->  potlood ==> potlet
+  10:    1  ->  scheuren ==> da
+  11:    1  ->  schouders ==> autoschouders
+  12:    1  ->  sneeuwen ==> en
+  13:    1  ->  verhaal ==> srijl
+  14:    1  ->  vlinder ==> vrien
+  15:    1  ->  vuurwerk ==> suurwerk
+  16:    1  ->  waarom ==> shuuren
+  17:    1  ->  water ==> wetter
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  dicht
+   2:    1  ->  ik
+   3:    1  ->  nu
+   4:    1  ->  sneeuw
+   5:    1  ->  zie
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  auto
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  dichtbij
+   4:    1  ->  koning
+   5:    1  ->  lawaai
+   6:    1  ->  liedje
+   7:    1  ->  meisje
+   8:    1  ->  muziek
+   9:    1  ->  potlood
+  10:    1  ->  scheuren
+  11:    1  ->  schouders
+  12:    1  ->  sneeuwen
+  13:    1  ->  verhaal
+  14:    1  ->  vlinder
+  15:    1  ->  vuurwerk
+  16:    1  ->  waarom
+  17:    1  ->  water
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  autoschouders
+   2:    1  ->  bij
+   3:    1  ->  boot
+   4:    1  ->  cirkus
+   5:    1  ->  conin
+   6:    1  ->  da
+   7:    1  ->  darn
+   8:    1  ->  en
+   9:    1  ->  lietje
+  10:    1  ->  mesje
+  11:    1  ->  potlet
+  12:    1  ->  shuuren
+  13:    1  ->  srijl
+  14:    1  ->  suurwerk
+  15:    1  ->  vrien
+  16:    1  ->  wai
+  17:    1  ->  wetter
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

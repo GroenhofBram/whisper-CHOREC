@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.0%   (  32)
+
+Percent Correct           =   22.0%   (   9)
+
+Percent Substitution      =   78.0%   (  32)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   22.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  *(schip) ==> skip
+   2:    1  ->  arm ==> an
+   3:    1  ->  bang ==> bank
+   4:    1  ->  bed ==> bet
+   5:    1  ->  chips ==> kipt
+   6:    1  ->  clown ==> claen
+   7:    1  ->  duur ==> geur
+   8:    1  ->  eerst ==> erst
+   9:    1  ->  feest ==> vijfst
+  10:    1  ->  gauw ==> gel
+  11:    1  ->  groei ==> gooi
+  12:    1  ->  groen ==> goon
+  13:    1  ->  herfst ==> erst
+  14:    1  ->  hoek ==> ook
+  15:    1  ->  hout ==> glt
+  16:    1  ->  huis ==> gas
+  17:    1  ->  kind ==> ind
+  18:    1  ->  knoop ==> knop
+  19:    1  ->  koe ==> goel
+  20:    1  ->  krant ==> kent
+  21:    1  ->  mooi ==> nooi
+  22:    1  ->  muts ==> mut
+  23:    1  ->  nieuw ==> neo
+  24:    1  ->  oog ==> oh
+  25:    1  ->  paard ==> pt
+  26:    1  ->  reis ==> res
+  27:    1  ->  schoen ==> schoon
+  28:    1  ->  sjaal ==> schaal
+  29:    1  ->  strand ==> stand
+  30:    1  ->  vijf ==> vef
+  31:    1  ->  vriend ==> vriemd
+  32:    1  ->  zacht ==> zegt
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  *(schip)
+   2:    1  ->  arm
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips
+   6:    1  ->  clown
+   7:    1  ->  duur
+   8:    1  ->  eerst
+   9:    1  ->  feest
+  10:    1  ->  gauw
+  11:    1  ->  groei
+  12:    1  ->  groen
+  13:    1  ->  herfst
+  14:    1  ->  hoek
+  15:    1  ->  hout
+  16:    1  ->  huis
+  17:    1  ->  kind
+  18:    1  ->  knoop
+  19:    1  ->  koe
+  20:    1  ->  krant
+  21:    1  ->  mooi
+  22:    1  ->  muts
+  23:    1  ->  nieuw
+  24:    1  ->  oog
+  25:    1  ->  paard
+  26:    1  ->  reis
+  27:    1  ->  schoen
+  28:    1  ->  sjaal
+  29:    1  ->  strand
+  30:    1  ->  vijf
+  31:    1  ->  vriend
+  32:    1  ->  zacht
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  erst
+   2:    1  ->  an
+   3:    1  ->  bank
+   4:    1  ->  bet
+   5:    1  ->  claen
+   6:    1  ->  gas
+   7:    1  ->  gel
+   8:    1  ->  geur
+   9:    1  ->  glt
+  10:    1  ->  goel
+  11:    1  ->  gooi
+  12:    1  ->  goon
+  13:    1  ->  ind
+  14:    1  ->  kent
+  15:    1  ->  kipt
+  16:    1  ->  knop
+  17:    1  ->  mut
+  18:    1  ->  neo
+  19:    1  ->  nooi
+  20:    1  ->  oh
+  21:    1  ->  ook
+  22:    1  ->  pt
+  23:    1  ->  res
+  24:    1  ->  schaal
+  25:    1  ->  schoon
+  26:    1  ->  skip
+  27:    1  ->  stand
+  28:    1  ->  vef
+  29:    1  ->  vijfst
+  30:    1  ->  vriemd
+  31:    1  ->  zegt
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

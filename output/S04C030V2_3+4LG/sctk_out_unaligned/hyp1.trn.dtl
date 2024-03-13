@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.5%   (  26)
+
+Percent Correct           =   54.3%   (  25)
+
+Percent Substitution      =   43.5%   (  20)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   10.9%   (   5)
+Percent Word Accuracy     =   43.5%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  50)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> schoenen
+   2:    1  ->  * ==> twel
+   3:    1  ->  * ==> twilit
+   4:    1  ->  *(goochel) ==> goochel
+   5:    1  ->  *(verstoppen) ==> verstoppen
+   6:    1  ->  chocolade ==> chocola
+   7:    1  ->  dierentuin ==> padden
+   8:    1  ->  elastiekje ==> tabibier
+   9:    1  ->  goeiendag ==> dag
+  10:    1  ->  knutselen ==> knitselen
+  11:    1  ->  konijnenhok ==> maken
+  12:    1  ->  limonade ==> remonade
+  13:    1  ->  paddenstoelen ==> stoelen
+  14:    1  ->  poppenwagen ==> ruzie
+  15:    1  ->  ruziemaken ==> dieren
+  16:    1  ->  schoenenwinkel ==> winkel
+  17:    1  ->  schommelen ==> schommengen
+  18:    1  ->  sneeuwwitje ==> goeien
+  19:    1  ->  teddybeer ==> taan
+  20:    1  ->  toiletpapier ==> papier
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  en
+   2:    1  ->  konijnenhook
+   3:    1  ->  lastiekje
+   4:    1  ->  popenwagen
+   5:    1  ->  sneeuwwietje
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  *
+   2:    1  ->  *(goochel)
+   3:    1  ->  *(verstoppen)
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  goeiendag
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  schommelen
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  teddybeer
+  18:    1  ->  toiletpapier
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  chocola
+   2:    1  ->  dag
+   3:    1  ->  dieren
+   4:    1  ->  goeien
+   5:    1  ->  goochel
+   6:    1  ->  knitselen
+   7:    1  ->  maken
+   8:    1  ->  padden
+   9:    1  ->  papier
+  10:    1  ->  remonade
+  11:    1  ->  ruzie
+  12:    1  ->  schoenen
+  13:    1  ->  schommengen
+  14:    1  ->  stoelen
+  15:    1  ->  taan
+  16:    1  ->  tabibier
+  17:    1  ->  twel
+  18:    1  ->  twilit
+  19:    1  ->  verstoppen
+  20:    1  ->  winkel
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

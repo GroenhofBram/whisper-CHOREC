@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C002V1_2LG
+
+#### (S01C002V1_2LG-words)
+
+- Cor=24.4%	Sub=59.0%	Del=15.4%	Ins=1.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | * | mevrouw |  | drogen*(dronken) | winkel | auto | * | * | * | schouders | verhaal | koning | * | * | * | * | moeilijk | * | * | * | * | * | speelplaats | drinken | hoofdpijn | * | * | regen | * | * | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder | liedje | * | * | potlood | fietsbel | vinger | * | * | * | dichtbij | meisje | * | * | * | chauffeur | muziek | waarom | * | * | scheuren | lawaai | zwemmen | vuurwerk | vuurwerk | appel | * | * | * | * | * | * | cola | kussen | eerste | *s | circus | * | * | kleuren | voetbal | vlinder |
+| HYP1 | watter | ma | mevrouw | de | gonken | winkel |  |  | outo | oud | erschouders | verhaal | koning |  |  |  | hoe | o | ke | mel | ke | heel | laat | speelplaats | drinken |  | hoofdijn | hooftijn | gigen | va | ligtuig- | vliegtuig | stoppen | opnieuw | goeien | sneeuwen | moeder |  |  | litje | pooloot | potloot | fiets | wel | winder | dia | dichtbij |  | dichtbij | muisier | a | erganfer | muziek | waarom |  | u | suven | lawai | jammen | gwerk | vuurwerk | appel | sa | oa | o | o | ja | sola | sola | kichen | eerste |  |  | suisi | joren | kleuren | voetbal | vlendur |
+| EVAL | S | S |  | I | S |  | D | D | S | S | S |  |  | D | D | D | S | S | S | S | S | S | S |  |  | D | S | S | S | S | S |  |  |  | S |  |  | D | D | S | S | S | S | S | S | S |  | D | S | S | S | S |  |  | D | S | S | S | S | S |  |  | S | S | S | S | S | S | S | S |  | D | D | S | S |  |  | S |
+---
+
+---

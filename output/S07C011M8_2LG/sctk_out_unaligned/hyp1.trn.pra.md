@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C011M8_2LG
+
+#### (S07C011M8_2LG-words)
+
+- Cor=7.5%	Sub=71.6%	Del=3.0%	Ins=17.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | * | water | mevrouw | * | drogen*(dranken) | winkel*(wikkel) | auto |  |  |  |  |  | schouders | *x | * | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | * | regen | vliegtuig | stoppen | opnieuw |  |  |  |  |  | gooien | sneeuwen | moeder*(modder) | liedje | * | potlood | potlood | fietsbel | * | fietsbel | vinger | * | dichtbij | * | meisje | * | *x | muziek | * | waarom |  |  | scheuren | lawaai*(leeuwen) | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | * | kleuren | voetbal | vlinder |
+| HYP1 |  | waner | water | maarvouw | dera | ken | wikel | auto | schoenteleis | svel | moe | dat | lang | en | vin | gal | bou | neen | maik | spereplot | drinken |  | hoofdkepen | rengen | lenkkin | stopen | opnieuw | voen | sneewwinv | modere | te | le | e | pot | loud | pot | lout | gitsbel | fits | mel | vin | gr | dik | bij | mes | dat | weet | ik | niet | miski | muski | waarom | schurden | leuwen | zwimmen | veel | werk | apel | gool | kissin | restiis | ger | pos | klelin | vint | bal | leter |
+| EVAL | D | S |  | S | S | S | S |  | I | I | I | I | I | S | S | S | S | S | S | S |  | D | S | S | S | S |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

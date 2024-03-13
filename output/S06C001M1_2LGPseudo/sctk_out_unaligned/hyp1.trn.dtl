@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  123.5%   (  63)
+
+Percent Correct           =    2.0%   (   1)
+
+Percent Substitution      =   98.0%   (  50)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   25.5%   (  13)
+Percent Word Accuracy     =  -23.5%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    1  ->  * ==> en
+   2:    1  ->  * ==> he
+   3:    1  ->  * ==> hier
+   4:    1  ->  * ==> koei
+   5:    1  ->  * ==> middels
+   6:    1  ->  * ==> pank
+   7:    1  ->  * ==> te
+   8:    1  ->  * ==> u
+   9:    1  ->  * ==> vuur
+  10:    1  ->  *(schot) ==> diek
+  11:    1  ->  *s ==> i
+  12:    1  ->  bepoud ==> ten
+  13:    1  ->  eemde ==> si
+  14:    1  ->  erke ==> dison
+  15:    1  ->  fiewon ==> dur
+  16:    1  ->  foetbans ==> fril
+  17:    1  ->  gefouw ==> on
+  18:    1  ->  geutel ==> sen
+  19:    1  ->  gevicht*(gewicht) ==> stel
+  20:    1  ->  grijnken ==> f
+  21:    1  ->  haweel ==> fon
+  22:    1  ->  hiffreeuw ==> spring
+  23:    1  ->  ierpieuw ==> bruin
+  24:    1  ->  ijpo ==> po
+  25:    1  ->  kloeien ==> uh
+  26:    1  ->  kneurem ==> gran
+  27:    1  ->  menuur ==> me
+  28:    1  ->  millen ==> geen
+  29:    1  ->  milste ==> ju
+  30:    1  ->  muider ==> schuit
+  31:    1  ->  nizung ==> fun
+  32:    1  ->  oonste ==> sku
+  33:    1  ->  orponk ==> scool
+  34:    1  ->  orstalk ==> fut
+  35:    1  ->  prilsood ==> dur
+  36:    1  ->  saarweng ==> n
+  37:    1  ->  schielstaug ==> floon
+  38:    1  ->  schodig ==> e
+  39:    1  ->  sjobel ==> bel
+  40:    1  ->  spreikje ==> deur
+  41:    1  ->  strellen*(stellen) ==> sil
+  42:    1  ->  ulen ==> scot
+  43:    1  ->  vawaai ==> ku
+  44:    1  ->  veten ==> bas
+  45:    1  ->  veurder ==> len
+  46:    1  ->  vloender ==> dur
+  47:    1  ->  vocil*(vlug) ==> tel
+  48:    1  ->  vurpaand ==> stel
+  49:    1  ->  wooien ==> fri
+  50:    1  ->  zwieten ==> skuin
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bebouwd
+   2:    1  ->  feten
+   3:    1  ->  fure
+   4:    1  ->  gede
+   5:    1  ->  gewigt
+   6:    1  ->  gufan
+   7:    1  ->  ha
+   8:    1  ->  herte
+   9:    1  ->  in
+  10:    1  ->  middlen
+  11:    1  ->  sar
+  12:    1  ->  wal
+  13:    1  ->  worstalk
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    9  ->  *
+   2:    1  ->  *(schot)
+   3:    1  ->  *s
+   4:    1  ->  bepoud
+   5:    1  ->  eemde
+   6:    1  ->  erke
+   7:    1  ->  fiewon
+   8:    1  ->  foetbans
+   9:    1  ->  gefouw
+  10:    1  ->  geutel
+  11:    1  ->  gevicht*(gewicht)
+  12:    1  ->  grijnken
+  13:    1  ->  haweel
+  14:    1  ->  hiffreeuw
+  15:    1  ->  ierpieuw
+  16:    1  ->  ijpo
+  17:    1  ->  kloeien
+  18:    1  ->  kneurem
+  19:    1  ->  menuur
+  20:    1  ->  millen
+  21:    1  ->  milste
+  22:    1  ->  muider
+  23:    1  ->  nizung
+  24:    1  ->  oonste
+  25:    1  ->  orponk
+  26:    1  ->  orstalk
+  27:    1  ->  prilsood
+  28:    1  ->  saarweng
+  29:    1  ->  schielstaug
+  30:    1  ->  schodig
+  31:    1  ->  sjobel
+  32:    1  ->  spreikje
+  33:    1  ->  strellen*(stellen)
+  34:    1  ->  ulen
+  35:    1  ->  vawaai
+  36:    1  ->  veten
+  37:    1  ->  veurder
+  38:    1  ->  vloender
+  39:    1  ->  vocil*(vlug)
+  40:    1  ->  vurpaand
+  41:    1  ->  wooien
+  42:    1  ->  zwieten
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  dur
+   2:    2  ->  stel
+   3:    1  ->  bas
+   4:    1  ->  bel
+   5:    1  ->  bruin
+   6:    1  ->  deur
+   7:    1  ->  diek
+   8:    1  ->  dison
+   9:    1  ->  e
+  10:    1  ->  en
+  11:    1  ->  f
+  12:    1  ->  floon
+  13:    1  ->  fon
+  14:    1  ->  fri
+  15:    1  ->  fril
+  16:    1  ->  fun
+  17:    1  ->  fut
+  18:    1  ->  geen
+  19:    1  ->  gran
+  20:    1  ->  he
+  21:    1  ->  hier
+  22:    1  ->  i
+  23:    1  ->  ju
+  24:    1  ->  koei
+  25:    1  ->  ku
+  26:    1  ->  len
+  27:    1  ->  me
+  28:    1  ->  middels
+  29:    1  ->  n
+  30:    1  ->  on
+  31:    1  ->  pank
+  32:    1  ->  po
+  33:    1  ->  schuit
+  34:    1  ->  scool
+  35:    1  ->  scot
+  36:    1  ->  sen
+  37:    1  ->  si
+  38:    1  ->  sil
+  39:    1  ->  sku
+  40:    1  ->  skuin
+  41:    1  ->  spring
+  42:    1  ->  te
+  43:    1  ->  tel
+  44:    1  ->  ten
+  45:    1  ->  u
+  46:    1  ->  uh
+  47:    1  ->  vuur
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.6%   (  20)
+
+Percent Correct           =   57.1%   (  24)
+
+Percent Substitution      =   38.1%   (  16)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   52.4%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> drinkten
+   2:    1  ->  * ==> o
+   3:    1  ->  drinken ==> speelplats
+   4:    1  ->  drogen ==> ik
+   5:    1  ->  gooien*(hooien) ==> gooien
+   6:    1  ->  kleuren ==> plu
+   7:    1  ->  kussen ==> isen
+   8:    1  ->  liedje ==> hitja
+   9:    1  ->  meisje ==> leijsje
+  10:    1  ->  moeder ==> boder
+  11:    1  ->  regen ==> rigen
+  12:    1  ->  scheuren ==> ssguren
+  13:    1  ->  verhaal ==> vhaal
+  14:    1  ->  waarom ==> rek
+  15:    1  ->  winkel ==> al
+  16:    1  ->  zwemmen ==> svennen
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  denk
+   2:    1  ->  droren
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  muziek
+   2:    1  ->  speelplaats
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  *
+   2:    1  ->  drinken
+   3:    1  ->  drogen
+   4:    1  ->  gooien*(hooien)
+   5:    1  ->  kleuren
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  meisje
+   9:    1  ->  moeder
+  10:    1  ->  regen
+  11:    1  ->  scheuren
+  12:    1  ->  verhaal
+  13:    1  ->  waarom
+  14:    1  ->  winkel
+  15:    1  ->  zwemmen
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  al
+   2:    1  ->  boder
+   3:    1  ->  drinkten
+   4:    1  ->  gooien
+   5:    1  ->  hitja
+   6:    1  ->  ik
+   7:    1  ->  isen
+   8:    1  ->  leijsje
+   9:    1  ->  o
+  10:    1  ->  plu
+  11:    1  ->  rek
+  12:    1  ->  rigen
+  13:    1  ->  speelplats
+  14:    1  ->  ssguren
+  15:    1  ->  svennen
+  16:    1  ->  vhaal
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

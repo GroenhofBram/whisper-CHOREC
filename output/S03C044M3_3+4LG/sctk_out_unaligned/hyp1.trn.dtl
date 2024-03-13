@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  45)
+
+Percent Correct           =   31.1%   (  14)
+
+Percent Substitution      =   66.7%   (  30)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   31.1%   (  14)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  58)
+Aligned words             =           (  59)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> goeie
+   3:    1  ->  * ==> op
+   4:    1  ->  * ==> ruzie
+   5:    1  ->  * ==> tandeborstel
+   6:    1  ->  achterdeur ==> echterdeur
+   7:    1  ->  autorijden ==> op
+   8:    1  ->  chocolade ==> chucolade
+   9:    1  ->  eindelijk ==> uidelijk
+  10:    1  ->  elastiekje ==> de
+  11:    1  ->  goeiendag ==> canti
+  12:    1  ->  kabouter ==> snijwitje
+  13:    1  ->  knutselen ==> nutelen
+  14:    1  ->  konijnenhok ==> maken
+  15:    1  ->  limonade ==> autorijdt
+  16:    1  ->  lucifer ==> slucifer
+  17:    1  ->  olifant ==> ooiefand
+  18:    1  ->  paddenstoelen ==> paddestolen
+  19:    1  ->  ruziemaken ==> nie
+  20:    1  ->  schoenenwinkel ==> winkon
+  21:    1  ->  slaapkamer ==> slaapkaber
+  22:    1  ->  sneeuwwitje ==> van
+  23:    1  ->  teddybeer ==> weer
+  24:    1  ->  toiletpapier ==> papier
+  25:    1  ->  vakantie ==> lubonado
+  26:    1  ->  verstoppertje ==> verstopperde
+  27:    1  ->  vrachtwagen ==> rechtwagen
+  28:    1  ->  washandje ==> dag
+  29:    1  ->  wasmachine ==> wasnerchile
+  30:    1  ->  ziekenhuis ==> gekenhuis
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  e
+   2:    1  ->  dantje
+   3:    1  ->  ejlastiekje
+   4:    1  ->  h
+   5:    1  ->  hoede
+   6:    1  ->  hoek
+   7:    1  ->  it
+   8:    1  ->  kabauter
+   9:    1  ->  konijn
+  10:    1  ->  orx
+  11:    1  ->  s
+  12:    1  ->  toilit
+  13:    1  ->  was
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  tandenborstel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  chocolade
+   5:    1  ->  eindelijk
+   6:    1  ->  elastiekje
+   7:    1  ->  goeiendag
+   8:    1  ->  kabouter
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  lucifer
+  13:    1  ->  olifant
+  14:    1  ->  paddenstoelen
+  15:    1  ->  ruziemaken
+  16:    1  ->  schoenenwinkel
+  17:    1  ->  slaapkamer
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  vakantie
+  22:    1  ->  verstoppertje
+  23:    1  ->  vrachtwagen
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+  26:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  de
+   2:    2  ->  op
+   3:    1  ->  autorijdt
+   4:    1  ->  canti
+   5:    1  ->  chucolade
+   6:    1  ->  dag
+   7:    1  ->  echterdeur
+   8:    1  ->  gekenhuis
+   9:    1  ->  goeie
+  10:    1  ->  lubonado
+  11:    1  ->  maken
+  12:    1  ->  nie
+  13:    1  ->  nutelen
+  14:    1  ->  ooiefand
+  15:    1  ->  paddestolen
+  16:    1  ->  papier
+  17:    1  ->  rechtwagen
+  18:    1  ->  ruzie
+  19:    1  ->  slaapkaber
+  20:    1  ->  slucifer
+  21:    1  ->  snijwitje
+  22:    1  ->  tandeborstel
+  23:    1  ->  uidelijk
+  24:    1  ->  van
+  25:    1  ->  verstopperde
+  26:    1  ->  wasnerchile
+  27:    1  ->  weer
+  28:    1  ->  winkon
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

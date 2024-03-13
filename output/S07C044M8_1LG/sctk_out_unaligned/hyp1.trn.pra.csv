@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S07C044M8_1LG
+
+(S07C044M8_1LG-words)
+
+Cor=46.5%	Sub=48.8%	Del=4.7%	Ins=0.0%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,klas,mooi,koe,arm,groei,strand,bed,eerst,voor,draai,sjaal,herfst,duur,straat*(sta),straat,leeuw,clown,hoek,krant,hout,vriend,gauw*(goud),chips,chips,groen,feest,reis,jas,huis,paard,vijf,muts,nieuw,kind,bang,oog,zacht,schoen,schoen,plas,neus,knoop,plank
+HYP1,klas,mooi,koel,arm,groei,strand,wet,erst,voor,draai,saal,herfst,duur,,sta,-straat-leil,klan,hoek,krant,hout,,vreemd,galt,cipchips,groen,vest,res,jes,hs,pert,verf,mi,nieuw,kind,dan,oog,zacht,goa,schoen,plas,neis,knp,plank
+EVAL,,,S,,,,S,S,,,S,,,D,S,S,S,,,,D,S,S,S,,S,S,S,S,S,S,S,,,S,,,S,,,S,S,
+
+
+

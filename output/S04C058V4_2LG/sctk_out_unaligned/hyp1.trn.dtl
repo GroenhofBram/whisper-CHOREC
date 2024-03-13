@@ -1,0 +1,95 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.4%   (   9)
+
+Percent Correct           =   83.3%   (  35)
+
+Percent Substitution      =   16.7%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   78.6%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  * ==> modder
+   2:    1  ->  * ==> waaroa
+   3:    1  ->  dichtbij ==> bij
+   4:    1  ->  fietsbel ==> fitsbel
+   5:    1  ->  liedje ==> litsha
+   6:    1  ->  vlinder ==> vi
+   7:    1  ->  water ==> watter
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  dict
+   2:    1  ->  za
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  fietsbel
+   4:    1  ->  liedje
+   5:    1  ->  vlinder
+   6:    1  ->  water
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bij
+   2:    1  ->  fitsbel
+   3:    1  ->  litsha
+   4:    1  ->  modder
+   5:    1  ->  vi
+   6:    1  ->  waaroa
+   7:    1  ->  watter
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,199 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   99.0%   ( 100)
+
+Percent Correct           =    1.0%   (   1)
+
+Percent Substitution      =   43.6%   (  44)
+Percent Deletions         =   55.4%   (  56)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.0%
+
+
+Ref. words                =           ( 101)
+Hyp. words                =           (  45)
+Aligned words             =           ( 101)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  * ==> en
+   2:    1  ->  * ==> ee
+   3:    1  ->  * ==> geerten
+   4:    1  ->  * ==> geval
+   5:    1  ->  * ==> infi
+   6:    1  ->  * ==> ken
+   7:    1  ->  * ==> l
+   8:    1  ->  * ==> neter
+   9:    1  ->  * ==> noi
+  10:    1  ->  * ==> oti
+  11:    1  ->  * ==> ruh
+  12:    1  ->  * ==> sain
+  13:    1  ->  * ==> tank
+  14:    1  ->  * ==> terilen
+  15:    1  ->  * ==> waten
+  16:    1  ->  *(muiter) ==> ende
+  17:    1  ->  *s ==> ieri
+  18:    1  ->  *s ==> toot
+  19:    1  ->  *s ==> weet
+  20:    1  ->  grijnken ==> at
+  21:    1  ->  grijnken ==> en
+  22:    1  ->  hiffreeuw ==> eibo
+  23:    1  ->  hiffreeuw ==> sprejke
+  24:    1  ->  ierpieuw ==> nien
+  25:    1  ->  ijpo ==> en
+  26:    1  ->  kloeien ==> gen
+  27:    1  ->  menuur ==> ien
+  28:    1  ->  milste ==> anes
+  29:    1  ->  muider ==> e
+  30:    1  ->  oonste ==> ha
+  31:    1  ->  orponk ==> nas
+  32:    1  ->  orponk ==> ode
+  33:    1  ->  prilsood ==> e
+  34:    1  ->  schielstaug ==> um
+  35:    1  ->  schodig ==> e
+  36:    1  ->  spreikje ==> an
+  37:    1  ->  spreikje ==> één
+  38:    1  ->  ulen ==> geelt
+  39:    1  ->  veurder ==> nte
+  40:    1  ->  vloender ==> goed
+  41:    1  ->  walaan ==> gel
+  42:    1  ->  walaan ==> v
+  43:    1  ->  wooien ==> g
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   21  ->  *
+   2:   10  ->  *s
+   3:    2  ->  eemde
+   4:    2  ->  geutel
+   5:    2  ->  orstalk
+   6:    2  ->  sjobel
+   7:    2  ->  zwieten
+   8:    1  ->  *(vouw)
+   9:    1  ->  bepoud
+  10:    1  ->  foetbans
+  11:    1  ->  gefouw*(gevouw)
+  12:    1  ->  haweel
+  13:    1  ->  ierpieuw
+  14:    1  ->  kneurem
+  15:    1  ->  millen
+  16:    1  ->  nizung
+  17:    1  ->  oonste
+  18:    1  ->  saarweng
+  19:    1  ->  strellen
+  20:    1  ->  vawaai
+  21:    1  ->  veten*(vatten)
+  22:    1  ->  vocil
+     -------
+        56
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   16  ->  *
+   2:    3  ->  *s
+   3:    2  ->  grijnken
+   4:    2  ->  hiffreeuw
+   5:    2  ->  orponk
+   6:    2  ->  spreikje
+   7:    2  ->  walaan
+   8:    1  ->  *(muiter)
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kloeien
+  12:    1  ->  menuur
+  13:    1  ->  milste
+  14:    1  ->  muider
+  15:    1  ->  oonste
+  16:    1  ->  prilsood
+  17:    1  ->  schielstaug
+  18:    1  ->  schodig
+  19:    1  ->  ulen
+  20:    1  ->  veurder
+  21:    1  ->  vloender
+  22:    1  ->  wooien
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    4  ->  en
+   2:    3  ->  e
+   3:    1  ->  an
+   4:    1  ->  anes
+   5:    1  ->  at
+   6:    1  ->  ee
+   7:    1  ->  eibo
+   8:    1  ->  ende
+   9:    1  ->  g
+  10:    1  ->  geelt
+  11:    1  ->  geerten
+  12:    1  ->  gel
+  13:    1  ->  gen
+  14:    1  ->  geval
+  15:    1  ->  goed
+  16:    1  ->  ha
+  17:    1  ->  ien
+  18:    1  ->  ieri
+  19:    1  ->  infi
+  20:    1  ->  ken
+  21:    1  ->  l
+  22:    1  ->  nas
+  23:    1  ->  neter
+  24:    1  ->  nien
+  25:    1  ->  noi
+  26:    1  ->  nte
+  27:    1  ->  ode
+  28:    1  ->  oti
+  29:    1  ->  ruh
+  30:    1  ->  sain
+  31:    1  ->  sprejke
+  32:    1  ->  tank
+  33:    1  ->  terilen
+  34:    1  ->  toot
+  35:    1  ->  um
+  36:    1  ->  v
+  37:    1  ->  waten
+  38:    1  ->  weet
+  39:    1  ->  één
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

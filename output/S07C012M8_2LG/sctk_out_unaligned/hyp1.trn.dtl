@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.6%   (  57)
+
+Percent Correct           =   10.2%   (   6)
+
+Percent Substitution      =   72.9%   (  43)
+Percent Deletions         =   16.9%   (  10)
+Percent Insertions        =    6.8%   (   4)
+Percent Word Accuracy     =    3.4%
+
+
+Ref. words                =           (  59)
+Hyp. words                =           (  53)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  * ==> di
+   2:    1  ->  * ==> e
+   3:    1  ->  * ==> fits
+   4:    1  ->  * ==> ga
+   5:    1  ->  * ==> i
+   6:    1  ->  * ==> moeter
+   7:    1  ->  * ==> moik
+   8:    1  ->  * ==> nie
+   9:    1  ->  * ==> spel
+  10:    1  ->  * ==> um
+  11:    1  ->  *s ==> bal
+  12:    1  ->  *s ==> inde
+  13:    1  ->  *x ==> dibij
+  14:    1  ->  appel ==> werk
+  15:    1  ->  auto ==> oto
+  16:    1  ->  circus*(cirkel) ==> kissen
+  17:    1  ->  cola ==> fewark
+  18:    1  ->  drogen ==> bogen
+  19:    1  ->  eerste ==> cole
+  20:    1  ->  fietsbel ==> ni
+  21:    1  ->  gooien ==> eetje
+  22:    1  ->  hoofdpijn ==> oftaen
+  23:    1  ->  kleuren*(keuren) ==> eersten
+  24:    1  ->  koning ==> va
+  25:    1  ->  kussen ==> appel
+  26:    1  ->  lawaai ==> swarm
+  27:    1  ->  liedje ==> finice
+  28:    1  ->  mevrouw ==> zewarte
+  29:    1  ->  moeder ==> tol
+  30:    1  ->  moeilijk ==> koi
+  31:    1  ->  muziek ==> meceik
+  32:    1  ->  nee*x ==> m
+  33:    1  ->  potlood ==> kannie
+  34:    1  ->  regen ==> ege
+  35:    1  ->  scheuren ==> lawai
+  36:    1  ->  sneeuwen ==> oout
+  37:    1  ->  speelplaats ==> waat
+  38:    1  ->  vinger ==> di
+  39:    1  ->  vlinder ==> kurn
+  40:    1  ->  voetbal ==> erkom
+  41:    1  ->  waarom ==> waarom?
+  42:    1  ->  winkel ==> winkol
+  43:    1  ->  zwemmen ==> duur
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  chauffeur
+   2:    1  ->  chaufr
+   3:    1  ->  hoor
+   4:    1  ->  jegooien
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    8  ->  *
+   2:    1  ->  verhaal
+   3:    1  ->  water*(zwarter)
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   10  ->  *
+   2:    2  ->  *s
+   3:    1  ->  *x
+   4:    1  ->  appel
+   5:    1  ->  auto
+   6:    1  ->  circus*(cirkel)
+   7:    1  ->  cola
+   8:    1  ->  drogen
+   9:    1  ->  eerste
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  hoofdpijn
+  13:    1  ->  kleuren*(keuren)
+  14:    1  ->  koning
+  15:    1  ->  kussen
+  16:    1  ->  lawaai
+  17:    1  ->  liedje
+  18:    1  ->  mevrouw
+  19:    1  ->  moeder
+  20:    1  ->  moeilijk
+  21:    1  ->  muziek
+  22:    1  ->  nee*x
+  23:    1  ->  potlood
+  24:    1  ->  regen
+  25:    1  ->  scheuren
+  26:    1  ->  sneeuwen
+  27:    1  ->  speelplaats
+  28:    1  ->  vinger
+  29:    1  ->  vlinder
+  30:    1  ->  voetbal
+  31:    1  ->  waarom
+  32:    1  ->  winkel
+  33:    1  ->  zwemmen
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  di
+   2:    1  ->  appel
+   3:    1  ->  bal
+   4:    1  ->  bogen
+   5:    1  ->  cole
+   6:    1  ->  dibij
+   7:    1  ->  duur
+   8:    1  ->  e
+   9:    1  ->  eersten
+  10:    1  ->  eetje
+  11:    1  ->  ege
+  12:    1  ->  erkom
+  13:    1  ->  fewark
+  14:    1  ->  finice
+  15:    1  ->  fits
+  16:    1  ->  ga
+  17:    1  ->  i
+  18:    1  ->  inde
+  19:    1  ->  kannie
+  20:    1  ->  kissen
+  21:    1  ->  koi
+  22:    1  ->  kurn
+  23:    1  ->  lawai
+  24:    1  ->  m
+  25:    1  ->  meceik
+  26:    1  ->  moeter
+  27:    1  ->  moik
+  28:    1  ->  ni
+  29:    1  ->  nie
+  30:    1  ->  oftaen
+  31:    1  ->  oout
+  32:    1  ->  oto
+  33:    1  ->  spel
+  34:    1  ->  swarm
+  35:    1  ->  tol
+  36:    1  ->  um
+  37:    1  ->  va
+  38:    1  ->  waarom?
+  39:    1  ->  waat
+  40:    1  ->  werk
+  41:    1  ->  winkol
+  42:    1  ->  zewarte
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  16)
+
+Percent Correct           =   62.5%   (  25)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  chauffeur ==> meicer
+   2:    1  ->  eerste ==> eersten
+   3:    1  ->  fietsbel ==> fietspel
+   4:    1  ->  gooien ==> sneeu
+   5:    1  ->  kussen ==> cussen
+   6:    1  ->  liedje*(nietje) ==> uitia
+   7:    1  ->  meisje ==> dibij
+   8:    1  ->  moeder ==> nuter
+   9:    1  ->  muziek ==> chauffeurmuziek
+  10:    1  ->  potlood ==> potloot
+  11:    1  ->  regen ==> dregen
+  12:    1  ->  schouders ==> srolders
+  13:    1  ->  sneeuwen ==> en
+  14:    1  ->  verhaal ==> vergaal
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  krooien
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  dichtbij
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  chauffeur
+   2:    1  ->  eerste
+   3:    1  ->  fietsbel
+   4:    1  ->  gooien
+   5:    1  ->  kussen
+   6:    1  ->  liedje*(nietje)
+   7:    1  ->  meisje
+   8:    1  ->  moeder
+   9:    1  ->  muziek
+  10:    1  ->  potlood
+  11:    1  ->  regen
+  12:    1  ->  schouders
+  13:    1  ->  sneeuwen
+  14:    1  ->  verhaal
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  chauffeurmuziek
+   2:    1  ->  cussen
+   3:    1  ->  dibij
+   4:    1  ->  dregen
+   5:    1  ->  eersten
+   6:    1  ->  en
+   7:    1  ->  fietspel
+   8:    1  ->  meicer
+   9:    1  ->  nuter
+  10:    1  ->  potloot
+  11:    1  ->  sneeu
+  12:    1  ->  srolders
+  13:    1  ->  uitia
+  14:    1  ->  vergaal
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

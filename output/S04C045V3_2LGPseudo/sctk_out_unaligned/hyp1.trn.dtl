@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  102.1%   (  48)
+
+Percent Correct           =    4.3%   (   2)
+
+Percent Substitution      =   95.7%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    6.4%   (   3)
+Percent Word Accuracy     =   -2.1%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  50)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> brisut
+   2:    1  ->  * ==> dag
+   3:    1  ->  * ==> peput
+   4:    1  ->  * ==> scha
+   5:    1  ->  * ==> ser
+   6:    1  ->  * ==> vlu
+   7:    1  ->  * ==> zier
+   8:    1  ->  bepoud ==> de
+   9:    1  ->  eemde ==> in
+  10:    1  ->  erke ==> irke
+  11:    1  ->  fiewon ==> terlen
+  12:    1  ->  foetbans ==> ge
+  13:    1  ->  gefouw ==> feon
+  14:    1  ->  geutel ==> tel
+  15:    1  ->  gevicht ==> geviechd
+  16:    1  ->  grijnken ==> schitels
+  17:    1  ->  haweel ==> gawel
+  18:    1  ->  hiffreeuw ==> isreeuw
+  19:    1  ->  ierpieuw ==> irpio
+  20:    1  ->  ijpo ==> epe
+  21:    1  ->  kloeien ==> lu
+  22:    1  ->  kneurem ==> zwiten
+  23:    1  ->  menuur ==> meneur
+  24:    1  ->  millen ==> milen
+  25:    1  ->  milste ==> clou
+  26:    1  ->  muider ==> schitel
+  27:    1  ->  nizung ==> vawai
+  28:    1  ->  oonste ==> grijnkun
+  29:    1  ->  orponk ==> oorbonk
+  30:    1  ->  prilsood ==> milsda
+  31:    1  ->  saarweng ==> sarwing
+  32:    1  ->  schielstaug ==> vlounder
+  33:    1  ->  schodig ==> schrotig
+  34:    1  ->  sjobel ==> opel
+  35:    1  ->  spreikje ==> beke
+  36:    1  ->  strellen ==> onste
+  37:    1  ->  ulen ==> len
+  38:    1  ->  vawaai ==> futbans
+  39:    1  ->  veurder ==> en
+  40:    1  ->  vloender ==> dar
+  41:    1  ->  vocil ==> voil
+  42:    1  ->  vurpaand ==> cnuren
+  43:    1  ->  walaan ==> volan
+  44:    1  ->  wooien ==> hoi
+  45:    1  ->  zwieten ==> mater
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  gegevouw
+   2:    1  ->  niet
+   3:    1  ->  vuurpent
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    7  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  gevicht
+  10:    1  ->  grijnken
+  11:    1  ->  haweel
+  12:    1  ->  hiffreeuw
+  13:    1  ->  ierpieuw
+  14:    1  ->  ijpo
+  15:    1  ->  kloeien
+  16:    1  ->  kneurem
+  17:    1  ->  menuur
+  18:    1  ->  millen
+  19:    1  ->  milste
+  20:    1  ->  muider
+  21:    1  ->  nizung
+  22:    1  ->  oonste
+  23:    1  ->  orponk
+  24:    1  ->  prilsood
+  25:    1  ->  saarweng
+  26:    1  ->  schielstaug
+  27:    1  ->  schodig
+  28:    1  ->  sjobel
+  29:    1  ->  spreikje
+  30:    1  ->  strellen
+  31:    1  ->  ulen
+  32:    1  ->  vawaai
+  33:    1  ->  veurder
+  34:    1  ->  vloender
+  35:    1  ->  vocil
+  36:    1  ->  vurpaand
+  37:    1  ->  walaan
+  38:    1  ->  wooien
+  39:    1  ->  zwieten
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  beke
+   2:    1  ->  brisut
+   3:    1  ->  clou
+   4:    1  ->  cnuren
+   5:    1  ->  dag
+   6:    1  ->  dar
+   7:    1  ->  de
+   8:    1  ->  en
+   9:    1  ->  epe
+  10:    1  ->  feon
+  11:    1  ->  futbans
+  12:    1  ->  gawel
+  13:    1  ->  ge
+  14:    1  ->  geviechd
+  15:    1  ->  grijnkun
+  16:    1  ->  hoi
+  17:    1  ->  in
+  18:    1  ->  irke
+  19:    1  ->  irpio
+  20:    1  ->  isreeuw
+  21:    1  ->  len
+  22:    1  ->  lu
+  23:    1  ->  mater
+  24:    1  ->  meneur
+  25:    1  ->  milen
+  26:    1  ->  milsda
+  27:    1  ->  onste
+  28:    1  ->  oorbonk
+  29:    1  ->  opel
+  30:    1  ->  peput
+  31:    1  ->  sarwing
+  32:    1  ->  scha
+  33:    1  ->  schitel
+  34:    1  ->  schitels
+  35:    1  ->  schrotig
+  36:    1  ->  ser
+  37:    1  ->  tel
+  38:    1  ->  terlen
+  39:    1  ->  vawai
+  40:    1  ->  vlounder
+  41:    1  ->  vlu
+  42:    1  ->  voil
+  43:    1  ->  volan
+  44:    1  ->  zier
+  45:    1  ->  zwiten
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

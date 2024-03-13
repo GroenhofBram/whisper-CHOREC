@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C058M8_2LG
+
+#### (S07C058M8_2LG-words)
+
+- Cor=61.0%	Sub=34.1%	Del=2.4%	Ins=2.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw |  | gooien | sneeuwen | moeder | liedje*(nietje) | potlood | fietsbel | vinger | dichtbij | meisje | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | mevrouw | drogen | winkel | auto | srolders | vergaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | dregen | vliegtuig | stoppen | opnieuw | krooien | sneeu | en | nuter | uitia | potloot | fietspel | vinger |  | dibij | meicer | chauffeurmuziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | cussen | eersten | circus | kleuren | voetbal | vlinder |
+| EVAL |  |  |  |  |  | S | S |  |  |  |  |  | S |  |  |  | I | S | S | S | S | S | S |  | D | S | S | S |  |  |  |  |  |  |  | S | S |  |  |  |  |
+---
+
+---

@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  161.7%   (  76)
+
+Percent Correct           =   17.0%   (   8)
+
+Percent Substitution      =   76.6%   (  36)
+Percent Deletions         =    6.4%   (   3)
+Percent Insertions        =   78.7%   (  37)
+Percent Word Accuracy     =  -61.7%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  81)
+Aligned words             =           (  84)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> schelen
+   2:    1  ->  * ==> vto
+   3:    1  ->  * ==> winkel
+   4:    1  ->  *s ==> aan
+   5:    1  ->  *s ==> akase
+   6:    1  ->  *s ==> ifer
+   7:    1  ->  *s ==> toaletpapier
+   8:    1  ->  afblijven ==> afblaven
+   9:    1  ->  autorijden ==> aouzorede
+  10:    1  ->  buurmannen ==> okoi
+  11:    1  ->  dierentuin ==> tae
+  12:    1  ->  eindelijk ==> de
+  13:    1  ->  elastiekje ==> toestel?
+  14:    1  ->  familie ==> lijk
+  15:    1  ->  goeiendag ==> goeeen
+  16:    1  ->  knutselen ==> teneen
+  17:    1  ->  konijnenhok ==> dot
+  18:    1  ->  limonade ==> imondada
+  19:    1  ->  nieuwsgierig*(nieuw) ==> nio
+  20:    1  ->  olifant ==> fand
+  21:    1  ->  paddenstoelen ==> vrag
+  22:    1  ->  poppenwagen ==> vo
+  23:    1  ->  ruziemaken ==> toostel?
+  24:    1  ->  schoenenwinkel ==> kuns
+  25:    1  ->  schommelen ==> schomaen
+  26:    1  ->  sneeuwwitje ==> jeel?
+  27:    1  ->  sprookjesboek ==> stel
+  28:    1  ->  tandenborstel ==> nus
+  29:    1  ->  toiletpapier ==> man
+  30:    1  ->  vakantie ==> dag?
+  31:    1  ->  verstoppertje ==> twage
+  32:    1  ->  vogelkooi ==> oi
+  33:    1  ->  vrachtwagen ==> ho
+  34:    1  ->  washandje ==> weet
+  35:    1  ->  wasmachine ==> deur
+  36:    1  ->  ziekenhuis ==> kekenaars
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  ja
+   2:    2  ->  keel
+   3:    2  ->  was
+   4:    1  ->  alle
+   5:    1  ->  boer
+   6:    1  ->  book
+   7:    1  ->  china
+   8:    1  ->  de
+   9:    1  ->  e
+  10:    1  ->  elesti
+  11:    1  ->  ge
+  12:    1  ->  hiere
+  13:    1  ->  hook
+  14:    1  ->  jes
+  15:    1  ->  kan
+  16:    1  ->  keber
+  17:    1  ->  konijnen
+  18:    1  ->  llu
+  19:    1  ->  maken
+  20:    1  ->  met
+  21:    1  ->  omdaj
+  22:    1  ->  omdraaien
+  23:    1  ->  padestonen?
+  24:    1  ->  popen
+  25:    1  ->  schoon
+  26:    1  ->  schoone
+  27:    1  ->  snee
+  28:    1  ->  spro
+  29:    1  ->  tal
+  30:    1  ->  tetdibeer
+  31:    1  ->  verstopperd
+  32:    1  ->  waden
+  33:    1  ->  win
+  34:    1  ->  zou
+     -------
+        37
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    3  ->  *s
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  *s
+   2:    3  ->  *
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  familie
+  10:    1  ->  goeiendag
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  limonade
+  14:    1  ->  nieuwsgierig*(nieuw)
+  15:    1  ->  olifant
+  16:    1  ->  paddenstoelen
+  17:    1  ->  poppenwagen
+  18:    1  ->  ruziemaken
+  19:    1  ->  schoenenwinkel
+  20:    1  ->  schommelen
+  21:    1  ->  sneeuwwitje
+  22:    1  ->  sprookjesboek
+  23:    1  ->  tandenborstel
+  24:    1  ->  toiletpapier
+  25:    1  ->  vakantie
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  vrachtwagen
+  29:    1  ->  washandje
+  30:    1  ->  wasmachine
+  31:    1  ->  ziekenhuis
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  aan
+   2:    1  ->  afblaven
+   3:    1  ->  akase
+   4:    1  ->  aouzorede
+   5:    1  ->  dag?
+   6:    1  ->  de
+   7:    1  ->  deur
+   8:    1  ->  dot
+   9:    1  ->  fand
+  10:    1  ->  goeeen
+  11:    1  ->  ho
+  12:    1  ->  ifer
+  13:    1  ->  imondada
+  14:    1  ->  jeel?
+  15:    1  ->  kekenaars
+  16:    1  ->  kuns
+  17:    1  ->  lijk
+  18:    1  ->  man
+  19:    1  ->  nio
+  20:    1  ->  nus
+  21:    1  ->  oi
+  22:    1  ->  okoi
+  23:    1  ->  schelen
+  24:    1  ->  schomaen
+  25:    1  ->  stel
+  26:    1  ->  tae
+  27:    1  ->  teneen
+  28:    1  ->  toaletpapier
+  29:    1  ->  toestel?
+  30:    1  ->  toostel?
+  31:    1  ->  twage
+  32:    1  ->  vo
+  33:    1  ->  vrag
+  34:    1  ->  vto
+  35:    1  ->  weet
+  36:    1  ->  winkel
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

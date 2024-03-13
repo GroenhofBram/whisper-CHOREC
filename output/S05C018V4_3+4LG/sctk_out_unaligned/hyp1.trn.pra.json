@@ -1,0 +1,336 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S05C018V4_3+4LG": {
+   "(S05C018V4_3+4LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S05C018V4_3+4LG",
+    "sentence_id": "(S05C018V4_3+4LG-words)",
+    "sequence": 0,
+    "word_count": 64,
+    "words": [
+     {
+      "eval_label": "C",
+      "ref": "omdraaien",
+      "hyp": "omdraaien"
+     },
+     {
+      "eval_label": "C",
+      "ref": "poppenwagen",
+      "hyp": "poppenwagen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "konijnenhok",
+      "hyp": "konijnenhok"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "elastiek"
+     },
+     {
+      "eval_label": "S",
+      "ref": "elastiekje*(elastiek)",
+      "hyp": "ruzie"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ruziemaken",
+      "hyp": "maken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "teddybeer",
+      "hyp": "teddibeer"
+     },
+     {
+      "eval_label": "C",
+      "ref": "dierentuin",
+      "hyp": "dierentuin"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "paddenstoel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "paddenstoelen*(paddenstoel)",
+      "hyp": "stoppertje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "verstoppertje",
+      "hyp": "was"
+     },
+     {
+      "eval_label": "S",
+      "ref": "wasmachine",
+      "hyp": "machina"
+     },
+     {
+      "eval_label": "C",
+      "ref": "fototoestel",
+      "hyp": "fototoestel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "toiletpapier",
+      "hyp": "toilet"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vrachtwagen",
+      "hyp": "papiervrachtwagen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "buurmannen",
+      "hyp": "buurmannen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "orgelkooi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vogelkooi",
+      "hyp": "oliefant"
+     },
+     {
+      "eval_label": "S",
+      "ref": "olifant",
+      "hyp": "schomv"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schommelen*(schommel)",
+      "hyp": "molv"
+     },
+     {
+      "eval_label": "C",
+      "ref": "iedereen",
+      "hyp": "iedereen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "stuen"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "env"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schoenenwinkel",
+      "hyp": "ma"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "winkel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "knutselen",
+      "hyp": "knutzulen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "ophangen",
+      "hyp": "ophangen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "verjaardag",
+      "hyp": "verjaardag"
+     },
+     {
+      "eval_label": "C",
+      "ref": "sprookjesboek",
+      "hyp": "sprookjesboek"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "tan"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "de"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "borstel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "tandenborstel",
+      "hyp": "lus"
+     },
+     {
+      "eval_label": "S",
+      "ref": "lucifer",
+      "hyp": "sifer"
+     },
+     {
+      "eval_label": "C",
+      "ref": "slaapkamer",
+      "hyp": "slaapkamer"
+     },
+     {
+      "eval_label": "C",
+      "ref": "achterdeur",
+      "hyp": "achterdeur"
+     },
+     {
+      "eval_label": "C",
+      "ref": "ziekenhuis",
+      "hyp": "ziekenhuis"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nieuwsgierig",
+      "hyp": "nee"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "nieuw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "nieuws"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "hieris"
+     },
+     {
+      "eval_label": "C",
+      "ref": "afblijven",
+      "hyp": "afblijven"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kabouter",
+      "hyp": "kabouter"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "washanden"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "a"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "was"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "and"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "je"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(washanden)",
+      "hyp": "snee"
+     },
+     {
+      "eval_label": "S",
+      "ref": "washandje",
+      "hyp": "wietje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sneeuwwitje",
+      "hyp": "goeien"
+     },
+     {
+      "eval_label": "S",
+      "ref": "goeiendag",
+      "hyp": "dag"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vakantie",
+      "hyp": "vakantie"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "je"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "moet"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "na"
+     },
+     {
+      "eval_label": "S",
+      "ref": "limonade",
+      "hyp": "de"
+     },
+     {
+      "eval_label": "C",
+      "ref": "autorijden",
+      "hyp": "autorijden"
+     },
+     {
+      "eval_label": "C",
+      "ref": "eindelijk",
+      "hyp": "eindelijk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "familie",
+      "hyp": "familie"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "kola"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*(cola)",
+      "hyp": "kola"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ta"
+     },
+     {
+      "eval_label": "S",
+      "ref": "chocolade",
+      "hyp": "cocolde"
+     }
+    ]
+   }
+  }
+ }
+}

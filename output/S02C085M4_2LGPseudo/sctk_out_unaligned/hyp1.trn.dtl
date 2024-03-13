@@ -1,0 +1,199 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  106.0%   (  53)
+
+Percent Correct           =   12.0%   (   6)
+
+Percent Substitution      =   88.0%   (  44)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   18.0%   (   9)
+Percent Word Accuracy     =   -6.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  59)
+Aligned words             =           (  59)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  * ==> aweel
+   2:    1  ->  * ==> ir
+   3:    1  ->  * ==> neuren
+   4:    1  ->  * ==> niet
+   5:    1  ->  * ==> nuidier
+   6:    1  ->  * ==> prilsloot
+   7:    1  ->  * ==> s
+   8:    1  ->  * ==> scala
+   9:    1  ->  * ==> schil
+  10:    1  ->  * ==> schilstaag
+  11:    1  ->  * ==> sprea
+  12:    1  ->  * ==> sqoldig
+  13:    1  ->  * ==> strilen
+  14:    1  ->  * ==> viun
+  15:    1  ->  * ==> zin
+  16:    1  ->  *(gevecht) ==> gevecht
+  17:    1  ->  *(strelen) ==> swieten
+  18:    1  ->  *t ==> voetband
+  19:    1  ->  bepoud ==> oorstalk
+  20:    1  ->  eemde ==> oa
+  21:    1  ->  fiewon ==> vawa
+  22:    1  ->  gefouw ==> net
+  23:    1  ->  geutel ==> ir
+  24:    1  ->  grijnken ==> steg
+  25:    1  ->  hiffreeuw ==> hireuw
+  26:    1  ->  ierpieuw ==> pm
+  27:    1  ->  ijpo ==> m
+  28:    1  ->  millen ==> getel
+  29:    1  ->  milste ==> mide
+  30:    1  ->  oonste ==> grenken
+  31:    1  ->  orstalk ==> ve
+  32:    1  ->  prilsood ==> vlunder
+  33:    1  ->  saarweng ==> sarweng
+  34:    1  ->  schielstaug ==> een
+  35:    1  ->  schodig ==> eppel
+  36:    1  ->  spreikje ==> srekje
+  37:    1  ->  strellen ==> oond
+  38:    1  ->  vawaai ==> uistrellen
+  39:    1  ->  veurder ==> verd
+  40:    1  ->  vloender ==> mi
+  41:    1  ->  vocil ==> sjobel
+  42:    1  ->  walaan ==> walan
+  43:    1  ->  wooien ==> woien
+  44:    1  ->  zwieten ==> te
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  baan
+   2:    1  ->  band
+   3:    1  ->  bepaald
+   4:    1  ->  gevaaw
+   5:    1  ->  inde
+   6:    1  ->  mielen
+   7:    1  ->  oorbonk
+   8:    1  ->  vokil
+   9:    1  ->  vuur
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:   15  ->  *
+   2:    1  ->  *(gevecht)
+   3:    1  ->  *(strelen)
+   4:    1  ->  *t
+   5:    1  ->  bepoud
+   6:    1  ->  eemde
+   7:    1  ->  fiewon
+   8:    1  ->  gefouw
+   9:    1  ->  geutel
+  10:    1  ->  grijnken
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  millen
+  15:    1  ->  milste
+  16:    1  ->  oonste
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  schodig
+  22:    1  ->  spreikje
+  23:    1  ->  strellen
+  24:    1  ->  vawaai
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vocil
+  28:    1  ->  walaan
+  29:    1  ->  wooien
+  30:    1  ->  zwieten
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  ir
+   2:    1  ->  aweel
+   3:    1  ->  een
+   4:    1  ->  eppel
+   5:    1  ->  getel
+   6:    1  ->  gevecht
+   7:    1  ->  grenken
+   8:    1  ->  hireuw
+   9:    1  ->  m
+  10:    1  ->  mi
+  11:    1  ->  mide
+  12:    1  ->  net
+  13:    1  ->  neuren
+  14:    1  ->  niet
+  15:    1  ->  nuidier
+  16:    1  ->  oa
+  17:    1  ->  oond
+  18:    1  ->  oorstalk
+  19:    1  ->  pm
+  20:    1  ->  prilsloot
+  21:    1  ->  s
+  22:    1  ->  sarweng
+  23:    1  ->  scala
+  24:    1  ->  schil
+  25:    1  ->  schilstaag
+  26:    1  ->  sjobel
+  27:    1  ->  sprea
+  28:    1  ->  sqoldig
+  29:    1  ->  srekje
+  30:    1  ->  steg
+  31:    1  ->  strilen
+  32:    1  ->  swieten
+  33:    1  ->  te
+  34:    1  ->  uistrellen
+  35:    1  ->  vawa
+  36:    1  ->  ve
+  37:    1  ->  verd
+  38:    1  ->  viun
+  39:    1  ->  vlunder
+  40:    1  ->  voetband
+  41:    1  ->  walan
+  42:    1  ->  woien
+  43:    1  ->  zin
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.0%   (  13)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   28.6%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> cirkua
+   2:    1  ->  circus ==> cirtus
+   3:    1  ->  cola ==> scola
+   4:    1  ->  dichtbij ==> dichtbet
+   5:    1  ->  fietsbel ==> fietspel
+   6:    1  ->  gooien ==> groeien
+   7:    1  ->  hoofdpijn ==> horfpen
+   8:    1  ->  potlood ==> potloot
+   9:    1  ->  regen ==> rijgen
+  10:    1  ->  verhaal ==> vraal
+  11:    1  ->  vlinder ==> vlien
+  12:    1  ->  zwemmen ==> scwemmen
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  fietsbel
+   6:    1  ->  gooien
+   7:    1  ->  hoofdpijn
+   8:    1  ->  potlood
+   9:    1  ->  regen
+  10:    1  ->  verhaal
+  11:    1  ->  vlinder
+  12:    1  ->  zwemmen
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  cirkua
+   2:    1  ->  cirtus
+   3:    1  ->  dichtbet
+   4:    1  ->  fietspel
+   5:    1  ->  groeien
+   6:    1  ->  horfpen
+   7:    1  ->  potloot
+   8:    1  ->  rijgen
+   9:    1  ->  scola
+  10:    1  ->  scwemmen
+  11:    1  ->  vlien
+  12:    1  ->  vraal
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

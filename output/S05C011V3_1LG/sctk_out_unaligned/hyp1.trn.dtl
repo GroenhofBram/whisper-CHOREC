@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.9%   (  29)
+
+Percent Correct           =   34.1%   (  15)
+
+Percent Substitution      =   63.6%   (  28)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   34.1%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> vif
+   2:    1  ->  *(groei) ==> groei
+   3:    1  ->  *(groeien) ==> groeien
+   4:    1  ->  *(knop) ==> knop
+   5:    1  ->  arm ==> erm
+   6:    1  ->  bang ==> an
+   7:    1  ->  bed ==> det
+   8:    1  ->  chips ==> cips
+   9:    1  ->  clown ==> a
+  10:    1  ->  duur ==> kur
+  11:    1  ->  gauw ==> gal
+  12:    1  ->  groei ==> gooi
+  13:    1  ->  groen ==> gron
+  14:    1  ->  hoek ==> wulk
+  15:    1  ->  knoop ==> knop
+  16:    1  ->  koe ==> ko
+  17:    1  ->  leeuw ==> jeel
+  18:    1  ->  mooi ==> moi
+  19:    1  ->  muts ==> mit
+  20:    1  ->  neus ==> neer
+  21:    1  ->  nieuw ==> neel
+  22:    1  ->  oog ==> og
+  23:    1  ->  paard ==> hus
+  24:    1  ->  reis ==> res
+  25:    1  ->  schoen ==> schoon
+  26:    1  ->  sjaal ==> sjaam
+  27:    1  ->  vijf ==> part
+  28:    1  ->  zacht ==> zegt
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  huis
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *
+   2:    1  ->  *(groei)
+   3:    1  ->  *(groeien)
+   4:    1  ->  *(knop)
+   5:    1  ->  arm
+   6:    1  ->  bang
+   7:    1  ->  bed
+   8:    1  ->  chips
+   9:    1  ->  clown
+  10:    1  ->  duur
+  11:    1  ->  gauw
+  12:    1  ->  groei
+  13:    1  ->  groen
+  14:    1  ->  hoek
+  15:    1  ->  knoop
+  16:    1  ->  koe
+  17:    1  ->  leeuw
+  18:    1  ->  mooi
+  19:    1  ->  muts
+  20:    1  ->  neus
+  21:    1  ->  nieuw
+  22:    1  ->  oog
+  23:    1  ->  paard
+  24:    1  ->  reis
+  25:    1  ->  schoen
+  26:    1  ->  sjaal
+  27:    1  ->  vijf
+  28:    1  ->  zacht
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  knop
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  cips
+   5:    1  ->  det
+   6:    1  ->  erm
+   7:    1  ->  gal
+   8:    1  ->  gooi
+   9:    1  ->  groei
+  10:    1  ->  groeien
+  11:    1  ->  gron
+  12:    1  ->  hus
+  13:    1  ->  jeel
+  14:    1  ->  ko
+  15:    1  ->  kur
+  16:    1  ->  mit
+  17:    1  ->  moi
+  18:    1  ->  neel
+  19:    1  ->  neer
+  20:    1  ->  og
+  21:    1  ->  part
+  22:    1  ->  res
+  23:    1  ->  schoon
+  24:    1  ->  sjaam
+  25:    1  ->  vif
+  26:    1  ->  wulk
+  27:    1  ->  zegt
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

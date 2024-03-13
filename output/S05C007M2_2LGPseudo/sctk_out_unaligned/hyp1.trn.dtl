@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  66)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   71.2%   (  47)
+Percent Deletions         =   28.8%   (  19)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  66)
+Hyp. words                =           (  47)
+Aligned words             =           (  66)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  * ==> jo
+   2:    2  ->  * ==> u
+   3:    1  ->  * ==> a
+   4:    1  ->  * ==> ber
+   5:    1  ->  * ==> ci
+   6:    1  ->  * ==> dek
+   7:    1  ->  * ==> emte
+   8:    1  ->  * ==> eni
+   9:    1  ->  * ==> gbet
+  10:    1  ->  * ==> getel
+  11:    1  ->  * ==> ier
+  12:    1  ->  * ==> ilot
+  13:    1  ->  * ==> ken
+  14:    1  ->  * ==> mil
+  15:    1  ->  * ==> n
+  16:    1  ->  * ==> nigdug
+  17:    1  ->  * ==> o
+  18:    1  ->  * ==> oen
+  19:    1  ->  * ==> oh
+  20:    1  ->  * ==> on
+  21:    1  ->  * ==> ook
+  22:    1  ->  * ==> out
+  23:    1  ->  * ==> p
+  24:    1  ->  * ==> sdarweg
+  25:    1  ->  * ==> som
+  26:    1  ->  * ==> son
+  27:    1  ->  * ==> tal
+  28:    1  ->  * ==> tel
+  29:    1  ->  * ==> ti
+  30:    1  ->  * ==> tig
+  31:    1  ->  * ==> tobad
+  32:    1  ->  * ==> vo
+  33:    1  ->  fiewon ==> el
+  34:    1  ->  grijnken ==> nie
+  35:    1  ->  hiffreeuw ==> h
+  36:    1  ->  kloeien ==> odurder
+  37:    1  ->  milste ==> jo
+  38:    1  ->  muider ==> u
+  39:    1  ->  nizung ==> ha
+  40:    1  ->  oonste ==> vout
+  41:    1  ->  schodig ==> h
+  42:    1  ->  strellen ==> ogdani
+  43:    1  ->  ulen ==> lel
+  44:    1  ->  veurder ==> conlang
+  45:    1  ->  zwieten ==> e
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:   14  ->  *
+   2:    1  ->  eemde
+   3:    1  ->  geutel
+   4:    1  ->  gevicht*(vliegtuig)
+   5:    1  ->  millen
+   6:    1  ->  sjobel
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   34  ->  *
+   2:    1  ->  fiewon
+   3:    1  ->  grijnken
+   4:    1  ->  hiffreeuw
+   5:    1  ->  kloeien
+   6:    1  ->  milste
+   7:    1  ->  muider
+   8:    1  ->  nizung
+   9:    1  ->  oonste
+  10:    1  ->  schodig
+  11:    1  ->  strellen
+  12:    1  ->  ulen
+  13:    1  ->  veurder
+  14:    1  ->  zwieten
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  jo
+   2:    3  ->  u
+   3:    2  ->  h
+   4:    1  ->  a
+   5:    1  ->  ber
+   6:    1  ->  ci
+   7:    1  ->  conlang
+   8:    1  ->  dek
+   9:    1  ->  e
+  10:    1  ->  el
+  11:    1  ->  emte
+  12:    1  ->  eni
+  13:    1  ->  gbet
+  14:    1  ->  getel
+  15:    1  ->  ha
+  16:    1  ->  ier
+  17:    1  ->  ilot
+  18:    1  ->  ken
+  19:    1  ->  lel
+  20:    1  ->  mil
+  21:    1  ->  n
+  22:    1  ->  nie
+  23:    1  ->  nigdug
+  24:    1  ->  o
+  25:    1  ->  odurder
+  26:    1  ->  oen
+  27:    1  ->  ogdani
+  28:    1  ->  oh
+  29:    1  ->  on
+  30:    1  ->  ook
+  31:    1  ->  out
+  32:    1  ->  p
+  33:    1  ->  sdarweg
+  34:    1  ->  som
+  35:    1  ->  son
+  36:    1  ->  tal
+  37:    1  ->  tel
+  38:    1  ->  ti
+  39:    1  ->  tig
+  40:    1  ->  tobad
+  41:    1  ->  vo
+  42:    1  ->  vout
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

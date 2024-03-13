@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   76.2%   (  32)
+
+Percent Correct           =   54.8%   (  23)
+
+Percent Substitution      =   45.2%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   31.0%   (  13)
+Percent Word Accuracy     =   23.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  55)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> dat
+   2:    1  ->  * ==> s
+   3:    1  ->  autorijden ==> rijden
+   4:    1  ->  chocolade ==> chocolae
+   5:    1  ->  dierentuin ==> te
+   6:    1  ->  elastiekje ==> die
+   7:    1  ->  fototoestel ==> fototuurstel
+   8:    1  ->  goeiendag ==> dag
+   9:    1  ->  iedereen ==> ideren
+  10:    1  ->  kabouter ==> kabater
+  11:    1  ->  knutselen ==> krantsullen
+  12:    1  ->  konijnenhok ==> maken
+  13:    1  ->  lucifer ==> luciver
+  14:    1  ->  ruziemaken ==> beer
+  15:    1  ->  sneeuwwitje ==> goeie
+  16:    1  ->  tandenborstel ==> borstel
+  17:    1  ->  teddybeer ==> duren
+  18:    1  ->  vrachtwagen ==> rachtdagen
+  19:    1  ->  ziekenhuis ==> huis
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  etje
+   2:    1  ->  he
+   3:    1  ->  ho
+   4:    1  ->  hok
+   5:    1  ->  ikje
+   6:    1  ->  konijnen
+   7:    1  ->  laas
+   8:    1  ->  likke
+   9:    1  ->  ruzie
+  10:    1  ->  sniew
+  11:    1  ->  tanden
+  12:    1  ->  te
+  13:    1  ->  uit
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  goeiendag
+   8:    1  ->  iedereen
+   9:    1  ->  kabouter
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  lucifer
+  13:    1  ->  ruziemaken
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  vrachtwagen
+  18:    1  ->  ziekenhuis
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  beer
+   2:    1  ->  borstel
+   3:    1  ->  chocolae
+   4:    1  ->  dag
+   5:    1  ->  dat
+   6:    1  ->  die
+   7:    1  ->  duren
+   8:    1  ->  fototuurstel
+   9:    1  ->  goeie
+  10:    1  ->  huis
+  11:    1  ->  ideren
+  12:    1  ->  kabater
+  13:    1  ->  krantsullen
+  14:    1  ->  luciver
+  15:    1  ->  maken
+  16:    1  ->  rachtdagen
+  17:    1  ->  rijden
+  18:    1  ->  s
+  19:    1  ->  te
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

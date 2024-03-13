@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   76.7%   (  33)
+
+Percent Correct           =   53.5%   (  23)
+
+Percent Substitution      =   46.5%   (  20)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   30.2%   (  13)
+Percent Word Accuracy     =   23.3%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  56)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> ach
+   2:    1  ->  * ==> sneeuwuw
+   3:    1  ->  achterdeur ==> 't
+   4:    1  ->  dierentuin ==> badestole
+   5:    1  ->  fototoestel ==> fotattoustel
+   6:    1  ->  goeiendag ==> dag
+   7:    1  ->  iedereen ==> schone
+   8:    1  ->  konijnenhok ==> hook
+   9:    1  ->  limonade ==> klimonade
+  10:    1  ->  paddenstoelen ==> voor
+  11:    1  ->  poppenwagen ==> konijnen
+  12:    1  ->  ruziemaken ==> dieren
+  13:    1  ->  schoenenwinkel ==> winkel
+  14:    1  ->  tandenborstel ==> borstol
+  15:    1  ->  teddybeer ==> tellen
+  16:    1  ->  verstoppertje ==> stobbertje
+  17:    1  ->  vogelkooi ==> vogelkooy
+  18:    1  ->  vrachtwagen ==> wagen
+  19:    1  ->  washandje ==> wassentje
+  20:    1  ->  wasmachine ==> vasmachine
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  achter
+   2:    1  ->  de
+   3:    1  ->  deur
+   4:    1  ->  g
+   5:    1  ->  goeien
+   6:    1  ->  iader
+   7:    1  ->  in
+   8:    1  ->  maken
+   9:    1  ->  poppewagen
+  10:    1  ->  ruzie
+  11:    1  ->  tan
+  12:    1  ->  tediber
+  13:    1  ->  vraaht
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  dierentuin
+   4:    1  ->  fototoestel
+   5:    1  ->  goeiendag
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  tandenborstel
+  14:    1  ->  teddybeer
+  15:    1  ->  verstoppertje
+  16:    1  ->  vogelkooi
+  17:    1  ->  vrachtwagen
+  18:    1  ->  washandje
+  19:    1  ->  wasmachine
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  't
+   2:    1  ->  ach
+   3:    1  ->  badestole
+   4:    1  ->  borstol
+   5:    1  ->  dag
+   6:    1  ->  dieren
+   7:    1  ->  fotattoustel
+   8:    1  ->  hook
+   9:    1  ->  klimonade
+  10:    1  ->  konijnen
+  11:    1  ->  schone
+  12:    1  ->  sneeuwuw
+  13:    1  ->  stobbertje
+  14:    1  ->  tellen
+  15:    1  ->  vasmachine
+  16:    1  ->  vogelkooy
+  17:    1  ->  voor
+  18:    1  ->  wagen
+  19:    1  ->  wassentje
+  20:    1  ->  winkel
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

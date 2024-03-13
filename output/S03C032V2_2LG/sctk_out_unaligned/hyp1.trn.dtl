@@ -1,0 +1,132 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.5%   (  23)
+
+Percent Correct           =   52.5%   (  21)
+
+Percent Substitution      =   45.0%   (  18)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =   10.0%   (   4)
+Percent Word Accuracy     =   42.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  appel ==> apel
+   2:    1  ->  chauffeur ==> wer
+   3:    1  ->  circus ==> sitkus
+   4:    1  ->  dichtbij ==> bij
+   5:    1  ->  drinken ==> dlinken
+   6:    1  ->  drogen ==> droken
+   7:    1  ->  eerste ==> eerst
+   8:    1  ->  fietsbel ==> visbil
+   9:    1  ->  hoofdpijn ==> ogtpijn
+  10:    1  ->  liedje ==> lietje
+  11:    1  ->  moeder ==> moder
+  12:    1  ->  opnieuw ==> neeuw
+  13:    1  ->  scheuren ==> schuin
+  14:    1  ->  schouders ==> oudoschouders
+  15:    1  ->  vlinder ==> vleemdar
+  16:    1  ->  voetbal ==> bel
+  17:    1  ->  vuurwerk ==> veurwerk
+  18:    1  ->  zwemmen ==> swimmen
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  dhs
+   2:    1  ->  gal
+   3:    1  ->  op
+   4:    1  ->  woord
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  auto
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  appel
+   2:    1  ->  chauffeur
+   3:    1  ->  circus
+   4:    1  ->  dichtbij
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  hoofdpijn
+  10:    1  ->  liedje
+  11:    1  ->  moeder
+  12:    1  ->  opnieuw
+  13:    1  ->  scheuren
+  14:    1  ->  schouders
+  15:    1  ->  vlinder
+  16:    1  ->  voetbal
+  17:    1  ->  vuurwerk
+  18:    1  ->  zwemmen
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  apel
+   2:    1  ->  bel
+   3:    1  ->  bij
+   4:    1  ->  dlinken
+   5:    1  ->  droken
+   6:    1  ->  eerst
+   7:    1  ->  lietje
+   8:    1  ->  moder
+   9:    1  ->  neeuw
+  10:    1  ->  ogtpijn
+  11:    1  ->  oudoschouders
+  12:    1  ->  schuin
+  13:    1  ->  sitkus
+  14:    1  ->  swimmen
+  15:    1  ->  veurwerk
+  16:    1  ->  visbil
+  17:    1  ->  vleemdar
+  18:    1  ->  wer
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

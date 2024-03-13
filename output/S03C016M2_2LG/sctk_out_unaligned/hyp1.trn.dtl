@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   92.5%   (  37)
+
+Percent Correct           =   22.5%   (   9)
+
+Percent Substitution      =   75.0%   (  30)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =   15.0%   (   6)
+Percent Word Accuracy     =    7.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  auto ==> winkelautel
+   2:    1  ->  chauffeur ==> gafer
+   3:    1  ->  circus ==> en
+   4:    1  ->  cola ==> kola
+   5:    1  ->  dichtbij ==> negebe
+   6:    1  ->  drinken ==> iegt
+   7:    1  ->  fietsbel ==> bel
+   8:    1  ->  gooien ==> oen
+   9:    1  ->  hoofdpijn ==> ef
+  10:    1  ->  kleuren ==> voor
+  11:    1  ->  koning ==> koornen
+  12:    1  ->  kussen ==> kussin
+  13:    1  ->  lawaai ==> lawai
+  14:    1  ->  liedje ==> bdlout
+  15:    1  ->  meisje ==> becje
+  16:    1  ->  muziek ==> bleseeq
+  17:    1  ->  opnieuw ==> snee
+  18:    1  ->  potlood ==> it
+  19:    1  ->  regen ==> stobpel
+  20:    1  ->  scheuren ==> schuilen
+  21:    1  ->  schouders ==> scholders
+  22:    1  ->  sneeuwen ==> m
+  23:    1  ->  stoppen ==> goh
+  24:    1  ->  vinger ==> veger
+  25:    1  ->  vliegtuig ==> otneeuw
+  26:    1  ->  vlinder ==> vlinde
+  27:    1  ->  voetbal ==> wel
+  28:    1  ->  vuurwerk ==> suurwerk
+  29:    1  ->  waarom ==> warom
+  30:    1  ->  zwemmen ==> semmen
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  dlinken
+   2:    1  ->  etje
+   3:    1  ->  hoofbern
+   4:    1  ->  kerecus
+   5:    1  ->  kleur
+   6:    1  ->  rijgen
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  winkel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  auto
+   2:    1  ->  chauffeur
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  drinken
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  koning
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje
+  15:    1  ->  meisje
+  16:    1  ->  muziek
+  17:    1  ->  opnieuw
+  18:    1  ->  potlood
+  19:    1  ->  regen
+  20:    1  ->  scheuren
+  21:    1  ->  schouders
+  22:    1  ->  sneeuwen
+  23:    1  ->  stoppen
+  24:    1  ->  vinger
+  25:    1  ->  vliegtuig
+  26:    1  ->  vlinder
+  27:    1  ->  voetbal
+  28:    1  ->  vuurwerk
+  29:    1  ->  waarom
+  30:    1  ->  zwemmen
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  bdlout
+   2:    1  ->  becje
+   3:    1  ->  bel
+   4:    1  ->  bleseeq
+   5:    1  ->  ef
+   6:    1  ->  en
+   7:    1  ->  gafer
+   8:    1  ->  goh
+   9:    1  ->  iegt
+  10:    1  ->  it
+  11:    1  ->  kola
+  12:    1  ->  koornen
+  13:    1  ->  kussin
+  14:    1  ->  lawai
+  15:    1  ->  m
+  16:    1  ->  negebe
+  17:    1  ->  oen
+  18:    1  ->  otneeuw
+  19:    1  ->  scholders
+  20:    1  ->  schuilen
+  21:    1  ->  semmen
+  22:    1  ->  snee
+  23:    1  ->  stobpel
+  24:    1  ->  suurwerk
+  25:    1  ->  veger
+  26:    1  ->  vlinde
+  27:    1  ->  voor
+  28:    1  ->  warom
+  29:    1  ->  wel
+  30:    1  ->  winkelautel
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

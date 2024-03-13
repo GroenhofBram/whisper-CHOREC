@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  13)
+
+Percent Correct           =   68.3%   (  28)
+
+Percent Substitution      =   29.3%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> gaa
+   2:    1  ->  bed ==> bet
+   3:    1  ->  clown ==> kloun
+   4:    1  ->  draai ==> grai
+   5:    1  ->  gauw ==> gouw
+   6:    1  ->  kind ==> kint
+   7:    1  ->  muts ==> minuut
+   8:    1  ->  plank ==> knoopplenk
+   9:    1  ->  reis ==> rijs
+  10:    1  ->  schoen ==> schoon
+  11:    1  ->  vriend ==> vindt
+  12:    1  ->  zacht ==> zegt
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  knoop
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  *
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  draai
+   5:    1  ->  gauw
+   6:    1  ->  kind
+   7:    1  ->  muts
+   8:    1  ->  plank
+   9:    1  ->  reis
+  10:    1  ->  schoen
+  11:    1  ->  vriend
+  12:    1  ->  zacht
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bet
+   2:    1  ->  gaa
+   3:    1  ->  gouw
+   4:    1  ->  grai
+   5:    1  ->  kint
+   6:    1  ->  kloun
+   7:    1  ->  knoopplenk
+   8:    1  ->  minuut
+   9:    1  ->  rijs
+  10:    1  ->  schoon
+  11:    1  ->  vindt
+  12:    1  ->  zegt
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

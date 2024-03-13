@@ -1,0 +1,208 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  116.1%   (  65)
+
+Percent Correct           =   23.2%   (  13)
+
+Percent Substitution      =   76.8%   (  43)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   39.3%   (  22)
+Percent Word Accuracy     =  -16.1%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  78)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  * ==> achte
+   2:    1  ->  * ==> eigen
+   3:    1  ->  * ==> fototostel
+   4:    1  ->  * ==> hanchem
+   5:    1  ->  * ==> je
+   6:    1  ->  * ==> nererg
+   7:    1  ->  * ==> neus
+   8:    1  ->  * ==> omdrij
+   9:    1  ->  * ==> schomalen
+  10:    1  ->  * ==> ve
+  11:    1  ->  * ==> verfstop
+  12:    1  ->  * ==> was
+  13:    1  ->  *(muur) ==> vogo
+  14:    1  ->  *s ==> bir
+  15:    1  ->  *x ==> neus
+  16:    1  ->  *x ==> sneeuw
+  17:    1  ->  afblijven ==> blijven
+  18:    1  ->  buurmannen ==> koi
+  19:    1  ->  buurmannen*(buurman) ==> hoelich
+  20:    1  ->  dierentuin ==> stoelen
+  21:    1  ->  fototoestel ==> toilet
+  22:    1  ->  goeiendag ==> dag
+  23:    1  ->  iedereen ==> schoen
+  24:    1  ->  konijnenhok ==> tari
+  25:    1  ->  limonade ==> jumonada
+  26:    1  ->  lucifer ==> ver
+  27:    1  ->  nieuwsgierig ==> avou
+  28:    1  ->  olifant ==> s
+  29:    1  ->  ophangen ==> de
+  30:    1  ->  paddenstoelen ==> ver
+  31:    1  ->  poppenwagen ==> maken
+  32:    1  ->  ruziemaken ==> diventen
+  33:    1  ->  schoenenwinkel ==> winkel
+  34:    1  ->  schommelen ==> edereen
+  35:    1  ->  sneeuwwitje ==> goeie
+  36:    1  ->  sprookjesboek ==> u
+  37:    1  ->  tandenborstel ==> ziet
+  38:    1  ->  teddybeer ==> pade
+  39:    1  ->  toiletpapier ==> papier
+  40:    1  ->  verjaardag ==> borstel?
+  41:    1  ->  verstoppertje ==> porches
+  42:    1  ->  vogelkooi ==> vant?
+  43:    1  ->  washandje ==> sneeuwliek
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  ne
+   2:    2  ->  was
+   3:    1  ->  deboek
+   4:    1  ->  derm
+   5:    1  ->  elastikje
+   6:    1  ->  er
+   7:    1  ->  fotos
+   8:    1  ->  heuzie
+   9:    1  ->  hok
+  10:    1  ->  jas
+  11:    1  ->  koninen
+  12:    1  ->  las
+  13:    1  ->  man
+  14:    1  ->  muur
+  15:    1  ->  nee
+  16:    1  ->  ophangenverjaardag
+  17:    1  ->  poppelwagen
+  18:    1  ->  shal
+  19:    1  ->  sprookjes
+  20:    1  ->  tan
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   12  ->  *
+   2:    2  ->  *x
+   3:    1  ->  *(muur)
+   4:    1  ->  *s
+   5:    1  ->  afblijven
+   6:    1  ->  buurmannen
+   7:    1  ->  buurmannen*(buurman)
+   8:    1  ->  dierentuin
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  konijnenhok
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  olifant
+  17:    1  ->  ophangen
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  schommelen
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  verjaardag
+  29:    1  ->  verstoppertje
+  30:    1  ->  vogelkooi
+  31:    1  ->  washandje
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  neus
+   2:    2  ->  ver
+   3:    1  ->  achte
+   4:    1  ->  avou
+   5:    1  ->  bir
+   6:    1  ->  blijven
+   7:    1  ->  borstel?
+   8:    1  ->  dag
+   9:    1  ->  de
+  10:    1  ->  diventen
+  11:    1  ->  edereen
+  12:    1  ->  eigen
+  13:    1  ->  fototostel
+  14:    1  ->  goeie
+  15:    1  ->  hanchem
+  16:    1  ->  hoelich
+  17:    1  ->  je
+  18:    1  ->  jumonada
+  19:    1  ->  koi
+  20:    1  ->  maken
+  21:    1  ->  nererg
+  22:    1  ->  omdrij
+  23:    1  ->  pade
+  24:    1  ->  papier
+  25:    1  ->  porches
+  26:    1  ->  s
+  27:    1  ->  schoen
+  28:    1  ->  schomalen
+  29:    1  ->  sneeuw
+  30:    1  ->  sneeuwliek
+  31:    1  ->  stoelen
+  32:    1  ->  tari
+  33:    1  ->  toilet
+  34:    1  ->  u
+  35:    1  ->  vant?
+  36:    1  ->  ve
+  37:    1  ->  verfstop
+  38:    1  ->  vogo
+  39:    1  ->  was
+  40:    1  ->  winkel
+  41:    1  ->  ziet
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

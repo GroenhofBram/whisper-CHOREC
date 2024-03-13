@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S05C018V4_3+4LG
+
+(S05C018V4_3+4LG-words)
+
+Cor=29.7%	Sub=43.8%	Del=0.0%	Ins=26.6%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,omdraaien,poppenwagen,konijnenhok,,elastiekje*(elastiek),ruziemaken,teddybeer,dierentuin,,paddenstoelen*(paddenstoel),verstoppertje,wasmachine,fototoestel,toiletpapier,vrachtwagen,buurmannen,,vogelkooi,olifant,schommelen*(schommel),iedereen,,,schoenenwinkel,*,knutselen,ophangen,verjaardag,sprookjesboek,,,,tandenborstel,lucifer,slaapkamer,achterdeur,ziekenhuis,nieuwsgierig,*,*,*,afblijven,kabouter,,,,,,*(washanden),washandje,sneeuwwitje,goeiendag,vakantie,,,,limonade,autorijden,eindelijk,familie,,*(cola),*,chocolade
+HYP1,omdraaien,poppenwagen,konijnenhok,elastiek,ruzie,maken,teddibeer,dierentuin,paddenstoel,stoppertje,was,machina,fototoestel,toilet,papiervrachtwagen,buurmannen,orgelkooi,oliefant,schomv,molv,iedereen,stuen,env,ma,winkel,knutzulen,ophangen,verjaardag,sprookjesboek,tan,de,borstel,lus,sifer,slaapkamer,achterdeur,ziekenhuis,nee,nieuw,nieuws,hieris,afblijven,kabouter,washanden,a,was,and,je,snee,wietje,goeien,dag,vakantie,je,moet,na,de,autorijden,eindelijk,familie,kola,kola,ta,cocolde
+EVAL,,,,I,S,S,S,,I,S,S,S,,S,S,,I,S,S,S,,I,I,S,S,S,,,,I,I,I,S,S,,,,S,S,S,S,,,I,I,I,I,I,S,S,S,S,,I,I,I,S,,,,I,S,S,S
+
+
+

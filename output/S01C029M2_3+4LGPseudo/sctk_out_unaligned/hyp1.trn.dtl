@@ -1,0 +1,222 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  139.1%   (  64)
+
+Percent Correct           =    2.2%   (   1)
+
+Percent Substitution      =   97.8%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   41.3%   (  19)
+Percent Word Accuracy     =  -39.1%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  65)
+Aligned words             =           (  65)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> ijsrat
+   2:    1  ->  * ==> ni
+   3:    1  ->  * ==> permoeid
+   4:    1  ->  * ==> pierik
+   5:    1  ->  * ==> sembral
+   6:    1  ->  * ==> sto
+   7:    1  ->  blottenduuf ==> tof
+   8:    1  ->  choporatie ==> du
+   9:    1  ->  crobeklunker ==> kinki
+  10:    1  ->  deuveltek ==> gevetel
+  11:    1  ->  fandelig ==> s
+  12:    1  ->  gerauwejaak ==> geagesak
+  13:    1  ->  gevijdel ==> sprikraag
+  14:    1  ->  girdofhaalder ==> onsta
+  15:    1  ->  hapeneren ==> harburduen
+  16:    1  ->  havedil ==> vor
+  17:    1  ->  ijraspangen ==> gildofhader
+  18:    1  ->  jalekrewen ==> een
+  19:    1  ->  jattesiet ==> duf
+  20:    1  ->  juitonie ==> cindoan
+  21:    1  ->  kabbestepen ==> kanderu
+  22:    1  ->  kanaroe ==> oren
+  23:    1  ->  kantelogsten ==> spanje
+  24:    1  ->  meitsegrok ==> scorpitunti
+  25:    1  ->  nappegreeuw ==> brel
+  26:    1  ->  nurudien ==> telk
+  27:    1  ->  ometuif ==> iet
+  28:    1  ->  ondermind ==> blodus
+  29:    1  ->  ooiebiekje ==> emef
+  30:    1  ->  oonwijlen ==> dendar
+  31:    1  ->  poentalschouden ==> hafiltil
+  32:    1  ->  schielendaspen ==> sweklaf
+  33:    1  ->  sidowaan ==> wachtdan
+  34:    1  ->  smoralij ==> hok
+  35:    1  ->  spekkeraai ==> deek
+  36:    1  ->  stoenydaas ==> g
+  37:    1  ->  tobbermoeit ==> houde
+  38:    1  ->  toejietsen ==> nurindin
+  39:    1  ->  toineetlijgen ==> nint
+  40:    1  ->  verbrakkertje ==> parkune
+  41:    1  ->  verpierik ==> mat
+  42:    1  ->  verwarig ==> kiondlerem
+  43:    1  ->  wachteniek ==> voor
+  44:    1  ->  zeekvlachine ==> kantelosten
+  45:    1  ->  zennebral ==> f
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  biker
+   2:    1  ->  diln
+   3:    1  ->  f
+   4:    1  ->  ja
+   5:    1  ->  jakale
+   6:    1  ->  kapostenten
+   7:    1  ->  korpekunkeg
+   8:    1  ->  o
+   9:    1  ->  oderf
+  10:    1  ->  on
+  11:    1  ->  schieltuespen
+  12:    1  ->  smorale
+  13:    1  ->  test
+  14:    1  ->  toesen
+  15:    1  ->  tout
+  16:    1  ->  van
+  17:    1  ->  verwarming
+  18:    1  ->  weren
+  19:    1  ->  wijlen
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    6  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  meitsegrok
+  20:    1  ->  nappegreeuw
+  21:    1  ->  nurudien
+  22:    1  ->  ometuif
+  23:    1  ->  ondermind
+  24:    1  ->  ooiebiekje
+  25:    1  ->  oonwijlen
+  26:    1  ->  poentalschouden
+  27:    1  ->  schielendaspen
+  28:    1  ->  sidowaan
+  29:    1  ->  smoralij
+  30:    1  ->  spekkeraai
+  31:    1  ->  stoenydaas
+  32:    1  ->  tobbermoeit
+  33:    1  ->  toejietsen
+  34:    1  ->  toineetlijgen
+  35:    1  ->  verbrakkertje
+  36:    1  ->  verpierik
+  37:    1  ->  verwarig
+  38:    1  ->  wachteniek
+  39:    1  ->  zeekvlachine
+  40:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  blodus
+   2:    1  ->  brel
+   3:    1  ->  cindoan
+   4:    1  ->  deek
+   5:    1  ->  dendar
+   6:    1  ->  du
+   7:    1  ->  duf
+   8:    1  ->  een
+   9:    1  ->  emef
+  10:    1  ->  f
+  11:    1  ->  g
+  12:    1  ->  geagesak
+  13:    1  ->  gevetel
+  14:    1  ->  gildofhader
+  15:    1  ->  hafiltil
+  16:    1  ->  harburduen
+  17:    1  ->  hok
+  18:    1  ->  houde
+  19:    1  ->  iet
+  20:    1  ->  ijsrat
+  21:    1  ->  kanderu
+  22:    1  ->  kantelosten
+  23:    1  ->  kinki
+  24:    1  ->  kiondlerem
+  25:    1  ->  mat
+  26:    1  ->  ni
+  27:    1  ->  nint
+  28:    1  ->  nurindin
+  29:    1  ->  onsta
+  30:    1  ->  oren
+  31:    1  ->  parkune
+  32:    1  ->  permoeid
+  33:    1  ->  pierik
+  34:    1  ->  s
+  35:    1  ->  scorpitunti
+  36:    1  ->  sembral
+  37:    1  ->  spanje
+  38:    1  ->  sprikraag
+  39:    1  ->  sto
+  40:    1  ->  sweklaf
+  41:    1  ->  telk
+  42:    1  ->  tof
+  43:    1  ->  voor
+  44:    1  ->  vor
+  45:    1  ->  wachtdan
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

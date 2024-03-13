@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.0%   (  18)
+
+Percent Correct           =   72.5%   (  29)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   17.5%   (   7)
+Percent Word Accuracy     =   55.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  chocolade ==> chocolada
+   2:    1  ->  dierentuin ==> dierentaan
+   3:    1  ->  eindelijk ==> indelijk
+   4:    1  ->  lucifer ==> luciver
+   5:    1  ->  ruziemaken ==> maken
+   6:    1  ->  schoenenwinkel ==> winkel
+   7:    1  ->  teddybeer ==> taddibier
+   8:    1  ->  verstoppertje ==> pwas
+   9:    1  ->  washandje ==> handje
+  10:    1  ->  wasmachine ==> machina
+  11:    1  ->  ziekenhuis ==> huis
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  g
+   2:    1  ->  in
+   3:    1  ->  ruzie
+   4:    1  ->  schoene
+   5:    1  ->  verstopperdje
+   6:    1  ->  was
+   7:    1  ->  ziek
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  chocolade
+   2:    1  ->  dierentuin
+   3:    1  ->  eindelijk
+   4:    1  ->  lucifer
+   5:    1  ->  ruziemaken
+   6:    1  ->  schoenenwinkel
+   7:    1  ->  teddybeer
+   8:    1  ->  verstoppertje
+   9:    1  ->  washandje
+  10:    1  ->  wasmachine
+  11:    1  ->  ziekenhuis
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  chocolada
+   2:    1  ->  dierentaan
+   3:    1  ->  handje
+   4:    1  ->  huis
+   5:    1  ->  indelijk
+   6:    1  ->  luciver
+   7:    1  ->  machina
+   8:    1  ->  maken
+   9:    1  ->  pwas
+  10:    1  ->  taddibier
+  11:    1  ->  winkel
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.3%   (  12)
+
+Percent Correct           =   70.7%   (  29)
+
+Percent Substitution      =   26.8%   (  11)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   70.7%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> spril
+   2:    1  ->  circus ==> cercus
+   3:    1  ->  cola ==> kola
+   4:    1  ->  kleuren ==> cleur
+   5:    1  ->  koning ==> konin
+   6:    1  ->  liedje ==> dietje
+   7:    1  ->  meisje ==> meise
+   8:    1  ->  potlood ==> potloot
+   9:    1  ->  stoppen ==> stoppel
+  10:    1  ->  vlinder ==> vlender
+  11:    1  ->  vuurwerk ==> zwemmenvuurwerk
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  zwemmen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  cola
+   4:    1  ->  kleuren
+   5:    1  ->  koning
+   6:    1  ->  liedje
+   7:    1  ->  meisje
+   8:    1  ->  potlood
+   9:    1  ->  stoppen
+  10:    1  ->  vlinder
+  11:    1  ->  vuurwerk
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  cercus
+   2:    1  ->  cleur
+   3:    1  ->  dietje
+   4:    1  ->  kola
+   5:    1  ->  konin
+   6:    1  ->  meise
+   7:    1  ->  potloot
+   8:    1  ->  spril
+   9:    1  ->  stoppel
+  10:    1  ->  vlender
+  11:    1  ->  zwemmenvuurwerk
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

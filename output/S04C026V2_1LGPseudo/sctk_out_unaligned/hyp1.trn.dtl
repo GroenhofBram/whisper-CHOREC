@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   90.2%   (  46)
+
+Percent Correct           =    9.8%   (   5)
+
+Percent Substitution      =   78.4%   (  40)
+Percent Deletions         =   11.8%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    9.8%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  45)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> bron
+   2:    1  ->  * ==> foa
+   3:    1  ->  * ==> kik
+   4:    1  ->  * ==> lia
+   5:    1  ->  * ==> neo
+   6:    1  ->  * ==> s
+   7:    1  ->  * ==> spoe
+   8:    1  ->  * ==> vu
+   9:    1  ->  * ==> wim
+  10:    1  ->  *s ==> sp
+  11:    1  ->  *s ==> vit
+  12:    1  ->  blard ==> last
+  13:    1  ->  dau ==> da
+  14:    1  ->  doer ==> droeg
+  15:    1  ->  dron ==> droom
+  16:    1  ->  eem ==> één
+  17:    1  ->  frijk ==> rijk
+  18:    1  ->  grek ==> gek
+  19:    1  ->  guul ==> vul
+  20:    1  ->  haans ==> van
+  21:    1  ->  heik ==> hek
+  22:    1  ->  hool ==> hooi
+  23:    1  ->  jien ==> einde
+  24:    1  ->  keng*(ken) ==> spriel
+  25:    1  ->  larst ==> warst
+  26:    1  ->  leum ==> van
+  27:    1  ->  plirt ==> licht
+  28:    1  ->  sank ==> sand
+  29:    1  ->  schard ==> gert
+  30:    1  ->  sjalt ==> geld
+  31:    1  ->  snaaf ==> staf
+  32:    1  ->  sooi ==> soi
+  33:    1  ->  spaai ==> hum
+  34:    1  ->  sprieuw ==> rechsfap
+  35:    1  ->  sprunt ==> weeg
+  36:    1  ->  stuid ==> stuit
+  37:    1  ->  swoers ==> kin
+  38:    1  ->  vout ==> vad
+  39:    1  ->  zans ==> nogt
+  40:    1  ->  zwoei ==> zo
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  beeg
+   2:    1  ->  neeuw*(nieuw)
+   3:    1  ->  noork
+   4:    1  ->  rachts
+   5:    1  ->  vaap
+   6:    1  ->  vid
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    9  ->  *
+   2:    2  ->  *s
+   3:    1  ->  blard
+   4:    1  ->  dau
+   5:    1  ->  doer
+   6:    1  ->  dron
+   7:    1  ->  eem
+   8:    1  ->  frijk
+   9:    1  ->  grek
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  heik
+  13:    1  ->  hool
+  14:    1  ->  jien
+  15:    1  ->  keng*(ken)
+  16:    1  ->  larst
+  17:    1  ->  leum
+  18:    1  ->  plirt
+  19:    1  ->  sank
+  20:    1  ->  schard
+  21:    1  ->  sjalt
+  22:    1  ->  snaaf
+  23:    1  ->  sooi
+  24:    1  ->  spaai
+  25:    1  ->  sprieuw
+  26:    1  ->  sprunt
+  27:    1  ->  stuid
+  28:    1  ->  swoers
+  29:    1  ->  vout
+  30:    1  ->  zans
+  31:    1  ->  zwoei
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  van
+   2:    1  ->  bron
+   3:    1  ->  da
+   4:    1  ->  droeg
+   5:    1  ->  droom
+   6:    1  ->  einde
+   7:    1  ->  foa
+   8:    1  ->  gek
+   9:    1  ->  geld
+  10:    1  ->  gert
+  11:    1  ->  hek
+  12:    1  ->  hooi
+  13:    1  ->  hum
+  14:    1  ->  kik
+  15:    1  ->  kin
+  16:    1  ->  last
+  17:    1  ->  lia
+  18:    1  ->  licht
+  19:    1  ->  neo
+  20:    1  ->  nogt
+  21:    1  ->  rechsfap
+  22:    1  ->  rijk
+  23:    1  ->  s
+  24:    1  ->  sand
+  25:    1  ->  soi
+  26:    1  ->  sp
+  27:    1  ->  spoe
+  28:    1  ->  spriel
+  29:    1  ->  staf
+  30:    1  ->  stuit
+  31:    1  ->  vad
+  32:    1  ->  vit
+  33:    1  ->  vu
+  34:    1  ->  vul
+  35:    1  ->  warst
+  36:    1  ->  weeg
+  37:    1  ->  wim
+  38:    1  ->  zo
+  39:    1  ->  één
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

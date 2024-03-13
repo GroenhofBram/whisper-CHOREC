@@ -1,0 +1,256 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  122.7%   (  92)
+
+Percent Correct           =   10.7%   (   8)
+
+Percent Substitution      =   89.3%   (  67)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   33.3%   (  25)
+Percent Word Accuracy     =  -22.7%
+
+
+Ref. words                =           (  75)
+Hyp. words                =           ( 100)
+Aligned words             =           ( 100)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    2  ->  * ==> de
+   2:    2  ->  * ==> was
+   3:    1  ->  * ==> as
+   4:    1  ->  * ==> bo
+   5:    1  ->  * ==> die
+   6:    1  ->  * ==> et
+   7:    1  ->  * ==> gen
+   8:    1  ->  * ==> goedendag
+   9:    1  ->  * ==> het
+  10:    1  ->  * ==> iekje
+  11:    1  ->  * ==> isen
+  12:    1  ->  * ==> keje
+  13:    1  ->  * ==> knes
+  14:    1  ->  * ==> knme
+  15:    1  ->  * ==> las
+  16:    1  ->  * ==> le
+  17:    1  ->  * ==> luv
+  18:    1  ->  * ==> maken
+  19:    1  ->  * ==> marchine?
+  20:    1  ->  * ==> mauken
+  21:    1  ->  * ==> nar?
+  22:    1  ->  * ==> of
+  23:    1  ->  * ==> papier
+  24:    1  ->  * ==> rudie
+  25:    1  ->  * ==> slakur
+  26:    1  ->  * ==> sneeuw
+  27:    1  ->  * ==> tan
+  28:    1  ->  * ==> ti
+  29:    1  ->  * ==> to
+  30:    1  ->  * ==> ton
+  31:    1  ->  * ==> ul
+  32:    1  ->  * ==> vakom
+  33:    1  ->  *(coca) ==> kokla
+  34:    1  ->  *t ==> ietje
+  35:    1  ->  afblijven ==> blijven
+  36:    1  ->  autorijden ==> lijk
+  37:    1  ->  chocolade ==> de
+  38:    1  ->  eindelijk ==> vamilie
+  39:    1  ->  elastiekje ==> rezi
+  40:    1  ->  familie ==> koeku
+  41:    1  ->  fototoestel ==> ton
+  42:    1  ->  goeiendag ==> o
+  43:    1  ->  iedereen ==> schoenen
+  44:    1  ->  knutselen ==> knitseln
+  45:    1  ->  konijnenhok ==> l
+  46:    1  ->  limonade ==> altoreden
+  47:    1  ->  lucifer ==> luseur
+  48:    1  ->  nieuwsgierig ==> sgerig
+  49:    1  ->  olifant ==> slen
+  50:    1  ->  omdraaien ==> konijnnen
+  51:    1  ->  paddenstoelen ==> je
+  52:    1  ->  poppenwagen ==> hoek
+  53:    1  ->  ruziemaken ==> di
+  54:    1  ->  schoenenwinkel ==> minkel
+  55:    1  ->  schommelen ==> idereen
+  56:    1  ->  sneeuwwitje ==> lemun
+  57:    1  ->  sprookjesboek ==> de
+  58:    1  ->  tandenborstel ==> stolv
+  59:    1  ->  teddybeer ==> bier
+  60:    1  ->  toiletpapier ==> papier
+  61:    1  ->  vakantie ==> de
+  62:    1  ->  verstoppertje ==> mag
+  63:    1  ->  vogelkooi ==> olifondschommel
+  64:    1  ->  wasmachine ==> fototostel
+  65:    1  ->  ziekenhuis ==> ssgiee
+     -------
+        67
+
+
+
+INSERTIONS                       Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  was
+   2:    1  ->  an
+   3:    1  ->  anga
+   4:    1  ->  boden
+   5:    1  ->  boek
+   6:    1  ->  dan
+   7:    1  ->  des
+   8:    1  ->  huis
+   9:    1  ->  hun
+  10:    1  ->  kooi
+  11:    1  ->  nieuw
+  12:    1  ->  omdraien
+  13:    1  ->  poppen
+  14:    1  ->  s
+  15:    1  ->  spro
+  16:    1  ->  sprookjes
+  17:    1  ->  stu
+  18:    1  ->  uh
+  19:    1  ->  vertoen
+  20:    1  ->  vogo
+  21:    1  ->  wahter
+  22:    1  ->  wen
+  23:    1  ->  wsen
+  24:    1  ->  ziek
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   34  ->  *
+   2:    1  ->  *(coca)
+   3:    1  ->  *t
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  chocolade
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  familie
+  10:    1  ->  fototoestel
+  11:    1  ->  goeiendag
+  12:    1  ->  iedereen
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  limonade
+  16:    1  ->  lucifer
+  17:    1  ->  nieuwsgierig
+  18:    1  ->  olifant
+  19:    1  ->  omdraaien
+  20:    1  ->  paddenstoelen
+  21:    1  ->  poppenwagen
+  22:    1  ->  ruziemaken
+  23:    1  ->  schoenenwinkel
+  24:    1  ->  schommelen
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  sprookjesboek
+  27:    1  ->  tandenborstel
+  28:    1  ->  teddybeer
+  29:    1  ->  toiletpapier
+  30:    1  ->  vakantie
+  31:    1  ->  verstoppertje
+  32:    1  ->  vogelkooi
+  33:    1  ->  wasmachine
+  34:    1  ->  ziekenhuis
+     -------
+        67
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    5  ->  de
+   2:    2  ->  papier
+   3:    2  ->  ton
+   4:    2  ->  was
+   5:    1  ->  altoreden
+   6:    1  ->  as
+   7:    1  ->  bier
+   8:    1  ->  blijven
+   9:    1  ->  bo
+  10:    1  ->  di
+  11:    1  ->  die
+  12:    1  ->  et
+  13:    1  ->  fototostel
+  14:    1  ->  gen
+  15:    1  ->  goedendag
+  16:    1  ->  het
+  17:    1  ->  hoek
+  18:    1  ->  idereen
+  19:    1  ->  iekje
+  20:    1  ->  ietje
+  21:    1  ->  isen
+  22:    1  ->  je
+  23:    1  ->  keje
+  24:    1  ->  knes
+  25:    1  ->  knitseln
+  26:    1  ->  knme
+  27:    1  ->  koeku
+  28:    1  ->  kokla
+  29:    1  ->  konijnnen
+  30:    1  ->  l
+  31:    1  ->  las
+  32:    1  ->  le
+  33:    1  ->  lemun
+  34:    1  ->  lijk
+  35:    1  ->  luseur
+  36:    1  ->  luv
+  37:    1  ->  mag
+  38:    1  ->  maken
+  39:    1  ->  marchine?
+  40:    1  ->  mauken
+  41:    1  ->  minkel
+  42:    1  ->  nar?
+  43:    1  ->  o
+  44:    1  ->  of
+  45:    1  ->  olifondschommel
+  46:    1  ->  rezi
+  47:    1  ->  rudie
+  48:    1  ->  schoenen
+  49:    1  ->  sgerig
+  50:    1  ->  slakur
+  51:    1  ->  slen
+  52:    1  ->  sneeuw
+  53:    1  ->  ssgiee
+  54:    1  ->  stolv
+  55:    1  ->  tan
+  56:    1  ->  ti
+  57:    1  ->  to
+  58:    1  ->  ul
+  59:    1  ->  vakom
+  60:    1  ->  vamilie
+     -------
+        67
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

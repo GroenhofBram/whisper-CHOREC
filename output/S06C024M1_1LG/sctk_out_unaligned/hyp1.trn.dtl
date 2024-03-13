@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   59.3%   (  32)
+
+Percent Correct           =   40.7%   (  22)
+
+Percent Substitution      =   59.3%   (  32)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   40.7%
+
+
+Ref. words                =           (  54)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> hef
+   2:    1  ->  * ==> hervis
+   3:    1  ->  * ==> kia
+   4:    1  ->  * ==> kla
+   5:    1  ->  * ==> knoel
+   6:    1  ->  * ==> m
+   7:    1  ->  * ==> neeu
+   8:    1  ->  * ==> stran
+   9:    1  ->  *(eerste) ==> eerste
+  10:    1  ->  *(groeien) ==> gooien
+  11:    1  ->  *(meeuw) ==> nev
+  12:    1  ->  *(plant) ==> plant
+  13:    1  ->  *(rijst) ==> reist
+  14:    1  ->  chips ==> kijps
+  15:    1  ->  clown ==> klauwen
+  16:    1  ->  draai ==> draiv
+  17:    1  ->  gauw ==> gouw
+  18:    1  ->  groen ==> groeien
+  19:    1  ->  herfst ==> herst
+  20:    1  ->  hout ==> houd
+  21:    1  ->  huis ==> hui
+  22:    1  ->  klas ==> klaas
+  23:    1  ->  leeuw ==> leuw
+  24:    1  ->  muts ==> mint
+  25:    1  ->  neus*(nieuws) ==> nieuws
+  26:    1  ->  nieuw ==> nv
+  27:    1  ->  paard ==> parend
+  28:    1  ->  sjaal*(saai) ==> siv
+  29:    1  ->  vijf ==> se
+  30:    1  ->  vijf ==> vuif
+  31:    1  ->  vriend ==> vreemd
+  32:    1  ->  zacht*(nacht) ==> nacht
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    8  ->  *
+   2:    2  ->  vijf
+   3:    1  ->  *(eerste)
+   4:    1  ->  *(groeien)
+   5:    1  ->  *(meeuw)
+   6:    1  ->  *(plant)
+   7:    1  ->  *(rijst)
+   8:    1  ->  chips
+   9:    1  ->  clown
+  10:    1  ->  draai
+  11:    1  ->  gauw
+  12:    1  ->  groen
+  13:    1  ->  herfst
+  14:    1  ->  hout
+  15:    1  ->  huis
+  16:    1  ->  klas
+  17:    1  ->  leeuw
+  18:    1  ->  muts
+  19:    1  ->  neus*(nieuws)
+  20:    1  ->  nieuw
+  21:    1  ->  paard
+  22:    1  ->  sjaal*(saai)
+  23:    1  ->  vriend
+  24:    1  ->  zacht*(nacht)
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  draiv
+   2:    1  ->  eerste
+   3:    1  ->  gooien
+   4:    1  ->  gouw
+   5:    1  ->  groeien
+   6:    1  ->  hef
+   7:    1  ->  herst
+   8:    1  ->  hervis
+   9:    1  ->  houd
+  10:    1  ->  hui
+  11:    1  ->  kia
+  12:    1  ->  kijps
+  13:    1  ->  kla
+  14:    1  ->  klaas
+  15:    1  ->  klauwen
+  16:    1  ->  knoel
+  17:    1  ->  leuw
+  18:    1  ->  m
+  19:    1  ->  mint
+  20:    1  ->  nacht
+  21:    1  ->  neeu
+  22:    1  ->  nev
+  23:    1  ->  nieuws
+  24:    1  ->  nv
+  25:    1  ->  parend
+  26:    1  ->  plant
+  27:    1  ->  reist
+  28:    1  ->  se
+  29:    1  ->  siv
+  30:    1  ->  stran
+  31:    1  ->  vreemd
+  32:    1  ->  vuif
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

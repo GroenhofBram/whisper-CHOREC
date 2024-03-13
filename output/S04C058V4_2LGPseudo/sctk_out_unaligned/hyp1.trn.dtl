@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.2%   (  41)
+
+Percent Correct           =   11.4%   (   5)
+
+Percent Substitution      =   88.6%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =    6.8%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> baa
+   2:    1  ->  * ==> sarweng
+   3:    1  ->  * ==> spre
+   4:    1  ->  * ==> voetbans
+   5:    1  ->  bepoud ==> oorstalk
+   6:    1  ->  eemde ==> bepout
+   7:    1  ->  erke ==> hawel
+   8:    1  ->  fiewon ==> kneuren
+   9:    1  ->  foetbans ==> voetvoet
+  10:    1  ->  gefouw ==> vuurpaand
+  11:    1  ->  gevicht ==> eemda
+  12:    1  ->  grijnken ==> grenken
+  13:    1  ->  haweel ==> sa
+  14:    1  ->  hiffreeuw ==> gifreuw
+  15:    1  ->  ierpieuw ==> walan
+  16:    1  ->  ijpo ==> epo
+  17:    1  ->  kneurem ==> van
+  18:    1  ->  menuur ==> meneur
+  19:    1  ->  millen ==> milen
+  20:    1  ->  milste ==> milsta
+  21:    1  ->  muider ==> mudder
+  22:    1  ->  nizung ==> fion
+  23:    1  ->  oonste ==> onste
+  24:    1  ->  orstalk ==> zetten
+  25:    1  ->  prilsood ==> brilsoot
+  26:    1  ->  saarweng ==> gewicht
+  27:    1  ->  schielstaug ==> schielstaag
+  28:    1  ->  sjobel ==> pio
+  29:    1  ->  spreikje ==> sprekje
+  30:    1  ->  strellen*(strelen) ==> strelen
+  31:    1  ->  vawaai ==> waai
+  32:    1  ->  veten*(vetten) ==> gefauw
+  33:    1  ->  veurder ==> vlunder
+  34:    1  ->  vloender ==> vlunder
+  35:    1  ->  vocil ==> voki
+  36:    1  ->  vurpaand ==> nisoen
+  37:    1  ->  walaan ==> erka
+  38:    1  ->  wooien ==> woe
+  39:    1  ->  zwieten ==> zweten
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ier
+   2:    1  ->  schobbel
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  sjobel
+  26:    1  ->  spreikje
+  27:    1  ->  strellen*(strelen)
+  28:    1  ->  vawaai
+  29:    1  ->  veten*(vetten)
+  30:    1  ->  veurder
+  31:    1  ->  vloender
+  32:    1  ->  vocil
+  33:    1  ->  vurpaand
+  34:    1  ->  walaan
+  35:    1  ->  wooien
+  36:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  vlunder
+   2:    1  ->  baa
+   3:    1  ->  bepout
+   4:    1  ->  brilsoot
+   5:    1  ->  eemda
+   6:    1  ->  epo
+   7:    1  ->  erka
+   8:    1  ->  fion
+   9:    1  ->  gefauw
+  10:    1  ->  gewicht
+  11:    1  ->  gifreuw
+  12:    1  ->  grenken
+  13:    1  ->  hawel
+  14:    1  ->  kneuren
+  15:    1  ->  meneur
+  16:    1  ->  milen
+  17:    1  ->  milsta
+  18:    1  ->  mudder
+  19:    1  ->  nisoen
+  20:    1  ->  onste
+  21:    1  ->  oorstalk
+  22:    1  ->  pio
+  23:    1  ->  sa
+  24:    1  ->  sarweng
+  25:    1  ->  schielstaag
+  26:    1  ->  spre
+  27:    1  ->  sprekje
+  28:    1  ->  strelen
+  29:    1  ->  van
+  30:    1  ->  voetbans
+  31:    1  ->  voetvoet
+  32:    1  ->  voki
+  33:    1  ->  vuurpaand
+  34:    1  ->  waai
+  35:    1  ->  walan
+  36:    1  ->  woe
+  37:    1  ->  zetten
+  38:    1  ->  zweten
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

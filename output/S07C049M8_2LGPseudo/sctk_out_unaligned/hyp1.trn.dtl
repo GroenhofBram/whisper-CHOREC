@@ -1,0 +1,221 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.9%   (  92)
+
+Percent Correct           =    2.2%   (   2)
+
+Percent Substitution      =   71.0%   (  66)
+Percent Deletions         =   26.9%   (  25)
+Percent Insertions        =    1.1%   (   1)
+Percent Word Accuracy     =    1.1%
+
+
+Ref. words                =           (  93)
+Hyp. words                =           (  69)
+Aligned words             =           (  94)
+
+CONFUSION PAIRS                  Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    2  ->  * ==> uh
+   2:    2  ->  * ==> uhm
+   3:    1  ->  * ==> alk
+   4:    1  ->  * ==> anlom
+   5:    1  ->  * ==> avo
+   6:    1  ->  * ==> da
+   7:    1  ->  * ==> dan
+   8:    1  ->  * ==> dandaar
+   9:    1  ->  * ==> de
+  10:    1  ->  * ==> dors
+  11:    1  ->  * ==> e
+  12:    1  ->  * ==> eel
+  13:    1  ->  * ==> er
+  14:    1  ->  * ==> fi
+  15:    1  ->  * ==> gefoud
+  16:    1  ->  * ==> heer
+  17:    1  ->  * ==> i
+  18:    1  ->  * ==> ier
+  19:    1  ->  * ==> il
+  20:    1  ->  * ==> jot
+  21:    1  ->  * ==> kun
+  22:    1  ->  * ==> mesu
+  23:    1  ->  * ==> mie
+  24:    1  ->  * ==> mil
+  25:    1  ->  * ==> mzug
+  26:    1  ->  * ==> nfubal
+  27:    1  ->  * ==> o
+  28:    1  ->  * ==> om
+  29:    1  ->  * ==> pro
+  30:    1  ->  * ==> ruso
+  31:    1  ->  * ==> s
+  32:    1  ->  * ==> schooldie
+  33:    1  ->  * ==> sout
+  34:    1  ->  * ==> sprekken
+  35:    1  ->  * ==> ta
+  36:    1  ->  * ==> te
+  37:    1  ->  * ==> tuh
+  38:    1  ->  * ==> u
+  39:    1  ->  * ==> um
+  40:    1  ->  * ==> v
+  41:    1  ->  * ==> vaa
+  42:    1  ->  * ==> val
+  43:    1  ->  * ==> valwa
+  44:    1  ->  * ==> ve
+  45:    1  ->  * ==> vigt
+  46:    1  ->  * ==> vocht
+  47:    1  ->  * ==> vohtn
+  48:    1  ->  * ==> ze
+  49:    1  ->  * ==> één
+  50:    1  ->  *(doos) ==> aen
+  51:    1  ->  *(mooie) ==> veel
+  52:    1  ->  *(spring) ==> jmenuuvrring
+  53:    1  ->  eemde ==> s
+  54:    1  ->  gevicht ==> ha
+  55:    1  ->  hiffreeuw ==> h
+  56:    1  ->  ijpo ==> ji
+  57:    1  ->  kloeien ==> on
+  58:    1  ->  menuur ==> bja
+  59:    1  ->  orponk ==> or
+  60:    1  ->  orstalk ==> bpa
+  61:    1  ->  saarweng ==> eer
+  62:    1  ->  ulen*(uilen) ==> uhm
+  63:    1  ->  veurder ==> de
+  64:    1  ->  wooien ==> m
+     -------
+        66
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  vr
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:   20  ->  *
+   2:    1  ->  *(paar)
+   3:    1  ->  *(vuur)
+   4:    1  ->  millen
+   5:    1  ->  nizung
+   6:    1  ->  vawaai
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   51  ->  *
+   2:    1  ->  *(doos)
+   3:    1  ->  *(mooie)
+   4:    1  ->  *(spring)
+   5:    1  ->  eemde
+   6:    1  ->  gevicht
+   7:    1  ->  hiffreeuw
+   8:    1  ->  ijpo
+   9:    1  ->  kloeien
+  10:    1  ->  menuur
+  11:    1  ->  orponk
+  12:    1  ->  orstalk
+  13:    1  ->  saarweng
+  14:    1  ->  ulen*(uilen)
+  15:    1  ->  veurder
+  16:    1  ->  wooien
+     -------
+        66
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    3  ->  uhm
+   2:    2  ->  de
+   3:    2  ->  s
+   4:    2  ->  uh
+   5:    1  ->  aen
+   6:    1  ->  alk
+   7:    1  ->  anlom
+   8:    1  ->  avo
+   9:    1  ->  bja
+  10:    1  ->  bpa
+  11:    1  ->  da
+  12:    1  ->  dan
+  13:    1  ->  dandaar
+  14:    1  ->  dors
+  15:    1  ->  e
+  16:    1  ->  eel
+  17:    1  ->  eer
+  18:    1  ->  er
+  19:    1  ->  fi
+  20:    1  ->  gefoud
+  21:    1  ->  h
+  22:    1  ->  ha
+  23:    1  ->  heer
+  24:    1  ->  i
+  25:    1  ->  ier
+  26:    1  ->  il
+  27:    1  ->  ji
+  28:    1  ->  jmenuuvrring
+  29:    1  ->  jot
+  30:    1  ->  kun
+  31:    1  ->  m
+  32:    1  ->  mesu
+  33:    1  ->  mie
+  34:    1  ->  mil
+  35:    1  ->  mzug
+  36:    1  ->  nfubal
+  37:    1  ->  o
+  38:    1  ->  om
+  39:    1  ->  on
+  40:    1  ->  or
+  41:    1  ->  pro
+  42:    1  ->  ruso
+  43:    1  ->  schooldie
+  44:    1  ->  sout
+  45:    1  ->  sprekken
+  46:    1  ->  ta
+  47:    1  ->  te
+  48:    1  ->  tuh
+  49:    1  ->  u
+  50:    1  ->  um
+  51:    1  ->  v
+  52:    1  ->  vaa
+  53:    1  ->  val
+  54:    1  ->  valwa
+  55:    1  ->  ve
+  56:    1  ->  veel
+  57:    1  ->  vigt
+  58:    1  ->  vocht
+  59:    1  ->  vohtn
+  60:    1  ->  ze
+  61:    1  ->  één
+     -------
+        66
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

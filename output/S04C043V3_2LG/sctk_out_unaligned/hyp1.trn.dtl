@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.2%   (  11)
+
+Percent Correct           =   76.2%   (  32)
+
+Percent Substitution      =   23.8%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   73.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  * ==> goei
+   2:    1  ->  * ==> goeien
+   3:    1  ->  auto ==> atto
+   4:    1  ->  cola ==> kola
+   5:    1  ->  dichtbij ==> bij
+   6:    1  ->  fietsbel ==> lier
+   7:    1  ->  potlood ==> fiedsbel
+   8:    1  ->  vinger ==> did
+   9:    1  ->  vlinder ==> viende
+  10:    1  ->  water ==> wetter
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  potloot
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  *
+   2:    1  ->  auto
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  fietsbel
+   6:    1  ->  potlood
+   7:    1  ->  vinger
+   8:    1  ->  vlinder
+   9:    1  ->  water
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  atto
+   2:    1  ->  bij
+   3:    1  ->  did
+   4:    1  ->  fiedsbel
+   5:    1  ->  goei
+   6:    1  ->  goeien
+   7:    1  ->  kola
+   8:    1  ->  lier
+   9:    1  ->  viende
+  10:    1  ->  wetter
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C057M8_3+4LG
+
+#### (S07C057M8_3+4LG-words)
+
+- Cor=20.3%	Sub=58.1%	Del=2.7%	Ins=18.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  |  |  |  |  |  | * | poppenwagen | konijnenhok*(konijnhok) | elastiekje | * | ruziemaken | teddybeer | dierentuin | paddenstoelen | verstoppertje | wasmachine | * | fototoestel | toiletpapier | vrachtwagen | buurmannen |  | * | vogelkooi | olifant |  |  |  | * | schommelen | iedereen | * | * | schoenenwinkel | knutselen | ophangen | * | verjaardag | * | * | sprookjesboek |  | * | * | * | * | tandenborstel | lucifer | * | * | slaapkamer | achterdeur |  | ziekenhuis | * | * | nieuwsgierig |  | afblijven | kabouter | washandje | sneeuwwitje | * | * | goeiendag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | omdraaien | popenwe | poepenwaren | konaanhookelastike | x | rusie | maken | dxn | diber | direntuan | patden | stxle | vurs | tobordje | was | maar | wasrine | foto | toestel | to | e | popier | vrachtwagen | buurmannen | vool | gul | koi | olifant | shoon | on | mullen | idereen | schoon | en | schoon | en | winkel | knuitsellen | ophangen |  | verjaardag | spreekje | boek | sprookjesboek | dan | xx | dat | tanden | a | danden | borstel | e | slucefer | laapkame | achterdeur | zekenhuis | nieuws | nieuws | hé | nieuwsgierig | of | bleven | kabouter |  | wasontje | neew | beettje | goeiendag | vakantie | lemonade | autoreiden | eindelijk | familie | chocolade |
+| EVAL |  | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  |  | I | S | S |  | I | I | I | S | S | S | S | S | S | S |  | D |  | S | S |  | I | S | S | S | S | S | S | S | S | S |  | I | S | S | S |  | I | S |  | D | S | S | S |  |  | S | S |  |  |  |
+---
+
+---

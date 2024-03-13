@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.7%   (  15)
+
+Percent Correct           =   64.3%   (  27)
+
+Percent Substitution      =   28.6%   (  12)
+Percent Deletions         =    7.1%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   64.3%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  39)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  cola ==> shucola
+   2:    1  ->  drinken ==> drinker
+   3:    1  ->  drogen ==> broge
+   4:    1  ->  eerste ==> keersten
+   5:    1  ->  lawaai ==> waawaai
+   6:    1  ->  mevrouw ==> mevraal
+   7:    1  ->  potlood ==> potnoot
+   8:    1  ->  schouders ==> aschouders
+   9:    1  ->  sneeuwen ==> snijwen
+  10:    1  ->  stoppen ==> stoppe
+  11:    1  ->  verhaal ==> voraal
+  12:    1  ->  vliegtuig ==> reggejrvliegtuig
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *
+   2:    1  ->  *t
+   3:    1  ->  regen
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  cola
+   2:    1  ->  drinken
+   3:    1  ->  drogen
+   4:    1  ->  eerste
+   5:    1  ->  lawaai
+   6:    1  ->  mevrouw
+   7:    1  ->  potlood
+   8:    1  ->  schouders
+   9:    1  ->  sneeuwen
+  10:    1  ->  stoppen
+  11:    1  ->  verhaal
+  12:    1  ->  vliegtuig
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  aschouders
+   2:    1  ->  broge
+   3:    1  ->  drinker
+   4:    1  ->  keersten
+   5:    1  ->  mevraal
+   6:    1  ->  potnoot
+   7:    1  ->  reggejrvliegtuig
+   8:    1  ->  shucola
+   9:    1  ->  snijwen
+  10:    1  ->  stoppe
+  11:    1  ->  voraal
+  12:    1  ->  waawaai
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

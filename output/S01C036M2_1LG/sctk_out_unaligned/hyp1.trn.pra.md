@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C036M2_1LG
+
+#### (S01C036M2_1LG-words)
+
+- Cor=55.0%	Sub=40.0%	Del=5.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei*(roei) | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | mooi | strand | met | eerst | voor | drai | shel | haafst | duur | straat | leeuw | kloon | hoek | krant | hout | vriend | gaal | ships | goen | feest | geijs | jas | heis | bert | vijf | mut | nieuw | kind | ban | oog | zacht | schoen |  |  | blas | uisknuppa |
+| EVAL |  |  |  |  | S |  | S |  |  | S | S | S |  |  |  | S |  |  |  |  | S | S | S |  | S |  | S | S |  | S |  |  | S |  |  |  | D | D | S | S |
+---
+
+---

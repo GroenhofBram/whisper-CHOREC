@@ -1,0 +1,241 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.8%   ( 181)
+
+Percent Correct           =    4.2%   (   8)
+
+Percent Substitution      =   56.6%   ( 107)
+Percent Deletions         =   39.2%   (  74)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.2%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 115)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    8  ->  * ==> a
+   2:    7  ->  * ==> g
+   3:    7  ->  * ==> i
+   4:    5  ->  * ==> de
+   5:    5  ->  * ==> h
+   6:    4  ->  * ==> ah
+   7:    2  ->  * ==> e
+   8:    2  ->  * ==> hi
+   9:    2  ->  * ==> hoe
+  10:    2  ->  * ==> hu
+  11:    2  ->  * ==> o
+  12:    2  ->  * ==> s
+  13:    2  ->  * ==> scha
+  14:    1  ->  * ==> bachof
+  15:    1  ->  * ==> bari
+  16:    1  ->  * ==> be
+  17:    1  ->  * ==> bijde
+  18:    1  ->  * ==> em
+  19:    1  ->  * ==> gee
+  20:    1  ->  * ==> goen
+  21:    1  ->  * ==> hat
+  22:    1  ->  * ==> herfst
+  23:    1  ->  * ==> herft
+  24:    1  ->  * ==> ho
+  25:    1  ->  * ==> hoet
+  26:    1  ->  * ==> hoeval
+  27:    1  ->  * ==> ju
+  28:    1  ->  * ==> k
+  29:    1  ->  * ==> kin
+  30:    1  ->  * ==> kinderen
+  31:    1  ->  * ==> kno
+  32:    1  ->  * ==> mu
+  33:    1  ->  * ==> must
+  34:    1  ->  * ==> oa
+  35:    1  ->  * ==> ook
+  36:    1  ->  * ==> pardo
+  37:    1  ->  * ==> pulas
+  38:    1  ->  * ==> rand
+  39:    1  ->  * ==> sarente
+  40:    1  ->  * ==> se
+  41:    1  ->  * ==> sla
+  42:    1  ->  * ==> slips
+  43:    1  ->  * ==> st
+  44:    1  ->  * ==> t
+  45:    1  ->  * ==> u
+  46:    1  ->  * ==> uh
+  47:    1  ->  * ==> vriendken
+  48:    1  ->  * ==> wor
+  49:    1  ->  * ==> zi
+  50:    1  ->  * ==> zout
+  51:    1  ->  *(bedden) ==> m
+  52:    1  ->  *x ==> h
+  53:    1  ->  bang ==> i
+  54:    1  ->  bed ==> hu
+  55:    1  ->  chips ==> de
+  56:    1  ->  gauw ==> vagt
+  57:    1  ->  groen ==> a
+  58:    1  ->  herfst ==> s
+  59:    1  ->  kind ==> e
+  60:    1  ->  knoop ==> jes
+  61:    1  ->  mooi ==> nu
+  62:    1  ->  muts ==> res
+  63:    1  ->  neus ==> p
+  64:    1  ->  nieuw ==> wa
+  65:    1  ->  oog ==> a
+  66:    1  ->  plank ==> lank
+  67:    1  ->  reis ==> res
+  68:    1  ->  sjaal ==> d
+  69:    1  ->  strand ==> hoe
+  70:    1  ->  zacht ==> hu
+     -------
+       107
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   57  ->  *
+   2:    1  ->  *(paarden)
+   3:    1  ->  *(slowen)
+   4:    1  ->  *(vinden)
+   5:    1  ->  arm
+   6:    1  ->  clown
+   7:    1  ->  draai
+   8:    1  ->  groei
+   9:    1  ->  hoek
+  10:    1  ->  hout
+  11:    1  ->  huis
+  12:    1  ->  krant
+  13:    1  ->  leeuw
+  14:    1  ->  paard
+  15:    1  ->  plas
+  16:    1  ->  straat
+  17:    1  ->  vijf
+  18:    1  ->  vriend
+     -------
+        74
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   87  ->  *
+   2:    1  ->  *(bedden)
+   3:    1  ->  *x
+   4:    1  ->  bang
+   5:    1  ->  bed
+   6:    1  ->  chips
+   7:    1  ->  gauw
+   8:    1  ->  groen
+   9:    1  ->  herfst
+  10:    1  ->  kind
+  11:    1  ->  knoop
+  12:    1  ->  mooi
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  nieuw
+  16:    1  ->  oog
+  17:    1  ->  plank
+  18:    1  ->  reis
+  19:    1  ->  sjaal
+  20:    1  ->  strand
+  21:    1  ->  zacht
+     -------
+       107
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:   10  ->  a
+   2:    8  ->  i
+   3:    7  ->  g
+   4:    6  ->  de
+   5:    6  ->  h
+   6:    4  ->  ah
+   7:    4  ->  hu
+   8:    3  ->  e
+   9:    3  ->  hoe
+  10:    3  ->  s
+  11:    2  ->  hi
+  12:    2  ->  o
+  13:    2  ->  res
+  14:    2  ->  scha
+  15:    1  ->  bachof
+  16:    1  ->  bari
+  17:    1  ->  be
+  18:    1  ->  bijde
+  19:    1  ->  d
+  20:    1  ->  em
+  21:    1  ->  gee
+  22:    1  ->  goen
+  23:    1  ->  hat
+  24:    1  ->  herfst
+  25:    1  ->  herft
+  26:    1  ->  ho
+  27:    1  ->  hoet
+  28:    1  ->  hoeval
+  29:    1  ->  jes
+  30:    1  ->  ju
+  31:    1  ->  k
+  32:    1  ->  kin
+  33:    1  ->  kinderen
+  34:    1  ->  kno
+  35:    1  ->  lank
+  36:    1  ->  m
+  37:    1  ->  mu
+  38:    1  ->  must
+  39:    1  ->  nu
+  40:    1  ->  oa
+  41:    1  ->  ook
+  42:    1  ->  p
+  43:    1  ->  pardo
+  44:    1  ->  pulas
+  45:    1  ->  rand
+  46:    1  ->  sarente
+  47:    1  ->  se
+  48:    1  ->  sla
+  49:    1  ->  slips
+  50:    1  ->  st
+  51:    1  ->  t
+  52:    1  ->  u
+  53:    1  ->  uh
+  54:    1  ->  vagt
+  55:    1  ->  vriendken
+  56:    1  ->  wa
+  57:    1  ->  wor
+  58:    1  ->  zi
+  59:    1  ->  zout
+     -------
+       107
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

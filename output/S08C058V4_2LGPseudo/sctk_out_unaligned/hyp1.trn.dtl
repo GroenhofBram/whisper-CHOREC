@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   74.4%   (  32)
+
+Percent Correct           =   30.2%   (  13)
+
+Percent Substitution      =   69.8%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.7%   (   2)
+Percent Word Accuracy     =   25.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  45)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> me
+   2:    1  ->  * ==> nezum
+   3:    1  ->  * ==> verpand
+   4:    1  ->  bepoud ==> bepaald
+   5:    1  ->  fiewon ==> knuren
+   6:    1  ->  foetbans ==> voetbans
+   7:    1  ->  gefouw ==> gefaul
+   8:    1  ->  geutel ==> sjobbel
+   9:    1  ->  grijnken ==> grenken
+  10:    1  ->  hiffreeuw ==> hifreel
+  11:    1  ->  ierpieuw ==> piel
+  12:    1  ->  ijpo ==> mit
+  13:    1  ->  kneurem ==> van
+  14:    1  ->  menuur ==> muur
+  15:    1  ->  nizung ==> fiom
+  16:    1  ->  orponk ==> schhodig
+  17:    1  ->  orstalk ==> oerstalk
+  18:    1  ->  prilsood ==> prilsoot
+  19:    1  ->  saarweng ==> arwen
+  20:    1  ->  schielstaug ==> schitelstaug
+  21:    1  ->  schodig ==> epol
+  22:    1  ->  sjobel ==> ir
+  23:    1  ->  spreikje ==> spreikeje
+  24:    1  ->  ulen ==> oorponk
+  25:    1  ->  vawaai ==> way
+  26:    1  ->  veten*(vetten) ==> vetten
+  27:    1  ->  veurder ==> vuurder
+  28:    1  ->  vloender ==> vluender
+  29:    1  ->  vocil ==> getal
+  30:    1  ->  vurpaand ==> va
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fokel
+   2:    1  ->  ullen
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  geutel
+   7:    1  ->  grijnken
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kneurem
+  12:    1  ->  menuur
+  13:    1  ->  nizung
+  14:    1  ->  orponk
+  15:    1  ->  orstalk
+  16:    1  ->  prilsood
+  17:    1  ->  saarweng
+  18:    1  ->  schielstaug
+  19:    1  ->  schodig
+  20:    1  ->  sjobel
+  21:    1  ->  spreikje
+  22:    1  ->  ulen
+  23:    1  ->  vawaai
+  24:    1  ->  veten*(vetten)
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vocil
+  28:    1  ->  vurpaand
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  arwen
+   2:    1  ->  bepaald
+   3:    1  ->  epol
+   4:    1  ->  fiom
+   5:    1  ->  gefaul
+   6:    1  ->  getal
+   7:    1  ->  grenken
+   8:    1  ->  hifreel
+   9:    1  ->  ir
+  10:    1  ->  knuren
+  11:    1  ->  me
+  12:    1  ->  mit
+  13:    1  ->  muur
+  14:    1  ->  nezum
+  15:    1  ->  oerstalk
+  16:    1  ->  oorponk
+  17:    1  ->  piel
+  18:    1  ->  prilsoot
+  19:    1  ->  schhodig
+  20:    1  ->  schitelstaug
+  21:    1  ->  sjobbel
+  22:    1  ->  spreikeje
+  23:    1  ->  va
+  24:    1  ->  van
+  25:    1  ->  verpand
+  26:    1  ->  vetten
+  27:    1  ->  vluender
+  28:    1  ->  voetbans
+  29:    1  ->  vuurder
+  30:    1  ->  way
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

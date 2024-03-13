@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.6%   (  15)
+
+Percent Correct           =   65.9%   (  27)
+
+Percent Substitution      =   29.3%   (  12)
+Percent Deletions         =    4.9%   (   2)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   63.4%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  circus ==> circirceus
+   2:    1  ->  cola ==> kola
+   3:    1  ->  fietsbel ==> bel
+   4:    1  ->  gooien ==> goeien
+   5:    1  ->  hoofdpijn ==> hoofdpen
+   6:    1  ->  kleuren ==> kleuran
+   7:    1  ->  koning ==> vruilkoning
+   8:    1  ->  kussen ==> putsen
+   9:    1  ->  potlood ==> fieds
+  10:    1  ->  speelplaats ==> speelplaat
+  11:    1  ->  vliegtuig ==> vliegdag
+  12:    1  ->  zwemmen ==> twummen
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  potloot
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  verhaal
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  circus
+   2:    1  ->  cola
+   3:    1  ->  fietsbel
+   4:    1  ->  gooien
+   5:    1  ->  hoofdpijn
+   6:    1  ->  kleuren
+   7:    1  ->  koning
+   8:    1  ->  kussen
+   9:    1  ->  potlood
+  10:    1  ->  speelplaats
+  11:    1  ->  vliegtuig
+  12:    1  ->  zwemmen
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bel
+   2:    1  ->  circirceus
+   3:    1  ->  fieds
+   4:    1  ->  goeien
+   5:    1  ->  hoofdpen
+   6:    1  ->  kleuran
+   7:    1  ->  kola
+   8:    1  ->  putsen
+   9:    1  ->  speelplaat
+  10:    1  ->  twummen
+  11:    1  ->  vliegdag
+  12:    1  ->  vruilkoning
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

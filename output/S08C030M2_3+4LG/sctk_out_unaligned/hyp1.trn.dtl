@@ -1,0 +1,232 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  110.8%   (  72)
+
+Percent Correct           =   10.8%   (   7)
+
+Percent Substitution      =   87.7%   (  57)
+Percent Deletions         =    1.5%   (   1)
+Percent Insertions        =   21.5%   (  14)
+Percent Word Accuracy     =  -10.8%
+
+
+Ref. words                =           (  65)
+Hyp. words                =           (  78)
+Aligned words             =           (  79)
+
+CONFUSION PAIRS                  Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    1  ->  * ==> dag
+   2:    1  ->  * ==> dat
+   3:    1  ->  * ==> e
+   4:    1  ->  * ==> ellastiek
+   5:    1  ->  * ==> end
+   6:    1  ->  * ==> gerig
+   7:    1  ->  * ==> goei
+   8:    1  ->  * ==> he
+   9:    1  ->  * ==> iderim
+  10:    1  ->  * ==> ik
+  11:    1  ->  * ==> kooi
+  12:    1  ->  * ==> mante
+  13:    1  ->  * ==> mel
+  14:    1  ->  * ==> olief
+  15:    1  ->  * ==> ota
+  16:    1  ->  * ==> papier
+  17:    1  ->  * ==> patden
+  18:    1  ->  * ==> schoenmijl
+  19:    1  ->  * ==> se
+  20:    1  ->  * ==> stoelen
+  21:    1  ->  * ==> to
+  22:    1  ->  * ==> toe
+  23:    1  ->  * ==> ton
+  24:    1  ->  * ==> uh
+  25:    1  ->  * ==> winkel
+  26:    1  ->  achterdeur ==> daaroor
+  27:    1  ->  autorijden ==> autoreden
+  28:    1  ->  buurmannen ==> vog
+  29:    1  ->  chocolade ==> choqelado
+  30:    1  ->  dierentuin ==> tutibir
+  31:    1  ->  eindelijk ==> endelik
+  32:    1  ->  elastiekje ==> ja
+  33:    1  ->  familie ==> fmili
+  34:    1  ->  goeiendag ==> uh
+  35:    1  ->  iedereen ==> schoen
+  36:    1  ->  kabouter ==> j
+  37:    1  ->  knutselen ==> utsellen
+  38:    1  ->  konijnenhok ==> hok
+  39:    1  ->  limonade ==> lemonado
+  40:    1  ->  lucifer ==> in
+  41:    1  ->  nieuwsgierig ==> nees
+  42:    1  ->  olifant ==> schoen
+  43:    1  ->  paddenstoelen ==> dirangtum
+  44:    1  ->  poppenwagen ==> ba
+  45:    1  ->  ruziemaken ==> regin
+  46:    1  ->  schoenenwinkel ==> na
+  47:    1  ->  schommelen ==> ut
+  48:    1  ->  sneeuwwitje ==> goeien
+  49:    1  ->  sprookjesboek ==> lucht
+  50:    1  ->  tandenborstel ==> lus
+  51:    1  ->  teddybeer ==> maken
+  52:    1  ->  vakantie ==> kent
+  53:    1  ->  verstoppertje ==> verstopberdje
+  54:    1  ->  vogelkooi ==> en
+  55:    1  ->  washandje ==> goei
+  56:    1  ->  wasmachine ==> was
+  57:    1  ->  ziekenhuis ==> weekenhuis
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  acht
+   2:    1  ->  biurmannen
+   3:    1  ->  borstal
+   4:    1  ->  en
+   5:    1  ->  kakabater
+   6:    1  ->  konijnen
+   7:    1  ->  nie
+   8:    1  ->  oenbwagen
+   9:    1  ->  oge
+  10:    1  ->  poek
+  11:    1  ->  sprookjes
+  12:    1  ->  tand
+  13:    1  ->  voog
+  14:    1  ->  washankje
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  toiletpapier
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   25  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  familie
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  kabouter
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  limonade
+  16:    1  ->  lucifer
+  17:    1  ->  nieuwsgierig
+  18:    1  ->  olifant
+  19:    1  ->  paddenstoelen
+  20:    1  ->  poppenwagen
+  21:    1  ->  ruziemaken
+  22:    1  ->  schoenenwinkel
+  23:    1  ->  schommelen
+  24:    1  ->  sneeuwwitje
+  25:    1  ->  sprookjesboek
+  26:    1  ->  tandenborstel
+  27:    1  ->  teddybeer
+  28:    1  ->  vakantie
+  29:    1  ->  verstoppertje
+  30:    1  ->  vogelkooi
+  31:    1  ->  washandje
+  32:    1  ->  wasmachine
+  33:    1  ->  ziekenhuis
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    2  ->  goei
+   2:    2  ->  schoen
+   3:    2  ->  uh
+   4:    1  ->  autoreden
+   5:    1  ->  ba
+   6:    1  ->  choqelado
+   7:    1  ->  daaroor
+   8:    1  ->  dag
+   9:    1  ->  dat
+  10:    1  ->  dirangtum
+  11:    1  ->  e
+  12:    1  ->  ellastiek
+  13:    1  ->  en
+  14:    1  ->  end
+  15:    1  ->  endelik
+  16:    1  ->  fmili
+  17:    1  ->  gerig
+  18:    1  ->  goeien
+  19:    1  ->  he
+  20:    1  ->  hok
+  21:    1  ->  iderim
+  22:    1  ->  ik
+  23:    1  ->  in
+  24:    1  ->  j
+  25:    1  ->  ja
+  26:    1  ->  kent
+  27:    1  ->  kooi
+  28:    1  ->  lemonado
+  29:    1  ->  lucht
+  30:    1  ->  lus
+  31:    1  ->  maken
+  32:    1  ->  mante
+  33:    1  ->  mel
+  34:    1  ->  na
+  35:    1  ->  nees
+  36:    1  ->  olief
+  37:    1  ->  ota
+  38:    1  ->  papier
+  39:    1  ->  patden
+  40:    1  ->  regin
+  41:    1  ->  schoenmijl
+  42:    1  ->  se
+  43:    1  ->  stoelen
+  44:    1  ->  to
+  45:    1  ->  toe
+  46:    1  ->  ton
+  47:    1  ->  tutibir
+  48:    1  ->  ut
+  49:    1  ->  utsellen
+  50:    1  ->  verstopberdje
+  51:    1  ->  vog
+  52:    1  ->  was
+  53:    1  ->  weekenhuis
+  54:    1  ->  winkel
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

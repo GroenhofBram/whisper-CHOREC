@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C027M8_1LG
+
+#### (S06C027M8_1LG-words)
+
+- Cor=40.0%	Sub=57.8%	Del=2.2%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | * | bed | eerst | voor*(vroor) | draai | sjaal | *(schaal) | herfst | * | duur | * | straat*(strand) | *(staar) | leeuw | clown*(klauw) | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht*(zaad) | schoen*(zoen) | plas | neus | knoop*(knop) | plank*(plak) |
+| HYP1 | klas | mooi | koe | arm |  | goe | stad | sbed | eerst | voor | draai | jaal | schel | herfst | dur | duur | sta | strand | sta | leeuw | klauw | hoek | krand | hud | vreemd | gouw | grieps | groen | feest | geis | jos | hus | paft | vijf | muut | nieuw | kind | bang | hoog | zaad | zoen | plas | neus | knop | plak |
+| EVAL |  |  |  |  | D | S | S | S |  | S |  | S | S |  | S |  | S | S | S |  | S |  | S | S | S | S | S |  |  | S | S | S | S |  | S |  |  |  | S | S | S |  |  | S | S |
+---
+
+---

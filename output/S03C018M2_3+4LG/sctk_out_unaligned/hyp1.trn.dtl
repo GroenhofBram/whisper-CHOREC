@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.8%   (  30)
+
+Percent Correct           =   48.8%   (  21)
+
+Percent Substitution      =   51.2%   (  22)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   18.6%   (   8)
+Percent Word Accuracy     =   30.2%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  51)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> lastieke
+   2:    1  ->  *(konijn) ==> las
+   3:    1  ->  dierentuin ==> hiertuin
+   4:    1  ->  elastiekje ==> ruzi
+   5:    1  ->  iedereen ==> idereen
+   6:    1  ->  kabouter ==> kabauter
+   7:    1  ->  knutselen ==> klikselen
+   8:    1  ->  konijnenhok ==> hi
+   9:    1  ->  limonade ==> lumonade
+  10:    1  ->  nieuwsgierig ==> gierig
+  11:    1  ->  nieuwsgierig ==> nieus
+  12:    1  ->  omdraaien ==> hook
+  13:    1  ->  ophangen ==> ovangen
+  14:    1  ->  poppenwagen ==> en
+  15:    1  ->  ruziemaken ==> maken
+  16:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoenwinkel
+  17:    1  ->  schommelen ==> melen
+  18:    1  ->  sneeuwwitje ==> sneeuwwodje
+  19:    1  ->  tandenborstel ==> borstel
+  20:    1  ->  teddybeer ==> deribe
+  21:    1  ->  verstoppertje ==> verstopperdje
+  22:    1  ->  washandje ==> wazangtje
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  konijn
+   2:    1  ->  konijnen
+   3:    1  ->  konraien
+   4:    1  ->  kopen
+   5:    1  ->  nieuws
+   6:    1  ->  schoon
+   7:    1  ->  tanden
+   8:    1  ->  ware
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  nieuwsgierig
+   2:    1  ->  *
+   3:    1  ->  *(konijn)
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  iedereen
+   7:    1  ->  kabouter
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  omdraaien
+  12:    1  ->  ophangen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel*(schoenwinkel)
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  verstoppertje
+  21:    1  ->  washandje
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  borstel
+   2:    1  ->  deribe
+   3:    1  ->  en
+   4:    1  ->  gierig
+   5:    1  ->  hi
+   6:    1  ->  hiertuin
+   7:    1  ->  hook
+   8:    1  ->  idereen
+   9:    1  ->  kabauter
+  10:    1  ->  klikselen
+  11:    1  ->  las
+  12:    1  ->  lastieke
+  13:    1  ->  lumonade
+  14:    1  ->  maken
+  15:    1  ->  melen
+  16:    1  ->  nieus
+  17:    1  ->  ovangen
+  18:    1  ->  ruzi
+  19:    1  ->  schoenwinkel
+  20:    1  ->  sneeuwwodje
+  21:    1  ->  verstopperdje
+  22:    1  ->  wazangtje
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

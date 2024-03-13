@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   71.4%   (  35)
+
+Percent Correct           =   38.8%   (  19)
+
+Percent Substitution      =   59.2%   (  29)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =   10.2%   (   5)
+Percent Word Accuracy     =   28.6%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  53)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> dade
+   2:    1  ->  * ==> in
+   3:    1  ->  * ==> koa
+   4:    1  ->  * ==> leu
+   5:    1  ->  * ==> reuzie
+   6:    1  ->  * ==> slaapsa
+   7:    1  ->  * ==> sneeuw
+   8:    1  ->  * ==> was
+   9:    1  ->  afblijven ==> ofblijven
+  10:    1  ->  buurmannen*(buurman) ==> volgen
+  11:    1  ->  chocolade ==> chocolado
+  12:    1  ->  dierentuin ==> dierenten
+  13:    1  ->  elastiekje ==> maken
+  14:    1  ->  fototoestel ==> vototoestel
+  15:    1  ->  goeiendag ==> goeiedag
+  16:    1  ->  konijnenhok ==> elastikje
+  17:    1  ->  limonade ==> nemonaden
+  18:    1  ->  nieuwsgierig ==> neeuwsgierig
+  19:    1  ->  olifant ==> olefant
+  20:    1  ->  paddenstoelen*(paddenstoel) ==> palestool
+  21:    1  ->  poppenwagen ==> allas
+  22:    1  ->  ruziemaken ==> te
+  23:    1  ->  schoenenwinkel*(schoenwinkel) ==> knia
+  24:    1  ->  sneeuwwitje ==> sneeuwitje
+  25:    1  ->  sprookjesboek ==> sporkgisbook
+  26:    1  ->  teddybeer ==> tiber
+  27:    1  ->  toiletpapier ==> taletpapier
+  28:    1  ->  vogelkooi ==> volgel
+  29:    1  ->  washandje ==> henje
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  buurman
+   2:    1  ->  konijnenhook
+   3:    1  ->  kopenwagen
+   4:    1  ->  schoonwinkel
+   5:    1  ->  wasan
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    8  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  nieuwsgierig
+  12:    1  ->  olifant
+  13:    1  ->  paddenstoelen*(paddenstoel)
+  14:    1  ->  poppenwagen
+  15:    1  ->  ruziemaken
+  16:    1  ->  schoenenwinkel*(schoenwinkel)
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  vogelkooi
+  22:    1  ->  washandje
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  allas
+   2:    1  ->  chocolado
+   3:    1  ->  dade
+   4:    1  ->  dierenten
+   5:    1  ->  elastikje
+   6:    1  ->  goeiedag
+   7:    1  ->  henje
+   8:    1  ->  in
+   9:    1  ->  knia
+  10:    1  ->  koa
+  11:    1  ->  leu
+  12:    1  ->  maken
+  13:    1  ->  neeuwsgierig
+  14:    1  ->  nemonaden
+  15:    1  ->  ofblijven
+  16:    1  ->  olefant
+  17:    1  ->  palestool
+  18:    1  ->  reuzie
+  19:    1  ->  slaapsa
+  20:    1  ->  sneeuw
+  21:    1  ->  sneeuwitje
+  22:    1  ->  sporkgisbook
+  23:    1  ->  taletpapier
+  24:    1  ->  te
+  25:    1  ->  tiber
+  26:    1  ->  volgel
+  27:    1  ->  volgen
+  28:    1  ->  vototoestel
+  29:    1  ->  was
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

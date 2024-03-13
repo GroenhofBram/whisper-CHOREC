@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.0%   (  40)
+
+Percent Correct           =   39.1%   (  18)
+
+Percent Substitution      =   58.7%   (  27)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   26.1%   (  12)
+Percent Word Accuracy     =   13.0%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> borden
+   2:    1  ->  * ==> cokacola
+   3:    1  ->  * ==> dan
+   4:    1  ->  * ==> nieuwsnieuwsi
+   5:    1  ->  * ==> schonen
+   6:    1  ->  autorijden ==> autorede
+   7:    1  ->  chocolade ==> chocolara
+   8:    1  ->  dierentuin ==> stopbardjen
+   9:    1  ->  elastiekje ==> dierenten
+  10:    1  ->  fototoestel ==> toilnet
+  11:    1  ->  goeiendag ==> dag
+  12:    1  ->  knutselen ==> knitselen
+  13:    1  ->  konijnenhok ==> beer
+  14:    1  ->  limonade ==> jumonade
+  15:    1  ->  paddenstoelen ==> ans
+  16:    1  ->  poppenwagen ==> die
+  17:    1  ->  ruziemaken ==> stoelen
+  18:    1  ->  schoenenwinkel ==> winkel
+  19:    1  ->  sneeuwwitje ==> goeie
+  20:    1  ->  sprookjesboek ==> den
+  21:    1  ->  tandenborstel ==> brostal
+  22:    1  ->  teddybeer ==> var
+  23:    1  ->  toiletpapier ==> papier
+  24:    1  ->  verstoppertje ==> machine
+  25:    1  ->  vogelkooi ==> vogolkooi
+  26:    1  ->  washandje ==> sneeuwitje
+  27:    1  ->  wasmachine ==> voortotoestel
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  allistiekje
+   2:    1  ->  dat
+   3:    1  ->  den
+   4:    1  ->  hoek
+   5:    1  ->  kondiin
+   6:    1  ->  maken
+   7:    1  ->  poppen
+   8:    1  ->  santje
+   9:    1  ->  sproa
+  10:    1  ->  sprokisboek
+  11:    1  ->  was
+  12:    1  ->  wegen
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    5  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  goeiendag
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  sneeuwwitje
+  16:    1  ->  sprookjesboek
+  17:    1  ->  tandenborstel
+  18:    1  ->  teddybeer
+  19:    1  ->  toiletpapier
+  20:    1  ->  verstoppertje
+  21:    1  ->  vogelkooi
+  22:    1  ->  washandje
+  23:    1  ->  wasmachine
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  ans
+   2:    1  ->  autorede
+   3:    1  ->  beer
+   4:    1  ->  borden
+   5:    1  ->  brostal
+   6:    1  ->  chocolara
+   7:    1  ->  cokacola
+   8:    1  ->  dag
+   9:    1  ->  dan
+  10:    1  ->  den
+  11:    1  ->  die
+  12:    1  ->  dierenten
+  13:    1  ->  goeie
+  14:    1  ->  jumonade
+  15:    1  ->  knitselen
+  16:    1  ->  machine
+  17:    1  ->  nieuwsnieuwsi
+  18:    1  ->  papier
+  19:    1  ->  schonen
+  20:    1  ->  sneeuwitje
+  21:    1  ->  stoelen
+  22:    1  ->  stopbardjen
+  23:    1  ->  toilnet
+  24:    1  ->  var
+  25:    1  ->  vogolkooi
+  26:    1  ->  voortotoestel
+  27:    1  ->  winkel
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

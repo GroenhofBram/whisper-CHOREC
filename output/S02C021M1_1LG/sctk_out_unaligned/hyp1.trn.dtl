@@ -1,0 +1,379 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   99.1%   ( 215)
+
+Percent Correct           =    1.4%   (   3)
+
+Percent Substitution      =   85.3%   ( 185)
+Percent Deletions         =   13.4%   (  29)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =    0.9%
+
+
+Ref. words                =           ( 217)
+Hyp. words                =           ( 189)
+Aligned words             =           ( 218)
+
+CONFUSION PAIRS                  Total                 (139)
+                                 With >=  1 occurrences (139)
+
+   1:    6  ->  * ==> u
+   2:    6  ->  * ==> uh
+   3:    5  ->  * ==> de
+   4:    4  ->  * ==> a
+   5:    4  ->  * ==> e
+   6:    4  ->  * ==> h
+   7:    4  ->  * ==> i
+   8:    3  ->  * ==> d
+   9:    3  ->  * ==> dat
+  10:    3  ->  * ==> is
+  11:    3  ->  * ==> ja
+  12:    3  ->  * ==> omdat
+  13:    3  ->  * ==> s
+  14:    2  ->  * ==> g
+  15:    2  ->  * ==> hoe
+  16:    2  ->  * ==> ik
+  17:    2  ->  * ==> j
+  18:    2  ->  * ==> mij
+  19:    2  ->  * ==> nee
+  20:    2  ->  * ==> t
+  21:    2  ->  * ==> woordje
+  22:    1  ->  * ==> ah
+  23:    1  ->  * ==> altijd
+  24:    1  ->  * ==> apvonde
+  25:    1  ->  * ==> bag
+  26:    1  ->  * ==> ben
+  27:    1  ->  * ==> bijna
+  28:    1  ->  * ==> bngoet
+  29:    1  ->  * ==> bou
+  30:    1  ->  * ==> brand
+  31:    1  ->  * ==> da
+  32:    1  ->  * ==> daar
+  33:    1  ->  * ==> dier
+  34:    1  ->  * ==> dit
+  35:    1  ->  * ==> do
+  36:    1  ->  * ==> enea
+  37:    1  ->  * ==> feest
+  38:    1  ->  * ==> ga
+  39:    1  ->  * ==> gaat
+  40:    1  ->  * ==> ge
+  41:    1  ->  * ==> gevallen
+  42:    1  ->  * ==> glezen?
+  43:    1  ->  * ==> gnieken
+  44:    1  ->  * ==> han
+  45:    1  ->  * ==> has
+  46:    1  ->  * ==> hem
+  47:    1  ->  * ==> herafst
+  48:    1  ->  * ==> hsoe
+  49:    1  ->  * ==> ikja
+  50:    1  ->  * ==> je
+  51:    1  ->  * ==> je?
+  52:    1  ->  * ==> jki
+  53:    1  ->  * ==> k
+  54:    1  ->  * ==> kan
+  55:    1  ->  * ==> koe
+  56:    1  ->  * ==> kra
+  57:    1  ->  * ==> latem
+  58:    1  ->  * ==> leest
+  59:    1  ->  * ==> letter
+  60:    1  ->  * ==> loos
+  61:    1  ->  * ==> louw
+  62:    1  ->  * ==> met
+  63:    1  ->  * ==> minden
+  64:    1  ->  * ==> mst
+  65:    1  ->  * ==> n
+  66:    1  ->  * ==> naa
+  67:    1  ->  * ==> naarlos
+  68:    1  ->  * ==> nar
+  69:    1  ->  * ==> ne
+  70:    1  ->  * ==> niet
+  71:    1  ->  * ==> ns
+  72:    1  ->  * ==> o
+  73:    1  ->  * ==> oe
+  74:    1  ->  * ==> oh
+  75:    1  ->  * ==> ok
+  76:    1  ->  * ==> res
+  77:    1  ->  * ==> ri
+  78:    1  ->  * ==> ro
+  79:    1  ->  * ==> rri
+  80:    1  ->  * ==> sial
+  81:    1  ->  * ==> som
+  82:    1  ->  * ==> son
+  83:    1  ->  * ==> sor
+  84:    1  ->  * ==> sraat
+  85:    1  ->  * ==> the
+  86:    1  ->  * ==> tt
+  87:    1  ->  * ==> us
+  88:    1  ->  * ==> uuh
+  89:    1  ->  * ==> van
+  90:    1  ->  * ==> ved
+  91:    1  ->  * ==> verde
+  92:    1  ->  * ==> vol
+  93:    1  ->  * ==> volgende
+  94:    1  ->  * ==> vriemd
+  95:    1  ->  * ==> we
+  96:    1  ->  * ==> welk
+  97:    1  ->  * ==> woordjes
+  98:    1  ->  * ==> woordjesze?
+  99:    1  ->  * ==> zeen
+ 100:    1  ->  * ==> ziek
+ 101:    1  ->  * ==> zijn
+ 102:    1  ->  *(de) ==> a
+ 103:    1  ->  *(vijftig) ==> uh
+ 104:    1  ->  *s ==> da
+ 105:    1  ->  *s ==> kloun
+ 106:    1  ->  *s ==> u
+ 107:    1  ->  *s ==> uh
+ 108:    1  ->  *t ==> el
+ 109:    1  ->  *t ==> tmst
+ 110:    1  ->  arm ==> uh
+ 111:    1  ->  bang ==> bn
+ 112:    1  ->  bed*(de) ==> weten
+ 113:    1  ->  draai ==> en
+ 114:    1  ->  duur ==> denk
+ 115:    1  ->  eerst ==> rv
+ 116:    1  ->  groei*(roei) ==> dat
+ 117:    1  ->  hout ==> a
+ 118:    1  ->  huis ==> te
+ 119:    1  ->  jas ==> daarstrak
+ 120:    1  ->  kind ==> gaan
+ 121:    1  ->  klas ==> ner
+ 122:    1  ->  knoop ==> nop
+ 123:    1  ->  koe ==> aram
+ 124:    1  ->  koe*(boe) ==> ar
+ 125:    1  ->  krant ==> s
+ 126:    1  ->  leeuw ==> l
+ 127:    1  ->  mooi ==> m
+ 128:    1  ->  muts ==> est
+ 129:    1  ->  nieuw ==> hs
+ 130:    1  ->  oog ==> an
+ 131:    1  ->  paard*(raden) ==> 't
+ 132:    1  ->  plank ==> plan
+ 133:    1  ->  schoen ==> voorslacht
+ 134:    1  ->  schoen ==> zacht
+ 135:    1  ->  straat ==> an
+ 136:    1  ->  strand ==> mag
+ 137:    1  ->  vijf ==> duss
+ 138:    1  ->  vijf ==> uh
+ 139:    1  ->  voor ==> voort
+     -------
+       185
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ld
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:   25  ->  *
+   2:    1  ->  feest
+   3:    1  ->  groen
+   4:    1  ->  neus
+   5:    1  ->  reis
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:  147  ->  *
+   2:    4  ->  *s
+   3:    2  ->  *t
+   4:    2  ->  schoen
+   5:    2  ->  vijf
+   6:    1  ->  *(de)
+   7:    1  ->  *(vijftig)
+   8:    1  ->  arm
+   9:    1  ->  bang
+  10:    1  ->  bed*(de)
+  11:    1  ->  draai
+  12:    1  ->  duur
+  13:    1  ->  eerst
+  14:    1  ->  groei*(roei)
+  15:    1  ->  hout
+  16:    1  ->  huis
+  17:    1  ->  jas
+  18:    1  ->  kind
+  19:    1  ->  klas
+  20:    1  ->  knoop
+  21:    1  ->  koe
+  22:    1  ->  koe*(boe)
+  23:    1  ->  krant
+  24:    1  ->  leeuw
+  25:    1  ->  mooi
+  26:    1  ->  muts
+  27:    1  ->  nieuw
+  28:    1  ->  oog
+  29:    1  ->  paard*(raden)
+  30:    1  ->  plank
+  31:    1  ->  straat
+  32:    1  ->  strand
+  33:    1  ->  voor
+     -------
+       185
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (128)
+                                 With >=  1 occurrences (128)
+
+   1:   10  ->  uh
+   2:    7  ->  u
+   3:    6  ->  a
+   4:    5  ->  de
+   5:    4  ->  dat
+   6:    4  ->  e
+   7:    4  ->  h
+   8:    4  ->  i
+   9:    4  ->  s
+  10:    3  ->  d
+  11:    3  ->  is
+  12:    3  ->  ja
+  13:    3  ->  omdat
+  14:    2  ->  an
+  15:    2  ->  da
+  16:    2  ->  g
+  17:    2  ->  hoe
+  18:    2  ->  ik
+  19:    2  ->  j
+  20:    2  ->  mij
+  21:    2  ->  nee
+  22:    2  ->  t
+  23:    2  ->  woordje
+  24:    1  ->  't
+  25:    1  ->  ah
+  26:    1  ->  altijd
+  27:    1  ->  apvonde
+  28:    1  ->  ar
+  29:    1  ->  aram
+  30:    1  ->  bag
+  31:    1  ->  ben
+  32:    1  ->  bijna
+  33:    1  ->  bn
+  34:    1  ->  bngoet
+  35:    1  ->  bou
+  36:    1  ->  brand
+  37:    1  ->  daar
+  38:    1  ->  daarstrak
+  39:    1  ->  denk
+  40:    1  ->  dier
+  41:    1  ->  dit
+  42:    1  ->  do
+  43:    1  ->  duss
+  44:    1  ->  el
+  45:    1  ->  en
+  46:    1  ->  enea
+  47:    1  ->  est
+  48:    1  ->  feest
+  49:    1  ->  ga
+  50:    1  ->  gaan
+  51:    1  ->  gaat
+  52:    1  ->  ge
+  53:    1  ->  gevallen
+  54:    1  ->  glezen?
+  55:    1  ->  gnieken
+  56:    1  ->  han
+  57:    1  ->  has
+  58:    1  ->  hem
+  59:    1  ->  herafst
+  60:    1  ->  hs
+  61:    1  ->  hsoe
+  62:    1  ->  ikja
+  63:    1  ->  je
+  64:    1  ->  je?
+  65:    1  ->  jki
+  66:    1  ->  k
+  67:    1  ->  kan
+  68:    1  ->  kloun
+  69:    1  ->  koe
+  70:    1  ->  kra
+  71:    1  ->  l
+  72:    1  ->  latem
+  73:    1  ->  leest
+  74:    1  ->  letter
+  75:    1  ->  loos
+  76:    1  ->  louw
+  77:    1  ->  m
+  78:    1  ->  mag
+  79:    1  ->  met
+  80:    1  ->  minden
+  81:    1  ->  mst
+  82:    1  ->  n
+  83:    1  ->  naa
+  84:    1  ->  naarlos
+  85:    1  ->  nar
+  86:    1  ->  ne
+  87:    1  ->  ner
+  88:    1  ->  niet
+  89:    1  ->  nop
+  90:    1  ->  ns
+  91:    1  ->  o
+  92:    1  ->  oe
+  93:    1  ->  oh
+  94:    1  ->  ok
+  95:    1  ->  plan
+  96:    1  ->  res
+  97:    1  ->  ri
+  98:    1  ->  ro
+  99:    1  ->  rri
+ 100:    1  ->  rv
+ 101:    1  ->  sial
+ 102:    1  ->  som
+ 103:    1  ->  son
+ 104:    1  ->  sor
+ 105:    1  ->  sraat
+ 106:    1  ->  te
+ 107:    1  ->  the
+ 108:    1  ->  tmst
+ 109:    1  ->  tt
+ 110:    1  ->  us
+ 111:    1  ->  uuh
+ 112:    1  ->  van
+ 113:    1  ->  ved
+ 114:    1  ->  verde
+ 115:    1  ->  vol
+ 116:    1  ->  volgende
+ 117:    1  ->  voorslacht
+ 118:    1  ->  voort
+ 119:    1  ->  vriemd
+ 120:    1  ->  we
+ 121:    1  ->  welk
+ 122:    1  ->  weten
+ 123:    1  ->  woordjes
+ 124:    1  ->  woordjesze?
+ 125:    1  ->  zacht
+ 126:    1  ->  zeen
+ 127:    1  ->  ziek
+ 128:    1  ->  zijn
+     -------
+       185
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

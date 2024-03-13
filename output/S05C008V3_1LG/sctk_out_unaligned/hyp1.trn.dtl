@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.2%   (  55)
+
+Percent Correct           =    8.5%   (   5)
+
+Percent Substitution      =   59.3%   (  35)
+Percent Deletions         =   32.2%   (  19)
+Percent Insertions        =    1.7%   (   1)
+Percent Word Accuracy     =    6.8%
+
+
+Ref. words                =           (  59)
+Hyp. words                =           (  41)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  * ==> s
+   2:    1  ->  * ==> ge
+   3:    1  ->  * ==> gl
+   4:    1  ->  * ==> hert
+   5:    1  ->  * ==> hou
+   6:    1  ->  * ==> hu
+   7:    1  ->  * ==> j
+   8:    1  ->  * ==> k
+   9:    1  ->  * ==> len
+  10:    1  ->  * ==> me
+  11:    1  ->  * ==> mge
+  12:    1  ->  * ==> ne
+  13:    1  ->  * ==> nu
+  14:    1  ->  * ==> sit
+  15:    1  ->  arm ==> koem
+  16:    1  ->  bed ==> det
+  17:    1  ->  clown*(school) ==> ki
+  18:    1  ->  gauw ==> var
+  19:    1  ->  groei ==> m
+  20:    1  ->  groen ==> goen
+  21:    1  ->  huis ==> pard
+  22:    1  ->  jas ==> hus
+  23:    1  ->  knoop ==> pat
+  24:    1  ->  koe ==> moli
+  25:    1  ->  leeuw ==> dr
+  26:    1  ->  mooi ==> clas
+  27:    1  ->  neus ==> niet
+  28:    1  ->  oog ==> nit
+  29:    1  ->  paard ==> s
+  30:    1  ->  plas*(past) ==> oe
+  31:    1  ->  reis ==> jast
+  32:    1  ->  schoen ==> o
+  33:    1  ->  strand ==> t
+  34:    1  ->  zacht ==> v
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  reeis
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    9  ->  *
+   2:    1  ->  draai
+   3:    1  ->  duur
+   4:    1  ->  herfst
+   5:    1  ->  hout
+   6:    1  ->  kind
+   7:    1  ->  klas
+   8:    1  ->  krant*(klant)
+   9:    1  ->  nieuw
+  10:    1  ->  sjaal
+  11:    1  ->  straat*(staart)
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   15  ->  *
+   2:    1  ->  arm
+   3:    1  ->  bed
+   4:    1  ->  clown*(school)
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  groen
+   8:    1  ->  huis
+   9:    1  ->  jas
+  10:    1  ->  knoop
+  11:    1  ->  koe
+  12:    1  ->  leeuw
+  13:    1  ->  mooi
+  14:    1  ->  neus
+  15:    1  ->  oog
+  16:    1  ->  paard
+  17:    1  ->  plas*(past)
+  18:    1  ->  reis
+  19:    1  ->  schoen
+  20:    1  ->  strand
+  21:    1  ->  zacht
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  s
+   2:    1  ->  clas
+   3:    1  ->  det
+   4:    1  ->  dr
+   5:    1  ->  ge
+   6:    1  ->  gl
+   7:    1  ->  goen
+   8:    1  ->  hert
+   9:    1  ->  hou
+  10:    1  ->  hu
+  11:    1  ->  hus
+  12:    1  ->  j
+  13:    1  ->  jast
+  14:    1  ->  k
+  15:    1  ->  ki
+  16:    1  ->  koem
+  17:    1  ->  len
+  18:    1  ->  m
+  19:    1  ->  me
+  20:    1  ->  mge
+  21:    1  ->  moli
+  22:    1  ->  ne
+  23:    1  ->  niet
+  24:    1  ->  nit
+  25:    1  ->  nu
+  26:    1  ->  o
+  27:    1  ->  oe
+  28:    1  ->  pard
+  29:    1  ->  pat
+  30:    1  ->  sit
+  31:    1  ->  t
+  32:    1  ->  v
+  33:    1  ->  var
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,99 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.0%   (  10)
+
+Percent Correct           =   75.0%   (  30)
+
+Percent Substitution      =   20.0%   (   8)
+Percent Deletions         =    5.0%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  38)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cola ==> kola
+   2:    1  ->  fietsbel ==> fisdebel
+   3:    1  ->  meisje ==> nèige
+   4:    1  ->  potlood ==> potloot
+   5:    1  ->  verhaal ==> vraaw
+   6:    1  ->  vlinder ==> voetbalvlinder
+   7:    1  ->  voetbal ==> circus-kleuren
+   8:    1  ->  waarom ==> waaron
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  circus
+   2:    1  ->  kleuren
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cola
+   2:    1  ->  fietsbel
+   3:    1  ->  meisje
+   4:    1  ->  potlood
+   5:    1  ->  verhaal
+   6:    1  ->  vlinder
+   7:    1  ->  voetbal
+   8:    1  ->  waarom
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  circus-kleuren
+   2:    1  ->  fisdebel
+   3:    1  ->  kola
+   4:    1  ->  nèige
+   5:    1  ->  potloot
+   6:    1  ->  voetbalvlinder
+   7:    1  ->  vraaw
+   8:    1  ->  waaron
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

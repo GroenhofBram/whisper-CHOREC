@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.6%   (  28)
+
+Percent Correct           =   36.4%   (  16)
+
+Percent Substitution      =   61.4%   (  27)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   36.4%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> han
+   2:    1  ->  * ==> no
+   3:    1  ->  * ==> nr
+   4:    1  ->  beeg ==> weeg
+   5:    1  ->  blard ==> blacht
+   6:    1  ->  dau ==> daw
+   7:    1  ->  doer*(boer) ==> boer
+   8:    1  ->  dron ==> droon
+   9:    1  ->  eem ==> één
+  10:    1  ->  fam ==> van
+  11:    1  ->  frijk ==> freik
+  12:    1  ->  guul ==> guur
+  13:    1  ->  heik ==> hek
+  14:    1  ->  jien ==> j
+  15:    1  ->  larst ==> lachst
+  16:    1  ->  noork ==> nrk
+  17:    1  ->  plirt ==> pilirt
+  18:    1  ->  rachts ==> pracht
+  19:    1  ->  schard ==> schart
+  20:    1  ->  sjalt ==> schalt
+  21:    1  ->  sooi ==> soi
+  22:    1  ->  spaai ==> spai
+  23:    1  ->  sprieuw ==> spreeuw
+  24:    1  ->  stuid ==> stuit
+  25:    1  ->  vid ==> vit
+  26:    1  ->  zans ==> zandes
+  27:    1  ->  zwoei ==> zwoi
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  *
+   2:    1  ->  beeg
+   3:    1  ->  blard
+   4:    1  ->  dau
+   5:    1  ->  doer*(boer)
+   6:    1  ->  dron
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  frijk
+  10:    1  ->  guul
+  11:    1  ->  heik
+  12:    1  ->  jien
+  13:    1  ->  larst
+  14:    1  ->  noork
+  15:    1  ->  plirt
+  16:    1  ->  rachts
+  17:    1  ->  schard
+  18:    1  ->  sjalt
+  19:    1  ->  sooi
+  20:    1  ->  spaai
+  21:    1  ->  sprieuw
+  22:    1  ->  stuid
+  23:    1  ->  vid
+  24:    1  ->  zans
+  25:    1  ->  zwoei
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  blacht
+   2:    1  ->  boer
+   3:    1  ->  daw
+   4:    1  ->  droon
+   5:    1  ->  freik
+   6:    1  ->  guur
+   7:    1  ->  han
+   8:    1  ->  hek
+   9:    1  ->  j
+  10:    1  ->  lachst
+  11:    1  ->  no
+  12:    1  ->  nr
+  13:    1  ->  nrk
+  14:    1  ->  pilirt
+  15:    1  ->  pracht
+  16:    1  ->  schalt
+  17:    1  ->  schart
+  18:    1  ->  soi
+  19:    1  ->  spai
+  20:    1  ->  spreeuw
+  21:    1  ->  stuit
+  22:    1  ->  van
+  23:    1  ->  vit
+  24:    1  ->  weeg
+  25:    1  ->  zandes
+  26:    1  ->  zwoi
+  27:    1  ->  één
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

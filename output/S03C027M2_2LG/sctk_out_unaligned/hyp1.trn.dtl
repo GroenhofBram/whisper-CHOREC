@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.4%   (  38)
+
+Percent Correct           =   31.8%   (  14)
+
+Percent Substitution      =   68.2%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   18.2%   (   8)
+Percent Word Accuracy     =   13.6%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  52)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> wi
+   2:    1  ->  *(bed) ==> da
+   3:    1  ->  *(bel) ==> nasjel
+   4:    1  ->  *(poot) ==> net
+   5:    1  ->  *s ==> viender
+   6:    1  ->  *s ==> voetbal
+   7:    1  ->  appel*(april) ==> april
+   8:    1  ->  cola ==> conla
+   9:    1  ->  dichtbij ==> ofer
+  10:    1  ->  drinken ==> krinken
+  11:    1  ->  drogen ==> droen
+  12:    1  ->  fietsbel*(fiets) ==> deek
+  13:    1  ->  gooien*(gooi) ==> je
+  14:    1  ->  hoofdpijn ==> hoofdpen
+  15:    1  ->  kleuren ==> kuis
+  16:    1  ->  lawaai ==> jen
+  17:    1  ->  liedje ==> giets
+  18:    1  ->  meisje ==> nu
+  19:    1  ->  moeder ==> potloot
+  20:    1  ->  moeilijk ==> konak
+  21:    1  ->  muziek ==> gek?
+  22:    1  ->  potlood ==> belvinder
+  23:    1  ->  regen ==> igen
+  24:    1  ->  scheuren ==> lawai
+  25:    1  ->  sneeuwen ==> poot
+  26:    1  ->  speelplaats ==> speelplat
+  27:    1  ->  vinger ==> chauffeur
+  28:    1  ->  vlinder ==> en
+  29:    1  ->  voetbal ==> kleur
+  30:    1  ->  zwemmen ==> men
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  circus
+   2:    1  ->  horie
+   3:    1  ->  leet
+   4:    1  ->  mder
+   5:    1  ->  schuren
+   6:    1  ->  snee
+   7:    1  ->  sui
+   8:    1  ->  wer
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  *s
+   2:    1  ->  *
+   3:    1  ->  *(bed)
+   4:    1  ->  *(bel)
+   5:    1  ->  *(poot)
+   6:    1  ->  appel*(april)
+   7:    1  ->  cola
+   8:    1  ->  dichtbij
+   9:    1  ->  drinken
+  10:    1  ->  drogen
+  11:    1  ->  fietsbel*(fiets)
+  12:    1  ->  gooien*(gooi)
+  13:    1  ->  hoofdpijn
+  14:    1  ->  kleuren
+  15:    1  ->  lawaai
+  16:    1  ->  liedje
+  17:    1  ->  meisje
+  18:    1  ->  moeder
+  19:    1  ->  moeilijk
+  20:    1  ->  muziek
+  21:    1  ->  potlood
+  22:    1  ->  regen
+  23:    1  ->  scheuren
+  24:    1  ->  sneeuwen
+  25:    1  ->  speelplaats
+  26:    1  ->  vinger
+  27:    1  ->  vlinder
+  28:    1  ->  voetbal
+  29:    1  ->  zwemmen
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  april
+   2:    1  ->  belvinder
+   3:    1  ->  chauffeur
+   4:    1  ->  conla
+   5:    1  ->  da
+   6:    1  ->  deek
+   7:    1  ->  droen
+   8:    1  ->  en
+   9:    1  ->  gek?
+  10:    1  ->  giets
+  11:    1  ->  hoofdpen
+  12:    1  ->  igen
+  13:    1  ->  je
+  14:    1  ->  jen
+  15:    1  ->  kleur
+  16:    1  ->  konak
+  17:    1  ->  krinken
+  18:    1  ->  kuis
+  19:    1  ->  lawai
+  20:    1  ->  men
+  21:    1  ->  nasjel
+  22:    1  ->  net
+  23:    1  ->  nu
+  24:    1  ->  ofer
+  25:    1  ->  poot
+  26:    1  ->  potloot
+  27:    1  ->  speelplat
+  28:    1  ->  viender
+  29:    1  ->  voetbal
+  30:    1  ->  wi
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

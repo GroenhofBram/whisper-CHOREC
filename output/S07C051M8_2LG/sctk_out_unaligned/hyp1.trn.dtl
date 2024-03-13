@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.9%   (  27)
+
+Percent Correct           =   49.0%   (  25)
+
+Percent Substitution      =   41.2%   (  21)
+Percent Deletions         =    9.8%   (   5)
+Percent Insertions        =    2.0%   (   1)
+Percent Word Accuracy     =   47.1%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  47)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> apol
+   2:    1  ->  * ==> da
+   3:    1  ->  * ==> fietsbil
+   4:    1  ->  * ==> je
+   5:    1  ->  * ==> liedj
+   6:    1  ->  * ==> moe
+   7:    1  ->  * ==> si
+   8:    1  ->  * ==> siersun
+   9:    1  ->  * ==> sisun
+  10:    1  ->  * ==> sschuiren
+  11:    1  ->  *(chocola) ==> chocola
+  12:    1  ->  auto ==> atto
+  13:    1  ->  dichtbij ==> bij
+  14:    1  ->  eerste ==> jerste
+  15:    1  ->  fietsbel ==> vinder
+  16:    1  ->  kussen ==> qwise
+  17:    1  ->  moeilijk ==> moeluk
+  18:    1  ->  schouders ==> schaders
+  19:    1  ->  sneeuwen ==> goeiensneuwen
+  20:    1  ->  vinger ==> dicht
+  21:    1  ->  water ==> watter
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fea
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    3  ->  *
+   2:    1  ->  appel
+   3:    1  ->  chauffeur
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:   10  ->  *
+   2:    1  ->  *(chocola)
+   3:    1  ->  auto
+   4:    1  ->  dichtbij
+   5:    1  ->  eerste
+   6:    1  ->  fietsbel
+   7:    1  ->  kussen
+   8:    1  ->  moeilijk
+   9:    1  ->  schouders
+  10:    1  ->  sneeuwen
+  11:    1  ->  vinger
+  12:    1  ->  water
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  apol
+   2:    1  ->  atto
+   3:    1  ->  bij
+   4:    1  ->  chocola
+   5:    1  ->  da
+   6:    1  ->  dicht
+   7:    1  ->  fietsbil
+   8:    1  ->  goeiensneuwen
+   9:    1  ->  je
+  10:    1  ->  jerste
+  11:    1  ->  liedj
+  12:    1  ->  moe
+  13:    1  ->  moeluk
+  14:    1  ->  qwise
+  15:    1  ->  schaders
+  16:    1  ->  si
+  17:    1  ->  siersun
+  18:    1  ->  sisun
+  19:    1  ->  sschuiren
+  20:    1  ->  vinder
+  21:    1  ->  watter
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

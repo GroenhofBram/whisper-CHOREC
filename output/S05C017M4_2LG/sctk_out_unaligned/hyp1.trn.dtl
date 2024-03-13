@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.4%   (  20)
+
+Percent Correct           =   55.6%   (  25)
+
+Percent Substitution      =   40.0%   (  18)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.6%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  43)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  * ==> schuia
+   2:    1  ->  * ==> me
+   3:    1  ->  * ==> zee
+   4:    1  ->  appel ==> oppel
+   5:    1  ->  cola ==> kolo
+   6:    1  ->  drogen ==> derogen
+   7:    1  ->  fietsbel ==> visebal
+   8:    1  ->  kussen ==> kusen
+   9:    1  ->  liedje ==> lietje
+  10:    1  ->  mevrouw ==> vrouw
+  11:    1  ->  muziek ==> negiek
+  12:    1  ->  potlood ==> potloud
+  13:    1  ->  scheuren ==> scheiren
+  14:    1  ->  speelplaats ==> speelpluits
+  15:    1  ->  verhaal ==> vorhaal
+  16:    1  ->  vlinder ==> vliender
+  17:    1  ->  voetbal ==> cleurenvoetbal
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  kleuren
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    4  ->  *
+   2:    1  ->  appel
+   3:    1  ->  cola
+   4:    1  ->  drogen
+   5:    1  ->  fietsbel
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  mevrouw
+   9:    1  ->  muziek
+  10:    1  ->  potlood
+  11:    1  ->  scheuren
+  12:    1  ->  speelplaats
+  13:    1  ->  verhaal
+  14:    1  ->  vlinder
+  15:    1  ->  voetbal
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  schuia
+   2:    1  ->  cleurenvoetbal
+   3:    1  ->  derogen
+   4:    1  ->  kolo
+   5:    1  ->  kusen
+   6:    1  ->  lietje
+   7:    1  ->  me
+   8:    1  ->  negiek
+   9:    1  ->  oppel
+  10:    1  ->  potloud
+  11:    1  ->  scheiren
+  12:    1  ->  speelpluits
+  13:    1  ->  visebal
+  14:    1  ->  vliender
+  15:    1  ->  vorhaal
+  16:    1  ->  vrouw
+  17:    1  ->  zee
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

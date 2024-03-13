@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C064V3_1LG
+
+#### (S02C064V3_1LG-words)
+
+- Cor=36.6%	Sub=58.5%	Del=4.9%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | kalas | mooi | koe | arm | groei | strand | bet | eerst | voor |  | a | shal | herst | luur | sstrit | leelclon | clun | houk | hont | hout | frind | gal | ship | goon | feest | res | jas | res | ert | ef | nut | ee | kind | bang |  | oogzacht | schoen | plas | nes | knop | plank |
+| EVAL | S |  |  |  |  |  | S |  |  | D | S | S | S | S | S | S | S | S | S |  | S | S | S | S |  | S |  | S | S | S | S | S |  |  | D | S |  |  | S | S |  |
+---
+
+---

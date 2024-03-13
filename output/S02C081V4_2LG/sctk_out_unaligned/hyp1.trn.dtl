@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.8%   (  10)
+
+Percent Correct           =   76.2%   (  32)
+
+Percent Substitution      =   23.8%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  * ==> wat
+   2:    1  ->  *(eerst) ==> eerst
+   3:    1  ->  appel ==> abbel
+   4:    1  ->  circus ==> sirpus
+   5:    1  ->  fietsbel ==> vietsbijl
+   6:    1  ->  liedje ==> lietje
+   7:    1  ->  regen ==> dringen
+   8:    1  ->  vinger ==> inger
+   9:    1  ->  vuurwerk ==> geurwerk
+  10:    1  ->  zwemmen ==> sulmen
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  appel
+   4:    1  ->  circus
+   5:    1  ->  fietsbel
+   6:    1  ->  liedje
+   7:    1  ->  regen
+   8:    1  ->  vinger
+   9:    1  ->  vuurwerk
+  10:    1  ->  zwemmen
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  abbel
+   2:    1  ->  dringen
+   3:    1  ->  eerst
+   4:    1  ->  geurwerk
+   5:    1  ->  inger
+   6:    1  ->  lietje
+   7:    1  ->  sirpus
+   8:    1  ->  sulmen
+   9:    1  ->  vietsbijl
+  10:    1  ->  wat
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

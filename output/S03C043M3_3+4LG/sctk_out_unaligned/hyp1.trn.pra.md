@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C043M3_3+4LG
+
+#### (S03C043M3_3+4LG-words)
+
+- Cor=24.6%	Sub=46.2%	Del=0.0%	Ins=29.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  |  |  | poppenwagen | konijnenhok | elastiekje | * | ruziemaken | teddybeer | dierentuin | paddenstoelen |  |  |  |  | verstoppertje | wasmachine | fototoestel | * | * | toiletpapier | vrachtwagen |  | buurmannen | vogelkooi | olifant | *(schoen) | schommelen | iedereen |  | schoenenwinkel*(schoenwinkel) | knutselen | * | ophangen | verjaardag |  |  | sprookjesboek | tandenborstel | lucifer | slaapkamer | achterdeur |  |  |  | ziekenhuis | nieuwsgierig | afblijven |  |  |  |  | kabouter | washandje | sneeuwwitje | goeiendag | goeiendag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | omdraaien | poepen | wagen | konijnen | hok | en | lastiekja | ru | ruzie | maken | telibeen | dierentaan | paddenstoelen | verstopperd | je | wax | machine | fototosti | toe | ti | olik | toalik | papier | vrachtwagen | buurn | mannen | vogelkoue | oulifant | schoen | schommalen | iedereen | schoen | winkol | kritsen | lun | ophangen | verjaardag | sprookjes | boek | tanden | borstel | ecifer | slaapkamer | achterdeur | zie | ik | in | huis | nieuwsgierig | afblijven | ka | wauter | was | handje | snee | wietje | goeien | dag | goeiedag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| EVAL |  | I | I | I | I | S | S | S | S | S | S | S |  | I | I | I | I | S | S | S | S | S | S |  | I | S | S | S | S | S |  | I | S | S | S |  |  | I | I | S | S | S |  |  | I | I | I | S |  |  | I | I | I | I | S | S | S | S | S |  |  |  |  |  |  |
+---
+
+---

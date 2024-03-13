@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   48.8%   (  20)
+
+Percent Correct           =   51.2%   (  21)
+
+Percent Substitution      =   48.8%   (  20)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   51.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> stana
+   2:    1  ->  chips ==> ships
+   3:    1  ->  clown ==> clonn
+   4:    1  ->  draai ==> drai
+   5:    1  ->  feest ==> veest
+   6:    1  ->  gauw ==> gou
+   7:    1  ->  groei ==> groeni
+   8:    1  ->  herfst ==> herst
+   9:    1  ->  hoek ==> hook
+  10:    1  ->  huis ==> us
+  11:    1  ->  knoop ==> knop
+  12:    1  ->  krant ==> kant
+  13:    1  ->  mooi ==> mae
+  14:    1  ->  muts ==> mut
+  15:    1  ->  nieuw ==> niew
+  16:    1  ->  oog ==> bor
+  17:    1  ->  paard ==> paart
+  18:    1  ->  plas ==> blas
+  19:    1  ->  reis ==> es
+  20:    1  ->  sjaal ==> sjal
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  *
+   2:    1  ->  chips
+   3:    1  ->  clown
+   4:    1  ->  draai
+   5:    1  ->  feest
+   6:    1  ->  gauw
+   7:    1  ->  groei
+   8:    1  ->  herfst
+   9:    1  ->  hoek
+  10:    1  ->  huis
+  11:    1  ->  knoop
+  12:    1  ->  krant
+  13:    1  ->  mooi
+  14:    1  ->  muts
+  15:    1  ->  nieuw
+  16:    1  ->  oog
+  17:    1  ->  paard
+  18:    1  ->  plas
+  19:    1  ->  reis
+  20:    1  ->  sjaal
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  blas
+   2:    1  ->  bor
+   3:    1  ->  clonn
+   4:    1  ->  drai
+   5:    1  ->  es
+   6:    1  ->  gou
+   7:    1  ->  groeni
+   8:    1  ->  herst
+   9:    1  ->  hook
+  10:    1  ->  kant
+  11:    1  ->  knop
+  12:    1  ->  mae
+  13:    1  ->  mut
+  14:    1  ->  niew
+  15:    1  ->  paart
+  16:    1  ->  ships
+  17:    1  ->  sjal
+  18:    1  ->  stana
+  19:    1  ->  us
+  20:    1  ->  veest
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

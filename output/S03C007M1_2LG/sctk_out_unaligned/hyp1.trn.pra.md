@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C007M1_2LG
+
+#### (S03C007M1_2LG-words)
+
+- Cor=11.3%	Sub=64.5%	Del=24.2%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | * | * | water | mevrouw | * | drogen | winkel | auto | * | schouders | verhaal | * | * | *s | koning | * | moeilijk | speelplaats | drinken | * | hoofdpijn | * | regen | regen | vliegtuig | stoppen | * | opnieuw | gooien | * | sneeuwen | * | moeder | liedje | potlood | fietsbel | vinger | dichtbij | * | meisje | chauffeur | muziek | waarom | * | * | * | * | * | scheuren | * | lawaai | * | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder |
+| HYP1 |  | wat | water |  |  |  |  |  | neen | vouw | nnkel | ato | saglder | vraal | dnekakoning | o | moeilijk |  |  |  | sulplat | derintun | hoofuhm | regen | kus | stoppen |  | opnieuw |  | opnieuw | g | g | goen | goen | even | or | olot | i | bil | l | di | be | ne | cil | o | ni | zik | waarom | scheuren |  |  | nau | uh | wert | aen | ona | kussen |  |  | ee | en | otal |
+| EVAL | D | S |  | D | D | D | D | D | S | S | S | S | S | S | S | S |  | D | D | D | S | S | S |  | S |  | D |  | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | D | S | S | S | S | S |  | D | D | S | S | S |
+---
+
+---

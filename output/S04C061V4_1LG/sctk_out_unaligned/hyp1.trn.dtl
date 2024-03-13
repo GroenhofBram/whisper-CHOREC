@@ -1,0 +1,109 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.0%   (  12)
+
+Percent Correct           =   70.0%   (  28)
+
+Percent Substitution      =   30.0%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   70.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bang ==> wang
+   2:    1  ->  bed ==> bit
+   3:    1  ->  clown ==> klown
+   4:    1  ->  gauw ==> guw
+   5:    1  ->  herfst ==> herst
+   6:    1  ->  huis ==> ruis
+   7:    1  ->  kind ==> gekint
+   8:    1  ->  koe ==> koel
+   9:    1  ->  leeuw ==> leel
+  10:    1  ->  neus ==> nuis
+  11:    1  ->  plank ==> pla
+  12:    1  ->  reis ==> rijs
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bang
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  gauw
+   5:    1  ->  herfst
+   6:    1  ->  huis
+   7:    1  ->  kind
+   8:    1  ->  koe
+   9:    1  ->  leeuw
+  10:    1  ->  neus
+  11:    1  ->  plank
+  12:    1  ->  reis
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bit
+   2:    1  ->  gekint
+   3:    1  ->  guw
+   4:    1  ->  herst
+   5:    1  ->  klown
+   6:    1  ->  koel
+   7:    1  ->  leel
+   8:    1  ->  nuis
+   9:    1  ->  pla
+  10:    1  ->  rijs
+  11:    1  ->  ruis
+  12:    1  ->  wang
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

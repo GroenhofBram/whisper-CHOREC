@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.6%   (  39)
+
+Percent Correct           =   26.5%   (  13)
+
+Percent Substitution      =   69.4%   (  34)
+Percent Deletions         =    4.1%   (   2)
+Percent Insertions        =    6.1%   (   3)
+Percent Word Accuracy     =   20.4%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  50)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> beetje
+   2:    1  ->  * ==> eer
+   3:    1  ->  * ==> ka
+   4:    1  ->  * ==> kki
+   5:    1  ->  * ==> leetje
+   6:    1  ->  * ==> legenvedal
+   7:    1  ->  * ==> maar
+   8:    1  ->  * ==> nese
+   9:    1  ->  * ==> scgraffeur
+  10:    1  ->  * ==> smemen
+  11:    1  ->  * ==> tem
+  12:    1  ->  cola ==> apel
+  13:    1  ->  dichtbij ==> de
+  14:    1  ->  drinken ==> drenken
+  15:    1  ->  eerste ==> kristen
+  16:    1  ->  fietsbel ==> fismel
+  17:    1  ->  kleuren ==> circus
+  18:    1  ->  koning*(koningin) ==> konningin
+  19:    1  ->  kussen ==> sua
+  20:    1  ->  lawaai ==> geuren
+  21:    1  ->  meisje ==> bi
+  22:    1  ->  mevrouw ==> van
+  23:    1  ->  moeilijk ==> elijk
+  24:    1  ->  muziek ==> ne
+  25:    1  ->  potlood ==> totlout
+  26:    1  ->  regen ==> wegen
+  27:    1  ->  scheuren ==> um
+  28:    1  ->  sneeuwen ==> en
+  29:    1  ->  speelplaats ==> speelbeleid
+  30:    1  ->  stoppen ==> stopen
+  31:    1  ->  verhaal ==> vaal
+  32:    1  ->  voetbal ==> zeg
+  33:    1  ->  waarom ==> zek
+  34:    1  ->  zwemmen ==> wawai
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  bij
+   2:    1  ->  mer
+   3:    1  ->  snieuw
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  appel
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   11  ->  *
+   2:    1  ->  cola
+   3:    1  ->  dichtbij
+   4:    1  ->  drinken
+   5:    1  ->  eerste
+   6:    1  ->  fietsbel
+   7:    1  ->  kleuren
+   8:    1  ->  koning*(koningin)
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  meisje
+  12:    1  ->  mevrouw
+  13:    1  ->  moeilijk
+  14:    1  ->  muziek
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  scheuren
+  18:    1  ->  sneeuwen
+  19:    1  ->  speelplaats
+  20:    1  ->  stoppen
+  21:    1  ->  verhaal
+  22:    1  ->  voetbal
+  23:    1  ->  waarom
+  24:    1  ->  zwemmen
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  apel
+   2:    1  ->  beetje
+   3:    1  ->  bi
+   4:    1  ->  circus
+   5:    1  ->  de
+   6:    1  ->  drenken
+   7:    1  ->  eer
+   8:    1  ->  elijk
+   9:    1  ->  en
+  10:    1  ->  fismel
+  11:    1  ->  geuren
+  12:    1  ->  ka
+  13:    1  ->  kki
+  14:    1  ->  konningin
+  15:    1  ->  kristen
+  16:    1  ->  leetje
+  17:    1  ->  legenvedal
+  18:    1  ->  maar
+  19:    1  ->  ne
+  20:    1  ->  nese
+  21:    1  ->  scgraffeur
+  22:    1  ->  smemen
+  23:    1  ->  speelbeleid
+  24:    1  ->  stopen
+  25:    1  ->  sua
+  26:    1  ->  tem
+  27:    1  ->  totlout
+  28:    1  ->  um
+  29:    1  ->  vaal
+  30:    1  ->  van
+  31:    1  ->  wawai
+  32:    1  ->  wegen
+  33:    1  ->  zeg
+  34:    1  ->  zek
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

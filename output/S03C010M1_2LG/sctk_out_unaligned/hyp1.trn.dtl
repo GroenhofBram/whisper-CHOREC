@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.2%   (  56)
+
+Percent Correct           =    1.8%   (   1)
+
+Percent Substitution      =   73.7%   (  42)
+Percent Deletions         =   24.6%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.8%
+
+
+Ref. words                =           (  57)
+Hyp. words                =           (  43)
+Aligned words             =           (  57)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  * ==> u
+   2:    1  ->  * ==> el
+   3:    1  ->  * ==> er
+   4:    1  ->  * ==> gu
+   5:    1  ->  * ==> k
+   6:    1  ->  * ==> re
+   7:    1  ->  * ==> tu
+   8:    1  ->  * ==> uh
+   9:    1  ->  * ==> vodbe
+  10:    1  ->  * ==> vood
+  11:    1  ->  *s ==> ln
+  12:    1  ->  *t ==> waarom?
+  13:    1  ->  appel ==> ap
+  14:    1  ->  chauffeur ==> fi
+  15:    1  ->  circus ==> heer
+  16:    1  ->  dichtbij ==> je
+  17:    1  ->  drinken ==> nee
+  18:    1  ->  fietsbel ==> ne
+  19:    1  ->  gooien*(gooi) ==> uhm
+  20:    1  ->  hoofdpijn ==> één
+  21:    1  ->  kleuren ==> gweest
+  22:    1  ->  kussen ==> koa
+  23:    1  ->  lawaai ==> waarom?
+  24:    1  ->  liedje ==> o
+  25:    1  ->  meisje ==> loord
+  26:    1  ->  moeder ==> o
+  27:    1  ->  muziek ==> d
+  28:    1  ->  opnieuw ==> mat
+  29:    1  ->  potlood ==> neel
+  30:    1  ->  regen ==> eers
+  31:    1  ->  scheuren ==> uh
+  32:    1  ->  sneeuwen ==> ka
+  33:    1  ->  stoppen ==> ik
+  34:    1  ->  vinger ==> eet
+  35:    1  ->  vliegtuig ==> ko
+  36:    1  ->  vlinder ==> n
+  37:    1  ->  voetbal ==> r
+  38:    1  ->  vuurwerk ==> erik
+  39:    1  ->  waarom ==> u
+  40:    1  ->  zwemmen ==> em
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    4  ->  *
+   2:    1  ->  auto
+   3:    1  ->  drogen
+   4:    1  ->  koning
+   5:    1  ->  mevrouw
+   6:    1  ->  moeilijk
+   7:    1  ->  schouders
+   8:    1  ->  speelplaats
+   9:    1  ->  verhaal
+  10:    1  ->  water
+  11:    1  ->  winkel
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   12  ->  *
+   2:    1  ->  *s
+   3:    1  ->  *t
+   4:    1  ->  appel
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  dichtbij
+   8:    1  ->  drinken
+   9:    1  ->  fietsbel
+  10:    1  ->  gooien*(gooi)
+  11:    1  ->  hoofdpijn
+  12:    1  ->  kleuren
+  13:    1  ->  kussen
+  14:    1  ->  lawaai
+  15:    1  ->  liedje
+  16:    1  ->  meisje
+  17:    1  ->  moeder
+  18:    1  ->  muziek
+  19:    1  ->  opnieuw
+  20:    1  ->  potlood
+  21:    1  ->  regen
+  22:    1  ->  scheuren
+  23:    1  ->  sneeuwen
+  24:    1  ->  stoppen
+  25:    1  ->  vinger
+  26:    1  ->  vliegtuig
+  27:    1  ->  vlinder
+  28:    1  ->  voetbal
+  29:    1  ->  vuurwerk
+  30:    1  ->  waarom
+  31:    1  ->  zwemmen
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  u
+   2:    2  ->  o
+   3:    2  ->  uh
+   4:    2  ->  waarom?
+   5:    1  ->  ap
+   6:    1  ->  d
+   7:    1  ->  eers
+   8:    1  ->  eet
+   9:    1  ->  el
+  10:    1  ->  em
+  11:    1  ->  er
+  12:    1  ->  erik
+  13:    1  ->  fi
+  14:    1  ->  gu
+  15:    1  ->  gweest
+  16:    1  ->  heer
+  17:    1  ->  ik
+  18:    1  ->  je
+  19:    1  ->  k
+  20:    1  ->  ka
+  21:    1  ->  ko
+  22:    1  ->  koa
+  23:    1  ->  ln
+  24:    1  ->  loord
+  25:    1  ->  mat
+  26:    1  ->  n
+  27:    1  ->  ne
+  28:    1  ->  nee
+  29:    1  ->  neel
+  30:    1  ->  r
+  31:    1  ->  re
+  32:    1  ->  tu
+  33:    1  ->  uhm
+  34:    1  ->  vodbe
+  35:    1  ->  vood
+  36:    1  ->  één
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

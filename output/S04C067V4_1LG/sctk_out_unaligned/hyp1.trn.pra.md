@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C067V4_1LG
+
+#### (S04C067V4_1LG-words)
+
+- Cor=26.8%	Sub=68.3%	Del=4.9%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | * | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi |  | kol | erm | grooi | strand | bit | erst | voor | dri | shal | herst | deur | straat | leeuw |  | klan | hook | kran | hat | vreemd | gouw | schips | groendvest | res | jas | hes | bert | ves | mut | neeuw | kind | ben | olg | zacht | schoen | plas | nuis | cnop | bla |
+| EVAL |  |  | D | S | S | S |  | S | S |  | S | S | S | S |  |  | D | S | S | S | S | S | S | S | S | S |  | S | S | S | S | S |  | S | S |  |  |  | S | S | S |
+---
+
+---

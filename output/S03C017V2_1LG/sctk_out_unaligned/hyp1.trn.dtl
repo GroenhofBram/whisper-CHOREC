@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.0%   (  29)
+
+Percent Correct           =   31.0%   (  13)
+
+Percent Substitution      =   69.0%   (  29)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   31.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> fa
+   2:    1  ->  *(standaard) ==> standard
+   3:    1  ->  bed ==> bit
+   4:    1  ->  chips*(gips) ==> gips
+   5:    1  ->  clown ==> klouwen
+   6:    1  ->  draai ==> traai
+   7:    1  ->  feest ==> vest
+   8:    1  ->  gauw ==> gel
+   9:    1  ->  groei ==> roi
+  10:    1  ->  hoek ==> hook
+  11:    1  ->  hout ==> helt
+  12:    1  ->  huis ==> hes
+  13:    1  ->  klas ==> klaf
+  14:    1  ->  knoop ==> knop
+  15:    1  ->  koe ==> co
+  16:    1  ->  leeuw ==> leel
+  17:    1  ->  muts ==> nit
+  18:    1  ->  neus ==> neer
+  19:    1  ->  nieuw ==> nee
+  20:    1  ->  oog ==> of
+  21:    1  ->  paard ==> paart
+  22:    1  ->  plas ==> plaf
+  23:    1  ->  reis ==> ref
+  24:    1  ->  schoen ==> schoon
+  25:    1  ->  straat ==> staat
+  26:    1  ->  strand ==> dan
+  27:    1  ->  vijf ==> va
+  28:    1  ->  vriend ==> vreemd
+  29:    1  ->  zacht ==> zegt
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  *
+   2:    1  ->  *(standaard)
+   3:    1  ->  bed
+   4:    1  ->  chips*(gips)
+   5:    1  ->  clown
+   6:    1  ->  draai
+   7:    1  ->  feest
+   8:    1  ->  gauw
+   9:    1  ->  groei
+  10:    1  ->  hoek
+  11:    1  ->  hout
+  12:    1  ->  huis
+  13:    1  ->  klas
+  14:    1  ->  knoop
+  15:    1  ->  koe
+  16:    1  ->  leeuw
+  17:    1  ->  muts
+  18:    1  ->  neus
+  19:    1  ->  nieuw
+  20:    1  ->  oog
+  21:    1  ->  paard
+  22:    1  ->  plas
+  23:    1  ->  reis
+  24:    1  ->  schoen
+  25:    1  ->  straat
+  26:    1  ->  strand
+  27:    1  ->  vijf
+  28:    1  ->  vriend
+  29:    1  ->  zacht
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  bit
+   2:    1  ->  co
+   3:    1  ->  dan
+   4:    1  ->  fa
+   5:    1  ->  gel
+   6:    1  ->  gips
+   7:    1  ->  helt
+   8:    1  ->  hes
+   9:    1  ->  hook
+  10:    1  ->  klaf
+  11:    1  ->  klouwen
+  12:    1  ->  knop
+  13:    1  ->  leel
+  14:    1  ->  nee
+  15:    1  ->  neer
+  16:    1  ->  nit
+  17:    1  ->  of
+  18:    1  ->  paart
+  19:    1  ->  plaf
+  20:    1  ->  ref
+  21:    1  ->  roi
+  22:    1  ->  schoon
+  23:    1  ->  staat
+  24:    1  ->  standard
+  25:    1  ->  traai
+  26:    1  ->  va
+  27:    1  ->  vest
+  28:    1  ->  vreemd
+  29:    1  ->  zegt
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.0%   (  21)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   47.6%   (  20)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   50.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> drei
+   2:    1  ->  arm ==> em
+   3:    1  ->  bang ==> ban
+   4:    1  ->  bed ==> bet
+   5:    1  ->  clown ==> klon
+   6:    1  ->  herfst ==> hebst
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  hout ==> out
+   9:    1  ->  huis ==> uis
+  10:    1  ->  klas ==> klat
+  11:    1  ->  knoop ==> plop
+  12:    1  ->  koe ==> ko
+  13:    1  ->  muts ==> luts
+  14:    1  ->  neus ==> plus
+  15:    1  ->  nieuw ==> leeuw
+  16:    1  ->  paard ==> paaht
+  17:    1  ->  reis ==> fes
+  18:    1  ->  schoen ==> goen
+  19:    1  ->  sjaal ==> show
+  20:    1  ->  strand ==> sterant
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  draai
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  *
+   2:    1  ->  arm
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  clown
+   6:    1  ->  herfst
+   7:    1  ->  hoek
+   8:    1  ->  hout
+   9:    1  ->  huis
+  10:    1  ->  klas
+  11:    1  ->  knoop
+  12:    1  ->  koe
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  nieuw
+  16:    1  ->  paard
+  17:    1  ->  reis
+  18:    1  ->  schoen
+  19:    1  ->  sjaal
+  20:    1  ->  strand
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  ban
+   2:    1  ->  bet
+   3:    1  ->  drei
+   4:    1  ->  em
+   5:    1  ->  fes
+   6:    1  ->  goen
+   7:    1  ->  hebst
+   8:    1  ->  hook
+   9:    1  ->  klat
+  10:    1  ->  klon
+  11:    1  ->  ko
+  12:    1  ->  leeuw
+  13:    1  ->  luts
+  14:    1  ->  out
+  15:    1  ->  paaht
+  16:    1  ->  plop
+  17:    1  ->  plus
+  18:    1  ->  show
+  19:    1  ->  sterant
+  20:    1  ->  uis
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

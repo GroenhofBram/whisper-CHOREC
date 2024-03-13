@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.1%   (  51)
+
+Percent Correct           =   25.0%   (  14)
+
+Percent Substitution      =   69.6%   (  39)
+Percent Deletions         =    5.4%   (   3)
+Percent Insertions        =   16.1%   (   9)
+Percent Word Accuracy     =    8.9%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  62)
+Aligned words             =           (  65)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  *x ==> shofer
+   2:    1  ->  * ==> ee
+   3:    1  ->  * ==> fiets
+   4:    1  ->  * ==> gon
+   5:    1  ->  * ==> k
+   6:    1  ->  * ==> ke
+   7:    1  ->  * ==> kielgekus
+   8:    1  ->  * ==> lood?
+   9:    1  ->  * ==> m
+  10:    1  ->  * ==> oh
+  11:    1  ->  * ==> ola
+  12:    1  ->  * ==> raw
+  13:    1  ->  * ==> shofer
+  14:    1  ->  * ==> uh
+  15:    1  ->  *x ==> uzie
+  16:    1  ->  circus ==> cigks
+  17:    1  ->  cola ==> abel
+  18:    1  ->  dichtbij*(dichterbij) ==> lezn
+  19:    1  ->  drinken ==> deginken
+  20:    1  ->  drogen ==> gon
+  21:    1  ->  gooien ==> goien
+  22:    1  ->  kleuren ==> leam
+  23:    1  ->  kussen ==> ue
+  24:    1  ->  lawaai ==> lawai
+  25:    1  ->  liedje ==> nikeer
+  26:    1  ->  meisje ==> chaffer
+  27:    1  ->  muziek ==> k?
+  28:    1  ->  opnieuw ==> opniew
+  29:    1  ->  potlood ==> wot
+  30:    1  ->  scheuren ==> n
+  31:    1  ->  sneeuwen ==> newen
+  32:    1  ->  vinger ==> man
+  33:    1  ->  vliegtuig ==> vliegdeg
+  34:    1  ->  vlinder ==> dah
+  35:    1  ->  waarom ==> warom
+  36:    1  ->  water ==> va
+  37:    1  ->  winkel ==> wintel
+  38:    1  ->  zwemmen ==> slimmen
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bij
+   2:    1  ->  dichter
+   3:    1  ->  ka
+   4:    1  ->  kf
+   5:    1  ->  meise
+   6:    1  ->  sior
+   7:    1  ->  vulling
+   8:    1  ->  wa
+   9:    1  ->  wate
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   13  ->  *
+   2:    3  ->  *x
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dichtbij*(dichterbij)
+   6:    1  ->  drinken
+   7:    1  ->  drogen
+   8:    1  ->  gooien
+   9:    1  ->  kleuren
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  meisje
+  14:    1  ->  muziek
+  15:    1  ->  opnieuw
+  16:    1  ->  potlood
+  17:    1  ->  scheuren
+  18:    1  ->  sneeuwen
+  19:    1  ->  vinger
+  20:    1  ->  vliegtuig
+  21:    1  ->  vlinder
+  22:    1  ->  waarom
+  23:    1  ->  water
+  24:    1  ->  winkel
+  25:    1  ->  zwemmen
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  shofer
+   2:    2  ->  gon
+   3:    1  ->  abel
+   4:    1  ->  chaffer
+   5:    1  ->  cigks
+   6:    1  ->  dah
+   7:    1  ->  deginken
+   8:    1  ->  ee
+   9:    1  ->  fiets
+  10:    1  ->  goien
+  11:    1  ->  k
+  12:    1  ->  k?
+  13:    1  ->  ke
+  14:    1  ->  kielgekus
+  15:    1  ->  lawai
+  16:    1  ->  leam
+  17:    1  ->  lezn
+  18:    1  ->  lood?
+  19:    1  ->  m
+  20:    1  ->  man
+  21:    1  ->  n
+  22:    1  ->  newen
+  23:    1  ->  nikeer
+  24:    1  ->  oh
+  25:    1  ->  ola
+  26:    1  ->  opniew
+  27:    1  ->  raw
+  28:    1  ->  slimmen
+  29:    1  ->  ue
+  30:    1  ->  uh
+  31:    1  ->  uzie
+  32:    1  ->  va
+  33:    1  ->  vliegdeg
+  34:    1  ->  warom
+  35:    1  ->  wintel
+  36:    1  ->  wot
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

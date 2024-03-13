@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C021M8_2LGPseudo
+
+#### (S06C021M8_2LGPseudo-words)
+
+- Cor=15.4%	Sub=67.3%	Del=0.0%	Ins=17.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  | millen | vocil | geutel | sjobel | ierpieuw | walaan | erke |  | haweel | saarweng | * | gevicht | eemde |  | bepoud | orstalk |  |  | veten*(vetten) | gefouw | * | vurpaand | nizung | fiewon | kneurem | vawaai | strellen*(strelen) | zwieten | foetbans | oonste | muider | grijnken |  |  |  | schielstaug | * | prilsood | vloender | milste | veurder | kloeien | ulen |  | orponk | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 | milem | fokil | etel | shurbel | ir | peel | wolaan | erke | awel | sar | wing | gea | gevicht | eemde | bet | palt | orstalk | vetten | gevouw | ve | vurpend | nusingv | fiweng | ne | rem | va | wi | streilen | zweten | voetbalnd | onste | wader | grijnken | gil | tag | bris | brilst | sort | vlunder | misla | te | veerder | kloeien | ulen | or | punk | schodig | ipo | menier | sprejkje | hifreeuw | woandv |
+| EVAL | I | S | S | S | S | S | S |  | I | S | S | S |  |  | I | S |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S |  |  | I | S |  | S | S | S | S | S |
+---
+
+---

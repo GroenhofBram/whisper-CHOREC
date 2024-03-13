@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  83)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   54.2%   (  45)
+Percent Deletions         =   45.8%   (  38)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  83)
+Hyp. words                =           (  45)
+Aligned words             =           (  83)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  *s ==> s
+   2:    1  ->  * ==> hoe
+   3:    1  ->  *s ==> a
+   4:    1  ->  *s ==> ah
+   5:    1  ->  *s ==> beso
+   6:    1  ->  *s ==> de
+   7:    1  ->  *s ==> ebtel
+   8:    1  ->  *s ==> ge
+   9:    1  ->  *s ==> in
+  10:    1  ->  *s ==> ken
+  11:    1  ->  *s ==> mimeld
+  12:    1  ->  *s ==> mist
+  13:    1  ->  *s ==> n
+  14:    1  ->  *s ==> osten
+  15:    1  ->  *s ==> pant
+  16:    1  ->  *s ==> schodel
+  17:    1  ->  *s ==> schouwer
+  18:    1  ->  *s ==> u
+  19:    1  ->  *s ==> voorsi
+  20:    1  ->  *s ==> vouwen
+  21:    1  ->  *s ==> we
+  22:    1  ->  *s ==> één
+  23:    1  ->  foetbans ==> minter
+  24:    1  ->  grijnken ==> tvpun
+  25:    1  ->  hiffreeuw ==> scherpin
+  26:    1  ->  ijpo ==> voeter
+  27:    1  ->  kloeien ==> t
+  28:    1  ->  kneurem ==> geuzen
+  29:    1  ->  menuur ==> voor
+  30:    1  ->  milste ==> swoete
+  31:    1  ->  muider ==> val
+  32:    1  ->  oonste ==> ostel
+  33:    1  ->  orponk ==> schiet
+  34:    1  ->  prilsood ==> kum
+  35:    1  ->  schielstaug ==> mees
+  36:    1  ->  schodig ==> vrouw
+  37:    1  ->  spreikje ==> zodig
+  38:    1  ->  strellen ==> uh
+  39:    1  ->  ulen ==> dkum
+  40:    1  ->  vawaai*(vouwen) ==> er
+  41:    1  ->  veurder ==> voedkendes
+  42:    1  ->  vloender*(voeder) ==> te
+  43:    1  ->  wooien ==> ho
+  44:    1  ->  zwieten ==> wegent
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   18  ->  *s
+   2:    2  ->  *x
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  gefouw*(gevouw)
+   8:    1  ->  geutel
+   9:    1  ->  gevicht
+  10:    1  ->  haweel
+  11:    1  ->  ierpieuw
+  12:    1  ->  millen
+  13:    1  ->  nizung
+  14:    1  ->  orstalk
+  15:    1  ->  saarweng
+  16:    1  ->  sjobel
+  17:    1  ->  veten
+  18:    1  ->  vocil
+  19:    1  ->  vurpaand
+  20:    1  ->  walaan
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   22  ->  *s
+   2:    1  ->  *
+   3:    1  ->  foetbans
+   4:    1  ->  grijnken
+   5:    1  ->  hiffreeuw
+   6:    1  ->  ijpo
+   7:    1  ->  kloeien
+   8:    1  ->  kneurem
+   9:    1  ->  menuur
+  10:    1  ->  milste
+  11:    1  ->  muider
+  12:    1  ->  oonste
+  13:    1  ->  orponk
+  14:    1  ->  prilsood
+  15:    1  ->  schielstaug
+  16:    1  ->  schodig
+  17:    1  ->  spreikje
+  18:    1  ->  strellen
+  19:    1  ->  ulen
+  20:    1  ->  vawaai*(vouwen)
+  21:    1  ->  veurder
+  22:    1  ->  vloender*(voeder)
+  23:    1  ->  wooien
+  24:    1  ->  zwieten
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  ah
+   4:    1  ->  beso
+   5:    1  ->  de
+   6:    1  ->  dkum
+   7:    1  ->  ebtel
+   8:    1  ->  er
+   9:    1  ->  ge
+  10:    1  ->  geuzen
+  11:    1  ->  ho
+  12:    1  ->  hoe
+  13:    1  ->  in
+  14:    1  ->  ken
+  15:    1  ->  kum
+  16:    1  ->  mees
+  17:    1  ->  mimeld
+  18:    1  ->  minter
+  19:    1  ->  mist
+  20:    1  ->  n
+  21:    1  ->  ostel
+  22:    1  ->  osten
+  23:    1  ->  pant
+  24:    1  ->  scherpin
+  25:    1  ->  schiet
+  26:    1  ->  schodel
+  27:    1  ->  schouwer
+  28:    1  ->  swoete
+  29:    1  ->  t
+  30:    1  ->  te
+  31:    1  ->  tvpun
+  32:    1  ->  u
+  33:    1  ->  uh
+  34:    1  ->  val
+  35:    1  ->  voedkendes
+  36:    1  ->  voeter
+  37:    1  ->  voor
+  38:    1  ->  voorsi
+  39:    1  ->  vouwen
+  40:    1  ->  vrouw
+  41:    1  ->  we
+  42:    1  ->  wegent
+  43:    1  ->  zodig
+  44:    1  ->  één
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

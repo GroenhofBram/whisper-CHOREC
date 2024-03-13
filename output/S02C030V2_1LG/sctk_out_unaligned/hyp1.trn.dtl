@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   32.5%   (  13)
+
+Percent Correct           =   67.5%   (  27)
+
+Percent Substitution      =   30.0%   (  12)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   67.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  clown ==> kloon
+   2:    1  ->  draai ==> drei
+   3:    1  ->  groei ==> grooi
+   4:    1  ->  groen ==> shipsgroen
+   5:    1  ->  hout ==> gad
+   6:    1  ->  koe ==> koor
+   7:    1  ->  leeuw ==> leew
+   8:    1  ->  muts ==> mucht
+   9:    1  ->  nieuw ==> neew
+  10:    1  ->  paard ==> paart
+  11:    1  ->  reis ==> res
+  12:    1  ->  sjaal ==> sinaal
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chips
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  clown
+   2:    1  ->  draai
+   3:    1  ->  groei
+   4:    1  ->  groen
+   5:    1  ->  hout
+   6:    1  ->  koe
+   7:    1  ->  leeuw
+   8:    1  ->  muts
+   9:    1  ->  nieuw
+  10:    1  ->  paard
+  11:    1  ->  reis
+  12:    1  ->  sjaal
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  drei
+   2:    1  ->  gad
+   3:    1  ->  grooi
+   4:    1  ->  kloon
+   5:    1  ->  koor
+   6:    1  ->  leew
+   7:    1  ->  mucht
+   8:    1  ->  neew
+   9:    1  ->  paart
+  10:    1  ->  res
+  11:    1  ->  shipsgroen
+  12:    1  ->  sinaal
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

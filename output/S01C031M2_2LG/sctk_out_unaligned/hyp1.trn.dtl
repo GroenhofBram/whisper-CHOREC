@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   66.7%   (  30)
+
+Percent Correct           =   40.0%   (  18)
+
+Percent Substitution      =   55.6%   (  25)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    6.7%   (   3)
+Percent Word Accuracy     =   33.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  46)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> heerste
+   2:    1  ->  * ==> k
+   3:    1  ->  * ==> keurekuus
+   4:    1  ->  * ==> veral
+   5:    1  ->  * ==> vlee
+   6:    1  ->  *(appelen) ==> vurwerk
+   7:    1  ->  chauffeur ==> gaufereel
+   8:    1  ->  circus ==> sirekis
+   9:    1  ->  cola ==> appelen
+  10:    1  ->  drinken ==> treenkent
+  11:    1  ->  eerste ==> kusen
+  12:    1  ->  fietsbel ==> wel
+  13:    1  ->  hoofdpijn ==> hofttent
+  14:    1  ->  koning ==> konkonin
+  15:    1  ->  kussen ==> koler
+  16:    1  ->  lawaai ==> lawei
+  17:    1  ->  liedje ==> weet
+  18:    1  ->  moeilijk ==> molik
+  19:    1  ->  potlood ==> e
+  20:    1  ->  schouders ==> houto
+  21:    1  ->  speelplaats ==> speelplaat
+  22:    1  ->  stoppen ==> stoppend
+  23:    1  ->  verhaal ==> schelders
+  24:    1  ->  vinger ==> vener
+  25:    1  ->  vlinder ==> vleemde
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  botlod
+   2:    1  ->  liefdje
+   3:    1  ->  of
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  auto
+   2:    1  ->  vuurwerk
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    5  ->  *
+   2:    1  ->  *(appelen)
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  drinken
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  hoofdpijn
+  10:    1  ->  koning
+  11:    1  ->  kussen
+  12:    1  ->  lawaai
+  13:    1  ->  liedje
+  14:    1  ->  moeilijk
+  15:    1  ->  potlood
+  16:    1  ->  schouders
+  17:    1  ->  speelplaats
+  18:    1  ->  stoppen
+  19:    1  ->  verhaal
+  20:    1  ->  vinger
+  21:    1  ->  vlinder
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  appelen
+   2:    1  ->  e
+   3:    1  ->  gaufereel
+   4:    1  ->  heerste
+   5:    1  ->  hofttent
+   6:    1  ->  houto
+   7:    1  ->  k
+   8:    1  ->  keurekuus
+   9:    1  ->  koler
+  10:    1  ->  konkonin
+  11:    1  ->  kusen
+  12:    1  ->  lawei
+  13:    1  ->  molik
+  14:    1  ->  schelders
+  15:    1  ->  sirekis
+  16:    1  ->  speelplaat
+  17:    1  ->  stoppend
+  18:    1  ->  treenkent
+  19:    1  ->  vener
+  20:    1  ->  veral
+  21:    1  ->  vlee
+  22:    1  ->  vleemde
+  23:    1  ->  vurwerk
+  24:    1  ->  weet
+  25:    1  ->  wel
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

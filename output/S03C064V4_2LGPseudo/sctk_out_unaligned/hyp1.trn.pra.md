@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C064V4_2LGPseudo
+
+#### (S03C064V4_2LGPseudo-words)
+
+- Cor=14.6%	Sub=75.0%	Del=4.2%	Ins=6.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel | * | sjobel | ierpieuw | walaan | erke | haweel |  | saarweng | gevicht | eemde | bepoud | orstalk | veten | gefouw | * | vurpaand | nizung | fiewon | kneurem | vawaai | strellen*(stralen) | zwieten | foetbans |  | oonste | *(oosten) | muider | * | grijnken | schielstaug | prilsood | vloender | milste | veurder | kloeien | * | ulen | orponk |  | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 |  | wilen | fokeel | gouter | gute | jawal | ierpielwalaam | erke | haweel | sarwing | geviegd | eende | bij | bouwt | oorstalk | veten | gefou | s | verpand | nisev | fébonv | kneuren | vawai | stralen | sweten | foetbans | oh | ooste | ma | nader | ga | rijnken | sgeelstal | reosoot | vloder | milste |  | erter | clouen | ulen | orponk | schoding | eppel | me | nu | spruikje | hifreel | boen |
+| EVAL | D | S | S | S | S | S | S |  |  | I | S | S | S | S | S |  | S | S | S | S | S | S | S | S | S |  | I | S | S | S | S | S | S | S | S |  | D | S | S |  |  | I | S | S | S | S | S | S |
+---
+
+---

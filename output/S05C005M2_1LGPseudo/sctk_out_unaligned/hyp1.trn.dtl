@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.7%   (  59)
+
+Percent Correct           =    6.3%   (   4)
+
+Percent Substitution      =   57.1%   (  36)
+Percent Deletions         =   36.5%   (  23)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    6.3%
+
+
+Ref. words                =           (  63)
+Hyp. words                =           (  40)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  *(ken) ==> ap
+   2:    1  ->  *s ==> b
+   3:    1  ->  *s ==> een
+   4:    1  ->  *s ==> gik
+   5:    1  ->  *s ==> hasen
+   6:    1  ->  *s ==> na
+   7:    1  ->  *s ==> nenorct
+   8:    1  ->  *s ==> nuu
+   9:    1  ->  *s ==> priel
+  10:    1  ->  *s ==> rechst
+  11:    1  ->  *s ==> sad
+  12:    1  ->  *s ==> so
+  13:    1  ->  *s ==> t
+  14:    1  ->  *s ==> uh
+  15:    1  ->  *s ==> woor
+  16:    1  ->  ant ==> dauw
+  17:    1  ->  beeg ==> and
+  18:    1  ->  doer ==> twoor
+  19:    1  ->  fook ==> vook
+  20:    1  ->  guul ==> lart
+  21:    1  ->  haans*(hazen) ==> zan
+  22:    1  ->  heik ==> helk
+  23:    1  ->  hool ==> hooi
+  24:    1  ->  jien*(een) ==> um
+  25:    1  ->  plirt ==> piert
+  26:    1  ->  roen ==> koen
+  27:    1  ->  sank ==> zangk
+  28:    1  ->  sjalt ==> spa
+  29:    1  ->  snaaf ==> schart
+  30:    1  ->  spaai ==> um
+  31:    1  ->  sprieuw ==> van
+  32:    1  ->  sprunt ==> sprint
+  33:    1  ->  stuid ==> deron
+  34:    1  ->  swoers ==> ken
+  35:    1  ->  vaap ==> woud
+  36:    1  ->  zans ==> viet
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    7  ->  *s
+   2:    4  ->  *
+   3:    1  ->  dau
+   4:    1  ->  dron
+   5:    1  ->  eem
+   6:    1  ->  fam
+   7:    1  ->  grek
+   8:    1  ->  neeuw
+   9:    1  ->  noork
+  10:    1  ->  rachts
+  11:    1  ->  schard
+  12:    1  ->  vid
+  13:    1  ->  vout*(woud)
+  14:    1  ->  zwoei
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   14  ->  *s
+   2:    1  ->  *(ken)
+   3:    1  ->  ant
+   4:    1  ->  beeg
+   5:    1  ->  doer
+   6:    1  ->  fook
+   7:    1  ->  guul
+   8:    1  ->  haans*(hazen)
+   9:    1  ->  heik
+  10:    1  ->  hool
+  11:    1  ->  jien*(een)
+  12:    1  ->  plirt
+  13:    1  ->  roen
+  14:    1  ->  sank
+  15:    1  ->  sjalt
+  16:    1  ->  snaaf
+  17:    1  ->  spaai
+  18:    1  ->  sprieuw
+  19:    1  ->  sprunt
+  20:    1  ->  stuid
+  21:    1  ->  swoers
+  22:    1  ->  vaap
+  23:    1  ->  zans
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  um
+   2:    1  ->  and
+   3:    1  ->  ap
+   4:    1  ->  b
+   5:    1  ->  dauw
+   6:    1  ->  deron
+   7:    1  ->  een
+   8:    1  ->  gik
+   9:    1  ->  hasen
+  10:    1  ->  helk
+  11:    1  ->  hooi
+  12:    1  ->  ken
+  13:    1  ->  koen
+  14:    1  ->  lart
+  15:    1  ->  na
+  16:    1  ->  nenorct
+  17:    1  ->  nuu
+  18:    1  ->  piert
+  19:    1  ->  priel
+  20:    1  ->  rechst
+  21:    1  ->  sad
+  22:    1  ->  schart
+  23:    1  ->  so
+  24:    1  ->  spa
+  25:    1  ->  sprint
+  26:    1  ->  t
+  27:    1  ->  twoor
+  28:    1  ->  uh
+  29:    1  ->  van
+  30:    1  ->  viet
+  31:    1  ->  vook
+  32:    1  ->  woor
+  33:    1  ->  woud
+  34:    1  ->  zan
+  35:    1  ->  zangk
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

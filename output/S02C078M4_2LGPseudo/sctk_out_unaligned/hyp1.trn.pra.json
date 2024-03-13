@@ -1,0 +1,251 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S02C078M4_2LGPseudo": {
+   "(S02C078M4_2LGPseudo-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S02C078M4_2LGPseudo",
+    "sentence_id": "(S02C078M4_2LGPseudo-words)",
+    "sequence": 0,
+    "word_count": 47,
+    "words": [
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "milen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "millen",
+      "hyp": "vokil"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vocil",
+      "hyp": "getel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "geutel",
+      "hyp": "sjo"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "shopl"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sjobel",
+      "hyp": "ier"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ierpieuw",
+      "hyp": "bio"
+     },
+     {
+      "eval_label": "S",
+      "ref": "walaan",
+      "hyp": "wallaan"
+     },
+     {
+      "eval_label": "C",
+      "ref": "erke",
+      "hyp": "erke"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "hawel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "haweel",
+      "hyp": "sarwing"
+     },
+     {
+      "eval_label": "S",
+      "ref": "saarweng",
+      "hyp": "geviecht"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gevicht",
+      "hyp": "emde"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eemde",
+      "hyp": "bepat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "bepoud",
+      "hyp": "orstolk"
+     },
+     {
+      "eval_label": "S",
+      "ref": "orstalk",
+      "hyp": "vitten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "veten*(vetten)",
+      "hyp": "grfal"
+     },
+     {
+      "eval_label": "S",
+      "ref": "gefouw",
+      "hyp": "gurparend"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vurpaand",
+      "hyp": "nugin"
+     },
+     {
+      "eval_label": "S",
+      "ref": "nizung",
+      "hyp": "sion"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fiewon",
+      "hyp": "neuren"
+     },
+     {
+      "eval_label": "S",
+      "ref": "kneurem",
+      "hyp": "van"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vawaai",
+      "hyp": "wai"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "stl"
+     },
+     {
+      "eval_label": "S",
+      "ref": "strellen*(strelen)",
+      "hyp": "strillen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwieten",
+      "hyp": "swieten"
+     },
+     {
+      "eval_label": "S",
+      "ref": "foetbans",
+      "hyp": "voetbans"
+     },
+     {
+      "eval_label": "S",
+      "ref": "oonste",
+      "hyp": "onste"
+     },
+     {
+      "eval_label": "C",
+      "ref": "muider",
+      "hyp": "muider"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "grenken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "grijnken",
+      "hyp": "schiet"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schielstaug",
+      "hyp": "schielstar"
+     },
+     {
+      "eval_label": "S",
+      "ref": "prilsood",
+      "hyp": "prisot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vloender",
+      "hyp": "vlounder"
+     },
+     {
+      "eval_label": "S",
+      "ref": "milste",
+      "hyp": "bulster"
+     },
+     {
+      "eval_label": "S",
+      "ref": "veurder",
+      "hyp": "gerder"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kloeien",
+      "hyp": "kloeien"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ulen",
+      "hyp": "kloenen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "orponk",
+      "hyp": "orpong"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "sgodding"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schodig",
+      "hyp": "schondig"
+     },
+     {
+      "eval_label": "S",
+      "ref": "ijpo",
+      "hyp": "epel"
+     },
+     {
+      "eval_label": "C",
+      "ref": "menuur",
+      "hyp": "menuur"
+     },
+     {
+      "eval_label": "S",
+      "ref": "spreikje",
+      "hyp": "sbreikje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "his"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hiffreeuw",
+      "hyp": "hisriel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "wooien",
+      "hyp": "woien"
+     }
+    ]
+   }
+  }
+ }
+}

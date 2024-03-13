@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   80.9%   (  38)
+
+Percent Correct           =   21.3%   (  10)
+
+Percent Substitution      =   78.7%   (  37)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.1%   (   1)
+Percent Word Accuracy     =   19.1%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  * ==> fe
+   2:    1  ->  * ==> nesum
+   3:    1  ->  * ==> s
+   4:    1  ->  * ==> stou
+   5:    1  ->  * ==> voa
+   6:    1  ->  * ==> vollik
+   7:    1  ->  * ==> won
+   8:    1  ->  bepoud ==> bepalt
+   9:    1  ->  eemde ==> inde
+  10:    1  ->  fiewon ==> civon
+  11:    1  ->  foetbans ==> foebans
+  12:    1  ->  gefouw ==> gefal
+  13:    1  ->  grijnken ==> grenken
+  14:    1  ->  haweel ==> hawel
+  15:    1  ->  hiffreeuw ==> vreo
+  16:    1  ->  ierpieuw ==> irbiol
+  17:    1  ->  ijpo ==> eppel
+  18:    1  ->  kneurem ==> crneuren
+  19:    1  ->  millen ==> willem
+  20:    1  ->  muider ==> mudder
+  21:    1  ->  nizung ==> niezin
+  22:    1  ->  oonste ==> onst
+  23:    1  ->  orponk ==> orsponk
+  24:    1  ->  prilsood ==> prilsot
+  25:    1  ->  saarweng ==> sarwing
+  26:    1  ->  schielstaug ==> heel
+  27:    1  ->  sjobel ==> hobbel
+  28:    1  ->  spreikje ==> he
+  29:    1  ->  strellen ==> trillen
+  30:    1  ->  ulen ==> ullen
+  31:    1  ->  vawaai ==> vaaiy
+  32:    1  ->  veurder ==> verder
+  33:    1  ->  vloender ==> plunder
+  34:    1  ->  vocil ==> vok
+  35:    1  ->  vurpaand ==> verpant
+  36:    1  ->  walaan ==> wlam
+  37:    1  ->  zwieten ==> wieken
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sprekje
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    7  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  grijnken
+   8:    1  ->  haweel
+   9:    1  ->  hiffreeuw
+  10:    1  ->  ierpieuw
+  11:    1  ->  ijpo
+  12:    1  ->  kneurem
+  13:    1  ->  millen
+  14:    1  ->  muider
+  15:    1  ->  nizung
+  16:    1  ->  oonste
+  17:    1  ->  orponk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  sjobel
+  22:    1  ->  spreikje
+  23:    1  ->  strellen
+  24:    1  ->  ulen
+  25:    1  ->  vawaai
+  26:    1  ->  veurder
+  27:    1  ->  vloender
+  28:    1  ->  vocil
+  29:    1  ->  vurpaand
+  30:    1  ->  walaan
+  31:    1  ->  zwieten
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  bepalt
+   2:    1  ->  civon
+   3:    1  ->  crneuren
+   4:    1  ->  eppel
+   5:    1  ->  fe
+   6:    1  ->  foebans
+   7:    1  ->  gefal
+   8:    1  ->  grenken
+   9:    1  ->  hawel
+  10:    1  ->  he
+  11:    1  ->  heel
+  12:    1  ->  hobbel
+  13:    1  ->  inde
+  14:    1  ->  irbiol
+  15:    1  ->  mudder
+  16:    1  ->  nesum
+  17:    1  ->  niezin
+  18:    1  ->  onst
+  19:    1  ->  orsponk
+  20:    1  ->  plunder
+  21:    1  ->  prilsot
+  22:    1  ->  s
+  23:    1  ->  sarwing
+  24:    1  ->  stou
+  25:    1  ->  trillen
+  26:    1  ->  ullen
+  27:    1  ->  vaaiy
+  28:    1  ->  verder
+  29:    1  ->  verpant
+  30:    1  ->  voa
+  31:    1  ->  vok
+  32:    1  ->  vollik
+  33:    1  ->  vreo
+  34:    1  ->  wieken
+  35:    1  ->  willem
+  36:    1  ->  wlam
+  37:    1  ->  won
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

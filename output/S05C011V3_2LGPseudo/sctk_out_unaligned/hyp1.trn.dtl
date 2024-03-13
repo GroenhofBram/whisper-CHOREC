@@ -1,0 +1,190 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.8%   (  60)
+
+Percent Correct           =    3.2%   (   2)
+
+Percent Substitution      =   62.9%   (  39)
+Percent Deletions         =   33.9%   (  21)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.2%
+
+
+Ref. words                =           (  62)
+Hyp. words                =           (  41)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> epel
+   2:    1  ->  * ==> fal
+   3:    1  ->  * ==> feerman
+   4:    1  ->  * ==> gevaal
+   5:    1  ->  * ==> in
+   6:    1  ->  * ==> joe
+   7:    1  ->  * ==> knen
+   8:    1  ->  * ==> meede
+   9:    1  ->  * ==> nen
+  10:    1  ->  * ==> nu
+  11:    1  ->  * ==> pusut
+  12:    1  ->  * ==> swijken
+  13:    1  ->  * ==> voen
+  14:    1  ->  * ==> vordand
+  15:    1  ->  * ==> zin
+  16:    1  ->  fiewon ==> hawel
+  17:    1  ->  foetbans ==> stalk
+  18:    1  ->  grijnken ==> fa
+  19:    1  ->  hiffreeuw ==> gesceel
+  20:    1  ->  ierpieuw ==> jipe
+  21:    1  ->  ijpo ==> dank
+  22:    1  ->  kloeien ==> vierde
+  23:    1  ->  kneurem ==> saren
+  24:    1  ->  menuur*(muur) ==> gondeg
+  25:    1  ->  muider ==> geeran
+  26:    1  ->  oonste ==> feten
+  27:    1  ->  orponk ==> ja
+  28:    1  ->  prilsood ==> osto
+  29:    1  ->  schielstaug ==> teilen
+  30:    1  ->  schodig ==> of
+  31:    1  ->  sjobel ==> voetel
+  32:    1  ->  spreikje ==> n
+  33:    1  ->  strellen ==> inde
+  34:    1  ->  ulen ==> klen
+  35:    1  ->  vawaai ==> geving
+  36:    1  ->  vloender ==> enten
+  37:    1  ->  walaan ==> walahm
+  38:    1  ->  wooien ==> oeen
+  39:    1  ->  zwieten ==> beplt
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    6  ->  *
+   2:    2  ->  eemde
+   3:    2  ->  veurder
+   4:    1  ->  bepoud
+   5:    1  ->  gefouw*(gevouw)
+   6:    1  ->  gevicht
+   7:    1  ->  haweel
+   8:    1  ->  millen
+   9:    1  ->  nizung
+  10:    1  ->  orstalk
+  11:    1  ->  saarweng
+  12:    1  ->  veten
+  13:    1  ->  vocil
+  14:    1  ->  vurpaand
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   15  ->  *
+   2:    1  ->  fiewon
+   3:    1  ->  foetbans
+   4:    1  ->  grijnken
+   5:    1  ->  hiffreeuw
+   6:    1  ->  ierpieuw
+   7:    1  ->  ijpo
+   8:    1  ->  kloeien
+   9:    1  ->  kneurem
+  10:    1  ->  menuur*(muur)
+  11:    1  ->  muider
+  12:    1  ->  oonste
+  13:    1  ->  orponk
+  14:    1  ->  prilsood
+  15:    1  ->  schielstaug
+  16:    1  ->  schodig
+  17:    1  ->  sjobel
+  18:    1  ->  spreikje
+  19:    1  ->  strellen
+  20:    1  ->  ulen
+  21:    1  ->  vawaai
+  22:    1  ->  vloender
+  23:    1  ->  walaan
+  24:    1  ->  wooien
+  25:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  beplt
+   2:    1  ->  dank
+   3:    1  ->  enten
+   4:    1  ->  epel
+   5:    1  ->  fa
+   6:    1  ->  fal
+   7:    1  ->  feerman
+   8:    1  ->  feten
+   9:    1  ->  geeran
+  10:    1  ->  gesceel
+  11:    1  ->  gevaal
+  12:    1  ->  geving
+  13:    1  ->  gondeg
+  14:    1  ->  hawel
+  15:    1  ->  in
+  16:    1  ->  inde
+  17:    1  ->  ja
+  18:    1  ->  jipe
+  19:    1  ->  joe
+  20:    1  ->  klen
+  21:    1  ->  knen
+  22:    1  ->  meede
+  23:    1  ->  n
+  24:    1  ->  nen
+  25:    1  ->  nu
+  26:    1  ->  oeen
+  27:    1  ->  of
+  28:    1  ->  osto
+  29:    1  ->  pusut
+  30:    1  ->  saren
+  31:    1  ->  stalk
+  32:    1  ->  swijken
+  33:    1  ->  teilen
+  34:    1  ->  vierde
+  35:    1  ->  voen
+  36:    1  ->  voetel
+  37:    1  ->  vordand
+  38:    1  ->  walahm
+  39:    1  ->  zin
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

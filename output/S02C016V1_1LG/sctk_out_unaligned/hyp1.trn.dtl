@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   89.7%   (  61)
+
+Percent Correct           =   10.3%   (   7)
+
+Percent Substitution      =   42.6%   (  29)
+Percent Deletions         =   47.1%   (  32)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   10.3%
+
+
+Ref. words                =           (  68)
+Hyp. words                =           (  36)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> ha
+   2:    1  ->  * ==> hard
+   3:    1  ->  * ==> keit
+   4:    1  ->  * ==> niet
+   5:    1  ->  * ==> schoon
+   6:    1  ->  *s ==> gan
+   7:    1  ->  *s ==> hoe
+   8:    1  ->  *s ==> houd
+   9:    1  ->  *s ==> skrt
+  10:    1  ->  arm ==> moi
+  11:    1  ->  bang ==> dan
+  12:    1  ->  chips ==> vkinde
+  13:    1  ->  clown ==> s
+  14:    1  ->  feest ==> groeen
+  15:    1  ->  gauw ==> ram
+  16:    1  ->  groei ==> ko
+  17:    1  ->  groen ==> gaal
+  18:    1  ->  hoek ==> ss
+  19:    1  ->  hout ==> nee
+  20:    1  ->  kind ==> v
+  21:    1  ->  koe ==> aos
+  22:    1  ->  krant ==> hrst
+  23:    1  ->  leeuw ==> dra
+  24:    1  ->  muts ==> ruis
+  25:    1  ->  neus ==> lees
+  26:    1  ->  nieuw ==> s
+  27:    1  ->  plank ==> lap
+  28:    1  ->  plas ==> pwas
+  29:    1  ->  vriend*(vrienden) ==> neel
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:   12  ->  *
+   2:    3  ->  *s
+   3:    2  ->  reis
+   4:    2  ->  vijf
+   5:    1  ->  draai
+   6:    1  ->  duur
+   7:    1  ->  eerst
+   8:    1  ->  herfst
+   9:    1  ->  huis
+  10:    1  ->  jas
+  11:    1  ->  klas
+  12:    1  ->  mooi
+  13:    1  ->  paard
+  14:    1  ->  schoen
+  15:    1  ->  sjaal
+  16:    1  ->  straat
+  17:    1  ->  zacht*(zak)
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  *
+   2:    4  ->  *s
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  chips
+   6:    1  ->  clown
+   7:    1  ->  feest
+   8:    1  ->  gauw
+   9:    1  ->  groei
+  10:    1  ->  groen
+  11:    1  ->  hoek
+  12:    1  ->  hout
+  13:    1  ->  kind
+  14:    1  ->  koe
+  15:    1  ->  krant
+  16:    1  ->  leeuw
+  17:    1  ->  muts
+  18:    1  ->  neus
+  19:    1  ->  nieuw
+  20:    1  ->  plank
+  21:    1  ->  plas
+  22:    1  ->  vriend*(vrienden)
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  s
+   2:    1  ->  aos
+   3:    1  ->  dan
+   4:    1  ->  dra
+   5:    1  ->  gaal
+   6:    1  ->  gan
+   7:    1  ->  groeen
+   8:    1  ->  ha
+   9:    1  ->  hard
+  10:    1  ->  hoe
+  11:    1  ->  houd
+  12:    1  ->  hrst
+  13:    1  ->  keit
+  14:    1  ->  ko
+  15:    1  ->  lap
+  16:    1  ->  lees
+  17:    1  ->  moi
+  18:    1  ->  nee
+  19:    1  ->  neel
+  20:    1  ->  niet
+  21:    1  ->  pwas
+  22:    1  ->  ram
+  23:    1  ->  ruis
+  24:    1  ->  schoon
+  25:    1  ->  skrt
+  26:    1  ->  ss
+  27:    1  ->  v
+  28:    1  ->  vkinde
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

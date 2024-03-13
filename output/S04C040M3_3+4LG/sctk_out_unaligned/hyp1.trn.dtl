@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  142.2%   (  64)
+
+Percent Correct           =   13.3%   (   6)
+
+Percent Substitution      =   86.7%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   55.6%   (  25)
+Percent Word Accuracy     =  -42.2%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> met
+   2:    1  ->  * ==> ruzi
+   3:    1  ->  * ==> schoon
+   4:    1  ->  *(poppen) ==> was
+   5:    1  ->  *(schoenwinkel) ==> ze
+   6:    1  ->  achterdeur ==> in
+   7:    1  ->  afblijven ==> brijven
+   8:    1  ->  autorijden ==> van
+   9:    1  ->  buurmannen*(buurman) ==> voren
+  10:    1  ->  chocolade ==> conade
+  11:    1  ->  eindelijk ==> mimi
+  12:    1  ->  elastiekje ==> de
+  13:    1  ->  familie ==> so
+  14:    1  ->  fototoestel ==> papier
+  15:    1  ->  kabouter ==> kabater
+  16:    1  ->  knutselen ==> man
+  17:    1  ->  konijnenhok ==> maken
+  18:    1  ->  limonade ==> enik
+  19:    1  ->  lucifer ==> deur
+  20:    1  ->  olifant ==> onifant
+  21:    1  ->  omdraaien ==> en
+  22:    1  ->  ophangen ==> oprengen
+  23:    1  ->  paddenstoelen ==> machine
+  24:    1  ->  poppenwagen ==> iekje
+  25:    1  ->  ruziemaken ==> ie
+  26:    1  ->  schoenenwinkel ==> gmoet
+  27:    1  ->  schommelen ==> schommeman
+  28:    1  ->  slaapkamer ==> ziek
+  29:    1  ->  sneeuwwitje ==> sneeuwtje
+  30:    1  ->  sprookjesboek ==> kamer
+  31:    1  ->  tandenborstel ==> achteren
+  32:    1  ->  teddybeer ==> weer
+  33:    1  ->  toiletpapier ==> vrachtlagen
+  34:    1  ->  verstoppertje ==> fototoestem
+  35:    1  ->  vogelkooi ==> kooi
+  36:    1  ->  vrachtwagen ==> burman
+  37:    1  ->  washandje ==> esentje
+  38:    1  ->  wasmachine ==> ze
+  39:    1  ->  ziekenhuis ==> huis
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  af
+   2:    1  ->  autoredden
+   3:    1  ->  bat
+   4:    1  ->  bo
+   5:    1  ->  borston
+   6:    1  ->  dan
+   7:    1  ->  danr
+   8:    1  ->  den
+   9:    1  ->  e
+  10:    1  ->  konijnenhoek
+  11:    1  ->  konn
+  12:    1  ->  nimonade
+  13:    1  ->  onrijenpopen
+  14:    1  ->  op
+  15:    1  ->  popenwaren
+  16:    1  ->  s
+  17:    1  ->  schoa
+  18:    1  ->  schoen
+  19:    1  ->  sprokis
+  20:    1  ->  stebordje
+  21:    1  ->  stoemen
+  22:    1  ->  ver
+  23:    1  ->  voor
+  24:    1  ->  was
+  25:    1  ->  wii
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  *
+   2:    1  ->  *(poppen)
+   3:    1  ->  *(schoenwinkel)
+   4:    1  ->  achterdeur
+   5:    1  ->  afblijven
+   6:    1  ->  autorijden
+   7:    1  ->  buurmannen*(buurman)
+   8:    1  ->  chocolade
+   9:    1  ->  eindelijk
+  10:    1  ->  elastiekje
+  11:    1  ->  familie
+  12:    1  ->  fototoestel
+  13:    1  ->  kabouter
+  14:    1  ->  knutselen
+  15:    1  ->  konijnenhok
+  16:    1  ->  limonade
+  17:    1  ->  lucifer
+  18:    1  ->  olifant
+  19:    1  ->  omdraaien
+  20:    1  ->  ophangen
+  21:    1  ->  paddenstoelen
+  22:    1  ->  poppenwagen
+  23:    1  ->  ruziemaken
+  24:    1  ->  schoenenwinkel
+  25:    1  ->  schommelen
+  26:    1  ->  slaapkamer
+  27:    1  ->  sneeuwwitje
+  28:    1  ->  sprookjesboek
+  29:    1  ->  tandenborstel
+  30:    1  ->  teddybeer
+  31:    1  ->  toiletpapier
+  32:    1  ->  verstoppertje
+  33:    1  ->  vogelkooi
+  34:    1  ->  vrachtwagen
+  35:    1  ->  washandje
+  36:    1  ->  wasmachine
+  37:    1  ->  ziekenhuis
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  ze
+   2:    1  ->  achteren
+   3:    1  ->  brijven
+   4:    1  ->  burman
+   5:    1  ->  conade
+   6:    1  ->  de
+   7:    1  ->  deur
+   8:    1  ->  en
+   9:    1  ->  enik
+  10:    1  ->  esentje
+  11:    1  ->  fototoestem
+  12:    1  ->  gmoet
+  13:    1  ->  huis
+  14:    1  ->  ie
+  15:    1  ->  iekje
+  16:    1  ->  in
+  17:    1  ->  kabater
+  18:    1  ->  kamer
+  19:    1  ->  kooi
+  20:    1  ->  machine
+  21:    1  ->  maken
+  22:    1  ->  man
+  23:    1  ->  met
+  24:    1  ->  mimi
+  25:    1  ->  onifant
+  26:    1  ->  oprengen
+  27:    1  ->  papier
+  28:    1  ->  ruzi
+  29:    1  ->  schommeman
+  30:    1  ->  schoon
+  31:    1  ->  sneeuwtje
+  32:    1  ->  so
+  33:    1  ->  van
+  34:    1  ->  voren
+  35:    1  ->  vrachtlagen
+  36:    1  ->  was
+  37:    1  ->  weer
+  38:    1  ->  ziek
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

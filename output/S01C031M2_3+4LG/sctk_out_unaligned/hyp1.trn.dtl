@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  108.2%   (  53)
+
+Percent Correct           =   24.5%   (  12)
+
+Percent Substitution      =   73.5%   (  36)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =   32.7%   (  16)
+Percent Word Accuracy     =   -8.2%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  64)
+Aligned words             =           (  65)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> dat
+   2:    1  ->  * ==> girien
+   3:    1  ->  * ==> kooi
+   4:    1  ->  * ==> oma
+   5:    1  ->  * ==> papier
+   6:    1  ->  * ==> tozoa
+   7:    1  ->  * ==> ukifer
+   8:    1  ->  * ==> vogen
+   9:    1  ->  *(buurman) ==> buerman
+  10:    1  ->  achterdeur ==> af
+  11:    1  ->  afblijven ==> was
+  12:    1  ->  chocolade ==> godkoade
+  13:    1  ->  elastiekje ==> ruzie
+  14:    1  ->  fototoestel ==> fotostoestaan
+  15:    1  ->  goeiendag ==> delg
+  16:    1  ->  iedereen ==> en
+  17:    1  ->  kabouter ==> handje
+  18:    1  ->  knutselen ==> moillenn
+  19:    1  ->  konijnenhok*(konijnhok) ==> keer
+  20:    1  ->  limonade ==> lomedade
+  21:    1  ->  lucifer ==> nuc
+  22:    1  ->  nieuwsgierig ==> kabater
+  23:    1  ->  paddenstoelen ==> baddenstoelen
+  24:    1  ->  poppenwagen*(poppenwangen) ==> die
+  25:    1  ->  ruziemaken ==> maken
+  26:    1  ->  schoenenwinkel ==> kel
+  27:    1  ->  sneeuwwitje ==> goeie
+  28:    1  ->  sprookjesboek ==> sbrookjesboek
+  29:    1  ->  tandenborstel ==> danenborstel
+  30:    1  ->  teddybeer ==> dedibeer
+  31:    1  ->  toiletpapier ==> heb
+  32:    1  ->  vogelkooi ==> volgen
+  33:    1  ->  vrachtwagen*(verwacht) ==> verwacht
+  34:    1  ->  washandje ==> sneelmintje
+  35:    1  ->  wasmachine ==> geen
+  36:    1  ->  ziekenhuis ==> blijven
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  acha
+   2:    1  ->  achter
+   3:    1  ->  deur
+   4:    1  ->  huift
+   5:    1  ->  iderin
+   6:    1  ->  inde
+   7:    1  ->  jas
+   8:    1  ->  jeli
+   9:    1  ->  k
+  10:    1  ->  konijnhook
+  11:    1  ->  nieuws
+  12:    1  ->  popen
+  13:    1  ->  schonef
+  14:    1  ->  vie
+  15:    1  ->  wachtmaar
+  16:    1  ->  waren
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  *
+   2:    1  ->  *(buurman)
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  chocolade
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  iedereen
+  10:    1  ->  kabouter
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok*(konijnhok)
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  paddenstoelen
+  17:    1  ->  poppenwagen*(poppenwangen)
+  18:    1  ->  ruziemaken
+  19:    1  ->  schoenenwinkel
+  20:    1  ->  sneeuwwitje
+  21:    1  ->  sprookjesboek
+  22:    1  ->  tandenborstel
+  23:    1  ->  teddybeer
+  24:    1  ->  toiletpapier
+  25:    1  ->  vogelkooi
+  26:    1  ->  vrachtwagen*(verwacht)
+  27:    1  ->  washandje
+  28:    1  ->  wasmachine
+  29:    1  ->  ziekenhuis
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  af
+   2:    1  ->  baddenstoelen
+   3:    1  ->  blijven
+   4:    1  ->  buerman
+   5:    1  ->  danenborstel
+   6:    1  ->  dat
+   7:    1  ->  dedibeer
+   8:    1  ->  delg
+   9:    1  ->  die
+  10:    1  ->  en
+  11:    1  ->  fotostoestaan
+  12:    1  ->  geen
+  13:    1  ->  girien
+  14:    1  ->  godkoade
+  15:    1  ->  goeie
+  16:    1  ->  handje
+  17:    1  ->  heb
+  18:    1  ->  kabater
+  19:    1  ->  keer
+  20:    1  ->  kel
+  21:    1  ->  kooi
+  22:    1  ->  lomedade
+  23:    1  ->  maken
+  24:    1  ->  moillenn
+  25:    1  ->  nuc
+  26:    1  ->  oma
+  27:    1  ->  papier
+  28:    1  ->  ruzie
+  29:    1  ->  sbrookjesboek
+  30:    1  ->  sneelmintje
+  31:    1  ->  tozoa
+  32:    1  ->  ukifer
+  33:    1  ->  verwacht
+  34:    1  ->  vogen
+  35:    1  ->  volgen
+  36:    1  ->  was
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

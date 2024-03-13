@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   88.4%   (  38)
+
+Percent Correct           =   11.6%   (   5)
+
+Percent Substitution      =   88.4%   (  38)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   11.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  * ==> drom
+   2:    1  ->  * ==> ha
+   3:    1  ->  * ==> swa
+   4:    1  ->  ant ==> and
+   5:    1  ->  beeg ==> big
+   6:    1  ->  blard ==> plert
+   7:    1  ->  dau ==> daw
+   8:    1  ->  dron ==> drom
+   9:    1  ->  eem ==> éém
+  10:    1  ->  fam ==> van
+  11:    1  ->  fook ==> fok
+  12:    1  ->  grek ==> grikt
+  13:    1  ->  guul ==> griel
+  14:    1  ->  haans ==> hans
+  15:    1  ->  heik ==> herk
+  16:    1  ->  hoekt ==> hookt
+  17:    1  ->  hool ==> gool
+  18:    1  ->  jien ==> jeen
+  19:    1  ->  keng ==> king
+  20:    1  ->  larst ==> lerst
+  21:    1  ->  leum ==> lum
+  22:    1  ->  neeuw ==> niw
+  23:    1  ->  noork ==> nork
+  24:    1  ->  plirt ==> plit
+  25:    1  ->  rachts ==> racht
+  26:    1  ->  schard ==> gart
+  27:    1  ->  sjalt ==> cheld
+  28:    1  ->  snaaf ==> snaf
+  29:    1  ->  sooi ==> soi
+  30:    1  ->  spaai ==> spai
+  31:    1  ->  sprieuw ==> sriel
+  32:    1  ->  sprunt ==> spruunt
+  33:    1  ->  stuid ==> stuit
+  34:    1  ->  swoers ==> swoort
+  35:    1  ->  vaap ==> vaat
+  36:    1  ->  vid ==> viet
+  37:    1  ->  vout ==> fout
+  38:    1  ->  zwoei ==> swoi
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  *
+   2:    1  ->  ant
+   3:    1  ->  beeg
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  dron
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  grek
+  11:    1  ->  guul
+  12:    1  ->  haans
+  13:    1  ->  heik
+  14:    1  ->  hoekt
+  15:    1  ->  hool
+  16:    1  ->  jien
+  17:    1  ->  keng
+  18:    1  ->  larst
+  19:    1  ->  leum
+  20:    1  ->  neeuw
+  21:    1  ->  noork
+  22:    1  ->  plirt
+  23:    1  ->  rachts
+  24:    1  ->  schard
+  25:    1  ->  sjalt
+  26:    1  ->  snaaf
+  27:    1  ->  sooi
+  28:    1  ->  spaai
+  29:    1  ->  sprieuw
+  30:    1  ->  sprunt
+  31:    1  ->  stuid
+  32:    1  ->  swoers
+  33:    1  ->  vaap
+  34:    1  ->  vid
+  35:    1  ->  vout
+  36:    1  ->  zwoei
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  drom
+   2:    1  ->  and
+   3:    1  ->  big
+   4:    1  ->  cheld
+   5:    1  ->  daw
+   6:    1  ->  fok
+   7:    1  ->  fout
+   8:    1  ->  gart
+   9:    1  ->  gool
+  10:    1  ->  griel
+  11:    1  ->  grikt
+  12:    1  ->  ha
+  13:    1  ->  hans
+  14:    1  ->  herk
+  15:    1  ->  hookt
+  16:    1  ->  jeen
+  17:    1  ->  king
+  18:    1  ->  lerst
+  19:    1  ->  lum
+  20:    1  ->  niw
+  21:    1  ->  nork
+  22:    1  ->  plert
+  23:    1  ->  plit
+  24:    1  ->  racht
+  25:    1  ->  snaf
+  26:    1  ->  soi
+  27:    1  ->  spai
+  28:    1  ->  spruunt
+  29:    1  ->  sriel
+  30:    1  ->  stuit
+  31:    1  ->  swa
+  32:    1  ->  swoi
+  33:    1  ->  swoort
+  34:    1  ->  vaat
+  35:    1  ->  van
+  36:    1  ->  viet
+  37:    1  ->  éém
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

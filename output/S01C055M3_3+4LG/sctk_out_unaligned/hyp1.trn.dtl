@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.3%   (  25)
+
+Percent Correct           =   56.5%   (  26)
+
+Percent Substitution      =   41.3%   (  19)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   10.9%   (   5)
+Percent Word Accuracy     =   45.7%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  50)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> ah
+   2:    1  ->  * ==> foto'stoestel
+   3:    1  ->  * ==> konnijnenhook
+   4:    1  ->  * ==> sa
+   5:    1  ->  * ==> tol
+   6:    1  ->  * ==> verjaardag
+   7:    1  ->  elastiekje ==> ruzie
+   8:    1  ->  kabouter ==> kabauter
+   9:    1  ->  konijnenhok ==> elretiekje
+  10:    1  ->  limonade ==> jemnaden
+  11:    1  ->  paddenstoelen ==> stoelen
+  12:    1  ->  poppenwagen ==> konnijnenhook
+  13:    1  ->  ruziemaken ==> maken
+  14:    1  ->  schoenenwinkel ==> winkel
+  15:    1  ->  sneeuwwitje ==> sneeuwwietje
+  16:    1  ->  tandenborstel ==> borstel
+  17:    1  ->  teddybeer ==> teddibeer
+  18:    1  ->  vakantie ==> vakatie
+  19:    1  ->  washandje ==> wasrandje
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  padden
+   2:    1  ->  poppen
+   3:    1  ->  schonen
+   4:    1  ->  tanden
+   5:    1  ->  wagen
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fototoestel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    6  ->  *
+   2:    1  ->  elastiekje
+   3:    1  ->  kabouter
+   4:    1  ->  konijnenhok
+   5:    1  ->  limonade
+   6:    1  ->  paddenstoelen
+   7:    1  ->  poppenwagen
+   8:    1  ->  ruziemaken
+   9:    1  ->  schoenenwinkel
+  10:    1  ->  sneeuwwitje
+  11:    1  ->  tandenborstel
+  12:    1  ->  teddybeer
+  13:    1  ->  vakantie
+  14:    1  ->  washandje
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  konnijnenhook
+   2:    1  ->  ah
+   3:    1  ->  borstel
+   4:    1  ->  elretiekje
+   5:    1  ->  foto'stoestel
+   6:    1  ->  jemnaden
+   7:    1  ->  kabauter
+   8:    1  ->  maken
+   9:    1  ->  ruzie
+  10:    1  ->  sa
+  11:    1  ->  sneeuwwietje
+  12:    1  ->  stoelen
+  13:    1  ->  teddibeer
+  14:    1  ->  tol
+  15:    1  ->  vakatie
+  16:    1  ->  verjaardag
+  17:    1  ->  wasrandje
+  18:    1  ->  winkel
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

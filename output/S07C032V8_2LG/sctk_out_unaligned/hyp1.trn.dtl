@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.0%   (  25)
+
+Percent Correct           =   53.1%   (  26)
+
+Percent Substitution      =   36.7%   (  18)
+Percent Deletions         =   10.2%   (   5)
+Percent Insertions        =    4.1%   (   2)
+Percent Word Accuracy     =   49.0%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  46)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  * ==> ce-sola
+   2:    1  ->  * ==> m
+   3:    1  ->  * ==> potnoot
+   4:    1  ->  * ==> schoren
+   5:    1  ->  * ==> schuifuur
+   6:    1  ->  * ==> sierzus
+   7:    1  ->  * ==> waarom?
+   8:    1  ->  * ==> wie
+   9:    1  ->  *(eerst) ==> eerst
+  10:    1  ->  fietsbel ==> ffiebel
+  11:    1  ->  moeilijk ==> moelijk
+  12:    1  ->  muziek ==> zie
+  13:    1  ->  potlood ==> litje
+  14:    1  ->  regen ==> wegen
+  15:    1  ->  verhaal ==> shel
+  16:    1  ->  waarom ==> ik
+  17:    1  ->  winkel*(winkelen) ==> winkel
+  18:    1  ->  zwemmen ==> bemen
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  so
+   2:    1  ->  voor
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    4  ->  *
+   2:    1  ->  liedje
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    8  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  fietsbel
+   4:    1  ->  moeilijk
+   5:    1  ->  muziek
+   6:    1  ->  potlood
+   7:    1  ->  regen
+   8:    1  ->  verhaal
+   9:    1  ->  waarom
+  10:    1  ->  winkel*(winkelen)
+  11:    1  ->  zwemmen
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  bemen
+   2:    1  ->  ce-sola
+   3:    1  ->  eerst
+   4:    1  ->  ffiebel
+   5:    1  ->  ik
+   6:    1  ->  litje
+   7:    1  ->  m
+   8:    1  ->  moelijk
+   9:    1  ->  potnoot
+  10:    1  ->  schoren
+  11:    1  ->  schuifuur
+  12:    1  ->  shel
+  13:    1  ->  sierzus
+  14:    1  ->  waarom?
+  15:    1  ->  wegen
+  16:    1  ->  wie
+  17:    1  ->  winkel
+  18:    1  ->  zie
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

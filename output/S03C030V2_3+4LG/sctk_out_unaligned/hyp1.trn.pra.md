@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C030V2_3+4LG
+
+#### (S03C030V2_3+4LG-words)
+
+- Cor=47.9%	Sub=33.3%	Del=2.1%	Ins=16.7%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien | poppenwagen | konijnenhok |  |  | elastiekje | ruziemaken | teddybeer | dierentuin |  |  |  | paddenstoelen | verstoppertje | wasmachine |  | fototoestel | toiletpapier | vrachtwagen | buurmannen |  | vogelkooi | olifant | schommelen |  | iedereen | schoenenwinkel | knutselen | ophangen | verjaardag | sprookjesboek | tandenborstel | lucifer | slaapkamer | achterdeur | ziekenhuis | nieuwsgierig | afblijven | kabouter | washandje | sneeuwwitje | goeiendag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | omdraaien | koppenwagen | konijnenhok | en | lastiekje | ruzie | maken | dibbibeer | dierentuin | wat | is | stolen | verstopperd | je | wasmachine | nu | fototostel | toiletpapier | vrachtwagen | buurmannen | vogel | koai | olifand | schommelen | dereen | schonen | winkel | knutsjelen | ophangen | verjaardag | sprookjesbook | tandenborstel | lucifer | slaapkamer | echterdeur | ziekenhuis | nieuwsgierig | afblijven |  | kabauter | washandjesneeuwitje | goeiendag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| EVAL |  | S |  | I | I | S | S | S |  | I | I | I | S | S |  | I | S |  |  |  | I | S | S |  | I | S | S | S |  |  | S |  |  |  | S |  |  |  | D | S | S |  |  |  |  |  |  |  |
+---
+
+---

@@ -1,0 +1,217 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  114.3%   (  64)
+
+Percent Correct           =   14.3%   (   8)
+
+Percent Substitution      =   85.7%   (  48)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   28.6%   (  16)
+Percent Word Accuracy     =  -14.3%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  * ==> foto
+   2:    1  ->  * ==> ber
+   3:    1  ->  * ==> bleven
+   4:    1  ->  * ==> dag
+   5:    1  ->  * ==> det
+   6:    1  ->  * ==> fotas
+   7:    1  ->  * ==> jem
+   8:    1  ->  * ==> l
+   9:    1  ->  * ==> lu
+  10:    1  ->  * ==> maken
+  11:    1  ->  * ==> omdaar
+  12:    1  ->  * ==> ruzie
+  13:    1  ->  * ==> tan
+  14:    1  ->  * ==> toestaal
+  15:    1  ->  *(verstoppen) ==> vorstoppertje
+  16:    1  ->  achterdeur ==> hirig
+  17:    1  ->  afblijven ==> wat
+  18:    1  ->  autorijden ==> autoreden
+  19:    1  ->  buurmannen ==> purenen
+  20:    1  ->  chocolade ==> chocoladem
+  21:    1  ->  dierentuin ==> paddesdoelen
+  22:    1  ->  eindelijk ==> inelik
+  23:    1  ->  elastiekje ==> te
+  24:    1  ->  fototoestel*(toestel) ==> toilet
+  25:    1  ->  goeiendag ==> groeigroeiendag
+  26:    1  ->  kabouter ==> handje
+  27:    1  ->  knutselen ==> denuten
+  28:    1  ->  konijnenhok ==> alastikje
+  29:    1  ->  limonade ==> dimanada
+  30:    1  ->  nieuwsgierig ==> kabalter
+  31:    1  ->  paddenstoelen ==> versdoppen
+  32:    1  ->  poppenwagen ==> elastik
+  33:    1  ->  ruziemaken ==> tadi
+  34:    1  ->  schoenenwinkel ==> winkel
+  35:    1  ->  schommelen ==> en
+  36:    1  ->  sneeuwwitje ==> wit
+  37:    1  ->  sprookjesboek ==> de
+  38:    1  ->  tandenborstel ==> borsel
+  39:    1  ->  teddybeer ==> direnten
+  40:    1  ->  toiletpapier ==> papier
+  41:    1  ->  vakantie ==> vakanseem
+  42:    1  ->  verjaardag ==> sprolkisbook
+  43:    1  ->  verstoppertje ==> was
+  44:    1  ->  vogelkooi ==> voeco
+  45:    1  ->  washandje ==> snee
+  46:    1  ->  wasmachine ==> machine
+  47:    1  ->  ziekenhuis ==> af
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ach
+   2:    1  ->  deur
+   3:    1  ->  dor
+   4:    1  ->  een
+   5:    1  ->  enlas
+   6:    1  ->  gaas
+   7:    1  ->  in
+   8:    1  ->  konijnenhoek
+   9:    1  ->  nee
+  10:    1  ->  neeus
+  11:    1  ->  popenwagen
+  12:    1  ->  schoen
+  13:    1  ->  schommel
+  14:    1  ->  tik
+  15:    1  ->  verjaarda
+  16:    1  ->  zieik
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   15  ->  *
+   2:    1  ->  *(verstoppen)
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen
+   7:    1  ->  chocolade
+   8:    1  ->  dierentuin
+   9:    1  ->  eindelijk
+  10:    1  ->  elastiekje
+  11:    1  ->  fototoestel*(toestel)
+  12:    1  ->  goeiendag
+  13:    1  ->  kabouter
+  14:    1  ->  knutselen
+  15:    1  ->  konijnenhok
+  16:    1  ->  limonade
+  17:    1  ->  nieuwsgierig
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  schommelen
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  vakantie
+  29:    1  ->  verjaardag
+  30:    1  ->  verstoppertje
+  31:    1  ->  vogelkooi
+  32:    1  ->  washandje
+  33:    1  ->  wasmachine
+  34:    1  ->  ziekenhuis
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  foto
+   2:    1  ->  af
+   3:    1  ->  alastikje
+   4:    1  ->  autoreden
+   5:    1  ->  ber
+   6:    1  ->  bleven
+   7:    1  ->  borsel
+   8:    1  ->  chocoladem
+   9:    1  ->  dag
+  10:    1  ->  de
+  11:    1  ->  denuten
+  12:    1  ->  det
+  13:    1  ->  dimanada
+  14:    1  ->  direnten
+  15:    1  ->  elastik
+  16:    1  ->  en
+  17:    1  ->  fotas
+  18:    1  ->  groeigroeiendag
+  19:    1  ->  handje
+  20:    1  ->  hirig
+  21:    1  ->  inelik
+  22:    1  ->  jem
+  23:    1  ->  kabalter
+  24:    1  ->  l
+  25:    1  ->  lu
+  26:    1  ->  machine
+  27:    1  ->  maken
+  28:    1  ->  omdaar
+  29:    1  ->  paddesdoelen
+  30:    1  ->  papier
+  31:    1  ->  purenen
+  32:    1  ->  ruzie
+  33:    1  ->  snee
+  34:    1  ->  sprolkisbook
+  35:    1  ->  tadi
+  36:    1  ->  tan
+  37:    1  ->  te
+  38:    1  ->  toestaal
+  39:    1  ->  toilet
+  40:    1  ->  vakanseem
+  41:    1  ->  versdoppen
+  42:    1  ->  voeco
+  43:    1  ->  vorstoppertje
+  44:    1  ->  was
+  45:    1  ->  wat
+  46:    1  ->  winkel
+  47:    1  ->  wit
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

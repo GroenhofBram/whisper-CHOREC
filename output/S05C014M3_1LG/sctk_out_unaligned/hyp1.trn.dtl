@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   88.9%   (  40)
+
+Percent Correct           =   11.1%   (   5)
+
+Percent Substitution      =   66.7%   (  30)
+Percent Deletions         =   22.2%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   11.1%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  35)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> pa
+   2:    1  ->  * ==> um
+   3:    1  ->  * ==> vak
+   4:    1  ->  *s ==> m
+   5:    1  ->  *x ==> e
+   6:    1  ->  bang*(bank) ==> dan
+   7:    1  ->  bed ==> annt
+   8:    1  ->  duur ==> um
+   9:    1  ->  eerst ==> ee
+  10:    1  ->  feest ==> ships
+  11:    1  ->  gauw ==> n
+  12:    1  ->  groen ==> a
+  13:    1  ->  herfst ==> dera
+  14:    1  ->  hoek ==> klan
+  15:    1  ->  kind ==> ken
+  16:    1  ->  klas ==> clas
+  17:    1  ->  knoop ==> e
+  18:    1  ->  krant ==> hon
+  19:    1  ->  leeuw ==> uh
+  20:    1  ->  mooi ==> moy
+  21:    1  ->  muts ==> part
+  22:    1  ->  neus ==> ela
+  23:    1  ->  nieuw ==> v
+  24:    1  ->  oog ==> og
+  25:    1  ->  plank ==> od
+  26:    1  ->  reis ==> ves
+  27:    1  ->  straat ==> jullie
+  28:    1  ->  strand ==> ero
+  29:    1  ->  vijf ==> us
+  30:    1  ->  zacht ==> at
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  *
+   2:    1  ->  *(schaal)
+   3:    1  ->  arm
+   4:    1  ->  draai
+   5:    1  ->  groei
+   6:    1  ->  huis
+   7:    1  ->  paard
+   8:    1  ->  plas
+   9:    1  ->  vriend
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  *
+   2:    1  ->  *s
+   3:    1  ->  *x
+   4:    1  ->  bang*(bank)
+   5:    1  ->  bed
+   6:    1  ->  duur
+   7:    1  ->  eerst
+   8:    1  ->  feest
+   9:    1  ->  gauw
+  10:    1  ->  groen
+  11:    1  ->  herfst
+  12:    1  ->  hoek
+  13:    1  ->  kind
+  14:    1  ->  klas
+  15:    1  ->  knoop
+  16:    1  ->  krant
+  17:    1  ->  leeuw
+  18:    1  ->  mooi
+  19:    1  ->  muts
+  20:    1  ->  neus
+  21:    1  ->  nieuw
+  22:    1  ->  oog
+  23:    1  ->  plank
+  24:    1  ->  reis
+  25:    1  ->  straat
+  26:    1  ->  strand
+  27:    1  ->  vijf
+  28:    1  ->  zacht
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  e
+   2:    2  ->  um
+   3:    1  ->  a
+   4:    1  ->  annt
+   5:    1  ->  at
+   6:    1  ->  clas
+   7:    1  ->  dan
+   8:    1  ->  dera
+   9:    1  ->  ee
+  10:    1  ->  ela
+  11:    1  ->  ero
+  12:    1  ->  hon
+  13:    1  ->  jullie
+  14:    1  ->  ken
+  15:    1  ->  klan
+  16:    1  ->  m
+  17:    1  ->  moy
+  18:    1  ->  n
+  19:    1  ->  od
+  20:    1  ->  og
+  21:    1  ->  pa
+  22:    1  ->  part
+  23:    1  ->  ships
+  24:    1  ->  uh
+  25:    1  ->  us
+  26:    1  ->  v
+  27:    1  ->  vak
+  28:    1  ->  ves
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

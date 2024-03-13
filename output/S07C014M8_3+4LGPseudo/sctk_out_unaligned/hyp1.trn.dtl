@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  92)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   80.4%   (  74)
+Percent Deletions         =   19.6%   (  18)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  92)
+Hyp. words                =           (  74)
+Aligned words             =           (  92)
+
+CONFUSION PAIRS                  Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    3  ->  * ==> en
+   2:    3  ->  * ==> ja
+   3:    3  ->  * ==> nee
+   4:    2  ->  * ==> a
+   5:    2  ->  * ==> e
+   6:    2  ->  * ==> n
+   7:    2  ->  * ==> o
+   8:    2  ->  * ==> u
+   9:    1  ->  * ==> ar
+  10:    1  ->  * ==> dags
+  11:    1  ->  * ==> de
+  12:    1  ->  * ==> doe
+  13:    1  ->  * ==> edohatur
+  14:    1  ->  * ==> ee
+  15:    1  ->  * ==> een
+  16:    1  ->  * ==> erood
+  17:    1  ->  * ==> ex
+  18:    1  ->  * ==> geel
+  19:    1  ->  * ==> ha
+  20:    1  ->  * ==> hig
+  21:    1  ->  * ==> hirik
+  22:    1  ->  * ==> i
+  23:    1  ->  * ==> juis
+  24:    1  ->  * ==> k
+  25:    1  ->  * ==> kahoen
+  26:    1  ->  * ==> ko
+  27:    1  ->  * ==> ké
+  28:    1  ->  * ==> lage
+  29:    1  ->  * ==> m
+  30:    1  ->  * ==> ma
+  31:    1  ->  * ==> man
+  32:    1  ->  * ==> mhoettalt
+  33:    1  ->  * ==> niet
+  34:    1  ->  * ==> omdas
+  35:    1  ->  * ==> omde
+  36:    1  ->  * ==> pae
+  37:    1  ->  * ==> ral
+  38:    1  ->  * ==> re
+  39:    1  ->  * ==> rook
+  40:    1  ->  * ==> schanten
+  41:    1  ->  * ==> seet
+  42:    1  ->  * ==> t
+  43:    1  ->  * ==> tas
+  44:    1  ->  * ==> tegen
+  45:    1  ->  * ==> ten
+  46:    1  ->  * ==> to
+  47:    1  ->  * ==> toh
+  48:    1  ->  * ==> vr
+  49:    1  ->  * ==> zo
+  50:    1  ->  choporatie ==> he
+  51:    1  ->  fandelig ==> wag
+  52:    1  ->  gerauwejaak ==> j
+  53:    1  ->  hapeneren ==> han
+  54:    1  ->  havedil ==> l
+  55:    1  ->  ijraspangen ==> kantem
+  56:    1  ->  kanaroe ==> n
+  57:    1  ->  ondermind ==> vandja
+  58:    1  ->  schielendaspen ==> tonn
+  59:    1  ->  smoralij ==> warel
+  60:    1  ->  spekkeraai ==> en
+  61:    1  ->  verbrakkertje ==> ara
+  62:    1  ->  verpierik ==> lun
+  63:    1  ->  wachteniek ==> oe
+     -------
+        74
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:   13  ->  *
+   2:    1  ->  deuveltek
+   3:    1  ->  gevijdel
+   4:    1  ->  nurudien
+   5:    1  ->  ometuif
+   6:    1  ->  stoenydaas
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:   60  ->  *
+   2:    1  ->  choporatie
+   3:    1  ->  fandelig
+   4:    1  ->  gerauwejaak
+   5:    1  ->  hapeneren
+   6:    1  ->  havedil
+   7:    1  ->  ijraspangen
+   8:    1  ->  kanaroe
+   9:    1  ->  ondermind
+  10:    1  ->  schielendaspen
+  11:    1  ->  smoralij
+  12:    1  ->  spekkeraai
+  13:    1  ->  verbrakkertje
+  14:    1  ->  verpierik
+  15:    1  ->  wachteniek
+     -------
+        74
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    4  ->  en
+   2:    3  ->  ja
+   3:    3  ->  n
+   4:    3  ->  nee
+   5:    2  ->  a
+   6:    2  ->  e
+   7:    2  ->  o
+   8:    2  ->  u
+   9:    1  ->  ar
+  10:    1  ->  ara
+  11:    1  ->  dags
+  12:    1  ->  de
+  13:    1  ->  doe
+  14:    1  ->  edohatur
+  15:    1  ->  ee
+  16:    1  ->  een
+  17:    1  ->  erood
+  18:    1  ->  ex
+  19:    1  ->  geel
+  20:    1  ->  ha
+  21:    1  ->  han
+  22:    1  ->  he
+  23:    1  ->  hig
+  24:    1  ->  hirik
+  25:    1  ->  i
+  26:    1  ->  j
+  27:    1  ->  juis
+  28:    1  ->  k
+  29:    1  ->  kahoen
+  30:    1  ->  kantem
+  31:    1  ->  ko
+  32:    1  ->  ké
+  33:    1  ->  l
+  34:    1  ->  lage
+  35:    1  ->  lun
+  36:    1  ->  m
+  37:    1  ->  ma
+  38:    1  ->  man
+  39:    1  ->  mhoettalt
+  40:    1  ->  niet
+  41:    1  ->  oe
+  42:    1  ->  omdas
+  43:    1  ->  omde
+  44:    1  ->  pae
+  45:    1  ->  ral
+  46:    1  ->  re
+  47:    1  ->  rook
+  48:    1  ->  schanten
+  49:    1  ->  seet
+  50:    1  ->  t
+  51:    1  ->  tas
+  52:    1  ->  tegen
+  53:    1  ->  ten
+  54:    1  ->  to
+  55:    1  ->  toh
+  56:    1  ->  tonn
+  57:    1  ->  vandja
+  58:    1  ->  vr
+  59:    1  ->  wag
+  60:    1  ->  warel
+  61:    1  ->  zo
+     -------
+        74
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.8%   (  11)
+
+Percent Correct           =   73.2%   (  30)
+
+Percent Substitution      =   26.8%   (  11)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> has
+   2:    1  ->  clown ==> klown
+   3:    1  ->  draai ==> drei
+   4:    1  ->  groei ==> grooi
+   5:    1  ->  herfst ==> herst
+   6:    1  ->  hoek ==> hook
+   7:    1  ->  huis ==> huits
+   8:    1  ->  nieuw ==> neeuw
+   9:    1  ->  paard ==> part
+  10:    1  ->  sjaal ==> schel
+  11:    1  ->  strand*(stand) ==> stand
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  clown
+   3:    1  ->  draai
+   4:    1  ->  groei
+   5:    1  ->  herfst
+   6:    1  ->  hoek
+   7:    1  ->  huis
+   8:    1  ->  nieuw
+   9:    1  ->  paard
+  10:    1  ->  sjaal
+  11:    1  ->  strand*(stand)
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  drei
+   2:    1  ->  grooi
+   3:    1  ->  has
+   4:    1  ->  herst
+   5:    1  ->  hook
+   6:    1  ->  huits
+   7:    1  ->  klown
+   8:    1  ->  neeuw
+   9:    1  ->  part
+  10:    1  ->  schel
+  11:    1  ->  stand
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C056M8_1LG
+
+#### (S07C056M8_1LG-words)
+
+- Cor=67.5%	Sub=32.5%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen*(groei) | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | groei | strond | bed | eerst | voor | draain | siaal | herifst | duur | straat | leeuw | klauwen | hoek | kront | hout | vriend | gaal | chips | groei | veest | reis | jos | hus | bart | vijf | muut | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| EVAL |  |  |  |  |  | S |  |  |  | S | S | S |  |  |  | S |  | S |  |  | S |  | S | S |  | S | S | S |  | S |  |  |  |  |  |  |  |  |  |  |
+---
+
+---

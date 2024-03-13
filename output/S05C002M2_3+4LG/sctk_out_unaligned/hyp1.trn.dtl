@@ -1,0 +1,306 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.6%   ( 201)
+
+Percent Correct           =    2.4%   (   5)
+
+Percent Substitution      =   72.8%   ( 150)
+Percent Deletions         =   24.8%   (  51)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    2.4%
+
+
+Ref. words                =           ( 206)
+Hyp. words                =           ( 155)
+Aligned words             =           ( 206)
+
+CONFUSION PAIRS                  Total                 (109)
+                                 With >=  1 occurrences (109)
+
+   1:    7  ->  * ==> o
+   2:    6  ->  * ==> u
+   3:    5  ->  * ==> uh
+   4:    4  ->  * ==> a
+   5:    4  ->  * ==> to
+   6:    3  ->  * ==> ah
+   7:    3  ->  * ==> e
+   8:    3  ->  * ==> en
+   9:    3  ->  * ==> g
+  10:    3  ->  * ==> i
+  11:    2  ->  * ==> der
+  12:    2  ->  * ==> een
+  13:    2  ->  * ==> ja
+  14:    2  ->  * ==> oh
+  15:    2  ->  * ==> oi
+  16:    2  ->  * ==> ta
+  17:    2  ->  * ==> um
+  18:    2  ->  * ==> vora
+  19:    2  ->  * ==> was
+  20:    2  ->  * ==> wie
+  21:    1  ->  * ==> ad
+  22:    1  ->  * ==> af
+  23:    1  ->  * ==> am
+  24:    1  ->  * ==> bier
+  25:    1  ->  * ==> bli
+  26:    1  ->  * ==> boek
+  27:    1  ->  * ==> borstel
+  28:    1  ->  * ==> dag
+  29:    1  ->  * ==> de
+  30:    1  ->  * ==> den
+  31:    1  ->  * ==> dier
+  32:    1  ->  * ==> dood
+  33:    1  ->  * ==> dr
+  34:    1  ->  * ==> dur
+  35:    1  ->  * ==> er
+  36:    1  ->  * ==> erdoper
+  37:    1  ->  * ==> et
+  38:    1  ->  * ==> f
+  39:    1  ->  * ==> h
+  40:    1  ->  * ==> hok
+  41:    1  ->  * ==> ia
+  42:    1  ->  * ==> ier
+  43:    1  ->  * ==> if
+  44:    1  ->  * ==> il
+  45:    1  ->  * ==> imhef
+  46:    1  ->  * ==> in
+  47:    1  ->  * ==> ir
+  48:    1  ->  * ==> je
+  49:    1  ->  * ==> k
+  50:    1  ->  * ==> ka
+  51:    1  ->  * ==> kik
+  52:    1  ->  * ==> ko
+  53:    1  ->  * ==> kon
+  54:    1  ->  * ==> konin
+  55:    1  ->  * ==> leier
+  56:    1  ->  * ==> lief
+  57:    1  ->  * ==> liefand
+  58:    1  ->  * ==> m
+  59:    1  ->  * ==> ma
+  60:    1  ->  * ==> maken
+  61:    1  ->  * ==> mim
+  62:    1  ->  * ==> n
+  63:    1  ->  * ==> neel
+  64:    1  ->  * ==> nit
+  65:    1  ->  * ==> oeki
+  66:    1  ->  * ==> om
+  67:    1  ->  * ==> op
+  68:    1  ->  * ==> pan
+  69:    1  ->  * ==> pant
+  70:    1  ->  * ==> pantoc
+  71:    1  ->  * ==> potnwa
+  72:    1  ->  * ==> prook
+  73:    1  ->  * ==> r
+  74:    1  ->  * ==> reen
+  75:    1  ->  * ==> reten
+  76:    1  ->  * ==> rug
+  77:    1  ->  * ==> sa
+  78:    1  ->  * ==> schoen
+  79:    1  ->  * ==> sgo
+  80:    1  ->  * ==> slaapkalm
+  81:    1  ->  * ==> soa
+  82:    1  ->  * ==> socolat
+  83:    1  ->  * ==> t
+  84:    1  ->  * ==> te
+  85:    1  ->  * ==> ti
+  86:    1  ->  * ==> tuin
+  87:    1  ->  * ==> uhm
+  88:    1  ->  * ==> v
+  89:    1  ->  * ==> vag
+  90:    1  ->  * ==> ven
+  91:    1  ->  * ==> vorelkoa
+  92:    1  ->  * ==> wa
+  93:    1  ->  * ==> wae
+  94:    1  ->  * ==> wat
+  95:    1  ->  * ==> winkel
+  96:    1  ->  * ==> é
+  97:    1  ->  * ==> éém
+  98:    1  ->  *t ==> di
+  99:    1  ->  autorijden ==> auto
+ 100:    1  ->  goeiendag ==> kil
+ 101:    1  ->  kabouter*(kadootje) ==> kadood
+ 102:    1  ->  knutselen ==> knikelen
+ 103:    1  ->  lucifer ==> de
+ 104:    1  ->  nieuwsgierig ==> t
+ 105:    1  ->  olifant ==> o
+ 106:    1  ->  schommelen*(schommel) ==> schonul
+ 107:    1  ->  sneeuwwitje ==> hank
+ 108:    1  ->  vogelkooi ==> oh
+ 109:    1  ->  ziekenhuis ==> kameracht
+     -------
+       150
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:   46  ->  *
+   2:    1  ->  chocolade
+   3:    1  ->  elastiekje
+   4:    1  ->  limonade
+   5:    1  ->  omdraaien
+   6:    1  ->  poppenwagen
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:  138  ->  *
+   2:    1  ->  *t
+   3:    1  ->  autorijden
+   4:    1  ->  goeiendag
+   5:    1  ->  kabouter*(kadootje)
+   6:    1  ->  knutselen
+   7:    1  ->  lucifer
+   8:    1  ->  nieuwsgierig
+   9:    1  ->  olifant
+  10:    1  ->  schommelen*(schommel)
+  11:    1  ->  sneeuwwitje
+  12:    1  ->  vogelkooi
+  13:    1  ->  ziekenhuis
+     -------
+       150
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (105)
+                                 With >=  1 occurrences (105)
+
+   1:    8  ->  o
+   2:    6  ->  u
+   3:    5  ->  uh
+   4:    4  ->  a
+   5:    4  ->  to
+   6:    3  ->  ah
+   7:    3  ->  e
+   8:    3  ->  en
+   9:    3  ->  g
+  10:    3  ->  i
+  11:    3  ->  oh
+  12:    2  ->  de
+  13:    2  ->  der
+  14:    2  ->  een
+  15:    2  ->  ja
+  16:    2  ->  oi
+  17:    2  ->  t
+  18:    2  ->  ta
+  19:    2  ->  um
+  20:    2  ->  vora
+  21:    2  ->  was
+  22:    2  ->  wie
+  23:    1  ->  ad
+  24:    1  ->  af
+  25:    1  ->  am
+  26:    1  ->  auto
+  27:    1  ->  bier
+  28:    1  ->  bli
+  29:    1  ->  boek
+  30:    1  ->  borstel
+  31:    1  ->  dag
+  32:    1  ->  den
+  33:    1  ->  di
+  34:    1  ->  dier
+  35:    1  ->  dood
+  36:    1  ->  dr
+  37:    1  ->  dur
+  38:    1  ->  er
+  39:    1  ->  erdoper
+  40:    1  ->  et
+  41:    1  ->  f
+  42:    1  ->  h
+  43:    1  ->  hank
+  44:    1  ->  hok
+  45:    1  ->  ia
+  46:    1  ->  ier
+  47:    1  ->  if
+  48:    1  ->  il
+  49:    1  ->  imhef
+  50:    1  ->  in
+  51:    1  ->  ir
+  52:    1  ->  je
+  53:    1  ->  k
+  54:    1  ->  ka
+  55:    1  ->  kadood
+  56:    1  ->  kameracht
+  57:    1  ->  kik
+  58:    1  ->  kil
+  59:    1  ->  knikelen
+  60:    1  ->  ko
+  61:    1  ->  kon
+  62:    1  ->  konin
+  63:    1  ->  leier
+  64:    1  ->  lief
+  65:    1  ->  liefand
+  66:    1  ->  m
+  67:    1  ->  ma
+  68:    1  ->  maken
+  69:    1  ->  mim
+  70:    1  ->  n
+  71:    1  ->  neel
+  72:    1  ->  nit
+  73:    1  ->  oeki
+  74:    1  ->  om
+  75:    1  ->  op
+  76:    1  ->  pan
+  77:    1  ->  pant
+  78:    1  ->  pantoc
+  79:    1  ->  potnwa
+  80:    1  ->  prook
+  81:    1  ->  r
+  82:    1  ->  reen
+  83:    1  ->  reten
+  84:    1  ->  rug
+  85:    1  ->  sa
+  86:    1  ->  schoen
+  87:    1  ->  schonul
+  88:    1  ->  sgo
+  89:    1  ->  slaapkalm
+  90:    1  ->  soa
+  91:    1  ->  socolat
+  92:    1  ->  te
+  93:    1  ->  ti
+  94:    1  ->  tuin
+  95:    1  ->  uhm
+  96:    1  ->  v
+  97:    1  ->  vag
+  98:    1  ->  ven
+  99:    1  ->  vorelkoa
+ 100:    1  ->  wa
+ 101:    1  ->  wae
+ 102:    1  ->  wat
+ 103:    1  ->  winkel
+ 104:    1  ->  é
+ 105:    1  ->  éém
+     -------
+       150
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  60)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   55.0%   (  33)
+Percent Deletions         =   45.0%   (  27)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  60)
+Hyp. words                =           (  33)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> ds
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> g
+   5:    1  ->  * ==> godar
+   6:    1  ->  * ==> i
+   7:    1  ->  * ==> ja
+   8:    1  ->  * ==> o
+   9:    1  ->  * ==> tien
+  10:    1  ->  * ==> u
+  11:    1  ->  * ==> w
+  12:    1  ->  blottenduuf ==> en
+  13:    1  ->  choporatie ==> gen
+  14:    1  ->  fandelig ==> as
+  15:    1  ->  gerauwejaak ==> en
+  16:    1  ->  girdofhaalder ==> as
+  17:    1  ->  hapeneren ==> g
+  18:    1  ->  havedil ==> b
+  19:    1  ->  ijraspangen ==> zijn
+  20:    1  ->  jalekrewen ==> vel
+  21:    1  ->  kanaroe ==> cus
+  22:    1  ->  kantelogsten ==> hh
+  23:    1  ->  meitsegrok ==> warenes
+  24:    1  ->  ondermind ==> s
+  25:    1  ->  ooiebiekje ==> g
+  26:    1  ->  poentalschouden ==> en
+  27:    1  ->  smoralij ==> g
+  28:    1  ->  tobbermoeit ==> al
+  29:    1  ->  toineetlijgen ==> doen
+  30:    1  ->  verbrakkertje ==> gid
+  31:    1  ->  verwarig ==> gve
+  32:    1  ->  zeekvlachine ==> ta
+  33:    1  ->  zennebral ==> ja
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    9  ->  *
+   2:    1  ->  crobeklunker
+   3:    1  ->  deuveltek
+   4:    1  ->  gevijdel
+   5:    1  ->  jattesiet
+   6:    1  ->  juitonie
+   7:    1  ->  kabbestepen
+   8:    1  ->  mantaroen
+   9:    1  ->  nappegreeuw
+  10:    1  ->  nurudien
+  11:    1  ->  ometuif
+  12:    1  ->  oonwijlen
+  13:    1  ->  schielendaspen
+  14:    1  ->  sidowaan
+  15:    1  ->  spekkeraai
+  16:    1  ->  stoenydaas
+  17:    1  ->  toejietsen
+  18:    1  ->  verpierik
+  19:    1  ->  wachteniek
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   11  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  fandelig
+   5:    1  ->  gerauwejaak
+   6:    1  ->  girdofhaalder
+   7:    1  ->  hapeneren
+   8:    1  ->  havedil
+   9:    1  ->  ijraspangen
+  10:    1  ->  jalekrewen
+  11:    1  ->  kanaroe
+  12:    1  ->  kantelogsten
+  13:    1  ->  meitsegrok
+  14:    1  ->  ondermind
+  15:    1  ->  ooiebiekje
+  16:    1  ->  poentalschouden
+  17:    1  ->  smoralij
+  18:    1  ->  tobbermoeit
+  19:    1  ->  toineetlijgen
+  20:    1  ->  verbrakkertje
+  21:    1  ->  verwarig
+  22:    1  ->  zeekvlachine
+  23:    1  ->  zennebral
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  en
+   2:    4  ->  g
+   3:    2  ->  as
+   4:    2  ->  ja
+   5:    1  ->  a
+   6:    1  ->  al
+   7:    1  ->  b
+   8:    1  ->  cus
+   9:    1  ->  doen
+  10:    1  ->  ds
+  11:    1  ->  gen
+  12:    1  ->  gid
+  13:    1  ->  godar
+  14:    1  ->  gve
+  15:    1  ->  hh
+  16:    1  ->  i
+  17:    1  ->  o
+  18:    1  ->  s
+  19:    1  ->  ta
+  20:    1  ->  tien
+  21:    1  ->  u
+  22:    1  ->  vel
+  23:    1  ->  w
+  24:    1  ->  warenes
+  25:    1  ->  zijn
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.5%   (  15)
+
+Percent Correct           =   65.0%   (  26)
+
+Percent Substitution      =   30.0%   (  12)
+Percent Deletions         =    5.0%   (   2)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   62.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  auto ==> houto
+   2:    1  ->  dichtbij ==> bij
+   3:    1  ->  eerste ==> heerste
+   4:    1  ->  kussen ==> cusen
+   5:    1  ->  liedje ==> liedsje
+   6:    1  ->  meisje ==> meice
+   7:    1  ->  moeder ==> snieuwenmoeder
+   8:    1  ->  potlood ==> potloot
+   9:    1  ->  scheuren*(schouder) ==> schouder
+  10:    1  ->  schouders ==> schouregs
+  11:    1  ->  vliegtuig ==> regenvliegtuig
+  12:    1  ->  zwemmen ==> semmen
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  dicht
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  regen
+   2:    1  ->  sneeuwen
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  auto
+   2:    1  ->  dichtbij
+   3:    1  ->  eerste
+   4:    1  ->  kussen
+   5:    1  ->  liedje
+   6:    1  ->  meisje
+   7:    1  ->  moeder
+   8:    1  ->  potlood
+   9:    1  ->  scheuren*(schouder)
+  10:    1  ->  schouders
+  11:    1  ->  vliegtuig
+  12:    1  ->  zwemmen
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bij
+   2:    1  ->  cusen
+   3:    1  ->  heerste
+   4:    1  ->  houto
+   5:    1  ->  liedsje
+   6:    1  ->  meice
+   7:    1  ->  potloot
+   8:    1  ->  regenvliegtuig
+   9:    1  ->  schouder
+  10:    1  ->  schouregs
+  11:    1  ->  semmen
+  12:    1  ->  snieuwenmoeder
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

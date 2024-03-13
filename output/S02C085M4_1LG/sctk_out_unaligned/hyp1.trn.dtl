@@ -1,0 +1,102 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.2%   (  11)
+
+Percent Correct           =   76.2%   (  32)
+
+Percent Substitution      =   21.4%   (   9)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   73.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  *(vrienden) ==> vrienden
+   2:    1  ->  clown ==> klaaun
+   3:    1  ->  gauw ==> gaaw
+   4:    1  ->  hoek ==> hook
+   5:    1  ->  huis ==> has
+   6:    1  ->  knoop ==> knop
+   7:    1  ->  muts ==> nut
+   8:    1  ->  reis ==> reest
+   9:    1  ->  sjaal ==> schaal
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  e
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  *(vrienden)
+   2:    1  ->  clown
+   3:    1  ->  gauw
+   4:    1  ->  hoek
+   5:    1  ->  huis
+   6:    1  ->  knoop
+   7:    1  ->  muts
+   8:    1  ->  reis
+   9:    1  ->  sjaal
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  gaaw
+   2:    1  ->  has
+   3:    1  ->  hook
+   4:    1  ->  klaaun
+   5:    1  ->  knop
+   6:    1  ->  nut
+   7:    1  ->  reest
+   8:    1  ->  schaal
+   9:    1  ->  vrienden
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

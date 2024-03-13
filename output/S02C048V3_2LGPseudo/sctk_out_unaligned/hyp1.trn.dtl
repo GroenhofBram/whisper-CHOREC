@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   67.4%   (  29)
+
+Percent Correct           =   41.9%   (  18)
+
+Percent Substitution      =   58.1%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    9.3%   (   4)
+Percent Word Accuracy     =   32.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> la
+   2:    1  ->  * ==> lawi
+   3:    1  ->  *x ==> wacht
+   4:    1  ->  bepoud ==> bepaulwd
+   5:    1  ->  eemde ==> eende
+   6:    1  ->  fiewon ==> cneuren
+   7:    1  ->  foetbans ==> voetbans
+   8:    1  ->  gefouw ==> vuurpant
+   9:    1  ->  hiffreeuw ==> hefreeuw
+  10:    1  ->  ierpieuw ==> pilv
+  11:    1  ->  ijpo ==> me
+  12:    1  ->  kneurem ==> van
+  13:    1  ->  menuur ==> nuur
+  14:    1  ->  millen ==> milen
+  15:    1  ->  milste ==> milster
+  16:    1  ->  nizung ==> fibon
+  17:    1  ->  prilsood ==> brilsout
+  18:    1  ->  schielstaug ==> staog
+  19:    1  ->  spreikje ==> sprejkje
+  20:    1  ->  ulen ==> ullen
+  21:    1  ->  vawaai ==> wi
+  22:    1  ->  vloender ==> vlonder
+  23:    1  ->  vocil ==> vokil
+  24:    1  ->  vurpaand ==> nisiun
+  25:    1  ->  walaan ==> walinv
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  epel
+   2:    1  ->  gefal
+   3:    1  ->  ier
+   4:    1  ->  scheel
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  *
+   2:    1  ->  *x
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  hiffreeuw
+   9:    1  ->  ierpieuw
+  10:    1  ->  ijpo
+  11:    1  ->  kneurem
+  12:    1  ->  menuur
+  13:    1  ->  millen
+  14:    1  ->  milste
+  15:    1  ->  nizung
+  16:    1  ->  prilsood
+  17:    1  ->  schielstaug
+  18:    1  ->  spreikje
+  19:    1  ->  ulen
+  20:    1  ->  vawaai
+  21:    1  ->  vloender
+  22:    1  ->  vocil
+  23:    1  ->  vurpaand
+  24:    1  ->  walaan
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  bepaulwd
+   2:    1  ->  brilsout
+   3:    1  ->  cneuren
+   4:    1  ->  eende
+   5:    1  ->  fibon
+   6:    1  ->  hefreeuw
+   7:    1  ->  la
+   8:    1  ->  lawi
+   9:    1  ->  me
+  10:    1  ->  milen
+  11:    1  ->  milster
+  12:    1  ->  nisiun
+  13:    1  ->  nuur
+  14:    1  ->  pilv
+  15:    1  ->  sprejkje
+  16:    1  ->  staog
+  17:    1  ->  ullen
+  18:    1  ->  van
+  19:    1  ->  vlonder
+  20:    1  ->  voetbans
+  21:    1  ->  vokil
+  22:    1  ->  vuurpant
+  23:    1  ->  wacht
+  24:    1  ->  walinv
+  25:    1  ->  wi
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

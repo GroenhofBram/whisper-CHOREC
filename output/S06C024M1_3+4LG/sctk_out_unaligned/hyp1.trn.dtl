@@ -1,0 +1,248 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  108.0%   (  81)
+
+Percent Correct           =   14.7%   (  11)
+
+Percent Substitution      =   84.0%   (  63)
+Percent Deletions         =    1.3%   (   1)
+Percent Insertions        =   22.7%   (  17)
+Percent Word Accuracy     =   -8.0%
+
+
+Ref. words                =           (  75)
+Hyp. words                =           (  91)
+Aligned words             =           (  92)
+
+CONFUSION PAIRS                  Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    1  ->  * ==> achter
+   2:    1  ->  * ==> bij
+   3:    1  ->  * ==> boek
+   4:    1  ->  * ==> borstel
+   5:    1  ->  * ==> coa
+   6:    1  ->  * ==> dag
+   7:    1  ->  * ==> dustoulv
+   8:    1  ->  * ==> gooi
+   9:    1  ->  * ==> gu
+  10:    1  ->  * ==> kamer
+  11:    1  ->  * ==> lunv
+  12:    1  ->  * ==> machinev
+  13:    1  ->  * ==> mellen
+  14:    1  ->  * ==> pad
+  15:    1  ->  * ==> reer
+  16:    1  ->  * ==> runtuin
+  17:    1  ->  * ==> scha
+  18:    1  ->  * ==> schguren
+  19:    1  ->  * ==> schoen
+  20:    1  ->  * ==> schoenschoenenwerken
+  21:    1  ->  * ==> slap
+  22:    1  ->  * ==> slaps
+  23:    1  ->  * ==> sneeuw
+  24:    1  ->  * ==> tebiber
+  25:    1  ->  * ==> tje
+  26:    1  ->  * ==> vaak
+  27:    1  ->  * ==> washang
+  28:    1  ->  * ==> wasonder
+  29:    1  ->  * ==> wie
+  30:    1  ->  * ==> witje
+  31:    1  ->  *(afbeelden) ==> afbeelden
+  32:    1  ->  *(cocacola) ==> cokacola
+  33:    1  ->  *(konijnhok) ==> maken
+  34:    1  ->  *t ==> uh
+  35:    1  ->  achterdeur ==> deur
+  36:    1  ->  autorijden ==> rijden
+  37:    1  ->  buurmannen ==> voor
+  38:    1  ->  chocolade ==> choculade
+  39:    1  ->  dierentuin ==> verstoppuntje
+  40:    1  ->  elastiekje ==> reismaken
+  41:    1  ->  elastiekje ==> te
+  42:    1  ->  fototoestel ==> dollet
+  43:    1  ->  goeiendag ==> kuntje
+  44:    1  ->  iedereen ==> schoideveen
+  45:    1  ->  kabouter ==> washont
+  46:    1  ->  knutselen ==> knutsullen
+  47:    1  ->  konijnenhok ==> reizen
+  48:    1  ->  limonade ==> auto
+  49:    1  ->  lucifer ==> luikjeffer
+  50:    1  ->  paddenstoelen ==> was
+  51:    1  ->  poppenwagen ==> maken
+  52:    1  ->  ruziemaken ==> te
+  53:    1  ->  schoenenwinkel ==> 'k
+  54:    1  ->  schommelen ==> schoum
+  55:    1  ->  sneeuwwitje ==> goeien
+  56:    1  ->  sprookjesboek ==> sprookjes
+  57:    1  ->  tandenborstel ==> tanden
+  58:    1  ->  teddybeer ==> dur
+  59:    1  ->  toiletpapier ==> papier
+  60:    1  ->  vakantie ==> lemonade
+  61:    1  ->  verstoppertje ==> foto's
+  62:    1  ->  vogelkooi ==> golkooi
+  63:    1  ->  wasmachine ==> toestel
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bedoel
+   2:    1  ->  beurmannetje
+   3:    1  ->  copbouter
+   4:    1  ->  en
+   5:    1  ->  hok
+   6:    1  ->  ik
+   7:    1  ->  kaboter
+   8:    1  ->  konijn
+   9:    1  ->  koon
+  10:    1  ->  laastiekje
+  11:    1  ->  last
+  12:    1  ->  nu
+  13:    1  ->  poppen
+  14:    1  ->  ruizie
+  15:    1  ->  ui
+  16:    1  ->  waa
+  17:    1  ->  wagen
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   30  ->  *
+   2:    2  ->  elastiekje
+   3:    1  ->  *(afbeelden)
+   4:    1  ->  *(cocacola)
+   5:    1  ->  *(konijnhok)
+   6:    1  ->  *t
+   7:    1  ->  achterdeur
+   8:    1  ->  autorijden
+   9:    1  ->  buurmannen
+  10:    1  ->  chocolade
+  11:    1  ->  dierentuin
+  12:    1  ->  fototoestel
+  13:    1  ->  goeiendag
+  14:    1  ->  iedereen
+  15:    1  ->  kabouter
+  16:    1  ->  knutselen
+  17:    1  ->  konijnenhok
+  18:    1  ->  limonade
+  19:    1  ->  lucifer
+  20:    1  ->  paddenstoelen
+  21:    1  ->  poppenwagen
+  22:    1  ->  ruziemaken
+  23:    1  ->  schoenenwinkel
+  24:    1  ->  schommelen
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  sprookjesboek
+  27:    1  ->  tandenborstel
+  28:    1  ->  teddybeer
+  29:    1  ->  toiletpapier
+  30:    1  ->  vakantie
+  31:    1  ->  verstoppertje
+  32:    1  ->  vogelkooi
+  33:    1  ->  wasmachine
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    2  ->  maken
+   2:    2  ->  te
+   3:    1  ->  'k
+   4:    1  ->  achter
+   5:    1  ->  afbeelden
+   6:    1  ->  auto
+   7:    1  ->  bij
+   8:    1  ->  boek
+   9:    1  ->  borstel
+  10:    1  ->  choculade
+  11:    1  ->  coa
+  12:    1  ->  cokacola
+  13:    1  ->  dag
+  14:    1  ->  deur
+  15:    1  ->  dollet
+  16:    1  ->  dur
+  17:    1  ->  dustoulv
+  18:    1  ->  foto's
+  19:    1  ->  goeien
+  20:    1  ->  golkooi
+  21:    1  ->  gooi
+  22:    1  ->  gu
+  23:    1  ->  kamer
+  24:    1  ->  knutsullen
+  25:    1  ->  kuntje
+  26:    1  ->  lemonade
+  27:    1  ->  luikjeffer
+  28:    1  ->  lunv
+  29:    1  ->  machinev
+  30:    1  ->  mellen
+  31:    1  ->  pad
+  32:    1  ->  papier
+  33:    1  ->  reer
+  34:    1  ->  reismaken
+  35:    1  ->  reizen
+  36:    1  ->  rijden
+  37:    1  ->  runtuin
+  38:    1  ->  scha
+  39:    1  ->  schguren
+  40:    1  ->  schoen
+  41:    1  ->  schoenschoenenwerken
+  42:    1  ->  schoideveen
+  43:    1  ->  schoum
+  44:    1  ->  slap
+  45:    1  ->  slaps
+  46:    1  ->  sneeuw
+  47:    1  ->  sprookjes
+  48:    1  ->  tanden
+  49:    1  ->  tebiber
+  50:    1  ->  tje
+  51:    1  ->  toestel
+  52:    1  ->  uh
+  53:    1  ->  vaak
+  54:    1  ->  verstoppuntje
+  55:    1  ->  voor
+  56:    1  ->  was
+  57:    1  ->  washang
+  58:    1  ->  washont
+  59:    1  ->  wasonder
+  60:    1  ->  wie
+  61:    1  ->  witje
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

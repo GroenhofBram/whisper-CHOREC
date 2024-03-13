@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   90.2%   (  37)
+
+Percent Correct           =   51.2%   (  21)
+
+Percent Substitution      =   46.3%   (  19)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   41.5%   (  17)
+Percent Word Accuracy     =    9.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  57)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> scha
+   2:    1  ->  *s ==> soculada
+   3:    1  ->  dierentuin ==> en
+   4:    1  ->  elastiekje ==> maken
+   5:    1  ->  fototoestel ==> toilet
+   6:    1  ->  goeiendag ==> dag
+   7:    1  ->  konijnenhok ==> muzie
+   8:    1  ->  limonade ==> lemonade
+   9:    1  ->  nieuwsgierig ==> sgierig
+  10:    1  ->  paddenstoelen ==> padnenstoelen
+  11:    1  ->  poppenwagen ==> ja
+  12:    1  ->  ruziemaken ==> taddibeer
+  13:    1  ->  schoenenwinkel ==> winkel
+  14:    1  ->  sneeuwwitje ==> goeie
+  15:    1  ->  tandenborstel ==> lussifer
+  16:    1  ->  teddybeer ==> dierent
+  17:    1  ->  toiletpapier ==> papier
+  18:    1  ->  washandje ==> sneeuwitje
+  19:    1  ->  wasmachine ==> stel
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  borstel
+   2:    1  ->  condijnen
+   3:    1  ->  en
+   4:    1  ->  fototuv
+   5:    1  ->  handje
+   6:    1  ->  ho
+   7:    1  ->  hock
+   8:    1  ->  ifr?
+   9:    1  ->  is
+  10:    1  ->  lastiek
+  11:    1  ->  ni
+  12:    1  ->  poppen
+  13:    1  ->  schoennen
+  14:    1  ->  tanden
+  15:    1  ->  wagen
+  16:    1  ->  was
+  17:    1  ->  wasmachina
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chocolade
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  *
+   2:    1  ->  *s
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  goeiendag
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  nieuwsgierig
+  10:    1  ->  paddenstoelen
+  11:    1  ->  poppenwagen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  washandje
+  19:    1  ->  wasmachine
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  dag
+   2:    1  ->  dierent
+   3:    1  ->  en
+   4:    1  ->  goeie
+   5:    1  ->  ja
+   6:    1  ->  lemonade
+   7:    1  ->  lussifer
+   8:    1  ->  maken
+   9:    1  ->  muzie
+  10:    1  ->  padnenstoelen
+  11:    1  ->  papier
+  12:    1  ->  scha
+  13:    1  ->  sgierig
+  14:    1  ->  sneeuwitje
+  15:    1  ->  soculada
+  16:    1  ->  stel
+  17:    1  ->  taddibeer
+  18:    1  ->  toilet
+  19:    1  ->  winkel
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C019V2_1LG
+
+#### (S03C019V2_1LG-words)
+
+- Cor=65.0%	Sub=35.0%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koelen | arm | groei | trand | bed | eerst | voor | draai | gaal | herfst | dur | straat | leeuw | kloon | hoek | krant | hout | vriend | gout | chips | groen | fist | jas | jas | gas | part | gaar | nit | nieuw | kind | bang | oog | zacht | schoen | plas | us | knop | plank |
+| EVAL |  |  | S |  |  | S |  |  |  |  | S |  | S |  |  | S |  |  |  |  | S |  |  | S | S |  | S | S | S | S |  |  |  |  |  |  |  | S | S |  |
+---
+
+---

@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C027M2_2LG
+
+#### (S03C027M2_2LG-words)
+
+- Cor=26.9%	Sub=57.7%	Del=0.0%	Ins=15.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | * | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw |  |  |  |  |  | gooien*(gooi) | sneeuwen | moeder | liedje | *(poot) | potlood | fietsbel*(fiets) | *(bed) | *(bel) | vinger | dichtbij | meisje | muziek | waarom |  | scheuren | lawaai | zwemmen | vuurwerk | appel*(april) | cola | kussen | eerste |  |  | kleuren | voetbal | vlinder | *s | *s |
+| HYP1 | water | mevrouw | droen | wi | winkel | auto | schouders | verhaal | koning | konak | speelplat | krinken | hoofdpen | igen | vliegtuig | stoppen | opnieuw | horie | snee | wer | mder | leet | je | poot | potloot | giets | net | belvinder | deek | da | nasjel | chauffeur | ofer | nu | gek? | waarom | schuren | lawai | jen | men | vuurwerk | april | conla | kussen | eerste | circus | sui | kuis | kleur | en | voetbal | viender |
+| EVAL |  |  | S | S |  |  |  |  |  | S | S | S | S | S |  |  |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S | S |  | S | S |  |  | I | I | S | S | S | S | S |
+---
+
+---

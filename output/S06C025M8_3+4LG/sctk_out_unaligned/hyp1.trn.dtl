@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  45)
+
+Percent Correct           =   42.2%   (  19)
+
+Percent Substitution      =   55.6%   (  25)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   42.2%   (  19)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  63)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> die
+   2:    1  ->  * ==> fo
+   3:    1  ->  * ==> maken
+   4:    1  ->  *(cola) ==> koren
+   5:    1  ->  buurmannen ==> en
+   6:    1  ->  chocolade ==> chocoladen
+   7:    1  ->  dierentuin ==> vos
+   8:    1  ->  elastiekje ==> wee
+   9:    1  ->  knutselen ==> kjenutselen
+  10:    1  ->  konijnenhok ==> ze
+  11:    1  ->  limonade ==> dimenaden
+  12:    1  ->  lucifer ==> slucifer
+  13:    1  ->  paddenstoelen ==> toppertje
+  14:    1  ->  poppenwagen ==> ji
+  15:    1  ->  ruziemaken ==> direntun
+  16:    1  ->  schoenenwinkel*(schoenwinkel) ==> winkel
+  17:    1  ->  sneeuwwitje ==> sneeuwbietje
+  18:    1  ->  sprookjesboek ==> ook
+  19:    1  ->  teddybeer ==> paddestoelen
+  20:    1  ->  toiletpapier ==> papier
+  21:    1  ->  verjaardag ==> sprookjes
+  22:    1  ->  verstoppertje ==> was
+  23:    1  ->  vogelkooi ==> vogelgoi
+  24:    1  ->  washandje ==> antje
+  25:    1  ->  wasmachine ==> machine
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  de
+   2:    1  ->  't
+   3:    1  ->  buurman
+   4:    1  ->  con
+   5:    1  ->  coningv
+   6:    1  ->  elastiker
+   7:    1  ->  ellen
+   8:    1  ->  everjaardag
+   9:    1  ->  g
+  10:    1  ->  go
+  11:    1  ->  hook
+  12:    1  ->  nee
+  13:    1  ->  popen
+  14:    1  ->  schone
+  15:    1  ->  t
+  16:    1  ->  wagen
+  17:    1  ->  wallet
+  18:    1  ->  was
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  *
+   2:    1  ->  *(cola)
+   3:    1  ->  buurmannen
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  knutselen
+   8:    1  ->  konijnenhok
+   9:    1  ->  limonade
+  10:    1  ->  lucifer
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel*(schoenwinkel)
+  15:    1  ->  sneeuwwitje
+  16:    1  ->  sprookjesboek
+  17:    1  ->  teddybeer
+  18:    1  ->  toiletpapier
+  19:    1  ->  verjaardag
+  20:    1  ->  verstoppertje
+  21:    1  ->  vogelkooi
+  22:    1  ->  washandje
+  23:    1  ->  wasmachine
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  antje
+   2:    1  ->  chocoladen
+   3:    1  ->  die
+   4:    1  ->  dimenaden
+   5:    1  ->  direntun
+   6:    1  ->  en
+   7:    1  ->  fo
+   8:    1  ->  ji
+   9:    1  ->  kjenutselen
+  10:    1  ->  koren
+  11:    1  ->  machine
+  12:    1  ->  maken
+  13:    1  ->  ook
+  14:    1  ->  paddestoelen
+  15:    1  ->  papier
+  16:    1  ->  slucifer
+  17:    1  ->  sneeuwbietje
+  18:    1  ->  sprookjes
+  19:    1  ->  toppertje
+  20:    1  ->  vogelgoi
+  21:    1  ->  vos
+  22:    1  ->  was
+  23:    1  ->  wee
+  24:    1  ->  winkel
+  25:    1  ->  ze
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

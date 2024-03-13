@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  118.4%   (  58)
+
+Percent Correct           =   32.7%   (  16)
+
+Percent Substitution      =   67.3%   (  33)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   51.0%   (  25)
+Percent Word Accuracy     =  -18.4%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> badden
+   2:    1  ->  * ==> dieren
+   3:    1  ->  * ==> knit
+   4:    1  ->  * ==> nife
+   5:    1  ->  * ==> ohlifant
+   6:    1  ->  * ==> schoen
+   7:    1  ->  * ==> vot
+   8:    1  ->  *s ==> vototoestel
+   9:    1  ->  afblijven ==> blijven
+  10:    1  ->  autorijden ==> de
+  11:    1  ->  buurmannen ==> en
+  12:    1  ->  dierentuin ==> verstopperd
+  13:    1  ->  eindelijk ==> luk
+  14:    1  ->  elastiekje ==> ber
+  15:    1  ->  fototoestel ==> toilet
+  16:    1  ->  goeiendag ==> goeienda
+  17:    1  ->  konijnenhok ==> ni
+  18:    1  ->  limonade ==> en
+  19:    1  ->  lucifer ==> lus
+  20:    1  ->  olifant ==> olian
+  21:    1  ->  paddenstoelen ==> je
+  22:    1  ->  poppenwagen ==> da
+  23:    1  ->  ruziemaken ==> tuin
+  24:    1  ->  schoenenwinkel ==> winkel
+  25:    1  ->  sneeuwwitje ==> je
+  26:    1  ->  sprookjesboek ==> lucht
+  27:    1  ->  tandenborstel ==> lusier
+  28:    1  ->  teddybeer ==> stoelen
+  29:    1  ->  toiletpapier ==> papier
+  30:    1  ->  verstoppertje ==> was
+  31:    1  ->  vogelkooi ==> vogelkoi
+  32:    1  ->  washandje ==> heet
+  33:    1  ->  wasmachine ==> machine
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  en
+   2:    1  ->  allastiekje
+   3:    1  ->  autoreden
+   4:    1  ->  boek
+   5:    1  ->  borstel
+   6:    1  ->  buurman
+   7:    1  ->  hand
+   8:    1  ->  hook
+   9:    1  ->  j?
+  10:    1  ->  jo
+  11:    1  ->  kom
+  12:    1  ->  limonnade
+  13:    1  ->  lo
+  14:    1  ->  meke
+  15:    1  ->  nen
+  16:    1  ->  nii
+  17:    1  ->  of
+  18:    1  ->  pop
+  19:    1  ->  schoenen
+  20:    1  ->  sneeuw
+  21:    1  ->  sprookjes
+  22:    1  ->  tanden
+  23:    1  ->  wagen
+  24:    1  ->  was
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    7  ->  *
+   2:    1  ->  *s
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  konijnenhok
+  12:    1  ->  limonade
+  13:    1  ->  lucifer
+  14:    1  ->  olifant
+  15:    1  ->  paddenstoelen
+  16:    1  ->  poppenwagen
+  17:    1  ->  ruziemaken
+  18:    1  ->  schoenenwinkel
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  toiletpapier
+  24:    1  ->  verstoppertje
+  25:    1  ->  vogelkooi
+  26:    1  ->  washandje
+  27:    1  ->  wasmachine
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  en
+   2:    2  ->  je
+   3:    1  ->  badden
+   4:    1  ->  ber
+   5:    1  ->  blijven
+   6:    1  ->  da
+   7:    1  ->  de
+   8:    1  ->  dieren
+   9:    1  ->  goeienda
+  10:    1  ->  heet
+  11:    1  ->  knit
+  12:    1  ->  lucht
+  13:    1  ->  luk
+  14:    1  ->  lus
+  15:    1  ->  lusier
+  16:    1  ->  machine
+  17:    1  ->  ni
+  18:    1  ->  nife
+  19:    1  ->  ohlifant
+  20:    1  ->  olian
+  21:    1  ->  papier
+  22:    1  ->  schoen
+  23:    1  ->  stoelen
+  24:    1  ->  toilet
+  25:    1  ->  tuin
+  26:    1  ->  verstopperd
+  27:    1  ->  vogelkoi
+  28:    1  ->  vot
+  29:    1  ->  vototoestel
+  30:    1  ->  was
+  31:    1  ->  winkel
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

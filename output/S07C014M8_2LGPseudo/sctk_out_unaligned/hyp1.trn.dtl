@@ -1,0 +1,204 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  87)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   59.8%   (  52)
+Percent Deletions         =   40.2%   (  35)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  87)
+Hyp. words                =           (  52)
+Aligned words             =           (  87)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  * ==> n
+   2:    3  ->  * ==> e
+   3:    1  ->  * ==> el
+   4:    1  ->  * ==> eo
+   5:    1  ->  * ==> fea
+   6:    1  ->  * ==> fek
+   7:    1  ->  * ==> g
+   8:    1  ->  * ==> go
+   9:    1  ->  * ==> hier
+  10:    1  ->  * ==> i
+  11:    1  ->  * ==> ja
+  12:    1  ->  * ==> lutel
+  13:    1  ->  * ==> mel
+  14:    1  ->  * ==> mi
+  15:    1  ->  * ==> nonu
+  16:    1  ->  * ==> o
+  17:    1  ->  * ==> od
+  18:    1  ->  * ==> og
+  19:    1  ->  * ==> oh
+  20:    1  ->  * ==> pie
+  21:    1  ->  * ==> s
+  22:    1  ->  * ==> trood
+  23:    1  ->  * ==> u
+  24:    1  ->  * ==> vo
+  25:    1  ->  * ==> voe
+  26:    1  ->  *(mildste) ==> l
+  27:    1  ->  grijnken ==> ende
+  28:    1  ->  hiffreeuw ==> oh
+  29:    1  ->  ijpo ==> rize
+  30:    1  ->  kloeien ==> dee
+  31:    1  ->  menuur ==> daar
+  32:    1  ->  milste ==> gom
+  33:    1  ->  muider ==> gegigt
+  34:    1  ->  oonste ==> wauhm
+  35:    1  ->  orponk ==> amzi
+  36:    1  ->  prilsood ==> o
+  37:    1  ->  schielstaug ==> u
+  38:    1  ->  schodig ==> dagag
+  39:    1  ->  spreikje ==> da
+  40:    1  ->  spreikje ==> i
+  41:    1  ->  strellen ==> voeg
+  42:    1  ->  ulen ==> paar
+  43:    1  ->  vawaai ==> voger
+  44:    1  ->  veurder ==> uhm
+  45:    1  ->  vloender ==> h
+  46:    1  ->  wooien ==> o
+  47:    1  ->  zwieten ==> jo
+     -------
+        52
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   15  ->  *
+   2:    2  ->  kneurem
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  gevicht
+  10:    1  ->  haweel
+  11:    1  ->  ierpieuw
+  12:    1  ->  millen
+  13:    1  ->  nizung
+  14:    1  ->  orstalk
+  15:    1  ->  saarweng
+  16:    1  ->  sjobel
+  17:    1  ->  veten
+  18:    1  ->  vocil
+  19:    1  ->  vurpaand
+  20:    1  ->  walaan
+     -------
+        35
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   30  ->  *
+   2:    2  ->  spreikje
+   3:    1  ->  *(mildste)
+   4:    1  ->  grijnken
+   5:    1  ->  hiffreeuw
+   6:    1  ->  ijpo
+   7:    1  ->  kloeien
+   8:    1  ->  menuur
+   9:    1  ->  milste
+  10:    1  ->  muider
+  11:    1  ->  oonste
+  12:    1  ->  orponk
+  13:    1  ->  prilsood
+  14:    1  ->  schielstaug
+  15:    1  ->  schodig
+  16:    1  ->  strellen
+  17:    1  ->  ulen
+  18:    1  ->  vawaai
+  19:    1  ->  veurder
+  20:    1  ->  vloender
+  21:    1  ->  wooien
+  22:    1  ->  zwieten
+     -------
+        52
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  n
+   2:    3  ->  e
+   3:    3  ->  o
+   4:    2  ->  i
+   5:    2  ->  oh
+   6:    2  ->  u
+   7:    1  ->  amzi
+   8:    1  ->  da
+   9:    1  ->  daar
+  10:    1  ->  dagag
+  11:    1  ->  dee
+  12:    1  ->  el
+  13:    1  ->  ende
+  14:    1  ->  eo
+  15:    1  ->  fea
+  16:    1  ->  fek
+  17:    1  ->  g
+  18:    1  ->  gegigt
+  19:    1  ->  go
+  20:    1  ->  gom
+  21:    1  ->  h
+  22:    1  ->  hier
+  23:    1  ->  ja
+  24:    1  ->  jo
+  25:    1  ->  l
+  26:    1  ->  lutel
+  27:    1  ->  mel
+  28:    1  ->  mi
+  29:    1  ->  nonu
+  30:    1  ->  od
+  31:    1  ->  og
+  32:    1  ->  paar
+  33:    1  ->  pie
+  34:    1  ->  rize
+  35:    1  ->  s
+  36:    1  ->  trood
+  37:    1  ->  uhm
+  38:    1  ->  vo
+  39:    1  ->  voe
+  40:    1  ->  voeg
+  41:    1  ->  voger
+  42:    1  ->  wauhm
+     -------
+        52
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

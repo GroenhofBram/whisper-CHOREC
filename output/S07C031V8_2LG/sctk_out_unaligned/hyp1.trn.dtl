@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   59.1%   (  26)
+
+Percent Correct           =   50.0%   (  22)
+
+Percent Substitution      =   45.5%   (  20)
+Percent Deletions         =    4.5%   (   2)
+Percent Insertions        =    9.1%   (   4)
+Percent Word Accuracy     =   40.9%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  * ==> chauffeur
+   2:    1  ->  * ==> meishe
+   3:    1  ->  * ==> veen
+   4:    1  ->  circus ==> sircus
+   5:    1  ->  cola ==> kola
+   6:    1  ->  dichtbij ==> ac
+   7:    1  ->  drogen ==> roegen
+   8:    1  ->  fietsbel ==> dicht
+   9:    1  ->  liedje ==> winger
+  10:    1  ->  meisje ==> al
+  11:    1  ->  muziek ==> nusdeq
+  12:    1  ->  opnieuw ==> opneeuw
+  13:    1  ->  potlood ==> dichte
+  14:    1  ->  scheuren ==> geuren
+  15:    1  ->  sneeuwen ==> steeuwen
+  16:    1  ->  speelplaats ==> beelplaats
+  17:    1  ->  stoppen ==> vliegtuigstoppen
+  18:    1  ->  verhaal ==> vorhaal
+  19:    1  ->  vinger ==> bij
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  bel
+   2:    1  ->  fit
+   3:    1  ->  lietje
+   4:    1  ->  potnoot
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  vliegtuig
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  *
+   2:    1  ->  circus
+   3:    1  ->  cola
+   4:    1  ->  dichtbij
+   5:    1  ->  drogen
+   6:    1  ->  fietsbel
+   7:    1  ->  liedje
+   8:    1  ->  meisje
+   9:    1  ->  muziek
+  10:    1  ->  opnieuw
+  11:    1  ->  potlood
+  12:    1  ->  scheuren
+  13:    1  ->  sneeuwen
+  14:    1  ->  speelplaats
+  15:    1  ->  stoppen
+  16:    1  ->  verhaal
+  17:    1  ->  vinger
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  chauffeur
+   2:    1  ->  ac
+   3:    1  ->  al
+   4:    1  ->  beelplaats
+   5:    1  ->  bij
+   6:    1  ->  dicht
+   7:    1  ->  dichte
+   8:    1  ->  geuren
+   9:    1  ->  kola
+  10:    1  ->  meishe
+  11:    1  ->  nusdeq
+  12:    1  ->  opneeuw
+  13:    1  ->  roegen
+  14:    1  ->  sircus
+  15:    1  ->  steeuwen
+  16:    1  ->  veen
+  17:    1  ->  vliegtuigstoppen
+  18:    1  ->  vorhaal
+  19:    1  ->  winger
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

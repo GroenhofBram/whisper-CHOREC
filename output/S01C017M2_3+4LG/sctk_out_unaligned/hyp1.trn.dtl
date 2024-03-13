@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   71.4%   (  30)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   21.4%   (   9)
+Percent Word Accuracy     =   28.6%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  51)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> ruzi
+   2:    1  ->  * ==> wa
+   3:    1  ->  autorijden ==> autoreder
+   4:    1  ->  dierentuin ==> bade
+   5:    1  ->  eindelijk ==> endelirk
+   6:    1  ->  elastiekje ==> maken
+   7:    1  ->  iedereen ==> iderin
+   8:    1  ->  knutselen ==> knuetselen
+   9:    1  ->  konijnenhok ==> tikio
+  10:    1  ->  limonade ==> humanade
+  11:    1  ->  nieuwsgierig ==> schierweg
+  12:    1  ->  paddenstoelen ==> stoele
+  13:    1  ->  poppenwagen ==> las
+  14:    1  ->  ruziemaken ==> dediber
+  15:    1  ->  sneeuwwitje ==> sneeuwice
+  16:    1  ->  teddybeer ==> direntuin
+  17:    1  ->  verstoppertje ==> verstoppertja
+  18:    1  ->  vogelkooi ==> vogelkoy
+  19:    1  ->  vrachtwagen ==> vrachtwegen
+  20:    1  ->  washandje ==> een
+  21:    1  ->  ziekenhuis ==> nieuw
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  g
+   2:    1  ->  hij
+   3:    1  ->  huis
+   4:    1  ->  konijnen
+   5:    1  ->  konijnhok
+   6:    1  ->  poppen
+   7:    1  ->  wagen
+   8:    1  ->  washandj
+   9:    1  ->  zieken
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  dierentuin
+   4:    1  ->  eindelijk
+   5:    1  ->  elastiekje
+   6:    1  ->  iedereen
+   7:    1  ->  knutselen
+   8:    1  ->  konijnenhok
+   9:    1  ->  limonade
+  10:    1  ->  nieuwsgierig
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  teddybeer
+  16:    1  ->  verstoppertje
+  17:    1  ->  vogelkooi
+  18:    1  ->  vrachtwagen
+  19:    1  ->  washandje
+  20:    1  ->  ziekenhuis
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  autoreder
+   2:    1  ->  bade
+   3:    1  ->  dediber
+   4:    1  ->  direntuin
+   5:    1  ->  een
+   6:    1  ->  endelirk
+   7:    1  ->  humanade
+   8:    1  ->  iderin
+   9:    1  ->  knuetselen
+  10:    1  ->  las
+  11:    1  ->  maken
+  12:    1  ->  nieuw
+  13:    1  ->  ruzi
+  14:    1  ->  schierweg
+  15:    1  ->  sneeuwice
+  16:    1  ->  stoele
+  17:    1  ->  tikio
+  18:    1  ->  verstoppertja
+  19:    1  ->  vogelkoy
+  20:    1  ->  vrachtwegen
+  21:    1  ->  wa
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

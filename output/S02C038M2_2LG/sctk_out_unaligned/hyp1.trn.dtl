@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.0%   (  47)
+
+Percent Correct           =   18.0%   (   9)
+
+Percent Substitution      =   82.0%   (  41)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   12.0%   (   6)
+Percent Word Accuracy     =    6.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  56)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  * ==> ke
+   2:    1  ->  * ==> apel
+   3:    1  ->  * ==> bal
+   4:    1  ->  * ==> bij
+   5:    1  ->  * ==> hoofdblan
+   6:    1  ->  * ==> men
+   7:    1  ->  * ==> niek
+   8:    1  ->  * ==> school
+   9:    1  ->  * ==> vuur
+  10:    1  ->  appel ==> u
+  11:    1  ->  chauffeur ==> zorren
+  12:    1  ->  circus ==> kk
+  13:    1  ->  cola ==> volu
+  14:    1  ->  dichtbij ==> kan
+  15:    1  ->  drinken ==> deinken
+  16:    1  ->  drogen ==> win
+  17:    1  ->  fietsbel*(bel) ==> misja
+  18:    1  ->  koning ==> konin
+  19:    1  ->  kussen ==> kuschen
+  20:    1  ->  lawaai ==> wawi
+  21:    1  ->  liedje ==> fin
+  22:    1  ->  meisje ==> 't
+  23:    1  ->  mevrouw ==> hogen
+  24:    1  ->  moeder ==> ed
+  25:    1  ->  moeilijk ==> molijk
+  26:    1  ->  muziek ==> meziek
+  27:    1  ->  opnieuw ==> opnien
+  28:    1  ->  potlood ==> dicht
+  29:    1  ->  regen ==> rrijgen
+  30:    1  ->  scheuren ==> speuren
+  31:    1  ->  schouders ==> schouder
+  32:    1  ->  sneeuwen ==> fiet
+  33:    1  ->  speelplaats ==> speelplaat
+  34:    1  ->  verhaal ==> nerhaal
+  35:    1  ->  vinger ==> 'k
+  36:    1  ->  vlinder ==> fleender
+  37:    1  ->  voetbal ==> voot
+  38:    1  ->  vuurwerk*(werk) ==> weg
+  39:    1  ->  winkel ==> kel
+  40:    1  ->  zwemmen ==> wen
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fand
+   2:    1  ->  me
+   3:    1  ->  mode
+   4:    1  ->  nietje
+   5:    1  ->  potlod
+   6:    1  ->  smeeuwen
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:   10  ->  *
+   2:    1  ->  appel
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  dichtbij
+   7:    1  ->  drinken
+   8:    1  ->  drogen
+   9:    1  ->  fietsbel*(bel)
+  10:    1  ->  koning
+  11:    1  ->  kussen
+  12:    1  ->  lawaai
+  13:    1  ->  liedje
+  14:    1  ->  meisje
+  15:    1  ->  mevrouw
+  16:    1  ->  moeder
+  17:    1  ->  moeilijk
+  18:    1  ->  muziek
+  19:    1  ->  opnieuw
+  20:    1  ->  potlood
+  21:    1  ->  regen
+  22:    1  ->  scheuren
+  23:    1  ->  schouders
+  24:    1  ->  sneeuwen
+  25:    1  ->  speelplaats
+  26:    1  ->  verhaal
+  27:    1  ->  vinger
+  28:    1  ->  vlinder
+  29:    1  ->  voetbal
+  30:    1  ->  vuurwerk*(werk)
+  31:    1  ->  winkel
+  32:    1  ->  zwemmen
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  ke
+   2:    1  ->  'k
+   3:    1  ->  't
+   4:    1  ->  apel
+   5:    1  ->  bal
+   6:    1  ->  bij
+   7:    1  ->  deinken
+   8:    1  ->  dicht
+   9:    1  ->  ed
+  10:    1  ->  fiet
+  11:    1  ->  fin
+  12:    1  ->  fleender
+  13:    1  ->  hogen
+  14:    1  ->  hoofdblan
+  15:    1  ->  kan
+  16:    1  ->  kel
+  17:    1  ->  kk
+  18:    1  ->  konin
+  19:    1  ->  kuschen
+  20:    1  ->  men
+  21:    1  ->  meziek
+  22:    1  ->  misja
+  23:    1  ->  molijk
+  24:    1  ->  nerhaal
+  25:    1  ->  niek
+  26:    1  ->  opnien
+  27:    1  ->  rrijgen
+  28:    1  ->  school
+  29:    1  ->  schouder
+  30:    1  ->  speelplaat
+  31:    1  ->  speuren
+  32:    1  ->  u
+  33:    1  ->  volu
+  34:    1  ->  voot
+  35:    1  ->  vuur
+  36:    1  ->  wawi
+  37:    1  ->  weg
+  38:    1  ->  wen
+  39:    1  ->  win
+  40:    1  ->  zorren
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

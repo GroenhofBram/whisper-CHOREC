@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C003M8_1LG
+
+#### (S07C003M8_1LG-words)
+
+- Cor=34.0%	Sub=63.8%	Del=2.1%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | groei | strand | bed | eerst*(eerste) | eerst | voor | draai | sjaal | sjaal | * | herfst | duur | straat | leeuw | clown | * | hoek | krant | hout | vriend | gauw | chips*(gips) | groen | feest | reis | jas | huis | paard | vijf | vijf | muts*(mus) | muts | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | las | mooi | koe | erm | groi | s | trand | det | eerste | eerst | voor |  | dre | cal | al | erst | duur | straat | le | o | klo | hoek | krant | hat | vreemd | wel | gips | groen | feest | js | jas | hus | rd | vi | vif | nig | niet | heel | kint | bang | oog | zacht | schoen | plas | neg | nu | lank |
+| EVAL | S |  |  | S | S | S | S | S | S |  |  | D | S | S | S | S |  |  | S | S | S |  |  | S | S | S | S |  |  | S |  | S | S | S | S | S | S | S | S |  |  |  |  |  | S | S | S |
+---
+
+---

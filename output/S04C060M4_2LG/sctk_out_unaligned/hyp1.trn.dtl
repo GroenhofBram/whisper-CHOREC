@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.9%   (  29)
+
+Percent Correct           =   47.1%   (  24)
+
+Percent Substitution      =   49.0%   (  25)
+Percent Deletions         =    3.9%   (   2)
+Percent Insertions        =    3.9%   (   2)
+Percent Word Accuracy     =   43.1%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  51)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  * ==> sir
+   2:    1  ->  * ==> chauffeur
+   3:    1  ->  * ==> cheren
+   4:    1  ->  * ==> kus
+   5:    1  ->  * ==> potluit
+   6:    1  ->  * ==> si
+   7:    1  ->  * ==> sit
+   8:    1  ->  * ==> sus
+   9:    1  ->  * ==> uh
+  10:    1  ->  *(eerst) ==> eerst
+  11:    1  ->  *t ==> sa
+  12:    1  ->  appel ==> apol
+  13:    1  ->  auto ==> alto
+  14:    1  ->  circus ==> sirkis
+  15:    1  ->  cola ==> kola
+  16:    1  ->  fietsbel ==> bil
+  17:    1  ->  kussen ==> isen
+  18:    1  ->  lawaai ==> s
+  19:    1  ->  meisje ==> meicje
+  20:    1  ->  moeder ==> snieuwenmoeder
+  21:    1  ->  potlood ==> fiets
+  22:    1  ->  scheuren ==> lawai
+  23:    1  ->  vlinder ==> voetbal-vlinde
+  24:    1  ->  zwemmen ==> wimen
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  chaua
+   2:    1  ->  pot
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  sneeuwen
+   2:    1  ->  voetbal
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   10  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  *t
+   4:    1  ->  appel
+   5:    1  ->  auto
+   6:    1  ->  circus
+   7:    1  ->  cola
+   8:    1  ->  fietsbel
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  meisje
+  12:    1  ->  moeder
+  13:    1  ->  potlood
+  14:    1  ->  scheuren
+  15:    1  ->  vlinder
+  16:    1  ->  zwemmen
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  sir
+   2:    1  ->  alto
+   3:    1  ->  apol
+   4:    1  ->  bil
+   5:    1  ->  chauffeur
+   6:    1  ->  cheren
+   7:    1  ->  eerst
+   8:    1  ->  fiets
+   9:    1  ->  isen
+  10:    1  ->  kola
+  11:    1  ->  kus
+  12:    1  ->  lawai
+  13:    1  ->  meicje
+  14:    1  ->  potluit
+  15:    1  ->  s
+  16:    1  ->  sa
+  17:    1  ->  si
+  18:    1  ->  sirkis
+  19:    1  ->  sit
+  20:    1  ->  snieuwenmoeder
+  21:    1  ->  sus
+  22:    1  ->  uh
+  23:    1  ->  voetbal-vlinde
+  24:    1  ->  wimen
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

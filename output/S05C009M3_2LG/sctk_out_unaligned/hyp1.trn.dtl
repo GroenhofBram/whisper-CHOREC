@@ -1,0 +1,230 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.2%   (  69)
+
+Percent Correct           =    2.8%   (   2)
+
+Percent Substitution      =   93.0%   (  66)
+Percent Deletions         =    4.2%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    2.8%
+
+
+Ref. words                =           (  71)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    2  ->  * ==> voor
+   2:    1  ->  * ==> a
+   3:    1  ->  * ==> ato
+   4:    1  ->  * ==> de
+   5:    1  ->  * ==> di
+   6:    1  ->  * ==> dig
+   7:    1  ->  * ==> dur
+   8:    1  ->  * ==> en
+   9:    1  ->  * ==> feet
+  10:    1  ->  * ==> hal
+  11:    1  ->  * ==> kinkun
+  12:    1  ->  * ==> me
+  13:    1  ->  * ==> moeilijk
+  14:    1  ->  * ==> mooi
+  15:    1  ->  * ==> n
+  16:    1  ->  * ==> nee
+  17:    1  ->  * ==> nenmi
+  18:    1  ->  * ==> neo
+  19:    1  ->  * ==> not
+  20:    1  ->  * ==> o
+  21:    1  ->  * ==> oeilijk
+  22:    1  ->  * ==> opte
+  23:    1  ->  * ==> sa
+  24:    1  ->  * ==> sen
+  25:    1  ->  * ==> sijn
+  26:    1  ->  * ==> topen
+  27:    1  ->  * ==> u
+  28:    1  ->  * ==> uhm
+  29:    1  ->  * ==> ulspeelplaats
+  30:    1  ->  * ==> vinger
+  31:    1  ->  * ==> vo
+  32:    1  ->  * ==> vout
+  33:    1  ->  * ==> vra
+  34:    1  ->  * ==> vuurwerk
+  35:    1  ->  * ==> wel
+  36:    1  ->  * ==> wie
+  37:    1  ->  * ==> zr
+  38:    1  ->  *(hoen) ==> woensdag
+  39:    1  ->  *(op) ==> om
+  40:    1  ->  *(schouder) ==> ken
+  41:    1  ->  *(waar) ==> waar
+  42:    1  ->  *(zwem) ==> o
+  43:    1  ->  appel ==> u
+  44:    1  ->  auto ==> doorgen
+  45:    1  ->  chauffeur*(kaft) ==> n
+  46:    1  ->  circus ==> en
+  47:    1  ->  cola ==> eer
+  48:    1  ->  dichtbij ==> mee
+  49:    1  ->  drinken*(klinken) ==> hoofdlijn
+  50:    1  ->  eerste*(eerst) ==> nu
+  51:    1  ->  fietsbel ==> zine?
+  52:    1  ->  hoofdpijn*(hoofdplein) ==> i
+  53:    1  ->  kleuren ==> tebal
+  54:    1  ->  koning ==> ver
+  55:    1  ->  kussen*(kus) ==> keeren
+  56:    1  ->  meisje ==> kaft
+  57:    1  ->  moeder ==> tn
+  58:    1  ->  muziek ==> week
+  59:    1  ->  opnieuw ==> e
+  60:    1  ->  scheuren ==> uh
+  61:    1  ->  sneeuwen*(sneeuw) ==> én
+  62:    1  ->  vliegtuig ==> to
+  63:    1  ->  vlinder*(linden) ==> dern
+  64:    1  ->  voetbal ==> in
+  65:    1  ->  vuurwerk ==> ja
+     -------
+        66
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  drogen
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:   38  ->  *
+   2:    1  ->  *(hoen)
+   3:    1  ->  *(op)
+   4:    1  ->  *(schouder)
+   5:    1  ->  *(waar)
+   6:    1  ->  *(zwem)
+   7:    1  ->  appel
+   8:    1  ->  auto
+   9:    1  ->  chauffeur*(kaft)
+  10:    1  ->  circus
+  11:    1  ->  cola
+  12:    1  ->  dichtbij
+  13:    1  ->  drinken*(klinken)
+  14:    1  ->  eerste*(eerst)
+  15:    1  ->  fietsbel
+  16:    1  ->  hoofdpijn*(hoofdplein)
+  17:    1  ->  kleuren
+  18:    1  ->  koning
+  19:    1  ->  kussen*(kus)
+  20:    1  ->  meisje
+  21:    1  ->  moeder
+  22:    1  ->  muziek
+  23:    1  ->  opnieuw
+  24:    1  ->  scheuren
+  25:    1  ->  sneeuwen*(sneeuw)
+  26:    1  ->  vliegtuig
+  27:    1  ->  vlinder*(linden)
+  28:    1  ->  voetbal
+  29:    1  ->  vuurwerk
+     -------
+        66
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    2  ->  en
+   2:    2  ->  n
+   3:    2  ->  o
+   4:    2  ->  u
+   5:    2  ->  voor
+   6:    1  ->  a
+   7:    1  ->  ato
+   8:    1  ->  de
+   9:    1  ->  dern
+  10:    1  ->  di
+  11:    1  ->  dig
+  12:    1  ->  doorgen
+  13:    1  ->  dur
+  14:    1  ->  e
+  15:    1  ->  eer
+  16:    1  ->  feet
+  17:    1  ->  hal
+  18:    1  ->  hoofdlijn
+  19:    1  ->  i
+  20:    1  ->  in
+  21:    1  ->  ja
+  22:    1  ->  kaft
+  23:    1  ->  keeren
+  24:    1  ->  ken
+  25:    1  ->  kinkun
+  26:    1  ->  me
+  27:    1  ->  mee
+  28:    1  ->  moeilijk
+  29:    1  ->  mooi
+  30:    1  ->  nee
+  31:    1  ->  nenmi
+  32:    1  ->  neo
+  33:    1  ->  not
+  34:    1  ->  nu
+  35:    1  ->  oeilijk
+  36:    1  ->  om
+  37:    1  ->  opte
+  38:    1  ->  sa
+  39:    1  ->  sen
+  40:    1  ->  sijn
+  41:    1  ->  tebal
+  42:    1  ->  tn
+  43:    1  ->  to
+  44:    1  ->  topen
+  45:    1  ->  uh
+  46:    1  ->  uhm
+  47:    1  ->  ulspeelplaats
+  48:    1  ->  ver
+  49:    1  ->  vinger
+  50:    1  ->  vo
+  51:    1  ->  vout
+  52:    1  ->  vra
+  53:    1  ->  vuurwerk
+  54:    1  ->  waar
+  55:    1  ->  week
+  56:    1  ->  wel
+  57:    1  ->  wie
+  58:    1  ->  woensdag
+  59:    1  ->  zine?
+  60:    1  ->  zr
+  61:    1  ->  én
+     -------
+        66
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

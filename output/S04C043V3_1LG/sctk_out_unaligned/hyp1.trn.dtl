@@ -1,0 +1,97 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.5%   (   9)
+
+Percent Correct           =   80.0%   (  32)
+
+Percent Substitution      =   20.0%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   77.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  clown ==> klouwn
+   2:    1  ->  herfst ==> t
+   3:    1  ->  hout ==> hat
+   4:    1  ->  huis ==> res
+   5:    1  ->  paard ==> art
+   6:    1  ->  reis ==> res
+   7:    1  ->  sjaal ==> herfs
+   8:    1  ->  vijf ==> vif
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  schaal
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  clown
+   2:    1  ->  herfst
+   3:    1  ->  hout
+   4:    1  ->  huis
+   5:    1  ->  paard
+   6:    1  ->  reis
+   7:    1  ->  sjaal
+   8:    1  ->  vijf
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  res
+   2:    1  ->  art
+   3:    1  ->  hat
+   4:    1  ->  herfs
+   5:    1  ->  klouwn
+   6:    1  ->  t
+   7:    1  ->  vif
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

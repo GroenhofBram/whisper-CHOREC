@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.1%   (  72)
+
+Percent Correct           =   19.0%   (  15)
+
+Percent Substitution      =   75.9%   (  60)
+Percent Deletions         =    5.1%   (   4)
+Percent Insertions        =   10.1%   (   8)
+Percent Word Accuracy     =    8.9%
+
+
+Ref. words                =           (  79)
+Hyp. words                =           (  83)
+Aligned words             =           (  87)
+
+CONFUSION PAIRS                  Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  * ==> wel
+   2:    1  ->  * ==> aarste
+   3:    1  ->  * ==> baa
+   4:    1  ->  * ==> bij
+   5:    1  ->  * ==> der
+   6:    1  ->  * ==> e
+   7:    1  ->  * ==> geresh
+   8:    1  ->  * ==> ha
+   9:    1  ->  * ==> haal
+  10:    1  ->  * ==> heben
+  11:    1  ->  * ==> hoe
+  12:    1  ->  * ==> konnin
+  13:    1  ->  * ==> kusen
+  14:    1  ->  * ==> moete
+  15:    1  ->  * ==> moew
+  16:    1  ->  * ==> nawi
+  17:    1  ->  * ==> no
+  18:    1  ->  * ==> nu
+  19:    1  ->  * ==> oh
+  20:    1  ->  * ==> pij
+  21:    1  ->  * ==> pijn
+  22:    1  ->  * ==> schou
+  23:    1  ->  * ==> sho
+  24:    1  ->  * ==> speel
+  25:    1  ->  * ==> te
+  26:    1  ->  * ==> tih
+  27:    1  ->  * ==> um
+  28:    1  ->  * ==> uur
+  29:    1  ->  * ==> v
+  30:    1  ->  * ==> vina
+  31:    1  ->  * ==> voet
+  32:    1  ->  * ==> waarom?
+  33:    1  ->  * ==> watter
+  34:    1  ->  * ==> wl
+  35:    1  ->  * ==> woa
+  36:    1  ->  appel ==> olkk
+  37:    1  ->  auto ==> nte
+  38:    1  ->  chauffeur ==> zouzo
+  39:    1  ->  circus ==> sieres
+  40:    1  ->  cola ==> ol
+  41:    1  ->  drogen ==> trogeurn
+  42:    1  ->  eerste ==> vor
+  43:    1  ->  fietsbel ==> fiet
+  44:    1  ->  gooien ==> hoen
+  45:    1  ->  hoofdpijn ==> hoof
+  46:    1  ->  kussen ==> er
+  47:    1  ->  lawaai ==> z
+  48:    1  ->  liedje ==> weetje
+  49:    1  ->  meisje*(muisje) ==> muisur
+  50:    1  ->  mevrouw ==> vrouw
+  51:    1  ->  potlood ==> poplood
+  52:    1  ->  regen ==> vegen
+  53:    1  ->  scheuren*(schuren) ==> scaschuren
+  54:    1  ->  schouders ==> durs
+  55:    1  ->  sneeuwen ==> newen
+  56:    1  ->  speelplaats ==> plat
+  57:    1  ->  verhaal ==> ver
+  58:    1  ->  vuurwerk ==> o
+  59:    1  ->  water ==> me
+     -------
+        60
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  op
+   2:    1  ->  pul
+   3:    1  ->  s
+   4:    1  ->  unte
+   5:    1  ->  va
+   6:    1  ->  vuur
+   7:    1  ->  wa
+   8:    1  ->  werk
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  waarom
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   36  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  chauffeur
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  drogen
+   8:    1  ->  eerste
+   9:    1  ->  fietsbel
+  10:    1  ->  gooien
+  11:    1  ->  hoofdpijn
+  12:    1  ->  kussen
+  13:    1  ->  lawaai
+  14:    1  ->  liedje
+  15:    1  ->  meisje*(muisje)
+  16:    1  ->  mevrouw
+  17:    1  ->  potlood
+  18:    1  ->  regen
+  19:    1  ->  scheuren*(schuren)
+  20:    1  ->  schouders
+  21:    1  ->  sneeuwen
+  22:    1  ->  speelplaats
+  23:    1  ->  verhaal
+  24:    1  ->  vuurwerk
+  25:    1  ->  water
+     -------
+        60
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  wel
+   2:    1  ->  aarste
+   3:    1  ->  baa
+   4:    1  ->  bij
+   5:    1  ->  der
+   6:    1  ->  durs
+   7:    1  ->  e
+   8:    1  ->  er
+   9:    1  ->  fiet
+  10:    1  ->  geresh
+  11:    1  ->  ha
+  12:    1  ->  haal
+  13:    1  ->  heben
+  14:    1  ->  hoe
+  15:    1  ->  hoen
+  16:    1  ->  hoof
+  17:    1  ->  konnin
+  18:    1  ->  kusen
+  19:    1  ->  me
+  20:    1  ->  moete
+  21:    1  ->  moew
+  22:    1  ->  muisur
+  23:    1  ->  nawi
+  24:    1  ->  newen
+  25:    1  ->  no
+  26:    1  ->  nte
+  27:    1  ->  nu
+  28:    1  ->  o
+  29:    1  ->  oh
+  30:    1  ->  ol
+  31:    1  ->  olkk
+  32:    1  ->  pij
+  33:    1  ->  pijn
+  34:    1  ->  plat
+  35:    1  ->  poplood
+  36:    1  ->  scaschuren
+  37:    1  ->  schou
+  38:    1  ->  sho
+  39:    1  ->  sieres
+  40:    1  ->  speel
+  41:    1  ->  te
+  42:    1  ->  tih
+  43:    1  ->  trogeurn
+  44:    1  ->  um
+  45:    1  ->  uur
+  46:    1  ->  v
+  47:    1  ->  vegen
+  48:    1  ->  ver
+  49:    1  ->  vina
+  50:    1  ->  voet
+  51:    1  ->  vor
+  52:    1  ->  vrouw
+  53:    1  ->  waarom?
+  54:    1  ->  watter
+  55:    1  ->  weetje
+  56:    1  ->  wl
+  57:    1  ->  woa
+  58:    1  ->  z
+  59:    1  ->  zouzo
+     -------
+        60
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

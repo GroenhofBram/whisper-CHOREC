@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.0%   (  13)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   26.2%   (  11)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  40)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  * ==> waarom?
+   2:    1  ->  dichtbij ==> dichtbijul
+   3:    1  ->  fietsbel ==> fitzbel
+   4:    1  ->  hoofdpijn ==> hoortpijn
+   5:    1  ->  kussen ==> pussen
+   6:    1  ->  liedje ==> lietje
+   7:    1  ->  meisje ==> loshe
+   8:    1  ->  moeilijk ==> holik
+   9:    1  ->  potlood ==> potloot
+  10:    1  ->  scheuren ==> scheuren?
+  11:    1  ->  vlinder ==> flinder
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  waarom
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  fietsbel
+   4:    1  ->  hoofdpijn
+   5:    1  ->  kussen
+   6:    1  ->  liedje
+   7:    1  ->  meisje
+   8:    1  ->  moeilijk
+   9:    1  ->  potlood
+  10:    1  ->  scheuren
+  11:    1  ->  vlinder
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  dichtbijul
+   2:    1  ->  fitzbel
+   3:    1  ->  flinder
+   4:    1  ->  holik
+   5:    1  ->  hoortpijn
+   6:    1  ->  lietje
+   7:    1  ->  loshe
+   8:    1  ->  potloot
+   9:    1  ->  pussen
+  10:    1  ->  scheuren?
+  11:    1  ->  waarom?
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

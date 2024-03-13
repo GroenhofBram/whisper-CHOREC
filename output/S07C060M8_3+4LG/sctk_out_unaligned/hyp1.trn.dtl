@@ -1,0 +1,258 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   98.5%   ( 194)
+
+Percent Correct           =    1.5%   (   3)
+
+Percent Substitution      =   39.1%   (  77)
+Percent Deletions         =   59.4%   ( 117)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    1.5%
+
+
+Ref. words                =           ( 197)
+Hyp. words                =           (  80)
+Aligned words             =           ( 197)
+
+CONFUSION PAIRS                  Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:    3  ->  * ==> t
+   2:    2  ->  * ==> is
+   3:    2  ->  * ==> te
+   4:    1  ->  * ==> a
+   5:    1  ->  * ==> actur
+   6:    1  ->  * ==> afbleffen
+   7:    1  ->  * ==> ah
+   8:    1  ->  * ==> akt
+   9:    1  ->  * ==> an
+  10:    1  ->  * ==> as
+  11:    1  ->  * ==> beper
+  12:    1  ->  * ==> book
+  13:    1  ->  * ==> denstole
+  14:    1  ->  * ==> e
+  15:    1  ->  * ==> efand
+  16:    1  ->  * ==> ende
+  17:    1  ->  * ==> enterlijk
+  18:    1  ->  * ==> es
+  19:    1  ->  * ==> eun
+  20:    1  ->  * ==> familieie
+  21:    1  ->  * ==> goa
+  22:    1  ->  * ==> i
+  23:    1  ->  * ==> ik
+  24:    1  ->  * ==> jo?
+  25:    1  ->  * ==> k
+  26:    1  ->  * ==> kato
+  27:    1  ->  * ==> kknitzolen
+  28:    1  ->  * ==> konijnen
+  29:    1  ->  * ==> luko
+  30:    1  ->  * ==> mag
+  31:    1  ->  * ==> oa
+  32:    1  ->  * ==> op
+  33:    1  ->  * ==> pater
+  34:    1  ->  * ==> s
+  35:    1  ->  * ==> schooner
+  36:    1  ->  * ==> sprookje
+  37:    1  ->  * ==> stfototo
+  38:    1  ->  * ==> tine
+  39:    1  ->  * ==> tra
+  40:    1  ->  * ==> tuin
+  41:    1  ->  * ==> vaken
+  42:    1  ->  * ==> veriata
+  43:    1  ->  * ==> was
+  44:    1  ->  * ==> waskeren
+  45:    1  ->  * ==> weet
+  46:    1  ->  * ==> winkel
+  47:    1  ->  * ==> éénduilik
+  48:    1  ->  *(acteur) ==> sslaapkamer
+  49:    1  ->  *(buurman) ==> rusie
+  50:    1  ->  achterdeur ==> arts
+  51:    1  ->  chocolade ==> autor
+  52:    1  ->  eindelijk ==> hanier
+  53:    1  ->  eindelijk ==> was
+  54:    1  ->  familie ==> lumonate
+  55:    1  ->  familie ==> snee
+  56:    1  ->  iedereen ==> tnen
+  57:    1  ->  iedereen ==> vrachtwagenbureman
+  58:    1  ->  kabouter ==> nu
+  59:    1  ->  knutselen ==> itidrijn
+  60:    1  ->  knutselen ==> sschonmelen
+  61:    1  ->  olifant ==> een
+  62:    1  ->  olifant ==> verstoppertia
+  63:    1  ->  ophangen ==> schoenen
+  64:    1  ->  schoenenwinkel ==> vorkokoo
+  65:    1  ->  schommelen ==> as
+  66:    1  ->  schommelen ==> stelng
+  67:    1  ->  slaapkamer ==> a
+  68:    1  ->  slaapkamer ==> de
+  69:    1  ->  vogelkooi ==> eer
+  70:    1  ->  vogelkooi ==> maken
+  71:    1  ->  vrachtwagen ==> hoek
+  72:    1  ->  vrachtwagen ==> stik
+  73:    1  ->  ziekenhuis ==> at
+     -------
+        77
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   86  ->  *
+   2:    2  ->  afblijven
+   3:    2  ->  fototoestel
+   4:    2  ->  konijnenhok
+   5:    2  ->  poppenwagen
+   6:    2  ->  ruziemaken
+   7:    2  ->  sneeuwwitje
+   8:    2  ->  verjaardag
+   9:    2  ->  verstoppertje
+  10:    1  ->  autorijden
+  11:    1  ->  dierentuin
+  12:    1  ->  elastiekje
+  13:    1  ->  goeiendag
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  nieuwsgierig
+  17:    1  ->  omdraaien
+  18:    1  ->  paddenstoelen
+  19:    1  ->  sprookjesboek
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  vakantie
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+     -------
+       117
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   51  ->  *
+   2:    2  ->  eindelijk
+   3:    2  ->  familie
+   4:    2  ->  iedereen
+   5:    2  ->  knutselen
+   6:    2  ->  olifant
+   7:    2  ->  schommelen
+   8:    2  ->  slaapkamer
+   9:    2  ->  vogelkooi
+  10:    2  ->  vrachtwagen
+  11:    1  ->  *(acteur)
+  12:    1  ->  *(buurman)
+  13:    1  ->  achterdeur
+  14:    1  ->  chocolade
+  15:    1  ->  kabouter
+  16:    1  ->  ophangen
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  ziekenhuis
+     -------
+        77
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    3  ->  t
+   2:    2  ->  a
+   3:    2  ->  as
+   4:    2  ->  is
+   5:    2  ->  te
+   6:    2  ->  was
+   7:    1  ->  actur
+   8:    1  ->  afbleffen
+   9:    1  ->  ah
+  10:    1  ->  akt
+  11:    1  ->  an
+  12:    1  ->  arts
+  13:    1  ->  at
+  14:    1  ->  autor
+  15:    1  ->  beper
+  16:    1  ->  book
+  17:    1  ->  de
+  18:    1  ->  denstole
+  19:    1  ->  e
+  20:    1  ->  een
+  21:    1  ->  eer
+  22:    1  ->  efand
+  23:    1  ->  ende
+  24:    1  ->  enterlijk
+  25:    1  ->  es
+  26:    1  ->  eun
+  27:    1  ->  familieie
+  28:    1  ->  goa
+  29:    1  ->  hanier
+  30:    1  ->  hoek
+  31:    1  ->  i
+  32:    1  ->  ik
+  33:    1  ->  itidrijn
+  34:    1  ->  jo?
+  35:    1  ->  k
+  36:    1  ->  kato
+  37:    1  ->  kknitzolen
+  38:    1  ->  konijnen
+  39:    1  ->  luko
+  40:    1  ->  lumonate
+  41:    1  ->  mag
+  42:    1  ->  maken
+  43:    1  ->  nu
+  44:    1  ->  oa
+  45:    1  ->  op
+  46:    1  ->  pater
+  47:    1  ->  rusie
+  48:    1  ->  s
+  49:    1  ->  schoenen
+  50:    1  ->  schooner
+  51:    1  ->  snee
+  52:    1  ->  sprookje
+  53:    1  ->  sschonmelen
+  54:    1  ->  sslaapkamer
+  55:    1  ->  stelng
+  56:    1  ->  stfototo
+  57:    1  ->  stik
+  58:    1  ->  tine
+  59:    1  ->  tnen
+  60:    1  ->  tra
+  61:    1  ->  tuin
+  62:    1  ->  vaken
+  63:    1  ->  veriata
+  64:    1  ->  verstoppertia
+  65:    1  ->  vorkokoo
+  66:    1  ->  vrachtwagenbureman
+  67:    1  ->  waskeren
+  68:    1  ->  weet
+  69:    1  ->  winkel
+  70:    1  ->  éénduilik
+     -------
+        77
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

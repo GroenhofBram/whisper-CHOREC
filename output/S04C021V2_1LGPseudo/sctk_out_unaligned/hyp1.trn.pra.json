@@ -1,0 +1,306 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S04C021V2_1LGPseudo": {
+   "(S04C021V2_1LGPseudo-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S04C021V2_1LGPseudo",
+    "sentence_id": "(S04C021V2_1LGPseudo-words)",
+    "sequence": 0,
+    "word_count": 58,
+    "words": [
+     {
+      "eval_label": "D",
+      "ref": "fook*(fok)",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "sooi",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "dau",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "ant",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "beeg",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "sprunt",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "hool",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "*",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "*(laars)",
+      "hyp": ""
+     },
+     {
+      "eval_label": "D",
+      "ref": "*",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "larst",
+      "hyp": "fook"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vout",
+      "hyp": "soi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwoei",
+      "hyp": "de"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fam",
+      "hyp": "an"
+     },
+     {
+      "eval_label": "S",
+      "ref": "rachts",
+      "hyp": "dee"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "sprint"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "ho"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "o"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vaap",
+      "hyp": "vedo"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sprieuw",
+      "hyp": "arslarsfot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "keng",
+      "hyp": "smoi"
+     },
+     {
+      "eval_label": "S",
+      "ref": "swoers",
+      "hyp": "fan"
+     },
+     {
+      "eval_label": "S",
+      "ref": "doer",
+      "hyp": "ik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*s",
+      "hyp": "k"
+     },
+     {
+      "eval_label": "S",
+      "ref": "plirt",
+      "hyp": "ken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "jien",
+      "hyp": "so"
+     },
+     {
+      "eval_label": "S",
+      "ref": "blard",
+      "hyp": "do"
+     },
+     {
+      "eval_label": "S",
+      "ref": "guul",
+      "hyp": "laht"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hoekt*(hoek)",
+      "hyp": "goed"
+     },
+     {
+      "eval_label": "S",
+      "ref": "neeuw",
+      "hyp": "nee"
+     },
+     {
+      "eval_label": "S",
+      "ref": "noork",
+      "hyp": "nog"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "fifiet"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "vit"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "dat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vid",
+      "hyp": "bestaat"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*x",
+      "hyp": "er"
+     },
+     {
+      "eval_label": "S",
+      "ref": "vid*x",
+      "hyp": "vit"
+     },
+     {
+      "eval_label": "C",
+      "ref": "zans",
+      "hyp": "zans"
+     },
+     {
+      "eval_label": "S",
+      "ref": "leum",
+      "hyp": "luim"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "han"
+     },
+     {
+      "eval_label": "S",
+      "ref": "haans",
+      "hyp": "hans"
+     },
+     {
+      "eval_label": "S",
+      "ref": "spaai",
+      "hyp": "bedoel"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*s",
+      "hyp": "ik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sjalt",
+      "hyp": "spy"
+     },
+     {
+      "eval_label": "S",
+      "ref": "heik*(hek)",
+      "hyp": "sjelt"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*x",
+      "hyp": "gik"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "allee"
+     },
+     {
+      "eval_label": "S",
+      "ref": "sank",
+      "hyp": "gik"
+     },
+     {
+      "eval_label": "C",
+      "ref": "sank",
+      "hyp": "sank"
+     },
+     {
+      "eval_label": "S",
+      "ref": "roen",
+      "hyp": "hoen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "frijk",
+      "hyp": "god"
+     },
+     {
+      "eval_label": "S",
+      "ref": "eem",
+      "hyp": "ém"
+     },
+     {
+      "eval_label": "S",
+      "ref": "schard",
+      "hyp": "schart"
+     },
+     {
+      "eval_label": "C",
+      "ref": "grek",
+      "hyp": "grek"
+     },
+     {
+      "eval_label": "D",
+      "ref": "dron",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "snaaf",
+      "hyp": "droen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "stuid",
+      "hyp": "snaf"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "stijt"
+     }
+    ]
+   }
+  }
+ }
+}

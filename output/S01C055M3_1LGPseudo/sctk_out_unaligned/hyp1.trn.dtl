@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   77.3%   (  34)
+
+Percent Correct           =   22.7%   (  10)
+
+Percent Substitution      =   72.7%   (  32)
+Percent Deletions         =    4.5%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   22.7%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> gil
+   2:    1  ->  * ==> lars
+   3:    1  ->  * ==> sa
+   4:    1  ->  * ==> t
+   5:    1  ->  blard ==> n
+   6:    1  ->  dau ==> dal
+   7:    1  ->  doer ==> ken
+   8:    1  ->  dron ==> droom
+   9:    1  ->  eem ==> één
+  10:    1  ->  fam ==> van
+  11:    1  ->  frijk ==> frik
+  12:    1  ->  grek ==> gek
+  13:    1  ->  guul ==> blacht
+  14:    1  ->  haans ==> hans
+  15:    1  ->  heik ==> hek
+  16:    1  ->  hoekt ==> guunhookt
+  17:    1  ->  jien ==> doorplirt
+  18:    1  ->  keng ==> vap
+  19:    1  ->  leum*(leem) ==> leum
+  20:    1  ->  neeuw ==> neew
+  21:    1  ->  plirt ==> swoord
+  22:    1  ->  roen ==> groen
+  23:    1  ->  schard ==> schart
+  24:    1  ->  sjalt ==> shot
+  25:    1  ->  sooi ==> soi
+  26:    1  ->  spaai ==> sp
+  27:    1  ->  stuid ==> stuit
+  28:    1  ->  swoers ==> spriew
+  29:    1  ->  vid ==> vit
+  30:    1  ->  vout*(fout) ==> vout
+  31:    1  ->  zans ==> sans
+  32:    1  ->  zwoei ==> swoei
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  sprieuw
+   2:    1  ->  vaap
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  frijk
+   9:    1  ->  grek
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  heik
+  13:    1  ->  hoekt
+  14:    1  ->  jien
+  15:    1  ->  keng
+  16:    1  ->  leum*(leem)
+  17:    1  ->  neeuw
+  18:    1  ->  plirt
+  19:    1  ->  roen
+  20:    1  ->  schard
+  21:    1  ->  sjalt
+  22:    1  ->  sooi
+  23:    1  ->  spaai
+  24:    1  ->  stuid
+  25:    1  ->  swoers
+  26:    1  ->  vid
+  27:    1  ->  vout*(fout)
+  28:    1  ->  zans
+  29:    1  ->  zwoei
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  blacht
+   2:    1  ->  dal
+   3:    1  ->  doorplirt
+   4:    1  ->  droom
+   5:    1  ->  frik
+   6:    1  ->  gek
+   7:    1  ->  gil
+   8:    1  ->  groen
+   9:    1  ->  guunhookt
+  10:    1  ->  hans
+  11:    1  ->  hek
+  12:    1  ->  ken
+  13:    1  ->  lars
+  14:    1  ->  leum
+  15:    1  ->  n
+  16:    1  ->  neew
+  17:    1  ->  sa
+  18:    1  ->  sans
+  19:    1  ->  schart
+  20:    1  ->  shot
+  21:    1  ->  soi
+  22:    1  ->  sp
+  23:    1  ->  spriew
+  24:    1  ->  stuit
+  25:    1  ->  swoei
+  26:    1  ->  swoord
+  27:    1  ->  t
+  28:    1  ->  van
+  29:    1  ->  vap
+  30:    1  ->  vit
+  31:    1  ->  vout
+  32:    1  ->  één
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

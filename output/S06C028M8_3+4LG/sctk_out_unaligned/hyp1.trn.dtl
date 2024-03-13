@@ -1,0 +1,219 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  105.8%   (  73)
+
+Percent Correct           =   20.3%   (  14)
+
+Percent Substitution      =   73.9%   (  51)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =   26.1%   (  18)
+Percent Word Accuracy     =   -5.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  83)
+Aligned words             =           (  87)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    1  ->  * ==> av
+   2:    1  ->  * ==> b
+   3:    1  ->  * ==> borst
+   4:    1  ->  * ==> dan
+   5:    1  ->  * ==> di
+   6:    1  ->  * ==> dieer
+   7:    1  ->  * ==> eet
+   8:    1  ->  * ==> en
+   9:    1  ->  * ==> gi
+  10:    1  ->  * ==> goei
+  11:    1  ->  * ==> haar
+  12:    1  ->  * ==> ideren
+  13:    1  ->  * ==> of
+  14:    1  ->  * ==> schoenen
+  15:    1  ->  * ==> schom
+  16:    1  ->  * ==> schommel
+  17:    1  ->  * ==> tan
+  18:    1  ->  * ==> tanten
+  19:    1  ->  * ==> toilet
+  20:    1  ->  * ==> vacht
+  21:    1  ->  * ==> vakantie
+  22:    1  ->  * ==> wacht
+  23:    1  ->  * ==> was
+  24:    1  ->  * ==> xa
+  25:    1  ->  *s ==> acht
+  26:    1  ->  *s ==> tie
+  27:    1  ->  afblijven ==> blijven
+  28:    1  ->  autorijden ==> en
+  29:    1  ->  chocolade*(cocacola) ==> cokacola
+  30:    1  ->  dierentuin ==> stoole
+  31:    1  ->  eindelijk ==> delek
+  32:    1  ->  elastiekje ==> uhm
+  33:    1  ->  fototoestel ==> papier
+  34:    1  ->  iedereen ==> school
+  35:    1  ->  kabouter ==> coubouter
+  36:    1  ->  konijnenhok*(konijnenhol) ==> ber
+  37:    1  ->  nieuwsgierig ==> nief
+  38:    1  ->  omdraaien ==> maken
+  39:    1  ->  paddenstoelen ==> vers
+  40:    1  ->  poppenwagen ==> e
+  41:    1  ->  ruziemaken ==> tem
+  42:    1  ->  schoenenwinkel ==> winkel
+  43:    1  ->  sneeuwwitje ==> sneewitje
+  44:    1  ->  sprookjesboek ==> book
+  45:    1  ->  tandenborstel ==> en
+  46:    1  ->  teddybeer ==> padden
+  47:    1  ->  toiletpapier ==> twach
+  48:    1  ->  vakantie ==> vakan
+  49:    1  ->  verstoppertje ==> stoppertje
+  50:    1  ->  vogelkooi ==> koy
+  51:    1  ->  washandje ==> vakantie
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  en
+   2:    1  ->  autor<unk>den
+   3:    1  ->  fogel
+   4:    1  ->  fot
+   5:    1  ->  fotostoestelu
+   6:    1  ->  gierig
+   7:    1  ->  hol
+   8:    1  ->  jes
+   9:    1  ->  komenen
+  10:    1  ->  lastikje
+  11:    1  ->  mius
+  12:    1  ->  ondrayan
+  13:    1  ->  pop
+  14:    1  ->  resie
+  15:    1  ->  sprook
+  16:    1  ->  twol
+  17:    1  ->  wagen
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  *
+   2:    1  ->  *(schommel)
+   3:    1  ->  schommelen
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   24  ->  *
+   2:    2  ->  *s
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade*(cocacola)
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  iedereen
+  11:    1  ->  kabouter
+  12:    1  ->  konijnenhok*(konijnenhol)
+  13:    1  ->  nieuwsgierig
+  14:    1  ->  omdraaien
+  15:    1  ->  paddenstoelen
+  16:    1  ->  poppenwagen
+  17:    1  ->  ruziemaken
+  18:    1  ->  schoenenwinkel
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  toiletpapier
+  24:    1  ->  vakantie
+  25:    1  ->  verstoppertje
+  26:    1  ->  vogelkooi
+  27:    1  ->  washandje
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    3  ->  en
+   2:    2  ->  vakantie
+   3:    1  ->  acht
+   4:    1  ->  av
+   5:    1  ->  b
+   6:    1  ->  ber
+   7:    1  ->  blijven
+   8:    1  ->  book
+   9:    1  ->  borst
+  10:    1  ->  cokacola
+  11:    1  ->  coubouter
+  12:    1  ->  dan
+  13:    1  ->  delek
+  14:    1  ->  di
+  15:    1  ->  dieer
+  16:    1  ->  e
+  17:    1  ->  eet
+  18:    1  ->  gi
+  19:    1  ->  goei
+  20:    1  ->  haar
+  21:    1  ->  ideren
+  22:    1  ->  koy
+  23:    1  ->  maken
+  24:    1  ->  nief
+  25:    1  ->  of
+  26:    1  ->  padden
+  27:    1  ->  papier
+  28:    1  ->  schoenen
+  29:    1  ->  schom
+  30:    1  ->  schommel
+  31:    1  ->  school
+  32:    1  ->  sneewitje
+  33:    1  ->  stoole
+  34:    1  ->  stoppertje
+  35:    1  ->  tan
+  36:    1  ->  tanten
+  37:    1  ->  tem
+  38:    1  ->  tie
+  39:    1  ->  toilet
+  40:    1  ->  twach
+  41:    1  ->  uhm
+  42:    1  ->  vacht
+  43:    1  ->  vakan
+  44:    1  ->  vers
+  45:    1  ->  wacht
+  46:    1  ->  was
+  47:    1  ->  winkel
+  48:    1  ->  xa
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

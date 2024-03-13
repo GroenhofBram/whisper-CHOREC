@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C011M8_3+4LG
+
+#### (S07C011M8_3+4LG-words)
+
+- Cor=2.2%	Sub=56.5%	Del=0.0%	Ins=41.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | poppenwagen | konijnenhok | elastiekje | * | ruziemaken | teddybeer | dierentuin | paddenstoelen | verstoppertje | wasmachine | * | * | * | * | * | vrachtwagen | buurmannen | * | * | * | olifant | schommelen | iedereen | * | * | * | * | * | * | * | verjaardag |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | * | * | * | lucifer | * | * | achterdeur | ziekenhuis | nieuwsgierig | afblijven | * | * | washandje | sneeuwwitje | goeiendag | vakantie | limonade | autorijden | * | * | familie | chocolade |
+| HYP1 | omdraaien | op | een | wagen | konako | erk | taki | en | ris | maken | ruzie | maken | du | beer | deer | en | huis | ban | enesloon | dere | toperete | wase | magetine | fouto | en | wasula | de | lewle | wan | morachat | waen | weer | en | maaneen | voor | elke | jou | olivén | nad | schome | ln | en | terrent | schoenen | en | wekken | pisintellen | op | aan | t | gaan | verjaardag | spor | gasen | book | ea | tant | bortals | lief | er | slaapk-kamer | ach | der | zeq | in | huis | nieuw | sinere | afet | bliven | is | en | onderwil | a | dat | ijven | voort | lezen | hè | competer | competurter | voshanti | sneeuwenté | gooien | dag | vakenté | leeuwwendin | had | roudin | entil | kinvalemen | golende |
+| EVAL |  | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

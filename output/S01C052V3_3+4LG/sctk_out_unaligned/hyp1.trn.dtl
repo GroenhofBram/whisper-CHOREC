@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.9%   (  28)
+
+Percent Correct           =   45.7%   (  21)
+
+Percent Substitution      =   54.3%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    6.5%   (   3)
+Percent Word Accuracy     =   39.1%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  49)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> buurman
+   2:    1  ->  * ==> dierentaam
+   3:    1  ->  * ==> nieuwsgeea
+   4:    1  ->  * ==> sch
+   5:    1  ->  * ==> schoenin
+   6:    1  ->  * ==> sneeuwwiet
+   7:    1  ->  afblijven ==> afblijzen
+   8:    1  ->  autorijden ==> houteraren
+   9:    1  ->  chocolade ==> chocola
+  10:    1  ->  dierentuin ==> teddieweer
+  11:    1  ->  iedereen ==> idereen
+  12:    1  ->  kabouter ==> kabauter
+  13:    1  ->  knutselen ==> knitselen
+  14:    1  ->  konijnenhok ==> hook
+  15:    1  ->  limonade ==> limanade
+  16:    1  ->  olifant ==> ollifant
+  17:    1  ->  paddenstoelen ==> paddenspaddenstoelen
+  18:    1  ->  ruziemaken ==> ruzie
+  19:    1  ->  sneeuwwitje ==> sneeuwietje
+  20:    1  ->  sprookjesboek ==> een
+  21:    1  ->  tandenborstel ==> borstel
+  22:    1  ->  teddybeer ==> maken
+  23:    1  ->  verstoppertje ==> vorstoppertje
+  24:    1  ->  vogelkooi ==> fogelkoai
+  25:    1  ->  vrachtwagen ==> frachtdagen
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  dan
+   2:    1  ->  konijnen
+   3:    1  ->  spruikjesboek
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    6  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  autorijden
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  iedereen
+   7:    1  ->  kabouter
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  olifant
+  12:    1  ->  paddenstoelen
+  13:    1  ->  ruziemaken
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  sprookjesboek
+  16:    1  ->  tandenborstel
+  17:    1  ->  teddybeer
+  18:    1  ->  verstoppertje
+  19:    1  ->  vogelkooi
+  20:    1  ->  vrachtwagen
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  afblijzen
+   2:    1  ->  borstel
+   3:    1  ->  buurman
+   4:    1  ->  chocola
+   5:    1  ->  dierentaam
+   6:    1  ->  een
+   7:    1  ->  fogelkoai
+   8:    1  ->  frachtdagen
+   9:    1  ->  hook
+  10:    1  ->  houteraren
+  11:    1  ->  idereen
+  12:    1  ->  kabauter
+  13:    1  ->  knitselen
+  14:    1  ->  limanade
+  15:    1  ->  maken
+  16:    1  ->  nieuwsgeea
+  17:    1  ->  ollifant
+  18:    1  ->  paddenspaddenstoelen
+  19:    1  ->  ruzie
+  20:    1  ->  sch
+  21:    1  ->  schoenin
+  22:    1  ->  sneeuwietje
+  23:    1  ->  sneeuwwiet
+  24:    1  ->  teddieweer
+  25:    1  ->  vorstoppertje
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

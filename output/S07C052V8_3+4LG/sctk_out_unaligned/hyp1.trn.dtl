@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   75.6%   (  34)
+
+Percent Correct           =   40.0%   (  18)
+
+Percent Substitution      =   57.8%   (  26)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   15.6%   (   7)
+Percent Word Accuracy     =   24.4%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  51)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  * ==> dierittuin
+   2:    1  ->  * ==> kinst
+   3:    1  ->  * ==> tm
+   4:    1  ->  afblijven ==> blijven
+   5:    1  ->  autorijden ==> audoorrijden
+   6:    1  ->  buurmannen*(buurman) ==> buurman
+   7:    1  ->  dierentuin ==> stoelen
+   8:    1  ->  eindelijk ==> endelujk
+   9:    1  ->  elastiekje ==> detdi
+  10:    1  ->  iedereen ==> ederijn
+  11:    1  ->  kabouter ==> kabater
+  12:    1  ->  kabouter ==> kabel
+  13:    1  ->  konijnenhok ==> meken
+  14:    1  ->  lucifer ==> nu
+  15:    1  ->  lucifer ==> nusifer
+  16:    1  ->  omdraaien ==> erlastikier
+  17:    1  ->  paddenstoelen ==> vers
+  18:    1  ->  poppenwagen ==> nuziek
+  19:    1  ->  ruziemaken ==> beer
+  20:    1  ->  schommelen ==> schonelen
+  21:    1  ->  sneeuwwitje ==> wietje
+  22:    1  ->  tandenborstel ==> borstel
+  23:    1  ->  teddybeer ==> dpadden
+  24:    1  ->  toiletpapier ==> twoietpapier
+  25:    1  ->  verstoppertje ==> poppurtje
+  26:    1  ->  vrachtwagen ==> vrechtwegen
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  af
+   2:    1  ->  dan
+   3:    1  ->  den
+   4:    1  ->  kondraien
+   5:    1  ->  konnijnenhoek
+   6:    1  ->  kopenwegge
+   7:    1  ->  sneeuw
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  knutselen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  *
+   2:    2  ->  kabouter
+   3:    2  ->  lucifer
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen*(buurman)
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje
+  10:    1  ->  iedereen
+  11:    1  ->  konijnenhok
+  12:    1  ->  omdraaien
+  13:    1  ->  paddenstoelen
+  14:    1  ->  poppenwagen
+  15:    1  ->  ruziemaken
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verstoppertje
+  22:    1  ->  vrachtwagen
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  audoorrijden
+   2:    1  ->  beer
+   3:    1  ->  blijven
+   4:    1  ->  borstel
+   5:    1  ->  buurman
+   6:    1  ->  detdi
+   7:    1  ->  dierittuin
+   8:    1  ->  dpadden
+   9:    1  ->  ederijn
+  10:    1  ->  endelujk
+  11:    1  ->  erlastikier
+  12:    1  ->  kabater
+  13:    1  ->  kabel
+  14:    1  ->  kinst
+  15:    1  ->  meken
+  16:    1  ->  nu
+  17:    1  ->  nusifer
+  18:    1  ->  nuziek
+  19:    1  ->  poppurtje
+  20:    1  ->  schonelen
+  21:    1  ->  stoelen
+  22:    1  ->  tm
+  23:    1  ->  twoietpapier
+  24:    1  ->  vers
+  25:    1  ->  vrechtwegen
+  26:    1  ->  wietje
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

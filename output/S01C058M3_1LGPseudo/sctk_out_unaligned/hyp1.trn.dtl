@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.4%   (  38)
+
+Percent Correct           =   13.6%   (   6)
+
+Percent Substitution      =   77.3%   (  34)
+Percent Deletions         =    9.1%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   13.6%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  40)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> henspi
+   2:    1  ->  * ==> munt
+   3:    1  ->  * ==> pleg
+   4:    1  ->  * ==> vap
+   5:    1  ->  beeg ==> weeg
+   6:    1  ->  blard ==> lacht
+   7:    1  ->  dau ==> dal
+   8:    1  ->  doer ==> ten
+   9:    1  ->  dron ==> droom
+  10:    1  ->  eem ==> één
+  11:    1  ->  fam ==> vat
+  12:    1  ->  fook ==> fok
+  13:    1  ->  grek ==> rek
+  14:    1  ->  guul ==> guur
+  15:    1  ->  haans ==> sans
+  16:    1  ->  heik ==> hek
+  17:    1  ->  jien ==> dou
+  18:    1  ->  keng ==> sprie
+  19:    1  ->  leum ==> vit
+  20:    1  ->  plirt ==> shors
+  21:    1  ->  rachts ==> zwoeit
+  22:    1  ->  sank*(snak) ==> snak
+  23:    1  ->  schard ==> sgart
+  24:    1  ->  sjalt ==> a
+  25:    1  ->  snaaf ==> slaf
+  26:    1  ->  sooi ==> so
+  27:    1  ->  spaai ==> lem
+  28:    1  ->  sprieuw ==> racht
+  29:    1  ->  sprunt ==> spreu
+  30:    1  ->  stuid ==> stuit
+  31:    1  ->  swoers ==> ke
+  32:    1  ->  vaap ==> van
+  33:    1  ->  vid ==> neo
+  34:    1  ->  zans ==> nogk
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  neeuw
+   2:    1  ->  noork
+   3:    1  ->  vout
+   4:    1  ->  zwoei
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  *
+   2:    1  ->  beeg
+   3:    1  ->  blard
+   4:    1  ->  dau
+   5:    1  ->  doer
+   6:    1  ->  dron
+   7:    1  ->  eem
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  grek
+  11:    1  ->  guul
+  12:    1  ->  haans
+  13:    1  ->  heik
+  14:    1  ->  jien
+  15:    1  ->  keng
+  16:    1  ->  leum
+  17:    1  ->  plirt
+  18:    1  ->  rachts
+  19:    1  ->  sank*(snak)
+  20:    1  ->  schard
+  21:    1  ->  sjalt
+  22:    1  ->  snaaf
+  23:    1  ->  sooi
+  24:    1  ->  spaai
+  25:    1  ->  sprieuw
+  26:    1  ->  sprunt
+  27:    1  ->  stuid
+  28:    1  ->  swoers
+  29:    1  ->  vaap
+  30:    1  ->  vid
+  31:    1  ->  zans
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  a
+   2:    1  ->  dal
+   3:    1  ->  dou
+   4:    1  ->  droom
+   5:    1  ->  fok
+   6:    1  ->  guur
+   7:    1  ->  hek
+   8:    1  ->  henspi
+   9:    1  ->  ke
+  10:    1  ->  lacht
+  11:    1  ->  lem
+  12:    1  ->  munt
+  13:    1  ->  neo
+  14:    1  ->  nogk
+  15:    1  ->  pleg
+  16:    1  ->  racht
+  17:    1  ->  rek
+  18:    1  ->  sans
+  19:    1  ->  sgart
+  20:    1  ->  shors
+  21:    1  ->  slaf
+  22:    1  ->  snak
+  23:    1  ->  so
+  24:    1  ->  spreu
+  25:    1  ->  sprie
+  26:    1  ->  stuit
+  27:    1  ->  ten
+  28:    1  ->  van
+  29:    1  ->  vap
+  30:    1  ->  vat
+  31:    1  ->  vit
+  32:    1  ->  weeg
+  33:    1  ->  zwoeit
+  34:    1  ->  één
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

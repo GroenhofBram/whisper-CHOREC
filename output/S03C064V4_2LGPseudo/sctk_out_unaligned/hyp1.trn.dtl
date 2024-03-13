@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.1%   (  41)
+
+Percent Correct           =   15.6%   (   7)
+
+Percent Substitution      =   80.0%   (  36)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    6.7%   (   3)
+Percent Word Accuracy     =    8.9%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  46)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> clouen
+   2:    1  ->  * ==> ga
+   3:    1  ->  * ==> gouter
+   4:    1  ->  * ==> s
+   5:    1  ->  *(oosten) ==> ma
+   6:    1  ->  bepoud ==> bouwt
+   7:    1  ->  eemde ==> bij
+   8:    1  ->  fiewon ==> fébonv
+   9:    1  ->  gefouw ==> gefou
+  10:    1  ->  geutel ==> fokeel
+  11:    1  ->  gevicht ==> eende
+  12:    1  ->  grijnken ==> rijnken
+  13:    1  ->  hiffreeuw ==> hifreel
+  14:    1  ->  ierpieuw ==> jawal
+  15:    1  ->  ijpo ==> me
+  16:    1  ->  kloeien ==> erter
+  17:    1  ->  kneurem ==> kneuren
+  18:    1  ->  menuur ==> nu
+  19:    1  ->  muider ==> nader
+  20:    1  ->  nizung ==> nisev
+  21:    1  ->  oonste ==> ooste
+  22:    1  ->  orstalk ==> oorstalk
+  23:    1  ->  prilsood ==> reosoot
+  24:    1  ->  saarweng ==> geviegd
+  25:    1  ->  schielstaug ==> sgeelstal
+  26:    1  ->  schodig ==> eppel
+  27:    1  ->  sjobel ==> gute
+  28:    1  ->  spreikje ==> spruikje
+  29:    1  ->  strellen*(stralen) ==> stralen
+  30:    1  ->  vawaai ==> vawai
+  31:    1  ->  vloender ==> vloder
+  32:    1  ->  vocil ==> wilen
+  33:    1  ->  vurpaand ==> verpand
+  34:    1  ->  walaan ==> ierpielwalaam
+  35:    1  ->  wooien ==> boen
+  36:    1  ->  zwieten ==> sweten
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  oh
+   2:    1  ->  sarwing
+   3:    1  ->  schoding
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  millen
+   2:    1  ->  veurder
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    4  ->  *
+   2:    1  ->  *(oosten)
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  muider
+  17:    1  ->  nizung
+  18:    1  ->  oonste
+  19:    1  ->  orstalk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  schodig
+  24:    1  ->  sjobel
+  25:    1  ->  spreikje
+  26:    1  ->  strellen*(stralen)
+  27:    1  ->  vawaai
+  28:    1  ->  vloender
+  29:    1  ->  vocil
+  30:    1  ->  vurpaand
+  31:    1  ->  walaan
+  32:    1  ->  wooien
+  33:    1  ->  zwieten
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  bij
+   2:    1  ->  boen
+   3:    1  ->  bouwt
+   4:    1  ->  clouen
+   5:    1  ->  eende
+   6:    1  ->  eppel
+   7:    1  ->  erter
+   8:    1  ->  fokeel
+   9:    1  ->  fébonv
+  10:    1  ->  ga
+  11:    1  ->  gefou
+  12:    1  ->  geviegd
+  13:    1  ->  gouter
+  14:    1  ->  gute
+  15:    1  ->  hifreel
+  16:    1  ->  ierpielwalaam
+  17:    1  ->  jawal
+  18:    1  ->  kneuren
+  19:    1  ->  ma
+  20:    1  ->  me
+  21:    1  ->  nader
+  22:    1  ->  nisev
+  23:    1  ->  nu
+  24:    1  ->  oorstalk
+  25:    1  ->  ooste
+  26:    1  ->  reosoot
+  27:    1  ->  rijnken
+  28:    1  ->  s
+  29:    1  ->  sgeelstal
+  30:    1  ->  spruikje
+  31:    1  ->  stralen
+  32:    1  ->  sweten
+  33:    1  ->  vawai
+  34:    1  ->  verpand
+  35:    1  ->  vloder
+  36:    1  ->  wilen
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.5%   (  24)
+
+Percent Correct           =   41.5%   (  17)
+
+Percent Substitution      =   53.7%   (  22)
+Percent Deletions         =    4.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   41.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  39)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bed ==> bet
+   2:    1  ->  chips ==> gouw
+   3:    1  ->  clown ==> lo
+   4:    1  ->  draai ==> trai
+   5:    1  ->  eerst ==> erst
+   6:    1  ->  feest ==> goon
+   7:    1  ->  groei ==> gooi
+   8:    1  ->  groen ==> shups
+   9:    1  ->  hoek ==> hook
+  10:    1  ->  huis ==> res
+  11:    1  ->  jas ==> resjos
+  12:    1  ->  knoop ==> ns
+  13:    1  ->  koe ==> koel
+  14:    1  ->  muts ==> mutch
+  15:    1  ->  neus ==> blas
+  16:    1  ->  paard ==> eht
+  17:    1  ->  plank ==> knopplank
+  18:    1  ->  plas ==> skoen
+  19:    1  ->  reis ==> vest
+  20:    1  ->  sjaal ==> s
+  21:    1  ->  sjaal ==> shal
+  22:    1  ->  vijf ==> vef
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  gauw
+   2:    1  ->  schoen
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  sjaal
+   2:    1  ->  bed
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  eerst
+   7:    1  ->  feest
+   8:    1  ->  groei
+   9:    1  ->  groen
+  10:    1  ->  hoek
+  11:    1  ->  huis
+  12:    1  ->  jas
+  13:    1  ->  knoop
+  14:    1  ->  koe
+  15:    1  ->  muts
+  16:    1  ->  neus
+  17:    1  ->  paard
+  18:    1  ->  plank
+  19:    1  ->  plas
+  20:    1  ->  reis
+  21:    1  ->  vijf
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bet
+   2:    1  ->  blas
+   3:    1  ->  eht
+   4:    1  ->  erst
+   5:    1  ->  gooi
+   6:    1  ->  goon
+   7:    1  ->  gouw
+   8:    1  ->  hook
+   9:    1  ->  knopplank
+  10:    1  ->  koel
+  11:    1  ->  lo
+  12:    1  ->  mutch
+  13:    1  ->  ns
+  14:    1  ->  res
+  15:    1  ->  resjos
+  16:    1  ->  s
+  17:    1  ->  shal
+  18:    1  ->  shups
+  19:    1  ->  skoen
+  20:    1  ->  trai
+  21:    1  ->  vef
+  22:    1  ->  vest
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

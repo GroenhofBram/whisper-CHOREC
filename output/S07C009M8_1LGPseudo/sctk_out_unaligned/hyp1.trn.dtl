@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.5%   (  42)
+
+Percent Correct           =   12.5%   (   6)
+
+Percent Substitution      =   77.1%   (  37)
+Percent Deletions         =   10.4%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   12.5%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  43)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  * ==> skensnu
+   2:    1  ->  * ==> snoor
+   3:    1  ->  *(leem) ==> leeuw
+   4:    1  ->  *t ==> stam
+   5:    1  ->  blard ==> plag
+   6:    1  ->  dau ==> daw
+   7:    1  ->  doer ==> douer
+   8:    1  ->  dron ==> hek
+   9:    1  ->  eem ==> roenk
+  10:    1  ->  fam ==> fout
+  11:    1  ->  fook ==> fok
+  12:    1  ->  grek ==> gart
+  13:    1  ->  guul ==> u
+  14:    1  ->  haans ==> lim
+  15:    1  ->  heik ==> ek
+  16:    1  ->  hoekt ==> gokt
+  17:    1  ->  jien ==> ji
+  18:    1  ->  keng ==> vap
+  19:    1  ->  leum*(leeuw) ==> uh
+  20:    1  ->  neeuw*(nieuw) ==> no
+  21:    1  ->  plirt ==> plert
+  22:    1  ->  plirt ==> pli
+  23:    1  ->  rachts ==> soi
+  24:    1  ->  rachts ==> van
+  25:    1  ->  schard ==> éém
+  26:    1  ->  sjalt ==> gelt
+  27:    1  ->  sjalt ==> sprry
+  28:    1  ->  snaaf ==> dromsnaf
+  29:    1  ->  spaai ==> hant
+  30:    1  ->  sprieuw ==> rag
+  31:    1  ->  sprunt ==> sprui
+  32:    1  ->  stuid ==> strt
+  33:    1  ->  swoers ==> spri
+  34:    1  ->  vaap ==> sch
+  35:    1  ->  vout ==> gool
+  36:    1  ->  zans ==> fit
+  37:    1  ->  zwoei ==> lacht
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  frijk
+   2:    1  ->  hool
+   3:    1  ->  larst
+   4:    1  ->  roen
+   5:    1  ->  vid
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  *
+   2:    2  ->  plirt
+   3:    2  ->  rachts
+   4:    2  ->  sjalt
+   5:    1  ->  *(leem)
+   6:    1  ->  *t
+   7:    1  ->  blard
+   8:    1  ->  dau
+   9:    1  ->  doer
+  10:    1  ->  dron
+  11:    1  ->  eem
+  12:    1  ->  fam
+  13:    1  ->  fook
+  14:    1  ->  grek
+  15:    1  ->  guul
+  16:    1  ->  haans
+  17:    1  ->  heik
+  18:    1  ->  hoekt
+  19:    1  ->  jien
+  20:    1  ->  keng
+  21:    1  ->  leum*(leeuw)
+  22:    1  ->  neeuw*(nieuw)
+  23:    1  ->  schard
+  24:    1  ->  snaaf
+  25:    1  ->  spaai
+  26:    1  ->  sprieuw
+  27:    1  ->  sprunt
+  28:    1  ->  stuid
+  29:    1  ->  swoers
+  30:    1  ->  vaap
+  31:    1  ->  vout
+  32:    1  ->  zans
+  33:    1  ->  zwoei
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  daw
+   2:    1  ->  douer
+   3:    1  ->  dromsnaf
+   4:    1  ->  ek
+   5:    1  ->  fit
+   6:    1  ->  fok
+   7:    1  ->  fout
+   8:    1  ->  gart
+   9:    1  ->  gelt
+  10:    1  ->  gokt
+  11:    1  ->  gool
+  12:    1  ->  hant
+  13:    1  ->  hek
+  14:    1  ->  ji
+  15:    1  ->  lacht
+  16:    1  ->  leeuw
+  17:    1  ->  lim
+  18:    1  ->  no
+  19:    1  ->  plag
+  20:    1  ->  plert
+  21:    1  ->  pli
+  22:    1  ->  rag
+  23:    1  ->  roenk
+  24:    1  ->  sch
+  25:    1  ->  skensnu
+  26:    1  ->  snoor
+  27:    1  ->  soi
+  28:    1  ->  spri
+  29:    1  ->  sprry
+  30:    1  ->  sprui
+  31:    1  ->  stam
+  32:    1  ->  strt
+  33:    1  ->  u
+  34:    1  ->  uh
+  35:    1  ->  van
+  36:    1  ->  vap
+  37:    1  ->  éém
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

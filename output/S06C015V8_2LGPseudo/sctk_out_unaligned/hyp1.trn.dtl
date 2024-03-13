@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  117.8%   (  53)
+
+Percent Correct           =    4.4%   (   2)
+
+Percent Substitution      =   95.6%   (  43)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   22.2%   (  10)
+Percent Word Accuracy     =  -17.8%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  55)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  * ==> heer
+   2:    1  ->  * ==> knren
+   3:    1  ->  * ==> sarwen
+   4:    1  ->  * ==> staan
+   5:    1  ->  * ==> us
+   6:    1  ->  *(zweten) ==> zwiet
+   7:    1  ->  *s ==> woorjen
+   8:    1  ->  *t ==> brilsroet
+   9:    1  ->  bepoud ==> vilpand
+  10:    1  ->  eemde ==> geval
+  11:    1  ->  erke ==> enda
+  12:    1  ->  fiewon ==> saai
+  13:    1  ->  foetbans ==> onster
+  14:    1  ->  gefouw ==> zeur
+  15:    1  ->  geutel ==> eel
+  16:    1  ->  gevicht ==> veten?
+  17:    1  ->  grijnken ==> geel
+  18:    1  ->  haweel ==> bepaald
+  19:    1  ->  hiffreeuw ==> spreekje
+  20:    1  ->  ierpieuw ==> howeel
+  21:    1  ->  ijpo ==> p
+  22:    1  ->  menuur ==> me
+  23:    1  ->  millen ==> heerpeel
+  24:    1  ->  milste ==> wilster
+  25:    1  ->  muider ==> venken
+  26:    1  ->  nizung ==> kleuren
+  27:    1  ->  oonste ==> metder
+  28:    1  ->  orstalk ==> én
+  29:    1  ->  saarweng ==> oorstelt
+  30:    1  ->  schielstaug ==> brilsot
+  31:    1  ->  schodig ==> i
+  32:    1  ->  sjobel ==> walder
+  33:    1  ->  spreikje ==> nuuur
+  34:    1  ->  strellen*(strelen) ==> zweeten
+  35:    1  ->  ulen ==> joelen
+  36:    1  ->  vawaai ==> strelen
+  37:    1  ->  veten ==> e
+  38:    1  ->  veurder ==> zerder
+  39:    1  ->  vloender ==> flonider
+  40:    1  ->  vurpaand ==> femon
+  41:    1  ->  walaan*(walen) ==> geviht
+  42:    1  ->  wooien ==> ivreel
+  43:    1  ->  zwieten ==> voenbat
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  vo
+   2:    1  ->  gertil
+   3:    1  ->  heer
+   4:    1  ->  hier
+   5:    1  ->  keel
+   6:    1  ->  milen
+   7:    1  ->  schotig
+   8:    1  ->  solbel
+   9:    1  ->  vonkiel
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    5  ->  *
+   2:    1  ->  *(zweten)
+   3:    1  ->  *s
+   4:    1  ->  *t
+   5:    1  ->  bepoud
+   6:    1  ->  eemde
+   7:    1  ->  erke
+   8:    1  ->  fiewon
+   9:    1  ->  foetbans
+  10:    1  ->  gefouw
+  11:    1  ->  geutel
+  12:    1  ->  gevicht
+  13:    1  ->  grijnken
+  14:    1  ->  haweel
+  15:    1  ->  hiffreeuw
+  16:    1  ->  ierpieuw
+  17:    1  ->  ijpo
+  18:    1  ->  menuur
+  19:    1  ->  millen
+  20:    1  ->  milste
+  21:    1  ->  muider
+  22:    1  ->  nizung
+  23:    1  ->  oonste
+  24:    1  ->  orstalk
+  25:    1  ->  saarweng
+  26:    1  ->  schielstaug
+  27:    1  ->  schodig
+  28:    1  ->  sjobel
+  29:    1  ->  spreikje
+  30:    1  ->  strellen*(strelen)
+  31:    1  ->  ulen
+  32:    1  ->  vawaai
+  33:    1  ->  veten
+  34:    1  ->  veurder
+  35:    1  ->  vloender
+  36:    1  ->  vurpaand
+  37:    1  ->  walaan*(walen)
+  38:    1  ->  wooien
+  39:    1  ->  zwieten
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  bepaald
+   2:    1  ->  brilsot
+   3:    1  ->  brilsroet
+   4:    1  ->  e
+   5:    1  ->  eel
+   6:    1  ->  enda
+   7:    1  ->  femon
+   8:    1  ->  flonider
+   9:    1  ->  geel
+  10:    1  ->  geval
+  11:    1  ->  geviht
+  12:    1  ->  heer
+  13:    1  ->  heerpeel
+  14:    1  ->  howeel
+  15:    1  ->  i
+  16:    1  ->  ivreel
+  17:    1  ->  joelen
+  18:    1  ->  kleuren
+  19:    1  ->  knren
+  20:    1  ->  me
+  21:    1  ->  metder
+  22:    1  ->  nuuur
+  23:    1  ->  onster
+  24:    1  ->  oorstelt
+  25:    1  ->  p
+  26:    1  ->  saai
+  27:    1  ->  sarwen
+  28:    1  ->  spreekje
+  29:    1  ->  staan
+  30:    1  ->  strelen
+  31:    1  ->  us
+  32:    1  ->  venken
+  33:    1  ->  veten?
+  34:    1  ->  vilpand
+  35:    1  ->  voenbat
+  36:    1  ->  walder
+  37:    1  ->  wilster
+  38:    1  ->  woorjen
+  39:    1  ->  zerder
+  40:    1  ->  zeur
+  41:    1  ->  zweeten
+  42:    1  ->  zwiet
+  43:    1  ->  én
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.8%   (  44)
+
+Percent Correct           =    6.7%   (   3)
+
+Percent Substitution      =   93.3%   (  42)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.4%   (   2)
+Percent Word Accuracy     =    2.2%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> fvurtant
+   2:    1  ->  * ==> ni
+   3:    1  ->  * ==> sprekelje
+   4:    1  ->  * ==> un
+   5:    1  ->  * ==> vee
+   6:    1  ->  bepoud ==> orstouk
+   7:    1  ->  eemde ==> dentout
+   8:    1  ->  fiewon ==> vilm
+   9:    1  ->  foetbans ==> wat
+  10:    1  ->  gefouw ==> vea
+  11:    1  ->  geutel ==> getel
+  12:    1  ->  grijnken ==> grijken
+  13:    1  ->  haweel ==> hawel
+  14:    1  ->  hiffreeuw ==> efre
+  15:    1  ->  ierpieuw ==> eel
+  16:    1  ->  ijpo ==> opprenschoiding
+  17:    1  ->  kloeien ==> ve
+  18:    1  ->  kneurem ==> kneren
+  19:    1  ->  menuur ==> eppel
+  20:    1  ->  millen ==> milem
+  21:    1  ->  milste ==> dar
+  22:    1  ->  muider ==> netder
+  23:    1  ->  nizung ==> ding
+  24:    1  ->  oonste ==> onstep
+  25:    1  ->  orponk ==> kloen
+  26:    1  ->  orstalk ==> vetten
+  27:    1  ->  prilsood ==> brenos
+  28:    1  ->  saarweng ==> sarwej
+  29:    1  ->  schielstaug ==> schgeestig
+  30:    1  ->  schodig ==> len
+  31:    1  ->  sjobel ==> sioben
+  32:    1  ->  spreikje ==> nenur
+  33:    1  ->  strellen ==> steren
+  34:    1  ->  ulen ==> dor
+  35:    1  ->  vawaai ==> fae
+  36:    1  ->  veten*(vetten) ==> geval
+  37:    1  ->  veurder ==> nota
+  38:    1  ->  vloender ==> no
+  39:    1  ->  vocil ==> foki
+  40:    1  ->  vurpaand ==> nizin
+  41:    1  ->  walaan ==> welwaan
+  42:    1  ->  wooien ==> we
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  inde
+   2:    1  ->  voed
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    5  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  grijnken
+   9:    1  ->  haweel
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orponk
+  22:    1  ->  orstalk
+  23:    1  ->  prilsood
+  24:    1  ->  saarweng
+  25:    1  ->  schielstaug
+  26:    1  ->  schodig
+  27:    1  ->  sjobel
+  28:    1  ->  spreikje
+  29:    1  ->  strellen
+  30:    1  ->  ulen
+  31:    1  ->  vawaai
+  32:    1  ->  veten*(vetten)
+  33:    1  ->  veurder
+  34:    1  ->  vloender
+  35:    1  ->  vocil
+  36:    1  ->  vurpaand
+  37:    1  ->  walaan
+  38:    1  ->  wooien
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  brenos
+   2:    1  ->  dar
+   3:    1  ->  dentout
+   4:    1  ->  ding
+   5:    1  ->  dor
+   6:    1  ->  eel
+   7:    1  ->  efre
+   8:    1  ->  eppel
+   9:    1  ->  fae
+  10:    1  ->  foki
+  11:    1  ->  fvurtant
+  12:    1  ->  getel
+  13:    1  ->  geval
+  14:    1  ->  grijken
+  15:    1  ->  hawel
+  16:    1  ->  kloen
+  17:    1  ->  kneren
+  18:    1  ->  len
+  19:    1  ->  milem
+  20:    1  ->  nenur
+  21:    1  ->  netder
+  22:    1  ->  ni
+  23:    1  ->  nizin
+  24:    1  ->  no
+  25:    1  ->  nota
+  26:    1  ->  onstep
+  27:    1  ->  opprenschoiding
+  28:    1  ->  orstouk
+  29:    1  ->  sarwej
+  30:    1  ->  schgeestig
+  31:    1  ->  sioben
+  32:    1  ->  sprekelje
+  33:    1  ->  steren
+  34:    1  ->  un
+  35:    1  ->  ve
+  36:    1  ->  vea
+  37:    1  ->  vee
+  38:    1  ->  vetten
+  39:    1  ->  vilm
+  40:    1  ->  wat
+  41:    1  ->  we
+  42:    1  ->  welwaan
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

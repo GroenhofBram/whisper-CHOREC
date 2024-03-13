@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.8%   (  30)
+
+Percent Correct           =   36.2%   (  17)
+
+Percent Substitution      =   57.4%   (  27)
+Percent Deletions         =    6.4%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   36.2%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  44)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> hers
+   2:    1  ->  bang ==> ban
+   3:    1  ->  chips*(griep) ==> grip
+   4:    1  ->  clown ==> kloger
+   5:    1  ->  clown ==> klon
+   6:    1  ->  duur ==> deur
+   7:    1  ->  gauw ==> a
+   8:    1  ->  groei ==> gooi
+   9:    1  ->  herfst ==> herst
+  10:    1  ->  herfst ==> siaat
+  11:    1  ->  hoek ==> hook
+  12:    1  ->  hout ==> hot
+  13:    1  ->  huis ==> jashas
+  14:    1  ->  jas ==> es
+  15:    1  ->  knoop ==> kneus
+  16:    1  ->  krant ==> kla
+  17:    1  ->  muts ==> nit
+  18:    1  ->  nieuw ==> nil
+  19:    1  ->  paard ==> art
+  20:    1  ->  paard ==> pm
+  21:    1  ->  plank ==> knoopplank
+  22:    1  ->  plas*(plant) ==> plan
+  23:    1  ->  reis ==> fuist
+  24:    1  ->  schoen ==> schoon
+  25:    1  ->  strand ==> stron
+  26:    1  ->  vijf ==> vif
+  27:    1  ->  vriend ==> vreend
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  feest
+   2:    1  ->  neus
+   3:    1  ->  sjaal
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  clown
+   2:    2  ->  herfst
+   3:    2  ->  paard
+   4:    1  ->  *
+   5:    1  ->  bang
+   6:    1  ->  chips*(griep)
+   7:    1  ->  duur
+   8:    1  ->  gauw
+   9:    1  ->  groei
+  10:    1  ->  hoek
+  11:    1  ->  hout
+  12:    1  ->  huis
+  13:    1  ->  jas
+  14:    1  ->  knoop
+  15:    1  ->  krant
+  16:    1  ->  muts
+  17:    1  ->  nieuw
+  18:    1  ->  plank
+  19:    1  ->  plas*(plant)
+  20:    1  ->  reis
+  21:    1  ->  schoen
+  22:    1  ->  strand
+  23:    1  ->  vijf
+  24:    1  ->  vriend
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  a
+   2:    1  ->  art
+   3:    1  ->  ban
+   4:    1  ->  deur
+   5:    1  ->  es
+   6:    1  ->  fuist
+   7:    1  ->  gooi
+   8:    1  ->  grip
+   9:    1  ->  hers
+  10:    1  ->  herst
+  11:    1  ->  hook
+  12:    1  ->  hot
+  13:    1  ->  jashas
+  14:    1  ->  kla
+  15:    1  ->  kloger
+  16:    1  ->  klon
+  17:    1  ->  kneus
+  18:    1  ->  knoopplank
+  19:    1  ->  nil
+  20:    1  ->  nit
+  21:    1  ->  plan
+  22:    1  ->  pm
+  23:    1  ->  schoon
+  24:    1  ->  siaat
+  25:    1  ->  stron
+  26:    1  ->  vif
+  27:    1  ->  vreend
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  13)
+
+Percent Correct           =   68.3%   (  28)
+
+Percent Substitution      =   31.7%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  dichtbij ==> dichtbar
+   3:    1  ->  fietsbel ==> fietsbal
+   4:    1  ->  hoofdpijn ==> hoofdpen
+   5:    1  ->  koning ==> konin
+   6:    1  ->  meisje ==> meise
+   7:    1  ->  mevrouw ==> mevrw
+   8:    1  ->  potlood ==> potlot
+   9:    1  ->  regen ==> reigen
+  10:    1  ->  speelplaats ==> speelplat
+  11:    1  ->  verhaal ==> vrau
+  12:    1  ->  vlinder ==> veender
+  13:    1  ->  zwemmen ==> swemmen
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  fietsbel
+   4:    1  ->  hoofdpijn
+   5:    1  ->  koning
+   6:    1  ->  meisje
+   7:    1  ->  mevrouw
+   8:    1  ->  potlood
+   9:    1  ->  regen
+  10:    1  ->  speelplaats
+  11:    1  ->  verhaal
+  12:    1  ->  vlinder
+  13:    1  ->  zwemmen
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  de
+   2:    1  ->  dichtbar
+   3:    1  ->  fietsbal
+   4:    1  ->  hoofdpen
+   5:    1  ->  konin
+   6:    1  ->  meise
+   7:    1  ->  mevrw
+   8:    1  ->  potlot
+   9:    1  ->  reigen
+  10:    1  ->  speelplat
+  11:    1  ->  swemmen
+  12:    1  ->  veender
+  13:    1  ->  vrau
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

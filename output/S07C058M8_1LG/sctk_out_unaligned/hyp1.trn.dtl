@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.9%   (  18)
+
+Percent Correct           =   57.1%   (  24)
+
+Percent Substitution      =   38.1%   (  16)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   57.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  40)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> plat
+   2:    1  ->  bed ==> bet
+   3:    1  ->  draai ==> drai
+   4:    1  ->  feest ==> vest
+   5:    1  ->  gauw ==> gouw
+   6:    1  ->  groei ==> goei
+   7:    1  ->  herfst ==> herst
+   8:    1  ->  hoek ==> ook
+   9:    1  ->  leeuw ==> straatleeuw
+  10:    1  ->  muts ==> nut
+  11:    1  ->  neus ==> plasneus
+  12:    1  ->  nieuw ==> niew
+  13:    1  ->  paard ==> paart
+  14:    1  ->  plas ==> pla
+  15:    1  ->  sjaal ==> cal
+  16:    1  ->  vriend ==> vriemd
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  plas
+   2:    1  ->  straat
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  *
+   2:    1  ->  bed
+   3:    1  ->  draai
+   4:    1  ->  feest
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  herfst
+   8:    1  ->  hoek
+   9:    1  ->  leeuw
+  10:    1  ->  muts
+  11:    1  ->  neus
+  12:    1  ->  nieuw
+  13:    1  ->  paard
+  14:    1  ->  plas
+  15:    1  ->  sjaal
+  16:    1  ->  vriend
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  bet
+   2:    1  ->  cal
+   3:    1  ->  drai
+   4:    1  ->  goei
+   5:    1  ->  gouw
+   6:    1  ->  herst
+   7:    1  ->  niew
+   8:    1  ->  nut
+   9:    1  ->  ook
+  10:    1  ->  paart
+  11:    1  ->  pla
+  12:    1  ->  plasneus
+  13:    1  ->  plat
+  14:    1  ->  straatleeuw
+  15:    1  ->  vest
+  16:    1  ->  vriemd
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

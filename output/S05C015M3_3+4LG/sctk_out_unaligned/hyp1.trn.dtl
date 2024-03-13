@@ -1,0 +1,300 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  121.7%   ( 112)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  92)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   21.7%   (  20)
+Percent Word Accuracy     =  -21.7%
+
+
+Ref. words                =           (  92)
+Hyp. words                =           ( 112)
+Aligned words             =           ( 112)
+
+CONFUSION PAIRS                  Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    3  ->  * ==> a
+   2:    2  ->  * ==> h
+   3:    2  ->  * ==> op
+   4:    2  ->  * ==> pa
+   5:    1  ->  * ==> ah
+   6:    1  ->  * ==> b
+   7:    1  ->  * ==> bur
+   8:    1  ->  * ==> c
+   9:    1  ->  * ==> da
+  10:    1  ->  * ==> dag
+  11:    1  ->  * ==> daluk
+  12:    1  ->  * ==> der
+  13:    1  ->  * ==> desto
+  14:    1  ->  * ==> dev
+  15:    1  ->  * ==> du
+  16:    1  ->  * ==> en
+  17:    1  ->  * ==> fotov
+  18:    1  ->  * ==> geen
+  19:    1  ->  * ==> go
+  20:    1  ->  * ==> ha
+  21:    1  ->  * ==> huis
+  22:    1  ->  * ==> ilv
+  23:    1  ->  * ==> j
+  24:    1  ->  * ==> jaar
+  25:    1  ->  * ==> je
+  26:    1  ->  * ==> k
+  27:    1  ->  * ==> koi
+  28:    1  ->  * ==> nigerig
+  29:    1  ->  * ==> o
+  30:    1  ->  * ==> pug
+  31:    1  ->  * ==> schomele
+  32:    1  ->  * ==> sco
+  33:    1  ->  * ==> sne
+  34:    1  ->  * ==> spro
+  35:    1  ->  * ==> stel
+  36:    1  ->  * ==> sueg
+  37:    1  ->  * ==> tie
+  38:    1  ->  * ==> tio
+  39:    1  ->  * ==> tov
+  40:    1  ->  * ==> v
+  41:    1  ->  * ==> was
+  42:    1  ->  * ==> wastma
+  43:    1  ->  * ==> weet
+  44:    1  ->  * ==> wie
+  45:    1  ->  *(washandjes) ==> am
+  46:    1  ->  *x ==> dag
+  47:    1  ->  achterdeur ==> af
+  48:    1  ->  afblijven ==> ka
+  49:    1  ->  autorijden ==> ma
+  50:    1  ->  buurmannen ==> sch
+  51:    1  ->  chocolade ==> me
+  52:    1  ->  dierentuin ==> pir
+  53:    1  ->  eindelijk ==> odoenden
+  54:    1  ->  elastiekje ==> set
+  55:    1  ->  familie ==> affa
+  56:    1  ->  fototoestel ==> voho
+  57:    1  ->  goeiendag ==> n
+  58:    1  ->  iedereen ==> un
+  59:    1  ->  kabouter ==> bater
+  60:    1  ->  knutselen ==> boek
+  61:    1  ->  konijnenhok ==> tu
+  62:    1  ->  limonade ==> vam
+  63:    1  ->  lucifer ==> der
+  64:    1  ->  nieuwsgierig ==> ve
+  65:    1  ->  olifant ==> k
+  66:    1  ->  omdraaien ==> pi
+  67:    1  ->  ophangen ==> ki
+  68:    1  ->  ophangen ==> lu
+  69:    1  ->  paddenstoelen ==> t
+  70:    1  ->  poppenwagen ==> di
+  71:    1  ->  ruziemaken ==> tou
+  72:    1  ->  schoenenwinkel ==> qus
+  73:    1  ->  schommelen ==> n
+  74:    1  ->  slaapkamer ==> zieken
+  75:    1  ->  sneeuwwitje ==> tier
+  76:    1  ->  sprookjesboek ==> la
+  77:    1  ->  tandenborstel ==> kar
+  78:    1  ->  teddybeer ==> tov
+  79:    1  ->  toiletpapier ==> ollifent
+  80:    1  ->  vakantie ==> da
+  81:    1  ->  verjaardag ==> fer
+  82:    1  ->  verstoppertje ==> g
+  83:    1  ->  vogelkooi ==> a
+  84:    1  ->  vrachtwagen ==> ideien
+  85:    1  ->  washandje ==> wah
+  86:    1  ->  wasmachine ==> bermanen
+  87:    1  ->  ziekenhuis ==> bele
+     -------
+        92
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  co
+   2:    2  ->  ja
+   3:    2  ->  ne
+   4:    1  ->  alwaf
+   5:    1  ->  d
+   6:    1  ->  e
+   7:    1  ->  izimoren
+   8:    1  ->  ke
+   9:    1  ->  m
+  10:    1  ->  man
+  11:    1  ->  po
+  12:    1  ->  rok
+  13:    1  ->  s
+  14:    1  ->  ti
+  15:    1  ->  tm
+  16:    1  ->  v
+  17:    1  ->  w
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:   49  ->  *
+   2:    2  ->  ophangen
+   3:    1  ->  *(washandjes)
+   4:    1  ->  *x
+   5:    1  ->  achterdeur
+   6:    1  ->  afblijven
+   7:    1  ->  autorijden
+   8:    1  ->  buurmannen
+   9:    1  ->  chocolade
+  10:    1  ->  dierentuin
+  11:    1  ->  eindelijk
+  12:    1  ->  elastiekje
+  13:    1  ->  familie
+  14:    1  ->  fototoestel
+  15:    1  ->  goeiendag
+  16:    1  ->  iedereen
+  17:    1  ->  kabouter
+  18:    1  ->  knutselen
+  19:    1  ->  konijnenhok
+  20:    1  ->  limonade
+  21:    1  ->  lucifer
+  22:    1  ->  nieuwsgierig
+  23:    1  ->  olifant
+  24:    1  ->  omdraaien
+  25:    1  ->  paddenstoelen
+  26:    1  ->  poppenwagen
+  27:    1  ->  ruziemaken
+  28:    1  ->  schoenenwinkel
+  29:    1  ->  schommelen
+  30:    1  ->  slaapkamer
+  31:    1  ->  sneeuwwitje
+  32:    1  ->  sprookjesboek
+  33:    1  ->  tandenborstel
+  34:    1  ->  teddybeer
+  35:    1  ->  toiletpapier
+  36:    1  ->  vakantie
+  37:    1  ->  verjaardag
+  38:    1  ->  verstoppertje
+  39:    1  ->  vogelkooi
+  40:    1  ->  vrachtwagen
+  41:    1  ->  washandje
+  42:    1  ->  wasmachine
+  43:    1  ->  ziekenhuis
+     -------
+        92
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (80)
+                                 With >=  1 occurrences (80)
+
+   1:    4  ->  a
+   2:    2  ->  da
+   3:    2  ->  dag
+   4:    2  ->  der
+   5:    2  ->  h
+   6:    2  ->  k
+   7:    2  ->  n
+   8:    2  ->  op
+   9:    2  ->  pa
+  10:    2  ->  tov
+  11:    1  ->  af
+  12:    1  ->  affa
+  13:    1  ->  ah
+  14:    1  ->  am
+  15:    1  ->  b
+  16:    1  ->  bater
+  17:    1  ->  bele
+  18:    1  ->  bermanen
+  19:    1  ->  boek
+  20:    1  ->  bur
+  21:    1  ->  c
+  22:    1  ->  daluk
+  23:    1  ->  desto
+  24:    1  ->  dev
+  25:    1  ->  di
+  26:    1  ->  du
+  27:    1  ->  en
+  28:    1  ->  fer
+  29:    1  ->  fotov
+  30:    1  ->  g
+  31:    1  ->  geen
+  32:    1  ->  go
+  33:    1  ->  ha
+  34:    1  ->  huis
+  35:    1  ->  ideien
+  36:    1  ->  ilv
+  37:    1  ->  j
+  38:    1  ->  jaar
+  39:    1  ->  je
+  40:    1  ->  ka
+  41:    1  ->  kar
+  42:    1  ->  ki
+  43:    1  ->  koi
+  44:    1  ->  la
+  45:    1  ->  lu
+  46:    1  ->  ma
+  47:    1  ->  me
+  48:    1  ->  nigerig
+  49:    1  ->  o
+  50:    1  ->  odoenden
+  51:    1  ->  ollifent
+  52:    1  ->  pi
+  53:    1  ->  pir
+  54:    1  ->  pug
+  55:    1  ->  qus
+  56:    1  ->  sch
+  57:    1  ->  schomele
+  58:    1  ->  sco
+  59:    1  ->  set
+  60:    1  ->  sne
+  61:    1  ->  spro
+  62:    1  ->  stel
+  63:    1  ->  sueg
+  64:    1  ->  t
+  65:    1  ->  tie
+  66:    1  ->  tier
+  67:    1  ->  tio
+  68:    1  ->  tou
+  69:    1  ->  tu
+  70:    1  ->  un
+  71:    1  ->  v
+  72:    1  ->  vam
+  73:    1  ->  ve
+  74:    1  ->  voho
+  75:    1  ->  wah
+  76:    1  ->  was
+  77:    1  ->  wastma
+  78:    1  ->  weet
+  79:    1  ->  wie
+  80:    1  ->  zieken
+     -------
+        92
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

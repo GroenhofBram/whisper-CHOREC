@@ -1,0 +1,273 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   ( 113)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   72.6%   (  82)
+Percent Deletions         =   27.4%   (  31)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           ( 113)
+Hyp. words                =           (  82)
+Aligned words             =           ( 113)
+
+CONFUSION PAIRS                  Total                 (80)
+                                 With >=  1 occurrences (80)
+
+   1:    3  ->  *s ==> o
+   2:    1  ->  * ==> bire
+   3:    1  ->  * ==> daar
+   4:    1  ->  * ==> ee?
+   5:    1  ->  * ==> fnon
+   6:    1  ->  * ==> geefwl
+   7:    1  ->  * ==> geel
+   8:    1  ->  * ==> gerpan
+   9:    1  ->  * ==> gistoud
+  10:    1  ->  * ==> h
+  11:    1  ->  * ==> heen
+  12:    1  ->  * ==> heten
+  13:    1  ->  * ==> hostook
+  14:    1  ->  * ==> ilin
+  15:    1  ->  * ==> leter
+  16:    1  ->  * ==> menuur?
+  17:    1  ->  * ==> miasta
+  18:    1  ->  * ==> n
+  19:    1  ->  * ==> o
+  20:    1  ->  * ==> oh
+  21:    1  ->  * ==> on
+  22:    1  ->  * ==> piosad
+  23:    1  ->  * ==> shanbo
+  24:    1  ->  * ==> spreekje
+  25:    1  ->  * ==> uh
+  26:    1  ->  * ==> uk
+  27:    1  ->  * ==> voorm
+  28:    1  ->  * ==> woordjes
+  29:    1  ->  *s ==> ager
+  30:    1  ->  *s ==> ao
+  31:    1  ->  *s ==> be
+  32:    1  ->  *s ==> boen
+  33:    1  ->  *s ==> en
+  34:    1  ->  *s ==> gewa
+  35:    1  ->  *s ==> goed
+  36:    1  ->  *s ==> hae
+  37:    1  ->  *s ==> iten
+  38:    1  ->  *s ==> jebpt
+  39:    1  ->  *s ==> jee
+  40:    1  ->  *s ==> oeroh
+  41:    1  ->  *s ==> onst
+  42:    1  ->  *s ==> or
+  43:    1  ->  *s ==> schoatje
+  44:    1  ->  *s ==> vro
+  45:    1  ->  *s ==> w
+  46:    1  ->  *s ==> wegaan
+  47:    1  ->  *s ==> zee
+  48:    1  ->  *s ==> é
+  49:    1  ->  *x ==> geer
+  50:    1  ->  bepoud ==> staan
+  51:    1  ->  eemde ==> geto
+  52:    1  ->  fiewon ==> haeeln
+  53:    1  ->  foetbans ==> huurk
+  54:    1  ->  gefouw*(gevouw) ==> a
+  55:    1  ->  gevicht ==> voor
+  56:    1  ->  grijnken ==> ken
+  57:    1  ->  hiffreeuw ==> dat
+  58:    1  ->  ijpo ==> h
+  59:    1  ->  kloeien ==> u
+  60:    1  ->  menuur ==> ek
+  61:    1  ->  milste ==> dans
+  62:    1  ->  muider ==> kneuren
+  63:    1  ->  nizung ==> rke
+  64:    1  ->  oonste ==> ieag
+  65:    1  ->  orponk ==> grene
+  66:    1  ->  orstalk ==> die
+  67:    1  ->  prilsood ==> srijlen
+  68:    1  ->  saarweng ==> meelade
+  69:    1  ->  schielstaug ==> van
+  70:    1  ->  schodig ==> o
+  71:    1  ->  spreikje ==> is
+  72:    1  ->  strellen ==> da
+  73:    1  ->  ulen ==> ma
+  74:    1  ->  vawaai ==> zaigt
+  75:    1  ->  veten ==> aier
+  76:    1  ->  veurder ==> st
+  77:    1  ->  vloender ==> goed
+  78:    1  ->  vurpaand ==> aan
+  79:    1  ->  wooien ==> wa
+  80:    1  ->  zwieten ==> depout
+     -------
+        82
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:   20  ->  *
+   2:    3  ->  *s
+   3:    1  ->  erke
+   4:    1  ->  geutel
+   5:    1  ->  haweel
+   6:    1  ->  ierpieuw
+   7:    1  ->  millen
+   8:    1  ->  sjobel
+   9:    1  ->  vocil
+  10:    1  ->  walaan
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   27  ->  *
+   2:   23  ->  *s
+   3:    1  ->  *x
+   4:    1  ->  bepoud
+   5:    1  ->  eemde
+   6:    1  ->  fiewon
+   7:    1  ->  foetbans
+   8:    1  ->  gefouw*(gevouw)
+   9:    1  ->  gevicht
+  10:    1  ->  grijnken
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  menuur
+  15:    1  ->  milste
+  16:    1  ->  muider
+  17:    1  ->  nizung
+  18:    1  ->  oonste
+  19:    1  ->  orponk
+  20:    1  ->  orstalk
+  21:    1  ->  prilsood
+  22:    1  ->  saarweng
+  23:    1  ->  schielstaug
+  24:    1  ->  schodig
+  25:    1  ->  spreikje
+  26:    1  ->  strellen
+  27:    1  ->  ulen
+  28:    1  ->  vawaai
+  29:    1  ->  veten
+  30:    1  ->  veurder
+  31:    1  ->  vloender
+  32:    1  ->  vurpaand
+  33:    1  ->  wooien
+  34:    1  ->  zwieten
+     -------
+        82
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    5  ->  o
+   2:    2  ->  goed
+   3:    2  ->  h
+   4:    1  ->  a
+   5:    1  ->  aan
+   6:    1  ->  ager
+   7:    1  ->  aier
+   8:    1  ->  ao
+   9:    1  ->  be
+  10:    1  ->  bire
+  11:    1  ->  boen
+  12:    1  ->  da
+  13:    1  ->  daar
+  14:    1  ->  dans
+  15:    1  ->  dat
+  16:    1  ->  depout
+  17:    1  ->  die
+  18:    1  ->  ee?
+  19:    1  ->  ek
+  20:    1  ->  en
+  21:    1  ->  fnon
+  22:    1  ->  geefwl
+  23:    1  ->  geel
+  24:    1  ->  geer
+  25:    1  ->  gerpan
+  26:    1  ->  geto
+  27:    1  ->  gewa
+  28:    1  ->  gistoud
+  29:    1  ->  grene
+  30:    1  ->  hae
+  31:    1  ->  haeeln
+  32:    1  ->  heen
+  33:    1  ->  heten
+  34:    1  ->  hostook
+  35:    1  ->  huurk
+  36:    1  ->  ieag
+  37:    1  ->  ilin
+  38:    1  ->  is
+  39:    1  ->  iten
+  40:    1  ->  jebpt
+  41:    1  ->  jee
+  42:    1  ->  ken
+  43:    1  ->  kneuren
+  44:    1  ->  leter
+  45:    1  ->  ma
+  46:    1  ->  meelade
+  47:    1  ->  menuur?
+  48:    1  ->  miasta
+  49:    1  ->  n
+  50:    1  ->  oeroh
+  51:    1  ->  oh
+  52:    1  ->  on
+  53:    1  ->  onst
+  54:    1  ->  or
+  55:    1  ->  piosad
+  56:    1  ->  rke
+  57:    1  ->  schoatje
+  58:    1  ->  shanbo
+  59:    1  ->  spreekje
+  60:    1  ->  srijlen
+  61:    1  ->  st
+  62:    1  ->  staan
+  63:    1  ->  u
+  64:    1  ->  uh
+  65:    1  ->  uk
+  66:    1  ->  van
+  67:    1  ->  voor
+  68:    1  ->  voorm
+  69:    1  ->  vro
+  70:    1  ->  w
+  71:    1  ->  wa
+  72:    1  ->  wegaan
+  73:    1  ->  woordjes
+  74:    1  ->  zaigt
+  75:    1  ->  zee
+  76:    1  ->  é
+     -------
+        82
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

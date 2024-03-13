@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C035M2_3+4LG
+
+#### (S04C035M2_3+4LG-words)
+
+- Cor=3.7%	Sub=84.4%	Del=0.0%	Ins=11.9%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  | poppenwagen | * | konijnenhok | * | * | * | * | elastiekje | * | * | * | * | ruziemaken | teddybeer | * | * | * | dierentuin | * | paddenstoelen | * | verstoppertje | * | * | wasmachine | * | * | * | * | * | * | * | fototoestel |  |  |  |  |  |  |  |  |  |  | toiletpapier | * | * | * | * | * | * | vrachtwagen | buurmannen | * | * | * | * | * | * | * | vogelkooi | * | * | olifant | * | * | * | * | * | * | schommelen | * | * | * | iedereen | * | * | * | schoenenwinkel | knutselen | * | * | * | ophangen | verjaardag | * | sprookjesboek | * | * | * | tandenborstel | lucifer | * | * | slaapkamer | * | achterdeur | * | * | ziekenhuis | nieuwsgierig | * | * | * | * | afblijven |  | kabouter | * | * | washandje | * | sneeuwwitje | * | goeiendag | vakantie |  |  |  | * | * | * | * | * | limonade | autorijden | eindelijk | familie | chocolade | * | * | * | * |
+| HYP1 | omdraaien | popen | wagen | ko | konijn | nen | hok | el | un | el | nastiqu | ruk | ru | zim | zi | makun | de | tebij | die | been | die | rentuin | opte | stoelen | vers | stopertja | was | mee | ma | geen | geenma | v | to | tou | stol | fototoestel | to | to | o | il | etv | pa | pir | vrachttwagen | bu | buur | ma | gun | buur | ma | mam | nen | vo | gel | kooi | oh | oh | niet | von | vond | onliep | von | sch | schoen | schom | mellen | i | dereen | schoen | nen | winkel | schoenewinkel | k | knust | knut | se | len | op | hangen | vor | ja | rdach | s | sprocus | bek | tem | den | bor | tu | stel | lucht | kif | ver | slaap | ka | mer | ach | ton | duur | zie | kun | huis | nieuws | hi | shi | nieuws | gering | afblijven | k | kamkam | bouter | was | hamtje | sneeuw | witje | goeie | dag | vakantie | lim | o | at | de | linade | o | o | re | den | en | deluk | familie | ko | ko | ko | so | lader |
+| EVAL |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S | S | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S | S | S |  | S | S | S | S | S |
+---
+
+---

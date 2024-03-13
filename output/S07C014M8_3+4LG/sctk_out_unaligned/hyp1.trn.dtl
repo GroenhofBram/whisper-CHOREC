@@ -1,0 +1,268 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  121.2%   ( 103)
+
+Percent Correct           =    1.2%   (   1)
+
+Percent Substitution      =   98.8%   (  84)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   22.4%   (  19)
+Percent Word Accuracy     =  -21.2%
+
+
+Ref. words                =           (  85)
+Hyp. words                =           ( 104)
+Aligned words             =           ( 104)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    3  ->  * ==> de
+   2:    2  ->  * ==> en
+   3:    2  ->  * ==> k
+   4:    2  ->  * ==> was
+   5:    1  ->  * ==> af
+   6:    1  ->  * ==> ah
+   7:    1  ->  * ==> an
+   8:    1  ->  * ==> blijven
+   9:    1  ->  * ==> boe
+  10:    1  ->  * ==> brokjushboek
+  11:    1  ->  * ==> c
+  12:    1  ->  * ==> ci
+  13:    1  ->  * ==> coli
+  14:    1  ->  * ==> dag
+  15:    1  ->  * ==> do
+  16:    1  ->  * ==> doaet
+  17:    1  ->  * ==> doalet
+  18:    1  ->  * ==> doostel
+  19:    1  ->  * ==> doretten
+  20:    1  ->  * ==> egto
+  21:    1  ->  * ==> fa
+  22:    1  ->  * ==> fant
+  23:    1  ->  * ==> ge
+  24:    1  ->  * ==> goeendag
+  25:    1  ->  * ==> he
+  26:    1  ->  * ==> huis
+  27:    1  ->  * ==> hul
+  28:    1  ->  * ==> ia
+  29:    1  ->  * ==> iderin
+  30:    1  ->  * ==> ieve
+  31:    1  ->  * ==> konvakantie
+  32:    1  ->  * ==> kun
+  33:    1  ->  * ==> l
+  34:    1  ->  * ==> loe
+  35:    1  ->  * ==> luk
+  36:    1  ->  * ==> lus
+  37:    1  ->  * ==> ma
+  38:    1  ->  * ==> melen
+  39:    1  ->  * ==> ne
+  40:    1  ->  * ==> ohangen
+  41:    1  ->  * ==> oul
+  42:    1  ->  * ==> outer
+  43:    1  ->  * ==> papier
+  44:    1  ->  * ==> papierf
+  45:    1  ->  * ==> s
+  46:    1  ->  * ==> schol
+  47:    1  ->  * ==> schoon
+  48:    1  ->  * ==> schoonmeen
+  49:    1  ->  * ==> see
+  50:    1  ->  * ==> slakamer
+  51:    1  ->  * ==> stel
+  52:    1  ->  * ==> tan
+  53:    1  ->  * ==> tja
+  54:    1  ->  * ==> to
+  55:    1  ->  * ==> vo
+  56:    1  ->  * ==> wasmachine
+  57:    1  ->  * ==> wientje
+  58:    1  ->  * ==> winkel
+  59:    1  ->  *(coca-cola) ==> kocakora
+  60:    1  ->  afblijven ==> unheer
+  61:    1  ->  autorijden ==> made
+  62:    1  ->  buurmannen ==> coi
+  63:    1  ->  dierentuin ==> ahtje
+  64:    1  ->  elastiekje ==> tuin
+  65:    1  ->  familie ==> affamiliee
+  66:    1  ->  goeiendag ==> sneew
+  67:    1  ->  iedereen ==> schoenen
+  68:    1  ->  knutselen ==> erjahu
+  69:    1  ->  konijnenhok ==> n
+  70:    1  ->  olifant ==> on
+  71:    1  ->  omdraaien ==> ber
+  72:    1  ->  poppenwagen ==> d
+  73:    1  ->  ruziemaken ==> a
+  74:    1  ->  schoenenwinkel ==> nucalen
+  75:    1  ->  sprookjesboek ==> de
+  76:    1  ->  teddybeer ==> denstoeelen
+  77:    1  ->  vakantie ==> an
+  78:    1  ->  verstoppertje ==> wasmachine
+  79:    1  ->  ziekenhuis ==> deur
+     -------
+        84
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  de
+   2:    1  ->  allers
+   3:    1  ->  dedi
+   4:    1  ->  doijnen
+   5:    1  ->  hook
+   6:    1  ->  hs
+   7:    1  ->  i
+   8:    1  ->  ja
+   9:    1  ->  keek
+  10:    1  ->  lewer
+  11:    1  ->  maken
+  12:    1  ->  om
+  13:    1  ->  per
+  14:    1  ->  permanen
+  15:    1  ->  poen
+  16:    1  ->  teraaien
+  17:    1  ->  vo
+  18:    1  ->  waren
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   63  ->  *
+   2:    1  ->  *(coca-cola)
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  familie
+   9:    1  ->  goeiendag
+  10:    1  ->  iedereen
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  olifant
+  14:    1  ->  omdraaien
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  sprookjesboek
+  19:    1  ->  teddybeer
+  20:    1  ->  vakantie
+  21:    1  ->  verstoppertje
+  22:    1  ->  ziekenhuis
+     -------
+        84
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    4  ->  de
+   2:    2  ->  an
+   3:    2  ->  en
+   4:    2  ->  k
+   5:    2  ->  was
+   6:    2  ->  wasmachine
+   7:    1  ->  a
+   8:    1  ->  af
+   9:    1  ->  affamiliee
+  10:    1  ->  ah
+  11:    1  ->  ahtje
+  12:    1  ->  ber
+  13:    1  ->  blijven
+  14:    1  ->  boe
+  15:    1  ->  brokjushboek
+  16:    1  ->  c
+  17:    1  ->  ci
+  18:    1  ->  coi
+  19:    1  ->  coli
+  20:    1  ->  d
+  21:    1  ->  dag
+  22:    1  ->  denstoeelen
+  23:    1  ->  deur
+  24:    1  ->  do
+  25:    1  ->  doaet
+  26:    1  ->  doalet
+  27:    1  ->  doostel
+  28:    1  ->  doretten
+  29:    1  ->  egto
+  30:    1  ->  erjahu
+  31:    1  ->  fa
+  32:    1  ->  fant
+  33:    1  ->  ge
+  34:    1  ->  goeendag
+  35:    1  ->  he
+  36:    1  ->  huis
+  37:    1  ->  hul
+  38:    1  ->  ia
+  39:    1  ->  iderin
+  40:    1  ->  ieve
+  41:    1  ->  kocakora
+  42:    1  ->  konvakantie
+  43:    1  ->  kun
+  44:    1  ->  l
+  45:    1  ->  loe
+  46:    1  ->  luk
+  47:    1  ->  lus
+  48:    1  ->  ma
+  49:    1  ->  made
+  50:    1  ->  melen
+  51:    1  ->  n
+  52:    1  ->  ne
+  53:    1  ->  nucalen
+  54:    1  ->  ohangen
+  55:    1  ->  on
+  56:    1  ->  oul
+  57:    1  ->  outer
+  58:    1  ->  papier
+  59:    1  ->  papierf
+  60:    1  ->  s
+  61:    1  ->  schoenen
+  62:    1  ->  schol
+  63:    1  ->  schoon
+  64:    1  ->  schoonmeen
+  65:    1  ->  see
+  66:    1  ->  slakamer
+  67:    1  ->  sneew
+  68:    1  ->  stel
+  69:    1  ->  tan
+  70:    1  ->  tja
+  71:    1  ->  to
+  72:    1  ->  tuin
+  73:    1  ->  unheer
+  74:    1  ->  vo
+  75:    1  ->  wientje
+  76:    1  ->  winkel
+     -------
+        84
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

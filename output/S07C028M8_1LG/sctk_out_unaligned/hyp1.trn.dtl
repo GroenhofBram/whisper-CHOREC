@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  22)
+
+Percent Correct           =   52.2%   (  24)
+
+Percent Substitution      =   43.5%   (  20)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> sstraa
+   2:    1  ->  *(plan) ==> blan
+   3:    1  ->  bang ==> bam
+   4:    1  ->  chips ==> chilips
+   5:    1  ->  clown ==> klon
+   6:    1  ->  draai ==> drai
+   7:    1  ->  huis ==> ja
+   8:    1  ->  knoop ==> nes
+   9:    1  ->  muts ==> n
+  10:    1  ->  muts ==> nic
+  11:    1  ->  nieuw ==> nil
+  12:    1  ->  oog ==> ooh
+  13:    1  ->  paard ==> bacht
+  14:    1  ->  plank ==> blank
+  15:    1  ->  plank ==> knop
+  16:    1  ->  reis ==> vrijs
+  17:    1  ->  schoen*(groen) ==> groen
+  18:    1  ->  sjaal ==> shal
+  19:    1  ->  strand ==> goo
+  20:    1  ->  vriend ==> reemd
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  groei
+   2:    1  ->  neus
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  muts
+   2:    2  ->  plank
+   3:    1  ->  *
+   4:    1  ->  *(plan)
+   5:    1  ->  bang
+   6:    1  ->  chips
+   7:    1  ->  clown
+   8:    1  ->  draai
+   9:    1  ->  huis
+  10:    1  ->  knoop
+  11:    1  ->  nieuw
+  12:    1  ->  oog
+  13:    1  ->  paard
+  14:    1  ->  reis
+  15:    1  ->  schoen*(groen)
+  16:    1  ->  sjaal
+  17:    1  ->  strand
+  18:    1  ->  vriend
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  bacht
+   2:    1  ->  bam
+   3:    1  ->  blan
+   4:    1  ->  blank
+   5:    1  ->  chilips
+   6:    1  ->  drai
+   7:    1  ->  goo
+   8:    1  ->  groen
+   9:    1  ->  ja
+  10:    1  ->  klon
+  11:    1  ->  knop
+  12:    1  ->  n
+  13:    1  ->  nes
+  14:    1  ->  nic
+  15:    1  ->  nil
+  16:    1  ->  ooh
+  17:    1  ->  reemd
+  18:    1  ->  shal
+  19:    1  ->  sstraa
+  20:    1  ->  vrijs
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

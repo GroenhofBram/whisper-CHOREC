@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   32.5%   (  13)
+
+Percent Correct           =   70.0%   (  28)
+
+Percent Substitution      =   30.0%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   67.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bed ==> det
+   2:    1  ->  clown ==> klan
+   3:    1  ->  draai ==> schel
+   4:    1  ->  gauw ==> gouw
+   5:    1  ->  herfst ==> t
+   6:    1  ->  hout ==> houd
+   7:    1  ->  muts ==> mut
+   8:    1  ->  nieuw ==> mieuw
+   9:    1  ->  paard ==> urt
+  10:    1  ->  reis ==> reijs
+  11:    1  ->  sjaal ==> herfs
+  12:    1  ->  straat ==> strad
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  trai
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bed
+   2:    1  ->  clown
+   3:    1  ->  draai
+   4:    1  ->  gauw
+   5:    1  ->  herfst
+   6:    1  ->  hout
+   7:    1  ->  muts
+   8:    1  ->  nieuw
+   9:    1  ->  paard
+  10:    1  ->  reis
+  11:    1  ->  sjaal
+  12:    1  ->  straat
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  det
+   2:    1  ->  gouw
+   3:    1  ->  herfs
+   4:    1  ->  houd
+   5:    1  ->  klan
+   6:    1  ->  mieuw
+   7:    1  ->  mut
+   8:    1  ->  reijs
+   9:    1  ->  schel
+  10:    1  ->  strad
+  11:    1  ->  t
+  12:    1  ->  urt
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

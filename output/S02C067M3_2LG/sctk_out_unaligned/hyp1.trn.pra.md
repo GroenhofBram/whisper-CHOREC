@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S02C067M3_2LG
+
+#### (S02C067M3_2LG-words)
+
+- Cor=39.5%	Sub=55.8%	Del=2.3%	Ins=2.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien |  | sneeuwen | moeder | liedje | potlood | * | fietsbel | vinger | dichtbij | meisje | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | * | circus | kleuren | voetbal | vlinder |
+| HYP1 | water | mevrouw | troren | winker | outer | schouders | berhel | koning | moeilijk | speelplaats |  | drinkenhoofdpijn | regen | vliegtuig | stoppen | opneeuw | gooien | sebben | moede | noetja | potlod | fitsbo | n | fitbel | viner | dibr | neche | chauffeur | muziek | waarom | scheren | lawaai | emn | vurwerk | apel | cola | cusen | eerste | sa | sircus | kloren | voedbal | vlinder |
+| EVAL |  |  | S | S | S |  | S |  |  |  | D | S |  |  |  | S |  | I | S | S | S | S | S | S | S | S | S |  |  |  | S |  | S | S | S |  | S |  | S | S | S | S |  |
+---
+
+---

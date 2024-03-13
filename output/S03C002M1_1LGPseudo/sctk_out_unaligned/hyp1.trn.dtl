@@ -1,0 +1,254 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.0%   ( 130)
+
+Percent Correct           =    3.0%   (   4)
+
+Percent Substitution      =   56.7%   (  76)
+Percent Deletions         =   40.3%   (  54)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.0%
+
+
+Ref. words                =           ( 134)
+Hyp. words                =           (  80)
+Aligned words             =           ( 134)
+
+CONFUSION PAIRS                  Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    3  ->  * ==> a
+   2:    2  ->  * ==> et
+   3:    2  ->  * ==> o
+   4:    2  ->  * ==> s
+   5:    1  ->  * ==> aah
+   6:    1  ->  * ==> am
+   7:    1  ->  * ==> ao
+   8:    1  ->  * ==> ap
+   9:    1  ->  * ==> arechts
+  10:    1  ->  * ==> as
+  11:    1  ->  * ==> dan
+  12:    1  ->  * ==> de
+  13:    1  ->  * ==> eb
+  14:    1  ->  * ==> ek
+  15:    1  ->  * ==> gard
+  16:    1  ->  * ==> gnl
+  17:    1  ->  * ==> gret
+  18:    1  ->  * ==> ha
+  19:    1  ->  * ==> hamens
+  20:    1  ->  * ==> he
+  21:    1  ->  * ==> hek
+  22:    1  ->  * ==> herst
+  23:    1  ->  * ==> ja
+  24:    1  ->  * ==> jo
+  25:    1  ->  * ==> k
+  26:    1  ->  * ==> m
+  27:    1  ->  * ==> neo
+  28:    1  ->  * ==> nork
+  29:    1  ->  * ==> ohisoi
+  30:    1  ->  * ==> ookt
+  31:    1  ->  * ==> oot
+  32:    1  ->  * ==> plart
+  33:    1  ->  * ==> rdor
+  34:    1  ->  * ==> ru
+  35:    1  ->  * ==> sah
+  36:    1  ->  * ==> sant
+  37:    1  ->  * ==> sna
+  38:    1  ->  * ==> sp
+  39:    1  ->  * ==> t
+  40:    1  ->  * ==> uhu
+  41:    1  ->  * ==> uit
+  42:    1  ->  * ==> vam
+  43:    1  ->  *s ==> h
+  44:    1  ->  *s ==> oerspoores
+  45:    1  ->  *s ==> ok
+  46:    1  ->  *s ==> rijk
+  47:    1  ->  *s ==> ro
+  48:    1  ->  ant ==> niet
+  49:    1  ->  blard ==> knurt
+  50:    1  ->  dau ==> en
+  51:    1  ->  doer ==> zo
+  52:    1  ->  dron*(drong) ==> één
+  53:    1  ->  fook ==> fork
+  54:    1  ->  grek ==> vereik
+  55:    1  ->  guul ==> met
+  56:    1  ->  haans ==> ge
+  57:    1  ->  heik ==> scheld
+  58:    1  ->  hool ==> sprilt
+  59:    1  ->  jien ==> espreel
+  60:    1  ->  larst ==> ho
+  61:    1  ->  leum ==> veet
+  62:    1  ->  plirt ==> ap
+  63:    1  ->  schard ==> hertn
+  64:    1  ->  sjalt ==> isp
+  65:    1  ->  snaaf ==> drom
+  66:    1  ->  sooi ==> dai
+  67:    1  ->  spaai ==> h
+  68:    1  ->  sprunt ==> de
+  69:    1  ->  stuid ==> tuit
+  70:    1  ->  vid ==> eo
+  71:    1  ->  zans ==> ork
+     -------
+        76
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   38  ->  *
+   2:    2  ->  *s
+   3:    1  ->  *(een)
+   4:    1  ->  beeg
+   5:    1  ->  eem
+   6:    1  ->  fam
+   7:    1  ->  frijk
+   8:    1  ->  keng
+   9:    1  ->  neeuw
+  10:    1  ->  noork
+  11:    1  ->  rachts
+  12:    1  ->  roen
+  13:    1  ->  sprieuw
+  14:    1  ->  swoers
+  15:    1  ->  vaap
+  16:    1  ->  zwoei
+     -------
+        54
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   47  ->  *
+   2:    5  ->  *s
+   3:    1  ->  ant
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  dron*(drong)
+   8:    1  ->  fook
+   9:    1  ->  grek
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  heik
+  13:    1  ->  hool
+  14:    1  ->  jien
+  15:    1  ->  larst
+  16:    1  ->  leum
+  17:    1  ->  plirt
+  18:    1  ->  schard
+  19:    1  ->  sjalt
+  20:    1  ->  snaaf
+  21:    1  ->  sooi
+  22:    1  ->  spaai
+  23:    1  ->  sprunt
+  24:    1  ->  stuid
+  25:    1  ->  vid
+  26:    1  ->  zans
+     -------
+        76
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    3  ->  a
+   2:    2  ->  ap
+   3:    2  ->  de
+   4:    2  ->  et
+   5:    2  ->  h
+   6:    2  ->  o
+   7:    2  ->  s
+   8:    1  ->  aah
+   9:    1  ->  am
+  10:    1  ->  ao
+  11:    1  ->  arechts
+  12:    1  ->  as
+  13:    1  ->  dai
+  14:    1  ->  dan
+  15:    1  ->  drom
+  16:    1  ->  eb
+  17:    1  ->  ek
+  18:    1  ->  en
+  19:    1  ->  eo
+  20:    1  ->  espreel
+  21:    1  ->  fork
+  22:    1  ->  gard
+  23:    1  ->  ge
+  24:    1  ->  gnl
+  25:    1  ->  gret
+  26:    1  ->  ha
+  27:    1  ->  hamens
+  28:    1  ->  he
+  29:    1  ->  hek
+  30:    1  ->  herst
+  31:    1  ->  hertn
+  32:    1  ->  ho
+  33:    1  ->  isp
+  34:    1  ->  ja
+  35:    1  ->  jo
+  36:    1  ->  k
+  37:    1  ->  knurt
+  38:    1  ->  m
+  39:    1  ->  met
+  40:    1  ->  neo
+  41:    1  ->  niet
+  42:    1  ->  nork
+  43:    1  ->  oerspoores
+  44:    1  ->  ohisoi
+  45:    1  ->  ok
+  46:    1  ->  ookt
+  47:    1  ->  oot
+  48:    1  ->  ork
+  49:    1  ->  plart
+  50:    1  ->  rdor
+  51:    1  ->  rijk
+  52:    1  ->  ro
+  53:    1  ->  ru
+  54:    1  ->  sah
+  55:    1  ->  sant
+  56:    1  ->  scheld
+  57:    1  ->  sna
+  58:    1  ->  sp
+  59:    1  ->  sprilt
+  60:    1  ->  t
+  61:    1  ->  tuit
+  62:    1  ->  uhu
+  63:    1  ->  uit
+  64:    1  ->  vam
+  65:    1  ->  veet
+  66:    1  ->  vereik
+  67:    1  ->  zo
+  68:    1  ->  één
+     -------
+        76
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

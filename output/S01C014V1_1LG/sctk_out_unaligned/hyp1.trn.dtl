@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.9%   (  34)
+
+Percent Correct           =   28.3%   (  13)
+
+Percent Substitution      =   63.0%   (  29)
+Percent Deletions         =    8.7%   (   4)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   26.1%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  43)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> gou
+   2:    1  ->  * ==> grooi
+   3:    1  ->  *(school) ==> schoon
+   4:    1  ->  bang ==> dang
+   5:    1  ->  bang ==> kend
+   6:    1  ->  chips ==> purps
+   7:    1  ->  clown ==> kron
+   8:    1  ->  feest ==> voost
+   9:    1  ->  gauw ==> ga
+  10:    1  ->  groen ==> sroen
+  11:    1  ->  herfst ==> hest
+  12:    1  ->  hout ==> houd
+  13:    1  ->  huis ==> es
+  14:    1  ->  kind ==> o
+  15:    1  ->  klas ==> was
+  16:    1  ->  knoop ==> op
+  17:    1  ->  koe ==> ko
+  18:    1  ->  krant ==> kramt
+  19:    1  ->  leeuw ==> de
+  20:    1  ->  mooi ==> moi
+  21:    1  ->  neus ==> nes
+  22:    1  ->  nieuw ==> nutt
+  23:    1  ->  plank ==> lan
+  24:    1  ->  plas ==> las
+  25:    1  ->  reis ==> ruys
+  26:    1  ->  sjaal ==> trein
+  27:    1  ->  straat ==> strat
+  28:    1  ->  strand ==> sstrand
+  29:    1  ->  vriend ==> vrien
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  i
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  *
+   2:    1  ->  draai
+   3:    1  ->  groei
+   4:    1  ->  muts
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  *
+   2:    2  ->  bang
+   3:    1  ->  *(school)
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  feest
+   7:    1  ->  gauw
+   8:    1  ->  groen
+   9:    1  ->  herfst
+  10:    1  ->  hout
+  11:    1  ->  huis
+  12:    1  ->  kind
+  13:    1  ->  klas
+  14:    1  ->  knoop
+  15:    1  ->  koe
+  16:    1  ->  krant
+  17:    1  ->  leeuw
+  18:    1  ->  mooi
+  19:    1  ->  neus
+  20:    1  ->  nieuw
+  21:    1  ->  plank
+  22:    1  ->  plas
+  23:    1  ->  reis
+  24:    1  ->  sjaal
+  25:    1  ->  straat
+  26:    1  ->  strand
+  27:    1  ->  vriend
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  dang
+   2:    1  ->  de
+   3:    1  ->  es
+   4:    1  ->  ga
+   5:    1  ->  gou
+   6:    1  ->  grooi
+   7:    1  ->  hest
+   8:    1  ->  houd
+   9:    1  ->  kend
+  10:    1  ->  ko
+  11:    1  ->  kramt
+  12:    1  ->  kron
+  13:    1  ->  lan
+  14:    1  ->  las
+  15:    1  ->  moi
+  16:    1  ->  nes
+  17:    1  ->  nutt
+  18:    1  ->  o
+  19:    1  ->  op
+  20:    1  ->  purps
+  21:    1  ->  ruys
+  22:    1  ->  schoon
+  23:    1  ->  sroen
+  24:    1  ->  sstrand
+  25:    1  ->  strat
+  26:    1  ->  trein
+  27:    1  ->  voost
+  28:    1  ->  vrien
+  29:    1  ->  was
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

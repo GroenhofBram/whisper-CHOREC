@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.2%   (  19)
+
+Percent Correct           =   55.8%   (  24)
+
+Percent Substitution      =   41.9%   (  18)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.8%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  *(klauw) ==> klau
+   2:    1  ->  *(sla) ==> sla
+   3:    1  ->  bang ==> baan
+   4:    1  ->  bed ==> bet
+   5:    1  ->  chips ==> gips
+   6:    1  ->  clown ==> cooon
+   7:    1  ->  feest ==> veest
+   8:    1  ->  gauw ==> gouw
+   9:    1  ->  groen ==> gewoon
+  10:    1  ->  hout ==> out
+  11:    1  ->  knoop ==> dorp
+  12:    1  ->  leeuw ==> leo
+  13:    1  ->  muts ==> mut
+  14:    1  ->  paard ==> paart
+  15:    1  ->  plank ==> pluik
+  16:    1  ->  sjaal ==> siaan
+  17:    1  ->  straat*(staart) ==> start
+  18:    1  ->  strand ==> sstrout
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  *(klauw)
+   2:    1  ->  *(sla)
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips
+   6:    1  ->  clown
+   7:    1  ->  feest
+   8:    1  ->  gauw
+   9:    1  ->  groen
+  10:    1  ->  hout
+  11:    1  ->  knoop
+  12:    1  ->  leeuw
+  13:    1  ->  muts
+  14:    1  ->  paard
+  15:    1  ->  plank
+  16:    1  ->  sjaal
+  17:    1  ->  straat*(staart)
+  18:    1  ->  strand
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  baan
+   2:    1  ->  bet
+   3:    1  ->  cooon
+   4:    1  ->  dorp
+   5:    1  ->  gewoon
+   6:    1  ->  gips
+   7:    1  ->  gouw
+   8:    1  ->  klau
+   9:    1  ->  leo
+  10:    1  ->  mut
+  11:    1  ->  out
+  12:    1  ->  paart
+  13:    1  ->  pluik
+  14:    1  ->  siaan
+  15:    1  ->  sla
+  16:    1  ->  sstrout
+  17:    1  ->  start
+  18:    1  ->  veest
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

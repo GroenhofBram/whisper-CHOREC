@@ -1,0 +1,102 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.3%   (  12)
+
+Percent Correct           =   77.3%   (  34)
+
+Percent Substitution      =   22.7%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =   72.7%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> fisa
+   3:    1  ->  * ==> kool
+   4:    1  ->  * ==> kopa
+   5:    1  ->  *x ==> ja
+   6:    1  ->  liedje ==> liedjer
+   7:    1  ->  meisje ==> meisjer
+   8:    1  ->  potlood ==> potloot
+   9:    1  ->  vlinder ==> vlien
+  10:    1  ->  water ==> watter
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  g
+   2:    1  ->  sa
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    4  ->  *
+   2:    1  ->  *x
+   3:    1  ->  liedje
+   4:    1  ->  meisje
+   5:    1  ->  potlood
+   6:    1  ->  vlinder
+   7:    1  ->  water
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  fisa
+   3:    1  ->  ja
+   4:    1  ->  kool
+   5:    1  ->  kopa
+   6:    1  ->  liedjer
+   7:    1  ->  meisjer
+   8:    1  ->  potloot
+   9:    1  ->  vlien
+  10:    1  ->  watter
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

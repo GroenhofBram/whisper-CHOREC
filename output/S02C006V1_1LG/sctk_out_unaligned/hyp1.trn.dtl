@@ -1,0 +1,167 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.0%   ( 140)
+
+Percent Correct           =    6.7%   (  10)
+
+Percent Substitution      =   22.1%   (  33)
+Percent Deletions         =   71.1%   ( 106)
+Percent Insertions        =    0.7%   (   1)
+Percent Word Accuracy     =    6.0%
+
+
+Ref. words                =           ( 149)
+Hyp. words                =           (  44)
+Aligned words             =           ( 150)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  * ==> t
+   2:    2  ->  * ==> ga
+   3:    1  ->  * ==> a
+   4:    1  ->  * ==> arem
+   5:    1  ->  * ==> geps
+   6:    1  ->  * ==> gier
+   7:    1  ->  * ==> herda
+   8:    1  ->  * ==> ho
+   9:    1  ->  * ==> is
+  10:    1  ->  * ==> list
+  11:    1  ->  * ==> nede
+  12:    1  ->  * ==> ns
+  13:    1  ->  * ==> s
+  14:    1  ->  * ==> shaan
+  15:    1  ->  * ==> splas
+  16:    1  ->  * ==> statel
+  17:    1  ->  * ==> veeld
+  18:    1  ->  * ==> vreemden
+  19:    1  ->  *(as) ==> kindren
+  20:    1  ->  *(oud) ==> karend
+  21:    1  ->  *s ==> jou
+  22:    1  ->  *s ==> moi
+  23:    1  ->  *s ==> uhm
+  24:    1  ->  bed*(bedden) ==> g
+  25:    1  ->  leeuw ==> tgaat
+  26:    1  ->  neus ==> ozaht
+  27:    1  ->  plank ==> plask
+  28:    1  ->  plas ==> bae
+  29:    1  ->  reis ==> jinis
+  30:    1  ->  schoen ==> ver
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  moi
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   82  ->  *
+   2:    4  ->  *s
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  chips*(gips)
+   6:    1  ->  draai
+   7:    1  ->  duur
+   8:    1  ->  feest
+   9:    1  ->  gauw
+  10:    1  ->  groei
+  11:    1  ->  herfst
+  12:    1  ->  kind
+  13:    1  ->  krant
+  14:    1  ->  muts
+  15:    1  ->  nieuw*(leeuw)
+  16:    1  ->  oog
+  17:    1  ->  paard*(paarden)
+  18:    1  ->  sjaal
+  19:    1  ->  straat
+  20:    1  ->  strand
+  21:    1  ->  vijf
+  22:    1  ->  vriend
+     -------
+       106
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:   21  ->  *
+   2:    3  ->  *s
+   3:    1  ->  *(as)
+   4:    1  ->  *(oud)
+   5:    1  ->  bed*(bedden)
+   6:    1  ->  leeuw
+   7:    1  ->  neus
+   8:    1  ->  plank
+   9:    1  ->  plas
+  10:    1  ->  reis
+  11:    1  ->  schoen
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  t
+   2:    2  ->  ga
+   3:    1  ->  a
+   4:    1  ->  arem
+   5:    1  ->  bae
+   6:    1  ->  g
+   7:    1  ->  geps
+   8:    1  ->  gier
+   9:    1  ->  herda
+  10:    1  ->  ho
+  11:    1  ->  is
+  12:    1  ->  jinis
+  13:    1  ->  jou
+  14:    1  ->  karend
+  15:    1  ->  kindren
+  16:    1  ->  list
+  17:    1  ->  moi
+  18:    1  ->  nede
+  19:    1  ->  ns
+  20:    1  ->  ozaht
+  21:    1  ->  plask
+  22:    1  ->  s
+  23:    1  ->  shaan
+  24:    1  ->  splas
+  25:    1  ->  statel
+  26:    1  ->  tgaat
+  27:    1  ->  uhm
+  28:    1  ->  veeld
+  29:    1  ->  ver
+  30:    1  ->  vreemden
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

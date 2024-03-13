@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.7%   (  15)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   31.0%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   64.3%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> dicht
+   2:    1  ->  * ==> kleren
+   3:    1  ->  *(eerst) ==> eerst
+   4:    1  ->  cola ==> kola
+   5:    1  ->  fietsbel ==> fitspil
+   6:    1  ->  liedje ==> liescha
+   7:    1  ->  meisje ==> nasje
+   8:    1  ->  moeder ==> moder
+   9:    1  ->  muziek ==> k
+  10:    1  ->  schouders ==> schadders
+  11:    1  ->  sneeuwen ==> winu
+  12:    1  ->  speelplaats ==> speelplet
+  13:    1  ->  zwemmen ==> vemmen
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  muzie
+   2:    1  ->  sneeuw
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  cola
+   4:    1  ->  fietsbel
+   5:    1  ->  liedje
+   6:    1  ->  meisje
+   7:    1  ->  moeder
+   8:    1  ->  muziek
+   9:    1  ->  schouders
+  10:    1  ->  sneeuwen
+  11:    1  ->  speelplaats
+  12:    1  ->  zwemmen
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  dicht
+   2:    1  ->  eerst
+   3:    1  ->  fitspil
+   4:    1  ->  k
+   5:    1  ->  kleren
+   6:    1  ->  kola
+   7:    1  ->  liescha
+   8:    1  ->  moder
+   9:    1  ->  nasje
+  10:    1  ->  schadders
+  11:    1  ->  speelplet
+  12:    1  ->  vemmen
+  13:    1  ->  winu
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

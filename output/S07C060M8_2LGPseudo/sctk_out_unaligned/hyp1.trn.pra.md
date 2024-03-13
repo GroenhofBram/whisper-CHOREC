@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C060M8_2LGPseudo
+
+#### (S07C060M8_2LGPseudo-words)
+
+- Cor=0.0%	Sub=56.9%	Del=43.1%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen*(mild) | vocil | * | * | * | *(getel) | sjobel | * | * | * | * | * | * | erke | * | * | * | * | * | * | * | * | gevicht | * | * | eemde | eemde | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | gefouw | * | * | * | * | *(verband) | * | * | * | * | * | * | * | * | * | * | * | kneurem | * | * | * | * | * | * | zwieten | foetbans | oonste | muider | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | milste | * | * | * | * | * | * | * | * | ulen | orponk | schodig | ijpo | menuur | spreikje | * | * | * | * | * | * | *(waaien) |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | mit | fokun | guta | sopo | i | irpol | an | herk | u | awn | sarwn | geveeht | één | één | één | te | u | balt | sorstenk | vacten | vouw | va | verband | miseum | kfij | woon | teneuren | v | faway | strak | strakkolen | ze | weten | voeibai | onster | miter | ger | gerekenoen | scchele | touw | bres | is | or | sprinstort | of | odadr | voorlanter | sta | muste | g | vorde | ko | uken | orpen | sheter | opse | meurneg | speratie | v | heer | vrouw | waen |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

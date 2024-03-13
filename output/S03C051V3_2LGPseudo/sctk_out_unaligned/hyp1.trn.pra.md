@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C051V3_2LGPseudo
+
+#### (S03C051V3_2LGPseudo-words)
+
+- Cor=24.4%	Sub=73.2%	Del=0.0%	Ins=2.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  | millen | vocil | geutel | sjobel | ierpieuw | walaan | erke | haweel | saarweng | gevicht | eemde | bepoud | orstalk | veten | gefouw | vurpaand | nizung | fiewon | kneurem | vawaai | strellen | zwieten | foetbans | oonste | muider | grijnken | schielstaug | prilsood | vloender | milste | veurder | kloeien | ulen | orponk | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 | mile | forsil | getel | foel | ier | peel | walaan | erke | haweel | sarwing | gevicht | ende | bepauld | orstald | vetel | gefal | vurpant | mesun | fibon | kneuren | vawai | strillen | jiten | voetband | onste | nadder | grejnken | schilstau | prilsoot | vlounder | milste | verder | clouen | ulen | orponk | schotig | ipol | menuur | spreikje | istere | wooien |
+| EVAL | I | S | S | S | S | S |  |  |  | S |  | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S |  |  | S | S |  |  | S |  |
+---
+
+---

@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.2%   (  43)
+
+Percent Correct           =   21.8%   (  12)
+
+Percent Substitution      =   58.2%   (  32)
+Percent Deletions         =   20.0%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   21.8%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  44)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> heer
+   2:    1  ->  * ==> kla
+   3:    1  ->  * ==> niet
+   4:    1  ->  * ==> slaai
+   5:    1  ->  * ==> ver
+   6:    1  ->  * ==> vest
+   7:    1  ->  *(kin) ==> e
+   8:    1  ->  *(kin) ==> neen
+   9:    1  ->  *(staart) ==> staart
+  10:    1  ->  *(zaait) ==> eit
+  11:    1  ->  *s ==> klal
+  12:    1  ->  arm ==> arem
+  13:    1  ->  bang ==> ban
+  14:    1  ->  bed ==> bet
+  15:    1  ->  clown ==> m
+  16:    1  ->  feest ==> goen
+  17:    1  ->  groei ==> goei
+  18:    1  ->  groen ==> gelschip
+  19:    1  ->  hout ==> helt
+  20:    1  ->  knoop ==> kn
+  21:    1  ->  krant ==> kran
+  22:    1  ->  leeuw ==> leeel
+  23:    1  ->  muts ==> hurs
+  24:    1  ->  neus ==> nes
+  25:    1  ->  nieuw ==> waart
+  26:    1  ->  oog ==> oer
+  27:    1  ->  plank ==> blant
+  28:    1  ->  plank ==> p
+  29:    1  ->  reis ==> weeest
+  30:    1  ->  schoen ==> schroen
+  31:    1  ->  strand*(staat) ==> spat
+  32:    1  ->  zacht*(zaai) ==> si
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  vijf
+   2:    1  ->  *
+   3:    1  ->  chips*(schip)
+   4:    1  ->  gauw
+   5:    1  ->  herfst
+   6:    1  ->  huis
+   7:    1  ->  muts
+   8:    1  ->  paard
+   9:    1  ->  sjaal
+  10:    1  ->  straat
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    6  ->  *
+   2:    2  ->  *(kin)
+   3:    2  ->  plank
+   4:    1  ->  *(staart)
+   5:    1  ->  *(zaait)
+   6:    1  ->  *s
+   7:    1  ->  arm
+   8:    1  ->  bang
+   9:    1  ->  bed
+  10:    1  ->  clown
+  11:    1  ->  feest
+  12:    1  ->  groei
+  13:    1  ->  groen
+  14:    1  ->  hout
+  15:    1  ->  knoop
+  16:    1  ->  krant
+  17:    1  ->  leeuw
+  18:    1  ->  muts
+  19:    1  ->  neus
+  20:    1  ->  nieuw
+  21:    1  ->  oog
+  22:    1  ->  reis
+  23:    1  ->  schoen
+  24:    1  ->  strand*(staat)
+  25:    1  ->  zacht*(zaai)
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  arem
+   2:    1  ->  ban
+   3:    1  ->  bet
+   4:    1  ->  blant
+   5:    1  ->  e
+   6:    1  ->  eit
+   7:    1  ->  gelschip
+   8:    1  ->  goei
+   9:    1  ->  goen
+  10:    1  ->  heer
+  11:    1  ->  helt
+  12:    1  ->  hurs
+  13:    1  ->  kla
+  14:    1  ->  klal
+  15:    1  ->  kn
+  16:    1  ->  kran
+  17:    1  ->  leeel
+  18:    1  ->  m
+  19:    1  ->  neen
+  20:    1  ->  nes
+  21:    1  ->  niet
+  22:    1  ->  oer
+  23:    1  ->  p
+  24:    1  ->  schroen
+  25:    1  ->  si
+  26:    1  ->  slaai
+  27:    1  ->  spat
+  28:    1  ->  staart
+  29:    1  ->  ver
+  30:    1  ->  vest
+  31:    1  ->  waart
+  32:    1  ->  weeest
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

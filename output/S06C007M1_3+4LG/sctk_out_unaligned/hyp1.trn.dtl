@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.9%   (  34)
+
+Percent Correct           =   47.8%   (  22)
+
+Percent Substitution      =   50.0%   (  23)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   21.7%   (  10)
+Percent Word Accuracy     =   26.1%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  55)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> axt
+   2:    1  ->  * ==> co
+   3:    1  ->  * ==> ko
+   4:    1  ->  * ==> nieuw
+   5:    1  ->  *(coca) ==> oka
+   6:    1  ->  *(light) ==> lit
+   7:    1  ->  autorijden ==> autorijder
+   8:    1  ->  goeiendag ==> vakant
+   9:    1  ->  konijnenhok*(konijnhok) ==> konijnhoek
+  10:    1  ->  limonade ==> limonada
+  11:    1  ->  lucifer ==> lukiver
+  12:    1  ->  nieuwsgierig ==> nieuwsgering
+  13:    1  ->  paddenstoelen ==> stoelen
+  14:    1  ->  poppenwagen ==> oppenwagen
+  15:    1  ->  ruziemaken ==> die
+  16:    1  ->  schoenenwinkel ==> winkel
+  17:    1  ->  sneeuwwitje ==> goeieniddag
+  18:    1  ->  tandenborstel ==> borstel
+  19:    1  ->  teddybeer ==> beer
+  20:    1  ->  vakantie ==> se
+  21:    1  ->  verstoppertje ==> verstopperdje
+  22:    1  ->  washandje ==> sneeuwietje
+  23:    1  ->  ziekenhuis ==> gaas
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  dit
+   2:    1  ->  en
+   3:    1  ->  handje
+   4:    1  ->  maken
+   5:    1  ->  padden
+   6:    1  ->  ruzie
+   7:    1  ->  schoen
+   8:    1  ->  siker
+   9:    1  ->  tanden
+  10:    1  ->  wat
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chocolade
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  *
+   2:    1  ->  *(coca)
+   3:    1  ->  *(light)
+   4:    1  ->  autorijden
+   5:    1  ->  goeiendag
+   6:    1  ->  konijnenhok*(konijnhok)
+   7:    1  ->  limonade
+   8:    1  ->  lucifer
+   9:    1  ->  nieuwsgierig
+  10:    1  ->  paddenstoelen
+  11:    1  ->  poppenwagen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schoenenwinkel
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  vakantie
+  18:    1  ->  verstoppertje
+  19:    1  ->  washandje
+  20:    1  ->  ziekenhuis
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  autorijder
+   2:    1  ->  axt
+   3:    1  ->  beer
+   4:    1  ->  borstel
+   5:    1  ->  co
+   6:    1  ->  die
+   7:    1  ->  gaas
+   8:    1  ->  goeieniddag
+   9:    1  ->  ko
+  10:    1  ->  konijnhoek
+  11:    1  ->  limonada
+  12:    1  ->  lit
+  13:    1  ->  lukiver
+  14:    1  ->  nieuw
+  15:    1  ->  nieuwsgering
+  16:    1  ->  oka
+  17:    1  ->  oppenwagen
+  18:    1  ->  se
+  19:    1  ->  sneeuwietje
+  20:    1  ->  stoelen
+  21:    1  ->  vakant
+  22:    1  ->  verstopperdje
+  23:    1  ->  winkel
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.0%   (  22)
+
+Percent Correct           =   54.5%   (  24)
+
+Percent Substitution      =   43.2%   (  19)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =   50.0%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  * ==> se
+   2:    2  ->  jas ==> jos
+   3:    1  ->  * ==> dri
+   4:    1  ->  bang ==> dan
+   5:    1  ->  chips ==> cips
+   6:    1  ->  clown*(slowen) ==> sloen
+   7:    1  ->  feest ==> fst
+   8:    1  ->  gauw ==> gouw
+   9:    1  ->  kind ==> d
+  10:    1  ->  knoop*(knok) ==> knok
+  11:    1  ->  muts ==> nio
+  12:    1  ->  neus ==> neur
+  13:    1  ->  nieuw ==> kin
+  14:    1  ->  paard*(paarden) ==> barden
+  15:    1  ->  reis ==> ves
+  16:    1  ->  strand*(straat) ==> straat
+  17:    1  ->  vriend*(vierden) ==> veerten
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  hoe
+   2:    1  ->  mut
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  draai
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  *
+   2:    2  ->  jas
+   3:    1  ->  bang
+   4:    1  ->  chips
+   5:    1  ->  clown*(slowen)
+   6:    1  ->  feest
+   7:    1  ->  gauw
+   8:    1  ->  kind
+   9:    1  ->  knoop*(knok)
+  10:    1  ->  muts
+  11:    1  ->  neus
+  12:    1  ->  nieuw
+  13:    1  ->  paard*(paarden)
+  14:    1  ->  reis
+  15:    1  ->  strand*(straat)
+  16:    1  ->  vriend*(vierden)
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  jos
+   2:    2  ->  se
+   3:    1  ->  barden
+   4:    1  ->  cips
+   5:    1  ->  d
+   6:    1  ->  dan
+   7:    1  ->  dri
+   8:    1  ->  fst
+   9:    1  ->  gouw
+  10:    1  ->  kin
+  11:    1  ->  knok
+  12:    1  ->  neur
+  13:    1  ->  nio
+  14:    1  ->  sloen
+  15:    1  ->  straat
+  16:    1  ->  veerten
+  17:    1  ->  ves
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

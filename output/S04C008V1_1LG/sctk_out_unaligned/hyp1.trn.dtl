@@ -1,0 +1,255 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.9%   (  93)
+
+Percent Correct           =    4.2%   (   4)
+
+Percent Substitution      =   78.9%   (  75)
+Percent Deletions         =   16.8%   (  16)
+Percent Insertions        =    2.1%   (   2)
+Percent Word Accuracy     =    2.1%
+
+
+Ref. words                =           (  95)
+Hyp. words                =           (  81)
+Aligned words             =           (  97)
+
+CONFUSION PAIRS                  Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    2  ->  * ==> be
+   2:    2  ->  * ==> e
+   3:    2  ->  *x ==> en
+   4:    1  ->  * ==> a
+   5:    1  ->  * ==> ah
+   6:    1  ->  * ==> allee
+   7:    1  ->  * ==> b
+   8:    1  ->  * ==> cina
+   9:    1  ->  * ==> dank
+  10:    1  ->  * ==> erst
+  11:    1  ->  * ==> hat
+  12:    1  ->  * ==> j
+  13:    1  ->  * ==> ja
+  14:    1  ->  * ==> je
+  15:    1  ->  * ==> k
+  16:    1  ->  * ==> kenikniet
+  17:    1  ->  * ==> kol
+  18:    1  ->  * ==> ni
+  19:    1  ->  * ==> plafe
+  20:    1  ->  * ==> strate
+  21:    1  ->  * ==> sup
+  22:    1  ->  * ==> t
+  23:    1  ->  * ==> te
+  24:    1  ->  * ==> teat
+  25:    1  ->  * ==> u
+  26:    1  ->  * ==> ut
+  27:    1  ->  *(ben) ==> d
+  28:    1  ->  *(plas) ==> g
+  29:    1  ->  *(plassen) ==> op
+  30:    1  ->  *(straten) ==> groe
+  31:    1  ->  *(vrienden) ==> gehd
+  32:    1  ->  *x ==> al
+  33:    1  ->  *x ==> go
+  34:    1  ->  *x ==> hoek
+  35:    1  ->  *x ==> ik
+  36:    1  ->  *x ==> lonv
+  37:    1  ->  *x ==> middelstuk
+  38:    1  ->  *x ==> nog
+  39:    1  ->  *x ==> zacht
+  40:    1  ->  arm ==> m
+  41:    1  ->  arm ==> n
+  42:    1  ->  bang ==> ve
+  43:    1  ->  bed ==> bet
+  44:    1  ->  chips*(clown) ==> clonv
+  45:    1  ->  duur ==> heers
+  46:    1  ->  eerst ==> erst
+  47:    1  ->  feest ==> ida
+  48:    1  ->  gauw ==> clonv
+  49:    1  ->  groei ==> aan
+  50:    1  ->  groei ==> n
+  51:    1  ->  groen ==> vor
+  52:    1  ->  herfst ==> gari
+  53:    1  ->  hoek ==> die
+  54:    1  ->  hout ==> we
+  55:    1  ->  huis ==> claship
+  56:    1  ->  jas ==> uh
+  57:    1  ->  kind ==> g
+  58:    1  ->  knoop ==> nu
+  59:    1  ->  krant ==> hebben
+  60:    1  ->  leeuw ==> zo
+  61:    1  ->  neus ==> teaf
+  62:    1  ->  nieuw ==> ja
+  63:    1  ->  paard ==> gore
+  64:    1  ->  plank ==> bl
+  65:    1  ->  plas ==> o
+  66:    1  ->  reis ==> kwe
+  67:    1  ->  schoen ==> zacht
+  68:    1  ->  sjaal ==> g
+  69:    1  ->  sjaal ==> gr
+  70:    1  ->  strand ==> lo
+  71:    1  ->  vriend ==> nog
+  72:    1  ->  zacht ==> die
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  mle
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    9  ->  *
+   2:    1  ->  *(mus)
+   3:    1  ->  draai
+   4:    1  ->  klas
+   5:    1  ->  koe
+   6:    1  ->  mooi
+   7:    1  ->  muts
+   8:    1  ->  nieuw
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:   27  ->  *
+   2:   10  ->  *x
+   3:    2  ->  arm
+   4:    2  ->  groei
+   5:    2  ->  sjaal
+   6:    1  ->  *(ben)
+   7:    1  ->  *(plas)
+   8:    1  ->  *(plassen)
+   9:    1  ->  *(straten)
+  10:    1  ->  *(vrienden)
+  11:    1  ->  bang
+  12:    1  ->  bed
+  13:    1  ->  chips*(clown)
+  14:    1  ->  duur
+  15:    1  ->  eerst
+  16:    1  ->  feest
+  17:    1  ->  gauw
+  18:    1  ->  groen
+  19:    1  ->  herfst
+  20:    1  ->  hoek
+  21:    1  ->  hout
+  22:    1  ->  huis
+  23:    1  ->  jas
+  24:    1  ->  kind
+  25:    1  ->  knoop
+  26:    1  ->  krant
+  27:    1  ->  leeuw
+  28:    1  ->  neus
+  29:    1  ->  nieuw
+  30:    1  ->  paard
+  31:    1  ->  plank
+  32:    1  ->  plas
+  33:    1  ->  reis
+  34:    1  ->  schoen
+  35:    1  ->  strand
+  36:    1  ->  vriend
+  37:    1  ->  zacht
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    3  ->  g
+   2:    2  ->  be
+   3:    2  ->  clonv
+   4:    2  ->  die
+   5:    2  ->  e
+   6:    2  ->  en
+   7:    2  ->  erst
+   8:    2  ->  ja
+   9:    2  ->  n
+  10:    2  ->  nog
+  11:    2  ->  zacht
+  12:    1  ->  a
+  13:    1  ->  aan
+  14:    1  ->  ah
+  15:    1  ->  al
+  16:    1  ->  allee
+  17:    1  ->  b
+  18:    1  ->  bet
+  19:    1  ->  bl
+  20:    1  ->  cina
+  21:    1  ->  claship
+  22:    1  ->  d
+  23:    1  ->  dank
+  24:    1  ->  gari
+  25:    1  ->  gehd
+  26:    1  ->  go
+  27:    1  ->  gore
+  28:    1  ->  gr
+  29:    1  ->  groe
+  30:    1  ->  hat
+  31:    1  ->  hebben
+  32:    1  ->  heers
+  33:    1  ->  hoek
+  34:    1  ->  ida
+  35:    1  ->  ik
+  36:    1  ->  j
+  37:    1  ->  je
+  38:    1  ->  k
+  39:    1  ->  kenikniet
+  40:    1  ->  kol
+  41:    1  ->  kwe
+  42:    1  ->  lo
+  43:    1  ->  lonv
+  44:    1  ->  m
+  45:    1  ->  middelstuk
+  46:    1  ->  ni
+  47:    1  ->  nu
+  48:    1  ->  o
+  49:    1  ->  op
+  50:    1  ->  plafe
+  51:    1  ->  strate
+  52:    1  ->  sup
+  53:    1  ->  t
+  54:    1  ->  te
+  55:    1  ->  teaf
+  56:    1  ->  teat
+  57:    1  ->  u
+  58:    1  ->  uh
+  59:    1  ->  ut
+  60:    1  ->  ve
+  61:    1  ->  vor
+  62:    1  ->  we
+  63:    1  ->  zo
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

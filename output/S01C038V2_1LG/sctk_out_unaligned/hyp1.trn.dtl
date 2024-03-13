@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.0%   (  14)
+
+Percent Correct           =   65.0%   (  26)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bed ==> det
+   2:    1  ->  clown ==> klaun
+   3:    1  ->  draai ==> dray
+   4:    1  ->  feest ==> veest
+   5:    1  ->  gauw ==> gaul
+   6:    1  ->  groei ==> rooi
+   7:    1  ->  koe ==> kool
+   8:    1  ->  krant ==> kraunt
+   9:    1  ->  muts ==> nut
+  10:    1  ->  paard ==> paart
+  11:    1  ->  plank ==> blank
+  12:    1  ->  plas ==> blas
+  13:    1  ->  reis ==> rijs
+  14:    1  ->  vriend ==> vrient
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bed
+   2:    1  ->  clown
+   3:    1  ->  draai
+   4:    1  ->  feest
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  koe
+   8:    1  ->  krant
+   9:    1  ->  muts
+  10:    1  ->  paard
+  11:    1  ->  plank
+  12:    1  ->  plas
+  13:    1  ->  reis
+  14:    1  ->  vriend
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  blank
+   2:    1  ->  blas
+   3:    1  ->  det
+   4:    1  ->  dray
+   5:    1  ->  gaul
+   6:    1  ->  klaun
+   7:    1  ->  kool
+   8:    1  ->  kraunt
+   9:    1  ->  nut
+  10:    1  ->  paart
+  11:    1  ->  rijs
+  12:    1  ->  rooi
+  13:    1  ->  veest
+  14:    1  ->  vrient
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

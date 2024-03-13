@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C033M2_3+4LG
+
+#### (S03C033M2_3+4LG-words)
+
+- Cor=16.7%	Sub=57.6%	Del=0.0%	Ins=25.8%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  | omdraaien | poppenwagen | * | *(koningen) | konijnenhok | elastiekje | ruziemaken | teddybeer | dierentuin | paddenstoelen |  |  |  | verstoppertje | wasmachine | * | * | fototoestel | toiletpapier | vrachtwagen | buurmannen | vogelkooi | olifant | schommelen | iedereen | * | schoenenwinkel |  |  |  |  |  | knutselen | ophangen | verjaardag | sprookjesboek | tandenborstel | lucifer | slaapkamer | achterdeur | ziekenhuis | nieuwsgierig | * | * | * | afblijven |  | kabouter | washandje*(washanden) | *(handje) | sneeuwwitje | goeiendag | vakantie | limonade |  | autorijden | eindelijk | familie | chocolade*(cocacola) |
+| HYP1 | ofdregen | kopenwagen | konins | kningen | komijnen | rok | en | was | diek | hier? | ruzie | maken | tetnie | beer | dieren | tuin | paddenstoelen | voor | stoppertje | was | machile | masmachile | fotostoestel | twal | met | papier | vrachtwagen | veermaen | vogelkooi | oliefand | schomelgen | iedereen | schoenen | schoenenwinkel | knitsolden | oprellen | vre | jarenweg | sprookjes | book | dan | den | worstel | geen | r | slaapkamer | achterdeur | vikerhuis | s | niw | nieuws | gieren | afblijven | kawouder | was | handoen | waanietje? | sneritje | goendeg | vakantie | limonade | en | hoetorijden | eiderlijk | familie | cocacola |
+| EVAL | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S |  | I | I | I | S | S | S | S | S | S |  | S |  | S | S |  | S |  | I | I | I | I | I | S | S | S | S | S | S |  |  | S | S | S | S | S |  | I | S | S | S | S | S |  |  | I | S | S |  | S |
+---
+
+---

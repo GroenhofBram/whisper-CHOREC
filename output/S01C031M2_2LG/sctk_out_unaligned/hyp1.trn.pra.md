@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C031M2_2LG
+
+#### (S01C031M2_2LG-words)
+
+- Cor=37.5%	Sub=52.1%	Del=4.2%	Ins=6.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | drogen | winkel | auto | schouders | verhaal | * | * | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder |  |  |  | liedje | potlood | fietsbel | vinger | dichtbij | meisje | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | *(appelen) | cola | kussen | eerste | * | * | circus | kleuren | voetbal | * | vlinder |
+| HYP1 | water | mevrouw | drogen | winkel |  | houto | schelders | veral | k | konkonin | molik | speelplaat | treenkent | hofttent | regen | vliegtuig | stoppend | opnieuw | gooien | sneeuwen | moeder | liefdje | botlod | of | weet | e | wel | vener | dichtbij | meisje | gaufereel | muziek | waarom | scheuren | lawei | zwemmen |  | vurwerk | appelen | koler | kusen | heerste | keurekuus | sirekis | kleuren | voetbal | vlee | vleemde |
+| EVAL |  |  |  |  | D | S | S | S | S | S | S | S | S | S |  |  | S |  |  |  |  | I | I | I | S | S | S | S |  |  | S |  |  |  | S |  | D | S | S | S | S | S | S | S |  |  | S | S |
+---
+
+---

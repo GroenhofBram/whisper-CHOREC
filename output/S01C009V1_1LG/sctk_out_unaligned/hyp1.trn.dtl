@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   89.7%   ( 131)
+
+Percent Correct           =   10.3%   (  15)
+
+Percent Substitution      =   18.5%   (  27)
+Percent Deletions         =   71.2%   ( 104)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   10.3%
+
+
+Ref. words                =           ( 146)
+Hyp. words                =           (  42)
+Aligned words             =           ( 146)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> aarden
+   2:    1  ->  * ==> ahet
+   3:    1  ->  * ==> d
+   4:    1  ->  * ==> de
+   5:    1  ->  * ==> gehonen
+   6:    1  ->  * ==> go
+   7:    1  ->  * ==> groo
+   8:    1  ->  * ==> grude
+   9:    1  ->  * ==> hout
+  10:    1  ->  * ==> hu
+  11:    1  ->  * ==> ja
+  12:    1  ->  * ==> je
+  13:    1  ->  * ==> mep
+  14:    1  ->  * ==> neers
+  15:    1  ->  * ==> net
+  16:    1  ->  * ==> og
+  17:    1  ->  * ==> scheeps
+  18:    1  ->  * ==> shoden
+  19:    1  ->  * ==> veest
+  20:    1  ->  * ==> vren
+  21:    1  ->  bed ==> um
+  22:    1  ->  feest ==> taal
+  23:    1  ->  groen ==> vrne
+  24:    1  ->  mooi ==> no
+  25:    1  ->  paard*(paarden) ==> de
+  26:    1  ->  reis ==> rais
+  27:    1  ->  zacht ==> m
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   73  ->  *
+   2:   10  ->  *s
+   3:    2  ->  groei
+   4:    1  ->  *(vrienden)
+   5:    1  ->  arm
+   6:    1  ->  bang
+   7:    1  ->  chips
+   8:    1  ->  clown
+   9:    1  ->  draai*(daar)
+  10:    1  ->  duur*(deur)
+  11:    1  ->  gauw
+  12:    1  ->  hout*(oud)
+  13:    1  ->  huis
+  14:    1  ->  kind
+  15:    1  ->  leeuw
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  nieuw*(meeuw)
+  19:    1  ->  oog
+  20:    1  ->  sjaal
+  21:    1  ->  strand*(sieraden)
+  22:    1  ->  vriend
+     -------
+       104
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:   20  ->  *
+   2:    1  ->  bed
+   3:    1  ->  feest
+   4:    1  ->  groen
+   5:    1  ->  mooi
+   6:    1  ->  paard*(paarden)
+   7:    1  ->  reis
+   8:    1  ->  zacht
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  de
+   2:    1  ->  aarden
+   3:    1  ->  ahet
+   4:    1  ->  d
+   5:    1  ->  gehonen
+   6:    1  ->  go
+   7:    1  ->  groo
+   8:    1  ->  grude
+   9:    1  ->  hout
+  10:    1  ->  hu
+  11:    1  ->  ja
+  12:    1  ->  je
+  13:    1  ->  m
+  14:    1  ->  mep
+  15:    1  ->  neers
+  16:    1  ->  net
+  17:    1  ->  no
+  18:    1  ->  og
+  19:    1  ->  rais
+  20:    1  ->  scheeps
+  21:    1  ->  shoden
+  22:    1  ->  taal
+  23:    1  ->  um
+  24:    1  ->  veest
+  25:    1  ->  vren
+  26:    1  ->  vrne
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

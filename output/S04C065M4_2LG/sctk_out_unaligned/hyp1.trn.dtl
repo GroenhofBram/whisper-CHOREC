@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   32.6%   (  14)
+
+Percent Correct           =   69.8%   (  30)
+
+Percent Substitution      =   30.2%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   67.4%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> chaua
+   2:    1  ->  * ==> go
+   3:    1  ->  * ==> m
+   4:    1  ->  * ==> ordpen
+   5:    1  ->  cola ==> coula
+   6:    1  ->  drogen ==> droog
+   7:    1  ->  fietsbel ==> bil
+   8:    1  ->  gooien ==> goien
+   9:    1  ->  kussen ==> cussen
+  10:    1  ->  liedje ==> lietja
+  11:    1  ->  regen ==> reigen
+  12:    1  ->  sneeuwen ==> snijuwen
+  13:    1  ->  vlinder ==> flien
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fiets
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    4  ->  *
+   2:    1  ->  cola
+   3:    1  ->  drogen
+   4:    1  ->  fietsbel
+   5:    1  ->  gooien
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  regen
+   9:    1  ->  sneeuwen
+  10:    1  ->  vlinder
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bil
+   2:    1  ->  chaua
+   3:    1  ->  coula
+   4:    1  ->  cussen
+   5:    1  ->  droog
+   6:    1  ->  flien
+   7:    1  ->  go
+   8:    1  ->  goien
+   9:    1  ->  lietja
+  10:    1  ->  m
+  11:    1  ->  ordpen
+  12:    1  ->  reigen
+  13:    1  ->  snijuwen
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

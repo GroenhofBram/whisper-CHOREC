@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.7%   (  21)
+
+Percent Correct           =   54.5%   (  24)
+
+Percent Substitution      =   36.4%   (  16)
+Percent Deletions         =    9.1%   (   4)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   52.3%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  41)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> neisje
+   2:    1  ->  * ==> schader
+   3:    1  ->  * ==> voetbalbal
+   4:    1  ->  appel ==> oppel
+   5:    1  ->  cola ==> kola
+   6:    1  ->  fietsbel ==> fitsbel
+   7:    1  ->  lawaai ==> lawai
+   8:    1  ->  liedje ==> letia
+   9:    1  ->  potlood ==> potbuld
+  10:    1  ->  regen ==> hoofdbijn
+  11:    1  ->  scheuren ==> scheren
+  12:    1  ->  vliegtuig ==> regenvliegtuig
+  13:    1  ->  vlinder ==> minder
+  14:    1  ->  vuurwerk ==> vurwerk
+  15:    1  ->  winkel ==> drogenwinkel
+  16:    1  ->  zwemmen ==> zammen
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chauffa
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  drogen
+   2:    1  ->  hoofdpijn
+   3:    1  ->  meisje
+   4:    1  ->  voetbal
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  *
+   2:    1  ->  appel
+   3:    1  ->  cola
+   4:    1  ->  fietsbel
+   5:    1  ->  lawaai
+   6:    1  ->  liedje
+   7:    1  ->  potlood
+   8:    1  ->  regen
+   9:    1  ->  scheuren
+  10:    1  ->  vliegtuig
+  11:    1  ->  vlinder
+  12:    1  ->  vuurwerk
+  13:    1  ->  winkel
+  14:    1  ->  zwemmen
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  drogenwinkel
+   2:    1  ->  fitsbel
+   3:    1  ->  hoofdbijn
+   4:    1  ->  kola
+   5:    1  ->  lawai
+   6:    1  ->  letia
+   7:    1  ->  minder
+   8:    1  ->  neisje
+   9:    1  ->  oppel
+  10:    1  ->  potbuld
+  11:    1  ->  regenvliegtuig
+  12:    1  ->  schader
+  13:    1  ->  scheren
+  14:    1  ->  voetbalbal
+  15:    1  ->  vurwerk
+  16:    1  ->  zammen
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   55.0%   (  22)
+
+Percent Correct           =   45.0%   (  18)
+
+Percent Substitution      =   52.5%   (  21)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   45.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bang ==> bel
+   2:    1  ->  chips ==> sips
+   3:    1  ->  clown ==> klauw
+   4:    1  ->  draai ==> dri
+   5:    1  ->  gauw ==> gou
+   6:    1  ->  groei ==> rooi
+   7:    1  ->  huis ==> hrus
+   8:    1  ->  jas ==> vesjast
+   9:    1  ->  knoop ==> knop
+  10:    1  ->  koe ==> koel
+  11:    1  ->  leeuw ==> leuw
+  12:    1  ->  mooi ==> moi
+  13:    1  ->  muts ==> huts
+  14:    1  ->  neus ==> nus
+  15:    1  ->  oog ==> ooh
+  16:    1  ->  paard ==> part
+  17:    1  ->  plank ==> klank
+  18:    1  ->  reis ==> vest
+  19:    1  ->  sjaal ==> shal
+  20:    1  ->  vijf ==> tert
+  21:    1  ->  vriend ==> vreemd
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  feest
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bang
+   2:    1  ->  chips
+   3:    1  ->  clown
+   4:    1  ->  draai
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  huis
+   8:    1  ->  jas
+   9:    1  ->  knoop
+  10:    1  ->  koe
+  11:    1  ->  leeuw
+  12:    1  ->  mooi
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  oog
+  16:    1  ->  paard
+  17:    1  ->  plank
+  18:    1  ->  reis
+  19:    1  ->  sjaal
+  20:    1  ->  vijf
+  21:    1  ->  vriend
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bel
+   2:    1  ->  dri
+   3:    1  ->  gou
+   4:    1  ->  hrus
+   5:    1  ->  huts
+   6:    1  ->  klank
+   7:    1  ->  klauw
+   8:    1  ->  knop
+   9:    1  ->  koel
+  10:    1  ->  leuw
+  11:    1  ->  moi
+  12:    1  ->  nus
+  13:    1  ->  ooh
+  14:    1  ->  part
+  15:    1  ->  rooi
+  16:    1  ->  shal
+  17:    1  ->  sips
+  18:    1  ->  tert
+  19:    1  ->  vesjast
+  20:    1  ->  vest
+  21:    1  ->  vreemd
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

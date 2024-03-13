@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   75.6%   (  34)
+
+Percent Correct           =   26.7%   (  12)
+
+Percent Substitution      =   68.9%   (  31)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   24.4%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> hawil
+   2:    1  ->  * ==> prist
+   3:    1  ->  * ==> schotig
+   4:    1  ->  * ==> vuurbaand
+   5:    1  ->  bepoud ==> inde
+   6:    1  ->  erke ==> echke
+   7:    1  ->  fiewon ==> gewon
+   8:    1  ->  foetbans ==> voetbans
+   9:    1  ->  gefouw ==> vitem
+  10:    1  ->  geutel ==> geutol
+  11:    1  ->  grijnken ==> grenken
+  12:    1  ->  haweel ==> hadil
+  13:    1  ->  hiffreeuw ==> hif
+  14:    1  ->  hiffreeuw ==> ifrio
+  15:    1  ->  ierpieuw ==> irpiel
+  16:    1  ->  ijpo ==> ei-eipo
+  17:    1  ->  millen ==> milen
+  18:    1  ->  muider ==> uiler
+  19:    1  ->  nizung ==> nusoem
+  20:    1  ->  orstalk ==> bepauwd
+  21:    1  ->  prilsood ==> piolsoot
+  22:    1  ->  saarweng ==> stamwing
+  23:    1  ->  schielstaug ==> schilstaog
+  24:    1  ->  sjobel ==> siobel
+  25:    1  ->  strellen ==> terillom
+  26:    1  ->  vawaai ==> vawai
+  27:    1  ->  veten*(vetten) ==> orstaller
+  28:    1  ->  veurder ==> vleurder
+  29:    1  ->  vocil ==> vorsin
+  30:    1  ->  vurpaand ==> befaald
+  31:    1  ->  zwieten ==> zweden
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mil
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  eemde
+   2:    1  ->  schodig
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  *
+   2:    2  ->  hiffreeuw
+   3:    1  ->  bepoud
+   4:    1  ->  erke
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  millen
+  14:    1  ->  muider
+  15:    1  ->  nizung
+  16:    1  ->  orstalk
+  17:    1  ->  prilsood
+  18:    1  ->  saarweng
+  19:    1  ->  schielstaug
+  20:    1  ->  sjobel
+  21:    1  ->  strellen
+  22:    1  ->  vawaai
+  23:    1  ->  veten*(vetten)
+  24:    1  ->  veurder
+  25:    1  ->  vocil
+  26:    1  ->  vurpaand
+  27:    1  ->  zwieten
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  befaald
+   2:    1  ->  bepauwd
+   3:    1  ->  echke
+   4:    1  ->  ei-eipo
+   5:    1  ->  geutol
+   6:    1  ->  gewon
+   7:    1  ->  grenken
+   8:    1  ->  hadil
+   9:    1  ->  hawil
+  10:    1  ->  hif
+  11:    1  ->  ifrio
+  12:    1  ->  inde
+  13:    1  ->  irpiel
+  14:    1  ->  milen
+  15:    1  ->  nusoem
+  16:    1  ->  orstaller
+  17:    1  ->  piolsoot
+  18:    1  ->  prist
+  19:    1  ->  schilstaog
+  20:    1  ->  schotig
+  21:    1  ->  siobel
+  22:    1  ->  stamwing
+  23:    1  ->  terillom
+  24:    1  ->  uiler
+  25:    1  ->  vawai
+  26:    1  ->  vitem
+  27:    1  ->  vleurder
+  28:    1  ->  voetbans
+  29:    1  ->  vorsin
+  30:    1  ->  vuurbaand
+  31:    1  ->  zweden
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

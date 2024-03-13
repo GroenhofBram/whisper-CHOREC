@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.0%   (  32)
+
+Percent Correct           =   29.3%   (  12)
+
+Percent Substitution      =   68.3%   (  28)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    7.3%   (   3)
+Percent Word Accuracy     =   22.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> je
+   2:    1  ->  auto ==> ato
+   3:    1  ->  chauffeur ==> a
+   4:    1  ->  circus ==> tirtus
+   5:    1  ->  drinken ==> denken
+   6:    1  ->  drogen ==> droogenvenu
+   7:    1  ->  eerste ==> buseneerste
+   8:    1  ->  fietsbel ==> be
+   9:    1  ->  koning ==> conin
+  10:    1  ->  kussen ==> kola
+  11:    1  ->  lawaai ==> lawai
+  12:    1  ->  liedje ==> pokloot
+  13:    1  ->  mevrouw ==> vrouw
+  14:    1  ->  moeilijk ==> moilok
+  15:    1  ->  potlood ==> fits
+  16:    1  ->  scheuren ==> sheuren
+  17:    1  ->  schouders ==> scheldars
+  18:    1  ->  sneeuwen ==> sneeupen
+  19:    1  ->  speelplaats ==> speerplats
+  20:    1  ->  stoppen ==> stopen
+  21:    1  ->  verhaal ==> varhaal
+  22:    1  ->  vinger ==> vinar
+  23:    1  ->  vlinder*(vinder) ==> vinda
+  24:    1  ->  voetbal ==> voorbel
+  25:    1  ->  waarom ==> waarom?
+  26:    1  ->  water ==> me
+  27:    1  ->  winkel ==> kerl
+  28:    1  ->  zwemmen ==> slin
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hute
+   2:    1  ->  ne
+   3:    1  ->  niet
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  cola
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  *
+   2:    1  ->  auto
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  koning
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  mevrouw
+  14:    1  ->  moeilijk
+  15:    1  ->  potlood
+  16:    1  ->  scheuren
+  17:    1  ->  schouders
+  18:    1  ->  sneeuwen
+  19:    1  ->  speelplaats
+  20:    1  ->  stoppen
+  21:    1  ->  verhaal
+  22:    1  ->  vinger
+  23:    1  ->  vlinder*(vinder)
+  24:    1  ->  voetbal
+  25:    1  ->  waarom
+  26:    1  ->  water
+  27:    1  ->  winkel
+  28:    1  ->  zwemmen
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a
+   2:    1  ->  ato
+   3:    1  ->  be
+   4:    1  ->  buseneerste
+   5:    1  ->  conin
+   6:    1  ->  denken
+   7:    1  ->  droogenvenu
+   8:    1  ->  fits
+   9:    1  ->  je
+  10:    1  ->  kerl
+  11:    1  ->  kola
+  12:    1  ->  lawai
+  13:    1  ->  me
+  14:    1  ->  moilok
+  15:    1  ->  pokloot
+  16:    1  ->  scheldars
+  17:    1  ->  sheuren
+  18:    1  ->  slin
+  19:    1  ->  sneeupen
+  20:    1  ->  speerplats
+  21:    1  ->  stopen
+  22:    1  ->  tirtus
+  23:    1  ->  varhaal
+  24:    1  ->  vinar
+  25:    1  ->  vinda
+  26:    1  ->  voorbel
+  27:    1  ->  vrouw
+  28:    1  ->  waarom?
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

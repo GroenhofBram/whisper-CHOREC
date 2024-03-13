@@ -1,0 +1,190 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  50)
+
+Percent Correct           =   24.0%   (  12)
+
+Percent Substitution      =   76.0%   (  38)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   24.0%   (  12)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  62)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  * ==> boek
+   2:    1  ->  * ==> dibeer
+   3:    1  ->  * ==> direntuin
+   4:    1  ->  * ==> len
+   5:    1  ->  * ==> magene
+   6:    1  ->  * ==> maren
+   7:    1  ->  * ==> op
+   8:    1  ->  * ==> schone
+   9:    1  ->  * ==> wassen
+  10:    1  ->  *(nieuws) ==> nieuw
+  11:    1  ->  achterdeur ==> deur
+  12:    1  ->  autorijden ==> autorejden
+  13:    1  ->  chocolade ==> familie-chocolade
+  14:    1  ->  dierentuin ==> grtoperke
+  15:    1  ->  eindelijk ==> eigen
+  16:    1  ->  elastiekje ==> det
+  17:    1  ->  familie ==> deel
+  18:    1  ->  fototoestel ==> twalet
+  19:    1  ->  knutselen ==> knitselen
+  20:    1  ->  konijnenhok*(koning) ==> ruze
+  21:    1  ->  limonade ==> nado
+  22:    1  ->  lucifer ==> lukifer
+  23:    1  ->  nieuwsgierig ==> sgierig
+  24:    1  ->  ophangen ==> opangen
+  25:    1  ->  paddenstoelen ==> was
+  26:    1  ->  poppenwagen ==> ru
+  27:    1  ->  ruziemaken ==> padde
+  28:    1  ->  schoenenwinkel ==> winkel
+  29:    1  ->  schommelen*(schommel) ==> ommel
+  30:    1  ->  sneeuwwitje ==> sneelwwietje
+  31:    1  ->  sprookjesboek ==> tonden
+  32:    1  ->  tandenborstel ==> bortel
+  33:    1  ->  teddybeer ==> stoelen
+  34:    1  ->  toiletpapier ==> papier
+  35:    1  ->  verstoppertje ==> was
+  36:    1  ->  vrachtwagen ==> frachtpar
+  37:    1  ->  washandje ==> wasendje
+  38:    1  ->  wasmachine ==> fototoste
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  acht
+   2:    1  ->  der
+   3:    1  ->  ijlastieke
+   4:    1  ->  k
+   5:    1  ->  koni
+   6:    1  ->  lemon
+   7:    1  ->  nieuws
+   8:    1  ->  poepenwaggen
+   9:    1  ->  ru
+  10:    1  ->  schoeg
+  11:    1  ->  spooke
+  12:    1  ->  sprookjes
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    9  ->  *
+   2:    1  ->  *(nieuws)
+   3:    1  ->  achterdeur
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  familie
+  10:    1  ->  fototoestel
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok*(koning)
+  13:    1  ->  limonade
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  ophangen
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  schommelen*(schommel)
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  sprookjesboek
+  24:    1  ->  tandenborstel
+  25:    1  ->  teddybeer
+  26:    1  ->  toiletpapier
+  27:    1  ->  verstoppertje
+  28:    1  ->  vrachtwagen
+  29:    1  ->  washandje
+  30:    1  ->  wasmachine
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  was
+   2:    1  ->  autorejden
+   3:    1  ->  boek
+   4:    1  ->  bortel
+   5:    1  ->  deel
+   6:    1  ->  det
+   7:    1  ->  deur
+   8:    1  ->  dibeer
+   9:    1  ->  direntuin
+  10:    1  ->  eigen
+  11:    1  ->  familie-chocolade
+  12:    1  ->  fototoste
+  13:    1  ->  frachtpar
+  14:    1  ->  grtoperke
+  15:    1  ->  knitselen
+  16:    1  ->  len
+  17:    1  ->  lukifer
+  18:    1  ->  magene
+  19:    1  ->  maren
+  20:    1  ->  nado
+  21:    1  ->  nieuw
+  22:    1  ->  ommel
+  23:    1  ->  op
+  24:    1  ->  opangen
+  25:    1  ->  padde
+  26:    1  ->  papier
+  27:    1  ->  ru
+  28:    1  ->  ruze
+  29:    1  ->  schone
+  30:    1  ->  sgierig
+  31:    1  ->  sneelwwietje
+  32:    1  ->  stoelen
+  33:    1  ->  tonden
+  34:    1  ->  twalet
+  35:    1  ->  wasendje
+  36:    1  ->  wassen
+  37:    1  ->  winkel
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

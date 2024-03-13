@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.8%   (  27)
+
+Percent Correct           =   46.5%   (  20)
+
+Percent Substitution      =   53.5%   (  23)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    9.3%   (   4)
+Percent Word Accuracy     =   37.2%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> coca
+   2:    1  ->  * ==> knutseren
+   3:    1  ->  *(schommel) ==> schommel
+   4:    1  ->  afblijven ==> afblerren
+   5:    1  ->  autorijden ==> outoreden
+   6:    1  ->  chocolade ==> cocolade
+   7:    1  ->  dierentuin ==> dierentaan
+   8:    1  ->  elastiekje ==> ruzie
+   9:    1  ->  fototoestel ==> fototostel
+  10:    1  ->  iedereen ==> schoon
+  11:    1  ->  kabouter ==> kapouter
+  12:    1  ->  knutselen ==> oophengen
+  13:    1  ->  konijnenhok ==> lastiekje
+  14:    1  ->  ophangen ==> van
+  15:    1  ->  paddenstoelen ==> paddenstolen
+  16:    1  ->  poppenwagen ==> en
+  17:    1  ->  ruziemaken ==> maken
+  18:    1  ->  schoenenwinkel ==> winkel
+  19:    1  ->  sprookjesboek ==> sprokisbook
+  20:    1  ->  teddybeer ==> tedibe
+  21:    1  ->  verjaardag ==> jares
+  22:    1  ->  washandje ==> washangdje
+  23:    1  ->  ziekenhuis ==> tekenhuis
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  conijnenhook
+   2:    1  ->  edereyn
+   3:    1  ->  popenwagen
+   4:    1  ->  schoon
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  *
+   2:    1  ->  *(schommel)
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  fototoestel
+   9:    1  ->  iedereen
+  10:    1  ->  kabouter
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  ophangen
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  sprookjesboek
+  19:    1  ->  teddybeer
+  20:    1  ->  verjaardag
+  21:    1  ->  washandje
+  22:    1  ->  ziekenhuis
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  afblerren
+   2:    1  ->  coca
+   3:    1  ->  cocolade
+   4:    1  ->  dierentaan
+   5:    1  ->  en
+   6:    1  ->  fototostel
+   7:    1  ->  jares
+   8:    1  ->  kapouter
+   9:    1  ->  knutseren
+  10:    1  ->  lastiekje
+  11:    1  ->  maken
+  12:    1  ->  oophengen
+  13:    1  ->  outoreden
+  14:    1  ->  paddenstolen
+  15:    1  ->  ruzie
+  16:    1  ->  schommel
+  17:    1  ->  schoon
+  18:    1  ->  sprokisbook
+  19:    1  ->  tedibe
+  20:    1  ->  tekenhuis
+  21:    1  ->  van
+  22:    1  ->  washangdje
+  23:    1  ->  winkel
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

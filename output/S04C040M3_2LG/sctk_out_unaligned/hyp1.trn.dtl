@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.9%   (  29)
+
+Percent Correct           =   38.6%   (  17)
+
+Percent Substitution      =   61.4%   (  27)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =   34.1%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  * ==> fna
+   2:    1  ->  * ==> keren
+   3:    1  ->  * ==> mex
+   4:    1  ->  * ==> saf
+   5:    1  ->  appel ==> apan
+   6:    1  ->  auto ==> atel
+   7:    1  ->  cola ==> konga
+   8:    1  ->  drinken ==> rinken
+   9:    1  ->  eerste*(eerst) ==> eerst
+  10:    1  ->  fietsbel ==> fitsben
+  11:    1  ->  kleuren ==> mo
+  12:    1  ->  koning ==> conin
+  13:    1  ->  lawaai ==> jilmen
+  14:    1  ->  liedje ==> mitser
+  15:    1  ->  moeder ==> oeder
+  16:    1  ->  moeilijk ==> moumuk
+  17:    1  ->  potlood ==> botmot
+  18:    1  ->  scheuren ==> mari
+  19:    1  ->  speelplaats ==> spelbrats
+  20:    1  ->  verhaal ==> hem
+  21:    1  ->  vinger ==> finer
+  22:    1  ->  vlinder ==> vinde
+  23:    1  ->  voetbal ==> foetban
+  24:    1  ->  vuurwerk ==> vuurrik
+  25:    1  ->  waarom ==> schuren
+  26:    1  ->  winkel ==> inkan
+  27:    1  ->  zwemmen ==> de
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  vor
+   2:    1  ->  waron
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  drinken
+   6:    1  ->  eerste*(eerst)
+   7:    1  ->  fietsbel
+   8:    1  ->  kleuren
+   9:    1  ->  koning
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  moeder
+  13:    1  ->  moeilijk
+  14:    1  ->  potlood
+  15:    1  ->  scheuren
+  16:    1  ->  speelplaats
+  17:    1  ->  verhaal
+  18:    1  ->  vinger
+  19:    1  ->  vlinder
+  20:    1  ->  voetbal
+  21:    1  ->  vuurwerk
+  22:    1  ->  waarom
+  23:    1  ->  winkel
+  24:    1  ->  zwemmen
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  apan
+   2:    1  ->  atel
+   3:    1  ->  botmot
+   4:    1  ->  conin
+   5:    1  ->  de
+   6:    1  ->  eerst
+   7:    1  ->  finer
+   8:    1  ->  fitsben
+   9:    1  ->  fna
+  10:    1  ->  foetban
+  11:    1  ->  hem
+  12:    1  ->  inkan
+  13:    1  ->  jilmen
+  14:    1  ->  keren
+  15:    1  ->  konga
+  16:    1  ->  mari
+  17:    1  ->  mex
+  18:    1  ->  mitser
+  19:    1  ->  mo
+  20:    1  ->  moumuk
+  21:    1  ->  oeder
+  22:    1  ->  rinken
+  23:    1  ->  saf
+  24:    1  ->  schuren
+  25:    1  ->  spelbrats
+  26:    1  ->  vinde
+  27:    1  ->  vuurrik
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

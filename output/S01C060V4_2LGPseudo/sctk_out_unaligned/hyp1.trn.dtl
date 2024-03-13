@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.1%   (  34)
+
+Percent Correct           =   23.3%   (  10)
+
+Percent Substitution      =   74.4%   (  32)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   20.9%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> brilsdood
+   2:    1  ->  * ==> volke
+   3:    1  ->  bepoud ==> bebouwd
+   4:    1  ->  eemde ==> inde
+   5:    1  ->  erke ==> erte
+   6:    1  ->  fiewon ==> fewon
+   7:    1  ->  gefouw ==> gefal
+   8:    1  ->  geutel ==> fetel
+   9:    1  ->  grijnken ==> mader
+  10:    1  ->  haweel ==> hawel
+  11:    1  ->  hiffreeuw ==> jufreel
+  12:    1  ->  ierpieuw ==> irpil
+  13:    1  ->  ijpo ==> en
+  14:    1  ->  kloeien ==> clouen
+  15:    1  ->  kneurem ==> kneuren
+  16:    1  ->  kneurem ==> knur
+  17:    1  ->  menuur ==> uur
+  18:    1  ->  millen ==> nelen
+  19:    1  ->  milste ==> milster
+  20:    1  ->  muider ==> oinste
+  21:    1  ->  nizung ==> mezun
+  22:    1  ->  prilsood ==> scheelstoug
+  23:    1  ->  saarweng ==> sarweng
+  24:    1  ->  schielstaug ==> grenken
+  25:    1  ->  schodig ==> epol
+  26:    1  ->  sjobel ==> schorbel
+  27:    1  ->  veurder ==> ferda
+  28:    1  ->  vloender ==> vlunder
+  29:    1  ->  vocil ==> volke
+  30:    1  ->  vurpaand ==> vurpend
+  31:    1  ->  walaan ==> alan
+  32:    1  ->  zwieten ==> zweten
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  schoudig
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  oonste
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  *
+   2:    2  ->  kneurem
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  grijnken
+  10:    1  ->  haweel
+  11:    1  ->  hiffreeuw
+  12:    1  ->  ierpieuw
+  13:    1  ->  ijpo
+  14:    1  ->  kloeien
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  schodig
+  24:    1  ->  sjobel
+  25:    1  ->  veurder
+  26:    1  ->  vloender
+  27:    1  ->  vocil
+  28:    1  ->  vurpaand
+  29:    1  ->  walaan
+  30:    1  ->  zwieten
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  volke
+   2:    1  ->  alan
+   3:    1  ->  bebouwd
+   4:    1  ->  brilsdood
+   5:    1  ->  clouen
+   6:    1  ->  en
+   7:    1  ->  epol
+   8:    1  ->  erte
+   9:    1  ->  ferda
+  10:    1  ->  fetel
+  11:    1  ->  fewon
+  12:    1  ->  gefal
+  13:    1  ->  grenken
+  14:    1  ->  hawel
+  15:    1  ->  inde
+  16:    1  ->  irpil
+  17:    1  ->  jufreel
+  18:    1  ->  kneuren
+  19:    1  ->  knur
+  20:    1  ->  mader
+  21:    1  ->  mezun
+  22:    1  ->  milster
+  23:    1  ->  nelen
+  24:    1  ->  oinste
+  25:    1  ->  sarweng
+  26:    1  ->  scheelstoug
+  27:    1  ->  schorbel
+  28:    1  ->  uur
+  29:    1  ->  vlunder
+  30:    1  ->  vurpend
+  31:    1  ->  zweten
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

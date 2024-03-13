@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.6%   (  15)
+
+Percent Correct           =   63.4%   (  26)
+
+Percent Substitution      =   36.6%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.4%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chips ==> hips
+   2:    1  ->  clown ==> kloen
+   3:    1  ->  feest ==> veest
+   4:    1  ->  gauw ==> jouw
+   5:    1  ->  groei ==> goei
+   6:    1  ->  knoop ==> knop
+   7:    1  ->  krant ==> kand
+   8:    1  ->  neus ==> nuis
+   9:    1  ->  nieuw ==> niel
+  10:    1  ->  paard ==> paart
+  11:    1  ->  plank ==> plan
+  12:    1  ->  reis ==> vijs
+  13:    1  ->  sjaal ==> slaai
+  14:    1  ->  straat ==> stait
+  15:    1  ->  vriend ==> vrind
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chips
+   2:    1  ->  clown
+   3:    1  ->  feest
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  knoop
+   7:    1  ->  krant
+   8:    1  ->  neus
+   9:    1  ->  nieuw
+  10:    1  ->  paard
+  11:    1  ->  plank
+  12:    1  ->  reis
+  13:    1  ->  sjaal
+  14:    1  ->  straat
+  15:    1  ->  vriend
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  goei
+   2:    1  ->  hips
+   3:    1  ->  jouw
+   4:    1  ->  kand
+   5:    1  ->  kloen
+   6:    1  ->  knop
+   7:    1  ->  niel
+   8:    1  ->  nuis
+   9:    1  ->  paart
+  10:    1  ->  plan
+  11:    1  ->  slaai
+  12:    1  ->  stait
+  13:    1  ->  veest
+  14:    1  ->  vijs
+  15:    1  ->  vrind
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,91 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.0%   (   6)
+
+Percent Correct           =   86.0%   (  37)
+
+Percent Substitution      =   14.0%   (   6)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   86.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  * ==> ma
+   2:    1  ->  *(eerst) ==> eerst
+   3:    1  ->  *(schreeuw) ==> schreeuw
+   4:    1  ->  cola ==> kola
+   5:    1  ->  dichtbij ==> digdan
+   6:    1  ->  potlood ==> potnoot
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  *
+   2:    1  ->  *(eerst)
+   3:    1  ->  *(schreeuw)
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  potlood
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  digdan
+   2:    1  ->  eerst
+   3:    1  ->  kola
+   4:    1  ->  ma
+   5:    1  ->  potnoot
+   6:    1  ->  schreeuw
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

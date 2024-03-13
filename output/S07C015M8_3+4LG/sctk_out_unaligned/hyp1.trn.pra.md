@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C015M8_3+4LG
+
+#### (S07C015M8_3+4LG-words)
+
+- Cor=19.0%	Sub=67.1%	Del=3.8%	Ins=10.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  | * | * | * | * | konijnenhok | * | * | elastiekje | ruziemaken | teddybeer | dierentuin | * | * | * | * | * | *(poppenstoel) | verstoppertje | * | * | * | * | * | * | * | * | * | * | * | *s | * | vrachtwagen | buurmannen |  |  | vogelkooi | olifant | schommelen | iedereen | *t | * | schoenenwinkel | knutselen | ophangen | verjaardag | * | * | tandenborstel | * | * | *s | * | * | slaapkamer |  | achterdeur | ziekenhuis | * | * | nieuwsgierig | afblijven | kabouter |  |  | washandje | sneeuwwitje | goeiendag | vakantie | * | limonade | autorijden | * | eindelijk | familie |  | * |
+| HYP1 | omdraaien | op | op | wagen | open | konijnen | op | aastike | hoe | zie | maken | de | die | beer | enniet | beer | here | tuin | popenstoor | vestoppertje | was | was | t | magene | foto's | fototoestel? | wato | do | ertel? | zoalet | papier | a | net | ekier | vrachtwagen | buurmannen | vol | kooy | colifant | ondel | uhm | iedereen | schoen | winkel | genutel | en | ophangen | verjaardag | sprookjes | mxx | mook | dan | de | borstel | ug | vier | slaapkamer | achter | deur | ziekenhuis |  |  | nieuwsgierig | afblijven | kabouter | wat | handje | sneeuwitje | goeien | dag | vakantie | die | monade | autorijden |  | eindelijk | familie | chocolade | chocolade |
+| EVAL |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  |  | I | I | S | S | S |  | S | S | S | S |  |  | S | S | S | S | S | S | S | S |  | I | S |  | D | D |  |  |  | I | I | S | S | S |  | S | S |  | D |  |  | I | S |
+---
+
+---

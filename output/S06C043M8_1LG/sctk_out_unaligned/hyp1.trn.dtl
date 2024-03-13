@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  13)
+
+Percent Correct           =   68.3%   (  28)
+
+Percent Substitution      =   29.3%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bed ==> det
+   2:    1  ->  chips ==> ships
+   3:    1  ->  clown ==> klouw
+   4:    1  ->  gauw ==> hau
+   5:    1  ->  groei ==> grooi
+   6:    1  ->  herfst ==> herst
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  huis ==> et
+   9:    1  ->  knoop ==> knop
+  10:    1  ->  plas ==> blas
+  11:    1  ->  reis ==> ves
+  12:    1  ->  sjaal ==> schaal
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bed
+   2:    1  ->  chips
+   3:    1  ->  clown
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  herfst
+   7:    1  ->  hoek
+   8:    1  ->  huis
+   9:    1  ->  knoop
+  10:    1  ->  plas
+  11:    1  ->  reis
+  12:    1  ->  sjaal
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  blas
+   2:    1  ->  det
+   3:    1  ->  et
+   4:    1  ->  grooi
+   5:    1  ->  hau
+   6:    1  ->  herst
+   7:    1  ->  hook
+   8:    1  ->  klouw
+   9:    1  ->  knop
+  10:    1  ->  schaal
+  11:    1  ->  ships
+  12:    1  ->  ves
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

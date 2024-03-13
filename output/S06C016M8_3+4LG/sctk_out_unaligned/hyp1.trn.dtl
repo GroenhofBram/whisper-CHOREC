@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   80.6%   (  50)
+
+Percent Correct           =   33.9%   (  21)
+
+Percent Substitution      =   56.5%   (  35)
+Percent Deletions         =    9.7%   (   6)
+Percent Insertions        =   14.5%   (   9)
+Percent Word Accuracy     =   19.4%
+
+
+Ref. words                =           (  62)
+Hyp. words                =           (  65)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> boek
+   2:    1  ->  * ==> de
+   3:    1  ->  * ==> die
+   4:    1  ->  * ==> g
+   5:    1  ->  * ==> kabater
+   6:    1  ->  * ==> konijnen
+   7:    1  ->  * ==> liem
+   8:    1  ->  * ==> limbeop
+   9:    1  ->  * ==> nieuw
+  10:    1  ->  * ==> schoa
+  11:    1  ->  * ==> sneebiekje
+  12:    1  ->  * ==> stoelen
+  13:    1  ->  * ==> tan
+  14:    1  ->  * ==> tindie
+  15:    1  ->  * ==> vonke
+  16:    1  ->  * ==> vrachtwagen
+  17:    1  ->  * ==> waren
+  18:    1  ->  *s ==> aleastieke
+  19:    1  ->  autorijden ==> autoredden
+  20:    1  ->  buurmannen*(buurman) ==> buurman
+  21:    1  ->  elastiekje ==> ruzie
+  22:    1  ->  fototoestel ==> verwaen
+  23:    1  ->  kabouter ==> afblijving
+  24:    1  ->  konijnenhok ==> sti
+  25:    1  ->  paddenstoelen ==> pollen
+  26:    1  ->  poppenwagen ==> vook
+  27:    1  ->  ruziemaken ==> maken
+  28:    1  ->  schoenenwinkel*(schoenwinkel) ==> knus
+  29:    1  ->  sneeuwwitje ==> was
+  30:    1  ->  sprookjesboek ==> tan
+  31:    1  ->  tandenborstel ==> stoel
+  32:    1  ->  teddybeer ==> weer
+  33:    1  ->  toiletpapier ==> verwa
+  34:    1  ->  verstoppertje ==> verstopvertopperdje
+  35:    1  ->  washandje ==> was
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  poppen
+   2:    1  ->  doorlippapier
+   3:    1  ->  fotostolen
+   4:    1  ->  n
+   5:    1  ->  schoone
+   6:    1  ->  sprookjes
+   7:    1  ->  ss
+   8:    1  ->  winkui
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    4  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  limonade
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:   17  ->  *
+   2:    1  ->  *s
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen*(buurman)
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  kabouter
+   8:    1  ->  konijnenhok
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel*(schoenwinkel)
+  13:    1  ->  sneeuwwitje
+  14:    1  ->  sprookjesboek
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  verstoppertje
+  19:    1  ->  washandje
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  tan
+   2:    2  ->  was
+   3:    1  ->  afblijving
+   4:    1  ->  aleastieke
+   5:    1  ->  autoredden
+   6:    1  ->  boek
+   7:    1  ->  buurman
+   8:    1  ->  de
+   9:    1  ->  die
+  10:    1  ->  g
+  11:    1  ->  kabater
+  12:    1  ->  knus
+  13:    1  ->  konijnen
+  14:    1  ->  liem
+  15:    1  ->  limbeop
+  16:    1  ->  maken
+  17:    1  ->  nieuw
+  18:    1  ->  pollen
+  19:    1  ->  ruzie
+  20:    1  ->  schoa
+  21:    1  ->  sneebiekje
+  22:    1  ->  sti
+  23:    1  ->  stoel
+  24:    1  ->  stoelen
+  25:    1  ->  tindie
+  26:    1  ->  verstopvertopperdje
+  27:    1  ->  verwa
+  28:    1  ->  verwaen
+  29:    1  ->  vonke
+  30:    1  ->  vook
+  31:    1  ->  vrachtwagen
+  32:    1  ->  waren
+  33:    1  ->  weer
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

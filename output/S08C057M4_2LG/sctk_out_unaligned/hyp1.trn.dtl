@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.0%   (  24)
+
+Percent Correct           =   51.0%   (  25)
+
+Percent Substitution      =   49.0%   (  24)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   51.0%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  49)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> et
+   2:    1  ->  * ==> leet
+   3:    1  ->  * ==> neet
+   4:    1  ->  * ==> nxet
+   5:    1  ->  * ==> pijn
+   6:    1  ->  * ==> ra
+   7:    1  ->  * ==> schup
+   8:    1  ->  *(school) ==> schouwp
+   9:    1  ->  circus*(chirurg) ==> iovi
+  10:    1  ->  cola ==> kowa
+  11:    1  ->  dichtbij*(dichterbij) ==> dichterbij
+  12:    1  ->  drinken ==> drenken
+  13:    1  ->  drogen*(droger) ==> droger
+  14:    1  ->  fietsbel ==> fietsdil
+  15:    1  ->  hoofdpijn ==> hoofd
+  16:    1  ->  kleuren ==> veren
+  17:    1  ->  kussen ==> kissen
+  18:    1  ->  lawaai ==> gwil
+  19:    1  ->  potlood ==> potwood
+  20:    1  ->  speelplaats ==> speelbalt
+  21:    1  ->  vlinder ==> vinder
+  22:    1  ->  vuurwerk ==> vuurwik
+  23:    1  ->  waarom ==> waarom?
+  24:    1  ->  zwemmen ==> swemnen
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    7  ->  *
+   2:    1  ->  *(school)
+   3:    1  ->  circus*(chirurg)
+   4:    1  ->  cola
+   5:    1  ->  dichtbij*(dichterbij)
+   6:    1  ->  drinken
+   7:    1  ->  drogen*(droger)
+   8:    1  ->  fietsbel
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  kussen
+  12:    1  ->  lawaai
+  13:    1  ->  potlood
+  14:    1  ->  speelplaats
+  15:    1  ->  vlinder
+  16:    1  ->  vuurwerk
+  17:    1  ->  waarom
+  18:    1  ->  zwemmen
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  dichterbij
+   2:    1  ->  drenken
+   3:    1  ->  droger
+   4:    1  ->  et
+   5:    1  ->  fietsdil
+   6:    1  ->  gwil
+   7:    1  ->  hoofd
+   8:    1  ->  iovi
+   9:    1  ->  kissen
+  10:    1  ->  kowa
+  11:    1  ->  leet
+  12:    1  ->  neet
+  13:    1  ->  nxet
+  14:    1  ->  pijn
+  15:    1  ->  potwood
+  16:    1  ->  ra
+  17:    1  ->  schouwp
+  18:    1  ->  schup
+  19:    1  ->  speelbalt
+  20:    1  ->  swemnen
+  21:    1  ->  veren
+  22:    1  ->  vinder
+  23:    1  ->  vuurwik
+  24:    1  ->  waarom?
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

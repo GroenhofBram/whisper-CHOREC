@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C002M1_1LG
+
+#### (S04C002M1_1LG-words)
+
+- Cor=15.1%	Sub=69.9%	Del=13.7%	Ins=1.4%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | * | mooi | koe | arm | * | groei | * | * | * | strand | bed | * | * | eerst | voor | draai | * | sjaal | herfst | duur | straat | * | * | * | leeuw | *s | clown*(slowen) | *t | *(sloten) | * | *t | hoek | hoek | * | * | krant | hout | vriend | *(vrienden) | *(vrienden) | gauw | chips | groen | feest |  | reis | jas | huis | paard | vijf | muts | * | nieuw | kind | kind | bang | * | oog | zacht | * | * | *x | * | * | schoen | *(plat) | plas | neus | knoop | plank | * | * |
+| HYP1 | klas |  |  | me | me | k | am | el | goe | rand | strand | den | n | s | eerst | voor |  |  | dry | het | kr | s | tt | neee | nee | nogen | uhsnota | weet | ik | nu? | geen | uh | gok | hoe | ja | t | kand | had | vreen | vreede | vrienden | zaam | ships | groen | feest | h | reis | jas |  |  | hus | pat | vif | nis | k | kind |  |  | ba | bandig | allee | eug | ja | ja | s | schoen | na | plas |  |  | ner | nop | la |
+| EVAL |  | D | D | S | S | S | S | S | S | S |  | S | S | S |  |  | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  |  | I |  |  | D | D | S | S | S | S | S |  | D | D | S | S | S | S | S | S | S |  | S |  | D | D | S | S | S |
+---
+
+---

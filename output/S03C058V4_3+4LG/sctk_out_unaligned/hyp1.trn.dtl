@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.2%   (  21)
+
+Percent Correct           =   63.4%   (  26)
+
+Percent Substitution      =   36.6%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   14.6%   (   6)
+Percent Word Accuracy     =   48.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> toilet
+   2:    1  ->  elastiekje ==> ruzie
+   3:    1  ->  konijnenhok ==> ejlastiekje
+   4:    1  ->  lucifer ==> lusdifer
+   5:    1  ->  paddenstoelen ==> pallenstoelen
+   6:    1  ->  ruziemaken ==> maken
+   7:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoonwinkel
+   8:    1  ->  sneeuwwitje ==> witje
+   9:    1  ->  tandenborstel ==> borstel
+  10:    1  ->  teddybeer ==> teribeer
+  11:    1  ->  toiletpapier ==> papier
+  12:    1  ->  vakantie ==> vakatie
+  13:    1  ->  verstoppertje ==> verstopperdje
+  14:    1  ->  washandje ==> nee
+  15:    1  ->  wasmachine ==> mashmachina
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  dan
+   2:    1  ->  handje
+   3:    1  ->  konijnenhoek
+   4:    1  ->  nen
+   5:    1  ->  toa
+   6:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  *
+   2:    1  ->  elastiekje
+   3:    1  ->  konijnenhok
+   4:    1  ->  lucifer
+   5:    1  ->  paddenstoelen
+   6:    1  ->  ruziemaken
+   7:    1  ->  schoenenwinkel*(schoenwinkel)
+   8:    1  ->  sneeuwwitje
+   9:    1  ->  tandenborstel
+  10:    1  ->  teddybeer
+  11:    1  ->  toiletpapier
+  12:    1  ->  vakantie
+  13:    1  ->  verstoppertje
+  14:    1  ->  washandje
+  15:    1  ->  wasmachine
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  borstel
+   2:    1  ->  ejlastiekje
+   3:    1  ->  lusdifer
+   4:    1  ->  maken
+   5:    1  ->  mashmachina
+   6:    1  ->  nee
+   7:    1  ->  pallenstoelen
+   8:    1  ->  papier
+   9:    1  ->  ruzie
+  10:    1  ->  schoonwinkel
+  11:    1  ->  teribeer
+  12:    1  ->  toilet
+  13:    1  ->  vakatie
+  14:    1  ->  verstopperdje
+  15:    1  ->  witje
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

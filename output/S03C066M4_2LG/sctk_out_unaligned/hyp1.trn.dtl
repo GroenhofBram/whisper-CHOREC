@@ -1,0 +1,90 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.1%   (   7)
+
+Percent Correct           =   87.8%   (  36)
+
+Percent Substitution      =   12.2%   (   5)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.9%   (   2)
+Percent Word Accuracy     =   82.9%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  dichtbij ==> hetdichtbij
+   3:    1  ->  hoofdpijn ==> hoofdpin
+   4:    1  ->  liedje ==> potloot
+   5:    1  ->  potlood ==> la
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  lietja
+   2:    1  ->  t
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  hoofdpijn
+   4:    1  ->  liedje
+   5:    1  ->  potlood
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  de
+   2:    1  ->  hetdichtbij
+   3:    1  ->  hoofdpin
+   4:    1  ->  la
+   5:    1  ->  potloot
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

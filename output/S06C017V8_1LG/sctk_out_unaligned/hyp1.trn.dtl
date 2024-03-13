@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.7%   (  21)
+
+Percent Correct           =   53.3%   (  24)
+
+Percent Substitution      =   42.2%   (  19)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  43)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> koa
+   2:    1  ->  * ==> schea
+   3:    1  ->  * ==> t
+   4:    1  ->  * ==> zecht
+   5:    1  ->  clown ==> klauwn
+   6:    1  ->  draai ==> drai
+   7:    1  ->  feest ==> vest
+   8:    1  ->  gauw ==> gouw
+   9:    1  ->  groen ==> groon
+  10:    1  ->  huis ==> hu
+  11:    1  ->  jas ==> jars
+  12:    1  ->  leeuw ==> lel
+  13:    1  ->  neus ==> nes
+  14:    1  ->  paard ==> perd
+  15:    1  ->  reis ==> res
+  16:    1  ->  schoen ==> gschoen
+  17:    1  ->  strand ==> startstrand
+  18:    1  ->  vijf ==> vef
+  19:    1  ->  zacht ==> och
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  oog
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  *
+   2:    1  ->  clown
+   3:    1  ->  draai
+   4:    1  ->  feest
+   5:    1  ->  gauw
+   6:    1  ->  groen
+   7:    1  ->  huis
+   8:    1  ->  jas
+   9:    1  ->  leeuw
+  10:    1  ->  neus
+  11:    1  ->  paard
+  12:    1  ->  reis
+  13:    1  ->  schoen
+  14:    1  ->  strand
+  15:    1  ->  vijf
+  16:    1  ->  zacht
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  drai
+   2:    1  ->  gouw
+   3:    1  ->  groon
+   4:    1  ->  gschoen
+   5:    1  ->  hu
+   6:    1  ->  jars
+   7:    1  ->  klauwn
+   8:    1  ->  koa
+   9:    1  ->  lel
+  10:    1  ->  nes
+  11:    1  ->  och
+  12:    1  ->  perd
+  13:    1  ->  res
+  14:    1  ->  schea
+  15:    1  ->  startstrand
+  16:    1  ->  t
+  17:    1  ->  vef
+  18:    1  ->  vest
+  19:    1  ->  zecht
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

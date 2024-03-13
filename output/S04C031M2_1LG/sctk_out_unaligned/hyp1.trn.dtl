@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.9%   (  18)
+
+Percent Correct           =   56.1%   (  23)
+
+Percent Substitution      =   43.9%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   56.1%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  *(mus) ==> mus
+   2:    1  ->  bang ==> ban
+   3:    1  ->  bed ==> bit
+   4:    1  ->  chips ==> hip
+   5:    1  ->  clown ==> knen
+   6:    1  ->  draai*(draait) ==> draait
+   7:    1  ->  feest ==> veest
+   8:    1  ->  gauw ==> gouw
+   9:    1  ->  groei ==> groe
+  10:    1  ->  hout ==> god
+  11:    1  ->  muts ==> mut
+  12:    1  ->  paard ==> pert
+  13:    1  ->  plank ==> plang
+  14:    1  ->  plas ==> plots
+  15:    1  ->  reis ==> ris
+  16:    1  ->  sjaal ==> signaal
+  17:    1  ->  strand ==> sterant
+  18:    1  ->  vijf ==> vef
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  *(mus)
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  chips
+   5:    1  ->  clown
+   6:    1  ->  draai*(draait)
+   7:    1  ->  feest
+   8:    1  ->  gauw
+   9:    1  ->  groei
+  10:    1  ->  hout
+  11:    1  ->  muts
+  12:    1  ->  paard
+  13:    1  ->  plank
+  14:    1  ->  plas
+  15:    1  ->  reis
+  16:    1  ->  sjaal
+  17:    1  ->  strand
+  18:    1  ->  vijf
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  ban
+   2:    1  ->  bit
+   3:    1  ->  draait
+   4:    1  ->  god
+   5:    1  ->  gouw
+   6:    1  ->  groe
+   7:    1  ->  hip
+   8:    1  ->  knen
+   9:    1  ->  mus
+  10:    1  ->  mut
+  11:    1  ->  pert
+  12:    1  ->  plang
+  13:    1  ->  plots
+  14:    1  ->  ris
+  15:    1  ->  signaal
+  16:    1  ->  sterant
+  17:    1  ->  veest
+  18:    1  ->  vef
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

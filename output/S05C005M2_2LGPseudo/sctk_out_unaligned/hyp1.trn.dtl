@@ -1,0 +1,206 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  64)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   75.0%   (  48)
+Percent Deletions         =   25.0%   (  16)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  64)
+Hyp. words                =           (  48)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  * ==> arwen
+   2:    1  ->  * ==> da
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> erik
+   5:    1  ->  * ==> evonkiee
+   6:    1  ->  * ==> kee
+   7:    1  ->  * ==> oo
+   8:    1  ->  * ==> peel
+   9:    1  ->  * ==> voe
+  10:    1  ->  * ==> wilt
+  11:    1  ->  *s ==> an
+  12:    1  ->  *s ==> esord
+  13:    1  ->  *s ==> grijneken
+  14:    1  ->  *s ==> heeree
+  15:    1  ->  *s ==> me
+  16:    1  ->  *s ==> meer
+  17:    1  ->  *s ==> mram
+  18:    1  ->  *s ==> nelsta
+  19:    1  ->  *s ==> oem
+  20:    1  ->  *s ==> oer
+  21:    1  ->  *s ==> paant
+  22:    1  ->  *s ==> spreekjen
+  23:    1  ->  *s ==> voetans
+  24:    1  ->  *s ==> woien
+  25:    1  ->  fiewon ==> waarn
+  26:    1  ->  foetbans ==> vita
+  27:    1  ->  gefouw ==> o
+  28:    1  ->  grijnken ==> ne
+  29:    1  ->  ijpo ==> o
+  30:    1  ->  kloeien ==> schielstar
+  31:    1  ->  kneurem ==> waarom
+  32:    1  ->  milste ==> ste
+  33:    1  ->  muider ==> vuur
+  34:    1  ->  nizung ==> hier
+  35:    1  ->  oonste ==> efald
+  36:    1  ->  orponk ==> er
+  37:    1  ->  prilsood ==> tril
+  38:    1  ->  schielstaug ==> fia
+  39:    1  ->  schodig ==> uen
+  40:    1  ->  spreikje ==> schoontig
+  41:    1  ->  strellen ==> bebould
+  42:    1  ->  ulen ==> voender
+  43:    1  ->  vawaai ==> gij
+  44:    1  ->  veten*(vetten) ==> et
+  45:    1  ->  veurder ==> duiter
+  46:    1  ->  vloender ==> zieten
+  47:    1  ->  wooien ==> epol
+  48:    1  ->  zwieten ==> erstouk
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    4  ->  *s
+   2:    2  ->  *
+   3:    1  ->  eemde
+   4:    1  ->  erke
+   5:    1  ->  geutel
+   6:    1  ->  gevicht
+   7:    1  ->  haweel*(warm)
+   8:    1  ->  millen
+   9:    1  ->  orstalk
+  10:    1  ->  sjobel*(schotel)
+  11:    1  ->  vocil
+  12:    1  ->  walaan*(walen)
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   14  ->  *s
+   2:   10  ->  *
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  grijnken
+   7:    1  ->  ijpo
+   8:    1  ->  kloeien
+   9:    1  ->  kneurem
+  10:    1  ->  milste
+  11:    1  ->  muider
+  12:    1  ->  nizung
+  13:    1  ->  oonste
+  14:    1  ->  orponk
+  15:    1  ->  prilsood
+  16:    1  ->  schielstaug
+  17:    1  ->  schodig
+  18:    1  ->  spreikje
+  19:    1  ->  strellen
+  20:    1  ->  ulen
+  21:    1  ->  vawaai
+  22:    1  ->  veten*(vetten)
+  23:    1  ->  veurder
+  24:    1  ->  vloender
+  25:    1  ->  wooien
+  26:    1  ->  zwieten
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  o
+   2:    1  ->  an
+   3:    1  ->  arwen
+   4:    1  ->  bebould
+   5:    1  ->  da
+   6:    1  ->  duiter
+   7:    1  ->  efald
+   8:    1  ->  en
+   9:    1  ->  epol
+  10:    1  ->  er
+  11:    1  ->  erik
+  12:    1  ->  erstouk
+  13:    1  ->  esord
+  14:    1  ->  et
+  15:    1  ->  evonkiee
+  16:    1  ->  fia
+  17:    1  ->  gij
+  18:    1  ->  grijneken
+  19:    1  ->  heeree
+  20:    1  ->  hier
+  21:    1  ->  kee
+  22:    1  ->  me
+  23:    1  ->  meer
+  24:    1  ->  mram
+  25:    1  ->  ne
+  26:    1  ->  nelsta
+  27:    1  ->  oem
+  28:    1  ->  oer
+  29:    1  ->  oo
+  30:    1  ->  paant
+  31:    1  ->  peel
+  32:    1  ->  schielstar
+  33:    1  ->  schoontig
+  34:    1  ->  spreekjen
+  35:    1  ->  ste
+  36:    1  ->  tril
+  37:    1  ->  uen
+  38:    1  ->  vita
+  39:    1  ->  voe
+  40:    1  ->  voender
+  41:    1  ->  voetans
+  42:    1  ->  vuur
+  43:    1  ->  waarn
+  44:    1  ->  waarom
+  45:    1  ->  wilt
+  46:    1  ->  woien
+  47:    1  ->  zieten
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

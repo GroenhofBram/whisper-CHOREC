@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.7%   (  21)
+
+Percent Correct           =   54.3%   (  25)
+
+Percent Substitution      =   41.3%   (  19)
+Percent Deletions         =    4.3%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   54.3%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> kga
+   2:    1  ->  *(start) ==> start
+   3:    1  ->  bang ==> bit
+   4:    1  ->  chips ==> cheips
+   5:    1  ->  chips ==> gaw
+   6:    1  ->  clown ==> kllan
+   7:    1  ->  draai ==> drai
+   8:    1  ->  duur ==> tuur
+   9:    1  ->  feest ==> veest
+  10:    1  ->  gauw ==> vreemd
+  11:    1  ->  groei ==> gooi
+  12:    1  ->  krant ==> rant
+  13:    1  ->  muts ==> nuut
+  14:    1  ->  paard ==> paart
+  15:    1  ->  reis ==> res
+  16:    1  ->  sjaal ==> sslai
+  17:    1  ->  straat ==> st
+  18:    1  ->  strand*(stand) ==> stand
+  19:    1  ->  zacht ==> swacht
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  krant
+   2:    1  ->  vriend
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  chips
+   2:    1  ->  *
+   3:    1  ->  *(start)
+   4:    1  ->  bang
+   5:    1  ->  clown
+   6:    1  ->  draai
+   7:    1  ->  duur
+   8:    1  ->  feest
+   9:    1  ->  gauw
+  10:    1  ->  groei
+  11:    1  ->  krant
+  12:    1  ->  muts
+  13:    1  ->  paard
+  14:    1  ->  reis
+  15:    1  ->  sjaal
+  16:    1  ->  straat
+  17:    1  ->  strand*(stand)
+  18:    1  ->  zacht
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  bit
+   2:    1  ->  cheips
+   3:    1  ->  drai
+   4:    1  ->  gaw
+   5:    1  ->  gooi
+   6:    1  ->  kga
+   7:    1  ->  kllan
+   8:    1  ->  nuut
+   9:    1  ->  paart
+  10:    1  ->  rant
+  11:    1  ->  res
+  12:    1  ->  sslai
+  13:    1  ->  st
+  14:    1  ->  stand
+  15:    1  ->  start
+  16:    1  ->  swacht
+  17:    1  ->  tuur
+  18:    1  ->  veest
+  19:    1  ->  vreemd
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

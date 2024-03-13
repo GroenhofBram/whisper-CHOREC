@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.2%   (  19)
+
+Percent Correct           =   57.1%   (  24)
+
+Percent Substitution      =   40.5%   (  17)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   54.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> sa
+   2:    1  ->  bang ==> ban
+   3:    1  ->  bed ==> bed?
+   4:    1  ->  clown ==> klan
+   5:    1  ->  draai ==> drai
+   6:    1  ->  gauw ==> guil
+   7:    1  ->  hoek ==> hook
+   8:    1  ->  knoop ==> knop
+   9:    1  ->  koe ==> ko
+  10:    1  ->  leeuw ==> leouw
+  11:    1  ->  muts ==> ne
+  12:    1  ->  nieuw ==> u
+  13:    1  ->  paard ==> ijf
+  14:    1  ->  plank ==> plant
+  15:    1  ->  reis ==> heis
+  16:    1  ->  sjaal ==> shal
+  17:    1  ->  vijf ==> mut
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  aht
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *t
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  gauw
+   7:    1  ->  hoek
+   8:    1  ->  knoop
+   9:    1  ->  koe
+  10:    1  ->  leeuw
+  11:    1  ->  muts
+  12:    1  ->  nieuw
+  13:    1  ->  paard
+  14:    1  ->  plank
+  15:    1  ->  reis
+  16:    1  ->  sjaal
+  17:    1  ->  vijf
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  ban
+   2:    1  ->  bed?
+   3:    1  ->  drai
+   4:    1  ->  guil
+   5:    1  ->  heis
+   6:    1  ->  hook
+   7:    1  ->  ijf
+   8:    1  ->  klan
+   9:    1  ->  knop
+  10:    1  ->  ko
+  11:    1  ->  leouw
+  12:    1  ->  mut
+  13:    1  ->  ne
+  14:    1  ->  plant
+  15:    1  ->  sa
+  16:    1  ->  shal
+  17:    1  ->  u
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

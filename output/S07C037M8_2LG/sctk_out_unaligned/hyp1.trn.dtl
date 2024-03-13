@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.0%   (  25)
+
+Percent Correct           =   49.0%   (  24)
+
+Percent Substitution      =   49.0%   (  24)
+Percent Deletions         =    2.0%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   49.0%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> dide
+   2:    1  ->  * ==> dochter
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> s
+   5:    1  ->  * ==> schuver
+   6:    1  ->  * ==> sirka
+   7:    1  ->  * ==> sniw
+   8:    1  ->  * ==> so
+   9:    1  ->  * ==> voa
+  10:    1  ->  *(dichterbij) ==> dichterbij
+  11:    1  ->  *(vingen) ==> vingern
+  12:    1  ->  circus ==> surcus
+  13:    1  ->  cola ==> cole
+  14:    1  ->  fietsbel ==> fitsbul
+  15:    1  ->  gooien ==> goien
+  16:    1  ->  koning ==> koningv
+  17:    1  ->  kussen ==> issen
+  18:    1  ->  lawaai ==> awi
+  19:    1  ->  liedje ==> lietje
+  20:    1  ->  meisje ==> mese
+  21:    1  ->  moeder ==> moder
+  22:    1  ->  moeilijk ==> moluik
+  23:    1  ->  schouders ==> schuiders
+  24:    1  ->  zwemmen ==> sdanenv
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    9  ->  *
+   2:    1  ->  *(dichterbij)
+   3:    1  ->  *(vingen)
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  koning
+   9:    1  ->  kussen
+  10:    1  ->  lawaai
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  moeder
+  14:    1  ->  moeilijk
+  15:    1  ->  schouders
+  16:    1  ->  zwemmen
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  awi
+   2:    1  ->  cole
+   3:    1  ->  dichterbij
+   4:    1  ->  dide
+   5:    1  ->  dochter
+   6:    1  ->  en
+   7:    1  ->  fitsbul
+   8:    1  ->  goien
+   9:    1  ->  issen
+  10:    1  ->  koningv
+  11:    1  ->  lietje
+  12:    1  ->  mese
+  13:    1  ->  moder
+  14:    1  ->  moluik
+  15:    1  ->  s
+  16:    1  ->  schuiders
+  17:    1  ->  schuver
+  18:    1  ->  sdanenv
+  19:    1  ->  sirka
+  20:    1  ->  sniw
+  21:    1  ->  so
+  22:    1  ->  surcus
+  23:    1  ->  vingern
+  24:    1  ->  voa
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.8%   (  45)
+
+Percent Correct           =    2.2%   (   1)
+
+Percent Substitution      =   52.2%   (  24)
+Percent Deletions         =   45.7%   (  21)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    2.2%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  25)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> v
+   2:    1  ->  blard ==> p
+   3:    1  ->  doer ==> umt
+   4:    1  ->  dron ==> haard
+   5:    1  ->  eem ==> amhoen
+   6:    1  ->  grek ==> én
+   7:    1  ->  guul ==> spil
+   8:    1  ->  haans ==> zan
+   9:    1  ->  hoekt ==> te
+  10:    1  ->  jien ==> vot
+  11:    1  ->  keng*(kin) ==> soy
+  12:    1  ->  leum ==> viet
+  13:    1  ->  neeuw ==> woor
+  14:    1  ->  noork ==> jirt
+  15:    1  ->  plirt ==> huu
+  16:    1  ->  schard ==> rijk
+  17:    1  ->  sjalt ==> t
+  18:    1  ->  snaaf ==> gerik
+  19:    1  ->  spaai ==> ha
+  20:    1  ->  sprieuw ==> vok
+  21:    1  ->  stuid ==> kt
+  22:    1  ->  swoers ==> tel
+  23:    1  ->  vid ==> jn
+  24:    1  ->  zans ==> hoe
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  *
+   2:    2  ->  fook
+   3:    1  ->  *(sprong)
+   4:    1  ->  ant
+   5:    1  ->  beeg
+   6:    1  ->  dau
+   7:    1  ->  fam
+   8:    1  ->  frijk
+   9:    1  ->  hool
+  10:    1  ->  larst
+  11:    1  ->  rachts
+  12:    1  ->  roen
+  13:    1  ->  sank
+  14:    1  ->  sooi
+  15:    1  ->  sprunt
+  16:    1  ->  vaap
+  17:    1  ->  vout
+  18:    1  ->  zwoei
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  *
+   2:    1  ->  blard
+   3:    1  ->  doer
+   4:    1  ->  dron
+   5:    1  ->  eem
+   6:    1  ->  grek
+   7:    1  ->  guul
+   8:    1  ->  haans
+   9:    1  ->  hoekt
+  10:    1  ->  jien
+  11:    1  ->  keng*(kin)
+  12:    1  ->  leum
+  13:    1  ->  neeuw
+  14:    1  ->  noork
+  15:    1  ->  plirt
+  16:    1  ->  schard
+  17:    1  ->  sjalt
+  18:    1  ->  snaaf
+  19:    1  ->  spaai
+  20:    1  ->  sprieuw
+  21:    1  ->  stuid
+  22:    1  ->  swoers
+  23:    1  ->  vid
+  24:    1  ->  zans
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  amhoen
+   2:    1  ->  gerik
+   3:    1  ->  ha
+   4:    1  ->  haard
+   5:    1  ->  hoe
+   6:    1  ->  huu
+   7:    1  ->  jirt
+   8:    1  ->  jn
+   9:    1  ->  kt
+  10:    1  ->  p
+  11:    1  ->  rijk
+  12:    1  ->  soy
+  13:    1  ->  spil
+  14:    1  ->  t
+  15:    1  ->  te
+  16:    1  ->  tel
+  17:    1  ->  umt
+  18:    1  ->  v
+  19:    1  ->  viet
+  20:    1  ->  vok
+  21:    1  ->  vot
+  22:    1  ->  woor
+  23:    1  ->  zan
+  24:    1  ->  én
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

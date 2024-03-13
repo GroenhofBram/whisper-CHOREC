@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   83.6%   (  46)
+
+Percent Correct           =   16.4%   (   9)
+
+Percent Substitution      =   58.2%   (  32)
+Percent Deletions         =   25.5%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   16.4%
+
+
+Ref. words                =           (  55)
+Hyp. words                =           (  41)
+Aligned words             =           (  55)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  *s ==> ne
+   2:    1  ->  * ==> meer
+   3:    1  ->  *s ==> arem
+   4:    1  ->  *s ==> ee
+   5:    1  ->  *s ==> jus
+   6:    1  ->  *s ==> kijk
+   7:    1  ->  *s ==> kmeur
+   8:    1  ->  *s ==> lan
+   9:    1  ->  *s ==> nieu
+  10:    1  ->  *s ==> uh
+  11:    1  ->  arm ==> ko
+  12:    1  ->  bang ==> waarom
+  13:    1  ->  bed ==> stald
+  14:    1  ->  chips ==> e
+  15:    1  ->  duur ==> ust
+  16:    1  ->  gauw ==> van
+  17:    1  ->  herfst ==> jol
+  18:    1  ->  hout ==> hou
+  19:    1  ->  huis ==> es
+  20:    1  ->  kind ==> keeld
+  21:    1  ->  klas ==> klot
+  22:    1  ->  knoop ==> laus
+  23:    1  ->  krant ==> kraud
+  24:    1  ->  muts ==> a
+  25:    1  ->  paard ==> us
+  26:    1  ->  plank ==> lo
+  27:    1  ->  sjaal ==> al
+  28:    1  ->  strand ==> oi
+  29:    1  ->  vijf ==> paart
+  30:    1  ->  vriend ==> moed
+  31:    1  ->  zacht ==> zegt
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    7  ->  *s
+   2:    1  ->  draai
+   3:    1  ->  jas
+   4:    1  ->  koe
+   5:    1  ->  leeuw
+   6:    1  ->  neus
+   7:    1  ->  plas
+   8:    1  ->  reis
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   10  ->  *s
+   2:    1  ->  *
+   3:    1  ->  arm
+   4:    1  ->  bang
+   5:    1  ->  bed
+   6:    1  ->  chips
+   7:    1  ->  duur
+   8:    1  ->  gauw
+   9:    1  ->  herfst
+  10:    1  ->  hout
+  11:    1  ->  huis
+  12:    1  ->  kind
+  13:    1  ->  klas
+  14:    1  ->  knoop
+  15:    1  ->  krant
+  16:    1  ->  muts
+  17:    1  ->  paard
+  18:    1  ->  plank
+  19:    1  ->  sjaal
+  20:    1  ->  strand
+  21:    1  ->  vijf
+  22:    1  ->  vriend
+  23:    1  ->  zacht
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  ne
+   2:    1  ->  a
+   3:    1  ->  al
+   4:    1  ->  arem
+   5:    1  ->  e
+   6:    1  ->  ee
+   7:    1  ->  es
+   8:    1  ->  hou
+   9:    1  ->  jol
+  10:    1  ->  jus
+  11:    1  ->  keeld
+  12:    1  ->  kijk
+  13:    1  ->  klot
+  14:    1  ->  kmeur
+  15:    1  ->  ko
+  16:    1  ->  kraud
+  17:    1  ->  lan
+  18:    1  ->  laus
+  19:    1  ->  lo
+  20:    1  ->  meer
+  21:    1  ->  moed
+  22:    1  ->  nieu
+  23:    1  ->  oi
+  24:    1  ->  paart
+  25:    1  ->  stald
+  26:    1  ->  uh
+  27:    1  ->  us
+  28:    1  ->  ust
+  29:    1  ->  van
+  30:    1  ->  waarom
+  31:    1  ->  zegt
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

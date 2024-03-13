@@ -1,0 +1,96 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.3%   (  10)
+
+Percent Correct           =   79.1%   (  34)
+
+Percent Substitution      =   16.3%   (   7)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   76.7%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  * ==> leten
+   2:    1  ->  * ==> voetbalving
+   3:    1  ->  appel ==> oppel
+   4:    1  ->  meisje ==> metior
+   5:    1  ->  mevrouw ==> vrouw
+   6:    1  ->  regen ==> riggen
+   7:    1  ->  zwemmen ==> swinnen
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  de
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  voetbal
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  meisje
+   4:    1  ->  mevrouw
+   5:    1  ->  regen
+   6:    1  ->  zwemmen
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  leten
+   2:    1  ->  metior
+   3:    1  ->  oppel
+   4:    1  ->  riggen
+   5:    1  ->  swinnen
+   6:    1  ->  voetbalving
+   7:    1  ->  vrouw
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

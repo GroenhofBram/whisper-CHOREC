@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   81.0%   (  34)
+
+Percent Correct           =   19.0%   (   8)
+
+Percent Substitution      =   81.0%   (  34)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   19.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  * ==> hek
+   2:    1  ->  blard ==> placht
+   3:    1  ->  dau ==> dao
+   4:    1  ->  doer ==> door
+   5:    1  ->  dron ==> tron
+   6:    1  ->  eem ==> één
+   7:    1  ->  fam ==> van
+   8:    1  ->  fook ==> volk
+   9:    1  ->  frijk ==> frek
+  10:    1  ->  guul ==> kuul
+  11:    1  ->  haans ==> hans
+  12:    1  ->  heik ==> hek
+  13:    1  ->  hool ==> gool
+  14:    1  ->  jien ==> jin
+  15:    1  ->  larst ==> lacrts
+  16:    1  ->  leum ==> lum
+  17:    1  ->  noork ==> nork
+  18:    1  ->  plirt ==> blift
+  19:    1  ->  rachts ==> racht
+  20:    1  ->  roen*(roei) ==> roei
+  21:    1  ->  roen*(roem) ==> roen
+  22:    1  ->  sank ==> stank
+  23:    1  ->  schard ==> schart
+  24:    1  ->  sjalt ==> schilt
+  25:    1  ->  snaaf*(schaaf) ==> gaaf
+  26:    1  ->  spaai ==> spey
+  27:    1  ->  sprieuw ==> spreeulw
+  28:    1  ->  stuid ==> stuit
+  29:    1  ->  swoers ==> swoors
+  30:    1  ->  vaap ==> vep
+  31:    1  ->  vid ==> vit
+  32:    1  ->  vout ==> fout
+  33:    1  ->  zans ==> sans
+  34:    1  ->  zwoei ==> swo
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  fook
+   9:    1  ->  frijk
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  heik
+  13:    1  ->  hool
+  14:    1  ->  jien
+  15:    1  ->  larst
+  16:    1  ->  leum
+  17:    1  ->  noork
+  18:    1  ->  plirt
+  19:    1  ->  rachts
+  20:    1  ->  roen*(roei)
+  21:    1  ->  roen*(roem)
+  22:    1  ->  sank
+  23:    1  ->  schard
+  24:    1  ->  sjalt
+  25:    1  ->  snaaf*(schaaf)
+  26:    1  ->  spaai
+  27:    1  ->  sprieuw
+  28:    1  ->  stuid
+  29:    1  ->  swoers
+  30:    1  ->  vaap
+  31:    1  ->  vid
+  32:    1  ->  vout
+  33:    1  ->  zans
+  34:    1  ->  zwoei
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  hek
+   2:    1  ->  blift
+   3:    1  ->  dao
+   4:    1  ->  door
+   5:    1  ->  fout
+   6:    1  ->  frek
+   7:    1  ->  gaaf
+   8:    1  ->  gool
+   9:    1  ->  hans
+  10:    1  ->  jin
+  11:    1  ->  kuul
+  12:    1  ->  lacrts
+  13:    1  ->  lum
+  14:    1  ->  nork
+  15:    1  ->  placht
+  16:    1  ->  racht
+  17:    1  ->  roei
+  18:    1  ->  roen
+  19:    1  ->  sans
+  20:    1  ->  schart
+  21:    1  ->  schilt
+  22:    1  ->  spey
+  23:    1  ->  spreeulw
+  24:    1  ->  stank
+  25:    1  ->  stuit
+  26:    1  ->  swo
+  27:    1  ->  swoors
+  28:    1  ->  tron
+  29:    1  ->  van
+  30:    1  ->  vep
+  31:    1  ->  vit
+  32:    1  ->  volk
+  33:    1  ->  één
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

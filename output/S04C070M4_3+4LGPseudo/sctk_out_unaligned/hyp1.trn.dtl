@@ -1,0 +1,235 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  130.2%   (  82)
+
+Percent Correct           =    4.8%   (   3)
+
+Percent Substitution      =   95.2%   (  60)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   34.9%   (  22)
+Percent Word Accuracy     =  -30.2%
+
+
+Ref. words                =           (  63)
+Hyp. words                =           (  85)
+Aligned words             =           (  85)
+
+CONFUSION PAIRS                  Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    1  ->  * ==> blo
+   2:    1  ->  * ==> cidowan
+   3:    1  ->  * ==> daspen
+   4:    1  ->  * ==> de
+   5:    1  ->  * ==> duus
+   6:    1  ->  * ==> f
+   7:    1  ->  * ==> gerauwd
+   8:    1  ->  * ==> gerdof
+   9:    1  ->  * ==> geva
+  10:    1  ->  * ==> harder
+  11:    1  ->  * ==> hu
+  12:    1  ->  * ==> hè
+  13:    1  ->  * ==> jaak
+  14:    1  ->  * ==> jalle
+  15:    1  ->  * ==> juitoni
+  16:    1  ->  * ==> kabesteppen
+  17:    1  ->  * ==> klunter
+  18:    1  ->  * ==> kreeuwen
+  19:    1  ->  * ==> krobek
+  20:    1  ->  * ==> lejgen
+  21:    1  ->  * ==> lig
+  22:    1  ->  * ==> man
+  23:    1  ->  * ==> metzegrok
+  24:    1  ->  * ==> mx
+  25:    1  ->  * ==> o
+  26:    1  ->  * ==> oje
+  27:    1  ->  * ==> ort
+  28:    1  ->  * ==> prea
+  29:    1  ->  * ==> rastpangen
+  30:    1  ->  * ==> reeuw
+  31:    1  ->  * ==> schielen
+  32:    1  ->  * ==> sk
+  33:    1  ->  * ==> smoralei
+  34:    1  ->  * ==> spekrai
+  35:    1  ->  * ==> taroen
+  36:    1  ->  * ==> tooi
+  37:    1  ->  * ==> van
+  38:    1  ->  * ==> verwa
+  39:    1  ->  * ==> wacht
+  40:    1  ->  * ==> zeekvlachtschien
+  41:    1  ->  *x ==> gerrouwe
+  42:    1  ->  blottenduuf ==> gea
+  43:    1  ->  choporatie ==> in
+  44:    1  ->  crobeklunker ==> bikje
+  45:    1  ->  deuveltek ==> ij
+  46:    1  ->  gerauwejaak ==> jack
+  47:    1  ->  gevijdel ==> ver
+  48:    1  ->  ijraspangen ==> bloden
+  49:    1  ->  jalekrewen ==> gaannaarhoe
+  50:    1  ->  jattesiet ==> veden
+  51:    1  ->  juitonie ==> teniek
+  52:    1  ->  kanaroe ==> eet
+  53:    1  ->  kantelogsten ==> oogsten
+  54:    1  ->  meitsegrok ==> kantel
+  55:    1  ->  oonwijlen ==> ge
+  56:    1  ->  schielendaspen ==> rig
+  57:    1  ->  sidowaan ==> pierik
+  58:    1  ->  smoralij ==> tooi
+  59:    1  ->  spekkeraai ==> nappers
+  60:    1  ->  tobbermoeit ==> tovermoeid
+     -------
+        60
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  chouporati
+   2:    1  ->  das
+   3:    1  ->  de
+   4:    1  ->  dien
+   5:    1  ->  din
+   6:    1  ->  doe
+   7:    1  ->  duif
+   8:    1  ->  halven
+   9:    1  ->  jatis
+  10:    1  ->  je
+  11:    1  ->  me
+  12:    1  ->  mru
+  13:    1  ->  om
+  14:    1  ->  onweilen
+  15:    1  ->  siet
+  16:    1  ->  stoni
+  17:    1  ->  test
+  18:    1  ->  tussen
+  19:    1  ->  veltek
+  20:    1  ->  voorbrakkortje
+  21:    1  ->  zenenbral
+  22:    1  ->  é
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   40  ->  *
+   2:    1  ->  *x
+   3:    1  ->  blottenduuf
+   4:    1  ->  choporatie
+   5:    1  ->  crobeklunker
+   6:    1  ->  deuveltek
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  ijraspangen
+  10:    1  ->  jalekrewen
+  11:    1  ->  jattesiet
+  12:    1  ->  juitonie
+  13:    1  ->  kanaroe
+  14:    1  ->  kantelogsten
+  15:    1  ->  meitsegrok
+  16:    1  ->  oonwijlen
+  17:    1  ->  schielendaspen
+  18:    1  ->  sidowaan
+  19:    1  ->  smoralij
+  20:    1  ->  spekkeraai
+  21:    1  ->  tobbermoeit
+     -------
+        60
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  tooi
+   2:    1  ->  bikje
+   3:    1  ->  blo
+   4:    1  ->  bloden
+   5:    1  ->  cidowan
+   6:    1  ->  daspen
+   7:    1  ->  de
+   8:    1  ->  duus
+   9:    1  ->  eet
+  10:    1  ->  f
+  11:    1  ->  gaannaarhoe
+  12:    1  ->  ge
+  13:    1  ->  gea
+  14:    1  ->  gerauwd
+  15:    1  ->  gerdof
+  16:    1  ->  gerrouwe
+  17:    1  ->  geva
+  18:    1  ->  harder
+  19:    1  ->  hu
+  20:    1  ->  hè
+  21:    1  ->  ij
+  22:    1  ->  in
+  23:    1  ->  jaak
+  24:    1  ->  jack
+  25:    1  ->  jalle
+  26:    1  ->  juitoni
+  27:    1  ->  kabesteppen
+  28:    1  ->  kantel
+  29:    1  ->  klunter
+  30:    1  ->  kreeuwen
+  31:    1  ->  krobek
+  32:    1  ->  lejgen
+  33:    1  ->  lig
+  34:    1  ->  man
+  35:    1  ->  metzegrok
+  36:    1  ->  mx
+  37:    1  ->  nappers
+  38:    1  ->  o
+  39:    1  ->  oje
+  40:    1  ->  oogsten
+  41:    1  ->  ort
+  42:    1  ->  pierik
+  43:    1  ->  prea
+  44:    1  ->  rastpangen
+  45:    1  ->  reeuw
+  46:    1  ->  rig
+  47:    1  ->  schielen
+  48:    1  ->  sk
+  49:    1  ->  smoralei
+  50:    1  ->  spekrai
+  51:    1  ->  taroen
+  52:    1  ->  teniek
+  53:    1  ->  tovermoeid
+  54:    1  ->  van
+  55:    1  ->  veden
+  56:    1  ->  ver
+  57:    1  ->  verwa
+  58:    1  ->  wacht
+  59:    1  ->  zeekvlachtschien
+     -------
+        60
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

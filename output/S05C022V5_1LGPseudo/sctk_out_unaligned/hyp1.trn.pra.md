@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C022V5_1LGPseudo
+
+#### (S05C022V5_1LGPseudo-words)
+
+- Cor=9.1%	Sub=86.4%	Del=4.5%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | fook | sooi | dau | ant | beeg | sprunt | hool | larst | vout*(fout) | zwoei | fam | rachts*(rechts) | vaap | sprieuw | keng | swoers | doer | *(pril) | * | plirt | jien | blard | guul | hoekt | neeuw | noork | vid | zans | leum | * | haans | spaai | sjalt | heik | sank | roen | frijk | eem | schard | * | grek | dron | snaaf | stuid |
+| HYP1 | vook | soi | da | and | beeg | schund | hol | larst |  | foud | zo | fan | t | fas | en | swooord | doe | bri | e | bleerd | gn | belaagt | scuul | hoekt |  | nee | nok | vit | sans | lo | hans | spa | silt | hek | sank | hoen | vrik | em | us | jat | ge | vekd | snaf | stut |
+| EVAL | S | S | S | S |  | S | S |  | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | S | S | S | S | S | S | S | S | S |  | S | S | S | S | S | S | S | S | S |
+---
+
+---

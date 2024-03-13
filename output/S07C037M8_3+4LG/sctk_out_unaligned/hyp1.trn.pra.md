@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C037M8_3+4LG
+
+#### (S07C037M8_3+4LG-words)
+
+- Cor=17.8%	Sub=50.7%	Del=1.4%	Ins=30.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien | * | poppenwagen | * | konijnenhok | * | * | * | elastiekje |  |  | ruziemaken | teddybeer | dierentuin | paddenstoelen | * | * | verstoppertje | wasmachine |  |  |  |  |  |  | fototoestel | *(toilettenpapier) | toiletpapier | vrachtwagen | * | buurmannen | vogelkooi | olifant | schommelen |  |  | iedereen | schoenenwinkel | knutselen | ophangen*(ophanging) | verjaardag |  |  |  |  | sprookjesboek | tandenborstel | lucifer | * | lucifer | slaapkamer | achterdeur | ziekenhuis |  |  |  |  |  | nieuwsgierig | afblijven*(opblijven) | kabouter | washandje*(washanden) | sneeuwwitje | goeiendag | vakantie |  | limonade | autorijden |  |  | eindelijk*(eigenlijk) | familie | chocolade |
+| HYP1 | omdraaien |  | popenwargen | oning | konijnen | een | hok | aa | elastiekje | ruzie | maken | dediber | drenton | paden | stolen | vorstop | vos | topperke | wasmachine | voto | toestel | wal | neten | papier | wal | 't | ver | vigt | kwijgen | buurman | e | vogelkooi | allefant | schommelen | eder | in | schone | winkel | knutselen | ophangen | verjaardag | sprookjes | boek | tanden | borstel | lus | de | qfr | nit | zover | slaapkamer | achterder | ziekenhuis | nieuwsgris | op | blijven | kaboter | was | runden | nee | hoe | weet | ie | goeiendag | vakantie | nn | madede | autorijden | eigen | lijk | fan | milie | chocolade |
+| EVAL |  | D | S | S | S | S | S | S |  | I | I | S | S | S | S | S | S | S |  | I | I | I | I | I | I | S | S | S | S | S | S |  | S |  | I | I | S | S |  | S |  | I | I | I | I | S | S | S | S | S |  | S |  | I | I | I | I | I | S | S | S | S | S |  |  | I | S |  | I | I | S | S |  |
+---
+
+---

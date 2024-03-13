@@ -1,0 +1,208 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  118.0%   (  59)
+
+Percent Correct           =   12.0%   (   6)
+
+Percent Substitution      =   88.0%   (  44)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   30.0%   (  15)
+Percent Word Accuracy     =  -18.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  65)
+Aligned words             =           (  65)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  * ==> aan
+   2:    1  ->  * ==> di
+   3:    1  ->  * ==> eastikje
+   4:    1  ->  * ==> eema
+   5:    1  ->  * ==> een
+   6:    1  ->  * ==> gernie
+   7:    1  ->  * ==> goee
+   8:    1  ->  * ==> hok
+   9:    1  ->  * ==> in
+  10:    1  ->  * ==> konijnen
+  11:    1  ->  * ==> sneeuwitje
+  12:    1  ->  * ==> wagen
+  13:    1  ->  *(muziekmaker) ==> bee
+  14:    1  ->  achterdeur ==> ahterde
+  15:    1  ->  afblijven ==> dag
+  16:    1  ->  autorijden ==> autoriden
+  17:    1  ->  buurmannen*(buurman) ==> coi
+  18:    1  ->  chocolade ==> socoleider
+  19:    1  ->  dierentuin ==> stodahtje
+  20:    1  ->  elastiekje ==> en
+  21:    1  ->  familie ==> ami
+  22:    1  ->  fototoestel ==> oeliks
+  23:    1  ->  goeiendag ==> uej
+  24:    1  ->  kabouter ==> varkennetje
+  25:    1  ->  knutselen ==> nutzuen
+  26:    1  ->  limonade ==> lumonada
+  27:    1  ->  lucifer ==> lusifer
+  28:    1  ->  olifant ==> fant?
+  29:    1  ->  omdraaien ==> open
+  30:    1  ->  paddenstoelen ==> wasmachina
+  31:    1  ->  poppenwagen ==> hool
+  32:    1  ->  schoenenwinkel ==> winkel
+  33:    1  ->  schommelen ==> scholen
+  34:    1  ->  sneeuwwitje ==> ja
+  35:    1  ->  sprookjesboek ==> kan
+  36:    1  ->  tandenborstel ==> orsteln
+  37:    1  ->  teddybeer ==> panestole
+  38:    1  ->  toiletpapier ==> papier
+  39:    1  ->  vakantie*(varkentje) ==> o
+  40:    1  ->  verjaardag ==> boek
+  41:    1  ->  verstoppertje ==> vo
+  42:    1  ->  vogelkooi ==> goni
+  43:    1  ->  washandje ==> ja
+  44:    1  ->  wasmachine ==> tooestijn
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  bi
+   3:    1  ->  deeer
+   4:    1  ->  drae
+   5:    1  ->  ern
+   6:    1  ->  fogro
+   7:    1  ->  ha
+   8:    1  ->  kandal
+   9:    1  ->  m
+  10:    1  ->  schoenen
+  11:    1  ->  sprookjes
+  12:    1  ->  toch?
+  13:    1  ->  ve?
+  14:    1  ->  verjaardag?
+  15:    1  ->  wassatje
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   12  ->  *
+   2:    1  ->  *(muziekmaker)
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen*(buurman)
+   7:    1  ->  chocolade
+   8:    1  ->  dierentuin
+   9:    1  ->  elastiekje
+  10:    1  ->  familie
+  11:    1  ->  fototoestel
+  12:    1  ->  goeiendag
+  13:    1  ->  kabouter
+  14:    1  ->  knutselen
+  15:    1  ->  limonade
+  16:    1  ->  lucifer
+  17:    1  ->  olifant
+  18:    1  ->  omdraaien
+  19:    1  ->  paddenstoelen
+  20:    1  ->  poppenwagen
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  schommelen
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  sprookjesboek
+  25:    1  ->  tandenborstel
+  26:    1  ->  teddybeer
+  27:    1  ->  toiletpapier
+  28:    1  ->  vakantie*(varkentje)
+  29:    1  ->  verjaardag
+  30:    1  ->  verstoppertje
+  31:    1  ->  vogelkooi
+  32:    1  ->  washandje
+  33:    1  ->  wasmachine
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  ja
+   2:    1  ->  aan
+   3:    1  ->  ahterde
+   4:    1  ->  ami
+   5:    1  ->  autoriden
+   6:    1  ->  bee
+   7:    1  ->  boek
+   8:    1  ->  coi
+   9:    1  ->  dag
+  10:    1  ->  di
+  11:    1  ->  eastikje
+  12:    1  ->  eema
+  13:    1  ->  een
+  14:    1  ->  en
+  15:    1  ->  fant?
+  16:    1  ->  gernie
+  17:    1  ->  goee
+  18:    1  ->  goni
+  19:    1  ->  hok
+  20:    1  ->  hool
+  21:    1  ->  in
+  22:    1  ->  kan
+  23:    1  ->  konijnen
+  24:    1  ->  lumonada
+  25:    1  ->  lusifer
+  26:    1  ->  nutzuen
+  27:    1  ->  o
+  28:    1  ->  oeliks
+  29:    1  ->  open
+  30:    1  ->  orsteln
+  31:    1  ->  panestole
+  32:    1  ->  papier
+  33:    1  ->  scholen
+  34:    1  ->  sneeuwitje
+  35:    1  ->  socoleider
+  36:    1  ->  stodahtje
+  37:    1  ->  tooestijn
+  38:    1  ->  uej
+  39:    1  ->  varkennetje
+  40:    1  ->  vo
+  41:    1  ->  wagen
+  42:    1  ->  wasmachina
+  43:    1  ->  winkel
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

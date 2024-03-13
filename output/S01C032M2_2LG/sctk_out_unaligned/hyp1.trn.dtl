@@ -1,0 +1,104 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.8%   (  11)
+
+Percent Correct           =   75.6%   (  31)
+
+Percent Substitution      =   24.4%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   73.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  * ==> s
+   2:    1  ->  cola ==> kola
+   3:    1  ->  lawaai ==> enlawaai
+   4:    1  ->  liedje ==> ietsjer
+   5:    1  ->  potlood ==> potloot
+   6:    1  ->  scheuren ==> van
+   7:    1  ->  vinger ==> finger
+   8:    1  ->  vlinder ==> wender
+   9:    1  ->  vuurwerk ==> vuurwert
+  10:    1  ->  water ==> watter
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  scheur
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  *
+   2:    1  ->  cola
+   3:    1  ->  lawaai
+   4:    1  ->  liedje
+   5:    1  ->  potlood
+   6:    1  ->  scheuren
+   7:    1  ->  vinger
+   8:    1  ->  vlinder
+   9:    1  ->  vuurwerk
+  10:    1  ->  water
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  enlawaai
+   2:    1  ->  finger
+   3:    1  ->  ietsjer
+   4:    1  ->  kola
+   5:    1  ->  potloot
+   6:    1  ->  s
+   7:    1  ->  van
+   8:    1  ->  vuurwert
+   9:    1  ->  watter
+  10:    1  ->  wender
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

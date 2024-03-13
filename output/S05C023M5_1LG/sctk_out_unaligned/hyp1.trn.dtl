@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   64.0%   (  32)
+
+Percent Correct           =   38.0%   (  19)
+
+Percent Substitution      =   56.0%   (  28)
+Percent Deletions         =    6.0%   (   3)
+Percent Insertions        =    2.0%   (   1)
+Percent Word Accuracy     =   36.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  48)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> iet
+   2:    1  ->  * ==> la
+   3:    1  ->  * ==> leeou
+   4:    1  ->  * ==> pa
+   5:    1  ->  * ==> shal
+   6:    1  ->  *(knop) ==> knopknopen
+   7:    1  ->  *s ==> herustfeest
+   8:    1  ->  bang*(dag) ==> dag
+   9:    1  ->  bed ==> bit
+  10:    1  ->  chips ==> ships
+  11:    1  ->  clown ==> niet
+  12:    1  ->  duur*(buur) ==> straat
+  13:    1  ->  feest ==> t
+  14:    1  ->  gauw ==> gouw
+  15:    1  ->  groei ==> grooi
+  16:    1  ->  herfst*(herfstfeest) ==> sde
+  17:    1  ->  hoek ==> hook
+  18:    1  ->  knoop ==> kna
+  19:    1  ->  koe ==> ko
+  20:    1  ->  leeuw ==> weet
+  21:    1  ->  mooi ==> moi
+  22:    1  ->  muts ==> mits
+  23:    1  ->  paard ==> bart
+  24:    1  ->  plank*(klank) ==> ank
+  25:    1  ->  plas ==> las
+  26:    1  ->  reis ==> reys
+  27:    1  ->  sjaal ==> buur
+  28:    1  ->  straat ==> klo
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fees
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    3  ->  *
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  *
+   2:    1  ->  *(knop)
+   3:    1  ->  *s
+   4:    1  ->  bang*(dag)
+   5:    1  ->  bed
+   6:    1  ->  chips
+   7:    1  ->  clown
+   8:    1  ->  duur*(buur)
+   9:    1  ->  feest
+  10:    1  ->  gauw
+  11:    1  ->  groei
+  12:    1  ->  herfst*(herfstfeest)
+  13:    1  ->  hoek
+  14:    1  ->  knoop
+  15:    1  ->  koe
+  16:    1  ->  leeuw
+  17:    1  ->  mooi
+  18:    1  ->  muts
+  19:    1  ->  paard
+  20:    1  ->  plank*(klank)
+  21:    1  ->  plas
+  22:    1  ->  reis
+  23:    1  ->  sjaal
+  24:    1  ->  straat
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  ank
+   2:    1  ->  bart
+   3:    1  ->  bit
+   4:    1  ->  buur
+   5:    1  ->  dag
+   6:    1  ->  gouw
+   7:    1  ->  grooi
+   8:    1  ->  herustfeest
+   9:    1  ->  hook
+  10:    1  ->  iet
+  11:    1  ->  klo
+  12:    1  ->  kna
+  13:    1  ->  knopknopen
+  14:    1  ->  ko
+  15:    1  ->  la
+  16:    1  ->  las
+  17:    1  ->  leeou
+  18:    1  ->  mits
+  19:    1  ->  moi
+  20:    1  ->  niet
+  21:    1  ->  pa
+  22:    1  ->  reys
+  23:    1  ->  sde
+  24:    1  ->  shal
+  25:    1  ->  ships
+  26:    1  ->  straat
+  27:    1  ->  t
+  28:    1  ->  weet
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

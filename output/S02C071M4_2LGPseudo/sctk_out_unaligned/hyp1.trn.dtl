@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.0%   (  40)
+
+Percent Correct           =    9.3%   (   4)
+
+Percent Substitution      =   90.7%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =    7.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> hao
+   2:    1  ->  * ==> na
+   3:    1  ->  * ==> ol
+   4:    1  ->  bepoud ==> ordstald
+   5:    1  ->  eemde ==> bebouwd
+   6:    1  ->  fiewon ==> van
+   7:    1  ->  foetbans ==> onstov
+   8:    1  ->  gefouw ==> erpand
+   9:    1  ->  geutel ==> sudol
+  10:    1  ->  grijnken ==> schielstouw
+  11:    1  ->  haweel ==> hanwe
+  12:    1  ->  hiffreeuw ==> gisrl
+  13:    1  ->  ierpieuw ==> iper
+  14:    1  ->  ijpo ==> apov
+  15:    1  ->  kloeien ==> oeem
+  16:    1  ->  kneurem ==> wi
+  17:    1  ->  menuur ==> ner
+  18:    1  ->  millen ==> lilen
+  19:    1  ->  milste ==> nilste
+  20:    1  ->  muider ==> grenken
+  21:    1  ->  nizung ==> fin
+  22:    1  ->  oonste ==> dar
+  23:    1  ->  orstalk ==> fetten
+  24:    1  ->  prilsood ==> sot
+  25:    1  ->  saarweng ==> sarwel
+  26:    1  ->  schielstaug ==> bril
+  27:    1  ->  sjobel ==> schoel
+  28:    1  ->  spreikje ==> sprekje
+  29:    1  ->  strellen ==> zwiten
+  30:    1  ->  ulen ==> lnv
+  31:    1  ->  vawaai ==> steuhm
+  32:    1  ->  veten*(vetten) ==> vefal
+  33:    1  ->  veurder ==> ferder
+  34:    1  ->  vloender ==> vlunder
+  35:    1  ->  vocil ==> vokil
+  36:    1  ->  vurpaand ==> jezin
+  37:    1  ->  walaan ==> balam
+  38:    1  ->  wooien ==> boen
+  39:    1  ->  zwieten ==> foetballn
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  inde
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  grijnken
+   9:    1  ->  haweel
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  sjobel
+  26:    1  ->  spreikje
+  27:    1  ->  strellen
+  28:    1  ->  ulen
+  29:    1  ->  vawaai
+  30:    1  ->  veten*(vetten)
+  31:    1  ->  veurder
+  32:    1  ->  vloender
+  33:    1  ->  vocil
+  34:    1  ->  vurpaand
+  35:    1  ->  walaan
+  36:    1  ->  wooien
+  37:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  apov
+   2:    1  ->  balam
+   3:    1  ->  bebouwd
+   4:    1  ->  boen
+   5:    1  ->  bril
+   6:    1  ->  dar
+   7:    1  ->  erpand
+   8:    1  ->  ferder
+   9:    1  ->  fetten
+  10:    1  ->  fin
+  11:    1  ->  foetballn
+  12:    1  ->  gisrl
+  13:    1  ->  grenken
+  14:    1  ->  hanwe
+  15:    1  ->  hao
+  16:    1  ->  iper
+  17:    1  ->  jezin
+  18:    1  ->  lilen
+  19:    1  ->  lnv
+  20:    1  ->  na
+  21:    1  ->  ner
+  22:    1  ->  nilste
+  23:    1  ->  oeem
+  24:    1  ->  ol
+  25:    1  ->  onstov
+  26:    1  ->  ordstald
+  27:    1  ->  sarwel
+  28:    1  ->  schielstouw
+  29:    1  ->  schoel
+  30:    1  ->  sot
+  31:    1  ->  sprekje
+  32:    1  ->  steuhm
+  33:    1  ->  sudol
+  34:    1  ->  van
+  35:    1  ->  vefal
+  36:    1  ->  vlunder
+  37:    1  ->  vokil
+  38:    1  ->  wi
+  39:    1  ->  zwiten
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

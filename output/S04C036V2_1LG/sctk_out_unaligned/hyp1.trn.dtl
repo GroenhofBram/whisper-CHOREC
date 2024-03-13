@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  16)
+
+Percent Correct           =   62.5%   (  25)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  arm ==> erm
+   2:    1  ->  bed ==> dit
+   3:    1  ->  chips ==> gips
+   4:    1  ->  clown ==> kloon
+   5:    1  ->  draai ==> trai
+   6:    1  ->  duur ==> tur
+   7:    1  ->  gauw ==> gaal
+   8:    1  ->  muts ==> mi
+   9:    1  ->  nieuw ==> joe
+  10:    1  ->  paard ==> huisbart
+  11:    1  ->  plank ==> plang
+  12:    1  ->  reis ==> vis
+  13:    1  ->  sjaal ==> schja
+  14:    1  ->  vriend ==> vrimt
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mut
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  huis
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  arm
+   2:    1  ->  bed
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  duur
+   7:    1  ->  gauw
+   8:    1  ->  muts
+   9:    1  ->  nieuw
+  10:    1  ->  paard
+  11:    1  ->  plank
+  12:    1  ->  reis
+  13:    1  ->  sjaal
+  14:    1  ->  vriend
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  dit
+   2:    1  ->  erm
+   3:    1  ->  gaal
+   4:    1  ->  gips
+   5:    1  ->  huisbart
+   6:    1  ->  joe
+   7:    1  ->  kloon
+   8:    1  ->  mi
+   9:    1  ->  plang
+  10:    1  ->  schja
+  11:    1  ->  trai
+  12:    1  ->  tur
+  13:    1  ->  vis
+  14:    1  ->  vrimt
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

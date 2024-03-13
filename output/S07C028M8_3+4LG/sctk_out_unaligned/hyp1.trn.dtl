@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  108.8%   (  74)
+
+Percent Correct           =   17.6%   (  12)
+
+Percent Substitution      =   82.4%   (  56)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   26.5%   (  18)
+Percent Word Accuracy     =   -8.8%
+
+
+Ref. words                =           (  68)
+Hyp. words                =           (  86)
+Aligned words             =           (  86)
+
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    2  ->  * ==> je
+   2:    2  ->  * ==> voor
+   3:    1  ->  * ==> acterdeur
+   4:    1  ->  * ==> autorejden
+   5:    1  ->  * ==> dan
+   6:    1  ->  * ==> danen
+   7:    1  ->  * ==> de
+   8:    1  ->  * ==> en
+   9:    1  ->  * ==> hiver
+  10:    1  ->  * ==> is
+  11:    1  ->  * ==> kni
+  12:    1  ->  * ==> lu
+  13:    1  ->  * ==> luchiferv
+  14:    1  ->  * ==> papier
+  15:    1  ->  * ==> rsimaken
+  16:    1  ->  * ==> schua
+  17:    1  ->  * ==> snee
+  18:    1  ->  * ==> sneeuw
+  19:    1  ->  * ==> sneeuws
+  20:    1  ->  * ==> steekje
+  21:    1  ->  * ==> uk
+  22:    1  ->  * ==> vogel
+  23:    1  ->  * ==> ziekenhuis
+  24:    1  ->  * ==> zowel
+  25:    1  ->  *(buurman) ==> buurman
+  26:    1  ->  *(verstoppen) ==> verstopperdje
+  27:    1  ->  achterdeur ==> sslaapkamer
+  28:    1  ->  afblijven ==> blijven
+  29:    1  ->  autorijden ==> de
+  30:    1  ->  buurmannen ==> f
+  31:    1  ->  eindelijk ==> luik
+  32:    1  ->  elastiekje ==> rusi
+  33:    1  ->  knutselen ==> knucheren
+  34:    1  ->  konijnenhok ==> ena
+  35:    1  ->  limonade ==> auto
+  36:    1  ->  olifant ==> worifand
+  37:    1  ->  omdraaien ==> hook
+  38:    1  ->  paddenstoelen ==> stolenverstoppen
+  39:    1  ->  poppenwagen ==> al
+  40:    1  ->  ruziemaken ==> d
+  41:    1  ->  schoenenwinkel ==> winter
+  42:    1  ->  schommelen ==> schomelen
+  43:    1  ->  slaapkamer ==> ie
+  44:    1  ->  sneeuwwitje ==> weet
+  45:    1  ->  sneeuwwitje ==> weetje
+  46:    1  ->  sprookjesboek ==> borste
+  47:    1  ->  tandenborstel ==> lk
+  48:    1  ->  teddybeer ==> diber
+  49:    1  ->  toiletpapier ==> uit
+  50:    1  ->  verstoppertje ==> was
+  51:    1  ->  vogelkooi ==> kooiing
+  52:    1  ->  washandje ==> sneel
+  53:    1  ->  wasmachine ==> machine
+  54:    1  ->  ziekenhuis ==> achter
+     -------
+        56
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  was
+   2:    1  ->  af
+   3:    1  ->  book
+   4:    1  ->  boppen
+   5:    1  ->  buurman
+   6:    1  ->  draaien
+   7:    1  ->  hond
+   8:    1  ->  konijnen
+   9:    1  ->  limonada
+  10:    1  ->  of
+  11:    1  ->  om
+  12:    1  ->  padden
+  13:    1  ->  s
+  14:    1  ->  schonen
+  15:    1  ->  spe
+  16:    1  ->  sprookjes
+  17:    1  ->  warken
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:   26  ->  *
+   2:    2  ->  sneeuwwitje
+   3:    1  ->  *(buurman)
+   4:    1  ->  *(verstoppen)
+   5:    1  ->  achterdeur
+   6:    1  ->  afblijven
+   7:    1  ->  autorijden
+   8:    1  ->  buurmannen
+   9:    1  ->  eindelijk
+  10:    1  ->  elastiekje
+  11:    1  ->  knutselen
+  12:    1  ->  konijnenhok
+  13:    1  ->  limonade
+  14:    1  ->  olifant
+  15:    1  ->  omdraaien
+  16:    1  ->  paddenstoelen
+  17:    1  ->  poppenwagen
+  18:    1  ->  ruziemaken
+  19:    1  ->  schoenenwinkel
+  20:    1  ->  schommelen
+  21:    1  ->  slaapkamer
+  22:    1  ->  sprookjesboek
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer
+  25:    1  ->  toiletpapier
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  washandje
+  29:    1  ->  wasmachine
+  30:    1  ->  ziekenhuis
+     -------
+        56
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  de
+   2:    2  ->  je
+   3:    2  ->  voor
+   4:    1  ->  achter
+   5:    1  ->  acterdeur
+   6:    1  ->  al
+   7:    1  ->  auto
+   8:    1  ->  autorejden
+   9:    1  ->  blijven
+  10:    1  ->  borste
+  11:    1  ->  buurman
+  12:    1  ->  d
+  13:    1  ->  dan
+  14:    1  ->  danen
+  15:    1  ->  diber
+  16:    1  ->  en
+  17:    1  ->  ena
+  18:    1  ->  f
+  19:    1  ->  hiver
+  20:    1  ->  hook
+  21:    1  ->  ie
+  22:    1  ->  is
+  23:    1  ->  kni
+  24:    1  ->  knucheren
+  25:    1  ->  kooiing
+  26:    1  ->  lk
+  27:    1  ->  lu
+  28:    1  ->  luchiferv
+  29:    1  ->  luik
+  30:    1  ->  machine
+  31:    1  ->  papier
+  32:    1  ->  rsimaken
+  33:    1  ->  rusi
+  34:    1  ->  schomelen
+  35:    1  ->  schua
+  36:    1  ->  snee
+  37:    1  ->  sneel
+  38:    1  ->  sneeuw
+  39:    1  ->  sneeuws
+  40:    1  ->  sslaapkamer
+  41:    1  ->  steekje
+  42:    1  ->  stolenverstoppen
+  43:    1  ->  uit
+  44:    1  ->  uk
+  45:    1  ->  verstopperdje
+  46:    1  ->  vogel
+  47:    1  ->  was
+  48:    1  ->  weet
+  49:    1  ->  weetje
+  50:    1  ->  winter
+  51:    1  ->  worifand
+  52:    1  ->  ziekenhuis
+  53:    1  ->  zowel
+     -------
+        56
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

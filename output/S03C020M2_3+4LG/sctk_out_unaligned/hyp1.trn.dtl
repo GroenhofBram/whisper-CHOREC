@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  150.0%   (  63)
+
+Percent Correct           =    2.4%   (   1)
+
+Percent Substitution      =   97.6%   (  41)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   52.4%   (  22)
+Percent Word Accuracy     =  -50.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  *s ==> abater
+   2:    1  ->  *s ==> altoreten
+   3:    1  ->  *s ==> ami
+   4:    1  ->  *s ==> an?
+   5:    1  ->  *s ==> ben
+   6:    1  ->  *s ==> chocolade
+   7:    1  ->  *s ==> dausi
+   8:    1  ->  *s ==> dimondade
+   9:    1  ->  *s ==> eindelijk
+  10:    1  ->  *s ==> hentje
+  11:    1  ->  *s ==> ji
+  12:    1  ->  *s ==> me
+  13:    1  ->  *s ==> oe
+  14:    1  ->  *s ==> oma
+  15:    1  ->  *s ==> was
+  16:    1  ->  *s ==> week
+  17:    1  ->  *x ==> a
+  18:    1  ->  *x ==> voe
+  19:    1  ->  achterdeur ==> kamer
+  20:    1  ->  afblijven ==> en
+  21:    1  ->  autorijden ==> nieuwsgierig
+  22:    1  ->  buurmannen ==> in
+  23:    1  ->  elastiekje ==> ko
+  24:    1  ->  familie ==> as
+  25:    1  ->  fototoestel ==> schoon
+  26:    1  ->  goeiendag ==> een
+  27:    1  ->  iedereen ==> moet
+  28:    1  ->  kabouter ==> achter
+  29:    1  ->  knutselen ==> een
+  30:    1  ->  konijnenhok ==> hoor
+  31:    1  ->  ophangen*(ophang) ==> ou
+  32:    1  ->  paddenstoelen ==> j
+  33:    1  ->  poppenwagen ==> waen
+  34:    1  ->  schommelen ==> winkel
+  35:    1  ->  slaapkamer ==> lap
+  36:    1  ->  sneeuwwitje ==> deur
+  37:    1  ->  sprookjesboek ==> ear
+  38:    1  ->  teddybeer ==> olifan
+  39:    1  ->  vakantie ==> va
+  40:    1  ->  verstoppertje ==> ereen
+  41:    1  ->  ziekenhuis ==> ar
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a
+   2:    1  ->  aristoren
+   3:    1  ->  boek
+   4:    1  ->  bortel
+   5:    1  ->  brulklezen
+   6:    1  ->  danen
+   7:    1  ->  draaien
+   8:    1  ->  enlasike
+   9:    1  ->  fototostell
+  10:    1  ->  heibee
+  11:    1  ->  iren
+  12:    1  ->  j
+  13:    1  ->  konijnen
+  14:    1  ->  maen
+  15:    1  ->  nuiee
+  16:    1  ->  oenas
+  17:    1  ->  om
+  18:    1  ->  papier
+  19:    1  ->  talet
+  20:    1  ->  ue
+  21:    1  ->  vraag
+  22:    1  ->  wasmaci
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   16  ->  *s
+   2:    2  ->  *x
+   3:    1  ->  achterdeur
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  buurmannen
+   7:    1  ->  elastiekje
+   8:    1  ->  familie
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  kabouter
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  ophangen*(ophang)
+  16:    1  ->  paddenstoelen
+  17:    1  ->  poppenwagen
+  18:    1  ->  schommelen
+  19:    1  ->  slaapkamer
+  20:    1  ->  sneeuwwitje
+  21:    1  ->  sprookjesboek
+  22:    1  ->  teddybeer
+  23:    1  ->  vakantie
+  24:    1  ->  verstoppertje
+  25:    1  ->  ziekenhuis
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  een
+   2:    1  ->  a
+   3:    1  ->  abater
+   4:    1  ->  achter
+   5:    1  ->  altoreten
+   6:    1  ->  ami
+   7:    1  ->  an?
+   8:    1  ->  ar
+   9:    1  ->  as
+  10:    1  ->  ben
+  11:    1  ->  chocolade
+  12:    1  ->  dausi
+  13:    1  ->  deur
+  14:    1  ->  dimondade
+  15:    1  ->  ear
+  16:    1  ->  eindelijk
+  17:    1  ->  en
+  18:    1  ->  ereen
+  19:    1  ->  hentje
+  20:    1  ->  hoor
+  21:    1  ->  in
+  22:    1  ->  j
+  23:    1  ->  ji
+  24:    1  ->  kamer
+  25:    1  ->  ko
+  26:    1  ->  lap
+  27:    1  ->  me
+  28:    1  ->  moet
+  29:    1  ->  nieuwsgierig
+  30:    1  ->  oe
+  31:    1  ->  olifan
+  32:    1  ->  oma
+  33:    1  ->  ou
+  34:    1  ->  schoon
+  35:    1  ->  va
+  36:    1  ->  voe
+  37:    1  ->  waen
+  38:    1  ->  was
+  39:    1  ->  week
+  40:    1  ->  winkel
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

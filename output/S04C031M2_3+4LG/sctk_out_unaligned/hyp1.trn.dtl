@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  106.7%   (  48)
+
+Percent Correct           =   33.3%   (  15)
+
+Percent Substitution      =   66.7%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   40.0%   (  18)
+Percent Word Accuracy     =   -6.7%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  63)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> het
+   2:    1  ->  * ==> je
+   3:    1  ->  * ==> kooi
+   4:    1  ->  * ==> magne
+   5:    1  ->  * ==> men
+   6:    1  ->  afblijven ==> je
+   7:    1  ->  buurmannen*(buurman) ==> buurman
+   8:    1  ->  chocolade ==> chocola
+   9:    1  ->  dierentuin ==> stoelen
+  10:    1  ->  elastiekje ==> dieren
+  11:    1  ->  fototoestel ==> votosteld
+  12:    1  ->  kabouter ==> sneeuw
+  13:    1  ->  knutselen ==> zilen
+  14:    1  ->  konijnenhok ==> meer
+  15:    1  ->  limonade ==> limunade
+  16:    1  ->  lucifer ==> luifer
+  17:    1  ->  nieuwsgierig ==> hamd
+  18:    1  ->  paddenstoelen ==> vea
+  19:    1  ->  poppenwagen ==> tijden
+  20:    1  ->  ruziemaken ==> tuin
+  21:    1  ->  schoenenwinkel ==> knit
+  22:    1  ->  sneeuwwitje ==> je
+  23:    1  ->  sprookjesboek ==> tanden
+  24:    1  ->  tandenborstel ==> borstel
+  25:    1  ->  teddybeer ==> padde
+  26:    1  ->  toiletpapier ==> tooieluipapier
+  27:    1  ->  verstoppertje ==> verstopper
+  28:    1  ->  vogelkooi ==> vogel
+  29:    1  ->  washandje ==> weet
+  30:    1  ->  wasmachine ==> wwas
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  blijven
+   2:    1  ->  choenen
+   3:    1  ->  die
+   4:    1  ->  heel
+   5:    1  ->  hook
+   6:    1  ->  ikje
+   7:    1  ->  illos
+   8:    1  ->  in
+   9:    1  ->  kaboter
+  10:    1  ->  konni
+  11:    1  ->  maken
+  12:    1  ->  of
+  13:    1  ->  poepwagen
+  14:    1  ->  ruzie
+  15:    1  ->  schierig
+  16:    1  ->  spookjesbook
+  17:    1  ->  was
+  18:    1  ->  winkel
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  kabouter
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  lucifer
+  13:    1  ->  nieuwsgierig
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  sprookjesboek
+  20:    1  ->  tandenborstel
+  21:    1  ->  teddybeer
+  22:    1  ->  toiletpapier
+  23:    1  ->  verstoppertje
+  24:    1  ->  vogelkooi
+  25:    1  ->  washandje
+  26:    1  ->  wasmachine
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  je
+   2:    1  ->  borstel
+   3:    1  ->  buurman
+   4:    1  ->  chocola
+   5:    1  ->  dieren
+   6:    1  ->  hamd
+   7:    1  ->  het
+   8:    1  ->  knit
+   9:    1  ->  kooi
+  10:    1  ->  limunade
+  11:    1  ->  luifer
+  12:    1  ->  magne
+  13:    1  ->  meer
+  14:    1  ->  men
+  15:    1  ->  padde
+  16:    1  ->  sneeuw
+  17:    1  ->  stoelen
+  18:    1  ->  tanden
+  19:    1  ->  tijden
+  20:    1  ->  tooieluipapier
+  21:    1  ->  tuin
+  22:    1  ->  vea
+  23:    1  ->  verstopper
+  24:    1  ->  vogel
+  25:    1  ->  votosteld
+  26:    1  ->  weet
+  27:    1  ->  wwas
+  28:    1  ->  zilen
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

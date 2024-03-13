@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.8%   (  23)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   47.6%   (  20)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   45.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  * ==> vleen
+   2:    1  ->  *(sneeuw) ==> snieuw
+   3:    1  ->  appel ==> apul
+   4:    1  ->  auto ==> ato
+   5:    1  ->  circus ==> psirkeus
+   6:    1  ->  cola ==> kola
+   7:    1  ->  dichtbij ==> bij
+   8:    1  ->  fietsbel ==> bel
+   9:    1  ->  gooien ==> goeien
+  10:    1  ->  hoofdpijn ==> hoofpijn
+  11:    1  ->  lawaai ==> lawai
+  12:    1  ->  liedje ==> belood
+  13:    1  ->  moeder ==> moedagnietje
+  14:    1  ->  potlood ==> fiets
+  15:    1  ->  scheuren*(schuren) ==> schuuren?
+  16:    1  ->  sneeuwen ==> neeuwen
+  17:    1  ->  verhaal ==> raal
+  18:    1  ->  vlinder ==> veender
+  19:    1  ->  water ==> weter
+  20:    1  ->  winkel ==> drogenwinkel
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  die
+   2:    1  ->  van
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  drogen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  *
+   2:    1  ->  *(sneeuw)
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  circus
+   6:    1  ->  cola
+   7:    1  ->  dichtbij
+   8:    1  ->  fietsbel
+   9:    1  ->  gooien
+  10:    1  ->  hoofdpijn
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  moeder
+  14:    1  ->  potlood
+  15:    1  ->  scheuren*(schuren)
+  16:    1  ->  sneeuwen
+  17:    1  ->  verhaal
+  18:    1  ->  vlinder
+  19:    1  ->  water
+  20:    1  ->  winkel
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  apul
+   2:    1  ->  ato
+   3:    1  ->  bel
+   4:    1  ->  belood
+   5:    1  ->  bij
+   6:    1  ->  drogenwinkel
+   7:    1  ->  fiets
+   8:    1  ->  goeien
+   9:    1  ->  hoofpijn
+  10:    1  ->  kola
+  11:    1  ->  lawai
+  12:    1  ->  moedagnietje
+  13:    1  ->  neeuwen
+  14:    1  ->  psirkeus
+  15:    1  ->  raal
+  16:    1  ->  schuuren?
+  17:    1  ->  snieuw
+  18:    1  ->  veender
+  19:    1  ->  vleen
+  20:    1  ->  weter
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

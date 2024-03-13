@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C006V8_2LG
+
+#### (S07C006V8_2LG-words)
+
+- Cor=6.7%	Sub=50.0%	Del=43.3%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | * | *s | mevrouw | *s | drogen*(droom) | winkel | auto | schouders | *s | verhaal | * | * | * | *(koningin) | moeilijk | moeilijk | *s | * | speelplaats | * | * | * | *s | drinken | *s | * | hoofdpijn | regen*(rennen) | *s | * | vliegtuig | *s | * | stoppen | opnieuw | gooien | gooien | sneeuwen | * | *s | sneeuwen | moeder | moeder | * | *s | fietsbel | * | fietsbel | *s | vinger | dichtbij | *s | * | dichtbij | meisje | chauffeur | * | *s | *s | muziek | waarom | waarom | * | *s | * | * | * | lawaai*(lauw) | zwemmen | vuurwerk | *s | * | vuurwerk | appel | *s | *s | kussen | * | eerste | circus | * | kleuren | voetbal | * | voetbal | vlinder | * | vlinder | *s |
+| HYP1 |  |  | mater | mevrouw |  | grouw | winkel | atol | schouder | schelder | verhaal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | m | kongingin | moilak | speelplaat | en | hoofd | pijn | vietag | topen | opnieuw |  |  |  |  |  |  | goie | goien | meele | moke | litje | leetje | potot | pat | lat | fitswel | ginge | tegen | mij | meisje |  |  |  |  |  |  |  |  |  |  | chauveur | chafan | lesek | um | gun | eren | venen | erk | appel |  |  |  |  |  | a | cla | isen | eerst | u | sisukus | serkes | luhm | vonal | vinden |
+| EVAL | D | D | S |  | D | S |  | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S |  | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

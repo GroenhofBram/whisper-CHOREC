@@ -31,7 +31,7 @@ def use_text_grids(tgt_file_name):
 
     # If there are missing start_times, append them to filtered_df_orthography
     if not missing_start_times.empty:
-        missing_start_times['text'] = "[ORTHOGRAPHY MISSING]"
+        missing_start_times['text'] = "*s"
         filtered_df_orthography = pd.concat([filtered_df_orthography, missing_start_times], ignore_index=True)
 
     tgt_df_repr = filtered_df_orthography.assign(prompt=list(tg_df_prompts['text']))

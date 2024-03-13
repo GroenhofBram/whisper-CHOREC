@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C017M8_1LGPseudo
+
+#### (S07C017M8_1LGPseudo-words)
+
+- Cor=4.4%	Sub=73.3%	Del=22.2%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | fook*(fok) | sooi | dau | ant | beeg | sprunt*(sport) | * | * | hool | larst | vout*(hout) | zwoei | * | * | fam | rachts | vaap | sprieuw | keng | * | swoers | doer*(boer) | plirt*(ploert) | jien | blard | guul | hoekt | neeuw*(nieuw) | noork | vid | zans | leum*(leem) | haans*(haas) | spaai | sjalt | heik | sank | roen | frijk | eem | schard | grek | dron | snaaf | stuid |
+| HYP1 | fok | soi | da | ant | beeg |  |  |  |  |  |  |  |  |  |  | sportpa | ar | ham | so | g | fa | ri | e | s | w | bo | loort | jjagg | nog | vet | zan | um | has | s | s | hiek | sankk | oen | freiken | a | rat | gert | tor | nof | stuit |
+| EVAL | S | S | S |  |  | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

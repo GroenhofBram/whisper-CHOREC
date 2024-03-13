@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.3%   (  41)
+
+Percent Correct           =    9.3%   (   4)
+
+Percent Substitution      =   90.7%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.7%   (   2)
+Percent Word Accuracy     =    4.7%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  45)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> poed
+   2:    1  ->  * ==> van
+   3:    1  ->  *t ==> e
+   4:    1  ->  bepoud ==> be
+   5:    1  ->  eemde ==> bij
+   6:    1  ->  fiewon ==> uwoon
+   7:    1  ->  foetbans ==> voetbans
+   8:    1  ->  gefouw ==> vetenfouw
+   9:    1  ->  grijnken ==> grenken
+  10:    1  ->  haweel ==> hawel
+  11:    1  ->  hiffreeuw ==> hifreeuw
+  12:    1  ->  ierpieuw ==> piem
+  13:    1  ->  ijpo ==> eppol
+  14:    1  ->  kloeien ==> klouen
+  15:    1  ->  kneurem ==> kneuren
+  16:    1  ->  menuur ==> denuur
+  17:    1  ->  millen ==> milen
+  18:    1  ->  milste ==> milster
+  19:    1  ->  muider ==> mader
+  20:    1  ->  nizung ==> musium
+  21:    1  ->  oonste ==> koonste
+  22:    1  ->  orponk ==> pochponk
+  23:    1  ->  orstalk ==> pouwd
+  24:    1  ->  prilsood ==> prilsort
+  25:    1  ->  saarweng ==> sarwen
+  26:    1  ->  schielstaug ==> schilstoug
+  27:    1  ->  schodig ==> schoorig
+  28:    1  ->  sjobel ==> ier
+  29:    1  ->  spreikje ==> sprijkjen
+  30:    1  ->  ulen ==> uden
+  31:    1  ->  vawaai ==> vawai
+  32:    1  ->  veten ==> borstalk
+  33:    1  ->  veurder ==> verder
+  34:    1  ->  vloender ==> vunder
+  35:    1  ->  vocil ==> voncil
+  36:    1  ->  vurpaand ==> vuurpand
+  37:    1  ->  walaan ==> wallaan
+  38:    1  ->  wooien ==> boien
+  39:    1  ->  zwieten ==> sweten
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  cobel
+   2:    1  ->  imde
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  *
+   2:    1  ->  *t
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  grijnken
+   9:    1  ->  haweel
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  oonste
+  21:    1  ->  orponk
+  22:    1  ->  orstalk
+  23:    1  ->  prilsood
+  24:    1  ->  saarweng
+  25:    1  ->  schielstaug
+  26:    1  ->  schodig
+  27:    1  ->  sjobel
+  28:    1  ->  spreikje
+  29:    1  ->  ulen
+  30:    1  ->  vawaai
+  31:    1  ->  veten
+  32:    1  ->  veurder
+  33:    1  ->  vloender
+  34:    1  ->  vocil
+  35:    1  ->  vurpaand
+  36:    1  ->  walaan
+  37:    1  ->  wooien
+  38:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  be
+   2:    1  ->  bij
+   3:    1  ->  boien
+   4:    1  ->  borstalk
+   5:    1  ->  denuur
+   6:    1  ->  e
+   7:    1  ->  eppol
+   8:    1  ->  grenken
+   9:    1  ->  hawel
+  10:    1  ->  hifreeuw
+  11:    1  ->  ier
+  12:    1  ->  klouen
+  13:    1  ->  kneuren
+  14:    1  ->  koonste
+  15:    1  ->  mader
+  16:    1  ->  milen
+  17:    1  ->  milster
+  18:    1  ->  musium
+  19:    1  ->  piem
+  20:    1  ->  pochponk
+  21:    1  ->  poed
+  22:    1  ->  pouwd
+  23:    1  ->  prilsort
+  24:    1  ->  sarwen
+  25:    1  ->  schilstoug
+  26:    1  ->  schoorig
+  27:    1  ->  sprijkjen
+  28:    1  ->  sweten
+  29:    1  ->  uden
+  30:    1  ->  uwoon
+  31:    1  ->  van
+  32:    1  ->  vawai
+  33:    1  ->  verder
+  34:    1  ->  vetenfouw
+  35:    1  ->  voetbans
+  36:    1  ->  voncil
+  37:    1  ->  vunder
+  38:    1  ->  vuurpand
+  39:    1  ->  wallaan
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

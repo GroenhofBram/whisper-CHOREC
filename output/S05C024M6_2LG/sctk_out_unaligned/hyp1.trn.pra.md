@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C024M6_2LG
+
+#### (S05C024M6_2LG-words)
+
+- Cor=53.2%	Sub=40.4%	Del=6.4%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | * | mevrouw | drogen | winkel | auto | * | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | * | vliegtuig | stoppen | opnieuw | gooien*(groeien) | sneeuwen | moeder | * | liedje | potlood | fietsbel | * | * | vinger | dichtbij | meisje | chauffeur | muziek | waarom | scheuren*(schuren) | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste*(eerst) | * | circus | kleuren | voetbal | vlinder |
+| HYP1 | watter | ver | mevrouw | drogen | winkel | ato | schoen | schouders | verhaal | koling | moeilijk | speelplaats | drinken | hoofdpijn |  | rigen | vliegvliegtuig | stoppen | opnieuw |  |  | groeien | neeren | moeter | li | litjer | potloot | fitpel | vinder | dichtbij | meisje | chauffeur | muziek | waarom | schuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | heerst | ké | serpus | kleuren | voetbal | vlinder |
+| EVAL | S | S |  |  |  | S | S |  |  | S |  |  |  |  | D | S | S |  |  | D | D | S | S | S | S | S | S | S | S |  |  |  |  |  | S |  |  |  |  |  |  | S | S | S |  |  |  |
+---
+
+---

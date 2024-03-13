@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.4%   (  47)
+
+Percent Correct           =   28.9%   (  13)
+
+Percent Substitution      =   68.9%   (  31)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =   33.3%   (  15)
+Percent Word Accuracy     =   -4.4%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  59)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> foa
+   2:    1  ->  * ==> fotodoulstel
+   3:    1  ->  * ==> lumonade
+   4:    1  ->  * ==> stoelen
+   5:    1  ->  autorijden ==> en
+   6:    1  ->  buurmannen ==> puurmannen
+   7:    1  ->  dierentuin ==> padden
+   8:    1  ->  eindelijk ==> delijk
+   9:    1  ->  elastiekje ==> direntuin
+  10:    1  ->  fototoestel ==> toilet
+  11:    1  ->  iedereen ==> schoenen
+  12:    1  ->  kabouter ==> je
+  13:    1  ->  knutselen ==> knoetsigen
+  14:    1  ->  konijnenhok ==> diber
+  15:    1  ->  limonade ==> atorellen
+  16:    1  ->  lucifer ==> usiver
+  17:    1  ->  nieuwsgierig ==> nieuwsnieuwsgierig
+  18:    1  ->  paddenstoelen ==> vast
+  19:    1  ->  poppenwagen ==> ted
+  20:    1  ->  ruziemaken ==> paden
+  21:    1  ->  schoenenwinkel ==> winkel
+  22:    1  ->  sneeuwwitje ==> witje
+  23:    1  ->  sprookjesboek ==> dan
+  24:    1  ->  tandenborstel ==> brussel
+  25:    1  ->  teddybeer ==> s
+  26:    1  ->  toiletpapier ==> papier
+  27:    1  ->  vakantie ==> lima
+  28:    1  ->  verstoppertje ==> oppertje
+  29:    1  ->  vogelkooi ==> vogelkoui
+  30:    1  ->  vrachtwagen ==> vachtwagen
+  31:    1  ->  washandje ==> isnee
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bok
+   2:    1  ->  edarhen
+   3:    1  ->  elastieke
+   4:    1  ->  fa
+   5:    1  ->  gozie
+   6:    1  ->  hengt
+   7:    1  ->  hok
+   8:    1  ->  kawater
+   9:    1  ->  konijnen
+  10:    1  ->  maken
+  11:    1  ->  poppen
+  12:    1  ->  sprokjes
+  13:    1  ->  vacanoté
+  14:    1  ->  wagen
+  15:    1  ->  wat
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  buurmannen
+   4:    1  ->  dierentuin
+   5:    1  ->  eindelijk
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  iedereen
+   9:    1  ->  kabouter
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  limonade
+  13:    1  ->  lucifer
+  14:    1  ->  nieuwsgierig
+  15:    1  ->  paddenstoelen
+  16:    1  ->  poppenwagen
+  17:    1  ->  ruziemaken
+  18:    1  ->  schoenenwinkel
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  toiletpapier
+  24:    1  ->  vakantie
+  25:    1  ->  verstoppertje
+  26:    1  ->  vogelkooi
+  27:    1  ->  vrachtwagen
+  28:    1  ->  washandje
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  atorellen
+   2:    1  ->  brussel
+   3:    1  ->  dan
+   4:    1  ->  delijk
+   5:    1  ->  diber
+   6:    1  ->  direntuin
+   7:    1  ->  en
+   8:    1  ->  foa
+   9:    1  ->  fotodoulstel
+  10:    1  ->  isnee
+  11:    1  ->  je
+  12:    1  ->  knoetsigen
+  13:    1  ->  lima
+  14:    1  ->  lumonade
+  15:    1  ->  nieuwsnieuwsgierig
+  16:    1  ->  oppertje
+  17:    1  ->  padden
+  18:    1  ->  paden
+  19:    1  ->  papier
+  20:    1  ->  puurmannen
+  21:    1  ->  s
+  22:    1  ->  schoenen
+  23:    1  ->  stoelen
+  24:    1  ->  ted
+  25:    1  ->  toilet
+  26:    1  ->  usiver
+  27:    1  ->  vachtwagen
+  28:    1  ->  vast
+  29:    1  ->  vogelkoui
+  30:    1  ->  winkel
+  31:    1  ->  witje
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

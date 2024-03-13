@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  59)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   93.2%   (  55)
+Percent Deletions         =    6.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  59)
+Hyp. words                =           (  55)
+Aligned words             =           (  59)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    3  ->  * ==> en
+   2:    1  ->  * ==> cener
+   3:    1  ->  * ==> ga
+   4:    1  ->  * ==> ginm
+   5:    1  ->  * ==> gre
+   6:    1  ->  * ==> honfedae
+   7:    1  ->  * ==> ja
+   8:    1  ->  * ==> ken
+   9:    1  ->  * ==> kon
+  10:    1  ->  * ==> l
+  11:    1  ->  * ==> lon
+  12:    1  ->  * ==> o
+  13:    1  ->  * ==> tog
+  14:    1  ->  * ==> u
+  15:    1  ->  * ==> uldu
+  16:    1  ->  * ==> vha
+  17:    1  ->  *s ==> hozie
+  18:    1  ->  appel*(appelen) ==> uh
+  19:    1  ->  auto ==> wast
+  20:    1  ->  chauffeur ==> mije
+  21:    1  ->  circus ==> ha
+  22:    1  ->  cola ==> a
+  23:    1  ->  dichtbij ==> enge
+  24:    1  ->  drinken ==> vre
+  25:    1  ->  eerste ==> kop
+  26:    1  ->  fietsbel ==> e
+  27:    1  ->  gooien ==> o
+  28:    1  ->  hoofdpijn ==> lik
+  29:    1  ->  kleuren ==> ertw
+  30:    1  ->  koning ==> win
+  31:    1  ->  kussen*(klussen) ==> em
+  32:    1  ->  lawaai ==> gde
+  33:    1  ->  liedje ==> e
+  34:    1  ->  meisje ==> ge
+  35:    1  ->  moeder ==> o
+  36:    1  ->  moeilijk ==> gul
+  37:    1  ->  muziek ==> ik
+  38:    1  ->  opnieuw ==> n
+  39:    1  ->  potlood ==> g
+  40:    1  ->  regen ==> sveel
+  41:    1  ->  scheuren ==> mom
+  42:    1  ->  schouders ==> nerva
+  43:    1  ->  sneeuwen ==> en
+  44:    1  ->  speelplaats ==> aoto
+  45:    1  ->  stoppen ==> o
+  46:    1  ->  verhaal ==> tero
+  47:    1  ->  vinger ==> el
+  48:    1  ->  vliegtuig ==> lat
+  49:    1  ->  vlinder ==> hoe
+  50:    1  ->  voetbal ==> kluh
+  51:    1  ->  vuurwerk ==> g
+  52:    1  ->  waarom ==> ar
+  53:    1  ->  zwemmen ==> i
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  drogen*(droog)
+   2:    1  ->  mevrouw
+   3:    1  ->  water*(wast)
+   4:    1  ->  winkel
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   18  ->  *
+   2:    1  ->  *s
+   3:    1  ->  appel*(appelen)
+   4:    1  ->  auto
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  cola
+   8:    1  ->  dichtbij
+   9:    1  ->  drinken
+  10:    1  ->  eerste
+  11:    1  ->  fietsbel
+  12:    1  ->  gooien
+  13:    1  ->  hoofdpijn
+  14:    1  ->  kleuren
+  15:    1  ->  koning
+  16:    1  ->  kussen*(klussen)
+  17:    1  ->  lawaai
+  18:    1  ->  liedje
+  19:    1  ->  meisje
+  20:    1  ->  moeder
+  21:    1  ->  moeilijk
+  22:    1  ->  muziek
+  23:    1  ->  opnieuw
+  24:    1  ->  potlood
+  25:    1  ->  regen
+  26:    1  ->  scheuren
+  27:    1  ->  schouders
+  28:    1  ->  sneeuwen
+  29:    1  ->  speelplaats
+  30:    1  ->  stoppen
+  31:    1  ->  verhaal
+  32:    1  ->  vinger
+  33:    1  ->  vliegtuig
+  34:    1  ->  vlinder
+  35:    1  ->  voetbal
+  36:    1  ->  vuurwerk
+  37:    1  ->  waarom
+  38:    1  ->  zwemmen
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  en
+   2:    4  ->  o
+   3:    2  ->  e
+   4:    2  ->  g
+   5:    1  ->  a
+   6:    1  ->  aoto
+   7:    1  ->  ar
+   8:    1  ->  cener
+   9:    1  ->  el
+  10:    1  ->  em
+  11:    1  ->  enge
+  12:    1  ->  ertw
+  13:    1  ->  ga
+  14:    1  ->  gde
+  15:    1  ->  ge
+  16:    1  ->  ginm
+  17:    1  ->  gre
+  18:    1  ->  gul
+  19:    1  ->  ha
+  20:    1  ->  hoe
+  21:    1  ->  honfedae
+  22:    1  ->  hozie
+  23:    1  ->  i
+  24:    1  ->  ik
+  25:    1  ->  ja
+  26:    1  ->  ken
+  27:    1  ->  kluh
+  28:    1  ->  kon
+  29:    1  ->  kop
+  30:    1  ->  l
+  31:    1  ->  lat
+  32:    1  ->  lik
+  33:    1  ->  lon
+  34:    1  ->  mije
+  35:    1  ->  mom
+  36:    1  ->  n
+  37:    1  ->  nerva
+  38:    1  ->  sveel
+  39:    1  ->  tero
+  40:    1  ->  tog
+  41:    1  ->  u
+  42:    1  ->  uh
+  43:    1  ->  uldu
+  44:    1  ->  vha
+  45:    1  ->  vre
+  46:    1  ->  wast
+  47:    1  ->  win
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

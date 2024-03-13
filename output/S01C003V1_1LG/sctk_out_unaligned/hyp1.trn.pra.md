@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C003V1_1LG
+
+#### (S01C003V1_1LG-words)
+
+- Cor=22.4%	Sub=65.3%	Del=4.1%	Ins=8.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | strand | bed*(ben) | eerst | voor |  | draai | sjaal | *x | *x | *x | *x | *x | duur | straat*(start) | hoek | krant | hout | vriend | gauw | chips | groen | feest |  | reis | jas | huis | paard | vijf |  |  | muts | nieuw | kind | bang | oog | *x | *x | schoen | plas | neus | knoop | plank | *s | *s |
+| HYP1 | klas | moi | koe | uhm | groey | stand | nen | eerst | voor | a | stra | herfst | herfst | di | start | kokio | nee | l | lan | houk | kent | hout | vreemd | gaal | ge | groen | feest | lis | ja | hij | is | art | vijf | nist | niel | kend | kan | o | as | moe | zacht | zacht | schoen | plas | niee | knoop |  |  | nalk |
+| EVAL |  | S |  | S | S | S | S |  |  | I | S | S | S | S | S | S | S | S | S | S | S |  | S | S | S |  |  | I | S | S | S | S |  | I | I | S | S | S | S | S | S | S |  |  | S |  | D | D | S |
+---
+
+---

@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  153.5%   (  66)
+
+Percent Correct           =    2.3%   (   1)
+
+Percent Substitution      =   97.7%   (  42)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   55.8%   (  24)
+Percent Word Accuracy     =  -53.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  67)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> boidolschouwer
+   2:    1  ->  * ==> jij
+   3:    1  ->  * ==> sev
+   4:    1  ->  blottenduuf ==> halder
+   5:    1  ->  choporatie ==> kril
+   6:    1  ->  crobeklunker ==> elkerleeen
+   7:    1  ->  deuveltek ==> niek
+   8:    1  ->  fandelig ==> fla
+   9:    1  ->  gerauwejaak ==> happen
+  10:    1  ->  gevijdel ==> napargeomantaro
+  11:    1  ->  girdofhaalder ==> toberboit
+  12:    1  ->  hapeneren ==> diren
+  13:    1  ->  havedil ==> gouwen
+  14:    1  ->  ijraspangen ==> do
+  15:    1  ->  jalekrewen ==> kaflagine
+  16:    1  ->  jattesiet ==> waiv
+  17:    1  ->  juitonie ==> verpirik
+  18:    1  ->  kabbestepen ==> s
+  19:    1  ->  kanaroe ==> nie
+  20:    1  ->  mantaroen ==> ooibeekje
+  21:    1  ->  meitsegrok ==> mijteo
+  22:    1  ->  nappegreeuw ==> verwarring
+  23:    1  ->  nurudien ==> sprikerai
+  24:    1  ->  ometuif ==> oni
+  25:    1  ->  ondermind ==> da
+  26:    1  ->  ooiebiekje ==> ché
+  27:    1  ->  oonwijlen ==> dov
+  28:    1  ->  poentalschouden ==> verbrakerijtje
+  29:    1  ->  schielendaspen ==> vandeli
+  30:    1  ->  sidowaan ==> ee
+  31:    1  ->  smoralij ==> kanagrou
+  32:    1  ->  spekkeraai ==> daen
+  33:    1  ->  stoenydaas ==> wachten
+  34:    1  ->  tobbermoeit ==> avedel
+  35:    1  ->  toejietsen ==> jevedel
+  36:    1  ->  toineetlijgen ==> ijgen
+  37:    1  ->  verbrakkertje ==> jaar
+  38:    1  ->  verpierik ==> kappeskepen
+  39:    1  ->  verwarig*(verwarring) ==> moralan
+  40:    1  ->  wachteniek ==> groeeen
+  41:    1  ->  zeekvlachine ==> doe
+  42:    1  ->  zennebral ==> krit
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  doe
+   2:    1  ->  a
+   3:    1  ->  aaf
+   4:    1  ->  attesiet
+   5:    1  ->  bral
+   6:    1  ->  ci
+   7:    1  ->  daars?
+   8:    1  ->  deuveltrk
+   9:    1  ->  dien
+  10:    1  ->  ispa
+  11:    1  ->  je
+  12:    1  ->  jesten
+  13:    1  ->  ji
+  14:    1  ->  jij
+  15:    1  ->  loton
+  16:    1  ->  met
+  17:    1  ->  nor
+  18:    1  ->  on
+  19:    1  ->  ondermidden
+  20:    1  ->  oporatie
+  21:    1  ->  sdoen
+  22:    1  ->  u
+  23:    1  ->  winen
+     -------
+        24
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  mantaroen
+  19:    1  ->  meitsegrok
+  20:    1  ->  nappegreeuw
+  21:    1  ->  nurudien
+  22:    1  ->  ometuif
+  23:    1  ->  ondermind
+  24:    1  ->  ooiebiekje
+  25:    1  ->  oonwijlen
+  26:    1  ->  poentalschouden
+  27:    1  ->  schielendaspen
+  28:    1  ->  sidowaan
+  29:    1  ->  smoralij
+  30:    1  ->  spekkeraai
+  31:    1  ->  stoenydaas
+  32:    1  ->  tobbermoeit
+  33:    1  ->  toejietsen
+  34:    1  ->  toineetlijgen
+  35:    1  ->  verbrakkertje
+  36:    1  ->  verpierik
+  37:    1  ->  verwarig*(verwarring)
+  38:    1  ->  wachteniek
+  39:    1  ->  zeekvlachine
+  40:    1  ->  zennebral
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  avedel
+   2:    1  ->  boidolschouwer
+   3:    1  ->  ché
+   4:    1  ->  da
+   5:    1  ->  daen
+   6:    1  ->  diren
+   7:    1  ->  do
+   8:    1  ->  doe
+   9:    1  ->  dov
+  10:    1  ->  ee
+  11:    1  ->  elkerleeen
+  12:    1  ->  fla
+  13:    1  ->  gouwen
+  14:    1  ->  groeeen
+  15:    1  ->  halder
+  16:    1  ->  happen
+  17:    1  ->  ijgen
+  18:    1  ->  jaar
+  19:    1  ->  jevedel
+  20:    1  ->  jij
+  21:    1  ->  kaflagine
+  22:    1  ->  kanagrou
+  23:    1  ->  kappeskepen
+  24:    1  ->  kril
+  25:    1  ->  krit
+  26:    1  ->  mijteo
+  27:    1  ->  moralan
+  28:    1  ->  napargeomantaro
+  29:    1  ->  nie
+  30:    1  ->  niek
+  31:    1  ->  oni
+  32:    1  ->  ooibeekje
+  33:    1  ->  s
+  34:    1  ->  sev
+  35:    1  ->  sprikerai
+  36:    1  ->  toberboit
+  37:    1  ->  vandeli
+  38:    1  ->  verbrakerijtje
+  39:    1  ->  verpirik
+  40:    1  ->  verwarring
+  41:    1  ->  wachten
+  42:    1  ->  waiv
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

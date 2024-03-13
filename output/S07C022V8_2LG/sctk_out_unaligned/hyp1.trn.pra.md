@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C022V8_2LG
+
+#### (S07C022V8_2LG-words)
+
+- Cor=27.3%	Sub=63.6%	Del=2.3%	Ins=6.8%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  | water | mevrouw | drogen | winkel | auto | schouders | verhaal | koning | moeilijk | speelplaats | drinken | hoofdpijn | regen | vliegtuig | stoppen | opnieuw | gooien | sneeuwen | moeder |  |  | * | liedje | potlood | fietsbel | vinger | dichtbij | meisje | chauffeur | muziek | waarom | scheuren | lawaai | zwemmen | vuurwerk | appel | cola | kussen | eerste | circus | kleuren | voetbal | vlinder*(vinder) |
+| HYP1 | hute | me | vrouw | droogenvenu | kerl | ato | scheldars | varhaal | conin | moilok | speerplats | denken | hoofdpijn | regen | vliegtuig | stopen | opnieuw | gooien | sneeupen | moeder | ne | niet | je | pokloot | fits | be | vinar | dichtbij | meisje | a | muziek | waarom? | sheuren | lawai | slin | vuurwerk | appel |  | kola | buseneerste | tirtus | kleuren | voorbel | vinda |
+| EVAL | I | S | S | S | S | S | S | S | S | S | S | S |  |  |  | S |  |  | S |  | I | I | S | S | S | S | S |  |  | S |  | S | S | S | S |  |  | D | S | S | S |  | S | S |
+---
+
+---

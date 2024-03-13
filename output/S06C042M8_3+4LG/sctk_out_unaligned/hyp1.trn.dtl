@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.2%   (  21)
+
+Percent Correct           =   65.9%   (  27)
+
+Percent Substitution      =   34.1%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   17.1%   (   7)
+Percent Word Accuracy     =   48.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  48)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  * ==> num
+   2:    1  ->  autorijden ==> rejden
+   3:    1  ->  buurmannen*(buurman) ==> buurman
+   4:    1  ->  elastiekje ==> lastiekje
+   5:    1  ->  goeiendag ==> goeiedag
+   6:    1  ->  knutselen ==> klutselen
+   7:    1  ->  konijnenhok ==> de
+   8:    1  ->  limonade ==> uite
+   9:    1  ->  lucifer ==> lisjever
+  10:    1  ->  poppenwagen ==> hoek
+  11:    1  ->  sneeuwwitje ==> snejwietje
+  12:    1  ->  sprookjesboek ==> spruikjesboek
+  13:    1  ->  teddybeer ==> weer
+  14:    1  ->  toiletpapier ==> toilectpapier
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  de
+   2:    1  ->  deddi
+   3:    1  ->  een
+   4:    1  ->  in
+   5:    1  ->  jumonade
+   6:    1  ->  konijn
+   7:    1  ->  poepenwaken
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  elastiekje
+   5:    1  ->  goeiendag
+   6:    1  ->  knutselen
+   7:    1  ->  konijnenhok
+   8:    1  ->  limonade
+   9:    1  ->  lucifer
+  10:    1  ->  poppenwagen
+  11:    1  ->  sneeuwwitje
+  12:    1  ->  sprookjesboek
+  13:    1  ->  teddybeer
+  14:    1  ->  toiletpapier
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  buurman
+   2:    1  ->  de
+   3:    1  ->  goeiedag
+   4:    1  ->  hoek
+   5:    1  ->  klutselen
+   6:    1  ->  lastiekje
+   7:    1  ->  lisjever
+   8:    1  ->  num
+   9:    1  ->  rejden
+  10:    1  ->  snejwietje
+  11:    1  ->  spruikjesboek
+  12:    1  ->  toilectpapier
+  13:    1  ->  uite
+  14:    1  ->  weer
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

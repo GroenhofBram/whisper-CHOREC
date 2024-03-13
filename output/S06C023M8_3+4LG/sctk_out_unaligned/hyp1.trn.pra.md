@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C023M8_3+4LG
+
+#### (S06C023M8_3+4LG-words)
+
+- Cor=14.1%	Sub=57.8%	Del=0.0%	Ins=28.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | omdraaien |  |  |  |  |  | poppenwagen | konijnenhok*(konijnhok) | elastiekje | * | ruziemaken | teddybeer | dierentuin | paddenstoelen | verstoppertje | wasmachine | fototoestel | toiletpapier | vrachtwagen |  | buurmannen | * | vogelkooi | olifant |  | * | *(schoon) | *(middelen) | iedereen | schoenenwinkel*(schoenwinkel) | knutselen | ophangen | verjaardag | sprookjesboek |  |  | tandenborstel | lucifer | slaapkamer |  |  |  |  |  |  |  |  | achterdeur | ziekenhuis | * | *s | afblijven | * | kabouter | washandje | sneeuwwitje | goeiendag | vakantie |  | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | omdraaien | poponwagen | konijnhook | elistikje | ausi | maken | taddiber | delen | tuin | papden | stoel | en | verstoppertja | wasmachina | votor | toestel | toilet | papier | vrachtwagen | buurman | voa | vohol | koi | olifant | scho | schoon | midelen | idereen | schoon | winkel | knitelen | opa | verjaardag | sprookjesboek | dan | de | borstel | luciver | slaapkamer | achtder | deur | schiek | en | has | nim | nieuwsgierig | nieuwsgierig | afblijft | vin | kbouter | was | hantjer | snee | hoe | weetjer | ggoeien | dag | vakantie | li | monada | autorijden | endelijk | familie | shocolater |
+| EVAL |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S | S |  | I | S | S | S | S | S | S | S |  |  | I | I | S | S |  | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S |  | I | S |  | S |  | S |
+---
+
+---

@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   91.5%   (  43)
+
+Percent Correct           =   17.0%   (   8)
+
+Percent Substitution      =   83.0%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    8.5%   (   4)
+Percent Word Accuracy     =    8.5%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  51)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> gefiechd
+   2:    1  ->  * ==> kneuren
+   3:    1  ->  * ==> sk
+   4:    1  ->  * ==> stag
+   5:    1  ->  * ==> switen
+   6:    1  ->  * ==> uld
+   7:    1  ->  * ==> vosil
+   8:    1  ->  bepoud ==> orts
+   9:    1  ->  eemde ==> bevpotv
+  10:    1  ->  fiewon ==> van
+  11:    1  ->  foetbans ==> s
+  12:    1  ->  geutel ==> schyobel
+  13:    1  ->  gevicht ==> himde
+  14:    1  ->  grijnken ==> grijken
+  15:    1  ->  haweel ==> wenc
+  16:    1  ->  hiffreeuw ==> hifareo
+  17:    1  ->  ierpieuw ==> piel
+  18:    1  ->  ijpo ==> eppo
+  19:    1  ->  kneurem ==> wai
+  20:    1  ->  menuur ==> mijnuur
+  21:    1  ->  millen ==> vo
+  22:    1  ->  muider ==> marder
+  23:    1  ->  nizung ==> fiuon
+  24:    1  ->  oonste*(oosten) ==> ooster
+  25:    1  ->  orstalk ==> taalkv
+  26:    1  ->  prilsood ==> brilsoot
+  27:    1  ->  saarweng ==> gea
+  28:    1  ->  schielstaug ==> schilsta
+  29:    1  ->  schodig ==> schondig
+  30:    1  ->  sjobel ==> ier
+  31:    1  ->  spreikje ==> sprejkje
+  32:    1  ->  strellen ==> siets
+  33:    1  ->  vawaai ==> sterrelun
+  34:    1  ->  veten*(venten) ==> vintlv
+  35:    1  ->  vloender ==> vlunder
+  36:    1  ->  vocil ==> gitel
+  37:    1  ->  vurpaand ==> wiu
+  38:    1  ->  walaan ==> wallaan
+  39:    1  ->  zwieten ==> voetbal
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hawel
+   2:    1  ->  milen
+   3:    1  ->  sar
+   4:    1  ->  vuurpaand
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    7  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  geutel
+   7:    1  ->  gevicht
+   8:    1  ->  grijnken
+   9:    1  ->  haweel
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kneurem
+  14:    1  ->  menuur
+  15:    1  ->  millen
+  16:    1  ->  muider
+  17:    1  ->  nizung
+  18:    1  ->  oonste*(oosten)
+  19:    1  ->  orstalk
+  20:    1  ->  prilsood
+  21:    1  ->  saarweng
+  22:    1  ->  schielstaug
+  23:    1  ->  schodig
+  24:    1  ->  sjobel
+  25:    1  ->  spreikje
+  26:    1  ->  strellen
+  27:    1  ->  vawaai
+  28:    1  ->  veten*(venten)
+  29:    1  ->  vloender
+  30:    1  ->  vocil
+  31:    1  ->  vurpaand
+  32:    1  ->  walaan
+  33:    1  ->  zwieten
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  bevpotv
+   2:    1  ->  brilsoot
+   3:    1  ->  eppo
+   4:    1  ->  fiuon
+   5:    1  ->  gea
+   6:    1  ->  gefiechd
+   7:    1  ->  gitel
+   8:    1  ->  grijken
+   9:    1  ->  hifareo
+  10:    1  ->  himde
+  11:    1  ->  ier
+  12:    1  ->  kneuren
+  13:    1  ->  marder
+  14:    1  ->  mijnuur
+  15:    1  ->  ooster
+  16:    1  ->  orts
+  17:    1  ->  piel
+  18:    1  ->  s
+  19:    1  ->  schilsta
+  20:    1  ->  schondig
+  21:    1  ->  schyobel
+  22:    1  ->  siets
+  23:    1  ->  sk
+  24:    1  ->  sprejkje
+  25:    1  ->  stag
+  26:    1  ->  sterrelun
+  27:    1  ->  switen
+  28:    1  ->  taalkv
+  29:    1  ->  uld
+  30:    1  ->  van
+  31:    1  ->  vintlv
+  32:    1  ->  vlunder
+  33:    1  ->  vo
+  34:    1  ->  voetbal
+  35:    1  ->  vosil
+  36:    1  ->  wai
+  37:    1  ->  wallaan
+  38:    1  ->  wenc
+  39:    1  ->  wiu
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

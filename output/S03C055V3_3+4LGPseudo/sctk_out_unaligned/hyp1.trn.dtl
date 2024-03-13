@@ -1,0 +1,222 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  140.4%   (  66)
+
+Percent Correct           =    4.3%   (   2)
+
+Percent Substitution      =   95.7%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   44.7%   (  21)
+Percent Word Accuracy     =  -40.4%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  68)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> hetoni
+   2:    1  ->  * ==> ka
+   3:    1  ->  * ==> ne
+   4:    1  ->  * ==> ooie
+   5:    1  ->  * ==> te
+   6:    1  ->  * ==> tobermoeit
+   7:    1  ->  * ==> toi
+   8:    1  ->  blottenduuf ==> der
+   9:    1  ->  choporatie ==> duuf
+  10:    1  ->  crobeklunker ==> sa
+  11:    1  ->  deuveltek ==> duivel
+  12:    1  ->  fandelig ==> ennie
+  13:    1  ->  gerauwejaak ==> yaq
+  14:    1  ->  gevijdel ==> ggeveidel
+  15:    1  ->  girdofhaalder ==> bontanschouder
+  16:    1  ->  hapeneren ==> hapenren
+  17:    1  ->  havedil ==> verbracerte
+  18:    1  ->  ijraspangen ==> haal
+  19:    1  ->  jalekrewen ==> kane
+  20:    1  ->  jattesiet ==> siet
+  21:    1  ->  juitonie ==> dik
+  22:    1  ->  kabbestepen ==> smorallan
+  23:    1  ->  kanaroe ==> toi
+  24:    1  ->  kantelogsten ==> kandesten
+  25:    1  ->  mantaroen ==> jalik
+  26:    1  ->  meitsegrok ==> netzegrook
+  27:    1  ->  nappegreeuw ==> famlien
+  28:    1  ->  nurudien ==> nuredeen
+  29:    1  ->  ometuif ==> e
+  30:    1  ->  ooiebiekje ==> vlag
+  31:    1  ->  oonwijlen ==> ja
+  32:    1  ->  poentalschouden ==> deel
+  33:    1  ->  schielendaspen ==> schreeuwen
+  34:    1  ->  sidowaan ==> citowan
+  35:    1  ->  smoralij ==> naar
+  36:    1  ->  spekkeraai ==> spikerai
+  37:    1  ->  stoenydaas ==> stounedaas
+  38:    1  ->  tobbermoeit ==> fen
+  39:    1  ->  toejietsen ==> jead
+  40:    1  ->  toineetlijgen ==> kligen
+  41:    1  ->  verbrakkertje ==> gerae
+  42:    1  ->  verpierik ==> biekja
+  43:    1  ->  verwarig ==> seik
+  44:    1  ->  zeekvlachine ==> roe
+  45:    1  ->  zennebral ==> gerdo
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  arapangen
+   2:    1  ->  benree
+   3:    1  ->  choparacé
+   4:    1  ->  clumper
+   5:    1  ->  cwe
+   6:    1  ->  daspin
+   7:    1  ->  de
+   8:    1  ->  denebral
+   9:    1  ->  derpirik
+  10:    1  ->  doeiet
+  11:    1  ->  kabeskepen
+  12:    1  ->  kommetaf
+  13:    1  ->  kon
+  14:    1  ->  man
+  15:    1  ->  na
+  16:    1  ->  plotten
+  17:    1  ->  schelen
+  18:    1  ->  taron
+  19:    1  ->  u
+  20:    1  ->  verwaring
+  21:    1  ->  vierper
+     -------
+        21
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    7  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ooiebiekje
+  25:    1  ->  oonwijlen
+  26:    1  ->  poentalschouden
+  27:    1  ->  schielendaspen
+  28:    1  ->  sidowaan
+  29:    1  ->  smoralij
+  30:    1  ->  spekkeraai
+  31:    1  ->  stoenydaas
+  32:    1  ->  tobbermoeit
+  33:    1  ->  toejietsen
+  34:    1  ->  toineetlijgen
+  35:    1  ->  verbrakkertje
+  36:    1  ->  verpierik
+  37:    1  ->  verwarig
+  38:    1  ->  zeekvlachine
+  39:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  toi
+   2:    1  ->  biekja
+   3:    1  ->  bontanschouder
+   4:    1  ->  citowan
+   5:    1  ->  deel
+   6:    1  ->  der
+   7:    1  ->  dik
+   8:    1  ->  duivel
+   9:    1  ->  duuf
+  10:    1  ->  e
+  11:    1  ->  ennie
+  12:    1  ->  famlien
+  13:    1  ->  fen
+  14:    1  ->  gerae
+  15:    1  ->  gerdo
+  16:    1  ->  ggeveidel
+  17:    1  ->  haal
+  18:    1  ->  hapenren
+  19:    1  ->  hetoni
+  20:    1  ->  ja
+  21:    1  ->  jalik
+  22:    1  ->  jead
+  23:    1  ->  ka
+  24:    1  ->  kandesten
+  25:    1  ->  kane
+  26:    1  ->  kligen
+  27:    1  ->  naar
+  28:    1  ->  ne
+  29:    1  ->  netzegrook
+  30:    1  ->  nuredeen
+  31:    1  ->  ooie
+  32:    1  ->  roe
+  33:    1  ->  sa
+  34:    1  ->  schreeuwen
+  35:    1  ->  seik
+  36:    1  ->  siet
+  37:    1  ->  smorallan
+  38:    1  ->  spikerai
+  39:    1  ->  stounedaas
+  40:    1  ->  te
+  41:    1  ->  tobermoeit
+  42:    1  ->  verbracerte
+  43:    1  ->  vlag
+  44:    1  ->  yaq
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

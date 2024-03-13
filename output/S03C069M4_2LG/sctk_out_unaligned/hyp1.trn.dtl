@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  16)
+
+Percent Correct           =   62.5%   (  25)
+
+Percent Substitution      =   37.5%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  cola ==> coola
+   2:    1  ->  dichtbij ==> dicgtbel
+   3:    1  ->  hoofdpijn ==> hoofdpan
+   4:    1  ->  liedje ==> leedje
+   5:    1  ->  meisje ==> wasje
+   6:    1  ->  mevrouw ==> vrouw
+   7:    1  ->  moeilijk ==> woerijk
+   8:    1  ->  potlood ==> potlout
+   9:    1  ->  regen ==> dreigen
+  10:    1  ->  schouders ==> scholders
+  11:    1  ->  sneeuwen ==> snieuwen
+  12:    1  ->  verhaal ==> vooraal
+  13:    1  ->  vlinder ==> vliende
+  14:    1  ->  vuurwerk ==> schuurwerk
+  15:    1  ->  zwemmen ==> swemmen
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  me
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  cola
+   2:    1  ->  dichtbij
+   3:    1  ->  hoofdpijn
+   4:    1  ->  liedje
+   5:    1  ->  meisje
+   6:    1  ->  mevrouw
+   7:    1  ->  moeilijk
+   8:    1  ->  potlood
+   9:    1  ->  regen
+  10:    1  ->  schouders
+  11:    1  ->  sneeuwen
+  12:    1  ->  verhaal
+  13:    1  ->  vlinder
+  14:    1  ->  vuurwerk
+  15:    1  ->  zwemmen
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  coola
+   2:    1  ->  dicgtbel
+   3:    1  ->  dreigen
+   4:    1  ->  hoofdpan
+   5:    1  ->  leedje
+   6:    1  ->  potlout
+   7:    1  ->  scholders
+   8:    1  ->  schuurwerk
+   9:    1  ->  snieuwen
+  10:    1  ->  swemmen
+  11:    1  ->  vliende
+  12:    1  ->  vooraal
+  13:    1  ->  vrouw
+  14:    1  ->  wasje
+  15:    1  ->  woerijk
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

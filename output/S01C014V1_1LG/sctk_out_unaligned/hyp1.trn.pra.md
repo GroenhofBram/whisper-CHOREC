@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C014V1_1LG
+
+#### (S01C014V1_1LG-words)
+
+- Cor=27.7%	Sub=61.7%	Del=8.5%	Ins=2.1%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  | klas | mooi | koe | arm | * | groei | * | * | strand | bed | eerst | voor | draai | sjaal | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang | bang | oog | zacht | *(school) | schoen | plas | neus | knoop | plank |
+| HYP1 | i | was | moi | ko | arm |  |  | gou | grooi | sstrand | bed | eerst | voor |  | trein | sjaal | hest | duur | strat | de | kron | hoek | kramt | houd | vrien | ga | purps | sroen | voost | ruys | jas | es | paard | vijf |  | nutt | o | kend | dang | oog | zacht | schoon | schoen | las | nes | op | lan |
+| EVAL | I | S | S | S |  | D | D | S | S | S |  |  |  | D | S |  | S |  | S | S | S |  | S | S | S | S | S | S | S | S |  | S |  |  | D | S | S | S | S |  |  | S |  | S | S | S | S |
+---
+
+---

@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   83.3%   (  35)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   33.3%   (  14)
+Percent Word Accuracy     =   16.7%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  56)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  chocolade ==> chocolada
+   2:    1  ->  dierentuin ==> stoelen
+   3:    1  ->  elastiekje ==> dieren
+   4:    1  ->  elastiekje ==> weer
+   5:    1  ->  iedereen ==> schoenwinkel
+   6:    1  ->  kabouter ==> kaboter
+   7:    1  ->  knutselen ==> zulln
+   8:    1  ->  konijnenhok ==> die
+   9:    1  ->  olifant ==> onifant
+  10:    1  ->  paddenstoelen ==> vorstopbort
+  11:    1  ->  ruziemaken ==> taan
+  12:    1  ->  schoenenwinkel*(schoenwinkel) ==> knut
+  13:    1  ->  sneeuwwitje ==> sneewietje
+  14:    1  ->  tandenborstel ==> borstel
+  15:    1  ->  teddybeer ==> padden
+  16:    1  ->  toiletpapier ==> papier
+  17:    1  ->  verstoppertje ==> ja
+  18:    1  ->  vogelkooi ==> vogokooi
+  19:    1  ->  vrachtwagen ==> vra
+  20:    1  ->  washandje ==> wasandje
+  21:    1  ->  ziekenhuis ==> inhuis
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  conijnen
+   2:    1  ->  dan
+   3:    1  ->  dat
+   4:    1  ->  de
+   5:    1  ->  e
+   6:    1  ->  eh
+   7:    1  ->  hok
+   8:    1  ->  ireen
+   9:    1  ->  lastiqja
+  10:    1  ->  maken
+  11:    1  ->  ruzie
+  12:    1  ->  tohal
+  13:    1  ->  ut
+  14:    1  ->  ziek
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  elastiekje
+   2:    1  ->  chocolade
+   3:    1  ->  dierentuin
+   4:    1  ->  iedereen
+   5:    1  ->  kabouter
+   6:    1  ->  knutselen
+   7:    1  ->  konijnenhok
+   8:    1  ->  olifant
+   9:    1  ->  paddenstoelen
+  10:    1  ->  ruziemaken
+  11:    1  ->  schoenenwinkel*(schoenwinkel)
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  tandenborstel
+  14:    1  ->  teddybeer
+  15:    1  ->  toiletpapier
+  16:    1  ->  verstoppertje
+  17:    1  ->  vogelkooi
+  18:    1  ->  vrachtwagen
+  19:    1  ->  washandje
+  20:    1  ->  ziekenhuis
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  borstel
+   2:    1  ->  chocolada
+   3:    1  ->  die
+   4:    1  ->  dieren
+   5:    1  ->  inhuis
+   6:    1  ->  ja
+   7:    1  ->  kaboter
+   8:    1  ->  knut
+   9:    1  ->  onifant
+  10:    1  ->  padden
+  11:    1  ->  papier
+  12:    1  ->  schoenwinkel
+  13:    1  ->  sneewietje
+  14:    1  ->  stoelen
+  15:    1  ->  taan
+  16:    1  ->  vogokooi
+  17:    1  ->  vorstopbort
+  18:    1  ->  vra
+  19:    1  ->  wasandje
+  20:    1  ->  weer
+  21:    1  ->  zulln
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

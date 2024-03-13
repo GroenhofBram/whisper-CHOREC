@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.2%   (  19)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   28.6%   (  12)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   14.3%   (   6)
+Percent Word Accuracy     =   54.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  47)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> ex
+   2:    1  ->  elastiekje ==> jastikier
+   3:    1  ->  goeiendag ==> dag
+   4:    1  ->  iedereen ==> derijn
+   5:    1  ->  konijnenhok ==> de
+   6:    1  ->  limonade ==> lumonaden
+   7:    1  ->  olifant ==> oorlifant
+   8:    1  ->  schoenenwinkel*(schoenwinkel) ==> schoenwinkel
+   9:    1  ->  sneeuwwitje ==> goeie
+  10:    1  ->  teddybeer ==> deddyber
+  11:    1  ->  washandje ==> sneewwietje
+  12:    1  ->  ziekenhuis ==> weekenhuis
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  handje
+   2:    1  ->  he
+   3:    1  ->  het
+   4:    1  ->  hook
+   5:    1  ->  konijnen
+   6:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  *
+   2:    1  ->  elastiekje
+   3:    1  ->  goeiendag
+   4:    1  ->  iedereen
+   5:    1  ->  konijnenhok
+   6:    1  ->  limonade
+   7:    1  ->  olifant
+   8:    1  ->  schoenenwinkel*(schoenwinkel)
+   9:    1  ->  sneeuwwitje
+  10:    1  ->  teddybeer
+  11:    1  ->  washandje
+  12:    1  ->  ziekenhuis
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  dag
+   2:    1  ->  de
+   3:    1  ->  deddyber
+   4:    1  ->  derijn
+   5:    1  ->  ex
+   6:    1  ->  goeie
+   7:    1  ->  jastikier
+   8:    1  ->  lumonaden
+   9:    1  ->  oorlifant
+  10:    1  ->  schoenwinkel
+  11:    1  ->  sneewwietje
+  12:    1  ->  weekenhuis
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

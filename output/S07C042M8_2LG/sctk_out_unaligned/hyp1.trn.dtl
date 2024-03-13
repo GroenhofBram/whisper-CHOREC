@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.9%   (  27)
+
+Percent Correct           =   48.1%   (  25)
+
+Percent Substitution      =   46.2%   (  24)
+Percent Deletions         =    5.8%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   48.1%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  49)
+Aligned words             =           (  52)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> bij
+   2:    1  ->  * ==> chasfeur
+   3:    1  ->  * ==> dicht
+   4:    1  ->  * ==> drongendronn
+   5:    1  ->  * ==> flie
+   6:    1  ->  * ==> haf
+   7:    1  ->  * ==> kirkus
+   8:    1  ->  * ==> meervouw
+   9:    1  ->  * ==> mot
+  10:    1  ->  * ==> schouw
+  11:    1  ->  * ==> voorwerk
+  12:    1  ->  *(koningin) ==> h
+  13:    1  ->  appel ==> oppel
+  14:    1  ->  chauffeur ==> nu
+  15:    1  ->  koning ==> konikonniet
+  16:    1  ->  lawaai ==> wlawaai
+  17:    1  ->  liedje ==> iliga
+  18:    1  ->  muziek ==> k
+  19:    1  ->  potlood ==> potlot
+  20:    1  ->  schouders ==> schauders
+  21:    1  ->  verhaal ==> serhal
+  22:    1  ->  vinger ==> zinger
+  23:    1  ->  vlinder ==> flinder
+  24:    1  ->  winkel ==> winke
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  mevrouw
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   11  ->  *
+   2:    1  ->  *(koningin)
+   3:    1  ->  appel
+   4:    1  ->  chauffeur
+   5:    1  ->  koning
+   6:    1  ->  lawaai
+   7:    1  ->  liedje
+   8:    1  ->  muziek
+   9:    1  ->  potlood
+  10:    1  ->  schouders
+  11:    1  ->  verhaal
+  12:    1  ->  vinger
+  13:    1  ->  vlinder
+  14:    1  ->  winkel
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  bij
+   2:    1  ->  chasfeur
+   3:    1  ->  dicht
+   4:    1  ->  drongendronn
+   5:    1  ->  flie
+   6:    1  ->  flinder
+   7:    1  ->  h
+   8:    1  ->  haf
+   9:    1  ->  iliga
+  10:    1  ->  k
+  11:    1  ->  kirkus
+  12:    1  ->  konikonniet
+  13:    1  ->  meervouw
+  14:    1  ->  mot
+  15:    1  ->  nu
+  16:    1  ->  oppel
+  17:    1  ->  potlot
+  18:    1  ->  schauders
+  19:    1  ->  schouw
+  20:    1  ->  serhal
+  21:    1  ->  voorwerk
+  22:    1  ->  winke
+  23:    1  ->  wlawaai
+  24:    1  ->  zinger
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

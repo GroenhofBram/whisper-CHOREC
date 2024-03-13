@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C027M8_2LGPseudo
+
+#### (S06C027M8_2LGPseudo-words)
+
+- Cor=2.3%	Sub=93.2%	Del=0.0%	Ins=4.5%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel | sjobel | ierpieuw | walaan |  |  | erke | haweel | saarweng | gevicht | eemde | bepoud | orstalk | * | veten*(vetten) | gefouw | vurpaand | nizung | fiewon | kneurem | vawaai | strellen*(stelen) | zwieten | foetbans | oonste | muider*(muiter) | grijnken | schielstaug | prilsood | vloender | milste | * | veurder | kloeien | ulen*(uilen) | orponk | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 | meelen | vliegk | juttel | jopel | urpeniew | walaan | ecker | hawel | sawen | vin | dict | hemte | epput | rookstalk | venvetten | kouwen | vuurpande | nizich | feen | kneren | waen | stijlen | sweten | fotbast | onste | metter | krijgken | jildag | prilloost | voelder | micheld | krer | verder | kloien | uilen | oorpolken | schoudicg | jopo | nen | nuur | sprekken | u | breew | woenv |
+| EVAL | S | S | S | S | S |  | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

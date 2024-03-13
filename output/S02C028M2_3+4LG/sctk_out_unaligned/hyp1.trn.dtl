@@ -1,0 +1,217 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  134.0%   (  67)
+
+Percent Correct           =   12.0%   (   6)
+
+Percent Substitution      =   88.0%   (  44)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   46.0%   (  23)
+Percent Word Accuracy     =  -34.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  73)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  * ==> die
+   2:    1  ->  * ==> en
+   3:    1  ->  * ==> hus
+   4:    1  ->  * ==> kamer
+   5:    1  ->  * ==> papier
+   6:    1  ->  * ==> tuim
+   7:    1  ->  * ==> vejar
+   8:    1  ->  * ==> voege
+   9:    1  ->  * ==> vrachtwegen
+  10:    1  ->  * ==> weer
+  11:    1  ->  achterdeur ==> deur
+  12:    1  ->  afblijven ==> washan
+  13:    1  ->  autorijden ==> ende
+  14:    1  ->  buurmannen ==> voog
+  15:    1  ->  chocolade ==> de
+  16:    1  ->  dierentuin ==> ma
+  17:    1  ->  eindelijk ==> lujk
+  18:    1  ->  elastiekje ==> wattentoelen
+  19:    1  ->  fototoestel ==> padroilet
+  20:    1  ->  kabouter ==> ki
+  21:    1  ->  knutselen ==> sprogboek
+  22:    1  ->  konijnenhok ==> dieren
+  23:    1  ->  limonade ==> altoreden
+  24:    1  ->  lucifer ==> ssslaaps
+  25:    1  ->  omdraaien ==> maken
+  26:    1  ->  ophangen ==> tan
+  27:    1  ->  paddenstoelen ==> chinh
+  28:    1  ->  poppenwagen ==> dij
+  29:    1  ->  ruziemaken ==> vanstopertia
+  30:    1  ->  schoenenwinkel ==> da
+  31:    1  ->  schommelen ==> en
+  32:    1  ->  slaapkamer*(kamer) ==> achder
+  33:    1  ->  sneeuwwitje ==> wei
+  34:    1  ->  sprookjesboek ==> borstel
+  35:    1  ->  tandenborstel ==> lukifer
+  36:    1  ->  teddybeer ==> was
+  37:    1  ->  toiletpapier ==> buurman
+  38:    1  ->  verjaardag ==> den
+  39:    1  ->  verstoppertje ==> vototoustel
+  40:    1  ->  vogelkooi ==> kooi
+  41:    1  ->  vrachtwagen ==> men
+  42:    1  ->  washandje ==> sne
+  43:    1  ->  wasmachine ==> olet
+  44:    1  ->  ziekenhuis ==> ziek
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  schoen
+   2:    1  ->  buleven
+   3:    1  ->  cocola
+   4:    1  ->  dragen
+   5:    1  ->  en
+   6:    1  ->  enwegen
+   7:    1  ->  ikje
+   8:    1  ->  knetelen
+   9:    1  ->  kon
+  10:    1  ->  laat
+  11:    1  ->  lemonade
+  12:    1  ->  nee
+  13:    1  ->  nenhook
+  14:    1  ->  nijn
+  15:    1  ->  om
+  16:    1  ->  ophan
+  17:    1  ->  ov
+  18:    1  ->  poe
+  19:    1  ->  rabalker
+  20:    1  ->  ruzie
+  21:    1  ->  schomel
+  22:    1  ->  winkel
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:   10  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  chocolade
+   7:    1  ->  dierentuin
+   8:    1  ->  eindelijk
+   9:    1  ->  elastiekje
+  10:    1  ->  fototoestel
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  omdraaien
+  17:    1  ->  ophangen
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  schommelen
+  23:    1  ->  slaapkamer*(kamer)
+  24:    1  ->  sneeuwwitje
+  25:    1  ->  sprookjesboek
+  26:    1  ->  tandenborstel
+  27:    1  ->  teddybeer
+  28:    1  ->  toiletpapier
+  29:    1  ->  verjaardag
+  30:    1  ->  verstoppertje
+  31:    1  ->  vogelkooi
+  32:    1  ->  vrachtwagen
+  33:    1  ->  washandje
+  34:    1  ->  wasmachine
+  35:    1  ->  ziekenhuis
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  en
+   2:    1  ->  achder
+   3:    1  ->  altoreden
+   4:    1  ->  borstel
+   5:    1  ->  buurman
+   6:    1  ->  chinh
+   7:    1  ->  da
+   8:    1  ->  de
+   9:    1  ->  den
+  10:    1  ->  deur
+  11:    1  ->  die
+  12:    1  ->  dieren
+  13:    1  ->  dij
+  14:    1  ->  ende
+  15:    1  ->  hus
+  16:    1  ->  kamer
+  17:    1  ->  ki
+  18:    1  ->  kooi
+  19:    1  ->  lujk
+  20:    1  ->  lukifer
+  21:    1  ->  ma
+  22:    1  ->  maken
+  23:    1  ->  men
+  24:    1  ->  olet
+  25:    1  ->  padroilet
+  26:    1  ->  papier
+  27:    1  ->  sne
+  28:    1  ->  sprogboek
+  29:    1  ->  ssslaaps
+  30:    1  ->  tan
+  31:    1  ->  tuim
+  32:    1  ->  vanstopertia
+  33:    1  ->  vejar
+  34:    1  ->  voege
+  35:    1  ->  voog
+  36:    1  ->  vototoustel
+  37:    1  ->  vrachtwegen
+  38:    1  ->  was
+  39:    1  ->  washan
+  40:    1  ->  wattentoelen
+  41:    1  ->  weer
+  42:    1  ->  wei
+  43:    1  ->  ziek
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.4%   (  27)
+
+Percent Correct           =   44.7%   (  21)
+
+Percent Substitution      =   46.8%   (  22)
+Percent Deletions         =    8.5%   (   4)
+Percent Insertions        =    2.1%   (   1)
+Percent Word Accuracy     =   42.6%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  44)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> circus
+   2:    1  ->  * ==> hoe
+   3:    1  ->  * ==> kcircus
+   4:    1  ->  * ==> waarom?
+   5:    1  ->  appel ==> apel
+   6:    1  ->  cola*(chocola) ==> chocola
+   7:    1  ->  dichtbij*(dichterbij) ==> bij
+   8:    1  ->  drogen ==> droegen
+   9:    1  ->  fietsbel ==> winver
+  10:    1  ->  gooien ==> voien
+  11:    1  ->  kussen ==> kuzen
+  12:    1  ->  meisje ==> mese
+  13:    1  ->  moeilijk ==> moelijk
+  14:    1  ->  muziek ==> jaufen
+  15:    1  ->  potlood ==> vetwel
+  16:    1  ->  regen ==> regenn
+  17:    1  ->  scheuren ==> shuran
+  18:    1  ->  schouders ==> schouwder
+  19:    1  ->  sneeuwen ==> neuen
+  20:    1  ->  vinger ==> difter
+  21:    1  ->  voetbal ==> woedmal
+  22:    1  ->  waarom ==> hoeziek?
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  potloot
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    4  ->  *
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  *
+   2:    1  ->  appel
+   3:    1  ->  cola*(chocola)
+   4:    1  ->  dichtbij*(dichterbij)
+   5:    1  ->  drogen
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  kussen
+   9:    1  ->  meisje
+  10:    1  ->  moeilijk
+  11:    1  ->  muziek
+  12:    1  ->  potlood
+  13:    1  ->  regen
+  14:    1  ->  scheuren
+  15:    1  ->  schouders
+  16:    1  ->  sneeuwen
+  17:    1  ->  vinger
+  18:    1  ->  voetbal
+  19:    1  ->  waarom
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  apel
+   2:    1  ->  bij
+   3:    1  ->  chocola
+   4:    1  ->  circus
+   5:    1  ->  difter
+   6:    1  ->  droegen
+   7:    1  ->  hoe
+   8:    1  ->  hoeziek?
+   9:    1  ->  jaufen
+  10:    1  ->  kcircus
+  11:    1  ->  kuzen
+  12:    1  ->  mese
+  13:    1  ->  moelijk
+  14:    1  ->  neuen
+  15:    1  ->  regenn
+  16:    1  ->  schouwder
+  17:    1  ->  shuran
+  18:    1  ->  vetwel
+  19:    1  ->  voien
+  20:    1  ->  waarom?
+  21:    1  ->  winver
+  22:    1  ->  woedmal
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

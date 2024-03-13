@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C007M8_1LG
+
+#### (S07C007M8_1LG-words)
+
+- Cor=37.5%	Sub=50.0%	Del=8.3%	Ins=4.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm |  | groei | strand | bed | eerst | voor |  | draai | sjaal | herfst | herfst | duur | straat | leeuw | clown | clown | clown | hoek | krant | hout | vriend | gauw*(houw) | *(houw) | chips | groen | feest | reis | jas | huis | paard | vijf | muts | nieuw | kind | bang*(tang) | * | oog | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koe | arm | goei | te | gant | bet | eerst | voor | tgai | sal | erg | fst | ergenst | duur | g | leeuw |  |  | klan | hoek | gant | hout |  |  | vreemd | halscheep | koon | feest | hest | jas | hs | bacht | vijf | moest | nee | kind | daan | dan | oa | oog | zacht | schoen | tlas | neus | knoot | lan |
+| EVAL |  |  |  |  | I | S | S | S |  |  | I | S | S | S | S |  | S |  | D | D | S |  | S |  | D | D | S | S | S |  | S |  | S | S |  | S | S |  | S | S | S |  |  |  | S |  | S | S |
+---
+
+---

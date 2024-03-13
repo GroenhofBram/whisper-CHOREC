@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.0%   (  13)
+
+Percent Correct           =   69.0%   (  29)
+
+Percent Substitution      =   31.0%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> kla
+   2:    1  ->  chips ==> schips
+   3:    1  ->  clown ==> kloun
+   4:    1  ->  gauw ==> gaw
+   5:    1  ->  groei ==> grooi
+   6:    1  ->  huis ==> hus
+   7:    1  ->  jas ==> jos
+   8:    1  ->  knoop ==> knoep
+   9:    1  ->  koe ==> ko
+  10:    1  ->  paard ==> part
+  11:    1  ->  reis ==> res
+  12:    1  ->  strand ==> strad
+  13:    1  ->  vijf ==> vef
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  *
+   2:    1  ->  chips
+   3:    1  ->  clown
+   4:    1  ->  gauw
+   5:    1  ->  groei
+   6:    1  ->  huis
+   7:    1  ->  jas
+   8:    1  ->  knoop
+   9:    1  ->  koe
+  10:    1  ->  paard
+  11:    1  ->  reis
+  12:    1  ->  strand
+  13:    1  ->  vijf
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  gaw
+   2:    1  ->  grooi
+   3:    1  ->  hus
+   4:    1  ->  jos
+   5:    1  ->  kla
+   6:    1  ->  kloun
+   7:    1  ->  knoep
+   8:    1  ->  ko
+   9:    1  ->  part
+  10:    1  ->  res
+  11:    1  ->  schips
+  12:    1  ->  strad
+  13:    1  ->  vef
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

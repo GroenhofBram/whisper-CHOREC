@@ -1,0 +1,247 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  141.0%   (  86)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  61)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   41.0%   (  25)
+Percent Word Accuracy     =  -41.0%
+
+
+Ref. words                =           (  61)
+Hyp. words                =           (  86)
+Aligned words             =           (  86)
+
+CONFUSION PAIRS                  Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    1  ->  * ==> buulden
+   2:    1  ->  * ==> copo
+   3:    1  ->  * ==> cundel
+   4:    1  ->  * ==> dal
+   5:    1  ->  * ==> delli
+   6:    1  ->  * ==> die
+   7:    1  ->  * ==> du
+   8:    1  ->  * ==> duf
+   9:    1  ->  * ==> en
+  10:    1  ->  * ==> endorminden
+  11:    1  ->  * ==> gan
+  12:    1  ->  * ==> girdof
+  13:    1  ->  * ==> hadti
+  14:    1  ->  * ==> havel
+  15:    1  ->  * ==> iaspannie
+  16:    1  ->  * ==> ja
+  17:    1  ->  * ==> jaler
+  18:    1  ->  * ==> kanur
+  19:    1  ->  * ==> ke
+  20:    1  ->  * ==> kreuen
+  21:    1  ->  * ==> legen
+  22:    1  ->  * ==> losten
+  23:    1  ->  * ==> male
+  24:    1  ->  * ==> ne
+  25:    1  ->  * ==> neem
+  26:    1  ->  * ==> nek
+  27:    1  ->  * ==> obeke
+  28:    1  ->  * ==> s
+  29:    1  ->  * ==> san
+  30:    1  ->  * ==> sergen
+  31:    1  ->  * ==> tepen
+  32:    1  ->  * ==> wachten
+  33:    1  ->  * ==> zinde
+  34:    1  ->  choporatie ==> mot
+  35:    1  ->  deuveltek ==> rom
+  36:    1  ->  fandelig ==> o
+  37:    1  ->  gerauwejaak ==> en
+  38:    1  ->  gevijdel ==> daspin
+  39:    1  ->  girdofhaalder ==> verkra
+  40:    1  ->  hapeneren ==> il
+  41:    1  ->  havedil ==> jak
+  42:    1  ->  ijraspangen ==> vontalschaaden
+  43:    1  ->  jattesiet ==> greuwe
+  44:    1  ->  juitonie ==> schilen
+  45:    1  ->  kabbestepen ==> zee
+  46:    1  ->  kantelogsten ==> fader
+  47:    1  ->  nurudien ==> manter
+  48:    1  ->  ondermind ==> tober
+  49:    1  ->  oonwijlen ==> napei
+  50:    1  ->  poentalschouden ==> gaael
+  51:    1  ->  schielendaspen ==> ja
+  52:    1  ->  sidowaan ==> kruh
+  53:    1  ->  smoralij ==> mestufrok
+  54:    1  ->  spekkeraai ==> uh
+  55:    1  ->  stoenydaas ==> ro
+  56:    1  ->  tobbermoeit ==> der
+  57:    1  ->  toejietsen ==> peurik
+  58:    1  ->  verbrakkertje ==> hop
+  59:    1  ->  verpierik ==> kades
+  60:    1  ->  verwarig*(verwarring) ==> vlog
+  61:    1  ->  zennebral ==> voontals
+     -------
+        61
+
+
+
+INSERTIONS                       Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  cidoan
+   2:    1  ->  das
+   3:    1  ->  day
+   4:    1  ->  din
+   5:    1  ->  en
+   6:    1  ->  et
+   7:    1  ->  f
+   8:    1  ->  gevelden
+   9:    1  ->  jat
+  10:    1  ->  je
+  11:    1  ->  jij
+  12:    1  ->  juist
+  13:    1  ->  nerrut
+  14:    1  ->  om
+  15:    1  ->  on
+  16:    1  ->  sprekerray
+  17:    1  ->  ste
+  18:    1  ->  stoon
+  19:    1  ->  suit
+  20:    1  ->  tack
+  21:    1  ->  te
+  22:    1  ->  toe
+  23:    1  ->  toni
+  24:    1  ->  vel
+  25:    1  ->  wel
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:   33  ->  *
+   2:    1  ->  choporatie
+   3:    1  ->  deuveltek
+   4:    1  ->  fandelig
+   5:    1  ->  gerauwejaak
+   6:    1  ->  gevijdel
+   7:    1  ->  girdofhaalder
+   8:    1  ->  hapeneren
+   9:    1  ->  havedil
+  10:    1  ->  ijraspangen
+  11:    1  ->  jattesiet
+  12:    1  ->  juitonie
+  13:    1  ->  kabbestepen
+  14:    1  ->  kantelogsten
+  15:    1  ->  nurudien
+  16:    1  ->  ondermind
+  17:    1  ->  oonwijlen
+  18:    1  ->  poentalschouden
+  19:    1  ->  schielendaspen
+  20:    1  ->  sidowaan
+  21:    1  ->  smoralij
+  22:    1  ->  spekkeraai
+  23:    1  ->  stoenydaas
+  24:    1  ->  tobbermoeit
+  25:    1  ->  toejietsen
+  26:    1  ->  verbrakkertje
+  27:    1  ->  verpierik
+  28:    1  ->  verwarig*(verwarring)
+  29:    1  ->  zennebral
+     -------
+        61
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  en
+   2:    2  ->  ja
+   3:    1  ->  buulden
+   4:    1  ->  copo
+   5:    1  ->  cundel
+   6:    1  ->  dal
+   7:    1  ->  daspin
+   8:    1  ->  delli
+   9:    1  ->  der
+  10:    1  ->  die
+  11:    1  ->  du
+  12:    1  ->  duf
+  13:    1  ->  endorminden
+  14:    1  ->  fader
+  15:    1  ->  gaael
+  16:    1  ->  gan
+  17:    1  ->  girdof
+  18:    1  ->  greuwe
+  19:    1  ->  hadti
+  20:    1  ->  havel
+  21:    1  ->  hop
+  22:    1  ->  iaspannie
+  23:    1  ->  il
+  24:    1  ->  jak
+  25:    1  ->  jaler
+  26:    1  ->  kades
+  27:    1  ->  kanur
+  28:    1  ->  ke
+  29:    1  ->  kreuen
+  30:    1  ->  kruh
+  31:    1  ->  legen
+  32:    1  ->  losten
+  33:    1  ->  male
+  34:    1  ->  manter
+  35:    1  ->  mestufrok
+  36:    1  ->  mot
+  37:    1  ->  napei
+  38:    1  ->  ne
+  39:    1  ->  neem
+  40:    1  ->  nek
+  41:    1  ->  o
+  42:    1  ->  obeke
+  43:    1  ->  peurik
+  44:    1  ->  ro
+  45:    1  ->  rom
+  46:    1  ->  s
+  47:    1  ->  san
+  48:    1  ->  schilen
+  49:    1  ->  sergen
+  50:    1  ->  tepen
+  51:    1  ->  tober
+  52:    1  ->  uh
+  53:    1  ->  verkra
+  54:    1  ->  vlog
+  55:    1  ->  vontalschaaden
+  56:    1  ->  voontals
+  57:    1  ->  wachten
+  58:    1  ->  zee
+  59:    1  ->  zinde
+     -------
+        61
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

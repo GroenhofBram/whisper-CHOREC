@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.0%   (  16)
+
+Percent Correct           =   70.7%   (  29)
+
+Percent Substitution      =   29.3%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    9.8%   (   4)
+Percent Word Accuracy     =   61.0%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  45)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> nieuwsschrij
+   2:    1  ->  afblijven ==> afblaven
+   3:    1  ->  elastiekje ==> reuzie
+   4:    1  ->  knutselen ==> knoetselen
+   5:    1  ->  konijnenhok ==> telastiekje
+   6:    1  ->  poppenwagen ==> ook
+   7:    1  ->  ruziemaken ==> maken
+   8:    1  ->  schoenenwinkel ==> winkel
+   9:    1  ->  sneeuwwitje ==> sneeuwwiedje
+  10:    1  ->  teddybeer ==> teddibeir
+  11:    1  ->  vogelkooi ==> vorgelkoay
+  12:    1  ->  ziekenhuis ==> zekenuis
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  conijnen
+   2:    1  ->  poppen
+   3:    1  ->  schoene
+   4:    1  ->  wagen
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  elastiekje
+   4:    1  ->  knutselen
+   5:    1  ->  konijnenhok
+   6:    1  ->  poppenwagen
+   7:    1  ->  ruziemaken
+   8:    1  ->  schoenenwinkel
+   9:    1  ->  sneeuwwitje
+  10:    1  ->  teddybeer
+  11:    1  ->  vogelkooi
+  12:    1  ->  ziekenhuis
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  afblaven
+   2:    1  ->  knoetselen
+   3:    1  ->  maken
+   4:    1  ->  nieuwsschrij
+   5:    1  ->  ook
+   6:    1  ->  reuzie
+   7:    1  ->  sneeuwwiedje
+   8:    1  ->  teddibeir
+   9:    1  ->  telastiekje
+  10:    1  ->  vorgelkoay
+  11:    1  ->  winkel
+  12:    1  ->  zekenuis
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

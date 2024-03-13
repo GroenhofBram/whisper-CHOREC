@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C008M8_2LG
+
+#### (S07C008M8_2LG-words)
+
+- Cor=4.4%	Sub=53.3%	Del=42.2%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | *s | mevrouw | drogen | * | *(dogen) | *s | * | winkel | auto | *s | * | * | * | *s | * | * | * | verhaal | koning | moeilijk | * | *s | * | * | moeilijk | speelplaats | * | * | speelplaats | drinken | drinken | hoofdpijn | * | * | * | regen*(eigen) | vliegtuig | * | * | * | *s | * | * | * | *(stampen) | opnieuw | * | gooien | sneeuwen | * | sneeuwen | moeder | moeder | liedje | *s | potlood | potlood | potlood | fietsbel | vinger | * | *s | *s | dichtbij | meisje | chauffeur | * | muziek | waarom | scheuren | lawaai | lawaai | zwemmen | vuurwerk | appel | appel | cola | *s | * | eerste | eerste | * | *s | * | kleuren | voetbal | *s | vlinder*(vrienden) |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | gaddaar? | we | vragen | ja | dgen | mink | alto | kans | fa | knee | a | speelplaats |  |  |  |  |  |  |  |  |  |  |  |  |  | dan | hoeft | veel | hoof | um | uen | standunt | denen | gooen | sneewen | note | j | j | e | a | potloud | fiedspin | vinger |  |  |  | sina | tis | pi | sha | gafe | nusiek | waarm | suren | laway | zwemmen |  | zuurwerk | appel |  |  | seel | ku | kuen | a | sta | semen | knurgen | voetdal | freem | en? |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | S | S | S | S | S | S | S | S | S |  | D | S |  | D | D | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   80.5%   (  33)
+
+Percent Correct           =   19.5%   (   8)
+
+Percent Substitution      =   80.5%   (  33)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   19.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> sre
+   2:    1  ->  blard ==> plart
+   3:    1  ->  dau ==> kaal
+   4:    1  ->  dron ==> troon
+   5:    1  ->  eem ==> éém
+   6:    1  ->  fook ==> fok
+   7:    1  ->  frijk ==> vrek
+   8:    1  ->  grek ==> grik
+   9:    1  ->  guul ==> gil
+  10:    1  ->  haans ==> han
+  11:    1  ->  heik ==> hek
+  12:    1  ->  hool ==> gool
+  13:    1  ->  jien ==> jeen
+  14:    1  ->  larst ==> warst
+  15:    1  ->  leum ==> lum
+  16:    1  ->  neeuw ==> neel
+  17:    1  ->  noork ==> nort
+  18:    1  ->  rachts ==> racht
+  19:    1  ->  roen ==> goen
+  20:    1  ->  schard ==> shart
+  21:    1  ->  sjalt ==> sjilt
+  22:    1  ->  snaaf ==> snaf
+  23:    1  ->  sooi ==> soy
+  24:    1  ->  spaai ==> spai
+  25:    1  ->  sprieuw ==> spril
+  26:    1  ->  sprunt ==> sprint
+  27:    1  ->  stuid ==> staat
+  28:    1  ->  swoers ==> swoors
+  29:    1  ->  vaap ==> faap
+  30:    1  ->  vid ==> vit
+  31:    1  ->  vout ==> fout
+  32:    1  ->  zans ==> sans
+  33:    1  ->  zwoei ==> sooi
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  dron
+   5:    1  ->  eem
+   6:    1  ->  fook
+   7:    1  ->  frijk
+   8:    1  ->  grek
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  larst
+  15:    1  ->  leum
+  16:    1  ->  neeuw
+  17:    1  ->  noork
+  18:    1  ->  rachts
+  19:    1  ->  roen
+  20:    1  ->  schard
+  21:    1  ->  sjalt
+  22:    1  ->  snaaf
+  23:    1  ->  sooi
+  24:    1  ->  spaai
+  25:    1  ->  sprieuw
+  26:    1  ->  sprunt
+  27:    1  ->  stuid
+  28:    1  ->  swoers
+  29:    1  ->  vaap
+  30:    1  ->  vid
+  31:    1  ->  vout
+  32:    1  ->  zans
+  33:    1  ->  zwoei
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  faap
+   2:    1  ->  fok
+   3:    1  ->  fout
+   4:    1  ->  gil
+   5:    1  ->  goen
+   6:    1  ->  gool
+   7:    1  ->  grik
+   8:    1  ->  han
+   9:    1  ->  hek
+  10:    1  ->  jeen
+  11:    1  ->  kaal
+  12:    1  ->  lum
+  13:    1  ->  neel
+  14:    1  ->  nort
+  15:    1  ->  plart
+  16:    1  ->  racht
+  17:    1  ->  sans
+  18:    1  ->  shart
+  19:    1  ->  sjilt
+  20:    1  ->  snaf
+  21:    1  ->  sooi
+  22:    1  ->  soy
+  23:    1  ->  spai
+  24:    1  ->  spril
+  25:    1  ->  sprint
+  26:    1  ->  sre
+  27:    1  ->  staat
+  28:    1  ->  swoors
+  29:    1  ->  troon
+  30:    1  ->  vit
+  31:    1  ->  vrek
+  32:    1  ->  warst
+  33:    1  ->  éém
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

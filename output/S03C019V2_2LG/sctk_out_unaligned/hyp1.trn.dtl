@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   54.8%   (  23)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   45.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  44)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *(eerst) ==> eerst
+   2:    1  ->  *(schuren) ==> schuren
+   3:    1  ->  appel ==> apel
+   4:    1  ->  dichtbij ==> dusba
+   5:    1  ->  drinken ==> drienken
+   6:    1  ->  drogen*(droog) ==> droog
+   7:    1  ->  fietsbel ==> ging
+   8:    1  ->  gooien ==> moder
+   9:    1  ->  hoofdpijn ==> hooftpijn
+  10:    1  ->  kussen ==> kusen
+  11:    1  ->  liedje ==> fot
+  12:    1  ->  mevrouw ==> vrouw
+  13:    1  ->  moeder ==> potlod
+  14:    1  ->  muziek ==> musiek
+  15:    1  ->  potlood ==> al
+  16:    1  ->  sneeuwen ==> lida
+  17:    1  ->  stoppen ==> toppen
+  18:    1  ->  vinger ==> w
+  19:    1  ->  vlinder ==> vienden
+  20:    1  ->  vuurwerk ==> vierwerk
+  21:    1  ->  zwemmen ==> zijnden
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  goien
+   2:    1  ->  snieuwen
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *(eerst)
+   2:    1  ->  *(schuren)
+   3:    1  ->  appel
+   4:    1  ->  dichtbij
+   5:    1  ->  drinken
+   6:    1  ->  drogen*(droog)
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kussen
+  11:    1  ->  liedje
+  12:    1  ->  mevrouw
+  13:    1  ->  moeder
+  14:    1  ->  muziek
+  15:    1  ->  potlood
+  16:    1  ->  sneeuwen
+  17:    1  ->  stoppen
+  18:    1  ->  vinger
+  19:    1  ->  vlinder
+  20:    1  ->  vuurwerk
+  21:    1  ->  zwemmen
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  al
+   2:    1  ->  apel
+   3:    1  ->  drienken
+   4:    1  ->  droog
+   5:    1  ->  dusba
+   6:    1  ->  eerst
+   7:    1  ->  fot
+   8:    1  ->  ging
+   9:    1  ->  hooftpijn
+  10:    1  ->  kusen
+  11:    1  ->  lida
+  12:    1  ->  moder
+  13:    1  ->  musiek
+  14:    1  ->  potlod
+  15:    1  ->  schuren
+  16:    1  ->  toppen
+  17:    1  ->  vienden
+  18:    1  ->  vierwerk
+  19:    1  ->  vrouw
+  20:    1  ->  w
+  21:    1  ->  zijnden
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.8%   (  22)
+
+Percent Correct           =   53.2%   (  25)
+
+Percent Substitution      =   40.4%   (  19)
+Percent Deletions         =    6.4%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.2%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  44)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> fitpel
+   2:    1  ->  * ==> ké
+   3:    1  ->  * ==> neeren
+   4:    1  ->  * ==> potloot
+   5:    1  ->  * ==> rigen
+   6:    1  ->  * ==> schoen
+   7:    1  ->  * ==> ver
+   8:    1  ->  auto ==> ato
+   9:    1  ->  circus ==> serpus
+  10:    1  ->  eerste*(eerst) ==> heerst
+  11:    1  ->  fietsbel ==> litjer
+  12:    1  ->  koning ==> koling
+  13:    1  ->  liedje ==> moeter
+  14:    1  ->  moeder ==> groeien
+  15:    1  ->  potlood ==> li
+  16:    1  ->  scheuren*(schuren) ==> schuren
+  17:    1  ->  vinger ==> vinder
+  18:    1  ->  vliegtuig ==> vliegvliegtuig
+  19:    1  ->  water ==> watter
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  gooien*(groeien)
+   2:    1  ->  regen
+   3:    1  ->  sneeuwen
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    7  ->  *
+   2:    1  ->  auto
+   3:    1  ->  circus
+   4:    1  ->  eerste*(eerst)
+   5:    1  ->  fietsbel
+   6:    1  ->  koning
+   7:    1  ->  liedje
+   8:    1  ->  moeder
+   9:    1  ->  potlood
+  10:    1  ->  scheuren*(schuren)
+  11:    1  ->  vinger
+  12:    1  ->  vliegtuig
+  13:    1  ->  water
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  ato
+   2:    1  ->  fitpel
+   3:    1  ->  groeien
+   4:    1  ->  heerst
+   5:    1  ->  koling
+   6:    1  ->  ké
+   7:    1  ->  li
+   8:    1  ->  litjer
+   9:    1  ->  moeter
+  10:    1  ->  neeren
+  11:    1  ->  potloot
+  12:    1  ->  rigen
+  13:    1  ->  schoen
+  14:    1  ->  schuren
+  15:    1  ->  serpus
+  16:    1  ->  ver
+  17:    1  ->  vinder
+  18:    1  ->  vliegvliegtuig
+  19:    1  ->  watter
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

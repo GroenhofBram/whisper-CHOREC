@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.2%   (  30)
+
+Percent Correct           =   26.8%   (  11)
+
+Percent Substitution      =   70.7%   (  29)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   26.8%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> van
+   2:    1  ->  blard ==> delart
+   3:    1  ->  dau ==> dal
+   4:    1  ->  doer ==> door
+   5:    1  ->  dron ==> droom
+   6:    1  ->  eem ==> één
+   7:    1  ->  fam*(fan) ==> zwoe
+   8:    1  ->  frijk ==> frek
+   9:    1  ->  grek ==> grik
+  10:    1  ->  haans ==> hans
+  11:    1  ->  heik ==> heck
+  12:    1  ->  hool ==> hooi
+  13:    1  ->  jien ==> meen
+  14:    1  ->  keng ==> king
+  15:    1  ->  leum ==> lun
+  16:    1  ->  neeuw ==> neouw
+  17:    1  ->  plirt ==> pleert
+  18:    1  ->  rachts ==> rigracht
+  19:    1  ->  roen ==> bloen
+  20:    1  ->  schard ==> schart
+  21:    1  ->  snaaf ==> snaf
+  22:    1  ->  spaai ==> stpay
+  23:    1  ->  sprieuw ==> spreew
+  24:    1  ->  stuid ==> staat
+  25:    1  ->  swoers ==> swoor
+  26:    1  ->  vaap ==> vap
+  27:    1  ->  vid ==> vit
+  28:    1  ->  zans ==> thans
+  29:    1  ->  zwoei ==> fout
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  vout*(fout)
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  *
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam*(fan)
+   8:    1  ->  frijk
+   9:    1  ->  grek
+  10:    1  ->  haans
+  11:    1  ->  heik
+  12:    1  ->  hool
+  13:    1  ->  jien
+  14:    1  ->  keng
+  15:    1  ->  leum
+  16:    1  ->  neeuw
+  17:    1  ->  plirt
+  18:    1  ->  rachts
+  19:    1  ->  roen
+  20:    1  ->  schard
+  21:    1  ->  snaaf
+  22:    1  ->  spaai
+  23:    1  ->  sprieuw
+  24:    1  ->  stuid
+  25:    1  ->  swoers
+  26:    1  ->  vaap
+  27:    1  ->  vid
+  28:    1  ->  zans
+  29:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  bloen
+   2:    1  ->  dal
+   3:    1  ->  delart
+   4:    1  ->  door
+   5:    1  ->  droom
+   6:    1  ->  fout
+   7:    1  ->  frek
+   8:    1  ->  grik
+   9:    1  ->  hans
+  10:    1  ->  heck
+  11:    1  ->  hooi
+  12:    1  ->  king
+  13:    1  ->  lun
+  14:    1  ->  meen
+  15:    1  ->  neouw
+  16:    1  ->  pleert
+  17:    1  ->  rigracht
+  18:    1  ->  schart
+  19:    1  ->  snaf
+  20:    1  ->  spreew
+  21:    1  ->  staat
+  22:    1  ->  stpay
+  23:    1  ->  swoor
+  24:    1  ->  thans
+  25:    1  ->  van
+  26:    1  ->  vap
+  27:    1  ->  vit
+  28:    1  ->  zwoe
+  29:    1  ->  één
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

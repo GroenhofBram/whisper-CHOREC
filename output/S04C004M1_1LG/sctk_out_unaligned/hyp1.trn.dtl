@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.5%   (  58)
+
+Percent Correct           =    6.5%   (   4)
+
+Percent Substitution      =   48.4%   (  30)
+Percent Deletions         =   45.2%   (  28)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    6.5%
+
+
+Ref. words                =           (  62)
+Hyp. words                =           (  34)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  *s ==> and
+   2:    1  ->  *s ==> doer
+   3:    1  ->  *s ==> groe
+   4:    1  ->  *s ==> ho
+   5:    1  ->  *s ==> hus
+   6:    1  ->  *s ==> ias
+   7:    1  ->  *s ==> j
+   8:    1  ->  *s ==> joda
+   9:    1  ->  *s ==> krand
+  10:    1  ->  *s ==> las
+  11:    1  ->  *s ==> n
+  12:    1  ->  *s ==> s
+  13:    1  ->  *s ==> stern
+  14:    1  ->  *s ==> vrienden
+  15:    1  ->  *s ==> wal
+  16:    1  ->  bang ==> dan
+  17:    1  ->  bed ==> oe
+  18:    1  ->  duur ==> an
+  19:    1  ->  eerst ==> ewor
+  20:    1  ->  gauw ==> had
+  21:    1  ->  groen ==> ips
+  22:    1  ->  herfst ==> a
+  23:    1  ->  hout ==> lan
+  24:    1  ->  kind ==> ja
+  25:    1  ->  knoop ==> mneer
+  26:    1  ->  muts ==> ros
+  27:    1  ->  neus ==> zaghoenn
+  28:    1  ->  plank ==> lank
+  29:    1  ->  strand ==> las
+  30:    1  ->  vriend*(vrienden) ==> hoed
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   11  ->  *s
+   2:    1  ->  arm
+   3:    1  ->  draai
+   4:    1  ->  groei
+   5:    1  ->  hoek
+   6:    1  ->  huis
+   7:    1  ->  jas
+   8:    1  ->  klas
+   9:    1  ->  koe
+  10:    1  ->  krant
+  11:    1  ->  leeuw
+  12:    1  ->  mooi
+  13:    1  ->  paard
+  14:    1  ->  plas
+  15:    1  ->  reis
+  16:    1  ->  schoen
+  17:    1  ->  sjaal
+  18:    1  ->  vijf
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   15  ->  *s
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  duur
+   5:    1  ->  eerst
+   6:    1  ->  gauw
+   7:    1  ->  groen
+   8:    1  ->  herfst
+   9:    1  ->  hout
+  10:    1  ->  kind
+  11:    1  ->  knoop
+  12:    1  ->  muts
+  13:    1  ->  neus
+  14:    1  ->  plank
+  15:    1  ->  strand
+  16:    1  ->  vriend*(vrienden)
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  las
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  dan
+   6:    1  ->  doer
+   7:    1  ->  ewor
+   8:    1  ->  groe
+   9:    1  ->  had
+  10:    1  ->  ho
+  11:    1  ->  hoed
+  12:    1  ->  hus
+  13:    1  ->  ias
+  14:    1  ->  ips
+  15:    1  ->  j
+  16:    1  ->  ja
+  17:    1  ->  joda
+  18:    1  ->  krand
+  19:    1  ->  lan
+  20:    1  ->  lank
+  21:    1  ->  mneer
+  22:    1  ->  n
+  23:    1  ->  oe
+  24:    1  ->  ros
+  25:    1  ->  s
+  26:    1  ->  stern
+  27:    1  ->  vrienden
+  28:    1  ->  wal
+  29:    1  ->  zaghoenn
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

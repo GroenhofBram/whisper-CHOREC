@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C015M8_2LGPseudo
+
+#### (S07C015M8_2LGPseudo-words)
+
+- Cor=4.2%	Sub=81.2%	Del=0.0%	Ins=14.6%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  | millen | vocil | geutel | sjobel | ierpieuw | walaan | erke |  |  |  |  | haweel | saarweng | gevicht | eemde | bepoud | orstalk | veten | gefouw*(gevouw) | vurpaand | nizung | fiewon | kneurem | vawaai | strellen | zwieten | foetbans | oonste | muider | grijnken | schielstaug | prilsood | vloender | milste | veurder | kloeien | ulen | orponk | * | schodig | ijpo | menuur |  |  | spreikje | * | wooien |
+| HYP1 | joen | voorgeel | gutel | bol | bel | iruhm | waln | erke | alwel | sarwen | gevincgd | it | hout | osank | vm | ge | vo | vur | amaand | nein | veel | m | eur | vei | stranswiten | fotbant | ons | muiter | genkse | scheelstrow | bisot | voendag | liste | furdal | en | los | en | op | bont | schoen | ding | epo | menuur | ki | al | re | o | gin |
+| EVAL | I | S | S | S | S | S | S |  | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | S | S | S |
+---
+
+---

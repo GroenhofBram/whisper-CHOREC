@@ -1,0 +1,132 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.5%   (  23)
+
+Percent Correct           =   53.5%   (  23)
+
+Percent Substitution      =   44.2%   (  19)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    7.0%   (   3)
+Percent Word Accuracy     =   46.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> conen
+   2:    1  ->  * ==> schoenwia
+   3:    1  ->  * ==> votoltoestel
+   4:    1  ->  afblijven ==> afblaven
+   5:    1  ->  autorijden ==> autoredden
+   6:    1  ->  dierentuin ==> dierentan
+   7:    1  ->  goeiendag ==> goeiedag
+   8:    1  ->  iedereen ==> idereen
+   9:    1  ->  konijnenhok ==> conennenhok
+  10:    1  ->  lucifer ==> lisifir
+  11:    1  ->  paddenstoelen ==> waddenstoelen
+  12:    1  ->  poppenwagen ==> oppenwagen
+  13:    1  ->  ruziemaken ==> maken
+  14:    1  ->  sneeuwwitje ==> sneewwietje
+  15:    1  ->  sprookjesboek ==> tanden
+  16:    1  ->  tandenborstel ==> borstel
+  17:    1  ->  teddybeer ==> tedibir
+  18:    1  ->  vrachtwagen ==> rachtwagen
+  19:    1  ->  washandje ==> washangentje
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  boek
+   2:    1  ->  ruzie
+   3:    1  ->  sprookjes
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fototoestel
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  *
+   2:    1  ->  afblijven
+   3:    1  ->  autorijden
+   4:    1  ->  dierentuin
+   5:    1  ->  goeiendag
+   6:    1  ->  iedereen
+   7:    1  ->  konijnenhok
+   8:    1  ->  lucifer
+   9:    1  ->  paddenstoelen
+  10:    1  ->  poppenwagen
+  11:    1  ->  ruziemaken
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  sprookjesboek
+  14:    1  ->  tandenborstel
+  15:    1  ->  teddybeer
+  16:    1  ->  vrachtwagen
+  17:    1  ->  washandje
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  afblaven
+   2:    1  ->  autoredden
+   3:    1  ->  borstel
+   4:    1  ->  conen
+   5:    1  ->  conennenhok
+   6:    1  ->  dierentan
+   7:    1  ->  goeiedag
+   8:    1  ->  idereen
+   9:    1  ->  lisifir
+  10:    1  ->  maken
+  11:    1  ->  oppenwagen
+  12:    1  ->  rachtwagen
+  13:    1  ->  schoenwia
+  14:    1  ->  sneewwietje
+  15:    1  ->  tanden
+  16:    1  ->  tedibir
+  17:    1  ->  votoltoestel
+  18:    1  ->  waddenstoelen
+  19:    1  ->  washangentje
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

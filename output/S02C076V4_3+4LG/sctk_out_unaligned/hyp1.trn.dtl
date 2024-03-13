@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   85.0%   (  34)
+
+Percent Correct           =   37.5%   (  15)
+
+Percent Substitution      =   60.0%   (  24)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =   22.5%   (   9)
+Percent Word Accuracy     =   15.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  48)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  afblijven ==> aveblijva
+   2:    1  ->  autorijden ==> hionadaautorada
+   3:    1  ->  buurmannen ==> buurman
+   4:    1  ->  chocolade ==> socolade
+   5:    1  ->  dierentuin ==> diretan
+   6:    1  ->  elastiekje ==> ruzie
+   7:    1  ->  goeiendag ==> goeiiddag
+   8:    1  ->  knutselen ==> notselan
+   9:    1  ->  konijnenhok ==> lastiekje
+  10:    1  ->  olifant ==> olifans
+  11:    1  ->  omdraaien ==> nog
+  12:    1  ->  paddenstoelen ==> palestoula
+  13:    1  ->  poppenwagen ==> ook
+  14:    1  ->  ruziemaken ==> maken
+  15:    1  ->  schoenenwinkel ==> winkel
+  16:    1  ->  schommelen ==> schonmela
+  17:    1  ->  sneeuwwitje ==> snewicha
+  18:    1  ->  tandenborstel ==> borstel
+  19:    1  ->  teddybeer ==> teddibeer
+  20:    1  ->  toiletpapier ==> fracht
+  21:    1  ->  verstoppertje ==> verstoppertja
+  22:    1  ->  vrachtwagen ==> weg
+  23:    1  ->  washandje ==> haintha
+  24:    1  ->  wasmachine ==> wasmachina
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  as
+   2:    1  ->  ho
+   3:    1  ->  ij
+   4:    1  ->  kon
+   5:    1  ->  omdrijen
+   6:    1  ->  poewagen
+   7:    1  ->  schene
+   8:    1  ->  tanne
+   9:    1  ->  touiletpapier
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  limonade
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  afblijven
+   2:    1  ->  autorijden
+   3:    1  ->  buurmannen
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  goeiendag
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  olifant
+  11:    1  ->  omdraaien
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  tandenborstel
+  19:    1  ->  teddybeer
+  20:    1  ->  toiletpapier
+  21:    1  ->  verstoppertje
+  22:    1  ->  vrachtwagen
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  aveblijva
+   2:    1  ->  borstel
+   3:    1  ->  buurman
+   4:    1  ->  diretan
+   5:    1  ->  fracht
+   6:    1  ->  goeiiddag
+   7:    1  ->  haintha
+   8:    1  ->  hionadaautorada
+   9:    1  ->  lastiekje
+  10:    1  ->  maken
+  11:    1  ->  nog
+  12:    1  ->  notselan
+  13:    1  ->  olifans
+  14:    1  ->  ook
+  15:    1  ->  palestoula
+  16:    1  ->  ruzie
+  17:    1  ->  schonmela
+  18:    1  ->  snewicha
+  19:    1  ->  socolade
+  20:    1  ->  teddibeer
+  21:    1  ->  verstoppertja
+  22:    1  ->  wasmachina
+  23:    1  ->  weg
+  24:    1  ->  winkel
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

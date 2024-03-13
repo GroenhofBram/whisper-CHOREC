@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   81.0%   (  34)
+
+Percent Correct           =   19.0%   (   8)
+
+Percent Substitution      =   78.6%   (  33)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   19.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> spra
+   2:    1  ->  ant ==> ond
+   3:    1  ->  beeg ==> be
+   4:    1  ->  blard ==> bellart
+   5:    1  ->  dau ==> dai
+   6:    1  ->  doer ==> doi
+   7:    1  ->  dron ==> drom
+   8:    1  ->  eem*(mee) ==> nee
+   9:    1  ->  fam ==> zoi
+  10:    1  ->  frijk ==> fruit
+  11:    1  ->  grek ==> gekt
+  12:    1  ->  guul ==> gul
+  13:    1  ->  haans*(hans) ==> hons
+  14:    1  ->  heik ==> hek
+  15:    1  ->  jien ==> jin
+  16:    1  ->  larst ==> hooi
+  17:    1  ->  leum ==> je
+  18:    1  ->  neeuw ==> nee
+  19:    1  ->  noork ==> nog
+  20:    1  ->  rachts ==> fan
+  21:    1  ->  roen ==> re
+  22:    1  ->  schard ==> sart
+  23:    1  ->  sjalt ==> segt
+  24:    1  ->  snaaf ==> snaf
+  25:    1  ->  sooi ==> soi
+  26:    1  ->  spaai ==> stai
+  27:    1  ->  sprieuw ==> vaspa
+  28:    1  ->  stuid ==> stuit
+  29:    1  ->  swoers ==> swoors
+  30:    1  ->  vaap ==> racht
+  31:    1  ->  vid ==> vit
+  32:    1  ->  vout*(voet) ==> jarst
+  33:    1  ->  zwoei ==> voo
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  hool
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  *
+   2:    1  ->  ant
+   3:    1  ->  beeg
+   4:    1  ->  blard
+   5:    1  ->  dau
+   6:    1  ->  doer
+   7:    1  ->  dron
+   8:    1  ->  eem*(mee)
+   9:    1  ->  fam
+  10:    1  ->  frijk
+  11:    1  ->  grek
+  12:    1  ->  guul
+  13:    1  ->  haans*(hans)
+  14:    1  ->  heik
+  15:    1  ->  jien
+  16:    1  ->  larst
+  17:    1  ->  leum
+  18:    1  ->  neeuw
+  19:    1  ->  noork
+  20:    1  ->  rachts
+  21:    1  ->  roen
+  22:    1  ->  schard
+  23:    1  ->  sjalt
+  24:    1  ->  snaaf
+  25:    1  ->  sooi
+  26:    1  ->  spaai
+  27:    1  ->  sprieuw
+  28:    1  ->  stuid
+  29:    1  ->  swoers
+  30:    1  ->  vaap
+  31:    1  ->  vid
+  32:    1  ->  vout*(voet)
+  33:    1  ->  zwoei
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  nee
+   2:    1  ->  be
+   3:    1  ->  bellart
+   4:    1  ->  dai
+   5:    1  ->  doi
+   6:    1  ->  drom
+   7:    1  ->  fan
+   8:    1  ->  fruit
+   9:    1  ->  gekt
+  10:    1  ->  gul
+  11:    1  ->  hek
+  12:    1  ->  hons
+  13:    1  ->  hooi
+  14:    1  ->  jarst
+  15:    1  ->  je
+  16:    1  ->  jin
+  17:    1  ->  nog
+  18:    1  ->  ond
+  19:    1  ->  racht
+  20:    1  ->  re
+  21:    1  ->  sart
+  22:    1  ->  segt
+  23:    1  ->  snaf
+  24:    1  ->  soi
+  25:    1  ->  spra
+  26:    1  ->  stai
+  27:    1  ->  stuit
+  28:    1  ->  swoors
+  29:    1  ->  vaspa
+  30:    1  ->  vit
+  31:    1  ->  voo
+  32:    1  ->  zoi
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

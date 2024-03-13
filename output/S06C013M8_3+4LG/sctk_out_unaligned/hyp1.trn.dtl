@@ -1,0 +1,182 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  106.4%   (  50)
+
+Percent Correct           =   29.8%   (  14)
+
+Percent Substitution      =   70.2%   (  33)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   36.2%   (  17)
+Percent Word Accuracy     =   -6.4%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> di
+   2:    1  ->  * ==> gok
+   3:    1  ->  * ==> kabater
+   4:    1  ->  * ==> machin
+   5:    1  ->  * ==> scha
+   6:    1  ->  * ==> ziek
+   7:    1  ->  *s ==> ruzie
+   8:    1  ->  afblijven ==> was
+   9:    1  ->  autorijden ==> veder
+  10:    1  ->  buurmannen*(buurman) ==> buurman
+  11:    1  ->  elastiekje*(elastiek) ==> wi
+  12:    1  ->  fototoestel ==> toilet
+  13:    1  ->  goeiendag ==> goeiedag
+  14:    1  ->  kabouter ==> arnche
+  15:    1  ->  knutselen ==> herdag
+  16:    1  ->  konijnenhok ==> de
+  17:    1  ->  omdraaien ==> elastiek
+  18:    1  ->  ophangen*(ophang) ==> sprookjes
+  19:    1  ->  paddenstoelen ==> was
+  20:    1  ->  poppenwagen ==> maken
+  21:    1  ->  ruziemaken ==> de
+  22:    1  ->  schoenenwinkel ==> vorij
+  23:    1  ->  schommelen ==> schommel
+  24:    1  ->  sneeuwwitje ==> wietje
+  25:    1  ->  sprookjesboek ==> tande
+  26:    1  ->  tandenborstel ==> borstil
+  27:    1  ->  teddybeer ==> weer
+  28:    1  ->  toiletpapier ==> papier
+  29:    1  ->  verjaardag ==> book
+  30:    1  ->  verstoppertje ==> wortvov
+  31:    1  ->  vogelkooi*(vogelkooien) ==> vogelkoije
+  32:    1  ->  washandje ==> sneeuw
+  33:    1  ->  wasmachine ==> touvstilv
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  afleven
+   2:    1  ->  alfan
+   3:    1  ->  auto
+   4:    1  ->  en
+   5:    1  ->  knitchelen
+   6:    1  ->  konien
+   7:    1  ->  o
+   8:    1  ->  omdraai
+   9:    1  ->  ophang
+  10:    1  ->  padde
+  11:    1  ->  poe
+  12:    1  ->  schoene
+  13:    1  ->  stoelen
+  14:    1  ->  sverstoppertje
+  15:    1  ->  van
+  16:    1  ->  wan
+  17:    1  ->  winkel
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    6  ->  *
+   2:    1  ->  *s
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen*(buurman)
+   6:    1  ->  elastiekje*(elastiek)
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  kabouter
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  omdraaien
+  13:    1  ->  ophangen*(ophang)
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  schommelen
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  toiletpapier
+  24:    1  ->  verjaardag
+  25:    1  ->  verstoppertje
+  26:    1  ->  vogelkooi*(vogelkooien)
+  27:    1  ->  washandje
+  28:    1  ->  wasmachine
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  de
+   2:    2  ->  was
+   3:    1  ->  arnche
+   4:    1  ->  book
+   5:    1  ->  borstil
+   6:    1  ->  buurman
+   7:    1  ->  di
+   8:    1  ->  elastiek
+   9:    1  ->  goeiedag
+  10:    1  ->  gok
+  11:    1  ->  herdag
+  12:    1  ->  kabater
+  13:    1  ->  machin
+  14:    1  ->  maken
+  15:    1  ->  papier
+  16:    1  ->  ruzie
+  17:    1  ->  scha
+  18:    1  ->  schommel
+  19:    1  ->  sneeuw
+  20:    1  ->  sprookjes
+  21:    1  ->  tande
+  22:    1  ->  toilet
+  23:    1  ->  touvstilv
+  24:    1  ->  veder
+  25:    1  ->  vogelkoije
+  26:    1  ->  vorij
+  27:    1  ->  weer
+  28:    1  ->  wi
+  29:    1  ->  wietje
+  30:    1  ->  wortvov
+  31:    1  ->  ziek
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

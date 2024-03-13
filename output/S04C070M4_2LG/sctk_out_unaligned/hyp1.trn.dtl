@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.5%   (  20)
+
+Percent Correct           =   65.4%   (  34)
+
+Percent Substitution      =   28.8%   (  15)
+Percent Deletions         =    5.8%   (   3)
+Percent Insertions        =    3.8%   (   2)
+Percent Word Accuracy     =   61.5%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  51)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  * ==> chaua
+   2:    1  ->  * ==> grooien
+   3:    1  ->  * ==> ja
+   4:    1  ->  * ==> schoa
+   5:    1  ->  * ==> schoea
+   6:    1  ->  * ==> vo
+   7:    1  ->  * ==> voor
+   8:    1  ->  * ==> z
+   9:    1  ->  *t ==> we
+  10:    1  ->  fietsbel ==> ben
+  11:    1  ->  potlood ==> fiets
+  12:    1  ->  vlinder ==> vli
+  13:    1  ->  waarom ==> waarom?
+  14:    1  ->  winkel ==> winkeln
+  15:    1  ->  zwemmen ==> zummen
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  potloot
+   2:    1  ->  uh
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  *t
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    8  ->  *
+   2:    1  ->  *t
+   3:    1  ->  fietsbel
+   4:    1  ->  potlood
+   5:    1  ->  vlinder
+   6:    1  ->  waarom
+   7:    1  ->  winkel
+   8:    1  ->  zwemmen
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ben
+   2:    1  ->  chaua
+   3:    1  ->  fiets
+   4:    1  ->  grooien
+   5:    1  ->  ja
+   6:    1  ->  schoa
+   7:    1  ->  schoea
+   8:    1  ->  vli
+   9:    1  ->  vo
+  10:    1  ->  voor
+  11:    1  ->  waarom?
+  12:    1  ->  we
+  13:    1  ->  winkeln
+  14:    1  ->  z
+  15:    1  ->  zummen
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

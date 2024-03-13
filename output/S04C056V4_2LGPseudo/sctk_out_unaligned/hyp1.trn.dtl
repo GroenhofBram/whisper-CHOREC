@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  52)
+
+Percent Correct           =    3.8%   (   2)
+
+Percent Substitution      =   96.2%   (  50)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    3.8%   (   2)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  52)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  * ==> i
+   2:    1  ->  * ==> de
+   3:    1  ->  * ==> deba
+   4:    1  ->  * ==> geal
+   5:    1  ->  * ==> gewi
+   6:    1  ->  * ==> hif
+   7:    1  ->  * ==> muurter
+   8:    1  ->  * ==> pi
+   9:    1  ->  * ==> reuw
+  10:    1  ->  * ==> sbrekjen
+  11:    1  ->  * ==> strillen
+  12:    1  ->  * ==> uur
+  13:    1  ->  * ==> vakil
+  14:    1  ->  * ==> vawa
+  15:    1  ->  * ==> vla
+  16:    1  ->  *t ==> uhm
+  17:    1  ->  *x ==> vurpend
+  18:    1  ->  eemde ==> in
+  19:    1  ->  fiewon ==> neum
+  20:    1  ->  foetbans ==> voetband
+  21:    1  ->  gefouw ==> talk
+  22:    1  ->  geutel ==> de
+  23:    1  ->  gevicht ==> geviegd
+  24:    1  ->  grijnken ==> grejnken
+  25:    1  ->  haweel ==> wel
+  26:    1  ->  ijpo ==> epel
+  27:    1  ->  kloeien ==> kloeen
+  28:    1  ->  kneurem ==> fio
+  29:    1  ->  menuur ==> men
+  30:    1  ->  millen ==> vi
+  31:    1  ->  milste ==> mister
+  32:    1  ->  nizung ==> zin
+  33:    1  ->  oonste ==> onste
+  34:    1  ->  orponk ==> orbonk
+  35:    1  ->  orstalk ==> t
+  36:    1  ->  prilsood ==> brilot
+  37:    1  ->  saarweng ==> sewing
+  38:    1  ->  schielstaug ==> schiltsdag
+  39:    1  ->  schodig ==> schotig
+  40:    1  ->  sjobel ==> sobel
+  41:    1  ->  vawaai ==> knuren
+  42:    1  ->  veten ==> ors
+  43:    1  ->  veurder ==> verder
+  44:    1  ->  vloender ==> vlunter
+  45:    1  ->  vocil ==> ge
+  46:    1  ->  vurpaand ==> veten
+  47:    1  ->  walaan ==> waln
+  48:    1  ->  wooien ==> woe
+  49:    1  ->  zwieten ==> switen
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ha
+   2:    1  ->  mien
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:   16  ->  *
+   2:    1  ->  *t
+   3:    1  ->  *x
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  gevicht
+  10:    1  ->  grijnken
+  11:    1  ->  haweel
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  nizung
+  19:    1  ->  oonste
+  20:    1  ->  orponk
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  schodig
+  26:    1  ->  sjobel
+  27:    1  ->  vawaai
+  28:    1  ->  veten
+  29:    1  ->  veurder
+  30:    1  ->  vloender
+  31:    1  ->  vocil
+  32:    1  ->  vurpaand
+  33:    1  ->  walaan
+  34:    1  ->  wooien
+  35:    1  ->  zwieten
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  de
+   2:    2  ->  i
+   3:    1  ->  brilot
+   4:    1  ->  deba
+   5:    1  ->  epel
+   6:    1  ->  fio
+   7:    1  ->  ge
+   8:    1  ->  geal
+   9:    1  ->  geviegd
+  10:    1  ->  gewi
+  11:    1  ->  grejnken
+  12:    1  ->  hif
+  13:    1  ->  in
+  14:    1  ->  kloeen
+  15:    1  ->  knuren
+  16:    1  ->  men
+  17:    1  ->  mister
+  18:    1  ->  muurter
+  19:    1  ->  neum
+  20:    1  ->  onste
+  21:    1  ->  orbonk
+  22:    1  ->  ors
+  23:    1  ->  pi
+  24:    1  ->  reuw
+  25:    1  ->  sbrekjen
+  26:    1  ->  schiltsdag
+  27:    1  ->  schotig
+  28:    1  ->  sewing
+  29:    1  ->  sobel
+  30:    1  ->  strillen
+  31:    1  ->  switen
+  32:    1  ->  t
+  33:    1  ->  talk
+  34:    1  ->  uhm
+  35:    1  ->  uur
+  36:    1  ->  vakil
+  37:    1  ->  vawa
+  38:    1  ->  verder
+  39:    1  ->  veten
+  40:    1  ->  vi
+  41:    1  ->  vla
+  42:    1  ->  vlunter
+  43:    1  ->  voetband
+  44:    1  ->  vurpend
+  45:    1  ->  waln
+  46:    1  ->  wel
+  47:    1  ->  woe
+  48:    1  ->  zin
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

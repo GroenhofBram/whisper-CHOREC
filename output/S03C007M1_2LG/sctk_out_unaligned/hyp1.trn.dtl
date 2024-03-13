@@ -1,0 +1,186 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   88.7%   (  55)
+
+Percent Correct           =   11.3%   (   7)
+
+Percent Substitution      =   64.5%   (  40)
+Percent Deletions         =   24.2%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   11.3%
+
+
+Ref. words                =           (  62)
+Hyp. words                =           (  47)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  * ==> o
+   2:    1  ->  * ==> ato
+   3:    1  ->  * ==> bil
+   4:    1  ->  * ==> cil
+   5:    1  ->  * ==> derintun
+   6:    1  ->  * ==> g
+   7:    1  ->  * ==> nau
+   8:    1  ->  * ==> neen
+   9:    1  ->  * ==> ni
+  10:    1  ->  * ==> opnieuw
+  11:    1  ->  * ==> saglder
+  12:    1  ->  * ==> waarom
+  13:    1  ->  * ==> wat
+  14:    1  ->  * ==> zik
+  15:    1  ->  *s ==> vraal
+  16:    1  ->  appel ==> aen
+  17:    1  ->  chauffeur ==> di
+  18:    1  ->  cola ==> ona
+  19:    1  ->  dichtbij ==> i
+  20:    1  ->  fietsbel ==> or
+  21:    1  ->  hoofdpijn ==> sulplat
+  22:    1  ->  kleuren ==> ee
+  23:    1  ->  koning ==> dnekakoning
+  24:    1  ->  liedje ==> goen
+  25:    1  ->  meisje ==> l
+  26:    1  ->  moeder ==> goen
+  27:    1  ->  muziek ==> be
+  28:    1  ->  potlood ==> even
+  29:    1  ->  regen ==> hoofuhm
+  30:    1  ->  schouders ==> vouw
+  31:    1  ->  sneeuwen ==> g
+  32:    1  ->  verhaal ==> nnkel
+  33:    1  ->  vinger ==> olot
+  34:    1  ->  vliegtuig ==> kus
+  35:    1  ->  vlinder ==> otal
+  36:    1  ->  voetbal ==> en
+  37:    1  ->  vuurwerk ==> wert
+  38:    1  ->  waarom ==> ne
+  39:    1  ->  zwemmen ==> uh
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    5  ->  *
+   2:    1  ->  auto
+   3:    1  ->  circus
+   4:    1  ->  drinken
+   5:    1  ->  drogen
+   6:    1  ->  eerste
+   7:    1  ->  gooien
+   8:    1  ->  lawaai
+   9:    1  ->  mevrouw
+  10:    1  ->  speelplaats
+  11:    1  ->  winkel
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   15  ->  *
+   2:    1  ->  *s
+   3:    1  ->  appel
+   4:    1  ->  chauffeur
+   5:    1  ->  cola
+   6:    1  ->  dichtbij
+   7:    1  ->  fietsbel
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  koning
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  moeder
+  14:    1  ->  muziek
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  schouders
+  18:    1  ->  sneeuwen
+  19:    1  ->  verhaal
+  20:    1  ->  vinger
+  21:    1  ->  vliegtuig
+  22:    1  ->  vlinder
+  23:    1  ->  voetbal
+  24:    1  ->  vuurwerk
+  25:    1  ->  waarom
+  26:    1  ->  zwemmen
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  g
+   2:    2  ->  goen
+   3:    2  ->  o
+   4:    1  ->  aen
+   5:    1  ->  ato
+   6:    1  ->  be
+   7:    1  ->  bil
+   8:    1  ->  cil
+   9:    1  ->  derintun
+  10:    1  ->  di
+  11:    1  ->  dnekakoning
+  12:    1  ->  ee
+  13:    1  ->  en
+  14:    1  ->  even
+  15:    1  ->  hoofuhm
+  16:    1  ->  i
+  17:    1  ->  kus
+  18:    1  ->  l
+  19:    1  ->  nau
+  20:    1  ->  ne
+  21:    1  ->  neen
+  22:    1  ->  ni
+  23:    1  ->  nnkel
+  24:    1  ->  olot
+  25:    1  ->  ona
+  26:    1  ->  opnieuw
+  27:    1  ->  or
+  28:    1  ->  otal
+  29:    1  ->  saglder
+  30:    1  ->  sulplat
+  31:    1  ->  uh
+  32:    1  ->  vouw
+  33:    1  ->  vraal
+  34:    1  ->  waarom
+  35:    1  ->  wat
+  36:    1  ->  wert
+  37:    1  ->  zik
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

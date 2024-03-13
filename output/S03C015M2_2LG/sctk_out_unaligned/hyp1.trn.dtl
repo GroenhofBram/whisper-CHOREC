@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.1%   (  24)
+
+Percent Correct           =   52.4%   (  22)
+
+Percent Substitution      =   40.5%   (  17)
+Percent Deletions         =    7.1%   (   3)
+Percent Insertions        =    9.5%   (   4)
+Percent Word Accuracy     =   42.9%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  43)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> opnieuwuw
+   2:    1  ->  * ==> potptloot
+   3:    1  ->  appel*(appelen) ==> appeln
+   4:    1  ->  auto ==> nkullen
+   5:    1  ->  cola ==> chocola
+   6:    1  ->  eerste ==> eersta
+   7:    1  ->  fietsbel ==> fitsbel
+   8:    1  ->  gooien ==> g
+   9:    1  ->  liedje ==> modash
+  10:    1  ->  mevrouw ==> vrouw
+  11:    1  ->  moeder ==> sniwen
+  12:    1  ->  muziek ==> ik
+  13:    1  ->  potlood*(poot) ==> litia
+  14:    1  ->  scheuren ==> geuren
+  15:    1  ->  schouders ==> autoschouders
+  16:    1  ->  sneeuwen ==> goien
+  17:    1  ->  water ==> me
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  chauffeur
+   2:    1  ->  nu
+   3:    1  ->  watter
+   4:    1  ->  zie
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *s
+   2:    1  ->  opnieuw
+   3:    1  ->  winkel
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  *
+   2:    1  ->  appel*(appelen)
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  eerste
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien
+   8:    1  ->  liedje
+   9:    1  ->  mevrouw
+  10:    1  ->  moeder
+  11:    1  ->  muziek
+  12:    1  ->  potlood*(poot)
+  13:    1  ->  scheuren
+  14:    1  ->  schouders
+  15:    1  ->  sneeuwen
+  16:    1  ->  water
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  appeln
+   2:    1  ->  autoschouders
+   3:    1  ->  chocola
+   4:    1  ->  eersta
+   5:    1  ->  fitsbel
+   6:    1  ->  g
+   7:    1  ->  geuren
+   8:    1  ->  goien
+   9:    1  ->  ik
+  10:    1  ->  litia
+  11:    1  ->  me
+  12:    1  ->  modash
+  13:    1  ->  nkullen
+  14:    1  ->  opnieuwuw
+  15:    1  ->  potptloot
+  16:    1  ->  sniwen
+  17:    1  ->  vrouw
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

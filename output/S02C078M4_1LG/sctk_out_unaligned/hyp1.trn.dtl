@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.5%   (  17)
+
+Percent Correct           =   59.5%   (  25)
+
+Percent Substitution      =   40.5%   (  17)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   59.5%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  sjaal ==> sjal
+   2:    1  ->  bang ==> waarom
+   3:    1  ->  bed ==> bet
+   4:    1  ->  chips ==> ships
+   5:    1  ->  clown ==> klan
+   6:    1  ->  clown ==> klon
+   7:    1  ->  draai ==> drai
+   8:    1  ->  duur ==> tuur
+   9:    1  ->  gauw ==> gouw
+  10:    1  ->  krant ==> kant
+  11:    1  ->  muts ==> nus
+  12:    1  ->  neus ==> nuis
+  13:    1  ->  paard ==> paart
+  14:    1  ->  voor ==> boor
+  15:    1  ->  vriend ==> vreemd
+  16:    1  ->  zacht ==> tracht
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  clown
+   2:    2  ->  sjaal
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips
+   6:    1  ->  draai
+   7:    1  ->  duur
+   8:    1  ->  gauw
+   9:    1  ->  krant
+  10:    1  ->  muts
+  11:    1  ->  neus
+  12:    1  ->  paard
+  13:    1  ->  voor
+  14:    1  ->  vriend
+  15:    1  ->  zacht
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  sjal
+   2:    1  ->  bet
+   3:    1  ->  boor
+   4:    1  ->  drai
+   5:    1  ->  gouw
+   6:    1  ->  kant
+   7:    1  ->  klan
+   8:    1  ->  klon
+   9:    1  ->  nuis
+  10:    1  ->  nus
+  11:    1  ->  paart
+  12:    1  ->  ships
+  13:    1  ->  tracht
+  14:    1  ->  tuur
+  15:    1  ->  vreemd
+  16:    1  ->  waarom
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

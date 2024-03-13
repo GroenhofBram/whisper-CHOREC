@@ -1,0 +1,199 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.4%   (  83)
+
+Percent Correct           =    4.6%   (   4)
+
+Percent Substitution      =   54.0%   (  47)
+Percent Deletions         =   41.4%   (  36)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.6%
+
+
+Ref. words                =           (  87)
+Hyp. words                =           (  51)
+Aligned words             =           (  87)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    1  ->  * ==> ae
+   2:    1  ->  * ==> alas
+   3:    1  ->  * ==> apel
+   4:    1  ->  * ==> cla
+   5:    1  ->  * ==> de
+   6:    1  ->  * ==> dichtbij
+   7:    1  ->  * ==> en
+   8:    1  ->  * ==> me
+   9:    1  ->  * ==> memen
+  10:    1  ->  * ==> moner
+  11:    1  ->  * ==> n
+  12:    1  ->  * ==> viurwerek
+  13:    1  ->  * ==> wi
+  14:    1  ->  * ==> zo
+  15:    1  ->  *s ==> fietsbal
+  16:    1  ->  *s ==> glinder
+  17:    1  ->  *s ==> hostin
+  18:    1  ->  *s ==> kanin
+  19:    1  ->  *s ==> kleren
+  20:    1  ->  *s ==> reste
+  21:    1  ->  *s ==> schalmer
+  22:    1  ->  *s ==> sheeend
+  23:    1  ->  *s ==> sleeuw
+  24:    1  ->  *s ==> sofer
+  25:    1  ->  *s ==> sperporat
+  26:    1  ->  *s ==> st
+  27:    1  ->  *s ==> stopen
+  28:    1  ->  *s ==> van
+  29:    1  ->  *s ==> vr
+  30:    1  ->  *s ==> war
+  31:    1  ->  *s ==> zie
+  32:    1  ->  appel ==> ik?
+  33:    1  ->  cola ==> waarom?
+  34:    1  ->  drinken ==> veraal
+  35:    1  ->  drogen ==> vrouw
+  36:    1  ->  eerste ==> ise
+  37:    1  ->  hoofdpijn ==> mo
+  38:    1  ->  kleuren ==> sierkus
+  39:    1  ->  kussen ==> nawa
+  40:    1  ->  potlood ==> woen
+  41:    1  ->  regen ==> genken
+  42:    1  ->  stoppen ==> ligka
+  43:    1  ->  vinger ==> olot
+  44:    1  ->  vliegtuig ==> ree
+  45:    1  ->  voetbal ==> aal
+  46:    1  ->  vuurwerk ==> we
+  47:    1  ->  winkel ==> grosen
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   17  ->  *s
+   2:    7  ->  *
+   3:    1  ->  gooien
+   4:    1  ->  koning
+   5:    1  ->  liedje
+   6:    1  ->  moeder
+   7:    1  ->  muziek
+   8:    1  ->  scheuren
+   9:    1  ->  schouders
+  10:    1  ->  sneeuwen
+  11:    1  ->  speelplaats
+  12:    1  ->  verhaal
+  13:    1  ->  waarom
+  14:    1  ->  zwemmen
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:   17  ->  *s
+   2:   14  ->  *
+   3:    1  ->  appel
+   4:    1  ->  cola
+   5:    1  ->  drinken
+   6:    1  ->  drogen
+   7:    1  ->  eerste
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  kussen
+  11:    1  ->  potlood
+  12:    1  ->  regen
+  13:    1  ->  stoppen
+  14:    1  ->  vinger
+  15:    1  ->  vliegtuig
+  16:    1  ->  voetbal
+  17:    1  ->  vuurwerk
+  18:    1  ->  winkel
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    1  ->  aal
+   2:    1  ->  ae
+   3:    1  ->  alas
+   4:    1  ->  apel
+   5:    1  ->  cla
+   6:    1  ->  de
+   7:    1  ->  dichtbij
+   8:    1  ->  en
+   9:    1  ->  fietsbal
+  10:    1  ->  genken
+  11:    1  ->  glinder
+  12:    1  ->  grosen
+  13:    1  ->  hostin
+  14:    1  ->  ik?
+  15:    1  ->  ise
+  16:    1  ->  kanin
+  17:    1  ->  kleren
+  18:    1  ->  ligka
+  19:    1  ->  me
+  20:    1  ->  memen
+  21:    1  ->  mo
+  22:    1  ->  moner
+  23:    1  ->  n
+  24:    1  ->  nawa
+  25:    1  ->  olot
+  26:    1  ->  ree
+  27:    1  ->  reste
+  28:    1  ->  schalmer
+  29:    1  ->  sheeend
+  30:    1  ->  sierkus
+  31:    1  ->  sleeuw
+  32:    1  ->  sofer
+  33:    1  ->  sperporat
+  34:    1  ->  st
+  35:    1  ->  stopen
+  36:    1  ->  van
+  37:    1  ->  veraal
+  38:    1  ->  viurwerek
+  39:    1  ->  vr
+  40:    1  ->  vrouw
+  41:    1  ->  waarom?
+  42:    1  ->  war
+  43:    1  ->  we
+  44:    1  ->  wi
+  45:    1  ->  woen
+  46:    1  ->  zie
+  47:    1  ->  zo
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  43)
+
+Percent Correct           =   39.5%   (  17)
+
+Percent Substitution      =   58.1%   (  25)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =   39.5%   (  17)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  59)
+Aligned words             =           (  60)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> konijnen
+   2:    1  ->  * ==> opbrarnen
+   3:    1  ->  * ==> schroen
+   4:    1  ->  buurmannen ==> col
+   5:    1  ->  dierentuin ==> folv
+   6:    1  ->  fototoestel ==> alet
+   7:    1  ->  iedereen ==> sno
+   8:    1  ->  konijnenhok ==> vok
+   9:    1  ->  limonade ==> jumonade
+  10:    1  ->  lucifer ==> luciver
+  11:    1  ->  nieuwsgierig ==> sgierig
+  12:    1  ->  olifant ==> grmelen
+  13:    1  ->  paddenstoelen ==> tos
+  14:    1  ->  poppenwagen ==> koon
+  15:    1  ->  ruziemaken ==> pas
+  16:    1  ->  schoenenwinkel*(schoenwinkel) ==> winkel
+  17:    1  ->  schommelen ==> ideleen
+  18:    1  ->  sneeuwwitje ==> sneeuwwihe
+  19:    1  ->  sprookjesboek ==> boek
+  20:    1  ->  teddybeer ==> machine
+  21:    1  ->  toiletpapier ==> papier
+  22:    1  ->  verstoppertje ==> oustalv
+  23:    1  ->  vogelkooi ==> olifand
+  24:    1  ->  washandje ==> hantje
+  25:    1  ->  wasmachine ==> tou
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  buurmannun
+   2:    1  ->  det
+   3:    1  ->  diebeur
+   4:    1  ->  dieren
+   5:    1  ->  fan
+   6:    1  ->  maken
+   7:    1  ->  nieuw
+   8:    1  ->  padden
+   9:    1  ->  poppen
+  10:    1  ->  ruzie
+  11:    1  ->  sproukis
+  12:    1  ->  stoeln
+  13:    1  ->  stoppechin
+  14:    1  ->  tuin
+  15:    1  ->  vogel
+  16:    1  ->  wagen
+  17:    1  ->  was
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ophangen
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  *
+   2:    1  ->  buurmannen
+   3:    1  ->  dierentuin
+   4:    1  ->  fototoestel
+   5:    1  ->  iedereen
+   6:    1  ->  konijnenhok
+   7:    1  ->  limonade
+   8:    1  ->  lucifer
+   9:    1  ->  nieuwsgierig
+  10:    1  ->  olifant
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel*(schoenwinkel)
+  15:    1  ->  schommelen
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  sprookjesboek
+  18:    1  ->  teddybeer
+  19:    1  ->  toiletpapier
+  20:    1  ->  verstoppertje
+  21:    1  ->  vogelkooi
+  22:    1  ->  washandje
+  23:    1  ->  wasmachine
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  alet
+   2:    1  ->  boek
+   3:    1  ->  col
+   4:    1  ->  folv
+   5:    1  ->  grmelen
+   6:    1  ->  hantje
+   7:    1  ->  ideleen
+   8:    1  ->  jumonade
+   9:    1  ->  konijnen
+  10:    1  ->  koon
+  11:    1  ->  luciver
+  12:    1  ->  machine
+  13:    1  ->  olifand
+  14:    1  ->  opbrarnen
+  15:    1  ->  oustalv
+  16:    1  ->  papier
+  17:    1  ->  pas
+  18:    1  ->  schroen
+  19:    1  ->  sgierig
+  20:    1  ->  sneeuwwihe
+  21:    1  ->  sno
+  22:    1  ->  tos
+  23:    1  ->  tou
+  24:    1  ->  vok
+  25:    1  ->  winkel
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

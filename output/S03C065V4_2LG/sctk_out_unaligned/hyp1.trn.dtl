@@ -1,0 +1,92 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.5%   (   7)
+
+Percent Correct           =   82.5%   (  33)
+
+Percent Substitution      =   15.0%   (   6)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  kussen ==> cussen
+   2:    1  ->  moeder ==> moder
+   3:    1  ->  potlood ==> botloot
+   4:    1  ->  regen ==> hregen
+   5:    1  ->  vinger ==> vingen
+   6:    1  ->  vlinder ==> voetbalvlinder
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  voetbal
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  kussen
+   2:    1  ->  moeder
+   3:    1  ->  potlood
+   4:    1  ->  regen
+   5:    1  ->  vinger
+   6:    1  ->  vlinder
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  botloot
+   2:    1  ->  cussen
+   3:    1  ->  hregen
+   4:    1  ->  moder
+   5:    1  ->  vingen
+   6:    1  ->  voetbalvlinder
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S07C060M8_2LG
+
+(S07C060M8_2LG-words)
+
+Cor=16.4%	Sub=47.9%	Del=35.6%	Ins=0.0%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,*,*,water,*,*,mevrouw,*,drogen,*,*,auto,*,*,verhaal,*,*,koning,moeilijk,speelplaats,drinken,hoofdpijn,regen*(erg),*,*,*(lieg),*(tuig),vliegtuig,stoppen,opnieuw,gooien,sneeuwen,moeder,liedje*(liedjes),*,fietsbel,*,*,*,*,*,meisje*(meisjes),*,*,*,*,*(gevaar),muziek,waarom,scheuren,*(leeuw),*,*,*,zwemmen,vuurwerk,*,*,*,*,*,*,*,cola,kussen,eerste,*,*,*,*,*,kleuren,voetbal,vlinder
+HYP1,,t,water,,,mevrouw,,,,,,brogem,wino,outer,shoterest,vera,koning,moeilijk,,speelpat,berinken,hoofdpin,er,v,vsuvliegtuig,stop,een,op,neem,gon,sneeuwen,,,,,,,moter,litius,posteland,fietsbei,fintger,eht,ehte,necius,gevar,muziek,waarom,scheuren,,,leeuw,jawan,swemmen,vuurwerk,,,,,,,appper,kola,kussen,eerste,,,,r,keerkes,kleuren,vutbe,vinter
+EVAL,D,S,,D,D,,D,D,D,D,D,S,S,S,S,S,,,D,S,S,S,S,S,S,S,S,S,S,S,,D,D,D,D,D,D,S,S,S,S,S,S,S,S,S,,,,D,D,S,S,S,,D,D,D,D,D,D,S,S,,,D,D,D,S,S,,S,S
+
+
+

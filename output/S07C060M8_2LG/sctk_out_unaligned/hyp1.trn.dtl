@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   83.6%   (  61)
+
+Percent Correct           =   16.4%   (  12)
+
+Percent Substitution      =   47.9%   (  35)
+Percent Deletions         =   35.6%   (  26)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   16.4%
+
+
+Ref. words                =           (  73)
+Hyp. words                =           (  47)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  * ==> appper
+   2:    1  ->  * ==> brogem
+   3:    1  ->  * ==> eht
+   4:    1  ->  * ==> ehte
+   5:    1  ->  * ==> er
+   6:    1  ->  * ==> fintger
+   7:    1  ->  * ==> jawan
+   8:    1  ->  * ==> keerkes
+   9:    1  ->  * ==> leeuw
+  10:    1  ->  * ==> litius
+  11:    1  ->  * ==> moter
+  12:    1  ->  * ==> necius
+  13:    1  ->  * ==> posteland
+  14:    1  ->  * ==> r
+  15:    1  ->  * ==> shoterest
+  16:    1  ->  * ==> t
+  17:    1  ->  * ==> v
+  18:    1  ->  * ==> vera
+  19:    1  ->  * ==> wino
+  20:    1  ->  *(gevaar) ==> gevar
+  21:    1  ->  *(lieg) ==> vsuvliegtuig
+  22:    1  ->  *(tuig) ==> stop
+  23:    1  ->  cola ==> kola
+  24:    1  ->  drinken ==> speelpat
+  25:    1  ->  gooien ==> gon
+  26:    1  ->  hoofdpijn ==> berinken
+  27:    1  ->  meisje*(meisjes) ==> fietsbei
+  28:    1  ->  opnieuw ==> neem
+  29:    1  ->  regen*(erg) ==> hoofdpin
+  30:    1  ->  stoppen ==> op
+  31:    1  ->  verhaal ==> outer
+  32:    1  ->  vliegtuig ==> een
+  33:    1  ->  vlinder ==> vinter
+  34:    1  ->  voetbal ==> vutbe
+  35:    1  ->  zwemmen ==> swemmen
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:   19  ->  *
+   2:    1  ->  *(leeuw)
+   3:    1  ->  auto
+   4:    1  ->  drogen
+   5:    1  ->  fietsbel
+   6:    1  ->  liedje*(liedjes)
+   7:    1  ->  moeder
+   8:    1  ->  speelplaats
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:   19  ->  *
+   2:    1  ->  *(gevaar)
+   3:    1  ->  *(lieg)
+   4:    1  ->  *(tuig)
+   5:    1  ->  cola
+   6:    1  ->  drinken
+   7:    1  ->  gooien
+   8:    1  ->  hoofdpijn
+   9:    1  ->  meisje*(meisjes)
+  10:    1  ->  opnieuw
+  11:    1  ->  regen*(erg)
+  12:    1  ->  stoppen
+  13:    1  ->  verhaal
+  14:    1  ->  vliegtuig
+  15:    1  ->  vlinder
+  16:    1  ->  voetbal
+  17:    1  ->  zwemmen
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  appper
+   2:    1  ->  berinken
+   3:    1  ->  brogem
+   4:    1  ->  een
+   5:    1  ->  eht
+   6:    1  ->  ehte
+   7:    1  ->  er
+   8:    1  ->  fietsbei
+   9:    1  ->  fintger
+  10:    1  ->  gevar
+  11:    1  ->  gon
+  12:    1  ->  hoofdpin
+  13:    1  ->  jawan
+  14:    1  ->  keerkes
+  15:    1  ->  kola
+  16:    1  ->  leeuw
+  17:    1  ->  litius
+  18:    1  ->  moter
+  19:    1  ->  necius
+  20:    1  ->  neem
+  21:    1  ->  op
+  22:    1  ->  outer
+  23:    1  ->  posteland
+  24:    1  ->  r
+  25:    1  ->  shoterest
+  26:    1  ->  speelpat
+  27:    1  ->  stop
+  28:    1  ->  swemmen
+  29:    1  ->  t
+  30:    1  ->  v
+  31:    1  ->  vera
+  32:    1  ->  vinter
+  33:    1  ->  vsuvliegtuig
+  34:    1  ->  vutbe
+  35:    1  ->  wino
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

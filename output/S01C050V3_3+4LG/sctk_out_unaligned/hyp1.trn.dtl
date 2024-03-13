@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.8%   (  43)
+
+Percent Correct           =   36.7%   (  18)
+
+Percent Substitution      =   57.1%   (  28)
+Percent Deletions         =    6.1%   (   3)
+Percent Insertions        =   24.5%   (  12)
+Percent Word Accuracy     =   12.2%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  58)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> dat
+   2:    1  ->  * ==> dereen
+   3:    1  ->  * ==> i
+   4:    1  ->  * ==> len?
+   5:    1  ->  * ==> nen
+   6:    1  ->  * ==> son
+   7:    1  ->  * ==> winkel
+   8:    1  ->  buurmannen ==> buurman
+   9:    1  ->  chocolade ==> soculade
+  10:    1  ->  dierentuin ==> batdins
+  11:    1  ->  elastiekje*(elastiek) ==> ber
+  12:    1  ->  goeiendag ==> goeiendag?
+  13:    1  ->  kabouter ==> sneew
+  14:    1  ->  knutselen ==> kknutselen
+  15:    1  ->  konijnenhok ==> di
+  16:    1  ->  limonade ==> limonada
+  17:    1  ->  lucifer ==> lesifer
+  18:    1  ->  paddenstoelen ==> toel
+  19:    1  ->  poppenwagen ==> maken
+  20:    1  ->  ruziemaken ==> dieren
+  21:    1  ->  schoenenwinkel ==> schoennen
+  22:    1  ->  sneeuwwitje ==> je
+  23:    1  ->  tandenborstel ==> borstel
+  24:    1  ->  teddybeer ==> ten
+  25:    1  ->  verjaardag ==> dag
+  26:    1  ->  verstoppertje ==> versdoppertje
+  27:    1  ->  washandje ==> weet
+  28:    1  ->  wasmachine ==> wasmachina
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  en
+   2:    1  ->  handkje
+   3:    1  ->  hoek
+   4:    1  ->  kabauter
+   5:    1  ->  konen
+   6:    1  ->  konijnen
+   7:    1  ->  lastiek
+   8:    1  ->  oppenwagen
+   9:    1  ->  ruzie
+  10:    1  ->  tanden
+  11:    1  ->  verja
+  12:    1  ->  was
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  *
+   2:    1  ->  iedereen
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  *
+   2:    1  ->  buurmannen
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje*(elastiek)
+   6:    1  ->  goeiendag
+   7:    1  ->  kabouter
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  lucifer
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  tandenborstel
+  18:    1  ->  teddybeer
+  19:    1  ->  verjaardag
+  20:    1  ->  verstoppertje
+  21:    1  ->  washandje
+  22:    1  ->  wasmachine
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  batdins
+   2:    1  ->  ber
+   3:    1  ->  borstel
+   4:    1  ->  buurman
+   5:    1  ->  dag
+   6:    1  ->  dat
+   7:    1  ->  dereen
+   8:    1  ->  di
+   9:    1  ->  dieren
+  10:    1  ->  goeiendag?
+  11:    1  ->  i
+  12:    1  ->  je
+  13:    1  ->  kknutselen
+  14:    1  ->  len?
+  15:    1  ->  lesifer
+  16:    1  ->  limonada
+  17:    1  ->  maken
+  18:    1  ->  nen
+  19:    1  ->  schoennen
+  20:    1  ->  sneew
+  21:    1  ->  soculade
+  22:    1  ->  son
+  23:    1  ->  ten
+  24:    1  ->  toel
+  25:    1  ->  versdoppertje
+  26:    1  ->  wasmachina
+  27:    1  ->  weet
+  28:    1  ->  winkel
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

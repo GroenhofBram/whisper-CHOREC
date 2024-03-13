@@ -1,0 +1,224 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  122.4%   (  71)
+
+Percent Correct           =    1.7%   (   1)
+
+Percent Substitution      =   98.3%   (  57)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   24.1%   (  14)
+Percent Word Accuracy     =  -22.4%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    1  ->  * ==> arespengen
+   2:    1  ->  * ==> canara
+   3:    1  ->  * ==> daspin
+   4:    1  ->  * ==> deon
+   5:    1  ->  * ==> dik
+   6:    1  ->  * ==> duif
+   7:    1  ->  * ==> endermind
+   8:    1  ->  * ==> et
+   9:    1  ->  * ==> gerdof
+  10:    1  ->  * ==> goparate
+  11:    1  ->  * ==> grou
+  12:    1  ->  * ==> have
+  13:    1  ->  * ==> havendeel
+  14:    1  ->  * ==> helder
+  15:    1  ->  * ==> k
+  16:    1  ->  * ==> kantelogsteen
+  17:    1  ->  * ==> kapfelstippen
+  18:    1  ->  * ==> kobul
+  19:    1  ->  * ==> krewen
+  20:    1  ->  * ==> kro
+  21:    1  ->  * ==> krobel
+  22:    1  ->  * ==> likro
+  23:    1  ->  * ==> moid
+  24:    1  ->  * ==> napper
+  25:    1  ->  * ==> nu
+  26:    1  ->  * ==> rouw
+  27:    1  ->  * ==> schorder
+  28:    1  ->  * ==> schuden
+  29:    1  ->  * ==> smorale
+  30:    1  ->  * ==> tobberm
+  31:    1  ->  * ==> vor
+  32:    1  ->  * ==> vorbirk
+  33:    1  ->  * ==> zeekvlaine
+  34:    1  ->  * ==> zenebral
+  35:    1  ->  crobeklunker ==> klinker
+  36:    1  ->  deuveltek ==> cidoanv
+  37:    1  ->  gerauwejaak ==> jak
+  38:    1  ->  gevijdel ==> spikerai
+  39:    1  ->  girdofhaalder ==> bntal
+  40:    1  ->  hapeneren ==> heppeneren
+  41:    1  ->  havedil ==> brakertje
+  42:    1  ->  jattesiet ==> deuvel
+  43:    1  ->  juitonie ==> spicker
+  44:    1  ->  nappegreeuw ==> schilen
+  45:    1  ->  nurudien ==> jutoni
+  46:    1  ->  ondermind ==> bluten
+  47:    1  ->  ooiebiekje ==> ja
+  48:    1  ->  oonwijlen ==> stonindas
+  49:    1  ->  schielendaspen ==> krobelk
+  50:    1  ->  sidowaan ==> wachtendek
+  51:    1  ->  smoralij ==> netleigen
+  52:    1  ->  stoenydaas ==> geveidel
+  53:    1  ->  toejietsen ==> neuredin
+  54:    1  ->  verbrakkertje ==> gea
+  55:    1  ->  verpierik ==> manderun
+  56:    1  ->  wachteniek ==> reeuw
+  57:    1  ->  zeekvlachine ==> meisegrok
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  van
+   2:    1  ->  beekje
+   3:    1  ->  delin
+   4:    1  ->  doe
+   5:    1  ->  duif
+   6:    1  ->  ietsen
+   7:    1  ->  ja
+   8:    1  ->  jatte
+   9:    1  ->  me
+  10:    1  ->  oe
+  11:    1  ->  om
+  12:    1  ->  ommef
+  13:    1  ->  onwelen
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   34  ->  *
+   2:    1  ->  crobeklunker
+   3:    1  ->  deuveltek
+   4:    1  ->  gerauwejaak
+   5:    1  ->  gevijdel
+   6:    1  ->  girdofhaalder
+   7:    1  ->  hapeneren
+   8:    1  ->  havedil
+   9:    1  ->  jattesiet
+  10:    1  ->  juitonie
+  11:    1  ->  nappegreeuw
+  12:    1  ->  nurudien
+  13:    1  ->  ondermind
+  14:    1  ->  ooiebiekje
+  15:    1  ->  oonwijlen
+  16:    1  ->  schielendaspen
+  17:    1  ->  sidowaan
+  18:    1  ->  smoralij
+  19:    1  ->  stoenydaas
+  20:    1  ->  toejietsen
+  21:    1  ->  verbrakkertje
+  22:    1  ->  verpierik
+  23:    1  ->  wachteniek
+  24:    1  ->  zeekvlachine
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    1  ->  arespengen
+   2:    1  ->  bluten
+   3:    1  ->  bntal
+   4:    1  ->  brakertje
+   5:    1  ->  canara
+   6:    1  ->  cidoanv
+   7:    1  ->  daspin
+   8:    1  ->  deon
+   9:    1  ->  deuvel
+  10:    1  ->  dik
+  11:    1  ->  duif
+  12:    1  ->  endermind
+  13:    1  ->  et
+  14:    1  ->  gea
+  15:    1  ->  gerdof
+  16:    1  ->  geveidel
+  17:    1  ->  goparate
+  18:    1  ->  grou
+  19:    1  ->  have
+  20:    1  ->  havendeel
+  21:    1  ->  helder
+  22:    1  ->  heppeneren
+  23:    1  ->  ja
+  24:    1  ->  jak
+  25:    1  ->  jutoni
+  26:    1  ->  k
+  27:    1  ->  kantelogsteen
+  28:    1  ->  kapfelstippen
+  29:    1  ->  klinker
+  30:    1  ->  kobul
+  31:    1  ->  krewen
+  32:    1  ->  kro
+  33:    1  ->  krobel
+  34:    1  ->  krobelk
+  35:    1  ->  likro
+  36:    1  ->  manderun
+  37:    1  ->  meisegrok
+  38:    1  ->  moid
+  39:    1  ->  napper
+  40:    1  ->  netleigen
+  41:    1  ->  neuredin
+  42:    1  ->  nu
+  43:    1  ->  reeuw
+  44:    1  ->  rouw
+  45:    1  ->  schilen
+  46:    1  ->  schorder
+  47:    1  ->  schuden
+  48:    1  ->  smorale
+  49:    1  ->  spicker
+  50:    1  ->  spikerai
+  51:    1  ->  stonindas
+  52:    1  ->  tobberm
+  53:    1  ->  vor
+  54:    1  ->  vorbirk
+  55:    1  ->  wachtendek
+  56:    1  ->  zeekvlaine
+  57:    1  ->  zenebral
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

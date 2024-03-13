@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.6%   ( 140)
+
+Percent Correct           =    3.4%   (   5)
+
+Percent Substitution      =   35.9%   (  52)
+Percent Deletions         =   60.7%   (  88)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.4%
+
+
+Ref. words                =           ( 145)
+Hyp. words                =           (  57)
+Aligned words             =           ( 145)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  * ==> ja
+   2:    2  ->  moeilijk ==> mooi
+   3:    1  ->  * ==> a
+   4:    1  ->  * ==> alfer
+   5:    1  ->  * ==> de
+   6:    1  ->  * ==> eers
+   7:    1  ->  * ==> erha
+   8:    1  ->  * ==> hoofdpijn
+   9:    1  ->  * ==> ie
+  10:    1  ->  * ==> irogen
+  11:    1  ->  * ==> joord
+  12:    1  ->  * ==> koa
+  13:    1  ->  * ==> koni
+  14:    1  ->  * ==> la
+  15:    1  ->  * ==> luk
+  16:    1  ->  * ==> mes
+  17:    1  ->  * ==> n
+  18:    1  ->  * ==> niit
+  19:    1  ->  * ==> popt
+  20:    1  ->  * ==> rem
+  21:    1  ->  * ==> skistin
+  22:    1  ->  * ==> t
+  23:    1  ->  * ==> ugan
+  24:    1  ->  * ==> uh
+  25:    1  ->  * ==> um
+  26:    1  ->  * ==> wemmen
+  27:    1  ->  * ==> wintel
+  28:    1  ->  * ==> woerdde
+  29:    1  ->  *s ==> bal
+  30:    1  ->  *s ==> bel
+  31:    1  ->  *s ==> ho
+  32:    1  ->  *s ==> met
+  33:    1  ->  *s ==> mooi
+  34:    1  ->  *s ==> speell
+  35:    1  ->  *s ==> t
+  36:    1  ->  *s ==> um
+  37:    1  ->  *s ==> z
+  38:    1  ->  *x ==> sneeuwwin
+  39:    1  ->  chauffeur ==> ga
+  40:    1  ->  circus ==> apel
+  41:    1  ->  dichtbij ==> h
+  42:    1  ->  fietsbel ==> uh
+  43:    1  ->  kleuren ==> usklen
+  44:    1  ->  koning ==> gauder
+  45:    1  ->  liedje ==> inken
+  46:    1  ->  meisje ==> fin
+  47:    1  ->  potlood ==> nn
+  48:    1  ->  vinger ==> eer
+  49:    1  ->  vlinder*(vrienden) ==> rinden
+  50:    1  ->  voetbal ==> voet
+     -------
+        52
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   53  ->  *
+   2:   13  ->  *s
+   3:    1  ->  *x
+   4:    1  ->  appel
+   5:    1  ->  cola
+   6:    1  ->  drinken
+   7:    1  ->  drogen
+   8:    1  ->  eerste
+   9:    1  ->  gooien
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  moeder
+  13:    1  ->  opnieuw
+  14:    1  ->  regen
+  15:    1  ->  scheuren
+  16:    1  ->  schouders
+  17:    1  ->  sneeuwen
+  18:    1  ->  stoppen
+  19:    1  ->  verhaal
+  20:    1  ->  vliegtuig
+  21:    1  ->  vuurwerk
+  22:    1  ->  water
+  23:    1  ->  winkel
+  24:    1  ->  zwemmen
+     -------
+        88
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:   28  ->  *
+   2:    9  ->  *s
+   3:    2  ->  moeilijk
+   4:    1  ->  *x
+   5:    1  ->  chauffeur
+   6:    1  ->  circus
+   7:    1  ->  dichtbij
+   8:    1  ->  fietsbel
+   9:    1  ->  kleuren
+  10:    1  ->  koning
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  potlood
+  14:    1  ->  vinger
+  15:    1  ->  vlinder*(vrienden)
+  16:    1  ->  voetbal
+     -------
+        52
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  mooi
+   2:    2  ->  ja
+   3:    2  ->  t
+   4:    2  ->  uh
+   5:    2  ->  um
+   6:    1  ->  a
+   7:    1  ->  alfer
+   8:    1  ->  apel
+   9:    1  ->  bal
+  10:    1  ->  bel
+  11:    1  ->  de
+  12:    1  ->  eer
+  13:    1  ->  eers
+  14:    1  ->  erha
+  15:    1  ->  fin
+  16:    1  ->  ga
+  17:    1  ->  gauder
+  18:    1  ->  h
+  19:    1  ->  ho
+  20:    1  ->  hoofdpijn
+  21:    1  ->  ie
+  22:    1  ->  inken
+  23:    1  ->  irogen
+  24:    1  ->  joord
+  25:    1  ->  koa
+  26:    1  ->  koni
+  27:    1  ->  la
+  28:    1  ->  luk
+  29:    1  ->  mes
+  30:    1  ->  met
+  31:    1  ->  n
+  32:    1  ->  niit
+  33:    1  ->  nn
+  34:    1  ->  popt
+  35:    1  ->  rem
+  36:    1  ->  rinden
+  37:    1  ->  skistin
+  38:    1  ->  sneeuwwin
+  39:    1  ->  speell
+  40:    1  ->  ugan
+  41:    1  ->  usklen
+  42:    1  ->  voet
+  43:    1  ->  wemmen
+  44:    1  ->  wintel
+  45:    1  ->  woerdde
+  46:    1  ->  z
+     -------
+        52
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

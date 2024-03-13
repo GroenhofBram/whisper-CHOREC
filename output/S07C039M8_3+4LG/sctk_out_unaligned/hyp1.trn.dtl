@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.1%   (  51)
+
+Percent Correct           =   32.7%   (  16)
+
+Percent Substitution      =   67.3%   (  33)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   36.7%   (  18)
+Percent Word Accuracy     =   -4.1%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  67)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  * ==> dieren
+   2:    1  ->  * ==> en
+   3:    1  ->  * ==> geen
+   4:    1  ->  * ==> ruzie
+   5:    1  ->  * ==> sa
+   6:    1  ->  * ==> sneeuw
+   7:    1  ->  * ==> tanden
+   8:    1  ->  *(verstoppen) ==> verstoppen
+   9:    1  ->  *x ==> tabibeer
+  10:    1  ->  achterdeur ==> de
+  11:    1  ->  afblijven ==> blijven
+  12:    1  ->  dierentuin ==> padden
+  13:    1  ->  eindelijk ==> indolk
+  14:    1  ->  elastiekje ==> maken
+  15:    1  ->  knutselen ==> knutelen
+  16:    1  ->  konijnenhok ==> ah
+  17:    1  ->  limonade ==> limanade
+  18:    1  ->  nieuwsgierig ==> of
+  19:    1  ->  olifant ==> olifand
+  20:    1  ->  paddenstoelen ==> stoellen
+  21:    1  ->  poppenwagen ==> elastieke
+  22:    1  ->  ruziemaken ==> tedibier
+  23:    1  ->  schoenenwinkel ==> winkel
+  24:    1  ->  slaapkamer*(slaapcamper) ==> achter
+  25:    1  ->  sneeuwwitje ==> sneeuwwietje
+  26:    1  ->  sprookjesboek ==> stant
+  27:    1  ->  tandenborstel ==> borstel
+  28:    1  ->  teddybeer ==> tuim
+  29:    1  ->  toiletpapier ==> papier
+  30:    1  ->  vogelkooi ==> kooi
+  31:    1  ->  vrachtwagen ==> vrachtweg
+  32:    1  ->  washandje ==> hondje
+  33:    1  ->  wasmachine ==> mar
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  was
+   2:    1  ->  boek
+   3:    1  ->  enlastiek
+   4:    1  ->  geen
+   5:    1  ->  gierig
+   6:    1  ->  hok
+   7:    1  ->  konijnen
+   8:    1  ->  mag
+   9:    1  ->  nieuws
+  10:    1  ->  poppen
+  11:    1  ->  schoenen
+  12:    1  ->  slaapkamper
+  13:    1  ->  sprookjes
+  14:    1  ->  tailet
+  15:    1  ->  vogel
+  16:    1  ->  wagen
+  17:    1  ->  xxx
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    7  ->  *
+   2:    1  ->  *(verstoppen)
+   3:    1  ->  *x
+   4:    1  ->  achterdeur
+   5:    1  ->  afblijven
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  nieuwsgierig
+  13:    1  ->  olifant
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  slaapkamer*(slaapcamper)
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  toiletpapier
+  24:    1  ->  vogelkooi
+  25:    1  ->  vrachtwagen
+  26:    1  ->  washandje
+  27:    1  ->  wasmachine
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  achter
+   2:    1  ->  ah
+   3:    1  ->  blijven
+   4:    1  ->  borstel
+   5:    1  ->  de
+   6:    1  ->  dieren
+   7:    1  ->  elastieke
+   8:    1  ->  en
+   9:    1  ->  geen
+  10:    1  ->  hondje
+  11:    1  ->  indolk
+  12:    1  ->  knutelen
+  13:    1  ->  kooi
+  14:    1  ->  limanade
+  15:    1  ->  maken
+  16:    1  ->  mar
+  17:    1  ->  of
+  18:    1  ->  olifand
+  19:    1  ->  padden
+  20:    1  ->  papier
+  21:    1  ->  ruzie
+  22:    1  ->  sa
+  23:    1  ->  sneeuw
+  24:    1  ->  sneeuwwietje
+  25:    1  ->  stant
+  26:    1  ->  stoellen
+  27:    1  ->  tabibeer
+  28:    1  ->  tanden
+  29:    1  ->  tedibier
+  30:    1  ->  tuim
+  31:    1  ->  verstoppen
+  32:    1  ->  vrachtweg
+  33:    1  ->  winkel
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

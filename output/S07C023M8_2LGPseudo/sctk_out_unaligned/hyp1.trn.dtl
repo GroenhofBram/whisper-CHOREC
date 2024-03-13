@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.8%   (  61)
+
+Percent Correct           =    3.2%   (   2)
+
+Percent Substitution      =   84.1%   (  53)
+Percent Deletions         =   12.7%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.2%
+
+
+Ref. words                =           (  63)
+Hyp. words                =           (  55)
+Aligned words             =           (  63)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  * ==> sa
+   2:    1  ->  * ==> de
+   3:    1  ->  * ==> den
+   4:    1  ->  * ==> eeten
+   5:    1  ->  * ==> en
+   6:    1  ->  * ==> fokeel
+   7:    1  ->  * ==> g
+   8:    1  ->  * ==> geelo
+   9:    1  ->  * ==> gefaal
+  10:    1  ->  * ==> houweel
+  11:    1  ->  * ==> il
+  12:    1  ->  * ==> joder
+  13:    1  ->  * ==> ken
+  14:    1  ->  * ==> len
+  15:    1  ->  * ==> mimuur
+  16:    1  ->  * ==> nelsta
+  17:    1  ->  * ==> nisen
+  18:    1  ->  * ==> nu
+  19:    1  ->  * ==> on
+  20:    1  ->  * ==> or
+  21:    1  ->  * ==> sar
+  22:    1  ->  * ==> sheelstal
+  23:    1  ->  * ==> shildel
+  24:    1  ->  * ==> shoptig
+  25:    1  ->  * ==> sibe
+  26:    1  ->  * ==> suyto
+  27:    1  ->  * ==> van
+  28:    1  ->  * ==> veel
+  29:    1  ->  * ==> veiten
+  30:    1  ->  * ==> verd
+  31:    1  ->  * ==> vertaand
+  32:    1  ->  * ==> voet
+  33:    1  ->  * ==> waua
+  34:    1  ->  * ==> wy
+  35:    1  ->  erke ==> vlaam
+  36:    1  ->  fiewon ==> tout
+  37:    1  ->  gefouw ==> em
+  38:    1  ->  haweel ==> ecka
+  39:    1  ->  hiffreeuw ==> aree
+  40:    1  ->  ijpo ==> tenk
+  41:    1  ->  kneurem ==> etalk
+  42:    1  ->  menuur ==> ebo
+  43:    1  ->  milste ==> grin
+  44:    1  ->  muider ==> lun
+  45:    1  ->  nizung ==> e
+  46:    1  ->  oonste ==> strel
+  47:    1  ->  prilsood ==> oesta
+  48:    1  ->  schielstaug ==> ban
+  49:    1  ->  spreikje ==> ssvrijkje
+  50:    1  ->  vloender ==> metdor
+  51:    1  ->  vurpaand ==> do
+  52:    1  ->  wooien ==> moe
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  geutel
+   5:    1  ->  veten
+   6:    1  ->  vocil
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:   35  ->  *
+   2:    1  ->  erke
+   3:    1  ->  fiewon
+   4:    1  ->  gefouw
+   5:    1  ->  haweel
+   6:    1  ->  hiffreeuw
+   7:    1  ->  ijpo
+   8:    1  ->  kneurem
+   9:    1  ->  menuur
+  10:    1  ->  milste
+  11:    1  ->  muider
+  12:    1  ->  nizung
+  13:    1  ->  oonste
+  14:    1  ->  prilsood
+  15:    1  ->  schielstaug
+  16:    1  ->  spreikje
+  17:    1  ->  vloender
+  18:    1  ->  vurpaand
+  19:    1  ->  wooien
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  sa
+   2:    1  ->  aree
+   3:    1  ->  ban
+   4:    1  ->  de
+   5:    1  ->  den
+   6:    1  ->  do
+   7:    1  ->  e
+   8:    1  ->  ebo
+   9:    1  ->  ecka
+  10:    1  ->  eeten
+  11:    1  ->  em
+  12:    1  ->  en
+  13:    1  ->  etalk
+  14:    1  ->  fokeel
+  15:    1  ->  g
+  16:    1  ->  geelo
+  17:    1  ->  gefaal
+  18:    1  ->  grin
+  19:    1  ->  houweel
+  20:    1  ->  il
+  21:    1  ->  joder
+  22:    1  ->  ken
+  23:    1  ->  len
+  24:    1  ->  lun
+  25:    1  ->  metdor
+  26:    1  ->  mimuur
+  27:    1  ->  moe
+  28:    1  ->  nelsta
+  29:    1  ->  nisen
+  30:    1  ->  nu
+  31:    1  ->  oesta
+  32:    1  ->  on
+  33:    1  ->  or
+  34:    1  ->  sar
+  35:    1  ->  sheelstal
+  36:    1  ->  shildel
+  37:    1  ->  shoptig
+  38:    1  ->  sibe
+  39:    1  ->  ssvrijkje
+  40:    1  ->  strel
+  41:    1  ->  suyto
+  42:    1  ->  tenk
+  43:    1  ->  tout
+  44:    1  ->  van
+  45:    1  ->  veel
+  46:    1  ->  veiten
+  47:    1  ->  verd
+  48:    1  ->  vertaand
+  49:    1  ->  vlaam
+  50:    1  ->  voet
+  51:    1  ->  waua
+  52:    1  ->  wy
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.5%   (  31)
+
+Percent Correct           =   52.3%   (  23)
+
+Percent Substitution      =   47.7%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   22.7%   (  10)
+Percent Word Accuracy     =   29.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> achter
+   2:    1  ->  * ==> klua
+   3:    1  ->  * ==> ruzie
+   4:    1  ->  * ==> uh
+   5:    1  ->  achterdeur ==> deur
+   6:    1  ->  afblijven ==> blijven
+   7:    1  ->  autorijden ==> autorejden
+   8:    1  ->  chocolade ==> cocolade
+   9:    1  ->  eindelijk ==> endelijk
+  10:    1  ->  elastiekje ==> lastiekje
+  11:    1  ->  goeiendag ==> dag?
+  12:    1  ->  konijnenhok ==> en
+  13:    1  ->  limonade ==> limonada
+  14:    1  ->  ruziemaken ==> maken
+  15:    1  ->  schoenenwinkel ==> winkel
+  16:    1  ->  schommelen ==> schomollen
+  17:    1  ->  sneeuwwitje ==> goeien
+  18:    1  ->  tandenborstel ==> borstel
+  19:    1  ->  teddybeer ==> teddibeer
+  20:    1  ->  toiletpapier ==> papier
+  21:    1  ->  verstoppertje ==> maar
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  aa
+   2:    1  ->  als
+   3:    1  ->  hok
+   4:    1  ->  konijnen
+   5:    1  ->  schoenen
+   6:    1  ->  sneeuwwietje
+   7:    1  ->  stoppertje
+   8:    1  ->  tanden
+   9:    1  ->  toilets
+  10:    1  ->  zo
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade
+   6:    1  ->  eindelijk
+   7:    1  ->  elastiekje
+   8:    1  ->  goeiendag
+   9:    1  ->  konijnenhok
+  10:    1  ->  limonade
+  11:    1  ->  ruziemaken
+  12:    1  ->  schoenenwinkel
+  13:    1  ->  schommelen
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  tandenborstel
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  verstoppertje
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  achter
+   2:    1  ->  autorejden
+   3:    1  ->  blijven
+   4:    1  ->  borstel
+   5:    1  ->  cocolade
+   6:    1  ->  dag?
+   7:    1  ->  deur
+   8:    1  ->  en
+   9:    1  ->  endelijk
+  10:    1  ->  goeien
+  11:    1  ->  klua
+  12:    1  ->  lastiekje
+  13:    1  ->  limonada
+  14:    1  ->  maar
+  15:    1  ->  maken
+  16:    1  ->  papier
+  17:    1  ->  ruzie
+  18:    1  ->  schomollen
+  19:    1  ->  teddibeer
+  20:    1  ->  uh
+  21:    1  ->  winkel
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

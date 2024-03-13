@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   57.1%   (  24)
+
+Percent Correct           =   52.4%   (  22)
+
+Percent Substitution      =   45.2%   (  19)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    9.5%   (   4)
+Percent Word Accuracy     =   42.9%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  * ==> gooi
+   2:    1  ->  * ==> zinger
+   3:    1  ->  appel ==> oppel
+   4:    1  ->  auto ==> outo
+   5:    1  ->  cola ==> kola
+   6:    1  ->  dichtbij ==> bij
+   7:    1  ->  drogen ==> trulgen
+   8:    1  ->  fietsbel ==> s
+   9:    1  ->  gooien ==> goien
+  10:    1  ->  koning ==> kooning
+  11:    1  ->  kussen ==> cusenv
+  12:    1  ->  lawaai ==> laway
+  13:    1  ->  moeder ==> moder
+  14:    1  ->  muziek ==> mezek
+  15:    1  ->  potlood ==> spel
+  16:    1  ->  regen ==> vejgen
+  17:    1  ->  scheuren ==> cheuren
+  18:    1  ->  vinger ==> dichter
+  19:    1  ->  waarom ==> waarom?
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  botlood
+   2:    1  ->  cercus
+   3:    1  ->  circus
+   4:    1  ->  vint
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *s
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien
+   9:    1  ->  koning
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  moeder
+  13:    1  ->  muziek
+  14:    1  ->  potlood
+  15:    1  ->  regen
+  16:    1  ->  scheuren
+  17:    1  ->  vinger
+  18:    1  ->  waarom
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  bij
+   2:    1  ->  cheuren
+   3:    1  ->  cusenv
+   4:    1  ->  dichter
+   5:    1  ->  goien
+   6:    1  ->  gooi
+   7:    1  ->  kola
+   8:    1  ->  kooning
+   9:    1  ->  laway
+  10:    1  ->  mezek
+  11:    1  ->  moder
+  12:    1  ->  oppel
+  13:    1  ->  outo
+  14:    1  ->  s
+  15:    1  ->  spel
+  16:    1  ->  trulgen
+  17:    1  ->  vejgen
+  18:    1  ->  waarom?
+  19:    1  ->  zinger
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

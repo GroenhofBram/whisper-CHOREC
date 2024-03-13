@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   97.9%   (  47)
+
+Percent Correct           =    2.1%   (   1)
+
+Percent Substitution      =   66.7%   (  32)
+Percent Deletions         =   31.3%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    2.1%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  33)
+Aligned words             =           (  48)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> fai
+   2:    1  ->  *s ==> ameld
+   3:    1  ->  *s ==> an
+   4:    1  ->  *s ==> e
+   5:    1  ->  *s ==> rak
+   6:    1  ->  *s ==> shagd
+   7:    1  ->  *s ==> stal
+   8:    1  ->  *s ==> uh
+   9:    1  ->  blard ==> eht
+  10:    1  ->  doer*(door) ==> rent
+  11:    1  ->  dron ==> rul
+  12:    1  ->  grek ==> rijd
+  13:    1  ->  guul*(geul) ==> l
+  14:    1  ->  haans ==> feauhm
+  15:    1  ->  heik ==> hak
+  16:    1  ->  hoekt ==> toors
+  17:    1  ->  jien ==> ad
+  18:    1  ->  keng ==> tael
+  19:    1  ->  leum ==> na
+  20:    1  ->  neeuw ==> toor
+  21:    1  ->  noork ==> leer
+  22:    1  ->  plirt ==> waar
+  23:    1  ->  sank ==> warmk
+  24:    1  ->  schard ==> uhm
+  25:    1  ->  sjalt ==> al
+  26:    1  ->  snaaf ==> m
+  27:    1  ->  spaai ==> uhm
+  28:    1  ->  sprieuw ==> fk
+  29:    1  ->  stuid ==> ap
+  30:    1  ->  swoers ==> r
+  31:    1  ->  vid ==> lard
+  32:    1  ->  zans ==> uok
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ant
+   2:    1  ->  beeg
+   3:    1  ->  dau
+   4:    1  ->  eem
+   5:    1  ->  fam
+   6:    1  ->  fook
+   7:    1  ->  frijk
+   8:    1  ->  hool
+   9:    1  ->  larst
+  10:    1  ->  rachts
+  11:    1  ->  sooi
+  12:    1  ->  sprunt
+  13:    1  ->  vaap
+  14:    1  ->  vout
+  15:    1  ->  zwoei
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    7  ->  *s
+   2:    1  ->  *
+   3:    1  ->  blard
+   4:    1  ->  doer*(door)
+   5:    1  ->  dron
+   6:    1  ->  grek
+   7:    1  ->  guul*(geul)
+   8:    1  ->  haans
+   9:    1  ->  heik
+  10:    1  ->  hoekt
+  11:    1  ->  jien
+  12:    1  ->  keng
+  13:    1  ->  leum
+  14:    1  ->  neeuw
+  15:    1  ->  noork
+  16:    1  ->  plirt
+  17:    1  ->  sank
+  18:    1  ->  schard
+  19:    1  ->  sjalt
+  20:    1  ->  snaaf
+  21:    1  ->  spaai
+  22:    1  ->  sprieuw
+  23:    1  ->  stuid
+  24:    1  ->  swoers
+  25:    1  ->  vid
+  26:    1  ->  zans
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  uhm
+   2:    1  ->  ad
+   3:    1  ->  al
+   4:    1  ->  ameld
+   5:    1  ->  an
+   6:    1  ->  ap
+   7:    1  ->  e
+   8:    1  ->  eht
+   9:    1  ->  fai
+  10:    1  ->  feauhm
+  11:    1  ->  fk
+  12:    1  ->  hak
+  13:    1  ->  l
+  14:    1  ->  lard
+  15:    1  ->  leer
+  16:    1  ->  m
+  17:    1  ->  na
+  18:    1  ->  r
+  19:    1  ->  rak
+  20:    1  ->  rent
+  21:    1  ->  rijd
+  22:    1  ->  rul
+  23:    1  ->  shagd
+  24:    1  ->  stal
+  25:    1  ->  tael
+  26:    1  ->  toor
+  27:    1  ->  toors
+  28:    1  ->  uh
+  29:    1  ->  uok
+  30:    1  ->  waar
+  31:    1  ->  warmk
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

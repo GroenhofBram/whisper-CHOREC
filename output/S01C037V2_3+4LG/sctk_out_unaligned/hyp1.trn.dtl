@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   84.1%   (  37)
+
+Percent Correct           =   36.4%   (  16)
+
+Percent Substitution      =   63.6%   (  28)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   20.5%   (   9)
+Percent Word Accuracy     =   15.9%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  53)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> ende
+   2:    1  ->  * ==> limona
+   3:    1  ->  * ==> s
+   4:    1  ->  * ==> wes
+   5:    1  ->  autorijden ==> autoreren
+   6:    1  ->  chocolade ==> later
+   7:    1  ->  dierentuin ==> stoelen
+   8:    1  ->  eindelijk ==> uhndelik
+   9:    1  ->  elastiekje ==> kadibeer
+  10:    1  ->  familie ==> familiezuken
+  11:    1  ->  fototoestel ==> toilet
+  12:    1  ->  kabouter ==> was
+  13:    1  ->  knutselen ==> kneutsalen
+  14:    1  ->  konijnenhok ==> maken
+  15:    1  ->  limonade ==> limonada
+  16:    1  ->  lucifer ==> lusifer
+  17:    1  ->  paddenstoelen ==> vastopertja
+  18:    1  ->  poppenwagen ==> ruzie
+  19:    1  ->  ruziemaken ==> dierenten
+  20:    1  ->  schoenenwinkel ==> winkel
+  21:    1  ->  sneeuwwitje ==> smejweetje
+  22:    1  ->  tandenborstel ==> borstel
+  23:    1  ->  teddybeer ==> badden
+  24:    1  ->  toiletpapier ==> papier
+  25:    1  ->  verjaardag ==> verlardag
+  26:    1  ->  verstoppertje ==> wasmachina
+  27:    1  ->  washandje ==> handje
+  28:    1  ->  wasmachine ==> foetoestel
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  de
+   2:    1  ->  elastieke
+   3:    1  ->  hok
+   4:    1  ->  in
+   5:    1  ->  kabelter
+   6:    1  ->  konnijnen
+   7:    1  ->  poepenwagen
+   8:    1  ->  sschoen
+   9:    1  ->  tanden
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  eindelijk
+   6:    1  ->  elastiekje
+   7:    1  ->  familie
+   8:    1  ->  fototoestel
+   9:    1  ->  kabouter
+  10:    1  ->  knutselen
+  11:    1  ->  konijnenhok
+  12:    1  ->  limonade
+  13:    1  ->  lucifer
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  sneeuwwitje
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verjaardag
+  23:    1  ->  verstoppertje
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  autoreren
+   2:    1  ->  badden
+   3:    1  ->  borstel
+   4:    1  ->  dierenten
+   5:    1  ->  ende
+   6:    1  ->  familiezuken
+   7:    1  ->  foetoestel
+   8:    1  ->  handje
+   9:    1  ->  kadibeer
+  10:    1  ->  kneutsalen
+  11:    1  ->  later
+  12:    1  ->  limona
+  13:    1  ->  limonada
+  14:    1  ->  lusifer
+  15:    1  ->  maken
+  16:    1  ->  papier
+  17:    1  ->  ruzie
+  18:    1  ->  s
+  19:    1  ->  smejweetje
+  20:    1  ->  stoelen
+  21:    1  ->  toilet
+  22:    1  ->  uhndelik
+  23:    1  ->  vastopertja
+  24:    1  ->  verlardag
+  25:    1  ->  was
+  26:    1  ->  wasmachina
+  27:    1  ->  wes
+  28:    1  ->  winkel
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

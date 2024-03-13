@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.8%   (  45)
+
+Percent Correct           =   52.1%   (  25)
+
+Percent Substitution      =   45.8%   (  22)
+Percent Deletions         =    2.1%   (   1)
+Percent Insertions        =   45.8%   (  22)
+Percent Word Accuracy     =    6.3%
+
+
+Ref. words                =           (  48)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> datise
+   2:    1  ->  * ==> door
+   3:    1  ->  * ==> dus
+   4:    1  ->  * ==> ker
+   5:    1  ->  * ==> open
+   6:    1  ->  * ==> pop
+   7:    1  ->  * ==> ringen
+   8:    1  ->  *(carrefour) ==> zie
+   9:    1  ->  *(dringen) ==> ja
+  10:    1  ->  cola ==> coa
+  11:    1  ->  fietsbel ==> bil
+  12:    1  ->  hoofdpijn ==> hoofdken
+  13:    1  ->  liedje ==> oplot
+  14:    1  ->  moeilijk ==> ria
+  15:    1  ->  muziek ==> ik
+  16:    1  ->  potlood ==> fiets
+  17:    1  ->  scheuren ==> heren
+  18:    1  ->  sneeuwen ==> snieuwen
+  19:    1  ->  speelplaats ==> de
+  20:    1  ->  vinger ==> vinnor
+  21:    1  ->  vlinder ==> vinder
+  22:    1  ->  zwemmen ==> swemmen
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  ah
+   2:    1  ->  carfour
+   3:    1  ->  de
+   4:    1  ->  etja
+   5:    1  ->  ezo
+   6:    1  ->  h
+   7:    1  ->  hoe
+   8:    1  ->  hoolik
+   9:    1  ->  huh
+  10:    1  ->  hè
+  11:    1  ->  ik
+  12:    1  ->  is
+  13:    1  ->  isest?
+  14:    1  ->  kan
+  15:    1  ->  moeilijk
+  16:    1  ->  nee
+  17:    1  ->  needa
+  18:    1  ->  of
+  19:    1  ->  ok
+  20:    1  ->  speelplet
+  21:    1  ->  totaal
+  22:    1  ->  ur
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    7  ->  *
+   2:    1  ->  *(carrefour)
+   3:    1  ->  *(dringen)
+   4:    1  ->  cola
+   5:    1  ->  fietsbel
+   6:    1  ->  hoofdpijn
+   7:    1  ->  liedje
+   8:    1  ->  moeilijk
+   9:    1  ->  muziek
+  10:    1  ->  potlood
+  11:    1  ->  scheuren
+  12:    1  ->  sneeuwen
+  13:    1  ->  speelplaats
+  14:    1  ->  vinger
+  15:    1  ->  vlinder
+  16:    1  ->  zwemmen
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bil
+   2:    1  ->  coa
+   3:    1  ->  datise
+   4:    1  ->  de
+   5:    1  ->  door
+   6:    1  ->  dus
+   7:    1  ->  fiets
+   8:    1  ->  heren
+   9:    1  ->  hoofdken
+  10:    1  ->  ik
+  11:    1  ->  ja
+  12:    1  ->  ker
+  13:    1  ->  open
+  14:    1  ->  oplot
+  15:    1  ->  pop
+  16:    1  ->  ria
+  17:    1  ->  ringen
+  18:    1  ->  snieuwen
+  19:    1  ->  swemmen
+  20:    1  ->  vinder
+  21:    1  ->  vinnor
+  22:    1  ->  zie
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

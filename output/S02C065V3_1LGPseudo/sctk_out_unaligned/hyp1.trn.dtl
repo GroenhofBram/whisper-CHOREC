@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.5%   (  25)
+
+Percent Correct           =   37.5%   (  15)
+
+Percent Substitution      =   62.5%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   37.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  blard ==> plart
+   2:    1  ->  dau ==> douw
+   3:    1  ->  eem ==> één
+   4:    1  ->  fam ==> fan
+   5:    1  ->  fook ==> folk
+   6:    1  ->  guul ==> gul
+   7:    1  ->  haans ==> hans
+   8:    1  ->  heik ==> herk
+   9:    1  ->  hool ==> ho
+  10:    1  ->  jien ==> jin
+  11:    1  ->  neeuw ==> nee
+  12:    1  ->  noork ==> noor
+  13:    1  ->  plirt ==> pleert
+  14:    1  ->  rachts ==> vart
+  15:    1  ->  roen ==> hoen
+  16:    1  ->  sank ==> zant
+  17:    1  ->  schard ==> schart
+  18:    1  ->  sjalt ==> sjolt
+  19:    1  ->  spaai ==> spaiy
+  20:    1  ->  sprieuw ==> sprien
+  21:    1  ->  stuid ==> stuit
+  22:    1  ->  vaap ==> vep
+  23:    1  ->  vid ==> vit
+  24:    1  ->  zans ==> sans
+  25:    1  ->  zwoei ==> zwooi
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  blard
+   2:    1  ->  dau
+   3:    1  ->  eem
+   4:    1  ->  fam
+   5:    1  ->  fook
+   6:    1  ->  guul
+   7:    1  ->  haans
+   8:    1  ->  heik
+   9:    1  ->  hool
+  10:    1  ->  jien
+  11:    1  ->  neeuw
+  12:    1  ->  noork
+  13:    1  ->  plirt
+  14:    1  ->  rachts
+  15:    1  ->  roen
+  16:    1  ->  sank
+  17:    1  ->  schard
+  18:    1  ->  sjalt
+  19:    1  ->  spaai
+  20:    1  ->  sprieuw
+  21:    1  ->  stuid
+  22:    1  ->  vaap
+  23:    1  ->  vid
+  24:    1  ->  zans
+  25:    1  ->  zwoei
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  douw
+   2:    1  ->  fan
+   3:    1  ->  folk
+   4:    1  ->  gul
+   5:    1  ->  hans
+   6:    1  ->  herk
+   7:    1  ->  ho
+   8:    1  ->  hoen
+   9:    1  ->  jin
+  10:    1  ->  nee
+  11:    1  ->  noor
+  12:    1  ->  plart
+  13:    1  ->  pleert
+  14:    1  ->  sans
+  15:    1  ->  schart
+  16:    1  ->  sjolt
+  17:    1  ->  spaiy
+  18:    1  ->  sprien
+  19:    1  ->  stuit
+  20:    1  ->  vart
+  21:    1  ->  vep
+  22:    1  ->  vit
+  23:    1  ->  zant
+  24:    1  ->  zwooi
+  25:    1  ->  één
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

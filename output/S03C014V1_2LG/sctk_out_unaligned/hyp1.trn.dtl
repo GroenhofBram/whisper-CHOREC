@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.1%   (  58)
+
+Percent Correct           =    6.6%   (   4)
+
+Percent Substitution      =   82.0%   (  50)
+Percent Deletions         =   11.5%   (   7)
+Percent Insertions        =    1.6%   (   1)
+Percent Word Accuracy     =    4.9%
+
+
+Ref. words                =           (  61)
+Hyp. words                =           (  55)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    1  ->  * ==> evberk
+   2:    1  ->  * ==> vergaan
+   3:    1  ->  * ==> vifkif
+   4:    1  ->  *s ==> a
+   5:    1  ->  *s ==> an
+   6:    1  ->  *s ==> brilkan
+   7:    1  ->  *s ==> chauffeur
+   8:    1  ->  *s ==> daar
+   9:    1  ->  *s ==> dars
+  10:    1  ->  *s ==> eersta
+  11:    1  ->  *s ==> finar
+  12:    1  ->  *s ==> ko
+  13:    1  ->  *s ==> leet
+  14:    1  ->  *s ==> mevra
+  15:    1  ->  *s ==> patlat
+  16:    1  ->  *s ==> u
+  17:    1  ->  *s ==> veq
+  18:    1  ->  *s ==> wat
+  19:    1  ->  *s ==> went
+  20:    1  ->  appel ==> en
+  21:    1  ->  dichtbij ==> chauffer
+  22:    1  ->  drinken ==> pelpet
+  23:    1  ->  eerste ==> klaren
+  24:    1  ->  fietsbel ==> dis
+  25:    1  ->  gooien ==> neeen
+  26:    1  ->  hoofdpijn ==> uft
+  27:    1  ->  kleuren ==> oe
+  28:    1  ->  koning ==> sgan
+  29:    1  ->  kussen ==> cyrcus
+  30:    1  ->  lawaai ==> zinen
+  31:    1  ->  liedje ==> ja
+  32:    1  ->  meisje ==> ne
+  33:    1  ->  moeder ==> ar
+  34:    1  ->  moeilijk ==> ou
+  35:    1  ->  muziek ==> daron
+  36:    1  ->  opnieuw ==> gaen
+  37:    1  ->  potlood ==> fetspel
+  38:    1  ->  regen ==> vijgen
+  39:    1  ->  scheuren ==> label
+  40:    1  ->  schouders ==> a
+  41:    1  ->  sneeuwen ==> mo
+  42:    1  ->  speelplaats ==> kmoeilijk
+  43:    1  ->  verhaal ==> uta
+  44:    1  ->  vinger ==> aa
+  45:    1  ->  vlinder ==> leen
+  46:    1  ->  voetbal ==> bel
+  47:    1  ->  vuurwerk ==> kirnes
+  48:    1  ->  waarom ==> scheren
+  49:    1  ->  zwemmen ==> apel
+  50:    1  ->  zwemmen ==> kona
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  opieeuw
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    4  ->  *s
+   2:    1  ->  auto
+   3:    1  ->  mevrouw
+   4:    1  ->  winkel
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:   16  ->  *s
+   2:    3  ->  *
+   3:    2  ->  zwemmen
+   4:    1  ->  appel
+   5:    1  ->  dichtbij
+   6:    1  ->  drinken
+   7:    1  ->  eerste
+   8:    1  ->  fietsbel
+   9:    1  ->  gooien
+  10:    1  ->  hoofdpijn
+  11:    1  ->  kleuren
+  12:    1  ->  koning
+  13:    1  ->  kussen
+  14:    1  ->  lawaai
+  15:    1  ->  liedje
+  16:    1  ->  meisje
+  17:    1  ->  moeder
+  18:    1  ->  moeilijk
+  19:    1  ->  muziek
+  20:    1  ->  opnieuw
+  21:    1  ->  potlood
+  22:    1  ->  regen
+  23:    1  ->  scheuren
+  24:    1  ->  schouders
+  25:    1  ->  sneeuwen
+  26:    1  ->  speelplaats
+  27:    1  ->  verhaal
+  28:    1  ->  vinger
+  29:    1  ->  vlinder
+  30:    1  ->  voetbal
+  31:    1  ->  vuurwerk
+  32:    1  ->  waarom
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  a
+   2:    1  ->  aa
+   3:    1  ->  an
+   4:    1  ->  apel
+   5:    1  ->  ar
+   6:    1  ->  bel
+   7:    1  ->  brilkan
+   8:    1  ->  chauffer
+   9:    1  ->  chauffeur
+  10:    1  ->  cyrcus
+  11:    1  ->  daar
+  12:    1  ->  daron
+  13:    1  ->  dars
+  14:    1  ->  dis
+  15:    1  ->  eersta
+  16:    1  ->  en
+  17:    1  ->  evberk
+  18:    1  ->  fetspel
+  19:    1  ->  finar
+  20:    1  ->  gaen
+  21:    1  ->  ja
+  22:    1  ->  kirnes
+  23:    1  ->  klaren
+  24:    1  ->  kmoeilijk
+  25:    1  ->  ko
+  26:    1  ->  kona
+  27:    1  ->  label
+  28:    1  ->  leen
+  29:    1  ->  leet
+  30:    1  ->  mevra
+  31:    1  ->  mo
+  32:    1  ->  ne
+  33:    1  ->  neeen
+  34:    1  ->  oe
+  35:    1  ->  ou
+  36:    1  ->  patlat
+  37:    1  ->  pelpet
+  38:    1  ->  scheren
+  39:    1  ->  sgan
+  40:    1  ->  u
+  41:    1  ->  uft
+  42:    1  ->  uta
+  43:    1  ->  veq
+  44:    1  ->  vergaan
+  45:    1  ->  vifkif
+  46:    1  ->  vijgen
+  47:    1  ->  wat
+  48:    1  ->  went
+  49:    1  ->  zinen
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

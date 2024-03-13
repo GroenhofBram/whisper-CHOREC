@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  146.8%   (  69)
+
+Percent Correct           =    4.3%   (   2)
+
+Percent Substitution      =   95.7%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   51.1%   (  24)
+Percent Word Accuracy     =  -46.8%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  71)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> beetje
+   2:    1  ->  * ==> corati
+   3:    1  ->  * ==> ikkerai
+   4:    1  ->  * ==> men
+   5:    1  ->  * ==> ras
+   6:    1  ->  * ==> verpirik
+   7:    1  ->  * ==> wag
+   8:    1  ->  blottenduuf ==> alder
+   9:    1  ->  choporatie ==> tanen
+  10:    1  ->  crobeklunker ==> gerwerrn
+  11:    1  ->  deuveltek ==> nik
+  12:    1  ->  fandelig ==> delink
+  13:    1  ->  gerauwejaak ==> veraeje
+  14:    1  ->  gevijdel ==> gre
+  15:    1  ->  girdofhaalder ==> tobbermoit
+  16:    1  ->  havedil ==> voor
+  17:    1  ->  ijraspangen ==> gerdof
+  18:    1  ->  jattesiet ==> doan
+  19:    1  ->  juitonie ==> nater
+  20:    1  ->  kabbestepen ==> verwrg
+  21:    1  ->  kanaroe ==> onderniet
+  22:    1  ->  kantelogsten ==> zinnebrel
+  23:    1  ->  mantaroen ==> kabe
+  24:    1  ->  meitsegrok ==> schoq
+  25:    1  ->  nappegreeuw ==> krobbeklinter
+  26:    1  ->  nurudien ==> s
+  27:    1  ->  ometuif ==> jetoni
+  28:    1  ->  ondermind ==> en
+  29:    1  ->  ooiebiekje ==> van
+  30:    1  ->  oonwijlen ==> ci
+  31:    1  ->  poentalschouden ==> havdien
+  32:    1  ->  schielendaspen ==> tepen
+  33:    1  ->  sidowaan ==> man
+  34:    1  ->  smoralij ==> grok
+  35:    1  ->  spekkeraai ==> taron
+  36:    1  ->  stoenydaas ==> teniet
+  37:    1  ->  tobbermoeit ==> tontelsholden
+  38:    1  ->  toejietsen ==> gerejde
+  39:    1  ->  toineetlijgen ==> shoq
+  40:    1  ->  verbrakkertje ==> brakkertje
+  41:    1  ->  verpierik ==> daspen
+  42:    1  ->  verwarig*(verwarring) ==> oje
+  43:    1  ->  wachteniek ==> schien
+  44:    1  ->  zeekvlachine ==> kantostem
+  45:    1  ->  zennebral ==> notende
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  e
+   2:    1  ->  daf
+   3:    1  ->  das
+   4:    1  ->  dov
+   5:    1  ->  duiveltik
+   6:    1  ->  déen
+   7:    1  ->  heen
+   8:    1  ->  ja
+   9:    1  ->  joed
+  10:    1  ->  ka
+  11:    1  ->  klegen
+  12:    1  ->  met
+  13:    1  ->  mi
+  14:    1  ->  naroe
+  15:    1  ->  nero
+  16:    1  ->  neron
+  17:    1  ->  om
+  18:    1  ->  onwelen
+  19:    1  ->  smoale
+  20:    1  ->  stone
+  21:    1  ->  tesset
+  22:    1  ->  toh
+  23:    1  ->  zekvlakchine
+     -------
+        24
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    7  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  havedil
+  11:    1  ->  ijraspangen
+  12:    1  ->  jattesiet
+  13:    1  ->  juitonie
+  14:    1  ->  kabbestepen
+  15:    1  ->  kanaroe
+  16:    1  ->  kantelogsten
+  17:    1  ->  mantaroen
+  18:    1  ->  meitsegrok
+  19:    1  ->  nappegreeuw
+  20:    1  ->  nurudien
+  21:    1  ->  ometuif
+  22:    1  ->  ondermind
+  23:    1  ->  ooiebiekje
+  24:    1  ->  oonwijlen
+  25:    1  ->  poentalschouden
+  26:    1  ->  schielendaspen
+  27:    1  ->  sidowaan
+  28:    1  ->  smoralij
+  29:    1  ->  spekkeraai
+  30:    1  ->  stoenydaas
+  31:    1  ->  tobbermoeit
+  32:    1  ->  toejietsen
+  33:    1  ->  toineetlijgen
+  34:    1  ->  verbrakkertje
+  35:    1  ->  verpierik
+  36:    1  ->  verwarig*(verwarring)
+  37:    1  ->  wachteniek
+  38:    1  ->  zeekvlachine
+  39:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  alder
+   2:    1  ->  beetje
+   3:    1  ->  brakkertje
+   4:    1  ->  ci
+   5:    1  ->  corati
+   6:    1  ->  daspen
+   7:    1  ->  delink
+   8:    1  ->  doan
+   9:    1  ->  en
+  10:    1  ->  gerdof
+  11:    1  ->  gerejde
+  12:    1  ->  gerwerrn
+  13:    1  ->  gre
+  14:    1  ->  grok
+  15:    1  ->  havdien
+  16:    1  ->  ikkerai
+  17:    1  ->  jetoni
+  18:    1  ->  kabe
+  19:    1  ->  kantostem
+  20:    1  ->  krobbeklinter
+  21:    1  ->  man
+  22:    1  ->  men
+  23:    1  ->  nater
+  24:    1  ->  nik
+  25:    1  ->  notende
+  26:    1  ->  oje
+  27:    1  ->  onderniet
+  28:    1  ->  ras
+  29:    1  ->  s
+  30:    1  ->  schien
+  31:    1  ->  schoq
+  32:    1  ->  shoq
+  33:    1  ->  tanen
+  34:    1  ->  taron
+  35:    1  ->  teniet
+  36:    1  ->  tepen
+  37:    1  ->  tobbermoit
+  38:    1  ->  tontelsholden
+  39:    1  ->  van
+  40:    1  ->  veraeje
+  41:    1  ->  verpirik
+  42:    1  ->  verwrg
+  43:    1  ->  voor
+  44:    1  ->  wag
+  45:    1  ->  zinnebrel
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  49)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  49)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  49)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  * ==> bam
+   2:    1  ->  * ==> een
+   3:    1  ->  * ==> en
+   4:    1  ->  * ==> es
+   5:    1  ->  * ==> goed
+   6:    1  ->  * ==> hoe
+   7:    1  ->  * ==> mater
+   8:    1  ->  * ==> mesten
+   9:    1  ->  * ==> ne
+  10:    1  ->  * ==> neze
+  11:    1  ->  * ==> ol
+  12:    1  ->  * ==> schilden
+  13:    1  ->  * ==> ten
+  14:    1  ->  * ==> val
+  15:    1  ->  * ==> vuurten
+  16:    1  ->  * ==> za
+  17:    1  ->  * ==> zwijn
+  18:    1  ->  *(kijker) ==> tilsos
+  19:    1  ->  bepoud ==> wel
+  20:    1  ->  eemde ==> bé
+  21:    1  ->  erke ==> kel
+  22:    1  ->  fiewon ==> a
+  23:    1  ->  gefouw ==> veel
+  24:    1  ->  geutel ==> jel
+  25:    1  ->  gevicht*(gift) ==> geeft
+  26:    1  ->  haweel ==> haal
+  27:    1  ->  ierpieuw*(nieuwer) ==> nier
+  28:    1  ->  ijpo ==> oten
+  29:    1  ->  kloeien*(koelen) ==> te
+  30:    1  ->  kneurem*(kern) ==> stan
+  31:    1  ->  menuur*(muren) ==> neren
+  32:    1  ->  millen ==> mil
+  33:    1  ->  milste ==> koli
+  34:    1  ->  muider ==> kijker
+  35:    1  ->  oonste ==> kx
+  36:    1  ->  orponk ==> en
+  37:    1  ->  orstalk*(ook) ==> ook
+  38:    1  ->  saarweng ==> weg
+  39:    1  ->  schielstaug*(schilden) ==> hoe
+  40:    1  ->  schodig ==> agen
+  41:    1  ->  sjobel ==> sodel
+  42:    1  ->  spreikje*(spaken) ==> elken
+  43:    1  ->  strellen*(stam) ==> das
+  44:    1  ->  ulen ==> goer
+  45:    1  ->  veurder ==> el
+  46:    1  ->  vocil ==> wog
+  47:    1  ->  vurpaand ==> em
+  48:    1  ->  walaan ==> walder
+  49:    1  ->  zwieten ==> oh
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   17  ->  *
+   2:    1  ->  *(kijker)
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  erke
+   6:    1  ->  fiewon
+   7:    1  ->  gefouw
+   8:    1  ->  geutel
+   9:    1  ->  gevicht*(gift)
+  10:    1  ->  haweel
+  11:    1  ->  ierpieuw*(nieuwer)
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien*(koelen)
+  14:    1  ->  kneurem*(kern)
+  15:    1  ->  menuur*(muren)
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  oonste
+  20:    1  ->  orponk
+  21:    1  ->  orstalk*(ook)
+  22:    1  ->  saarweng
+  23:    1  ->  schielstaug*(schilden)
+  24:    1  ->  schodig
+  25:    1  ->  sjobel
+  26:    1  ->  spreikje*(spaken)
+  27:    1  ->  strellen*(stam)
+  28:    1  ->  ulen
+  29:    1  ->  veurder
+  30:    1  ->  vocil
+  31:    1  ->  vurpaand
+  32:    1  ->  walaan
+  33:    1  ->  zwieten
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  en
+   2:    2  ->  hoe
+   3:    1  ->  a
+   4:    1  ->  agen
+   5:    1  ->  bam
+   6:    1  ->  bé
+   7:    1  ->  das
+   8:    1  ->  een
+   9:    1  ->  el
+  10:    1  ->  elken
+  11:    1  ->  em
+  12:    1  ->  es
+  13:    1  ->  geeft
+  14:    1  ->  goed
+  15:    1  ->  goer
+  16:    1  ->  haal
+  17:    1  ->  jel
+  18:    1  ->  kel
+  19:    1  ->  kijker
+  20:    1  ->  koli
+  21:    1  ->  kx
+  22:    1  ->  mater
+  23:    1  ->  mesten
+  24:    1  ->  mil
+  25:    1  ->  ne
+  26:    1  ->  neren
+  27:    1  ->  neze
+  28:    1  ->  nier
+  29:    1  ->  oh
+  30:    1  ->  ol
+  31:    1  ->  ook
+  32:    1  ->  oten
+  33:    1  ->  schilden
+  34:    1  ->  sodel
+  35:    1  ->  stan
+  36:    1  ->  te
+  37:    1  ->  ten
+  38:    1  ->  tilsos
+  39:    1  ->  val
+  40:    1  ->  veel
+  41:    1  ->  vuurten
+  42:    1  ->  walder
+  43:    1  ->  weg
+  44:    1  ->  wel
+  45:    1  ->  wog
+  46:    1  ->  za
+  47:    1  ->  zwijn
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

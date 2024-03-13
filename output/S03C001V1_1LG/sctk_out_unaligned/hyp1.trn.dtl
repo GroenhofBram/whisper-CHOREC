@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.7%   (  45)
+
+Percent Correct           =    4.3%   (   2)
+
+Percent Substitution      =   87.2%   (  41)
+Percent Deletions         =    8.5%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.3%
+
+
+Ref. words                =           (  47)
+Hyp. words                =           (  43)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  * ==> 'lam
+   2:    1  ->  * ==> ben
+   3:    1  ->  * ==> ert
+   4:    1  ->  * ==> ne
+   5:    1  ->  * ==> nee
+   6:    1  ->  * ==> plank
+   7:    1  ->  arm ==> mai
+   8:    1  ->  bang ==> og
+   9:    1  ->  bed ==> groi
+  10:    1  ->  chips*(gips) ==> gal
+  11:    1  ->  clown ==> n
+  12:    1  ->  draai ==> ist
+  13:    1  ->  duur ==> al
+  14:    1  ->  eerst ==> trand
+  15:    1  ->  feest ==> run
+  16:    1  ->  gauw ==> frimit
+  17:    1  ->  groei ==> kul
+  18:    1  ->  groen ==> gip
+  19:    1  ->  herfst ==> ral
+  20:    1  ->  huis ==> jaf
+  21:    1  ->  jas ==> raf
+  22:    1  ->  kind ==> ken
+  23:    1  ->  knoop ==> no
+  24:    1  ->  koe ==> klaf
+  25:    1  ->  leeuw ==> traat
+  26:    1  ->  muts ==> vaf
+  27:    1  ->  neus ==> heb
+  28:    1  ->  nieuw ==> niet
+  29:    1  ->  oog ==> wehori
+  30:    1  ->  paard ==> ha
+  31:    1  ->  plank*(plan) ==> ap
+  32:    1  ->  plas ==> 'k
+  33:    1  ->  reis ==> vijft
+  34:    1  ->  schoen ==> nee
+  35:    1  ->  sjaal ==> f
+  36:    1  ->  straat ==> ker
+  37:    1  ->  strand ==> erm
+  38:    1  ->  vijf ==> ard
+  39:    1  ->  voor ==> it
+  40:    1  ->  vriend ==> eld
+  41:    1  ->  zacht ==> lag
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  *
+   2:    1  ->  hout
+   3:    1  ->  klas
+   4:    1  ->  mooi
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    6  ->  *
+   2:    1  ->  arm
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  chips*(gips)
+   6:    1  ->  clown
+   7:    1  ->  draai
+   8:    1  ->  duur
+   9:    1  ->  eerst
+  10:    1  ->  feest
+  11:    1  ->  gauw
+  12:    1  ->  groei
+  13:    1  ->  groen
+  14:    1  ->  herfst
+  15:    1  ->  huis
+  16:    1  ->  jas
+  17:    1  ->  kind
+  18:    1  ->  knoop
+  19:    1  ->  koe
+  20:    1  ->  leeuw
+  21:    1  ->  muts
+  22:    1  ->  neus
+  23:    1  ->  nieuw
+  24:    1  ->  oog
+  25:    1  ->  paard
+  26:    1  ->  plank*(plan)
+  27:    1  ->  plas
+  28:    1  ->  reis
+  29:    1  ->  schoen
+  30:    1  ->  sjaal
+  31:    1  ->  straat
+  32:    1  ->  strand
+  33:    1  ->  vijf
+  34:    1  ->  voor
+  35:    1  ->  vriend
+  36:    1  ->  zacht
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  nee
+   2:    1  ->  'k
+   3:    1  ->  'lam
+   4:    1  ->  al
+   5:    1  ->  ap
+   6:    1  ->  ard
+   7:    1  ->  ben
+   8:    1  ->  eld
+   9:    1  ->  erm
+  10:    1  ->  ert
+  11:    1  ->  f
+  12:    1  ->  frimit
+  13:    1  ->  gal
+  14:    1  ->  gip
+  15:    1  ->  groi
+  16:    1  ->  ha
+  17:    1  ->  heb
+  18:    1  ->  ist
+  19:    1  ->  it
+  20:    1  ->  jaf
+  21:    1  ->  ken
+  22:    1  ->  ker
+  23:    1  ->  klaf
+  24:    1  ->  kul
+  25:    1  ->  lag
+  26:    1  ->  mai
+  27:    1  ->  n
+  28:    1  ->  ne
+  29:    1  ->  niet
+  30:    1  ->  no
+  31:    1  ->  og
+  32:    1  ->  plank
+  33:    1  ->  raf
+  34:    1  ->  ral
+  35:    1  ->  run
+  36:    1  ->  traat
+  37:    1  ->  trand
+  38:    1  ->  vaf
+  39:    1  ->  vijft
+  40:    1  ->  wehori
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

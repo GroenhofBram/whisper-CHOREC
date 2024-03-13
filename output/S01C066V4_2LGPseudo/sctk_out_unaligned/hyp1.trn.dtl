@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   82.2%   (  37)
+
+Percent Correct           =   20.0%   (   9)
+
+Percent Substitution      =   75.6%   (  34)
+Percent Deletions         =    4.4%   (   2)
+Percent Insertions        =    2.2%   (   1)
+Percent Word Accuracy     =   17.8%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  44)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  kneurem ==> kneuren
+   2:    1  ->  * ==> oorponk
+   3:    1  ->  * ==> sa
+   4:    1  ->  * ==> sarwing
+   5:    1  ->  * ==> vaa
+   6:    1  ->  bepoud ==> bepouwd
+   7:    1  ->  eemde ==> inde
+   8:    1  ->  fiewon ==> fibon
+   9:    1  ->  foetbans ==> voetbandes
+  10:    1  ->  gevicht ==> gegevicht
+  11:    1  ->  grijnken ==> grenken
+  12:    1  ->  hiffreeuw ==> hifreew
+  13:    1  ->  ierpieuw ==> piel
+  14:    1  ->  ijpo ==> epo
+  15:    1  ->  kloeien ==> knoeien
+  16:    1  ->  millen ==> mielen
+  17:    1  ->  muider ==> made
+  18:    1  ->  nizung ==> nizun
+  19:    1  ->  oonste ==> onste
+  20:    1  ->  orstalk ==> orstal
+  21:    1  ->  prilsood ==> brilot
+  22:    1  ->  saarweng ==> hawel
+  23:    1  ->  schielstaug ==> schielstau
+  24:    1  ->  schodig ==> hodig
+  25:    1  ->  sjobel ==> ier
+  26:    1  ->  spreikje ==> spreekje
+  27:    1  ->  strellen*(strelen) ==> strilen
+  28:    1  ->  vawaai ==> vawai
+  29:    1  ->  veten*(vetten) ==> vetten
+  30:    1  ->  vocil ==> vossil
+  31:    1  ->  walaan ==> wallaan
+  32:    1  ->  wooien ==> woyen
+  33:    1  ->  zwieten ==> zweten
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sjobbel
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  haweel
+   2:    1  ->  orponk
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  *
+   2:    2  ->  kneurem
+   3:    1  ->  bepoud
+   4:    1  ->  eemde
+   5:    1  ->  fiewon
+   6:    1  ->  foetbans
+   7:    1  ->  gevicht
+   8:    1  ->  grijnken
+   9:    1  ->  hiffreeuw
+  10:    1  ->  ierpieuw
+  11:    1  ->  ijpo
+  12:    1  ->  kloeien
+  13:    1  ->  millen
+  14:    1  ->  muider
+  15:    1  ->  nizung
+  16:    1  ->  oonste
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  schodig
+  22:    1  ->  sjobel
+  23:    1  ->  spreikje
+  24:    1  ->  strellen*(strelen)
+  25:    1  ->  vawaai
+  26:    1  ->  veten*(vetten)
+  27:    1  ->  vocil
+  28:    1  ->  walaan
+  29:    1  ->  wooien
+  30:    1  ->  zwieten
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  kneuren
+   2:    1  ->  bepouwd
+   3:    1  ->  brilot
+   4:    1  ->  epo
+   5:    1  ->  fibon
+   6:    1  ->  gegevicht
+   7:    1  ->  grenken
+   8:    1  ->  hawel
+   9:    1  ->  hifreew
+  10:    1  ->  hodig
+  11:    1  ->  ier
+  12:    1  ->  inde
+  13:    1  ->  knoeien
+  14:    1  ->  made
+  15:    1  ->  mielen
+  16:    1  ->  nizun
+  17:    1  ->  onste
+  18:    1  ->  oorponk
+  19:    1  ->  orstal
+  20:    1  ->  piel
+  21:    1  ->  sa
+  22:    1  ->  sarwing
+  23:    1  ->  schielstau
+  24:    1  ->  spreekje
+  25:    1  ->  strilen
+  26:    1  ->  vaa
+  27:    1  ->  vawai
+  28:    1  ->  vetten
+  29:    1  ->  voetbandes
+  30:    1  ->  vossil
+  31:    1  ->  wallaan
+  32:    1  ->  woyen
+  33:    1  ->  zweten
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

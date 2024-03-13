@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  107.1%   (  45)
+
+Percent Correct           =   26.2%   (  11)
+
+Percent Substitution      =   73.8%   (  31)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   33.3%   (  14)
+Percent Word Accuracy     =   -7.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  56)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  * ==> ge
+   2:    1  ->  * ==> vogelkui
+   3:    1  ->  achterdeur ==> 't
+   4:    1  ->  afblijven ==> was
+   5:    1  ->  autorijden ==> reiden
+   6:    1  ->  chocolade ==> supelade
+   7:    1  ->  dierentuin ==> is
+   8:    1  ->  elastiekje ==> delibeer
+   9:    1  ->  fototoestel ==> foutostoi
+  10:    1  ->  goeiendag*(goedendag) ==> goedendag
+  11:    1  ->  iedereen ==> schoene
+  12:    1  ->  kabouter ==> handje
+  13:    1  ->  knutselen ==> mitselen
+  14:    1  ->  konijnenhok ==> maken
+  15:    1  ->  limonade ==> te
+  16:    1  ->  lucifer ==> lusefer
+  17:    1  ->  olifant ==> schomelen
+  18:    1  ->  omdraaien ==> lastikje
+  19:    1  ->  paddenstoelen ==> tolen
+  20:    1  ->  poppenwagen ==> ruzie
+  21:    1  ->  ruziemaken ==> dierentern
+  22:    1  ->  schoenenwinkel ==> winkel
+  23:    1  ->  schommelen ==> ederijen
+  24:    1  ->  sneeuwwitje ==> witje
+  25:    1  ->  tandenborstel ==> borstel
+  26:    1  ->  teddybeer ==> pad
+  27:    1  ->  verstoppertje ==> verstopperdja
+  28:    1  ->  vogelkooi ==> olifand
+  29:    1  ->  vrachtwagen ==> vrachtwerkin
+  30:    1  ->  washandje ==> snij
+  31:    1  ->  wasmachine ==> wasmachina
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  achter
+   2:    1  ->  blijven
+   3:    1  ->  deur
+   4:    1  ->  gea
+   5:    1  ->  hel
+   6:    1  ->  inweigen
+   7:    1  ->  kabauter
+   8:    1  ->  koep
+   9:    1  ->  kondrayen
+  10:    1  ->  konijnenhook
+  11:    1  ->  lemanade
+  12:    1  ->  of
+  13:    1  ->  tande
+  14:    1  ->  uit
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  chocolade
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  fototoestel
+   9:    1  ->  goeiendag*(goedendag)
+  10:    1  ->  iedereen
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  limonade
+  15:    1  ->  lucifer
+  16:    1  ->  olifant
+  17:    1  ->  omdraaien
+  18:    1  ->  paddenstoelen
+  19:    1  ->  poppenwagen
+  20:    1  ->  ruziemaken
+  21:    1  ->  schoenenwinkel
+  22:    1  ->  schommelen
+  23:    1  ->  sneeuwwitje
+  24:    1  ->  tandenborstel
+  25:    1  ->  teddybeer
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  vrachtwagen
+  29:    1  ->  washandje
+  30:    1  ->  wasmachine
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  't
+   2:    1  ->  borstel
+   3:    1  ->  delibeer
+   4:    1  ->  dierentern
+   5:    1  ->  ederijen
+   6:    1  ->  foutostoi
+   7:    1  ->  ge
+   8:    1  ->  goedendag
+   9:    1  ->  handje
+  10:    1  ->  is
+  11:    1  ->  lastikje
+  12:    1  ->  lusefer
+  13:    1  ->  maken
+  14:    1  ->  mitselen
+  15:    1  ->  olifand
+  16:    1  ->  pad
+  17:    1  ->  reiden
+  18:    1  ->  ruzie
+  19:    1  ->  schoene
+  20:    1  ->  schomelen
+  21:    1  ->  snij
+  22:    1  ->  supelade
+  23:    1  ->  te
+  24:    1  ->  tolen
+  25:    1  ->  verstopperdja
+  26:    1  ->  vogelkui
+  27:    1  ->  vrachtwerkin
+  28:    1  ->  was
+  29:    1  ->  wasmachina
+  30:    1  ->  winkel
+  31:    1  ->  witje
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

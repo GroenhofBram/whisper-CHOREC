@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S06C040V1_3+4LGPseudo
+
+#### (S06C040V1_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=55.7%	Del=0.0%	Ins=44.3%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | * | deuveltek | juitonie | gevijdel | * | spekkeraai | wachteniek | verpierik | nappegreeuw | * | mantaroen | schielendaspen | * | * | * | crobeklunker | kabbestepen | verwarig | ooiebiekje | fandelig | jalekrewen | smoralij | zeekvlachine | kanaroe | toineetlijgen | meitsegrok | kantelogsten | ondermind | choporatie | zennebral | ijraspangen | * | * | blottenduuf | girdofhaalder | tobbermoeit | poentalschouden | havedil | * | verbrakkertje | gerauwejaak | * | hapeneren |
+| HYP1 | omet | de | to | dis | boden | wijlen | jat | ziet | nor | dien | stoen | daar | delveldek | juit | oni | get | berdel | dat | ken | ik | gee | mee | sidon | baan | sitie | uh | spreker | ii | wachten | iek | verpikerik | nap | oi | hreef | mad | roen | scheilen | dans | en | kor | kor | k | dar | kabelstruipen | verwer | oiebeke | van | de | lieg | hel | re | smorko | zeker | of | ageen | ka | da | go | kan | het | nietlijgen | snetzer | hok | kandelogsdendermint | chop | or | heti | sendebre | er | as | pu | plotten | duuf | gerdof | helder | topper | moed | toental | schelden | habbel | din | lil | verpakkerte | gero | gerouwen | jak | hoppen | eren |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

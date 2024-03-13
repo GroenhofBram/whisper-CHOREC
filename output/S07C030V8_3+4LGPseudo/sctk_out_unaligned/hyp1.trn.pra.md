@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C030V8_3+4LGPseudo
+
+#### (S07C030V8_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=67.4%	Del=0.0%	Ins=32.6%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | * | ometuif | toejietsen | oonwijlen | jattesiet | * | nurudien | * | stoenydaas | * | * | * | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | mantaroen | schielendaspen | * | * | crobeklunker | kabbestepen | verwarig | ooiebiekje | * | * | * | fandelig | * | jalekrewen | smoralij | zeekvlachine | * | * | kanaroe | toineetlijgen | meitsegrok | kantelogsten | ondermind | choporatie | zennebral | ijraspangen | * | blottenduuf | girdofhaalder | * | tobbermoeit | poentalschouden | * | havedil | * | * | verbrakkertje | gerauwejaak | * | hapeneren |
+| HYP1 | om | om | het | duif | doe | hen | sen | onwen | jat | tes | siet | derudien | toen | edas | de | devel | dek | shuit | toni | gevedel | sibo | wan | spekkage | wachtte | ik | verperik | nappe | schreeuw | man | taroen | schillen | das | punt | krolbek | lun | ker | kopbes | ten | pen | verwarrig | ooie | ooie | blikje | van | de | ling | van | de | lieh | ja | jalekkreuwe | s | morgel | lè | zevacht | zek | fahina | kan | kanaro | stonenleen | meci | grok | klanten | nog | sten | onderwind | sho | pour | rati | sendenbara | eras | pangen | plotten | de | girdengirdendof | haalder | tobbere | moed | boental | schoude | schouden | havendiel | voba | voorverbrakkortje | grouwen | jaak | happen | nerel | ie |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.0%   (  12)
+
+Percent Correct           =   70.0%   (  28)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   70.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  chips ==> cips
+   2:    1  ->  clown ==> kloumen
+   3:    1  ->  gauw ==> goud
+   4:    1  ->  huis ==> hui
+   5:    1  ->  klas ==> dwas
+   6:    1  ->  krant ==> kran
+   7:    1  ->  muts ==> mut
+   8:    1  ->  paard ==> paart
+   9:    1  ->  plank ==> knoopplank
+  10:    1  ->  strand ==> strandt
+  11:    1  ->  vijf ==> vijif
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  knoop
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  chips
+   2:    1  ->  clown
+   3:    1  ->  gauw
+   4:    1  ->  huis
+   5:    1  ->  klas
+   6:    1  ->  krant
+   7:    1  ->  muts
+   8:    1  ->  paard
+   9:    1  ->  plank
+  10:    1  ->  strand
+  11:    1  ->  vijf
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  cips
+   2:    1  ->  dwas
+   3:    1  ->  goud
+   4:    1  ->  hui
+   5:    1  ->  kloumen
+   6:    1  ->  knoopplank
+   7:    1  ->  kran
+   8:    1  ->  mut
+   9:    1  ->  paart
+  10:    1  ->  strandt
+  11:    1  ->  vijif
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

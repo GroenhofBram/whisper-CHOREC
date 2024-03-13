@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  113.3%   (  51)
+
+Percent Correct           =    6.7%   (   3)
+
+Percent Substitution      =   93.3%   (  42)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   20.0%   (   9)
+Percent Word Accuracy     =  -13.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  * ==> dhans
+   2:    1  ->  * ==> eren
+   3:    1  ->  * ==> ha
+   4:    1  ->  * ==> heer
+   5:    1  ->  * ==> i
+   6:    1  ->  bepoud ==> gefel
+   7:    1  ->  eemde ==> heten
+   8:    1  ->  fiewon ==> s
+   9:    1  ->  foetbans ==> bel
+  10:    1  ->  gefouw ==> i
+  11:    1  ->  geutel ==> getal
+  12:    1  ->  gevicht ==> telk
+  13:    1  ->  grijnken ==> der
+  14:    1  ->  hiffreeuw ==> jij
+  15:    1  ->  ierpieuw ==> i
+  16:    1  ->  ijpo ==> sprekje
+  17:    1  ->  kloeien ==> orpolk
+  18:    1  ->  kneurem ==> dere
+  19:    1  ->  menuur ==> i
+  20:    1  ->  millen ==> neeleri
+  21:    1  ->  milste ==> ee
+  22:    1  ->  muider ==> do
+  23:    1  ->  nizung ==> vanwa
+  24:    1  ->  orponk ==> epel
+  25:    1  ->  orstalk ==> heerpant
+  26:    1  ->  prilsood ==> heker
+  27:    1  ->  saarweng ==> ost
+  28:    1  ->  schielstaug ==> wilfta
+  29:    1  ->  schodig ==> nenier
+  30:    1  ->  sjobel ==> solibel
+  31:    1  ->  spreikje ==> van
+  32:    1  ->  strellen ==> zweten
+  33:    1  ->  ulen ==> shodisch
+  34:    1  ->  vawaai ==> leggen
+  35:    1  ->  veten ==> nizig
+  36:    1  ->  veurder ==> le
+  37:    1  ->  vloender ==> no
+  38:    1  ->  vocil ==> hokteren
+  39:    1  ->  vurpaand ==> van
+  40:    1  ->  walaan ==> waaan
+  41:    1  ->  wooien ==> booien
+  42:    1  ->  zwieten ==> voed
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bepaald
+   2:    1  ->  bril
+   3:    1  ->  eenda
+   4:    1  ->  gevliest
+   5:    1  ->  neder
+   6:    1  ->  renken
+   7:    1  ->  sarwen
+   8:    1  ->  sheelstau
+   9:    1  ->  tort
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    5  ->  *
+   2:    1  ->  bepoud
+   3:    1  ->  eemde
+   4:    1  ->  fiewon
+   5:    1  ->  foetbans
+   6:    1  ->  gefouw
+   7:    1  ->  geutel
+   8:    1  ->  gevicht
+   9:    1  ->  grijnken
+  10:    1  ->  hiffreeuw
+  11:    1  ->  ierpieuw
+  12:    1  ->  ijpo
+  13:    1  ->  kloeien
+  14:    1  ->  kneurem
+  15:    1  ->  menuur
+  16:    1  ->  millen
+  17:    1  ->  milste
+  18:    1  ->  muider
+  19:    1  ->  nizung
+  20:    1  ->  orponk
+  21:    1  ->  orstalk
+  22:    1  ->  prilsood
+  23:    1  ->  saarweng
+  24:    1  ->  schielstaug
+  25:    1  ->  schodig
+  26:    1  ->  sjobel
+  27:    1  ->  spreikje
+  28:    1  ->  strellen
+  29:    1  ->  ulen
+  30:    1  ->  vawaai
+  31:    1  ->  veten
+  32:    1  ->  veurder
+  33:    1  ->  vloender
+  34:    1  ->  vocil
+  35:    1  ->  vurpaand
+  36:    1  ->  walaan
+  37:    1  ->  wooien
+  38:    1  ->  zwieten
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  i
+   2:    2  ->  van
+   3:    1  ->  bel
+   4:    1  ->  booien
+   5:    1  ->  der
+   6:    1  ->  dere
+   7:    1  ->  dhans
+   8:    1  ->  do
+   9:    1  ->  ee
+  10:    1  ->  epel
+  11:    1  ->  eren
+  12:    1  ->  gefel
+  13:    1  ->  getal
+  14:    1  ->  ha
+  15:    1  ->  heer
+  16:    1  ->  heerpant
+  17:    1  ->  heker
+  18:    1  ->  heten
+  19:    1  ->  hokteren
+  20:    1  ->  jij
+  21:    1  ->  le
+  22:    1  ->  leggen
+  23:    1  ->  neeleri
+  24:    1  ->  nenier
+  25:    1  ->  nizig
+  26:    1  ->  no
+  27:    1  ->  orpolk
+  28:    1  ->  ost
+  29:    1  ->  s
+  30:    1  ->  shodisch
+  31:    1  ->  solibel
+  32:    1  ->  sprekje
+  33:    1  ->  telk
+  34:    1  ->  vanwa
+  35:    1  ->  voed
+  36:    1  ->  waaan
+  37:    1  ->  wilfta
+  38:    1  ->  zweten
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

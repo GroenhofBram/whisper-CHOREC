@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   96.8%   (  60)
+
+Percent Correct           =    3.2%   (   2)
+
+Percent Substitution      =   61.3%   (  38)
+Percent Deletions         =   35.5%   (  22)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    3.2%
+
+
+Ref. words                =           (  62)
+Hyp. words                =           (  40)
+Aligned words             =           (  62)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  *s ==> al
+   2:    1  ->  *s ==> at
+   3:    1  ->  *s ==> d
+   4:    1  ->  *s ==> houd
+   5:    1  ->  *s ==> ja
+   6:    1  ->  *s ==> kla
+   7:    1  ->  *s ==> kn
+   8:    1  ->  *s ==> kraant
+   9:    1  ->  *s ==> las
+  10:    1  ->  *s ==> m
+  11:    1  ->  *s ==> mie
+  12:    1  ->  *s ==> o
+  13:    1  ->  *s ==> onie
+  14:    1  ->  *s ==> plak
+  15:    1  ->  *s ==> sternaat
+  16:    1  ->  *s ==> um
+  17:    1  ->  *s ==> v
+  18:    1  ->  arm ==> ko
+  19:    1  ->  bang ==> put
+  20:    1  ->  bed ==> stelaan
+  21:    1  ->  eerst ==> ur
+  22:    1  ->  feest ==> ships
+  23:    1  ->  gauw*(grauw) ==> et
+  24:    1  ->  groen ==> vriet
+  25:    1  ->  hoek ==> ra
+  26:    1  ->  hout ==> keer
+  27:    1  ->  kind ==> hu
+  28:    1  ->  knoop ==> nees
+  29:    1  ->  koe ==> klaas
+  30:    1  ->  krant ==> hre
+  31:    1  ->  neus ==> shoen
+  32:    1  ->  oog ==> mees
+  33:    1  ->  plank*(plak) ==> op
+  34:    1  ->  plas ==> zacht
+  35:    1  ->  reis ==> ves
+  36:    1  ->  schoen ==> end
+  37:    1  ->  strand ==> groi
+  38:    1  ->  vriend*(friet) ==> jeel
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    8  ->  *s
+   2:    2  ->  *
+   3:    1  ->  draai
+   4:    1  ->  duur
+   5:    1  ->  herfst
+   6:    1  ->  huis
+   7:    1  ->  klas
+   8:    1  ->  leeuw
+   9:    1  ->  mooi
+  10:    1  ->  muts*(mus)
+  11:    1  ->  nieuw
+  12:    1  ->  sjaal
+  13:    1  ->  straat
+  14:    1  ->  vijf
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   17  ->  *s
+   2:    1  ->  arm
+   3:    1  ->  bang
+   4:    1  ->  bed
+   5:    1  ->  eerst
+   6:    1  ->  feest
+   7:    1  ->  gauw*(grauw)
+   8:    1  ->  groen
+   9:    1  ->  hoek
+  10:    1  ->  hout
+  11:    1  ->  kind
+  12:    1  ->  knoop
+  13:    1  ->  koe
+  14:    1  ->  krant
+  15:    1  ->  neus
+  16:    1  ->  oog
+  17:    1  ->  plank*(plak)
+  18:    1  ->  plas
+  19:    1  ->  reis
+  20:    1  ->  schoen
+  21:    1  ->  strand
+  22:    1  ->  vriend*(friet)
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  al
+   2:    1  ->  at
+   3:    1  ->  d
+   4:    1  ->  end
+   5:    1  ->  et
+   6:    1  ->  groi
+   7:    1  ->  houd
+   8:    1  ->  hre
+   9:    1  ->  hu
+  10:    1  ->  ja
+  11:    1  ->  jeel
+  12:    1  ->  keer
+  13:    1  ->  kla
+  14:    1  ->  klaas
+  15:    1  ->  kn
+  16:    1  ->  ko
+  17:    1  ->  kraant
+  18:    1  ->  las
+  19:    1  ->  m
+  20:    1  ->  mees
+  21:    1  ->  mie
+  22:    1  ->  nees
+  23:    1  ->  o
+  24:    1  ->  onie
+  25:    1  ->  op
+  26:    1  ->  plak
+  27:    1  ->  put
+  28:    1  ->  ra
+  29:    1  ->  ships
+  30:    1  ->  shoen
+  31:    1  ->  stelaan
+  32:    1  ->  sternaat
+  33:    1  ->  um
+  34:    1  ->  ur
+  35:    1  ->  v
+  36:    1  ->  ves
+  37:    1  ->  vriet
+  38:    1  ->  zacht
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

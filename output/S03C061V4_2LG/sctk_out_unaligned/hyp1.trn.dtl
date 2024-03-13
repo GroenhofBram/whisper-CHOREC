@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  16)
+
+Percent Correct           =   62.5%   (  25)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  appel ==> abbel
+   2:    1  ->  auto ==> outo
+   3:    1  ->  dichtbij ==> distba
+   4:    1  ->  fietsbel ==> fietsbij
+   5:    1  ->  hoofdpijn ==> hoordpijn
+   6:    1  ->  kussen ==> cussen
+   7:    1  ->  meisje ==> nage
+   8:    1  ->  mevrouw ==> vrouw
+   9:    1  ->  moeder ==> mode
+  10:    1  ->  potlood ==> potloot
+  11:    1  ->  vinger ==> finger
+  12:    1  ->  vlinder ==> vlijnder
+  13:    1  ->  voetbal ==> kleurenvoetbal
+  14:    1  ->  zwemmen ==> swennen
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ee
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  kleuren
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  appel
+   2:    1  ->  auto
+   3:    1  ->  dichtbij
+   4:    1  ->  fietsbel
+   5:    1  ->  hoofdpijn
+   6:    1  ->  kussen
+   7:    1  ->  meisje
+   8:    1  ->  mevrouw
+   9:    1  ->  moeder
+  10:    1  ->  potlood
+  11:    1  ->  vinger
+  12:    1  ->  vlinder
+  13:    1  ->  voetbal
+  14:    1  ->  zwemmen
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  abbel
+   2:    1  ->  cussen
+   3:    1  ->  distba
+   4:    1  ->  fietsbij
+   5:    1  ->  finger
+   6:    1  ->  hoordpijn
+   7:    1  ->  kleurenvoetbal
+   8:    1  ->  mode
+   9:    1  ->  nage
+  10:    1  ->  outo
+  11:    1  ->  potloot
+  12:    1  ->  swennen
+  13:    1  ->  vlijnder
+  14:    1  ->  vrouw
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

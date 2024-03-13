@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  13)
+
+Percent Correct           =   73.2%   (  30)
+
+Percent Substitution      =   24.4%   (  10)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    4.9%   (   2)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  * ==> potloot
+   2:    1  ->  dichtbij ==> bij
+   3:    1  ->  hoofdpijn ==> hooftpijn
+   4:    1  ->  liedje ==> moder
+   5:    1  ->  mevrouw ==> vrouw
+   6:    1  ->  potlood ==> litia
+   7:    1  ->  speelplaats ==> speelplaat
+   8:    1  ->  vlinder ==> vlinde
+   9:    1  ->  vuurwerk ==> zuurwerk
+  10:    1  ->  zwemmen ==> swemmen
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  dicht
+   2:    1  ->  me
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  moeder
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  *
+   2:    1  ->  dichtbij
+   3:    1  ->  hoofdpijn
+   4:    1  ->  liedje
+   5:    1  ->  mevrouw
+   6:    1  ->  potlood
+   7:    1  ->  speelplaats
+   8:    1  ->  vlinder
+   9:    1  ->  vuurwerk
+  10:    1  ->  zwemmen
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bij
+   2:    1  ->  hooftpijn
+   3:    1  ->  litia
+   4:    1  ->  moder
+   5:    1  ->  potloot
+   6:    1  ->  speelplaat
+   7:    1  ->  swemmen
+   8:    1  ->  vlinde
+   9:    1  ->  vrouw
+  10:    1  ->  zuurwerk
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

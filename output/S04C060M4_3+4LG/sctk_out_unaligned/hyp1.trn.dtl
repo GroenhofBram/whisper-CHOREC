@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   78.6%   (  44)
+
+Percent Correct           =   35.7%   (  20)
+
+Percent Substitution      =   64.3%   (  36)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   14.3%   (   8)
+Percent Word Accuracy     =   21.4%
+
+
+Ref. words                =           (  56)
+Hyp. words                =           (  64)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> borstel
+   2:    1  ->  * ==> gee
+   3:    1  ->  * ==> goeien
+   4:    1  ->  * ==> gooien
+   5:    1  ->  * ==> hante
+   6:    1  ->  * ==> kn
+   7:    1  ->  * ==> la
+   8:    1  ->  * ==> maken
+   9:    1  ->  * ==> ni
+  10:    1  ->  * ==> nieuws
+  11:    1  ->  * ==> oei
+  12:    1  ->  * ==> scha
+  13:    1  ->  * ==> schoen
+  14:    1  ->  * ==> schoenme
+  15:    1  ->  * ==> tonden
+  16:    1  ->  * ==> was
+  17:    1  ->  *(schoenwinkel) ==> schoenwinkel
+  18:    1  ->  chocolade ==> focolade
+  19:    1  ->  dierentuin ==> bondenstoelen
+  20:    1  ->  eindelijk ==> endelijk
+  21:    1  ->  elastiekje ==> ruzie
+  22:    1  ->  goeiendag ==> dag
+  23:    1  ->  kabouter ==> wa
+  24:    1  ->  konijnenhok ==> nu
+  25:    1  ->  lucifer ==> luklucifer
+  26:    1  ->  paddenstoelen ==> verstopperd
+  27:    1  ->  ruziemaken ==> dedibeer
+  28:    1  ->  schommelen ==> schomelen
+  29:    1  ->  sneeuwwitje ==> gea
+  30:    1  ->  sprookjesboek ==> sprookjes
+  31:    1  ->  tandenborstel ==> boek
+  32:    1  ->  teddybeer ==> dierentaan
+  33:    1  ->  toiletpapier ==> papier
+  34:    1  ->  verstoppertje ==> je
+  35:    1  ->  vogelkooi ==> kooi
+  36:    1  ->  washandje ==> sneeuwwietje
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  en
+   2:    1  ->  kabater
+   3:    1  ->  konijnenhoek
+   4:    1  ->  lastieke
+   5:    1  ->  men
+   6:    1  ->  toilit
+   7:    1  ->  vogel
+   8:    1  ->  was
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   16  ->  *
+   2:    1  ->  *(schoenwinkel)
+   3:    1  ->  chocolade
+   4:    1  ->  dierentuin
+   5:    1  ->  eindelijk
+   6:    1  ->  elastiekje
+   7:    1  ->  goeiendag
+   8:    1  ->  kabouter
+   9:    1  ->  konijnenhok
+  10:    1  ->  lucifer
+  11:    1  ->  paddenstoelen
+  12:    1  ->  ruziemaken
+  13:    1  ->  schommelen
+  14:    1  ->  sneeuwwitje
+  15:    1  ->  sprookjesboek
+  16:    1  ->  tandenborstel
+  17:    1  ->  teddybeer
+  18:    1  ->  toiletpapier
+  19:    1  ->  verstoppertje
+  20:    1  ->  vogelkooi
+  21:    1  ->  washandje
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  boek
+   2:    1  ->  bondenstoelen
+   3:    1  ->  borstel
+   4:    1  ->  dag
+   5:    1  ->  dedibeer
+   6:    1  ->  dierentaan
+   7:    1  ->  endelijk
+   8:    1  ->  focolade
+   9:    1  ->  gea
+  10:    1  ->  gee
+  11:    1  ->  goeien
+  12:    1  ->  gooien
+  13:    1  ->  hante
+  14:    1  ->  je
+  15:    1  ->  kn
+  16:    1  ->  kooi
+  17:    1  ->  la
+  18:    1  ->  luklucifer
+  19:    1  ->  maken
+  20:    1  ->  ni
+  21:    1  ->  nieuws
+  22:    1  ->  nu
+  23:    1  ->  oei
+  24:    1  ->  papier
+  25:    1  ->  ruzie
+  26:    1  ->  scha
+  27:    1  ->  schoen
+  28:    1  ->  schoenme
+  29:    1  ->  schoenwinkel
+  30:    1  ->  schomelen
+  31:    1  ->  sneeuwwietje
+  32:    1  ->  sprookjes
+  33:    1  ->  tonden
+  34:    1  ->  verstopperd
+  35:    1  ->  wa
+  36:    1  ->  was
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

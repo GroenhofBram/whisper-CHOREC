@@ -1,0 +1,238 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  67)
+
+Percent Correct           =    1.5%   (   1)
+
+Percent Substitution      =   95.5%   (  64)
+Percent Deletions         =    3.0%   (   2)
+Percent Insertions        =    1.5%   (   1)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  67)
+Hyp. words                =           (  66)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    1  ->  * ==> bepaald
+   2:    1  ->  * ==> ciabel
+   3:    1  ->  * ==> gluien
+   4:    1  ->  * ==> gobel
+   5:    1  ->  * ==> goedpas
+   6:    1  ->  * ==> h
+   7:    1  ->  * ==> hiluif
+   8:    1  ->  * ==> kijk
+   9:    1  ->  * ==> ma
+  10:    1  ->  * ==> neer
+  11:    1  ->  * ==> o
+  12:    1  ->  * ==> oor
+  13:    1  ->  * ==> p
+  14:    1  ->  * ==> r
+  15:    1  ->  * ==> s
+  16:    1  ->  * ==> sj
+  17:    1  ->  * ==> uh
+  18:    1  ->  * ==> va
+  19:    1  ->  * ==> voet
+  20:    1  ->  * ==> voh
+  21:    1  ->  * ==> wie
+  22:    1  ->  * ==> ziene
+  23:    1  ->  *(vogel) ==> min
+  24:    1  ->  *t ==> bonbonk
+  25:    1  ->  bepoud ==> t
+  26:    1  ->  eemde ==> agegevijgd
+  27:    1  ->  erke ==> i
+  28:    1  ->  fiewon ==> i
+  29:    1  ->  foetbans ==> en
+  30:    1  ->  gefouw ==> verveerten
+  31:    1  ->  geutel ==> milen
+  32:    1  ->  gevicht*(gevecht) ==> howil
+  33:    1  ->  haweel ==> wln
+  34:    1  ->  hiffreeuw ==> a
+  35:    1  ->  ierpieuw ==> vogel
+  36:    1  ->  ijpo ==> epo
+  37:    1  ->  kloeien ==> vda
+  38:    1  ->  kneurem ==> vwoden
+  39:    1  ->  menuur ==> meneer
+  40:    1  ->  millen ==> meen
+  41:    1  ->  milste ==> er
+  42:    1  ->  muider ==> mte
+  43:    1  ->  nizung ==> pard
+  44:    1  ->  oonste ==> o
+  45:    1  ->  orponk ==> ul
+  46:    1  ->  orstalk ==> uh
+  47:    1  ->  prilsood ==> tot
+  48:    1  ->  saarweng ==> eke
+  49:    1  ->  schielstaug ==> pris
+  50:    1  ->  schodig ==> ondier
+  51:    1  ->  sjobel ==> el
+  52:    1  ->  spreikje ==> r
+  53:    1  ->  strellen ==> tl
+  54:    1  ->  ulen ==> e
+  55:    1  ->  vawaai ==> nen
+  56:    1  ->  vawaai ==> va
+  57:    1  ->  veten ==> stat
+  58:    1  ->  veurder ==> a
+  59:    1  ->  vloender ==> vude
+  60:    1  ->  vocil ==> ilun
+  61:    1  ->  vurpaand ==> gea
+  62:    1  ->  walaan ==> ute
+  63:    1  ->  wooien ==> i
+  64:    1  ->  zwieten ==> strllen
+     -------
+        64
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  e
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  *
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:   22  ->  *
+   2:    2  ->  vawaai
+   3:    1  ->  *(vogel)
+   4:    1  ->  *t
+   5:    1  ->  bepoud
+   6:    1  ->  eemde
+   7:    1  ->  erke
+   8:    1  ->  fiewon
+   9:    1  ->  foetbans
+  10:    1  ->  gefouw
+  11:    1  ->  geutel
+  12:    1  ->  gevicht*(gevecht)
+  13:    1  ->  haweel
+  14:    1  ->  hiffreeuw
+  15:    1  ->  ierpieuw
+  16:    1  ->  ijpo
+  17:    1  ->  kloeien
+  18:    1  ->  kneurem
+  19:    1  ->  menuur
+  20:    1  ->  millen
+  21:    1  ->  milste
+  22:    1  ->  muider
+  23:    1  ->  nizung
+  24:    1  ->  oonste
+  25:    1  ->  orponk
+  26:    1  ->  orstalk
+  27:    1  ->  prilsood
+  28:    1  ->  saarweng
+  29:    1  ->  schielstaug
+  30:    1  ->  schodig
+  31:    1  ->  sjobel
+  32:    1  ->  spreikje
+  33:    1  ->  strellen
+  34:    1  ->  ulen
+  35:    1  ->  veten
+  36:    1  ->  veurder
+  37:    1  ->  vloender
+  38:    1  ->  vocil
+  39:    1  ->  vurpaand
+  40:    1  ->  walaan
+  41:    1  ->  wooien
+  42:    1  ->  zwieten
+     -------
+        64
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    3  ->  i
+   2:    2  ->  a
+   3:    2  ->  o
+   4:    2  ->  r
+   5:    2  ->  uh
+   6:    2  ->  va
+   7:    1  ->  agegevijgd
+   8:    1  ->  bepaald
+   9:    1  ->  bonbonk
+  10:    1  ->  ciabel
+  11:    1  ->  e
+  12:    1  ->  eke
+  13:    1  ->  el
+  14:    1  ->  en
+  15:    1  ->  epo
+  16:    1  ->  er
+  17:    1  ->  gea
+  18:    1  ->  gluien
+  19:    1  ->  gobel
+  20:    1  ->  goedpas
+  21:    1  ->  h
+  22:    1  ->  hiluif
+  23:    1  ->  howil
+  24:    1  ->  ilun
+  25:    1  ->  kijk
+  26:    1  ->  ma
+  27:    1  ->  meen
+  28:    1  ->  meneer
+  29:    1  ->  milen
+  30:    1  ->  min
+  31:    1  ->  mte
+  32:    1  ->  neer
+  33:    1  ->  nen
+  34:    1  ->  ondier
+  35:    1  ->  oor
+  36:    1  ->  p
+  37:    1  ->  pard
+  38:    1  ->  pris
+  39:    1  ->  s
+  40:    1  ->  sj
+  41:    1  ->  stat
+  42:    1  ->  strllen
+  43:    1  ->  t
+  44:    1  ->  tl
+  45:    1  ->  tot
+  46:    1  ->  ul
+  47:    1  ->  ute
+  48:    1  ->  vda
+  49:    1  ->  verveerten
+  50:    1  ->  voet
+  51:    1  ->  vogel
+  52:    1  ->  voh
+  53:    1  ->  vude
+  54:    1  ->  vwoden
+  55:    1  ->  wie
+  56:    1  ->  wln
+  57:    1  ->  ziene
+     -------
+        64
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

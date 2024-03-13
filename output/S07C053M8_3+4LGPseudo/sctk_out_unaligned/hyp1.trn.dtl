@@ -1,0 +1,327 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  117.3%   ( 122)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   ( 104)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   17.3%   (  18)
+Percent Word Accuracy     =  -17.3%
+
+
+Ref. words                =           ( 104)
+Hyp. words                =           ( 122)
+Aligned words             =           ( 122)
+
+CONFUSION PAIRS                  Total                 (102)
+                                 With >=  1 occurrences (102)
+
+   1:    2  ->  * ==> aro
+   2:    2  ->  * ==> en
+   3:    1  ->  * ==> alsgouden
+   4:    1  ->  * ==> an
+   5:    1  ->  * ==> ari
+   6:    1  ->  * ==> ate
+   7:    1  ->  * ==> beik
+   8:    1  ->  * ==> blot
+   9:    1  ->  * ==> dav
+  10:    1  ->  * ==> de
+  11:    1  ->  * ==> deel
+  12:    1  ->  * ==> derl
+  13:    1  ->  * ==> don
+  14:    1  ->  * ==> duur
+  15:    1  ->  * ==> een
+  16:    1  ->  * ==> eieren
+  17:    1  ->  * ==> eor
+  18:    1  ->  * ==> et
+  19:    1  ->  * ==> ga
+  20:    1  ->  * ==> ge
+  21:    1  ->  * ==> geral
+  22:    1  ->  * ==> grij
+  23:    1  ->  * ==> grinde
+  24:    1  ->  * ==> hap
+  25:    1  ->  * ==> ik
+  26:    1  ->  * ==> ilin
+  27:    1  ->  * ==> ina
+  28:    1  ->  * ==> is
+  29:    1  ->  * ==> ja
+  30:    1  ->  * ==> ka
+  31:    1  ->  * ==> kan
+  32:    1  ->  * ==> kant
+  33:    1  ->  * ==> koningget
+  34:    1  ->  * ==> lenen
+  35:    1  ->  * ==> lo
+  36:    1  ->  * ==> lotten
+  37:    1  ->  * ==> nee
+  38:    1  ->  * ==> of
+  39:    1  ->  * ==> ol
+  40:    1  ->  * ==> onderwind
+  41:    1  ->  * ==> ooit
+  42:    1  ->  * ==> op
+  43:    1  ->  * ==> oum
+  44:    1  ->  * ==> pijnge
+  45:    1  ->  * ==> runkul
+  46:    1  ->  * ==> s
+  47:    1  ->  * ==> skr
+  48:    1  ->  * ==> sm
+  49:    1  ->  * ==> stuk
+  50:    1  ->  * ==> tab
+  51:    1  ->  * ==> uh
+  52:    1  ->  * ==> uk
+  53:    1  ->  * ==> van
+  54:    1  ->  * ==> vant
+  55:    1  ->  * ==> verbraaere
+  56:    1  ->  * ==> verwarring
+  57:    1  ->  * ==> wacht
+  58:    1  ->  * ==> xx
+  59:    1  ->  *t ==> den
+  60:    1  ->  *x ==> asp
+  61:    1  ->  *x ==> duur
+  62:    1  ->  blottenduuf ==> bloot
+  63:    1  ->  choporatie ==> brand
+  64:    1  ->  crobeklunker ==> derling
+  65:    1  ->  deuveltek ==> ir
+  66:    1  ->  fandelig ==> elach
+  67:    1  ->  gerauwejaak ==> jaak
+  68:    1  ->  gevijdel ==> hap
+  69:    1  ->  girdofhaalder ==> loten
+  70:    1  ->  hapeneren ==> eren
+  71:    1  ->  havedil ==> oont
+  72:    1  ->  ijraspangen ==> bloop
+  73:    1  ->  jalekrewen ==> kan
+  74:    1  ->  jattesiet ==> rai
+  75:    1  ->  juitonie ==> ik
+  76:    1  ->  kabbestepen ==> eeuwen
+  77:    1  ->  kanaroe ==> el
+  78:    1  ->  kanaroe ==> grok
+  79:    1  ->  kantelogsten ==> operatie
+  80:    1  ->  mantaroen ==> ooie
+  81:    1  ->  meitsegrok ==> xx
+  82:    1  ->  nappegreeuw ==> iskap
+  83:    1  ->  nurudien ==> en
+  84:    1  ->  ometuif ==> citv
+  85:    1  ->  ondermind ==> zinnen
+  86:    1  ->  ooiebiekje ==> dek
+  87:    1  ->  oonwijlen ==> ik
+  88:    1  ->  poentalschouden ==> halder
+  89:    1  ->  schielendaspen ==> ja
+  90:    1  ->  sidowaan ==> naperreeuw
+  91:    1  ->  smoralij ==> done
+  92:    1  ->  spekkeraai ==> maand
+  93:    1  ->  stoenydaas ==> verp
+  94:    1  ->  tobbermoeit ==> ja
+  95:    1  ->  toejietsen ==> dev
+  96:    1  ->  toineetlijgen ==> oogsten
+  97:    1  ->  verbrakkertje ==> haf
+  98:    1  ->  verpierik ==> klop
+  99:    1  ->  verwarig ==> alle
+ 100:    1  ->  wachteniek ==> pas
+ 101:    1  ->  zeekvlachine ==> met
+ 102:    1  ->  zennebral ==> zinnenbral
+     -------
+       104
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  on
+   2:    1  ->  das
+   3:    1  ->  deen
+   4:    1  ->  deuldik
+   5:    1  ->  dnuer
+   6:    1  ->  dul
+   7:    1  ->  eads
+   8:    1  ->  gev<unk>
+   9:    1  ->  i
+  10:    1  ->  jaet
+  11:    1  ->  jetoni
+  12:    1  ->  reduf
+  13:    1  ->  t
+  14:    1  ->  to
+  15:    1  ->  wel
+  16:    1  ->  zun
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:   60  ->  *
+   2:    2  ->  *x
+   3:    2  ->  kanaroe
+   4:    1  ->  *t
+   5:    1  ->  blottenduuf
+   6:    1  ->  choporatie
+   7:    1  ->  crobeklunker
+   8:    1  ->  deuveltek
+   9:    1  ->  fandelig
+  10:    1  ->  gerauwejaak
+  11:    1  ->  gevijdel
+  12:    1  ->  girdofhaalder
+  13:    1  ->  hapeneren
+  14:    1  ->  havedil
+  15:    1  ->  ijraspangen
+  16:    1  ->  jalekrewen
+  17:    1  ->  jattesiet
+  18:    1  ->  juitonie
+  19:    1  ->  kabbestepen
+  20:    1  ->  kantelogsten
+  21:    1  ->  mantaroen
+  22:    1  ->  meitsegrok
+  23:    1  ->  nappegreeuw
+  24:    1  ->  nurudien
+  25:    1  ->  ometuif
+  26:    1  ->  ondermind
+  27:    1  ->  ooiebiekje
+  28:    1  ->  oonwijlen
+  29:    1  ->  poentalschouden
+  30:    1  ->  schielendaspen
+  31:    1  ->  sidowaan
+  32:    1  ->  smoralij
+  33:    1  ->  spekkeraai
+  34:    1  ->  stoenydaas
+  35:    1  ->  tobbermoeit
+  36:    1  ->  toejietsen
+  37:    1  ->  toineetlijgen
+  38:    1  ->  verbrakkertje
+  39:    1  ->  verpierik
+  40:    1  ->  verwarig
+  41:    1  ->  wachteniek
+  42:    1  ->  zeekvlachine
+  43:    1  ->  zennebral
+     -------
+       104
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (93)
+                                 With >=  1 occurrences (93)
+
+   1:    3  ->  en
+   2:    3  ->  ik
+   3:    3  ->  ja
+   4:    2  ->  aro
+   5:    2  ->  duur
+   6:    2  ->  hap
+   7:    2  ->  kan
+   8:    2  ->  xx
+   9:    1  ->  alle
+  10:    1  ->  alsgouden
+  11:    1  ->  an
+  12:    1  ->  ari
+  13:    1  ->  asp
+  14:    1  ->  ate
+  15:    1  ->  beik
+  16:    1  ->  bloop
+  17:    1  ->  bloot
+  18:    1  ->  blot
+  19:    1  ->  brand
+  20:    1  ->  citv
+  21:    1  ->  dav
+  22:    1  ->  de
+  23:    1  ->  deel
+  24:    1  ->  dek
+  25:    1  ->  den
+  26:    1  ->  derl
+  27:    1  ->  derling
+  28:    1  ->  dev
+  29:    1  ->  don
+  30:    1  ->  done
+  31:    1  ->  een
+  32:    1  ->  eeuwen
+  33:    1  ->  eieren
+  34:    1  ->  el
+  35:    1  ->  elach
+  36:    1  ->  eor
+  37:    1  ->  eren
+  38:    1  ->  et
+  39:    1  ->  ga
+  40:    1  ->  ge
+  41:    1  ->  geral
+  42:    1  ->  grij
+  43:    1  ->  grinde
+  44:    1  ->  grok
+  45:    1  ->  haf
+  46:    1  ->  halder
+  47:    1  ->  ilin
+  48:    1  ->  ina
+  49:    1  ->  ir
+  50:    1  ->  is
+  51:    1  ->  iskap
+  52:    1  ->  jaak
+  53:    1  ->  ka
+  54:    1  ->  kant
+  55:    1  ->  klop
+  56:    1  ->  koningget
+  57:    1  ->  lenen
+  58:    1  ->  lo
+  59:    1  ->  loten
+  60:    1  ->  lotten
+  61:    1  ->  maand
+  62:    1  ->  met
+  63:    1  ->  naperreeuw
+  64:    1  ->  nee
+  65:    1  ->  of
+  66:    1  ->  ol
+  67:    1  ->  onderwind
+  68:    1  ->  oogsten
+  69:    1  ->  ooie
+  70:    1  ->  ooit
+  71:    1  ->  oont
+  72:    1  ->  op
+  73:    1  ->  operatie
+  74:    1  ->  oum
+  75:    1  ->  pas
+  76:    1  ->  pijnge
+  77:    1  ->  rai
+  78:    1  ->  runkul
+  79:    1  ->  s
+  80:    1  ->  skr
+  81:    1  ->  sm
+  82:    1  ->  stuk
+  83:    1  ->  tab
+  84:    1  ->  uh
+  85:    1  ->  uk
+  86:    1  ->  van
+  87:    1  ->  vant
+  88:    1  ->  verbraaere
+  89:    1  ->  verp
+  90:    1  ->  verwarring
+  91:    1  ->  wacht
+  92:    1  ->  zinnen
+  93:    1  ->  zinnenbral
+     -------
+       104
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

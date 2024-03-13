@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.0%   (  14)
+
+Percent Correct           =   65.0%   (  26)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bang ==> wang
+   2:    1  ->  bed ==> bet
+   3:    1  ->  chips ==> schips
+   4:    1  ->  clown ==> klown
+   5:    1  ->  draai ==> daar
+   6:    1  ->  groei ==> grooi
+   7:    1  ->  huis ==> hus
+   8:    1  ->  neus ==> nees
+   9:    1  ->  nieuw ==> neo
+  10:    1  ->  oog ==> hoor
+  11:    1  ->  paard ==> part
+  12:    1  ->  plas ==> palas
+  13:    1  ->  reis ==> res
+  14:    1  ->  vriend ==> vreemd
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bang
+   2:    1  ->  bed
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  draai
+   6:    1  ->  groei
+   7:    1  ->  huis
+   8:    1  ->  neus
+   9:    1  ->  nieuw
+  10:    1  ->  oog
+  11:    1  ->  paard
+  12:    1  ->  plas
+  13:    1  ->  reis
+  14:    1  ->  vriend
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bet
+   2:    1  ->  daar
+   3:    1  ->  grooi
+   4:    1  ->  hoor
+   5:    1  ->  hus
+   6:    1  ->  klown
+   7:    1  ->  nees
+   8:    1  ->  neo
+   9:    1  ->  palas
+  10:    1  ->  part
+  11:    1  ->  res
+  12:    1  ->  schips
+  13:    1  ->  vreemd
+  14:    1  ->  wang
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

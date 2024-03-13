@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.0%   (  14)
+
+Percent Correct           =   65.0%   (  26)
+
+Percent Substitution      =   35.0%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bed ==> met
+   2:    1  ->  chips*(schip) ==> schip
+   3:    1  ->  clown ==> klau
+   4:    1  ->  draai ==> trei
+   5:    1  ->  huis ==> vus
+   6:    1  ->  leeuw ==> leo
+   7:    1  ->  muts ==> mut
+   8:    1  ->  neus ==> kneus
+   9:    1  ->  paard ==> prt
+  10:    1  ->  plank ==> plaa
+  11:    1  ->  reis ==> rejs
+  12:    1  ->  sjaal ==> siel
+  13:    1  ->  vijf ==> vf
+  14:    1  ->  vriend ==> vreemd
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bed
+   2:    1  ->  chips*(schip)
+   3:    1  ->  clown
+   4:    1  ->  draai
+   5:    1  ->  huis
+   6:    1  ->  leeuw
+   7:    1  ->  muts
+   8:    1  ->  neus
+   9:    1  ->  paard
+  10:    1  ->  plank
+  11:    1  ->  reis
+  12:    1  ->  sjaal
+  13:    1  ->  vijf
+  14:    1  ->  vriend
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  klau
+   2:    1  ->  kneus
+   3:    1  ->  leo
+   4:    1  ->  met
+   5:    1  ->  mut
+   6:    1  ->  plaa
+   7:    1  ->  prt
+   8:    1  ->  rejs
+   9:    1  ->  schip
+  10:    1  ->  siel
+  11:    1  ->  trei
+  12:    1  ->  vf
+  13:    1  ->  vreemd
+  14:    1  ->  vus
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

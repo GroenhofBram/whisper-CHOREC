@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.9%   (  18)
+
+Percent Correct           =   61.9%   (  26)
+
+Percent Substitution      =   33.3%   (  14)
+Percent Deletions         =    4.8%   (   2)
+Percent Insertions        =    4.8%   (   2)
+Percent Word Accuracy     =   57.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  * ==> goei
+   2:    1  ->  * ==> waarom?
+   3:    1  ->  auto ==> winkelauto
+   4:    1  ->  dichtbij ==> bij
+   5:    1  ->  fietsbel ==> benr
+   6:    1  ->  liedje ==> potloot
+   7:    1  ->  meisje ==> meicie
+   8:    1  ->  potlood ==> fiets
+   9:    1  ->  regen ==> drigen
+  10:    1  ->  scheuren ==> sceren
+  11:    1  ->  verhaal ==> zoraal
+  12:    1  ->  vlinder ==> vinder
+  13:    1  ->  vuurwerk ==> vurwerk
+  14:    1  ->  waarom ==> hoezeniq?
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  dicht
+   2:    1  ->  litjer
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  muziek
+   2:    1  ->  winkel
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  *
+   2:    1  ->  auto
+   3:    1  ->  dichtbij
+   4:    1  ->  fietsbel
+   5:    1  ->  liedje
+   6:    1  ->  meisje
+   7:    1  ->  potlood
+   8:    1  ->  regen
+   9:    1  ->  scheuren
+  10:    1  ->  verhaal
+  11:    1  ->  vlinder
+  12:    1  ->  vuurwerk
+  13:    1  ->  waarom
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  benr
+   2:    1  ->  bij
+   3:    1  ->  drigen
+   4:    1  ->  fiets
+   5:    1  ->  goei
+   6:    1  ->  hoezeniq?
+   7:    1  ->  meicie
+   8:    1  ->  potloot
+   9:    1  ->  sceren
+  10:    1  ->  vinder
+  11:    1  ->  vurwerk
+  12:    1  ->  waarom?
+  13:    1  ->  winkelauto
+  14:    1  ->  zoraal
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

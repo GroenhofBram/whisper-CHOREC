@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  135.6%   (  61)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   35.6%   (  16)
+Percent Word Accuracy     =  -35.6%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  61)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> an
+   2:    1  ->  * ==> bek
+   3:    1  ->  * ==> jl
+   4:    1  ->  * ==> loogstaat
+   5:    1  ->  * ==> mie
+   6:    1  ->  * ==> ndi
+   7:    1  ->  * ==> om
+   8:    1  ->  * ==> sho
+   9:    1  ->  *(fraai) ==> horik
+  10:    1  ->  *(kat) ==> evat
+  11:    1  ->  *s ==> apul
+  12:    1  ->  blottenduuf*(totaal) ==> gball
+  13:    1  ->  choporatie ==> we
+  14:    1  ->  crobeklunker ==> kastopen
+  15:    1  ->  deuveltek ==> gevaarlijk
+  16:    1  ->  fandelig ==> ons
+  17:    1  ->  gerauwejaak ==> a
+  18:    1  ->  gevijdel*(gevaarlijk) ==> f
+  19:    1  ->  girdofhaalder ==> amot
+  20:    1  ->  hapeneren ==> at
+  21:    1  ->  havedil ==> ko
+  22:    1  ->  ijraspangen ==> totaal
+  23:    1  ->  jalekrewen ==> we
+  24:    1  ->  jattesiet ==> uh
+  25:    1  ->  juitonie ==> sparton
+  26:    1  ->  kabbestepen ==> vrouweg
+  27:    1  ->  mantaroen*(makkelijk) ==> scheldaspen
+  28:    1  ->  nappegreeuw ==> naat
+  29:    1  ->  nurudien ==> uh
+  30:    1  ->  ometuif ==> eishoe
+  31:    1  ->  ondermind ==> sonn
+  32:    1  ->  ooiebiekje ==> vandelg
+  33:    1  ->  oonwijlen ==> goed
+  34:    1  ->  schielendaspen ==> gopen
+  35:    1  ->  sidowaan ==> at
+  36:    1  ->  smoralij ==> ik
+  37:    1  ->  tobbermoeit ==> sip
+  38:    1  ->  toejietsen ==> das
+  39:    1  ->  toineetlijgen ==> kal
+  40:    1  ->  verbrakkertje ==> acres
+  41:    1  ->  verpierik*(privaat) ==> e
+  42:    1  ->  verwarig ==> oti
+  43:    1  ->  wachteniek ==> is
+  44:    1  ->  zeekvlachine ==> vandaag
+  45:    1  ->  zennebral ==> zijn
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  at
+   2:    1  ->  e
+   3:    1  ->  geleerd
+   4:    1  ->  hebben
+   5:    1  ->  i
+   6:    1  ->  letter
+   7:    1  ->  mahelski
+   8:    1  ->  mee
+   9:    1  ->  niet
+  10:    1  ->  nog
+  11:    1  ->  o
+  12:    1  ->  of
+  13:    1  ->  u
+  14:    1  ->  uitspreken
+  15:    1  ->  we
+  16:    1  ->  wel
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    8  ->  *
+   2:    1  ->  *(fraai)
+   3:    1  ->  *(kat)
+   4:    1  ->  *s
+   5:    1  ->  blottenduuf*(totaal)
+   6:    1  ->  choporatie
+   7:    1  ->  crobeklunker
+   8:    1  ->  deuveltek
+   9:    1  ->  fandelig
+  10:    1  ->  gerauwejaak
+  11:    1  ->  gevijdel*(gevaarlijk)
+  12:    1  ->  girdofhaalder
+  13:    1  ->  hapeneren
+  14:    1  ->  havedil
+  15:    1  ->  ijraspangen
+  16:    1  ->  jalekrewen
+  17:    1  ->  jattesiet
+  18:    1  ->  juitonie
+  19:    1  ->  kabbestepen
+  20:    1  ->  mantaroen*(makkelijk)
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  schielendaspen
+  28:    1  ->  sidowaan
+  29:    1  ->  smoralij
+  30:    1  ->  tobbermoeit
+  31:    1  ->  toejietsen
+  32:    1  ->  toineetlijgen
+  33:    1  ->  verbrakkertje
+  34:    1  ->  verpierik*(privaat)
+  35:    1  ->  verwarig
+  36:    1  ->  wachteniek
+  37:    1  ->  zeekvlachine
+  38:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  at
+   2:    2  ->  uh
+   3:    2  ->  we
+   4:    1  ->  a
+   5:    1  ->  acres
+   6:    1  ->  amot
+   7:    1  ->  an
+   8:    1  ->  apul
+   9:    1  ->  bek
+  10:    1  ->  das
+  11:    1  ->  e
+  12:    1  ->  eishoe
+  13:    1  ->  evat
+  14:    1  ->  f
+  15:    1  ->  gball
+  16:    1  ->  gevaarlijk
+  17:    1  ->  goed
+  18:    1  ->  gopen
+  19:    1  ->  horik
+  20:    1  ->  ik
+  21:    1  ->  is
+  22:    1  ->  jl
+  23:    1  ->  kal
+  24:    1  ->  kastopen
+  25:    1  ->  ko
+  26:    1  ->  loogstaat
+  27:    1  ->  mie
+  28:    1  ->  naat
+  29:    1  ->  ndi
+  30:    1  ->  om
+  31:    1  ->  ons
+  32:    1  ->  oti
+  33:    1  ->  scheldaspen
+  34:    1  ->  sho
+  35:    1  ->  sip
+  36:    1  ->  sonn
+  37:    1  ->  sparton
+  38:    1  ->  totaal
+  39:    1  ->  vandaag
+  40:    1  ->  vandelg
+  41:    1  ->  vrouweg
+  42:    1  ->  zijn
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

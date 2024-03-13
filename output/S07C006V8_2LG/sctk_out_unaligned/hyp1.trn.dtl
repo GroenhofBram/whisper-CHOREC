@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   93.3%   (  84)
+
+Percent Correct           =    6.7%   (   6)
+
+Percent Substitution      =   50.0%   (  45)
+Percent Deletions         =   43.3%   (  39)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    6.7%
+
+
+Ref. words                =           (  90)
+Hyp. words                =           (  51)
+Aligned words             =           (  90)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> chafan
+   2:    1  ->  * ==> chauveur
+   3:    1  ->  * ==> cla
+   4:    1  ->  * ==> en
+   5:    1  ->  * ==> leetje
+   6:    1  ->  * ==> luhm
+   7:    1  ->  * ==> m
+   8:    1  ->  * ==> meele
+   9:    1  ->  * ==> tegen
+  10:    1  ->  * ==> u
+  11:    1  ->  * ==> venen
+  12:    1  ->  * ==> vietag
+  13:    1  ->  *s ==> eren
+  14:    1  ->  *s ==> ginge
+  15:    1  ->  *s ==> mater
+  16:    1  ->  *s ==> moke
+  17:    1  ->  *s ==> pat
+  18:    1  ->  *s ==> pijn
+  19:    1  ->  *s ==> schelder
+  20:    1  ->  *s ==> speelplaat
+  21:    1  ->  *s ==> vinden
+  22:    1  ->  auto ==> atol
+  23:    1  ->  circus ==> a
+  24:    1  ->  dichtbij ==> fitswel
+  25:    1  ->  dichtbij ==> mij
+  26:    1  ->  drogen*(droom) ==> grouw
+  27:    1  ->  fietsbel ==> litje
+  28:    1  ->  fietsbel ==> potot
+  29:    1  ->  hoofdpijn ==> kongingin
+  30:    1  ->  kleuren ==> isen
+  31:    1  ->  lawaai*(lauw) ==> lesek
+  32:    1  ->  moeder ==> goie
+  33:    1  ->  moeder ==> goien
+  34:    1  ->  regen*(rennen) ==> moilak
+  35:    1  ->  schouders ==> schouder
+  36:    1  ->  stoppen ==> topen
+  37:    1  ->  vinger ==> lat
+  38:    1  ->  vliegtuig ==> hoofd
+  39:    1  ->  vlinder ==> serkes
+  40:    1  ->  vlinder ==> vonal
+  41:    1  ->  voetbal ==> eerst
+  42:    1  ->  voetbal ==> sisukus
+  43:    1  ->  vuurwerk ==> erk
+  44:    1  ->  vuurwerk ==> gun
+  45:    1  ->  zwemmen ==> um
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   13  ->  *
+   2:   10  ->  *s
+   3:    2  ->  gooien
+   4:    2  ->  moeilijk
+   5:    2  ->  sneeuwen
+   6:    2  ->  waarom
+   7:    1  ->  *(koningin)
+   8:    1  ->  chauffeur
+   9:    1  ->  drinken
+  10:    1  ->  eerste
+  11:    1  ->  kussen
+  12:    1  ->  muziek
+  13:    1  ->  speelplaats
+  14:    1  ->  water
+     -------
+        39
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   12  ->  *
+   2:    9  ->  *s
+   3:    2  ->  dichtbij
+   4:    2  ->  fietsbel
+   5:    2  ->  moeder
+   6:    2  ->  vlinder
+   7:    2  ->  voetbal
+   8:    2  ->  vuurwerk
+   9:    1  ->  auto
+  10:    1  ->  circus
+  11:    1  ->  drogen*(droom)
+  12:    1  ->  hoofdpijn
+  13:    1  ->  kleuren
+  14:    1  ->  lawaai*(lauw)
+  15:    1  ->  regen*(rennen)
+  16:    1  ->  schouders
+  17:    1  ->  stoppen
+  18:    1  ->  vinger
+  19:    1  ->  vliegtuig
+  20:    1  ->  zwemmen
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  a
+   2:    1  ->  atol
+   3:    1  ->  chafan
+   4:    1  ->  chauveur
+   5:    1  ->  cla
+   6:    1  ->  eerst
+   7:    1  ->  en
+   8:    1  ->  eren
+   9:    1  ->  erk
+  10:    1  ->  fitswel
+  11:    1  ->  ginge
+  12:    1  ->  goie
+  13:    1  ->  goien
+  14:    1  ->  grouw
+  15:    1  ->  gun
+  16:    1  ->  hoofd
+  17:    1  ->  isen
+  18:    1  ->  kongingin
+  19:    1  ->  lat
+  20:    1  ->  leetje
+  21:    1  ->  lesek
+  22:    1  ->  litje
+  23:    1  ->  luhm
+  24:    1  ->  m
+  25:    1  ->  mater
+  26:    1  ->  meele
+  27:    1  ->  mij
+  28:    1  ->  moilak
+  29:    1  ->  moke
+  30:    1  ->  pat
+  31:    1  ->  pijn
+  32:    1  ->  potot
+  33:    1  ->  schelder
+  34:    1  ->  schouder
+  35:    1  ->  serkes
+  36:    1  ->  sisukus
+  37:    1  ->  speelplaat
+  38:    1  ->  tegen
+  39:    1  ->  topen
+  40:    1  ->  u
+  41:    1  ->  um
+  42:    1  ->  venen
+  43:    1  ->  vietag
+  44:    1  ->  vinden
+  45:    1  ->  vonal
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

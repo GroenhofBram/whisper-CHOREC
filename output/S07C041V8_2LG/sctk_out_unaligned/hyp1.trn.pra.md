@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C041V8_2LG
+
+#### (S07C041V8_2LG-words)
+
+- Cor=16.7%	Sub=66.7%	Del=16.7%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | water | mevrouw | * | drogen | winkel | auto | * | schouders | verhaal | koning | moeilijk | * | speelplaats | drinken | hoofdpijn | regen | * | vliegtuig | * | * | * | stoppen | opnieuw | gooien | * | sneeuwen | moeder | liedje | potlood | * | fietsbel | vinger | * | dichtbij | meisje | * | * | * | muziek | waarom | scheuren | lawaai | zwemmen | * | vuurwerk | appel | * | cola | kussen | eerste | * | kleuren | voetbal | vlinder*(vinger) |
+| HYP1 | gaater | mevrouw | tro | droven | nie | ton | aito | sfuiters | verhaal |  | kon | monlik | speelplaats |  |  |  |  | trinken | hooftpijn | vegen | vliegtuis | stoppen |  | opien | vooien | sneeuwen |  |  | noeter | liekje | potloot | fi | fitsbel | fior | dut | ber | nese | savoor | misiek | waarom | peren | lawaai |  | sweman | vuurwerk | oppel | koma | tusen | eersteo | sirtus | sirtus | leren | voetbal | ziender |
+| EVAL | S |  | S | S | S | S | S | S |  | D | S | S |  | D | D | D | D | S | S | S | S |  | D | S | S |  | D | D | S | S | S | S | S | S | S | S | S | S | S |  | S |  | D | S |  | S | S | S | S | S | S | S |  | S |
+---
+
+---

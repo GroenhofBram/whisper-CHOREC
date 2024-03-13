@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S04C025M2_1LG
+
+#### (S04C025M2_1LG-words)
+
+- Cor=29.8%	Sub=56.1%	Del=14.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | *s | strand | bed | eerst | voor | draai | *s | *(slacht) | *s | sjaal*(schaal) | herfst | duur | *(straks) | *(strand) | *s | * | straat | *s | leeuw | *s | clown | hoek | *s | krant | hout | vriend | gauw | *s | chips | groen | feest | * | reis | jas | huis | paard | vijf | * | muts | nieuw | kind | bang | oog | zacht | schoen | * | plas | neus | *(knop) | knoop | * | plank |
+| HYP1 | klas | mooi | ko | arm |  | goei | sstrand | dit | heerst | voor | draai |  | slecht | gel | schuil | herst | uur | straks | strand | st | strand | straat |  |  | nee | klowen | hoek |  | krant | hat | vriend | gauw |  |  | schips | roen | vest | res | ja | es | fert | es | mu | muts | nieuw | kind | bang | oog |  | zecht | schoon | plas | nuis | knop | knop | pla | plank |
+| EVAL |  |  | S |  | D | S | S | S | S |  |  | D | S | S | S | S | S | S | S | S | S |  | D | D | S | S |  | D |  | S |  |  | D | D | S | S | S | S | S | S | S | S | S |  |  |  |  |  | D | S | S |  | S | S | S | S |  |
+---
+
+---

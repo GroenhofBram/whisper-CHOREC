@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.8%   (  14)
+
+Percent Correct           =   72.7%   (  32)
+
+Percent Substitution      =   27.3%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =   68.2%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  * ==> sie
+   2:    1  ->  * ==> sneeuw
+   3:    1  ->  * ==> us
+   4:    1  ->  * ==> vlin
+   5:    1  ->  circus ==> cercus
+   6:    1  ->  dichtbij ==> bij
+   7:    1  ->  eerste*(eerst) ==> eerst
+   8:    1  ->  fietsbel ==> bijl
+   9:    1  ->  kussen ==> cussen
+  10:    1  ->  liedje ==> potloot
+  11:    1  ->  potlood ==> fiet
+  12:    1  ->  zwemmen ==> zummen
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  dicht
+   2:    1  ->  lidjer
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    4  ->  *
+   2:    1  ->  circus
+   3:    1  ->  dichtbij
+   4:    1  ->  eerste*(eerst)
+   5:    1  ->  fietsbel
+   6:    1  ->  kussen
+   7:    1  ->  liedje
+   8:    1  ->  potlood
+   9:    1  ->  zwemmen
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bij
+   2:    1  ->  bijl
+   3:    1  ->  cercus
+   4:    1  ->  cussen
+   5:    1  ->  eerst
+   6:    1  ->  fiet
+   7:    1  ->  potloot
+   8:    1  ->  sie
+   9:    1  ->  sneeuw
+  10:    1  ->  us
+  11:    1  ->  vlin
+  12:    1  ->  zummen
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

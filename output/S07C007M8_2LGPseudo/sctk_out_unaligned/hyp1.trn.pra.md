@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C007M8_2LGPseudo
+
+#### (S07C007M8_2LGPseudo-words)
+
+- Cor=1.3%	Sub=80.8%	Del=17.9%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | millen | vocil | * | * | geutel | sjobel | * | * | ierpieuw | ierpieuw | walaan | walaan | erke | haweel | saarweng | * | gevicht | *s | *(gevierd) | eemde | bepoud | * | orstalk | * | * | *s | orstalk | veten | *(vetten) | gefouw*(gevouw) | vurpaand | * | * | nizung | fiewon | kneurem | vawaai*(vouwen) | strellen | * | *(stralen) | zwieten | foetbans*(voetbal) | * | oonste | muider | grijnken | * | * | schielstaug | *s | schielstaug | prilsood | * | *s | * | vloender | * | * | vloender | milste | veurder | kloeien | kloeien | ulen | orponk | * | schodig | * | ijpo | ijpo | menuur | spreikje | spreikje | hiffreeuw | hiffreeuw | wooien | * |
+| HYP1 |  | mie | milen | wo | vogveel | fuittel | schiep | gion | del | ierpien | wa | aan | walaan |  |  |  |  |  |  |  |  |  |  |  |  |  | eerta | heelveel | sa | en | charlan | gvierd | inte | towood | om | oh | nog | staat | vetem | gezol | vuur | pan | niu | n | edeur | van | waen | r | an | ostral | zi | weten | voetbals | onte | mateg | in | vienken | schiel | schelsto | usvout | hoeda | fa | vloendag | meda | voa | lougem | n | of | un | okir | e | epo | metnu | spersprake | ifeo | wo | jek | woi |
+| EVAL | D | S | S | S | S | S | S | S | S | S | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

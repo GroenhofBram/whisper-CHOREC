@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C017M4_3+4LG
+
+#### (S05C017M4_3+4LG-words)
+
+- Cor=23.4%	Sub=60.9%	Del=3.1%	Ins=12.5%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  | omdraaien | * | * | poppenwagen | konijnenhok | elastiekje | * | * | * | * | *x | * | * | *x | *(elastiek) | * | ruziemaken | teddybeer | dierentuin | paddenstoelen | verstoppertje | wasmachine | fototoestel |  | * | toiletpapier | vrachtwagen | buurmannen | * | vogelkooi | olifant | schommelen | iedereen | * | schoenenwinkel | knutselen | ophangen | * | verjaardag | sprookjesboek | tandenborstel | lucifer | slaapkamer | achterdeur | ziekenhuis | nieuwsgierig | afblijven | kabouter | washandje | sneeuwwitje | goeiendag | vakantie | limonade | autorijden | eindelijk | familie | chocolade |
+| HYP1 | ondraien | pop | wa | popen | wagen | konijnen | ook | hi | etala | eta | ete | allee | et | al | stie | allee | enastiek | gja | dat | was | ruzie | maken | teddibeer | dieren | tuin | pade | stoelen | verstoppertje | wasmachine | fototoestel | tot | toilet | papier | vrachtwagen | buurmannen |  | vogelkooi | onlifant | schobbelen | iedereenschoa | schoene | winkel | knutsullen | ophangen | ververjaardag | sprookjes | boek | tandeborstel | lucifer | slaapkamer | achterdeur | ziekenhuis | nieuwsgierig | ofblijven | kabater | washandje | isniweetje | goeienddag | vakantie |  | libondeautorijde | eindelijk | famili | choucolajo |
+| EVAL | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  |  |  | I | S | S |  |  | D |  | S | S | S | S | S | S |  | S | S | S | S |  |  |  |  |  | S | S |  | S | S |  | D | S |  | S | S |
+---
+
+---

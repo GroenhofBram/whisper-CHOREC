@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  105.7%   (  56)
+
+Percent Correct           =   22.6%   (  12)
+
+Percent Substitution      =   75.5%   (  40)
+Percent Deletions         =    1.9%   (   1)
+Percent Insertions        =   28.3%   (  15)
+Percent Word Accuracy     =   -5.7%
+
+
+Ref. words                =           (  53)
+Hyp. words                =           (  67)
+Aligned words             =           (  68)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> dedib
+   3:    1  ->  * ==> dierentaan
+   4:    1  ->  * ==> kapbater
+   5:    1  ->  * ==> koken
+   6:    1  ->  * ==> kokola
+   7:    1  ->  * ==> sprooi
+   8:    1  ->  * ==> stelv
+   9:    1  ->  * ==> was
+  10:    1  ->  achterdeur ==> achterder
+  11:    1  ->  afblijven ==> neven
+  12:    1  ->  autorijden ==> de
+  13:    1  ->  dierentuin ==> was
+  14:    1  ->  eindelijk ==> luk
+  15:    1  ->  elastiekje ==> stuu
+  16:    1  ->  fototoestel ==> toilled
+  17:    1  ->  goeiendag ==> dag
+  18:    1  ->  goeiendag ==> goeien
+  19:    1  ->  kabouter ==> handj
+  20:    1  ->  konijnenhok ==> patten
+  21:    1  ->  limonade ==> autoeden
+  22:    1  ->  limonade ==> en
+  23:    1  ->  lucifer ==> leuggior
+  24:    1  ->  nieuwsgierig ==> afbel
+  25:    1  ->  nieuwsgierig ==> afbil
+  26:    1  ->  olifant ==> olifand
+  27:    1  ->  paddenstoelen ==> magin
+  28:    1  ->  poppenwagen ==> maken
+  29:    1  ->  ruziemaken ==> en
+  30:    1  ->  schoenenwinkel ==> winkel
+  31:    1  ->  schommelen ==> schoennenen
+  32:    1  ->  sneeuwwitje ==> goeie
+  33:    1  ->  sprookjesboek ==> spol
+  34:    1  ->  tandenborstel ==> stel
+  35:    1  ->  teddybeer ==> verstobertje
+  36:    1  ->  toiletpapier ==> papier
+  37:    1  ->  verstoppertje ==> foto
+  38:    1  ->  vogelkooi ==> kooi
+  39:    1  ->  washandje ==> sneewitje
+  40:    1  ->  wasmachine ==> fototov
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  op
+   2:    1  ->  dandenbor
+   3:    1  ->  gierig
+   4:    1  ->  hun
+   5:    1  ->  illastiekje
+   6:    1  ->  konijnenook
+   7:    1  ->  limonv
+   8:    1  ->  limov
+   9:    1  ->  nadev
+  10:    1  ->  nieuws
+  11:    1  ->  ruzie
+  12:    1  ->  schoene
+  13:    1  ->  vongel
+  14:    1  ->  wagen
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chocolade
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    9  ->  *
+   2:    2  ->  goeiendag
+   3:    2  ->  limonade
+   4:    2  ->  nieuwsgierig
+   5:    1  ->  achterdeur
+   6:    1  ->  afblijven
+   7:    1  ->  autorijden
+   8:    1  ->  dierentuin
+   9:    1  ->  eindelijk
+  10:    1  ->  elastiekje
+  11:    1  ->  fototoestel
+  12:    1  ->  kabouter
+  13:    1  ->  konijnenhok
+  14:    1  ->  lucifer
+  15:    1  ->  olifant
+  16:    1  ->  paddenstoelen
+  17:    1  ->  poppenwagen
+  18:    1  ->  ruziemaken
+  19:    1  ->  schoenenwinkel
+  20:    1  ->  schommelen
+  21:    1  ->  sneeuwwitje
+  22:    1  ->  sprookjesboek
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer
+  25:    1  ->  toiletpapier
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  washandje
+  29:    1  ->  wasmachine
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  de
+   2:    2  ->  en
+   3:    2  ->  was
+   4:    1  ->  achterder
+   5:    1  ->  afbel
+   6:    1  ->  afbil
+   7:    1  ->  autoeden
+   8:    1  ->  dag
+   9:    1  ->  dedib
+  10:    1  ->  dierentaan
+  11:    1  ->  foto
+  12:    1  ->  fototov
+  13:    1  ->  goeie
+  14:    1  ->  goeien
+  15:    1  ->  handj
+  16:    1  ->  kapbater
+  17:    1  ->  koken
+  18:    1  ->  kokola
+  19:    1  ->  kooi
+  20:    1  ->  leuggior
+  21:    1  ->  luk
+  22:    1  ->  magin
+  23:    1  ->  maken
+  24:    1  ->  neven
+  25:    1  ->  olifand
+  26:    1  ->  papier
+  27:    1  ->  patten
+  28:    1  ->  schoennenen
+  29:    1  ->  sneewitje
+  30:    1  ->  spol
+  31:    1  ->  sprooi
+  32:    1  ->  stel
+  33:    1  ->  stelv
+  34:    1  ->  stuu
+  35:    1  ->  toilled
+  36:    1  ->  verstobertje
+  37:    1  ->  winkel
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

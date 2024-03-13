@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.2%   (  16)
+
+Percent Correct           =   65.1%   (  28)
+
+Percent Substitution      =   32.6%   (  14)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    2.3%   (   1)
+Percent Word Accuracy     =   62.8%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  43)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  * ==> le
+   2:    1  ->  * ==> poa
+   3:    1  ->  cola*(chocola) ==> chocola
+   4:    1  ->  dichtbij ==> bij
+   5:    1  ->  eerste*(eerst) ==> eerst
+   6:    1  ->  fietsbel ==> fitbel
+   7:    1  ->  gooien ==> gegoien
+   8:    1  ->  kussen ==> kirsen
+   9:    1  ->  moeder ==> moeider
+  10:    1  ->  potlood ==> potloot
+  11:    1  ->  regen ==> druigen
+  12:    1  ->  scheuren ==> scheiren
+  13:    1  ->  schouders ==> schouder
+  14:    1  ->  sneeuwen ==> smijuwen
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  diht
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  *
+   2:    1  ->  cola*(chocola)
+   3:    1  ->  dichtbij
+   4:    1  ->  eerste*(eerst)
+   5:    1  ->  fietsbel
+   6:    1  ->  gooien
+   7:    1  ->  kussen
+   8:    1  ->  moeder
+   9:    1  ->  potlood
+  10:    1  ->  regen
+  11:    1  ->  scheuren
+  12:    1  ->  schouders
+  13:    1  ->  sneeuwen
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bij
+   2:    1  ->  chocola
+   3:    1  ->  druigen
+   4:    1  ->  eerst
+   5:    1  ->  fitbel
+   6:    1  ->  gegoien
+   7:    1  ->  kirsen
+   8:    1  ->  le
+   9:    1  ->  moeider
+  10:    1  ->  poa
+  11:    1  ->  potloot
+  12:    1  ->  scheiren
+  13:    1  ->  schouder
+  14:    1  ->  smijuwen
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

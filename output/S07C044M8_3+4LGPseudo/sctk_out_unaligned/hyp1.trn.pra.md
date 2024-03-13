@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S07C044M8_3+4LGPseudo
+
+#### (S07C044M8_3+4LGPseudo-words)
+
+- Cor=0.0%	Sub=84.0%	Del=0.0%	Ins=16.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  |  |  |  |  |  |  |  |  |  |  | ometuif | toejietsen | toejietsen | oonwijlen | jattesiet | nurudien | * | * | * | stoenydaas | deuveltek | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | mantaroen | * | schielendaspen | crobeklunker | kabbestepen | * | * | * | * | verwarig | * | ooiebiekje | * | * | fandelig | * | jalekrewen | * | * | * | smoralij | zeekvlachine | * | * | kanaroe | * | * | * | toineetlijgen | meitsegrok | kantelogsten | ondermind | choporatie | zennebral | ijraspangen | blottenduuf | * | girdofhaalder | tobbermoeit | poentalschouden | havedil | verbrakkertje | * | gerauwejaak | hapeneren |
+| HYP1 | ommet | taf | t | tuen | uwee | jateit | nee | nere | ti | dm | donidas | gevel | tek | jatn | gevaden | sinten | spekl | wtenik | varperik | nabechrew | man | tergoen | seendas | bin | drom | bij | ingar | kani | em | u | ris | oen | bi | kel | vandelec | ja | jan | u | gregrein | smo | gaa | zel | gena | konnaar | ro | do | er | toi | sla | gen | mazij | grook | kanzijodin | omda | nengo | porati | cene | gal | aas | taen | blo | goedelouhmdur | ger | dfender | dober | mot | puntal | helden | haedil | va | brakarte | ge | era | a | hopergen |
+| EVAL | I | I | I | I | I | I | I | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

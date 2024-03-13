@@ -1,0 +1,24 @@
+
+SYSTEM ALIGNMENT
+
+System Name = hyp1
+
+Speakers = 1
+
+Sentences = 1
+
+
+
+S06C003M1_3+4LG
+
+(S06C003M1_3+4LG-words)
+
+Cor=25.8%	Sub=45.2%	Del=1.6%	Ins=27.4%
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+REF,omdraaien,,,,,,,,,,poppenwagen,konijnenhok,elastiekje,*,ruziemaken,teddybeer,dierentuin,paddenstoelen,verstoppertje,wasmachine,fototoestel,toiletpapier,vrachtwagen,,buurmannen,*,*t,vogelkooi,olifant,,schommelen,iedereen,schoenenwinkel*(schoenwinkel),knutselen,ophangen,*,verjaardag,,sprookjesboek,tandenborstel,*,lucifer,slaapkamer,achterdeur,ziekenhuis,,nieuwsgierig,afblijven,kabouter,,,,,washandje,sneeuwwitje,goeiendag,vakantie,limonade,autorijden,eindelijk,familie,chocolade
+HYP1,omdraaien,op,een,wagen,konnijnen,ook,arlastiekje,ruzie,maken,teddibir,dieren,tuin,badden,stoelen,verstopperd,ja,was,machin?,votto,toestel,toile,papi,vrachtwagen,beurmallen,woh,he,vogel,koi,olifant,schommel,len,iedereen,schoenwinkel,knutselen,ophangen,,verjaardag,sprookjes,boek,tanden,borstel,musifer,slaapkamer,achterdeur,ziekenhuis,nieuws,geerig,afblijven,kabouter,was,hand,je,sneewit,je,goeien,dag,vakantie,nimonabe,autorijden,eindelijk,familie,chocolada
+EVAL,,I,I,I,I,I,I,I,I,I,S,S,S,S,S,S,S,S,S,S,S,S,,I,S,S,S,S,,I,S,,S,,,D,,I,S,S,S,S,,,,I,S,,,I,I,I,I,S,S,S,,S,,,,S
+
+
+

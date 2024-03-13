@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   85.7%   (  42)
+
+Percent Correct           =   34.7%   (  17)
+
+Percent Substitution      =   65.3%   (  32)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   20.4%   (  10)
+Percent Word Accuracy     =   14.3%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  59)
+Aligned words             =           (  59)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  * ==> gga
+   2:    1  ->  * ==> gierig
+   3:    1  ->  * ==> ie
+   4:    1  ->  * ==> nieuw
+   5:    1  ->  * ==> nieuwsiereen
+   6:    1  ->  * ==> teddi
+   7:    1  ->  * ==> wel
+   8:    1  ->  *(ruzie) ==> dierentum
+   9:    1  ->  *(tante) ==> tanden
+  10:    1  ->  afblijven ==> afblaven
+  11:    1  ->  autorijden ==> adoorriiden
+  12:    1  ->  dierentuin ==> je
+  13:    1  ->  elastiekje ==> ber
+  14:    1  ->  fototoestel ==> lid
+  15:    1  ->  konijnenhok ==> maken
+  16:    1  ->  lucifer ==> cefer
+  17:    1  ->  nieuwsgierig ==> scgierig
+  18:    1  ->  paddenstoelen*(paddenstoel) ==> was
+  19:    1  ->  poppenwagen ==> ruzie
+  20:    1  ->  ruziemaken ==> paddestoel
+  21:    1  ->  schoenenwinkel ==> schoenwinkel
+  22:    1  ->  schommelen ==> honoen
+  23:    1  ->  sneeuwwitje ==> sneeuwwietje
+  24:    1  ->  sprookjesboek ==> tante
+  25:    1  ->  tandenborstel ==> borstel
+  26:    1  ->  teddybeer ==> verstoeperd
+  27:    1  ->  toiletpapier ==> papier
+  28:    1  ->  verstoppertje ==> machine
+  29:    1  ->  vogelkooi ==> wogekoi
+  30:    1  ->  washandje ==> handje
+  31:    1  ->  wasmachine ==> foutotoestel
+  32:    1  ->  ziekenhuis ==> nieuw
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  'tziekenhuis
+   2:    1  ->  boek
+   3:    1  ->  connermen
+   4:    1  ->  hook
+   5:    1  ->  iwas
+   6:    1  ->  openwagen
+   7:    1  ->  sprookjes
+   8:    1  ->  tikje
+   9:    1  ->  uszien
+  10:    1  ->  was
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    7  ->  *
+   2:    1  ->  *(ruzie)
+   3:    1  ->  *(tante)
+   4:    1  ->  afblijven
+   5:    1  ->  autorijden
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  fototoestel
+   9:    1  ->  konijnenhok
+  10:    1  ->  lucifer
+  11:    1  ->  nieuwsgierig
+  12:    1  ->  paddenstoelen*(paddenstoel)
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+  26:    1  ->  ziekenhuis
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  nieuw
+   2:    1  ->  adoorriiden
+   3:    1  ->  afblaven
+   4:    1  ->  ber
+   5:    1  ->  borstel
+   6:    1  ->  cefer
+   7:    1  ->  dierentum
+   8:    1  ->  foutotoestel
+   9:    1  ->  gga
+  10:    1  ->  gierig
+  11:    1  ->  handje
+  12:    1  ->  honoen
+  13:    1  ->  ie
+  14:    1  ->  je
+  15:    1  ->  lid
+  16:    1  ->  machine
+  17:    1  ->  maken
+  18:    1  ->  nieuwsiereen
+  19:    1  ->  paddestoel
+  20:    1  ->  papier
+  21:    1  ->  ruzie
+  22:    1  ->  scgierig
+  23:    1  ->  schoenwinkel
+  24:    1  ->  sneeuwwietje
+  25:    1  ->  tanden
+  26:    1  ->  tante
+  27:    1  ->  teddi
+  28:    1  ->  verstoeperd
+  29:    1  ->  was
+  30:    1  ->  wel
+  31:    1  ->  wogekoi
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

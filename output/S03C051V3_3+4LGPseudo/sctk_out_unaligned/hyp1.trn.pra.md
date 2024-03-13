@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C051V3_3+4LGPseudo
+
+#### (S03C051V3_3+4LGPseudo-words)
+
+- Cor=5.5%	Sub=76.4%	Del=0.0%	Ins=18.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF |  |  | ometuif | toejietsen | oonwijlen | jattesiet | nurudien | stoenydaas | deuveltek | * | juitonie | gevijdel | sidowaan | spekkeraai | wachteniek | verpierik | nappegreeuw | * | mantaroen | schielendaspen | crobeklunker | kabbestepen | verwarig |  |  | ooiebiekje | fandelig | jalekrewen |  |  |  |  |  | smoralij | zeekvlachine | kanaroe | * | toineetlijgen | meitsegrok | kantelogsten | ondermind | choporatie | zennebral | * | ijraspangen | blottenduuf | girdofhaalder | tobbermoeit | poentalschouden | havedil | verbrakkertje |  | gerauwejaak | * | hapeneren |
+| HYP1 | omoda | tousite | orwelen | jatte | set | meurudeen | stoennedas | duiveldik | je | jetoni | gveidel | cidewan | speccurai | wachtte | ik | surperik | mapbeggrijw | manandaroon | schelen | daspen | krobbeklunker | kabestepen | verwarig | ooi | je | beeje | fandeleg | jalekrewen | smorala | veekflesheno | canaro | toin | ton | eetleigen | netse | grok | kantel | ohsten | onderneemt | choporati | zinnenbral | un | enrspangn | plotten | dief | girdof | halder | tobbermoet | koentalshouwenen | havedel | verbrakkertje | ger | gerouwe | gacq | haenren |
+| EVAL | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | I | S | S |  | I | I | I | I | I | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |  | I | S | S | S |
+---
+
+---

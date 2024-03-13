@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   86.7%   (  39)
+
+Percent Correct           =   33.3%   (  15)
+
+Percent Substitution      =   66.7%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   20.0%   (   9)
+Percent Word Accuracy     =   13.3%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  54)
+Aligned words             =           (  54)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> ggooien
+   2:    1  ->  * ==> lon
+   3:    1  ->  * ==> meshwasmachine
+   4:    1  ->  * ==> toilet
+   5:    1  ->  * ==> vohel
+   6:    1  ->  achterdeur ==> echterdeur
+   7:    1  ->  autorijden ==> autoreiden
+   8:    1  ->  buurmannen ==> voch
+   9:    1  ->  dierentuin ==> tuin
+  10:    1  ->  elastiekje ==> deddi
+  11:    1  ->  fototoestel ==> dov
+  12:    1  ->  goeiendag ==> deg
+  13:    1  ->  iedereen ==> in
+  14:    1  ->  kabouter ==> arbouter
+  15:    1  ->  konijnenhok ==> maken
+  16:    1  ->  paddenstoelen*(paddenstoel) ==> baddenstoel
+  17:    1  ->  poppenwagen ==> reuze
+  18:    1  ->  ruziemaken ==> beer
+  19:    1  ->  schoenenwinkel ==> winkel
+  20:    1  ->  schommelen ==> schoon
+  21:    1  ->  sneeuwwitje ==> sneeuwwoetje
+  22:    1  ->  sprookjesboek ==> tanden
+  23:    1  ->  tandenborstel ==> borstel
+  24:    1  ->  teddybeer ==> dieren
+  25:    1  ->  toiletpapier ==> papier
+  26:    1  ->  verstoppertje ==> verstopperdje
+  27:    1  ->  vogelkooi ==> koi
+  28:    1  ->  washandje ==> wasentje
+  29:    1  ->  wasmachine ==> vortorostelv
+  30:    1  ->  ziekenhuis ==> ziekinhuis
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  conijnen
+   2:    1  ->  ederien
+   3:    1  ->  enlastwee
+   4:    1  ->  hok
+   5:    1  ->  kee
+   6:    1  ->  kurmannen
+   7:    1  ->  poppemwagen
+   8:    1  ->  schombilden
+   9:    1  ->  sporkesbook
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  autorijden
+   4:    1  ->  buurmannen
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  iedereen
+  10:    1  ->  kabouter
+  11:    1  ->  konijnenhok
+  12:    1  ->  paddenstoelen*(paddenstoel)
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  vogelkooi
+  24:    1  ->  washandje
+  25:    1  ->  wasmachine
+  26:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  arbouter
+   2:    1  ->  autoreiden
+   3:    1  ->  baddenstoel
+   4:    1  ->  beer
+   5:    1  ->  borstel
+   6:    1  ->  deddi
+   7:    1  ->  deg
+   8:    1  ->  dieren
+   9:    1  ->  dov
+  10:    1  ->  echterdeur
+  11:    1  ->  ggooien
+  12:    1  ->  in
+  13:    1  ->  koi
+  14:    1  ->  lon
+  15:    1  ->  maken
+  16:    1  ->  meshwasmachine
+  17:    1  ->  papier
+  18:    1  ->  reuze
+  19:    1  ->  schoon
+  20:    1  ->  sneeuwwoetje
+  21:    1  ->  tanden
+  22:    1  ->  toilet
+  23:    1  ->  tuin
+  24:    1  ->  verstopperdje
+  25:    1  ->  voch
+  26:    1  ->  vohel
+  27:    1  ->  vortorostelv
+  28:    1  ->  wasentje
+  29:    1  ->  winkel
+  30:    1  ->  ziekinhuis
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

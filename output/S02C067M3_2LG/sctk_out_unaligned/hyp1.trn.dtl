@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   61.9%   (  26)
+
+Percent Correct           =   40.5%   (  17)
+
+Percent Substitution      =   57.1%   (  24)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   38.1%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  * ==> n
+   2:    1  ->  * ==> sa
+   3:    1  ->  appel ==> apel
+   4:    1  ->  auto ==> outer
+   5:    1  ->  circus ==> sircus
+   6:    1  ->  dichtbij ==> dibr
+   7:    1  ->  drogen ==> troren
+   8:    1  ->  fietsbel ==> fitbel
+   9:    1  ->  hoofdpijn ==> drinkenhoofdpijn
+  10:    1  ->  kleuren ==> kloren
+  11:    1  ->  kussen ==> cusen
+  12:    1  ->  liedje ==> potlod
+  13:    1  ->  meisje ==> neche
+  14:    1  ->  moeder ==> noetja
+  15:    1  ->  opnieuw ==> opneeuw
+  16:    1  ->  potlood ==> fitsbo
+  17:    1  ->  scheuren ==> scheren
+  18:    1  ->  sneeuwen ==> moede
+  19:    1  ->  verhaal ==> berhel
+  20:    1  ->  vinger ==> viner
+  21:    1  ->  voetbal ==> voedbal
+  22:    1  ->  vuurwerk ==> vurwerk
+  23:    1  ->  winkel ==> winker
+  24:    1  ->  zwemmen ==> emn
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sebben
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  drinken
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  kussen
+  11:    1  ->  liedje
+  12:    1  ->  meisje
+  13:    1  ->  moeder
+  14:    1  ->  opnieuw
+  15:    1  ->  potlood
+  16:    1  ->  scheuren
+  17:    1  ->  sneeuwen
+  18:    1  ->  verhaal
+  19:    1  ->  vinger
+  20:    1  ->  voetbal
+  21:    1  ->  vuurwerk
+  22:    1  ->  winkel
+  23:    1  ->  zwemmen
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  apel
+   2:    1  ->  berhel
+   3:    1  ->  cusen
+   4:    1  ->  dibr
+   5:    1  ->  drinkenhoofdpijn
+   6:    1  ->  emn
+   7:    1  ->  fitbel
+   8:    1  ->  fitsbo
+   9:    1  ->  kloren
+  10:    1  ->  moede
+  11:    1  ->  n
+  12:    1  ->  neche
+  13:    1  ->  noetja
+  14:    1  ->  opneeuw
+  15:    1  ->  outer
+  16:    1  ->  potlod
+  17:    1  ->  sa
+  18:    1  ->  scheren
+  19:    1  ->  sircus
+  20:    1  ->  troren
+  21:    1  ->  viner
+  22:    1  ->  voedbal
+  23:    1  ->  vurwerk
+  24:    1  ->  winker
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

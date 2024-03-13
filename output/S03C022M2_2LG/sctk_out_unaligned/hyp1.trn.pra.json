@@ -1,0 +1,256 @@
+{
+ "system_name": "hyp1",
+ "speakers": {
+  "S03C022M2_2LG": {
+   "(S03C022M2_2LG-words)": {
+    "SystemName": "hyp1",
+    "SpeakerID": "S03C022M2_2LG",
+    "sentence_id": "(S03C022M2_2LG-words)",
+    "sequence": 0,
+    "word_count": 48,
+    "words": [
+     {
+      "eval_label": "C",
+      "ref": "water",
+      "hyp": "water"
+     },
+     {
+      "eval_label": "C",
+      "ref": "mevrouw",
+      "hyp": "mevrouw"
+     },
+     {
+      "eval_label": "S",
+      "ref": "drogen",
+      "hyp": "dromen"
+     },
+     {
+      "eval_label": "S",
+      "ref": "winkel",
+      "hyp": "wingel"
+     },
+     {
+      "eval_label": "C",
+      "ref": "auto",
+      "hyp": "auto"
+     },
+     {
+      "eval_label": "C",
+      "ref": "schouders",
+      "hyp": "schouders"
+     },
+     {
+      "eval_label": "C",
+      "ref": "verhaal",
+      "hyp": "verhaal"
+     },
+     {
+      "eval_label": "C",
+      "ref": "koning",
+      "hyp": "koning"
+     },
+     {
+      "eval_label": "S",
+      "ref": "moeilijk",
+      "hyp": "moeiijk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "speelplaats",
+      "hyp": "speelplaats"
+     },
+     {
+      "eval_label": "S",
+      "ref": "drinken",
+      "hyp": "inken"
+     },
+     {
+      "eval_label": "S",
+      "ref": "hoofdpijn",
+      "hyp": "hoofdijn"
+     },
+     {
+      "eval_label": "C",
+      "ref": "regen",
+      "hyp": "regen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vliegtuig",
+      "hyp": "vliegtuig"
+     },
+     {
+      "eval_label": "C",
+      "ref": "stoppen",
+      "hyp": "stoppen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "opnieuw",
+      "hyp": "opnieuw"
+     },
+     {
+      "eval_label": "D",
+      "ref": "gooien",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "sneeuwen",
+      "hyp": "hoeien"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "snieuwwe"
+     },
+     {
+      "eval_label": "C",
+      "ref": "moeder",
+      "hyp": "moeder"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "licha"
+     },
+     {
+      "eval_label": "S",
+      "ref": "liedje",
+      "hyp": "potloot"
+     },
+     {
+      "eval_label": "S",
+      "ref": "potlood",
+      "hyp": "fiets"
+     },
+     {
+      "eval_label": "S",
+      "ref": "fietsbel",
+      "hyp": "bil"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vinger",
+      "hyp": "vinger"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "diht"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "bi"
+     },
+     {
+      "eval_label": "I",
+      "ref": "",
+      "hyp": "nesje"
+     },
+     {
+      "eval_label": "S",
+      "ref": "dichtbij",
+      "hyp": "schou"
+     },
+     {
+      "eval_label": "S",
+      "ref": "meisje",
+      "hyp": "s"
+     },
+     {
+      "eval_label": "C",
+      "ref": "chauffeur",
+      "hyp": "chauffeur"
+     },
+     {
+      "eval_label": "D",
+      "ref": "*",
+      "hyp": ""
+     },
+     {
+      "eval_label": "C",
+      "ref": "muziek",
+      "hyp": "muziek"
+     },
+     {
+      "eval_label": "C",
+      "ref": "waarom",
+      "hyp": "waarom"
+     },
+     {
+      "eval_label": "S",
+      "ref": "scheuren",
+      "hyp": "schuuren"
+     },
+     {
+      "eval_label": "C",
+      "ref": "lawaai",
+      "hyp": "lawaai"
+     },
+     {
+      "eval_label": "S",
+      "ref": "zwemmen",
+      "hyp": "swinnen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "vuurwerk",
+      "hyp": "vuurwerk"
+     },
+     {
+      "eval_label": "C",
+      "ref": "appel",
+      "hyp": "appel"
+     },
+     {
+      "eval_label": "D",
+      "ref": "cola",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "kopsjok"
+     },
+     {
+      "eval_label": "S",
+      "ref": "*",
+      "hyp": "jola"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kussen",
+      "hyp": "kussen"
+     },
+     {
+      "eval_label": "C",
+      "ref": "eerste",
+      "hyp": "eerste"
+     },
+     {
+      "eval_label": "S",
+      "ref": "circus",
+      "hyp": "circeus"
+     },
+     {
+      "eval_label": "C",
+      "ref": "kleuren",
+      "hyp": "kleuren"
+     },
+     {
+      "eval_label": "D",
+      "ref": "voetbal",
+      "hyp": ""
+     },
+     {
+      "eval_label": "S",
+      "ref": "vlinder",
+      "hyp": "voetbalvlinder"
+     }
+    ]
+   }
+  }
+ }
+}

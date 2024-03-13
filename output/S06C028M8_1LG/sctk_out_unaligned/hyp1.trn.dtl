@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.0%   (  21)
+
+Percent Correct           =   50.0%   (  21)
+
+Percent Substitution      =   50.0%   (  21)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   50.0%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  42)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  * ==> e
+   2:    1  ->  *(plan) ==> plan
+   3:    1  ->  chips ==> shieps
+   4:    1  ->  clown ==> klauw
+   5:    1  ->  gauw ==> gouw
+   6:    1  ->  groei ==> grooi
+   7:    1  ->  groen ==> gron
+   8:    1  ->  herfst ==> herst
+   9:    1  ->  hout ==> goud
+  10:    1  ->  jas ==> jos
+  11:    1  ->  knoop ==> nop
+  12:    1  ->  koe ==> koel
+  13:    1  ->  muts ==> mut
+  14:    1  ->  neus ==> nuis
+  15:    1  ->  paard ==> part
+  16:    1  ->  plas ==> lals
+  17:    1  ->  reis ==> res
+  18:    1  ->  sjaal ==> shal
+  19:    1  ->  straat*(staat) ==> staat
+  20:    1  ->  strand*(stand) ==> stand
+  21:    1  ->  vriend*(vrienden) ==> vreemden
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  *
+   2:    1  ->  *(plan)
+   3:    1  ->  chips
+   4:    1  ->  clown
+   5:    1  ->  gauw
+   6:    1  ->  groei
+   7:    1  ->  groen
+   8:    1  ->  herfst
+   9:    1  ->  hout
+  10:    1  ->  jas
+  11:    1  ->  knoop
+  12:    1  ->  koe
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  paard
+  16:    1  ->  plas
+  17:    1  ->  reis
+  18:    1  ->  sjaal
+  19:    1  ->  straat*(staat)
+  20:    1  ->  strand*(stand)
+  21:    1  ->  vriend*(vrienden)
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  e
+   2:    1  ->  goud
+   3:    1  ->  gouw
+   4:    1  ->  gron
+   5:    1  ->  grooi
+   6:    1  ->  herst
+   7:    1  ->  jos
+   8:    1  ->  klauw
+   9:    1  ->  koel
+  10:    1  ->  lals
+  11:    1  ->  mut
+  12:    1  ->  nop
+  13:    1  ->  nuis
+  14:    1  ->  part
+  15:    1  ->  plan
+  16:    1  ->  res
+  17:    1  ->  shal
+  18:    1  ->  shieps
+  19:    1  ->  staat
+  20:    1  ->  stand
+  21:    1  ->  vreemden
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

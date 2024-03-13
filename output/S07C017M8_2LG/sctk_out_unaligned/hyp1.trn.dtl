@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   89.7%   (  61)
+
+Percent Correct           =   14.7%   (  10)
+
+Percent Substitution      =   75.0%   (  51)
+Percent Deletions         =   10.3%   (   7)
+Percent Insertions        =    4.4%   (   3)
+Percent Word Accuracy     =   10.3%
+
+
+Ref. words                =           (  68)
+Hyp. words                =           (  64)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  * ==> vin
+   2:    1  ->  * ==> ado
+   3:    1  ->  * ==> apel
+   4:    1  ->  * ==> bij
+   5:    1  ->  * ==> der
+   6:    1  ->  * ==> di
+   7:    1  ->  * ==> ding
+   8:    1  ->  * ==> fim
+   9:    1  ->  * ==> nor
+  10:    1  ->  * ==> regean
+  11:    1  ->  * ==> serdus
+  12:    1  ->  * ==> snewen
+  13:    1  ->  * ==> veel
+  14:    1  ->  * ==> vel
+  15:    1  ->  * ==> zi
+  16:    1  ->  *(schouder) ==> scho
+  17:    1  ->  *s ==> a
+  18:    1  ->  *s ==> flis
+  19:    1  ->  *s ==> mames
+  20:    1  ->  *s ==> me
+  21:    1  ->  *x ==> ik
+  22:    1  ->  chauffeur ==> nie
+  23:    1  ->  dichtbij ==> me
+  24:    1  ->  drinken ==> drinten
+  25:    1  ->  drogen ==> droog
+  26:    1  ->  drogen ==> en
+  27:    1  ->  fietsbel ==> bel
+  28:    1  ->  gooien ==> en
+  29:    1  ->  hoofdpijn ==> hooft
+  30:    1  ->  kleuren ==> kleurruin
+  31:    1  ->  kussen ==> kussum
+  32:    1  ->  lawaai ==> eel
+  33:    1  ->  lawaai ==> laa
+  34:    1  ->  liedje ==> liu
+  35:    1  ->  liedje ==> potloot
+  36:    1  ->  meisje ==> chauffer
+  37:    1  ->  moeder ==> li
+  38:    1  ->  moeilijk ==> luk
+  39:    1  ->  muziek ==> ziet
+  40:    1  ->  potlood ==> fit
+  41:    1  ->  regen ==> li
+  42:    1  ->  regen ==> pijn
+  43:    1  ->  sneeuwen ==> moder
+  44:    1  ->  stoppen ==> topen
+  45:    1  ->  verhaal ==> shouder
+  46:    1  ->  verhaal ==> verhal
+  47:    1  ->  vinger ==> vin
+  48:    1  ->  vliegtuig ==> du
+  49:    1  ->  water ==> wa
+  50:    1  ->  zwemmen ==> emen
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  eer
+   2:    1  ->  go
+   3:    1  ->  mor
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  *
+   2:    1  ->  *s
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  scheuren*(schreeuw)
+   6:    1  ->  schouders
+   7:    1  ->  vlinder
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:   16  ->  *
+   2:    4  ->  *s
+   3:    2  ->  drogen
+   4:    2  ->  lawaai
+   5:    2  ->  liedje
+   6:    2  ->  regen
+   7:    2  ->  verhaal
+   8:    1  ->  *(schouder)
+   9:    1  ->  *x
+  10:    1  ->  chauffeur
+  11:    1  ->  dichtbij
+  12:    1  ->  drinken
+  13:    1  ->  fietsbel
+  14:    1  ->  gooien
+  15:    1  ->  hoofdpijn
+  16:    1  ->  kleuren
+  17:    1  ->  kussen
+  18:    1  ->  meisje
+  19:    1  ->  moeder
+  20:    1  ->  moeilijk
+  21:    1  ->  muziek
+  22:    1  ->  potlood
+  23:    1  ->  sneeuwen
+  24:    1  ->  stoppen
+  25:    1  ->  vinger
+  26:    1  ->  vliegtuig
+  27:    1  ->  water
+  28:    1  ->  zwemmen
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  vin
+   2:    2  ->  en
+   3:    2  ->  li
+   4:    2  ->  me
+   5:    1  ->  a
+   6:    1  ->  ado
+   7:    1  ->  apel
+   8:    1  ->  bel
+   9:    1  ->  bij
+  10:    1  ->  chauffer
+  11:    1  ->  der
+  12:    1  ->  di
+  13:    1  ->  ding
+  14:    1  ->  drinten
+  15:    1  ->  droog
+  16:    1  ->  du
+  17:    1  ->  eel
+  18:    1  ->  emen
+  19:    1  ->  fim
+  20:    1  ->  fit
+  21:    1  ->  flis
+  22:    1  ->  hooft
+  23:    1  ->  ik
+  24:    1  ->  kleurruin
+  25:    1  ->  kussum
+  26:    1  ->  laa
+  27:    1  ->  liu
+  28:    1  ->  luk
+  29:    1  ->  mames
+  30:    1  ->  moder
+  31:    1  ->  nie
+  32:    1  ->  nor
+  33:    1  ->  pijn
+  34:    1  ->  potloot
+  35:    1  ->  regean
+  36:    1  ->  scho
+  37:    1  ->  serdus
+  38:    1  ->  shouder
+  39:    1  ->  snewen
+  40:    1  ->  topen
+  41:    1  ->  veel
+  42:    1  ->  vel
+  43:    1  ->  verhal
+  44:    1  ->  wa
+  45:    1  ->  zi
+  46:    1  ->  ziet
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

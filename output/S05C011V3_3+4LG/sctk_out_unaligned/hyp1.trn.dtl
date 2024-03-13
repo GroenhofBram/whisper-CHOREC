@@ -1,0 +1,219 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  142.9%   (  70)
+
+Percent Correct           =   10.2%   (   5)
+
+Percent Substitution      =   89.8%   (  44)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   53.1%   (  26)
+Percent Word Accuracy     =  -42.9%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  75)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> auto
+   3:    1  ->  * ==> bijr
+   4:    1  ->  * ==> coi
+   5:    1  ->  * ==> de
+   6:    1  ->  * ==> eberen
+   7:    1  ->  * ==> foo
+   8:    1  ->  * ==> ga
+   9:    1  ->  * ==> vag
+  10:    1  ->  *s ==> biheben
+  11:    1  ->  *s ==> o
+  12:    1  ->  afblijven ==> vaag
+  13:    1  ->  autorijden ==> en
+  14:    1  ->  buurmannen ==> shoene
+  15:    1  ->  dierentuin ==> wagen
+  16:    1  ->  eindelijk ==> danik
+  17:    1  ->  elastiekje ==> tolet
+  18:    1  ->  fototoestel ==> schoon
+  19:    1  ->  goeiendag ==> imonade
+  20:    1  ->  iedereen ==> vanjaardag
+  21:    1  ->  kabouter ==> ka
+  22:    1  ->  knutselen ==> kisboek
+  23:    1  ->  konijnenhok ==> destel
+  24:    1  ->  limonade ==> dan?
+  25:    1  ->  lucifer ==> ifi
+  26:    1  ->  olifant ==> inuitzollen
+  27:    1  ->  omdraaien ==> verstoportia
+  28:    1  ->  ophangen ==> dan
+  29:    1  ->  paddenstoelen ==> mannen
+  30:    1  ->  poppenwagen ==> wamasmechine
+  31:    1  ->  ruziemaken ==> papier
+  32:    1  ->  schoenenwinkel ==> sprok
+  33:    1  ->  schommelen*(schoen) ==> ophanen
+  34:    1  ->  sneeuwwitje ==> ti
+  35:    1  ->  sprookjesboek ==> barston
+  36:    1  ->  tandenborstel ==> lis
+  37:    1  ->  teddybeer ==> vag
+  38:    1  ->  vakantie ==> je
+  39:    1  ->  verjaardag ==> en
+  40:    1  ->  verstoppertje ==> voorge
+  41:    1  ->  vogelkooi ==> winkel
+  42:    1  ->  vrachtwagen ==> schomen
+  43:    1  ->  washandje ==> welkaan
+  44:    1  ->  wasmachine ==> polifant
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  je
+   2:    1  ->  aenstoen
+   3:    1  ->  als
+   4:    1  ->  beur
+   5:    1  ->  blijven
+   6:    1  ->  da
+   7:    1  ->  dag
+   8:    1  ->  denken
+   9:    1  ->  e
+  10:    1  ->  gooen
+  11:    1  ->  ja
+  12:    1  ->  kabalte
+  13:    1  ->  kaninen
+  14:    1  ->  konen
+  15:    1  ->  omdraien
+  16:    1  ->  ook
+  17:    1  ->  openwegen
+  18:    1  ->  reuziemaaken
+  19:    1  ->  senee
+  20:    1  ->  stik
+  21:    1  ->  tie
+  22:    1  ->  uuhm
+  23:    1  ->  waand
+  24:    1  ->  weetje
+  25:    1  ->  zo
+     -------
+        26
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    9  ->  *
+   2:    2  ->  *s
+   3:    1  ->  afblijven
+   4:    1  ->  autorijden
+   5:    1  ->  buurmannen
+   6:    1  ->  dierentuin
+   7:    1  ->  eindelijk
+   8:    1  ->  elastiekje
+   9:    1  ->  fototoestel
+  10:    1  ->  goeiendag
+  11:    1  ->  iedereen
+  12:    1  ->  kabouter
+  13:    1  ->  knutselen
+  14:    1  ->  konijnenhok
+  15:    1  ->  limonade
+  16:    1  ->  lucifer
+  17:    1  ->  olifant
+  18:    1  ->  omdraaien
+  19:    1  ->  ophangen
+  20:    1  ->  paddenstoelen
+  21:    1  ->  poppenwagen
+  22:    1  ->  ruziemaken
+  23:    1  ->  schoenenwinkel
+  24:    1  ->  schommelen*(schoen)
+  25:    1  ->  sneeuwwitje
+  26:    1  ->  sprookjesboek
+  27:    1  ->  tandenborstel
+  28:    1  ->  teddybeer
+  29:    1  ->  vakantie
+  30:    1  ->  verjaardag
+  31:    1  ->  verstoppertje
+  32:    1  ->  vogelkooi
+  33:    1  ->  vrachtwagen
+  34:    1  ->  washandje
+  35:    1  ->  wasmachine
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  en
+   2:    2  ->  vag
+   3:    1  ->  a
+   4:    1  ->  auto
+   5:    1  ->  barston
+   6:    1  ->  biheben
+   7:    1  ->  bijr
+   8:    1  ->  coi
+   9:    1  ->  dan
+  10:    1  ->  dan?
+  11:    1  ->  danik
+  12:    1  ->  de
+  13:    1  ->  destel
+  14:    1  ->  eberen
+  15:    1  ->  foo
+  16:    1  ->  ga
+  17:    1  ->  ifi
+  18:    1  ->  imonade
+  19:    1  ->  inuitzollen
+  20:    1  ->  je
+  21:    1  ->  ka
+  22:    1  ->  kisboek
+  23:    1  ->  lis
+  24:    1  ->  mannen
+  25:    1  ->  o
+  26:    1  ->  ophanen
+  27:    1  ->  papier
+  28:    1  ->  polifant
+  29:    1  ->  schomen
+  30:    1  ->  schoon
+  31:    1  ->  shoene
+  32:    1  ->  sprok
+  33:    1  ->  ti
+  34:    1  ->  tolet
+  35:    1  ->  vaag
+  36:    1  ->  vanjaardag
+  37:    1  ->  verstoportia
+  38:    1  ->  voorge
+  39:    1  ->  wagen
+  40:    1  ->  wamasmechine
+  41:    1  ->  welkaan
+  42:    1  ->  winkel
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

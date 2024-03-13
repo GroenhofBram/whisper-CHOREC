@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.7%   (  29)
+
+Percent Correct           =   41.5%   (  17)
+
+Percent Substitution      =   56.1%   (  23)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =   12.2%   (   5)
+Percent Word Accuracy     =   29.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  45)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  appel ==> aben
+   2:    1  ->  chauffeur ==> josar
+   3:    1  ->  circus ==> serguis
+   4:    1  ->  cola ==> cora
+   5:    1  ->  dichtbij ==> bet
+   6:    1  ->  drogen ==> hogen
+   7:    1  ->  gooien ==> hooien
+   8:    1  ->  hoofdpijn ==> hoofdpin
+   9:    1  ->  kleuren ==> kleuen
+  10:    1  ->  kussen ==> kuse
+  11:    1  ->  lawaai ==> z
+  12:    1  ->  liedje ==> lietsje
+  13:    1  ->  meisje ==> meesje
+  14:    1  ->  mevrouw ==> de
+  15:    1  ->  potlood ==> patloot
+  16:    1  ->  regen ==> reggen
+  17:    1  ->  scheuren ==> sunen
+  18:    1  ->  schouders ==> swouders
+  19:    1  ->  verhaal ==> veraal
+  20:    1  ->  vlinder ==> vinden
+  21:    1  ->  vuurwerk ==> werk
+  22:    1  ->  waarom ==> lawai
+  23:    1  ->  zwemmen ==> heel
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  dit
+   2:    1  ->  een
+   3:    1  ->  suren
+   4:    1  ->  vrouw
+   5:    1  ->  warom
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  appel
+   2:    1  ->  chauffeur
+   3:    1  ->  circus
+   4:    1  ->  cola
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  gooien
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  meisje
+  14:    1  ->  mevrouw
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  scheuren
+  18:    1  ->  schouders
+  19:    1  ->  verhaal
+  20:    1  ->  vlinder
+  21:    1  ->  vuurwerk
+  22:    1  ->  waarom
+  23:    1  ->  zwemmen
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  aben
+   2:    1  ->  bet
+   3:    1  ->  cora
+   4:    1  ->  de
+   5:    1  ->  heel
+   6:    1  ->  hogen
+   7:    1  ->  hoofdpin
+   8:    1  ->  hooien
+   9:    1  ->  josar
+  10:    1  ->  kleuen
+  11:    1  ->  kuse
+  12:    1  ->  lawai
+  13:    1  ->  lietsje
+  14:    1  ->  meesje
+  15:    1  ->  patloot
+  16:    1  ->  reggen
+  17:    1  ->  serguis
+  18:    1  ->  sunen
+  19:    1  ->  swouders
+  20:    1  ->  veraal
+  21:    1  ->  vinden
+  22:    1  ->  werk
+  23:    1  ->  z
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

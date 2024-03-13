@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  140.0%   (  70)
+
+Percent Correct           =    4.0%   (   2)
+
+Percent Substitution      =   96.0%   (  48)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   44.0%   (  22)
+Percent Word Accuracy     =  -40.0%
+
+
+Ref. words                =           (  50)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  * ==> bijklende
+   2:    1  ->  * ==> das
+   3:    1  ->  * ==> dobbel
+   4:    1  ->  * ==> er
+   5:    1  ->  * ==> erraspangen
+   6:    1  ->  * ==> esvseetv
+   7:    1  ->  * ==> flagini
+   8:    1  ->  * ==> gerauwe
+   9:    1  ->  * ==> gerdo
+  10:    1  ->  * ==> hevendil
+  11:    1  ->  * ==> jalgekrewen
+  12:    1  ->  * ==> jen
+  13:    1  ->  * ==> kabbel
+  14:    1  ->  * ==> kanoru
+  15:    1  ->  * ==> lijgen
+  16:    1  ->  * ==> ling
+  17:    1  ->  * ==> lotenduuf
+  18:    1  ->  * ==> mit
+  19:    1  ->  * ==> mud
+  20:    1  ->  * ==> niet
+  21:    1  ->  * ==> nit
+  22:    1  ->  * ==> nu
+  23:    1  ->  * ==> oeienbeekje
+  24:    1  ->  * ==> onder
+  25:    1  ->  * ==> padpanto
+  26:    1  ->  * ==> perti
+  27:    1  ->  * ==> roddien
+  28:    1  ->  * ==> schaden
+  29:    1  ->  * ==> schrok
+  30:    1  ->  * ==> shok-shoko
+  31:    1  ->  * ==> shoko
+  32:    1  ->  * ==> ste
+  33:    1  ->  * ==> toi
+  34:    1  ->  * ==> zek
+  35:    1  ->  * ==> zenenbral
+  36:    1  ->  blottenduuf ==> helder
+  37:    1  ->  gerauwejaak ==> jak
+  38:    1  ->  gevijdel ==> kur
+  39:    1  ->  jalekrewen ==> met
+  40:    1  ->  jattesiet ==> stoe
+  41:    1  ->  kanaroe ==> kante
+  42:    1  ->  nappegreeuw ==> vande
+  43:    1  ->  schielendaspen ==> smorale
+  44:    1  ->  smoralij ==> e
+  45:    1  ->  spekkeraai ==> stippen
+  46:    1  ->  toineetlijgen ==> tellugsten
+  47:    1  ->  verbrakkertje ==> verbrackertje
+  48:    1  ->  wachteniek ==> verwarring
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  aggen
+   2:    1  ->  civ
+   3:    1  ->  diowan
+   4:    1  ->  essenv
+   5:    1  ->  geverden
+   6:    1  ->  greeuw
+   7:    1  ->  jatv
+   8:    1  ->  jetoniv
+   9:    1  ->  krookbeu
+  10:    1  ->  mantour
+  11:    1  ->  metv
+  12:    1  ->  nappe
+  13:    1  ->  omv
+  14:    1  ->  ov
+  15:    1  ->  schelendaspin
+  16:    1  ->  spikerai
+  17:    1  ->  tuf
+  18:    1  ->  tuv
+  19:    1  ->  verpiriek
+  20:    1  ->  wachtenik
+  21:    1  ->  wan
+  22:    1  ->  wijlen
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:   35  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  gerauwejaak
+   4:    1  ->  gevijdel
+   5:    1  ->  jalekrewen
+   6:    1  ->  jattesiet
+   7:    1  ->  kanaroe
+   8:    1  ->  nappegreeuw
+   9:    1  ->  schielendaspen
+  10:    1  ->  smoralij
+  11:    1  ->  spekkeraai
+  12:    1  ->  toineetlijgen
+  13:    1  ->  verbrakkertje
+  14:    1  ->  wachteniek
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    1  ->  bijklende
+   2:    1  ->  das
+   3:    1  ->  dobbel
+   4:    1  ->  e
+   5:    1  ->  er
+   6:    1  ->  erraspangen
+   7:    1  ->  esvseetv
+   8:    1  ->  flagini
+   9:    1  ->  gerauwe
+  10:    1  ->  gerdo
+  11:    1  ->  helder
+  12:    1  ->  hevendil
+  13:    1  ->  jak
+  14:    1  ->  jalgekrewen
+  15:    1  ->  jen
+  16:    1  ->  kabbel
+  17:    1  ->  kanoru
+  18:    1  ->  kante
+  19:    1  ->  kur
+  20:    1  ->  lijgen
+  21:    1  ->  ling
+  22:    1  ->  lotenduuf
+  23:    1  ->  met
+  24:    1  ->  mit
+  25:    1  ->  mud
+  26:    1  ->  niet
+  27:    1  ->  nit
+  28:    1  ->  nu
+  29:    1  ->  oeienbeekje
+  30:    1  ->  onder
+  31:    1  ->  padpanto
+  32:    1  ->  perti
+  33:    1  ->  roddien
+  34:    1  ->  schaden
+  35:    1  ->  schrok
+  36:    1  ->  shok-shoko
+  37:    1  ->  shoko
+  38:    1  ->  smorale
+  39:    1  ->  ste
+  40:    1  ->  stippen
+  41:    1  ->  stoe
+  42:    1  ->  tellugsten
+  43:    1  ->  toi
+  44:    1  ->  vande
+  45:    1  ->  verbrackertje
+  46:    1  ->  verwarring
+  47:    1  ->  zek
+  48:    1  ->  zenenbral
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

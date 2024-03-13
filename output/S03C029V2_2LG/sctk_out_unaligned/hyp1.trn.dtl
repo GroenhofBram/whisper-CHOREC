@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   67.4%   (  31)
+
+Percent Correct           =   43.5%   (  20)
+
+Percent Substitution      =   47.8%   (  22)
+Percent Deletions         =    8.7%   (   4)
+Percent Insertions        =   10.9%   (   5)
+Percent Word Accuracy     =   32.6%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  47)
+Aligned words             =           (  51)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  * ==> aron
+   2:    1  ->  * ==> leuk
+   3:    1  ->  * ==> moe
+   4:    1  ->  * ==> vli
+   5:    1  ->  cola ==> coela
+   6:    1  ->  drinken ==> trinken
+   7:    1  ->  drogen ==> droge
+   8:    1  ->  eerste ==> eerstte
+   9:    1  ->  gooien ==> moet
+  10:    1  ->  hoofdpijn ==> hoftpen
+  11:    1  ->  kleuren ==> cleuren
+  12:    1  ->  liedje ==> ja
+  13:    1  ->  meisje ==> scha
+  14:    1  ->  moeder ==> liet
+  15:    1  ->  moeilijk ==> coning
+  16:    1  ->  potlood ==> potlot
+  17:    1  ->  regen ==> riigen
+  18:    1  ->  schouders ==> autosouders
+  19:    1  ->  sneeuwen ==> da
+  20:    1  ->  speelplaats ==> ssspeelplaats
+  21:    1  ->  waarom ==> s
+  22:    1  ->  zwemmen ==> swemmen
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  gou
+   2:    1  ->  in
+   3:    1  ->  meisie
+   4:    1  ->  sneew
+   5:    1  ->  won
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  auto
+   2:    1  ->  koning
+   3:    1  ->  muziek
+   4:    1  ->  vlinder
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  *
+   2:    1  ->  cola
+   3:    1  ->  drinken
+   4:    1  ->  drogen
+   5:    1  ->  eerste
+   6:    1  ->  gooien
+   7:    1  ->  hoofdpijn
+   8:    1  ->  kleuren
+   9:    1  ->  liedje
+  10:    1  ->  meisje
+  11:    1  ->  moeder
+  12:    1  ->  moeilijk
+  13:    1  ->  potlood
+  14:    1  ->  regen
+  15:    1  ->  schouders
+  16:    1  ->  sneeuwen
+  17:    1  ->  speelplaats
+  18:    1  ->  waarom
+  19:    1  ->  zwemmen
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  aron
+   2:    1  ->  autosouders
+   3:    1  ->  cleuren
+   4:    1  ->  coela
+   5:    1  ->  coning
+   6:    1  ->  da
+   7:    1  ->  droge
+   8:    1  ->  eerstte
+   9:    1  ->  hoftpen
+  10:    1  ->  ja
+  11:    1  ->  leuk
+  12:    1  ->  liet
+  13:    1  ->  moe
+  14:    1  ->  moet
+  15:    1  ->  potlot
+  16:    1  ->  riigen
+  17:    1  ->  s
+  18:    1  ->  scha
+  19:    1  ->  ssspeelplaats
+  20:    1  ->  swemmen
+  21:    1  ->  trinken
+  22:    1  ->  vli
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

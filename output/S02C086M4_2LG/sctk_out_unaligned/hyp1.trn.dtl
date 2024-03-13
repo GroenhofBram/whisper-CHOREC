@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  11)
+
+Percent Correct           =   80.0%   (  32)
+
+Percent Substitution      =   20.0%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.5%   (   3)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  43)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cola ==> kola
+   2:    1  ->  dichtbij ==> wanv
+   3:    1  ->  fietsbel ==> vingerv
+   4:    1  ->  liedje ==> lietje
+   5:    1  ->  meisje ==> meishe
+   6:    1  ->  vinger ==> divdv
+   7:    1  ->  vlinder ==> linder
+   8:    1  ->  vuurwerk ==> vurwerk
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fiets
+   2:    1  ->  wel
+   3:    1  ->  woorden
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cola
+   2:    1  ->  dichtbij
+   3:    1  ->  fietsbel
+   4:    1  ->  liedje
+   5:    1  ->  meisje
+   6:    1  ->  vinger
+   7:    1  ->  vlinder
+   8:    1  ->  vuurwerk
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  divdv
+   2:    1  ->  kola
+   3:    1  ->  lietje
+   4:    1  ->  linder
+   5:    1  ->  meishe
+   6:    1  ->  vingerv
+   7:    1  ->  vurwerk
+   8:    1  ->  wanv
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

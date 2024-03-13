@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.5%   (  42)
+
+Percent Correct           =    9.1%   (   4)
+
+Percent Substitution      =   90.9%   (  40)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.5%   (   2)
+Percent Word Accuracy     =    4.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  46)
+Aligned words             =           (  46)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> pouk
+   2:    1  ->  *(gevecht) ==> ende
+   3:    1  ->  *(strelen) ==> wai
+   4:    1  ->  *x ==> strelen
+   5:    1  ->  bepoud ==> orstouk
+   6:    1  ->  eemde ==> de
+   7:    1  ->  erke ==> k
+   8:    1  ->  fiewon ==> won
+   9:    1  ->  foetbans ==> voetbans
+  10:    1  ->  gefouw ==> nu
+  11:    1  ->  gevicht ==> gevecht
+  12:    1  ->  grijnken ==> gijnken
+  13:    1  ->  hiffreeuw ==> hiffrouw
+  14:    1  ->  ierpieuw ==> piel
+  15:    1  ->  ijpo ==> i
+  16:    1  ->  kloeien ==> gloeje
+  17:    1  ->  kneurem ==> neeron
+  18:    1  ->  menuur ==> pomenuur
+  19:    1  ->  millen ==> milen
+  20:    1  ->  milste ==> windag
+  21:    1  ->  muider ==> middag
+  22:    1  ->  nizung ==> fi
+  23:    1  ->  oonste ==> unste
+  24:    1  ->  orponk ==> orpon
+  25:    1  ->  orstalk ==> wettencefouv
+  26:    1  ->  prilsood ==> eeltout
+  27:    1  ->  saarweng ==> gevecht
+  28:    1  ->  schielstaug ==> veeltag
+  29:    1  ->  schodig ==> schottig
+  30:    1  ->  spreikje ==> sprekje
+  31:    1  ->  strellen ==> nestrillen
+  32:    1  ->  ulen ==> elen
+  33:    1  ->  vawaai ==> van
+  34:    1  ->  veten*(vetten) ==> jurdan
+  35:    1  ->  veurder ==> veurter
+  36:    1  ->  vloender ==> zoendag
+  37:    1  ->  vocil ==> fochil
+  38:    1  ->  vurpaand ==> zun
+  39:    1  ->  wooien ==> woyen
+  40:    1  ->  zwieten ==> switen
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ier
+   2:    1  ->  sarwen
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  *
+   2:    1  ->  *(gevecht)
+   3:    1  ->  *(strelen)
+   4:    1  ->  *x
+   5:    1  ->  bepoud
+   6:    1  ->  eemde
+   7:    1  ->  erke
+   8:    1  ->  fiewon
+   9:    1  ->  foetbans
+  10:    1  ->  gefouw
+  11:    1  ->  gevicht
+  12:    1  ->  grijnken
+  13:    1  ->  hiffreeuw
+  14:    1  ->  ierpieuw
+  15:    1  ->  ijpo
+  16:    1  ->  kloeien
+  17:    1  ->  kneurem
+  18:    1  ->  menuur
+  19:    1  ->  millen
+  20:    1  ->  milste
+  21:    1  ->  muider
+  22:    1  ->  nizung
+  23:    1  ->  oonste
+  24:    1  ->  orponk
+  25:    1  ->  orstalk
+  26:    1  ->  prilsood
+  27:    1  ->  saarweng
+  28:    1  ->  schielstaug
+  29:    1  ->  schodig
+  30:    1  ->  spreikje
+  31:    1  ->  strellen
+  32:    1  ->  ulen
+  33:    1  ->  vawaai
+  34:    1  ->  veten*(vetten)
+  35:    1  ->  veurder
+  36:    1  ->  vloender
+  37:    1  ->  vocil
+  38:    1  ->  vurpaand
+  39:    1  ->  wooien
+  40:    1  ->  zwieten
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  gevecht
+   2:    1  ->  de
+   3:    1  ->  eeltout
+   4:    1  ->  elen
+   5:    1  ->  ende
+   6:    1  ->  fi
+   7:    1  ->  fochil
+   8:    1  ->  gijnken
+   9:    1  ->  gloeje
+  10:    1  ->  hiffrouw
+  11:    1  ->  i
+  12:    1  ->  jurdan
+  13:    1  ->  k
+  14:    1  ->  middag
+  15:    1  ->  milen
+  16:    1  ->  neeron
+  17:    1  ->  nestrillen
+  18:    1  ->  nu
+  19:    1  ->  orpon
+  20:    1  ->  orstouk
+  21:    1  ->  piel
+  22:    1  ->  pomenuur
+  23:    1  ->  pouk
+  24:    1  ->  schottig
+  25:    1  ->  sprekje
+  26:    1  ->  strelen
+  27:    1  ->  switen
+  28:    1  ->  unste
+  29:    1  ->  van
+  30:    1  ->  veeltag
+  31:    1  ->  veurter
+  32:    1  ->  voetbans
+  33:    1  ->  wai
+  34:    1  ->  wettencefouv
+  35:    1  ->  windag
+  36:    1  ->  won
+  37:    1  ->  woyen
+  38:    1  ->  zoendag
+  39:    1  ->  zun
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

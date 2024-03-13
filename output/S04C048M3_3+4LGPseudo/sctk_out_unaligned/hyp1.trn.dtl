@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  145.7%   (  67)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =  100.0%   (  46)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   45.7%   (  21)
+Percent Word Accuracy     =  -45.7%
+
+
+Ref. words                =           (  46)
+Hyp. words                =           (  67)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  * ==> bloot
+   2:    1  ->  * ==> canteloeten
+   3:    1  ->  * ==> had
+   4:    1  ->  * ==> pen
+   5:    1  ->  * ==> van
+   6:    1  ->  * ==> vergaak
+   7:    1  ->  blottenduuf ==> girdof
+   8:    1  ->  choporatie ==> spanen
+   9:    1  ->  crobeklunker ==> zwek
+  10:    1  ->  deuveltek ==> krokbenlunker
+  11:    1  ->  fandelig ==> lijgen
+  12:    1  ->  gerauwejaak ==> verbakertje
+  13:    1  ->  gevijdel ==> verarig
+  14:    1  ->  girdofhaalder ==> helder
+  15:    1  ->  hapeneren ==> deneren
+  16:    1  ->  havedil ==> schouden
+  17:    1  ->  ijraspangen ==> duf
+  18:    1  ->  jalekrewen ==> mijtzijgrok
+  19:    1  ->  jattesiet ==> mantaron
+  20:    1  ->  juitonie ==> kobestien
+  21:    1  ->  kabbestepen ==> vlagcine
+  22:    1  ->  kanaroe ==> zin
+  23:    1  ->  kantelogsten ==> èr
+  24:    1  ->  mantaroen ==> jallerekweghen
+  25:    1  ->  meitsegrok ==> bral
+  26:    1  ->  nappegreeuw ==> ja
+  27:    1  ->  nurudien ==> schieren
+  28:    1  ->  ometuif ==> niek?
+  29:    1  ->  ondermind ==> as
+  30:    1  ->  ooiebiekje ==> tonnet
+  31:    1  ->  oonwijlen ==> naperecel
+  32:    1  ->  poentalschouden ==> boental
+  33:    1  ->  schielendaspen ==> smoralei
+  34:    1  ->  sidowaan ==> oh
+  35:    1  ->  smoralij ==> ondermindv
+  36:    1  ->  spekkeraai ==> jebied
+  37:    1  ->  stoenydaas ==> das
+  38:    1  ->  tobbermoeit ==> toperemo
+  39:    1  ->  toejietsen ==> verpirik
+  40:    1  ->  toineetlijgen ==> in
+  41:    1  ->  verbrakkertje ==> havendil
+  42:    1  ->  verpierik ==> delies
+  43:    1  ->  verwarig ==> kanaru
+  44:    1  ->  wachteniek ==> je
+  45:    1  ->  zeekvlachine ==> shocoporati
+  46:    1  ->  zennebral ==> tin
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  cidoan
+   2:    1  ->  de
+   3:    1  ->  denv
+   4:    1  ->  deq
+   5:    1  ->  dinv
+   6:    1  ->  ge
+   7:    1  ->  jij
+   8:    1  ->  ka
+   9:    1  ->  lanatv
+  10:    1  ->  nur
+  11:    1  ->  onmitvduf
+  12:    1  ->  onwilenv
+  13:    1  ->  spikeran
+  14:    1  ->  stoun
+  15:    1  ->  touv
+  16:    1  ->  veledenv
+  17:    1  ->  velv
+  18:    1  ->  wat
+  19:    1  ->  yes
+  20:    1  ->  ytecit
+  21:    1  ->  yutoni
+     -------
+        21
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    6  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  hapeneren
+  11:    1  ->  havedil
+  12:    1  ->  ijraspangen
+  13:    1  ->  jalekrewen
+  14:    1  ->  jattesiet
+  15:    1  ->  juitonie
+  16:    1  ->  kabbestepen
+  17:    1  ->  kanaroe
+  18:    1  ->  kantelogsten
+  19:    1  ->  mantaroen
+  20:    1  ->  meitsegrok
+  21:    1  ->  nappegreeuw
+  22:    1  ->  nurudien
+  23:    1  ->  ometuif
+  24:    1  ->  ondermind
+  25:    1  ->  ooiebiekje
+  26:    1  ->  oonwijlen
+  27:    1  ->  poentalschouden
+  28:    1  ->  schielendaspen
+  29:    1  ->  sidowaan
+  30:    1  ->  smoralij
+  31:    1  ->  spekkeraai
+  32:    1  ->  stoenydaas
+  33:    1  ->  tobbermoeit
+  34:    1  ->  toejietsen
+  35:    1  ->  toineetlijgen
+  36:    1  ->  verbrakkertje
+  37:    1  ->  verpierik
+  38:    1  ->  verwarig
+  39:    1  ->  wachteniek
+  40:    1  ->  zeekvlachine
+  41:    1  ->  zennebral
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    1  ->  as
+   2:    1  ->  bloot
+   3:    1  ->  boental
+   4:    1  ->  bral
+   5:    1  ->  canteloeten
+   6:    1  ->  das
+   7:    1  ->  delies
+   8:    1  ->  deneren
+   9:    1  ->  duf
+  10:    1  ->  girdof
+  11:    1  ->  had
+  12:    1  ->  havendil
+  13:    1  ->  helder
+  14:    1  ->  in
+  15:    1  ->  ja
+  16:    1  ->  jallerekweghen
+  17:    1  ->  je
+  18:    1  ->  jebied
+  19:    1  ->  kanaru
+  20:    1  ->  kobestien
+  21:    1  ->  krokbenlunker
+  22:    1  ->  lijgen
+  23:    1  ->  mantaron
+  24:    1  ->  mijtzijgrok
+  25:    1  ->  naperecel
+  26:    1  ->  niek?
+  27:    1  ->  oh
+  28:    1  ->  ondermindv
+  29:    1  ->  pen
+  30:    1  ->  schieren
+  31:    1  ->  schouden
+  32:    1  ->  shocoporati
+  33:    1  ->  smoralei
+  34:    1  ->  spanen
+  35:    1  ->  tin
+  36:    1  ->  tonnet
+  37:    1  ->  toperemo
+  38:    1  ->  van
+  39:    1  ->  verarig
+  40:    1  ->  verbakertje
+  41:    1  ->  vergaak
+  42:    1  ->  verpirik
+  43:    1  ->  vlagcine
+  44:    1  ->  zin
+  45:    1  ->  zwek
+  46:    1  ->  èr
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

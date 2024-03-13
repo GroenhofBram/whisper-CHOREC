@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   48.8%   (  20)
+
+Percent Correct           =   53.7%   (  22)
+
+Percent Substitution      =   41.5%   (  17)
+Percent Deletions         =    4.9%   (   2)
+Percent Insertions        =    2.4%   (   1)
+Percent Word Accuracy     =   51.2%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  40)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  * ==> snijwen
+   2:    1  ->  circus ==> serkus
+   3:    1  ->  dichtbij ==> bijr
+   4:    1  ->  drinken ==> sweelplaats
+   5:    1  ->  drogen ==> toren
+   6:    1  ->  eerste ==> ersta
+   7:    1  ->  fietsbel ==> litbal
+   8:    1  ->  hoofdpijn ==> drinkenhoofdpijn
+   9:    1  ->  kleuren ==> kloen
+  10:    1  ->  kussen ==> custenv
+  11:    1  ->  lawaai ==> wawai
+  12:    1  ->  liedje ==> lietje
+  13:    1  ->  mevrouw ==> evroul
+  14:    1  ->  muziek ==> nediik
+  15:    1  ->  potlood ==> potnoot
+  16:    1  ->  verhaal ==> erel
+  17:    1  ->  water ==> wetter
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  dicht
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  sneeuwen
+   2:    1  ->  speelplaats
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  dichtbij
+   4:    1  ->  drinken
+   5:    1  ->  drogen
+   6:    1  ->  eerste
+   7:    1  ->  fietsbel
+   8:    1  ->  hoofdpijn
+   9:    1  ->  kleuren
+  10:    1  ->  kussen
+  11:    1  ->  lawaai
+  12:    1  ->  liedje
+  13:    1  ->  mevrouw
+  14:    1  ->  muziek
+  15:    1  ->  potlood
+  16:    1  ->  verhaal
+  17:    1  ->  water
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bijr
+   2:    1  ->  custenv
+   3:    1  ->  drinkenhoofdpijn
+   4:    1  ->  erel
+   5:    1  ->  ersta
+   6:    1  ->  evroul
+   7:    1  ->  kloen
+   8:    1  ->  lietje
+   9:    1  ->  litbal
+  10:    1  ->  nediik
+  11:    1  ->  potnoot
+  12:    1  ->  serkus
+  13:    1  ->  snijwen
+  14:    1  ->  sweelplaats
+  15:    1  ->  toren
+  16:    1  ->  wawai
+  17:    1  ->  wetter
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

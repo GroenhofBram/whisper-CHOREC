@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   72.5%   (  29)
+
+Percent Correct           =   27.5%   (  11)
+
+Percent Substitution      =   72.5%   (  29)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   27.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  40)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  beeg ==> pieg
+   2:    1  ->  blard ==> blart
+   3:    1  ->  dau ==> da
+   4:    1  ->  doer ==> toer
+   5:    1  ->  dron ==> droom
+   6:    1  ->  eem ==> een
+   7:    1  ->  fam ==> fan
+   8:    1  ->  fook ==> folk
+   9:    1  ->  frijk ==> frik
+  10:    1  ->  guul ==> glul
+  11:    1  ->  haans ==> haaans
+  12:    1  ->  heik ==> herk
+  13:    1  ->  hool ==> hooi
+  14:    1  ->  jien ==> gien
+  15:    1  ->  leum ==> leen
+  16:    1  ->  neeuw ==> neel
+  17:    1  ->  plirt ==> blift
+  18:    1  ->  rachts ==> racht
+  19:    1  ->  schard ==> schart
+  20:    1  ->  sjalt ==> stjalt
+  21:    1  ->  spaai ==> spai
+  22:    1  ->  sprieuw ==> spriel
+  23:    1  ->  stuid ==> stuit
+  24:    1  ->  swoers ==> sours
+  25:    1  ->  vaap ==> saap
+  26:    1  ->  vid ==> vit
+  27:    1  ->  vout ==> foud
+  28:    1  ->  zans ==> sans
+  29:    1  ->  zwoei ==> zmoei
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  beeg
+   2:    1  ->  blard
+   3:    1  ->  dau
+   4:    1  ->  doer
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  fook
+   9:    1  ->  frijk
+  10:    1  ->  guul
+  11:    1  ->  haans
+  12:    1  ->  heik
+  13:    1  ->  hool
+  14:    1  ->  jien
+  15:    1  ->  leum
+  16:    1  ->  neeuw
+  17:    1  ->  plirt
+  18:    1  ->  rachts
+  19:    1  ->  schard
+  20:    1  ->  sjalt
+  21:    1  ->  spaai
+  22:    1  ->  sprieuw
+  23:    1  ->  stuid
+  24:    1  ->  swoers
+  25:    1  ->  vaap
+  26:    1  ->  vid
+  27:    1  ->  vout
+  28:    1  ->  zans
+  29:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  blart
+   2:    1  ->  blift
+   3:    1  ->  da
+   4:    1  ->  droom
+   5:    1  ->  een
+   6:    1  ->  fan
+   7:    1  ->  folk
+   8:    1  ->  foud
+   9:    1  ->  frik
+  10:    1  ->  gien
+  11:    1  ->  glul
+  12:    1  ->  haaans
+  13:    1  ->  herk
+  14:    1  ->  hooi
+  15:    1  ->  leen
+  16:    1  ->  neel
+  17:    1  ->  pieg
+  18:    1  ->  racht
+  19:    1  ->  saap
+  20:    1  ->  sans
+  21:    1  ->  schart
+  22:    1  ->  sours
+  23:    1  ->  spai
+  24:    1  ->  spriel
+  25:    1  ->  stjalt
+  26:    1  ->  stuit
+  27:    1  ->  toer
+  28:    1  ->  vit
+  29:    1  ->  zmoei
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

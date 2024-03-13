@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C017M2_2LGPseudo
+
+#### (S01C017M2_2LGPseudo-words)
+
+- Cor=19.0%	Sub=81.0%	Del=0.0%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel | * | sjobel | ierpieuw | walaan | erke | haweel | saarweng | * | gevicht | eemde | bepoud | orstalk | veten | gefouw | vurpaand | nizung | fiewon | kneurem | vawaai | strellen | zwieten | foetbans | oonste | muider | grijnken | schielstaug | prilsood | vloender | milste | veurder | kloeien | ulen | orponk | schodig | ijpo | menuur | spreikje | hiffreeuw | wooien |
+| HYP1 | millen | vossil | getel | gobel | ir | pi | walaan | erke | houweel | saroen | geva | gevecht | enden | bebad | orstalk | viten | gefal | vuurpant | nun | ibon | kneren | vaway | strillen | swieten | voedbans | onste | madder | grenken | schielstaug | sbrilsot | vlunder | milste | vurder | clouen | ulen | orponk | shodig | eppo | mnu | sprekje | gifril | woen |
+| EVAL |  | S | S | S | S | S |  |  | S | S | S | S | S | S |  | S | S | S | S | S | S | S | S | S | S | S | S | S |  | S | S |  | S | S |  |  | S | S | S | S | S | S |
+---
+
+---

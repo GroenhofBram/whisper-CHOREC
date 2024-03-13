@@ -1,0 +1,226 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  122.4%   (  71)
+
+Percent Correct           =   12.1%   (   7)
+
+Percent Substitution      =   87.9%   (  51)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   34.5%   (  20)
+Percent Word Accuracy     =  -22.4%
+
+
+Ref. words                =           (  58)
+Hyp. words                =           (  78)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    1  ->  * ==> berv
+   2:    1  ->  * ==> deren
+   3:    1  ->  * ==> maken
+   4:    1  ->  * ==> rondje
+   5:    1  ->  * ==> uh
+   6:    1  ->  * ==> v
+   7:    1  ->  * ==> vorel
+   8:    1  ->  * ==> waarshe
+   9:    1  ->  * ==> was
+  10:    1  ->  *s ==> et
+  11:    1  ->  *x ==> fototoestel?
+  12:    1  ->  achterdeur ==> zeker
+  13:    1  ->  afblijven ==> kawouter
+  14:    1  ->  afblijven ==> wasgang
+  15:    1  ->  autorijden ==> reden
+  16:    1  ->  buurmannen*(buurman) ==> o
+  17:    1  ->  chocolade ==> coorade
+  18:    1  ->  dierentuin ==> soenen
+  19:    1  ->  eindelijk ==> en
+  20:    1  ->  elastiekje ==> div
+  21:    1  ->  familie ==> fanmuli
+  22:    1  ->  fototoestel ==> fotostoel
+  23:    1  ->  fototoestel ==> popier?
+  24:    1  ->  goeiendag ==> dag
+  25:    1  ->  iedereen ==> winkel
+  26:    1  ->  kabouter ==> je
+  27:    1  ->  kabouter ==> was
+  28:    1  ->  knutselen ==> zuln
+  29:    1  ->  konijnenhok ==> detv
+  30:    1  ->  limonade ==> ato
+  31:    1  ->  lucifer ==> bortel
+  32:    1  ->  paddenstoelen ==> verstopperdje
+  33:    1  ->  poppenwagen ==> v
+  34:    1  ->  ruziemaken ==> uh
+  35:    1  ->  schoenenwinkel ==> niet
+  36:    1  ->  schommelen ==> en
+  37:    1  ->  schommelen ==> schoened
+  38:    1  ->  slaapkamer ==> giffe
+  39:    1  ->  slaapkamer ==> sslaapkamerachter
+  40:    1  ->  sneeuwwitje ==> goeie
+  41:    1  ->  sprookjesboek ==> sporkisbok
+  42:    1  ->  tandenborstel ==> tande
+  43:    1  ->  teddybeer ==> pade
+  44:    1  ->  toiletpapier ==> v
+  45:    1  ->  verstoppertje ==> waar
+  46:    1  ->  vogelkooi ==> koy
+  47:    1  ->  vrachtwagen ==> wah
+  48:    1  ->  washandje ==> an
+  49:    1  ->  washandje ==> neewitje
+  50:    1  ->  wasmachine ==> schijnen
+  51:    1  ->  ziekenhuis ==> wes
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  wagen
+   2:    1  ->  als
+   3:    1  ->  alsti
+   4:    1  ->  blijven
+   5:    1  ->  bobben
+   6:    1  ->  bobpen
+   7:    1  ->  buurman
+   8:    1  ->  een
+   9:    1  ->  hoek
+  10:    1  ->  kap
+  11:    1  ->  kil
+  12:    1  ->  konijnen
+  13:    1  ->  limonada
+  14:    1  ->  n
+  15:    1  ->  of
+  16:    1  ->  ogi
+  17:    1  ->  schn
+  18:    1  ->  son
+  19:    1  ->  tike
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    9  ->  *
+   2:    2  ->  afblijven
+   3:    2  ->  fototoestel
+   4:    2  ->  kabouter
+   5:    2  ->  schommelen
+   6:    2  ->  slaapkamer
+   7:    2  ->  washandje
+   8:    1  ->  *s
+   9:    1  ->  *x
+  10:    1  ->  achterdeur
+  11:    1  ->  autorijden
+  12:    1  ->  buurmannen*(buurman)
+  13:    1  ->  chocolade
+  14:    1  ->  dierentuin
+  15:    1  ->  eindelijk
+  16:    1  ->  elastiekje
+  17:    1  ->  familie
+  18:    1  ->  goeiendag
+  19:    1  ->  iedereen
+  20:    1  ->  knutselen
+  21:    1  ->  konijnenhok
+  22:    1  ->  limonade
+  23:    1  ->  lucifer
+  24:    1  ->  paddenstoelen
+  25:    1  ->  poppenwagen
+  26:    1  ->  ruziemaken
+  27:    1  ->  schoenenwinkel
+  28:    1  ->  sneeuwwitje
+  29:    1  ->  sprookjesboek
+  30:    1  ->  tandenborstel
+  31:    1  ->  teddybeer
+  32:    1  ->  toiletpapier
+  33:    1  ->  verstoppertje
+  34:    1  ->  vogelkooi
+  35:    1  ->  vrachtwagen
+  36:    1  ->  wasmachine
+  37:    1  ->  ziekenhuis
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  v
+   2:    2  ->  en
+   3:    2  ->  uh
+   4:    2  ->  was
+   5:    1  ->  an
+   6:    1  ->  ato
+   7:    1  ->  berv
+   8:    1  ->  bortel
+   9:    1  ->  coorade
+  10:    1  ->  dag
+  11:    1  ->  deren
+  12:    1  ->  detv
+  13:    1  ->  div
+  14:    1  ->  et
+  15:    1  ->  fanmuli
+  16:    1  ->  fotostoel
+  17:    1  ->  fototoestel?
+  18:    1  ->  giffe
+  19:    1  ->  goeie
+  20:    1  ->  je
+  21:    1  ->  kawouter
+  22:    1  ->  koy
+  23:    1  ->  maken
+  24:    1  ->  neewitje
+  25:    1  ->  niet
+  26:    1  ->  o
+  27:    1  ->  pade
+  28:    1  ->  popier?
+  29:    1  ->  reden
+  30:    1  ->  rondje
+  31:    1  ->  schijnen
+  32:    1  ->  schoened
+  33:    1  ->  soenen
+  34:    1  ->  sporkisbok
+  35:    1  ->  sslaapkamerachter
+  36:    1  ->  tande
+  37:    1  ->  verstopperdje
+  38:    1  ->  vorel
+  39:    1  ->  waar
+  40:    1  ->  waarshe
+  41:    1  ->  wah
+  42:    1  ->  wasgang
+  43:    1  ->  wes
+  44:    1  ->  winkel
+  45:    1  ->  zeker
+  46:    1  ->  zuln
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

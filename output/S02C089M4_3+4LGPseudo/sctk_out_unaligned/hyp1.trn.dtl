@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  150.0%   (  66)
+
+Percent Correct           =    2.3%   (   1)
+
+Percent Substitution      =   97.7%   (  43)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   52.3%   (  23)
+Percent Word Accuracy     =  -50.0%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  67)
+Aligned words             =           (  67)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  * ==> canaru
+   2:    1  ->  * ==> daspen
+   3:    1  ->  * ==> deling
+   4:    1  ->  * ==> en
+   5:    1  ->  * ==> erspa
+   6:    1  ->  * ==> gok
+   7:    1  ->  * ==> halder
+   8:    1  ->  * ==> have
+   9:    1  ->  * ==> ja
+  10:    1  ->  * ==> kabelsteppen
+  11:    1  ->  * ==> krobbel
+  12:    1  ->  * ==> lottendef
+  13:    1  ->  * ==> oi
+  14:    1  ->  * ==> siv
+  15:    1  ->  * ==> smorae
+  16:    1  ->  * ==> spekkeran
+  17:    1  ->  * ==> tenolegen
+  18:    1  ->  * ==> vebraker
+  19:    1  ->  * ==> wachten
+  20:    1  ->  * ==> wachtennek
+  21:    1  ->  crobeklunker ==> van
+  22:    1  ->  deuveltek ==> verberik
+  23:    1  ->  gerauwejaak ==> geraljak
+  24:    1  ->  gevijdel ==> manterun
+  25:    1  ->  girdofhaalder ==> toemoet
+  26:    1  ->  hapeneren ==> hepenevan
+  27:    1  ->  havedil ==> dilverbrak
+  28:    1  ->  ijraspangen ==> girdof
+  29:    1  ->  jalekrewen ==> sikvlagcine
+  30:    1  ->  jattesiet ==> krai
+  31:    1  ->  juitonie ==> naerel
+  32:    1  ->  kanaroe ==> neten
+  33:    1  ->  kantelogsten ==> ohsten
+  34:    1  ->  meitsegrok ==> kantel
+  35:    1  ->  nappegreeuw ==> venwaring
+  36:    1  ->  ometuif ==> fedelv
+  37:    1  ->  ooiebiekje ==> lekleeuwen
+  38:    1  ->  oonwijlen ==> doa
+  39:    1  ->  schielendaspen ==> jabije
+  40:    1  ->  sidowaan ==> schiel
+  41:    1  ->  tobbermoeit ==> poenttalscholden
+  42:    1  ->  verbrakkertje ==> ja
+  43:    1  ->  wachteniek ==> klunker
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  af
+   2:    1  ->  bra
+   3:    1  ->  das
+   4:    1  ->  de
+   5:    1  ->  din
+   6:    1  ->  e
+   7:    1  ->  jat
+   8:    1  ->  jate
+   9:    1  ->  jesten
+  10:    1  ->  neurin
+  11:    1  ->  ommet
+  12:    1  ->  onwen
+  13:    1  ->  schoperati
+  14:    1  ->  senna
+  15:    1  ->  sietv
+  16:    1  ->  ston
+  17:    1  ->  teqv
+  18:    1  ->  toe
+  19:    1  ->  toniv
+  20:    1  ->  uh
+  21:    1  ->  velv
+  22:    1  ->  yuv
+  23:    1  ->  zeht
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   20  ->  *
+   2:    1  ->  crobeklunker
+   3:    1  ->  deuveltek
+   4:    1  ->  gerauwejaak
+   5:    1  ->  gevijdel
+   6:    1  ->  girdofhaalder
+   7:    1  ->  hapeneren
+   8:    1  ->  havedil
+   9:    1  ->  ijraspangen
+  10:    1  ->  jalekrewen
+  11:    1  ->  jattesiet
+  12:    1  ->  juitonie
+  13:    1  ->  kanaroe
+  14:    1  ->  kantelogsten
+  15:    1  ->  meitsegrok
+  16:    1  ->  nappegreeuw
+  17:    1  ->  ometuif
+  18:    1  ->  ooiebiekje
+  19:    1  ->  oonwijlen
+  20:    1  ->  schielendaspen
+  21:    1  ->  sidowaan
+  22:    1  ->  tobbermoeit
+  23:    1  ->  verbrakkertje
+  24:    1  ->  wachteniek
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  ja
+   2:    1  ->  canaru
+   3:    1  ->  daspen
+   4:    1  ->  deling
+   5:    1  ->  dilverbrak
+   6:    1  ->  doa
+   7:    1  ->  en
+   8:    1  ->  erspa
+   9:    1  ->  fedelv
+  10:    1  ->  geraljak
+  11:    1  ->  girdof
+  12:    1  ->  gok
+  13:    1  ->  halder
+  14:    1  ->  have
+  15:    1  ->  hepenevan
+  16:    1  ->  jabije
+  17:    1  ->  kabelsteppen
+  18:    1  ->  kantel
+  19:    1  ->  klunker
+  20:    1  ->  krai
+  21:    1  ->  krobbel
+  22:    1  ->  lekleeuwen
+  23:    1  ->  lottendef
+  24:    1  ->  manterun
+  25:    1  ->  naerel
+  26:    1  ->  neten
+  27:    1  ->  ohsten
+  28:    1  ->  oi
+  29:    1  ->  poenttalscholden
+  30:    1  ->  schiel
+  31:    1  ->  sikvlagcine
+  32:    1  ->  siv
+  33:    1  ->  smorae
+  34:    1  ->  spekkeran
+  35:    1  ->  tenolegen
+  36:    1  ->  toemoet
+  37:    1  ->  van
+  38:    1  ->  vebraker
+  39:    1  ->  venwaring
+  40:    1  ->  verberik
+  41:    1  ->  wachten
+  42:    1  ->  wachtennek
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

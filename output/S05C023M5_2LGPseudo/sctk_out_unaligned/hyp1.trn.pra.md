@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S05C023M5_2LGPseudo
+
+#### (S05C023M5_2LGPseudo-words)
+
+- Cor=0.0%	Sub=86.7%	Del=13.3%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | millen | vocil | geutel | * | sjobel | ierpieuw | walaan | * | * | *(wallen) | erke | * | * | * | * | haweel | saarweng | * | * | * | gevicht | eemde | bepoud | * | orstalk | * | veten | * | gefouw | * | * | * | vurpaand | nizung | fiewon | kneurem | *t | * | * | * | * | vawaai | strellen | * | * | zwieten | * | foetbans | * | * | oonste | muider | grijnken | * | schielstaug | * | * | * | prilsood | * | * | * | vloender | * | * | * | * | milste | * | * | veurder | * | * | * | kloeien | * | ulen | orponk | * | * | schodig | * | * | * | ijpo | * | * | menuur | * | spreikje | * | * | * | hiffreeuw | * | * | wooien | * |
+| HYP1 |  |  |  |  |  |  |  |  |  |  |  |  |  | milen | vocul | eto | siodo | ier | pe | al | an | valan | ea | eerken | hu | ha | be | e | gawil | s | r | weg | geviega | gevig | d | ind | epeld | orst | alk | ff | eten | e | welge | v | sa | virpand | inzucht | fim | bon | neren | uh | uhm | ai | vawai | str | elen | s | eten | voeten | al | ans | voet | on | onste | ne | den | gr | en | ken | scha | ielst | oug | evels | ot | hoe | t | er | me | ilst | uh | uurd | er | oeien | urlen | or | onk | od | in | eieipot | én | één | uur | sp | r | eikje | geifreuw | h | oen |
+| EVAL | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

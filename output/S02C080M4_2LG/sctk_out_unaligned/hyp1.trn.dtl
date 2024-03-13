@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.8%   (  17)
+
+Percent Correct           =   62.2%   (  28)
+
+Percent Substitution      =   35.6%   (  16)
+Percent Deletions         =    2.2%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.2%
+
+
+Ref. words                =           (  45)
+Hyp. words                =           (  44)
+Aligned words             =           (  45)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  * ==> la
+   2:    1  ->  * ==> scheuren
+   3:    1  ->  * ==> schouwa
+   4:    1  ->  *(chocola) ==> chocola
+   5:    1  ->  *(eerst) ==> eerst
+   6:    1  ->  *t ==> uh
+   7:    1  ->  chauffeur ==> shoffir
+   8:    1  ->  dichtbij ==> digbe
+   9:    1  ->  fietsbel ==> fisbal
+  10:    1  ->  koning ==> venhaalconing
+  11:    1  ->  lawaai ==> laurei
+  12:    1  ->  liedje ==> liedjer
+  13:    1  ->  meisje ==> mesha
+  14:    1  ->  moeilijk ==> molak
+  15:    1  ->  potlood ==> potlord
+  16:    1  ->  vinger ==> vinar
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  verhaal
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  *
+   2:    1  ->  *(chocola)
+   3:    1  ->  *(eerst)
+   4:    1  ->  *t
+   5:    1  ->  chauffeur
+   6:    1  ->  dichtbij
+   7:    1  ->  fietsbel
+   8:    1  ->  koning
+   9:    1  ->  lawaai
+  10:    1  ->  liedje
+  11:    1  ->  meisje
+  12:    1  ->  moeilijk
+  13:    1  ->  potlood
+  14:    1  ->  vinger
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  chocola
+   2:    1  ->  digbe
+   3:    1  ->  eerst
+   4:    1  ->  fisbal
+   5:    1  ->  la
+   6:    1  ->  laurei
+   7:    1  ->  liedjer
+   8:    1  ->  mesha
+   9:    1  ->  molak
+  10:    1  ->  potlord
+  11:    1  ->  scheuren
+  12:    1  ->  schouwa
+  13:    1  ->  shoffir
+  14:    1  ->  uh
+  15:    1  ->  venhaalconing
+  16:    1  ->  vinar
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

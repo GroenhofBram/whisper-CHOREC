@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.5%   (  19)
+
+Percent Correct           =   55.0%   (  22)
+
+Percent Substitution      =   45.0%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.5%   (   1)
+Percent Word Accuracy     =   52.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  41)
+Aligned words             =           (  41)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  cola ==> kola
+   2:    1  ->  dichtbij ==> digega
+   3:    1  ->  fietsbel ==> fietspil
+   4:    1  ->  gooien ==> goen
+   5:    1  ->  kleuren ==> kneuren
+   6:    1  ->  koning ==> konin
+   7:    1  ->  lawaai ==> lawaiy
+   8:    1  ->  liedje ==> litia
+   9:    1  ->  meisje ==> mache
+  10:    1  ->  mevrouw ==> veraal
+  11:    1  ->  moeder ==> moder
+  12:    1  ->  potlood ==> potloot
+  13:    1  ->  regen ==> legen
+  14:    1  ->  schouders ==> schauder
+  15:    1  ->  stoppen ==> pstoppen
+  16:    1  ->  vinger ==> finger
+  17:    1  ->  vlinder ==> hinder
+  18:    1  ->  voetbal ==> votebel
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  een
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  cola
+   2:    1  ->  dichtbij
+   3:    1  ->  fietsbel
+   4:    1  ->  gooien
+   5:    1  ->  kleuren
+   6:    1  ->  koning
+   7:    1  ->  lawaai
+   8:    1  ->  liedje
+   9:    1  ->  meisje
+  10:    1  ->  mevrouw
+  11:    1  ->  moeder
+  12:    1  ->  potlood
+  13:    1  ->  regen
+  14:    1  ->  schouders
+  15:    1  ->  stoppen
+  16:    1  ->  vinger
+  17:    1  ->  vlinder
+  18:    1  ->  voetbal
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  digega
+   2:    1  ->  fietspil
+   3:    1  ->  finger
+   4:    1  ->  goen
+   5:    1  ->  hinder
+   6:    1  ->  kneuren
+   7:    1  ->  kola
+   8:    1  ->  konin
+   9:    1  ->  lawaiy
+  10:    1  ->  legen
+  11:    1  ->  litia
+  12:    1  ->  mache
+  13:    1  ->  moder
+  14:    1  ->  potloot
+  15:    1  ->  pstoppen
+  16:    1  ->  schauder
+  17:    1  ->  veraal
+  18:    1  ->  votebel
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

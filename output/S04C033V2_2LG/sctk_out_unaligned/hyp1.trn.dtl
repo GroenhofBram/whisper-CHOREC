@@ -1,0 +1,109 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.5%   (  15)
+
+Percent Correct           =   70.0%   (  28)
+
+Percent Substitution      =   27.5%   (  11)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    7.5%   (   3)
+Percent Word Accuracy     =   62.5%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  dichtbij ==> bij
+   2:    1  ->  fietsbel ==> bij
+   3:    1  ->  gooien ==> hoeien
+   4:    1  ->  koning ==> coning
+   5:    1  ->  liedje ==> je
+   6:    1  ->  meisje ==> mesi
+   7:    1  ->  regen ==> riggen
+   8:    1  ->  sneeuwen*(sneeuwman) ==> sneeuwman
+   9:    1  ->  vlinder ==> voetbouw-vlie
+  10:    1  ->  winkel ==> inkel
+  11:    1  ->  zwemmen ==> zwimmen
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  dicht
+   2:    1  ->  fiets
+   3:    1  ->  liet
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  voetbal
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  dichtbij
+   2:    1  ->  fietsbel
+   3:    1  ->  gooien
+   4:    1  ->  koning
+   5:    1  ->  liedje
+   6:    1  ->  meisje
+   7:    1  ->  regen
+   8:    1  ->  sneeuwen*(sneeuwman)
+   9:    1  ->  vlinder
+  10:    1  ->  winkel
+  11:    1  ->  zwemmen
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  bij
+   2:    1  ->  coning
+   3:    1  ->  hoeien
+   4:    1  ->  inkel
+   5:    1  ->  je
+   6:    1  ->  mesi
+   7:    1  ->  riggen
+   8:    1  ->  sneeuwman
+   9:    1  ->  voetbouw-vlie
+  10:    1  ->  zwimmen
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

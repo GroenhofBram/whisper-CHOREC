@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.4%   (   9)
+
+Percent Correct           =   78.6%   (  33)
+
+Percent Substitution      =   19.0%   (   8)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.6%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  bed ==> dit
+   3:    1  ->  clown ==> klauwen
+   4:    1  ->  feest ==> veest
+   5:    1  ->  gauw ==> gouw
+   6:    1  ->  koe ==> koel
+   7:    1  ->  plank ==> plan
+   8:    1  ->  reis ==> rij
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  *
+   2:    1  ->  bed
+   3:    1  ->  clown
+   4:    1  ->  feest
+   5:    1  ->  gauw
+   6:    1  ->  koe
+   7:    1  ->  plank
+   8:    1  ->  reis
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  de
+   2:    1  ->  dit
+   3:    1  ->  gouw
+   4:    1  ->  klauwen
+   5:    1  ->  koel
+   6:    1  ->  plan
+   7:    1  ->  rij
+   8:    1  ->  veest
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

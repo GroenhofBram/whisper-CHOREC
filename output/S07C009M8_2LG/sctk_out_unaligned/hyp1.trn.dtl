@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.3%   (  45)
+
+Percent Correct           =   29.7%   (  19)
+
+Percent Substitution      =   46.9%   (  30)
+Percent Deletions         =   23.4%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   29.7%
+
+
+Ref. words                =           (  64)
+Hyp. words                =           (  49)
+Aligned words             =           (  64)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> autoschoenders
+   2:    1  ->  * ==> bij
+   3:    1  ->  * ==> caffeur
+   4:    1  ->  * ==> hoxxx
+   5:    1  ->  * ==> ja
+   6:    1  ->  * ==> niet
+   7:    1  ->  * ==> polot
+   8:    1  ->  * ==> sguis
+   9:    1  ->  * ==> v
+  10:    1  ->  * ==> vin
+  11:    1  ->  *s ==> heersten
+  12:    1  ->  circus ==> kuen
+  13:    1  ->  dichtbij ==> dichte
+  14:    1  ->  drogen ==> meervrouw
+  15:    1  ->  eerste*(eersten) ==> hukola
+  16:    1  ->  fietsbel ==> fit
+  17:    1  ->  fietsbel ==> liet
+  18:    1  ->  gooien*(gooi) ==> gooi
+  19:    1  ->  koning ==> kon
+  20:    1  ->  kussen ==> oppel
+  21:    1  ->  moeilijk ==> ko
+  22:    1  ->  opnieuw ==> opniel
+  23:    1  ->  regen ==> rechten
+  24:    1  ->  sneeuwen ==> mel
+  25:    1  ->  stoppen ==> stopen
+  26:    1  ->  verhaal ==> veral
+  27:    1  ->  vinger ==> fitspel
+  28:    1  ->  vliegtuig ==> vlliiiegtuig
+  29:    1  ->  vlinder ==> glinder
+  30:    1  ->  winkel ==> tulgen
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    4  ->  *
+   2:    2  ->  cola
+   3:    1  ->  appel
+   4:    1  ->  auto
+   5:    1  ->  chauffeur
+   6:    1  ->  hoofdpijn
+   7:    1  ->  liedje
+   8:    1  ->  mevrouw
+   9:    1  ->  potlood
+  10:    1  ->  regen*(rechten)
+  11:    1  ->  schouders
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   10  ->  *
+   2:    2  ->  fietsbel
+   3:    1  ->  *s
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  eerste*(eersten)
+   8:    1  ->  gooien*(gooi)
+   9:    1  ->  koning
+  10:    1  ->  kussen
+  11:    1  ->  moeilijk
+  12:    1  ->  opnieuw
+  13:    1  ->  regen
+  14:    1  ->  sneeuwen
+  15:    1  ->  stoppen
+  16:    1  ->  verhaal
+  17:    1  ->  vinger
+  18:    1  ->  vliegtuig
+  19:    1  ->  vlinder
+  20:    1  ->  winkel
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  autoschoenders
+   2:    1  ->  bij
+   3:    1  ->  caffeur
+   4:    1  ->  dichte
+   5:    1  ->  fit
+   6:    1  ->  fitspel
+   7:    1  ->  glinder
+   8:    1  ->  gooi
+   9:    1  ->  heersten
+  10:    1  ->  hoxxx
+  11:    1  ->  hukola
+  12:    1  ->  ja
+  13:    1  ->  ko
+  14:    1  ->  kon
+  15:    1  ->  kuen
+  16:    1  ->  liet
+  17:    1  ->  meervrouw
+  18:    1  ->  mel
+  19:    1  ->  niet
+  20:    1  ->  opniel
+  21:    1  ->  oppel
+  22:    1  ->  polot
+  23:    1  ->  rechten
+  24:    1  ->  sguis
+  25:    1  ->  stopen
+  26:    1  ->  tulgen
+  27:    1  ->  v
+  28:    1  ->  veral
+  29:    1  ->  vin
+  30:    1  ->  vlliiiegtuig
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

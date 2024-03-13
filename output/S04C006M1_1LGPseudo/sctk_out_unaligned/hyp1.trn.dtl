@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  100.0%   (  76)
+
+Percent Correct           =    0.0%   (   0)
+
+Percent Substitution      =   47.4%   (  36)
+Percent Deletions         =   52.6%   (  40)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    0.0%
+
+
+Ref. words                =           (  76)
+Hyp. words                =           (  36)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  * ==> ah
+   2:    1  ->  * ==> bar
+   3:    1  ->  * ==> dor
+   4:    1  ->  * ==> er
+   5:    1  ->  * ==> mee
+   6:    1  ->  * ==> u
+   7:    1  ->  *s ==> an
+   8:    1  ->  *s ==> anwa
+   9:    1  ->  *s ==> haes
+  10:    1  ->  *s ==> kem
+  11:    1  ->  *s ==> last
+  12:    1  ->  *s ==> na
+  13:    1  ->  *s ==> o
+  14:    1  ->  *s ==> so
+  15:    1  ->  *s ==> spunt
+  16:    1  ->  *s ==> tal
+  17:    1  ->  *s ==> zo
+  18:    1  ->  *s ==> één
+  19:    1  ->  dron ==> sak
+  20:    1  ->  eem ==> em
+  21:    1  ->  frijk ==> sanders
+  22:    1  ->  grek ==> asan
+  23:    1  ->  haans ==> vat
+  24:    1  ->  heik ==> sors
+  25:    1  ->  leum ==> hol
+  26:    1  ->  neeuw ==> zok
+  27:    1  ->  noork ==> ie
+  28:    1  ->  roen ==> moet
+  29:    1  ->  sank ==> hoe
+  30:    1  ->  schard ==> a
+  31:    1  ->  sjalt*(stal) ==> o
+  32:    1  ->  snaaf ==> drom
+  33:    1  ->  spaai ==> vam
+  34:    1  ->  stuid ==> ut
+  35:    1  ->  vid*(vind) ==> da
+  36:    1  ->  zans ==> bee
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   10  ->  *s
+   2:    8  ->  *
+   3:    1  ->  ant
+   4:    1  ->  beeg
+   5:    1  ->  blard
+   6:    1  ->  dau
+   7:    1  ->  doer
+   8:    1  ->  fam
+   9:    1  ->  fook
+  10:    1  ->  guul
+  11:    1  ->  hoekt
+  12:    1  ->  hool*(hol)
+  13:    1  ->  jien
+  14:    1  ->  keng
+  15:    1  ->  larst
+  16:    1  ->  plirt
+  17:    1  ->  rachts
+  18:    1  ->  sooi
+  19:    1  ->  sprieuw
+  20:    1  ->  sprunt
+  21:    1  ->  swoers
+  22:    1  ->  vaap
+  23:    1  ->  vout
+  24:    1  ->  zwoei
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:   12  ->  *s
+   2:    6  ->  *
+   3:    1  ->  dron
+   4:    1  ->  eem
+   5:    1  ->  frijk
+   6:    1  ->  grek
+   7:    1  ->  haans
+   8:    1  ->  heik
+   9:    1  ->  leum
+  10:    1  ->  neeuw
+  11:    1  ->  noork
+  12:    1  ->  roen
+  13:    1  ->  sank
+  14:    1  ->  schard
+  15:    1  ->  sjalt*(stal)
+  16:    1  ->  snaaf
+  17:    1  ->  spaai
+  18:    1  ->  stuid
+  19:    1  ->  vid*(vind)
+  20:    1  ->  zans
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  o
+   2:    1  ->  a
+   3:    1  ->  ah
+   4:    1  ->  an
+   5:    1  ->  anwa
+   6:    1  ->  asan
+   7:    1  ->  bar
+   8:    1  ->  bee
+   9:    1  ->  da
+  10:    1  ->  dor
+  11:    1  ->  drom
+  12:    1  ->  em
+  13:    1  ->  er
+  14:    1  ->  haes
+  15:    1  ->  hoe
+  16:    1  ->  hol
+  17:    1  ->  ie
+  18:    1  ->  kem
+  19:    1  ->  last
+  20:    1  ->  mee
+  21:    1  ->  moet
+  22:    1  ->  na
+  23:    1  ->  sak
+  24:    1  ->  sanders
+  25:    1  ->  so
+  26:    1  ->  sors
+  27:    1  ->  spunt
+  28:    1  ->  tal
+  29:    1  ->  u
+  30:    1  ->  ut
+  31:    1  ->  vam
+  32:    1  ->  vat
+  33:    1  ->  zo
+  34:    1  ->  zok
+  35:    1  ->  één
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

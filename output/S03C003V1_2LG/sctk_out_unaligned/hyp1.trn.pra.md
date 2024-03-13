@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S03C003V1_2LG
+
+#### (S03C003V1_2LG-words)
+
+- Cor=7.1%	Sub=60.0%	Del=31.8%	Ins=1.2%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | *s | water | mevrouw | mevrouw | *s | drogen | *s | winkel | auto | *s | schouders | * | * | * | * | verhaal | *s | koning | *s | moeilijk | *s | speelplaats | *s | drinken |  | *s | hoofdpijn | *s | regen | *s | vliegtuig | *s | *s | opnieuw | *s | gooien | *s | sneeuwen | *s | moeder | *s | liedje | *s | potlood | *s | fietsbel*(fietsen) | *s | vinger | * | *(vlinder) | *s | *s | meisje | *s | chauffeur | *x | *x | *x | *x | muziek | waarom | *s | scheuren | *s | lawaai | *s | zwemmen | *s | vuurwerk | *s | appel | *s | * | * | cola | *s | kussen | *s | eerste | *s | *s | kleuren | *s | voetbal*(voeten) | *s |
+| HYP1 |  |  | mave | mav | e | vrage | droge | winkel |  |  |  |  |  | anto | schelkers | verhaal |  |  |  | kodier | hoeel | iik | speelplaat | drinken | hoofddiet | i | hoofdpijn | hoofd | legen | igda | stppen | stop | ikopnicila | opnieuw |  |  |  | kovi | sneende? | moeder |  |  |  |  |  |  |  |  |  |  |  |  |  |  | likja | potlot | vite | zo | daar | inder | dichtbij | m | chaufchauffeer | kan | ne | e | zeg | misik | waarom? | geren | yaa | sverma | hr | we | apol | gona | ekona | ia | eerster | kus | i | va | kloren | voeten | vlinder |
+| EVAL | D | D | S | S | S | S | S |  | D | D | D | D | D | S | S |  | D | D | D | S | S | S | S |  | I | S |  | S | S | S | S | S | S |  | D | D | D | S | S |  | D | D | D | D | D | D | D | D | D | D | D | D | D | D | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+---
+
+---

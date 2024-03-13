@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.5%   (  23)
+
+Percent Correct           =   46.5%   (  20)
+
+Percent Substitution      =   48.8%   (  21)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   46.5%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  41)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bang ==> dan
+   2:    1  ->  bed ==> wet
+   3:    1  ->  chips ==> cipchips
+   4:    1  ->  chips ==> galt
+   5:    1  ->  clown ==> klan
+   6:    1  ->  eerst ==> erst
+   7:    1  ->  feest ==> vest
+   8:    1  ->  gauw*(goud) ==> vreemd
+   9:    1  ->  huis ==> hs
+  10:    1  ->  jas ==> jes
+  11:    1  ->  knoop ==> knp
+  12:    1  ->  koe ==> koel
+  13:    1  ->  leeuw ==> -straat-leil
+  14:    1  ->  muts ==> mi
+  15:    1  ->  neus ==> neis
+  16:    1  ->  paard ==> pert
+  17:    1  ->  reis ==> res
+  18:    1  ->  schoen ==> goa
+  19:    1  ->  sjaal ==> saal
+  20:    1  ->  straat ==> sta
+  21:    1  ->  vijf ==> verf
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  straat*(sta)
+   2:    1  ->  vriend
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  chips
+   2:    1  ->  bang
+   3:    1  ->  bed
+   4:    1  ->  clown
+   5:    1  ->  eerst
+   6:    1  ->  feest
+   7:    1  ->  gauw*(goud)
+   8:    1  ->  huis
+   9:    1  ->  jas
+  10:    1  ->  knoop
+  11:    1  ->  koe
+  12:    1  ->  leeuw
+  13:    1  ->  muts
+  14:    1  ->  neus
+  15:    1  ->  paard
+  16:    1  ->  reis
+  17:    1  ->  schoen
+  18:    1  ->  sjaal
+  19:    1  ->  straat
+  20:    1  ->  vijf
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  -straat-leil
+   2:    1  ->  cipchips
+   3:    1  ->  dan
+   4:    1  ->  erst
+   5:    1  ->  galt
+   6:    1  ->  goa
+   7:    1  ->  hs
+   8:    1  ->  jes
+   9:    1  ->  klan
+  10:    1  ->  knp
+  11:    1  ->  koel
+  12:    1  ->  mi
+  13:    1  ->  neis
+  14:    1  ->  pert
+  15:    1  ->  res
+  16:    1  ->  saal
+  17:    1  ->  sta
+  18:    1  ->  verf
+  19:    1  ->  vest
+  20:    1  ->  vreemd
+  21:    1  ->  wet
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

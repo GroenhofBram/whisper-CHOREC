@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.7%   (  22)
+
+Percent Correct           =   65.9%   (  27)
+
+Percent Substitution      =   34.1%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   19.5%   (   8)
+Percent Word Accuracy     =   46.3%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  49)
+Aligned words             =           (  49)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  *(koning) ==> stikje
+   2:    1  ->  afblijven ==> blijven
+   3:    1  ->  autorijden ==> afdorrijden
+   4:    1  ->  elastiekje ==> maken
+   5:    1  ->  goeiendag ==> dag
+   6:    1  ->  konijnenhok ==> ruzie
+   7:    1  ->  lucifer ==> lucufer
+   8:    1  ->  olifant ==> olifont
+   9:    1  ->  poppenwagen ==> la
+  10:    1  ->  ruziemaken ==> dat
+  11:    1  ->  schoenenwinkel ==> winkel
+  12:    1  ->  sneeuwwitje ==> goeien
+  13:    1  ->  teddybeer ==> dibier
+  14:    1  ->  washandje ==> sneewiete
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  handje
+   2:    1  ->  hij
+   3:    1  ->  konijnenhoek
+   4:    1  ->  koning
+   5:    1  ->  of
+   6:    1  ->  oppenwagen
+   7:    1  ->  schonen
+   8:    1  ->  was
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  *(koning)
+   2:    1  ->  afblijven
+   3:    1  ->  autorijden
+   4:    1  ->  elastiekje
+   5:    1  ->  goeiendag
+   6:    1  ->  konijnenhok
+   7:    1  ->  lucifer
+   8:    1  ->  olifant
+   9:    1  ->  poppenwagen
+  10:    1  ->  ruziemaken
+  11:    1  ->  schoenenwinkel
+  12:    1  ->  sneeuwwitje
+  13:    1  ->  teddybeer
+  14:    1  ->  washandje
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  afdorrijden
+   2:    1  ->  blijven
+   3:    1  ->  dag
+   4:    1  ->  dat
+   5:    1  ->  dibier
+   6:    1  ->  goeien
+   7:    1  ->  la
+   8:    1  ->  lucufer
+   9:    1  ->  maken
+  10:    1  ->  olifont
+  11:    1  ->  ruzie
+  12:    1  ->  sneewiete
+  13:    1  ->  stikje
+  14:    1  ->  winkel
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

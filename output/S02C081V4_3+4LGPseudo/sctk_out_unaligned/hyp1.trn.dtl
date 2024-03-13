@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  137.2%   (  59)
+
+Percent Correct           =    4.7%   (   2)
+
+Percent Substitution      =   93.0%   (  40)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =   41.9%   (  18)
+Percent Word Accuracy     =  -37.2%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  60)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  * ==> civdov
+   2:    1  ->  * ==> dobberemoeid
+   3:    1  ->  * ==> geverdel
+   4:    1  ->  * ==> happen
+   5:    1  ->  * ==> janne
+   6:    1  ->  * ==> kanteloogsten
+   7:    1  ->  * ==> krebben
+   8:    1  ->  * ==> lei
+   9:    1  ->  * ==> meitsen
+  10:    1  ->  * ==> pontals
+  11:    1  ->  * ==> smor
+  12:    1  ->  * ==> tondarou
+  13:    1  ->  * ==> voorbrakkertje
+  14:    1  ->  * ==> vorpirik
+  15:    1  ->  * ==> winv
+  16:    1  ->  * ==> zeklinche
+  17:    1  ->  *(verwarring) ==> deling
+  18:    1  ->  choporatie ==> shopshoporati
+  19:    1  ->  crobeklunker ==> bige
+  20:    1  ->  deuveltek ==> noppen
+  21:    1  ->  gerauwejaak ==> hapen
+  22:    1  ->  gevijdel ==> mantaro
+  23:    1  ->  hapeneren ==> eran
+  24:    1  ->  ijraspangen ==> valder
+  25:    1  ->  jattesiet ==> speckerai
+  26:    1  ->  juitonie ==> grejw
+  27:    1  ->  kabbestepen ==> van
+  28:    1  ->  kanaroe ==> toneslegen
+  29:    1  ->  mantaroen ==> verwarring
+  30:    1  ->  meitsegrok ==> rok
+  31:    1  ->  nappegreeuw ==> ben
+  32:    1  ->  nurudien ==> wachteneekv
+  33:    1  ->  poentalschouden ==> havidil
+  34:    1  ->  schielendaspen ==> on
+  35:    1  ->  sidowaan ==> schielen
+  36:    1  ->  spekkeraai ==> daspen
+  37:    1  ->  tobbermoeit ==> gouden
+  38:    1  ->  verbrakkertje ==> gerajak
+  39:    1  ->  verpierik ==> kabeste
+  40:    1  ->  wachteniek ==> krobeklunker
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  dek
+   2:    1  ->  deuvel
+   3:    1  ->  dev
+   4:    1  ->  erraspangen
+   5:    1  ->  gerdof
+   6:    1  ->  jat
+   7:    1  ->  jetsenv
+   8:    1  ->  ju
+   9:    1  ->  ne
+  10:    1  ->  notendaf
+  11:    1  ->  om
+  12:    1  ->  omevtaf
+  13:    1  ->  rudeenv
+  14:    1  ->  siet
+  15:    1  ->  sundas
+  16:    1  ->  toe
+  17:    1  ->  tone
+  18:    1  ->  wijlen
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   16  ->  *
+   2:    1  ->  *(verwarring)
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  gerauwejaak
+   7:    1  ->  gevijdel
+   8:    1  ->  hapeneren
+   9:    1  ->  ijraspangen
+  10:    1  ->  jattesiet
+  11:    1  ->  juitonie
+  12:    1  ->  kabbestepen
+  13:    1  ->  kanaroe
+  14:    1  ->  mantaroen
+  15:    1  ->  meitsegrok
+  16:    1  ->  nappegreeuw
+  17:    1  ->  nurudien
+  18:    1  ->  poentalschouden
+  19:    1  ->  schielendaspen
+  20:    1  ->  sidowaan
+  21:    1  ->  spekkeraai
+  22:    1  ->  tobbermoeit
+  23:    1  ->  verbrakkertje
+  24:    1  ->  verpierik
+  25:    1  ->  wachteniek
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  ben
+   2:    1  ->  bige
+   3:    1  ->  civdov
+   4:    1  ->  daspen
+   5:    1  ->  deling
+   6:    1  ->  dobberemoeid
+   7:    1  ->  eran
+   8:    1  ->  gerajak
+   9:    1  ->  geverdel
+  10:    1  ->  gouden
+  11:    1  ->  grejw
+  12:    1  ->  hapen
+  13:    1  ->  happen
+  14:    1  ->  havidil
+  15:    1  ->  janne
+  16:    1  ->  kabeste
+  17:    1  ->  kanteloogsten
+  18:    1  ->  krebben
+  19:    1  ->  krobeklunker
+  20:    1  ->  lei
+  21:    1  ->  mantaro
+  22:    1  ->  meitsen
+  23:    1  ->  noppen
+  24:    1  ->  on
+  25:    1  ->  pontals
+  26:    1  ->  rok
+  27:    1  ->  schielen
+  28:    1  ->  shopshoporati
+  29:    1  ->  smor
+  30:    1  ->  speckerai
+  31:    1  ->  tondarou
+  32:    1  ->  toneslegen
+  33:    1  ->  valder
+  34:    1  ->  van
+  35:    1  ->  verwarring
+  36:    1  ->  voorbrakkertje
+  37:    1  ->  vorpirik
+  38:    1  ->  wachteneekv
+  39:    1  ->  winv
+  40:    1  ->  zeklinche
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

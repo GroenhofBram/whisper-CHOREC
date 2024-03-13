@@ -1,0 +1,204 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   90.1%   (  64)
+
+Percent Correct           =   21.1%   (  15)
+
+Percent Substitution      =   74.6%   (  53)
+Percent Deletions         =    4.2%   (   3)
+Percent Insertions        =   11.3%   (   8)
+Percent Word Accuracy     =    9.9%
+
+
+Ref. words                =           (  71)
+Hyp. words                =           (  76)
+Aligned words             =           (  79)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    1  ->  * ==> a
+   2:    1  ->  * ==> beer
+   3:    1  ->  * ==> chocolade
+   4:    1  ->  * ==> dan
+   5:    1  ->  * ==> de
+   6:    1  ->  * ==> die
+   7:    1  ->  * ==> do
+   8:    1  ->  * ==> ekier
+   9:    1  ->  * ==> enniet
+  10:    1  ->  * ==> ertel?
+  11:    1  ->  * ==> foto's
+  12:    1  ->  * ==> fototoestel?
+  13:    1  ->  * ==> here
+  14:    1  ->  * ==> hoe
+  15:    1  ->  * ==> konijnen
+  16:    1  ->  * ==> magene
+  17:    1  ->  * ==> mxx
+  18:    1  ->  * ==> op
+  19:    1  ->  * ==> open
+  20:    1  ->  * ==> papier
+  21:    1  ->  * ==> popenstoor
+  22:    1  ->  * ==> sprookjes
+  23:    1  ->  * ==> t
+  24:    1  ->  * ==> tuin
+  25:    1  ->  * ==> ug
+  26:    1  ->  * ==> vier
+  27:    1  ->  * ==> wagen
+  28:    1  ->  * ==> was
+  29:    1  ->  * ==> wato
+  30:    1  ->  * ==> winkel
+  31:    1  ->  * ==> zie
+  32:    1  ->  * ==> zoalet
+  33:    1  ->  *(poppenstoel) ==> vestoppertje
+  34:    1  ->  *s ==> borstel
+  35:    1  ->  *s ==> net
+  36:    1  ->  *t ==> schoen
+  37:    1  ->  achterdeur ==> deur
+  38:    1  ->  dierentuin ==> beer
+  39:    1  ->  elastiekje ==> maken
+  40:    1  ->  goeiendag ==> dag
+  41:    1  ->  knutselen ==> en
+  42:    1  ->  konijnenhok ==> aastike
+  43:    1  ->  limonade ==> monade
+  44:    1  ->  olifant ==> ondel
+  45:    1  ->  ruziemaken ==> de
+  46:    1  ->  schoenenwinkel ==> genutel
+  47:    1  ->  schommelen ==> uhm
+  48:    1  ->  sneeuwwitje ==> goeien
+  49:    1  ->  tandenborstel ==> mook
+  50:    1  ->  teddybeer ==> die
+  51:    1  ->  verstoppertje ==> was
+  52:    1  ->  vogelkooi ==> colifant
+  53:    1  ->  washandje ==> sneeuwitje
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  op
+   2:    1  ->  achter
+   3:    1  ->  chocolade
+   4:    1  ->  handje
+   5:    1  ->  kooy
+   6:    1  ->  vol
+   7:    1  ->  wat
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    3  ->  *
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   32  ->  *
+   2:    2  ->  *s
+   3:    1  ->  *(poppenstoel)
+   4:    1  ->  *t
+   5:    1  ->  achterdeur
+   6:    1  ->  dierentuin
+   7:    1  ->  elastiekje
+   8:    1  ->  goeiendag
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  olifant
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  schommelen
+  16:    1  ->  sneeuwwitje
+  17:    1  ->  tandenborstel
+  18:    1  ->  teddybeer
+  19:    1  ->  verstoppertje
+  20:    1  ->  vogelkooi
+  21:    1  ->  washandje
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  beer
+   2:    2  ->  de
+   3:    2  ->  die
+   4:    2  ->  was
+   5:    1  ->  a
+   6:    1  ->  aastike
+   7:    1  ->  borstel
+   8:    1  ->  chocolade
+   9:    1  ->  colifant
+  10:    1  ->  dag
+  11:    1  ->  dan
+  12:    1  ->  deur
+  13:    1  ->  do
+  14:    1  ->  ekier
+  15:    1  ->  en
+  16:    1  ->  enniet
+  17:    1  ->  ertel?
+  18:    1  ->  foto's
+  19:    1  ->  fototoestel?
+  20:    1  ->  genutel
+  21:    1  ->  goeien
+  22:    1  ->  here
+  23:    1  ->  hoe
+  24:    1  ->  konijnen
+  25:    1  ->  magene
+  26:    1  ->  maken
+  27:    1  ->  monade
+  28:    1  ->  mook
+  29:    1  ->  mxx
+  30:    1  ->  net
+  31:    1  ->  ondel
+  32:    1  ->  op
+  33:    1  ->  open
+  34:    1  ->  papier
+  35:    1  ->  popenstoor
+  36:    1  ->  schoen
+  37:    1  ->  sneeuwitje
+  38:    1  ->  sprookjes
+  39:    1  ->  t
+  40:    1  ->  tuin
+  41:    1  ->  ug
+  42:    1  ->  uhm
+  43:    1  ->  vestoppertje
+  44:    1  ->  vier
+  45:    1  ->  wagen
+  46:    1  ->  wato
+  47:    1  ->  winkel
+  48:    1  ->  zie
+  49:    1  ->  zoalet
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

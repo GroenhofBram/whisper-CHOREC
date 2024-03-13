@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  132.7%   (  65)
+
+Percent Correct           =    8.2%   (   4)
+
+Percent Substitution      =   91.8%   (  45)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   40.8%   (  20)
+Percent Word Accuracy     =  -32.7%
+
+
+Ref. words                =           (  49)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  * ==> dief
+   2:    1  ->  * ==> du
+   3:    1  ->  * ==> hè
+   4:    1  ->  * ==> jalek
+   5:    1  ->  * ==> kanarro
+   6:    1  ->  * ==> kantel
+   7:    1  ->  * ==> smoruh
+   8:    1  ->  * ==> vandeling
+   9:    1  ->  * ==> wachttenik
+  10:    1  ->  blottenduuf ==> helder
+  11:    1  ->  choporatie ==> spangen
+  12:    1  ->  crobeklunker ==> vandelig
+  13:    1  ->  deuveltek ==> deuvelt
+  14:    1  ->  fandelig ==> tooineetleggen
+  15:    1  ->  gerauwejaak ==> jaap
+  16:    1  ->  gevijdel ==> yetonie
+  17:    1  ->  girdofhaalder ==> tobber
+  18:    1  ->  ijraspangen ==> girdof
+  19:    1  ->  jalekrewen ==> mete
+  20:    1  ->  jattesiet ==> e
+  21:    1  ->  juitonie ==> dek
+  22:    1  ->  kabbestepen ==> kreeuwen
+  23:    1  ->  kanaroe ==> ondermint
+  24:    1  ->  kantelogsten ==> bral
+  25:    1  ->  meitsegrok ==> ceneba
+  26:    1  ->  nappegreeuw ==> nappegrijl
+  27:    1  ->  nurudien ==> deen
+  28:    1  ->  ometuif ==> te
+  29:    1  ->  ondermind ==> ara
+  30:    1  ->  ooiebiekje ==> veqflancina
+  31:    1  ->  oonwijlen ==> nu
+  32:    1  ->  poentalschouden ==> pontalschauden
+  33:    1  ->  schielendaspen ==> bietje
+  34:    1  ->  sidowaan ==> geverl
+  35:    1  ->  smoralij ==> grok
+  36:    1  ->  spekkeraai ==> cidovwaan
+  37:    1  ->  stoenydaas ==> stoaf
+  38:    1  ->  tobbermoeit ==> moeid
+  39:    1  ->  toejietsen ==> iet
+  40:    1  ->  toineetlijgen ==> coporatie
+  41:    1  ->  verpierik ==> ververperik
+  42:    1  ->  verwarig ==> ralin
+  43:    1  ->  wachteniek ==> spickerai
+  44:    1  ->  zeekvlachine ==> ochsten
+  45:    1  ->  zennebral ==> blotten
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  daspijn
+   2:    1  ->  doe
+   3:    1  ->  geraue
+   4:    1  ->  jat
+   5:    1  ->  je
+   6:    1  ->  jezin
+   7:    1  ->  kabbe
+   8:    1  ->  klinker
+   9:    1  ->  klinnen
+  10:    1  ->  met
+  11:    1  ->  o
+  12:    1  ->  om
+  13:    1  ->  onwijlen
+  14:    1  ->  pijn
+  15:    1  ->  robbe
+  16:    1  ->  schelendans
+  17:    1  ->  ste
+  18:    1  ->  uif
+  19:    1  ->  verarring
+  20:    1  ->  verwaris
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    9  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gerauwejaak
+   8:    1  ->  gevijdel
+   9:    1  ->  girdofhaalder
+  10:    1  ->  ijraspangen
+  11:    1  ->  jalekrewen
+  12:    1  ->  jattesiet
+  13:    1  ->  juitonie
+  14:    1  ->  kabbestepen
+  15:    1  ->  kanaroe
+  16:    1  ->  kantelogsten
+  17:    1  ->  meitsegrok
+  18:    1  ->  nappegreeuw
+  19:    1  ->  nurudien
+  20:    1  ->  ometuif
+  21:    1  ->  ondermind
+  22:    1  ->  ooiebiekje
+  23:    1  ->  oonwijlen
+  24:    1  ->  poentalschouden
+  25:    1  ->  schielendaspen
+  26:    1  ->  sidowaan
+  27:    1  ->  smoralij
+  28:    1  ->  spekkeraai
+  29:    1  ->  stoenydaas
+  30:    1  ->  tobbermoeit
+  31:    1  ->  toejietsen
+  32:    1  ->  toineetlijgen
+  33:    1  ->  verpierik
+  34:    1  ->  verwarig
+  35:    1  ->  wachteniek
+  36:    1  ->  zeekvlachine
+  37:    1  ->  zennebral
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  ara
+   2:    1  ->  bietje
+   3:    1  ->  blotten
+   4:    1  ->  bral
+   5:    1  ->  ceneba
+   6:    1  ->  cidovwaan
+   7:    1  ->  coporatie
+   8:    1  ->  deen
+   9:    1  ->  dek
+  10:    1  ->  deuvelt
+  11:    1  ->  dief
+  12:    1  ->  du
+  13:    1  ->  e
+  14:    1  ->  geverl
+  15:    1  ->  girdof
+  16:    1  ->  grok
+  17:    1  ->  helder
+  18:    1  ->  hè
+  19:    1  ->  iet
+  20:    1  ->  jaap
+  21:    1  ->  jalek
+  22:    1  ->  kanarro
+  23:    1  ->  kantel
+  24:    1  ->  kreeuwen
+  25:    1  ->  mete
+  26:    1  ->  moeid
+  27:    1  ->  nappegrijl
+  28:    1  ->  nu
+  29:    1  ->  ochsten
+  30:    1  ->  ondermint
+  31:    1  ->  pontalschauden
+  32:    1  ->  ralin
+  33:    1  ->  smoruh
+  34:    1  ->  spangen
+  35:    1  ->  spickerai
+  36:    1  ->  stoaf
+  37:    1  ->  te
+  38:    1  ->  tobber
+  39:    1  ->  tooineetleggen
+  40:    1  ->  vandelig
+  41:    1  ->  vandeling
+  42:    1  ->  veqflancina
+  43:    1  ->  ververperik
+  44:    1  ->  wachttenik
+  45:    1  ->  yetonie
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

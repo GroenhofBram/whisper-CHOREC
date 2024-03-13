@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  114.6%   (  47)
+
+Percent Correct           =   26.8%   (  11)
+
+Percent Substitution      =   73.2%   (  30)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   41.5%   (  17)
+Percent Word Accuracy     =  -14.6%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  58)
+Aligned words             =           (  58)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> olisant
+   2:    1  ->  autorijden ==> antoreden
+   3:    1  ->  buurmannen*(buurman) ==> kool
+   4:    1  ->  chocolade ==> stokolaren
+   5:    1  ->  dierentuin ==> stomperdje
+   6:    1  ->  elastiekje ==> we
+   7:    1  ->  familie ==> vamilli
+   8:    1  ->  fototoestel ==> toalett
+   9:    1  ->  goeiendag ==> da
+  10:    1  ->  iedereen ==> roenwinkel
+  11:    1  ->  kabouter ==> snee
+  12:    1  ->  knutselen ==> zullen
+  13:    1  ->  konijnenhok ==> nie
+  14:    1  ->  lucifer ==> useer
+  15:    1  ->  nieuwsgierig ==> gieri
+  16:    1  ->  olifant ==> e
+  17:    1  ->  paddenstoelen ==> was
+  18:    1  ->  poppenwagen ==> dan
+  19:    1  ->  ruziemaken ==> direnten
+  20:    1  ->  schoenenwinkel ==> kniet
+  21:    1  ->  schommelen*(schommel) ==> darin
+  22:    1  ->  sneeuwwitje ==> goeien
+  23:    1  ->  tandenborstel ==> borter
+  24:    1  ->  teddybeer ==> badestolen
+  25:    1  ->  toiletpapier ==> papiren
+  26:    1  ->  verstoppertje ==> machin
+  27:    1  ->  vogelkooi ==> sromel
+  28:    1  ->  washandje ==> witje
+  29:    1  ->  wasmachine ==> fotodoorstel?
+  30:    1  ->  ziekenhuis ==> nieuws
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  elas
+   2:    1  ->  f
+   3:    1  ->  handje
+   4:    1  ->  hook
+   5:    1  ->  inhuis
+   6:    1  ->  kanbouter
+   7:    1  ->  kitia
+   8:    1  ->  konijenen
+   9:    1  ->  leroman
+  10:    1  ->  maken
+  11:    1  ->  poppen
+  12:    1  ->  rosie
+  13:    1  ->  tanden
+  14:    1  ->  vogel
+  15:    1  ->  waren
+  16:    1  ->  was
+  17:    1  ->  ziek
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  *
+   2:    1  ->  autorijden
+   3:    1  ->  buurmannen*(buurman)
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  familie
+   8:    1  ->  fototoestel
+   9:    1  ->  goeiendag
+  10:    1  ->  iedereen
+  11:    1  ->  kabouter
+  12:    1  ->  knutselen
+  13:    1  ->  konijnenhok
+  14:    1  ->  lucifer
+  15:    1  ->  nieuwsgierig
+  16:    1  ->  olifant
+  17:    1  ->  paddenstoelen
+  18:    1  ->  poppenwagen
+  19:    1  ->  ruziemaken
+  20:    1  ->  schoenenwinkel
+  21:    1  ->  schommelen*(schommel)
+  22:    1  ->  sneeuwwitje
+  23:    1  ->  tandenborstel
+  24:    1  ->  teddybeer
+  25:    1  ->  toiletpapier
+  26:    1  ->  verstoppertje
+  27:    1  ->  vogelkooi
+  28:    1  ->  washandje
+  29:    1  ->  wasmachine
+  30:    1  ->  ziekenhuis
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  antoreden
+   2:    1  ->  badestolen
+   3:    1  ->  borter
+   4:    1  ->  da
+   5:    1  ->  dan
+   6:    1  ->  darin
+   7:    1  ->  direnten
+   8:    1  ->  e
+   9:    1  ->  fotodoorstel?
+  10:    1  ->  gieri
+  11:    1  ->  goeien
+  12:    1  ->  kniet
+  13:    1  ->  kool
+  14:    1  ->  machin
+  15:    1  ->  nie
+  16:    1  ->  nieuws
+  17:    1  ->  olisant
+  18:    1  ->  papiren
+  19:    1  ->  roenwinkel
+  20:    1  ->  snee
+  21:    1  ->  sromel
+  22:    1  ->  stokolaren
+  23:    1  ->  stomperdje
+  24:    1  ->  toalett
+  25:    1  ->  useer
+  26:    1  ->  vamilli
+  27:    1  ->  was
+  28:    1  ->  we
+  29:    1  ->  witje
+  30:    1  ->  zullen
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

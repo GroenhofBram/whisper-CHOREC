@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.2%   (  74)
+
+Percent Correct           =   22.5%   (  16)
+
+Percent Substitution      =   77.5%   (  55)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   26.8%   (  19)
+Percent Word Accuracy     =   -4.2%
+
+
+Ref. words                =           (  71)
+Hyp. words                =           (  90)
+Aligned words             =           (  90)
+
+CONFUSION PAIRS                  Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    1  ->  * ==> de
+   2:    1  ->  * ==> doet
+   3:    1  ->  * ==> ee
+   4:    1  ->  * ==> foto
+   5:    1  ->  * ==> foto's
+   6:    1  ->  * ==> ik
+   7:    1  ->  * ==> k
+   8:    1  ->  * ==> koe
+   9:    1  ->  * ==> kooi
+  10:    1  ->  * ==> luk
+  11:    1  ->  * ==> maken
+  12:    1  ->  * ==> megen
+  13:    1  ->  * ==> schoen
+  14:    1  ->  * ==> stel
+  15:    1  ->  * ==> teagv
+  16:    1  ->  * ==> toelen
+  17:    1  ->  * ==> toet
+  18:    1  ->  * ==> vo
+  19:    1  ->  * ==> wietje
+  20:    1  ->  *s ==> borstel
+  21:    1  ->  *s ==> cho
+  22:    1  ->  *s ==> doetstel
+  23:    1  ->  *s ==> ek
+  24:    1  ->  *s ==> gever
+  25:    1  ->  *s ==> ja
+  26:    1  ->  *s ==> padestoelen
+  27:    1  ->  *s ==> roen
+  28:    1  ->  *s ==> tel
+  29:    1  ->  *s ==> topperdja
+  30:    1  ->  *s ==> vvorle
+  31:    1  ->  *s ==> wasmien
+  32:    1  ->  afblijven ==> dan
+  33:    1  ->  chocolade ==> choculade
+  34:    1  ->  dierentuin ==> dieren
+  35:    1  ->  elastiekje ==> oen
+  36:    1  ->  fototoestel ==> foto
+  37:    1  ->  goeiendag ==> dag
+  38:    1  ->  kabouter ==> kio
+  39:    1  ->  konijnenhok ==> ce
+  40:    1  ->  limonade ==> monadov
+  41:    1  ->  lucifer ==> lugever
+  42:    1  ->  omdraaien ==> hook
+  43:    1  ->  paddenstoelen ==> tuin
+  44:    1  ->  poppenwagen ==> kul
+  45:    1  ->  ruziemaken ==> die
+  46:    1  ->  schoenenwinkel ==> winkel
+  47:    1  ->  schommelen ==> schoenelen
+  48:    1  ->  sneeuwwitje ==> koeiin
+  49:    1  ->  sprookjesboek ==> tan
+  50:    1  ->  tandenborstel ==> de
+  51:    1  ->  teddybeer ==> beer
+  52:    1  ->  verstoppertje ==> was
+  53:    1  ->  vogelkooi ==> vo
+  54:    1  ->  washandje ==> sneen
+  55:    1  ->  wasmachine ==> wasmagen
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  af
+   2:    1  ->  blijven
+   3:    1  ->  cola
+   4:    1  ->  de
+   5:    1  ->  draaien
+   6:    1  ->  en
+   7:    1  ->  hoa
+   8:    1  ->  kabater
+   9:    1  ->  kom
+  10:    1  ->  la
+  11:    1  ->  ne
+  12:    1  ->  oka
+  13:    1  ->  om
+  14:    1  ->  popen
+  15:    1  ->  schoenen
+  16:    1  ->  ssprookjes
+  17:    1  ->  vo
+  18:    1  ->  wagen
+  19:    1  ->  was
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   19  ->  *
+   2:   12  ->  *s
+   3:    1  ->  afblijven
+   4:    1  ->  chocolade
+   5:    1  ->  dierentuin
+   6:    1  ->  elastiekje
+   7:    1  ->  fototoestel
+   8:    1  ->  goeiendag
+   9:    1  ->  kabouter
+  10:    1  ->  konijnenhok
+  11:    1  ->  limonade
+  12:    1  ->  lucifer
+  13:    1  ->  omdraaien
+  14:    1  ->  paddenstoelen
+  15:    1  ->  poppenwagen
+  16:    1  ->  ruziemaken
+  17:    1  ->  schoenenwinkel
+  18:    1  ->  schommelen
+  19:    1  ->  sneeuwwitje
+  20:    1  ->  sprookjesboek
+  21:    1  ->  tandenborstel
+  22:    1  ->  teddybeer
+  23:    1  ->  verstoppertje
+  24:    1  ->  vogelkooi
+  25:    1  ->  washandje
+  26:    1  ->  wasmachine
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  de
+   2:    2  ->  foto
+   3:    2  ->  vo
+   4:    1  ->  beer
+   5:    1  ->  borstel
+   6:    1  ->  ce
+   7:    1  ->  cho
+   8:    1  ->  choculade
+   9:    1  ->  dag
+  10:    1  ->  dan
+  11:    1  ->  die
+  12:    1  ->  dieren
+  13:    1  ->  doet
+  14:    1  ->  doetstel
+  15:    1  ->  ee
+  16:    1  ->  ek
+  17:    1  ->  foto's
+  18:    1  ->  gever
+  19:    1  ->  hook
+  20:    1  ->  ik
+  21:    1  ->  ja
+  22:    1  ->  k
+  23:    1  ->  kio
+  24:    1  ->  koe
+  25:    1  ->  koeiin
+  26:    1  ->  kooi
+  27:    1  ->  kul
+  28:    1  ->  lugever
+  29:    1  ->  luk
+  30:    1  ->  maken
+  31:    1  ->  megen
+  32:    1  ->  monadov
+  33:    1  ->  oen
+  34:    1  ->  padestoelen
+  35:    1  ->  roen
+  36:    1  ->  schoen
+  37:    1  ->  schoenelen
+  38:    1  ->  sneen
+  39:    1  ->  stel
+  40:    1  ->  tan
+  41:    1  ->  teagv
+  42:    1  ->  tel
+  43:    1  ->  toelen
+  44:    1  ->  toet
+  45:    1  ->  topperdja
+  46:    1  ->  tuin
+  47:    1  ->  vvorle
+  48:    1  ->  was
+  49:    1  ->  wasmagen
+  50:    1  ->  wasmien
+  51:    1  ->  wietje
+  52:    1  ->  winkel
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

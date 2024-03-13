@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.6%   (  17)
+
+Percent Correct           =   61.4%   (  27)
+
+Percent Substitution      =   31.8%   (  14)
+Percent Deletions         =    6.8%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   61.4%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  41)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  * ==> s
+   2:    1  ->  * ==> x
+   3:    1  ->  appel ==> oppel
+   4:    1  ->  auto ==> autol
+   5:    1  ->  cola ==> kola
+   6:    1  ->  dichtbij*(dichterbij) ==> dichterbij
+   7:    1  ->  fietsbel ==> vitswel
+   8:    1  ->  gooien*(groeien) ==> groeien
+   9:    1  ->  hoofdpijn ==> hofpijn
+  10:    1  ->  potlood ==> potloot
+  11:    1  ->  scheuren*(schuren) ==> shuren
+  12:    1  ->  vliegtuig*(vliegtuigen) ==> vliegtuigen
+  13:    1  ->  vlinder ==> voetbalvlinder
+  14:    1  ->  water ==> later
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  *
+   2:    1  ->  circus
+   3:    1  ->  voetbal
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  *
+   2:    1  ->  appel
+   3:    1  ->  auto
+   4:    1  ->  cola
+   5:    1  ->  dichtbij*(dichterbij)
+   6:    1  ->  fietsbel
+   7:    1  ->  gooien*(groeien)
+   8:    1  ->  hoofdpijn
+   9:    1  ->  potlood
+  10:    1  ->  scheuren*(schuren)
+  11:    1  ->  vliegtuig*(vliegtuigen)
+  12:    1  ->  vlinder
+  13:    1  ->  water
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  autol
+   2:    1  ->  dichterbij
+   3:    1  ->  groeien
+   4:    1  ->  hofpijn
+   5:    1  ->  kola
+   6:    1  ->  later
+   7:    1  ->  oppel
+   8:    1  ->  potloot
+   9:    1  ->  s
+  10:    1  ->  shuren
+  11:    1  ->  vitswel
+  12:    1  ->  vliegtuigen
+  13:    1  ->  voetbalvlinder
+  14:    1  ->  x
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

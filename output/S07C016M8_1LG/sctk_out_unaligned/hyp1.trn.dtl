@@ -1,0 +1,152 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.1%   (  28)
+
+Percent Correct           =   34.9%   (  15)
+
+Percent Substitution      =   62.8%   (  27)
+Percent Deletions         =    2.3%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   34.9%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  bang ==> ban
+   2:    1  ->  bed ==> bit
+   3:    1  ->  chips ==> scheep
+   4:    1  ->  clown ==> l
+   5:    1  ->  clown ==> u
+   6:    1  ->  draai ==> de
+   7:    1  ->  duur*(deur) ==> der
+   8:    1  ->  gauw ==> gam
+   9:    1  ->  groei ==> grooi
+  10:    1  ->  groen ==> vroen
+  11:    1  ->  herfst ==> erfst
+  12:    1  ->  herfst ==> herft
+  13:    1  ->  hoek ==> hook
+  14:    1  ->  hout*(hoed) ==> hoet
+  15:    1  ->  knoop ==> inop
+  16:    1  ->  koe ==> ko
+  17:    1  ->  muts ==> nut
+  18:    1  ->  neus ==> nus
+  19:    1  ->  nieuw ==> neel
+  20:    1  ->  oog ==> oor
+  21:    1  ->  paard ==> baart
+  22:    1  ->  plank*(plaat) ==> lut
+  23:    1  ->  reis ==> reys
+  24:    1  ->  sjaal ==> rai
+  25:    1  ->  sjaal ==> sal
+  26:    1  ->  vriend ==> glon
+  27:    1  ->  zacht ==> zegt
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  leeuw
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  clown
+   2:    2  ->  herfst
+   3:    2  ->  sjaal
+   4:    1  ->  bang
+   5:    1  ->  bed
+   6:    1  ->  chips
+   7:    1  ->  draai
+   8:    1  ->  duur*(deur)
+   9:    1  ->  gauw
+  10:    1  ->  groei
+  11:    1  ->  groen
+  12:    1  ->  hoek
+  13:    1  ->  hout*(hoed)
+  14:    1  ->  knoop
+  15:    1  ->  koe
+  16:    1  ->  muts
+  17:    1  ->  neus
+  18:    1  ->  nieuw
+  19:    1  ->  oog
+  20:    1  ->  paard
+  21:    1  ->  plank*(plaat)
+  22:    1  ->  reis
+  23:    1  ->  vriend
+  24:    1  ->  zacht
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  baart
+   2:    1  ->  ban
+   3:    1  ->  bit
+   4:    1  ->  de
+   5:    1  ->  der
+   6:    1  ->  erfst
+   7:    1  ->  gam
+   8:    1  ->  glon
+   9:    1  ->  grooi
+  10:    1  ->  herft
+  11:    1  ->  hoet
+  12:    1  ->  hook
+  13:    1  ->  inop
+  14:    1  ->  ko
+  15:    1  ->  l
+  16:    1  ->  lut
+  17:    1  ->  neel
+  18:    1  ->  nus
+  19:    1  ->  nut
+  20:    1  ->  oor
+  21:    1  ->  rai
+  22:    1  ->  reys
+  23:    1  ->  sal
+  24:    1  ->  scheep
+  25:    1  ->  u
+  26:    1  ->  vroen
+  27:    1  ->  zegt
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

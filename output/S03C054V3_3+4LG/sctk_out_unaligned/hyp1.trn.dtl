@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   74.4%   (  32)
+
+Percent Correct           =   41.9%   (  18)
+
+Percent Substitution      =   53.5%   (  23)
+Percent Deletions         =    4.7%   (   2)
+Percent Insertions        =   16.3%   (   7)
+Percent Word Accuracy     =   25.6%
+
+
+Ref. words                =           (  43)
+Hyp. words                =           (  48)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  * ==> jiderijen
+   2:    1  ->  * ==> lastikje
+   3:    1  ->  chocolade ==> chocola
+   4:    1  ->  dierentuin ==> baldestoelen
+   5:    1  ->  elastiekje ==> deddi
+   6:    1  ->  fototoestel ==> foto'stoestil
+   7:    1  ->  goeiendag ==> deg
+   8:    1  ->  iedereen ==> schonmelen
+   9:    1  ->  knutselen ==> kenitsillen
+  10:    1  ->  konijnenhok ==> maken
+  11:    1  ->  nieuwsgierig ==> neesgierig
+  12:    1  ->  paddenstoelen ==> verstopperd
+  13:    1  ->  poppenwagen ==> ruzie
+  14:    1  ->  ruziemaken ==> beer
+  15:    1  ->  schoenenwinkel ==> schonewinschonenwinkel
+  16:    1  ->  sneeuwwitje ==> gooien
+  17:    1  ->  teddybeer ==> dierentaam
+  18:    1  ->  toiletpapier ==> doalitpapier
+  19:    1  ->  verjaardag ==> jaardag
+  20:    1  ->  verstoppertje ==> je
+  21:    1  ->  vogelkooi ==> vohelkooi
+  22:    1  ->  vrachtwagen ==> vrechtwagen
+  23:    1  ->  washandje ==> witshe
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  en
+   2:    1  ->  hook
+   3:    1  ->  konijnen
+   4:    1  ->  poppoppenlagen
+   5:    1  ->  sneeuw
+   6:    1  ->  vera
+   7:    1  ->  wasane
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  *
+   2:    1  ->  schommelen
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  *
+   2:    1  ->  chocolade
+   3:    1  ->  dierentuin
+   4:    1  ->  elastiekje
+   5:    1  ->  fototoestel
+   6:    1  ->  goeiendag
+   7:    1  ->  iedereen
+   8:    1  ->  knutselen
+   9:    1  ->  konijnenhok
+  10:    1  ->  nieuwsgierig
+  11:    1  ->  paddenstoelen
+  12:    1  ->  poppenwagen
+  13:    1  ->  ruziemaken
+  14:    1  ->  schoenenwinkel
+  15:    1  ->  sneeuwwitje
+  16:    1  ->  teddybeer
+  17:    1  ->  toiletpapier
+  18:    1  ->  verjaardag
+  19:    1  ->  verstoppertje
+  20:    1  ->  vogelkooi
+  21:    1  ->  vrachtwagen
+  22:    1  ->  washandje
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  baldestoelen
+   2:    1  ->  beer
+   3:    1  ->  chocola
+   4:    1  ->  deddi
+   5:    1  ->  deg
+   6:    1  ->  dierentaam
+   7:    1  ->  doalitpapier
+   8:    1  ->  foto'stoestil
+   9:    1  ->  gooien
+  10:    1  ->  jaardag
+  11:    1  ->  je
+  12:    1  ->  jiderijen
+  13:    1  ->  kenitsillen
+  14:    1  ->  lastikje
+  15:    1  ->  maken
+  16:    1  ->  neesgierig
+  17:    1  ->  ruzie
+  18:    1  ->  schonewinschonenwinkel
+  19:    1  ->  schonmelen
+  20:    1  ->  verstopperd
+  21:    1  ->  vohelkooi
+  22:    1  ->  vrechtwagen
+  23:    1  ->  witshe
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

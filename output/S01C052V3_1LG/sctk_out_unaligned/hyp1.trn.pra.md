@@ -1,0 +1,25 @@
+
+## SYSTEM ALIGNMENT
+
+- System Name = hyp1
+
+- Speakers = 1
+
+- Sentences = 1
+
+---
+
+### S01C052V3_1LG
+
+#### (S01C052V3_1LG-words)
+
+- Cor=42.9%	Sub=52.4%	Del=4.8%	Ins=0.0%
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| REF | klas | mooi | koe | arm | groei | * | strand | bed | eerst | voor | draai | sjaal | herfst | duur | straat | leeuw | clown | hoek | krant | hout | vriend | gauw | chips | groen | feest | reis | jas | huis | paard | vijf | muts | * | nieuw | kind | bang | oog | zacht | schoen | plas | neus | knoop | plank |
+| HYP1 | klas | mooi | koel | arm | groei | stand | strand | bet | eerst | voor | draai | sjaal | hefs | dier | staat | leel | kloon | hoek |  | kant | halt | vriemd | galtcips | groen | vest | hes | jas | huif | pajrt | vijf |  | mut | niel | kind | pang | oog | bacht | schoen | plaf | neis | knoop | plank |
+| EVAL |  |  | S |  |  | S |  | S |  |  |  |  | S | S | S | S | S |  | D | S | S | S | S |  | S | S |  | S | S |  | D | S | S |  | S |  | S |  | S | S |  |  |
+---
+
+---

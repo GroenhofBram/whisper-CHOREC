@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   73.8%   (  31)
+
+Percent Correct           =   26.2%   (  11)
+
+Percent Substitution      =   71.4%   (  30)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   26.2%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  41)
+Aligned words             =           (  42)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  * ==> belard
+   2:    1  ->  * ==> noork
+   3:    1  ->  ant ==> and
+   4:    1  ->  blard ==> geen
+   5:    1  ->  dau ==> dal
+   6:    1  ->  dron ==> droom
+   7:    1  ->  eem ==> één
+   8:    1  ->  fam ==> van
+   9:    1  ->  fook ==> soqk
+  10:    1  ->  frijk ==> frek
+  11:    1  ->  grek ==> grk
+  12:    1  ->  guul ==> geul
+  13:    1  ->  haans ==> hans
+  14:    1  ->  heik ==> hek
+  15:    1  ->  hool ==> hooi
+  16:    1  ->  jien ==> peleerd
+  17:    1  ->  keng ==> kin
+  18:    1  ->  leum ==> leon
+  19:    1  ->  rachts ==> racht
+  20:    1  ->  schard ==> schart
+  21:    1  ->  sjalt ==> schelt
+  22:    1  ->  snaaf ==> snaf
+  23:    1  ->  sooi ==> sori
+  24:    1  ->  spaai ==> spai
+  25:    1  ->  sprieuw*(spreeuw) ==> sprijl
+  26:    1  ->  stuid ==> staat
+  27:    1  ->  swoers ==> swoer
+  28:    1  ->  vaap ==> vap
+  29:    1  ->  vid ==> viet
+  30:    1  ->  zans ==> sans
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  plirt
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  *
+   2:    1  ->  ant
+   3:    1  ->  blard
+   4:    1  ->  dau
+   5:    1  ->  dron
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  fook
+   9:    1  ->  frijk
+  10:    1  ->  grek
+  11:    1  ->  guul
+  12:    1  ->  haans
+  13:    1  ->  heik
+  14:    1  ->  hool
+  15:    1  ->  jien
+  16:    1  ->  keng
+  17:    1  ->  leum
+  18:    1  ->  rachts
+  19:    1  ->  schard
+  20:    1  ->  sjalt
+  21:    1  ->  snaaf
+  22:    1  ->  sooi
+  23:    1  ->  spaai
+  24:    1  ->  sprieuw*(spreeuw)
+  25:    1  ->  stuid
+  26:    1  ->  swoers
+  27:    1  ->  vaap
+  28:    1  ->  vid
+  29:    1  ->  zans
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  and
+   2:    1  ->  belard
+   3:    1  ->  dal
+   4:    1  ->  droom
+   5:    1  ->  frek
+   6:    1  ->  geen
+   7:    1  ->  geul
+   8:    1  ->  grk
+   9:    1  ->  hans
+  10:    1  ->  hek
+  11:    1  ->  hooi
+  12:    1  ->  kin
+  13:    1  ->  leon
+  14:    1  ->  noork
+  15:    1  ->  peleerd
+  16:    1  ->  racht
+  17:    1  ->  sans
+  18:    1  ->  schart
+  19:    1  ->  schelt
+  20:    1  ->  snaf
+  21:    1  ->  soqk
+  22:    1  ->  sori
+  23:    1  ->  spai
+  24:    1  ->  sprijl
+  25:    1  ->  staat
+  26:    1  ->  swoer
+  27:    1  ->  van
+  28:    1  ->  vap
+  29:    1  ->  viet
+  30:    1  ->  één
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

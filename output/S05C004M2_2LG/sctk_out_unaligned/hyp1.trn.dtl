@@ -1,0 +1,193 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  104.8%   (  44)
+
+Percent Correct           =    7.1%   (   3)
+
+Percent Substitution      =   92.9%   (  39)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   11.9%   (   5)
+Percent Word Accuracy     =   -4.8%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  47)
+Aligned words             =           (  47)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  * ==> fundal
+   2:    1  ->  * ==> sitetus
+   3:    1  ->  *s ==> veljor
+   4:    1  ->  appel ==> ele
+   5:    1  ->  chauffeur ==> kasuh
+   6:    1  ->  cola ==> koa
+   7:    1  ->  dichtbij ==> da
+   8:    1  ->  drinken*(drink) ==> stopen
+   9:    1  ->  drogen ==> trohe
+  10:    1  ->  eerste*(eersten) ==> eer
+  11:    1  ->  fietsbel ==> serer
+  12:    1  ->  gooien ==> modor
+  13:    1  ->  hoofdpijn ==> op
+  14:    1  ->  kleuren ==> en
+  15:    1  ->  koning ==> in
+  16:    1  ->  kussen ==> kusen
+  17:    1  ->  lawaai ==> zwennen
+  18:    1  ->  liedje*(liedjes) ==> fits
+  19:    1  ->  meisje ==> maar
+  20:    1  ->  mevrouw ==> ga
+  21:    1  ->  moeder ==> potuloot
+  22:    1  ->  moeilijk ==> no
+  23:    1  ->  muziek ==> lik
+  24:    1  ->  opnieuw ==> seeo
+  25:    1  ->  potlood ==> bel
+  26:    1  ->  regen ==> ni
+  27:    1  ->  scheuren ==> lafje
+  28:    1  ->  schouders ==> veel
+  29:    1  ->  sneeuwen*(sneeuw) ==> e
+  30:    1  ->  stoppen ==> e
+  31:    1  ->  verhaal ==> kom
+  32:    1  ->  vinger ==> tuis
+  33:    1  ->  vliegtuig ==> go
+  34:    1  ->  vlinder ==> ful
+  35:    1  ->  voetbal ==> clere
+  36:    1  ->  vuurwerk ==> wat
+  37:    1  ->  water*(war) ==> la
+  38:    1  ->  winkel ==> wenkel
+  39:    1  ->  zwemmen ==> swerk
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  derinhoofdiu
+   2:    1  ->  haltors
+   3:    1  ->  schuren
+   4:    1  ->  tuig
+   5:    1  ->  vlieg
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  *
+   2:    1  ->  *s
+   3:    1  ->  appel
+   4:    1  ->  chauffeur
+   5:    1  ->  cola
+   6:    1  ->  dichtbij
+   7:    1  ->  drinken*(drink)
+   8:    1  ->  drogen
+   9:    1  ->  eerste*(eersten)
+  10:    1  ->  fietsbel
+  11:    1  ->  gooien
+  12:    1  ->  hoofdpijn
+  13:    1  ->  kleuren
+  14:    1  ->  koning
+  15:    1  ->  kussen
+  16:    1  ->  lawaai
+  17:    1  ->  liedje*(liedjes)
+  18:    1  ->  meisje
+  19:    1  ->  mevrouw
+  20:    1  ->  moeder
+  21:    1  ->  moeilijk
+  22:    1  ->  muziek
+  23:    1  ->  opnieuw
+  24:    1  ->  potlood
+  25:    1  ->  regen
+  26:    1  ->  scheuren
+  27:    1  ->  schouders
+  28:    1  ->  sneeuwen*(sneeuw)
+  29:    1  ->  stoppen
+  30:    1  ->  verhaal
+  31:    1  ->  vinger
+  32:    1  ->  vliegtuig
+  33:    1  ->  vlinder
+  34:    1  ->  voetbal
+  35:    1  ->  vuurwerk
+  36:    1  ->  water*(war)
+  37:    1  ->  winkel
+  38:    1  ->  zwemmen
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  e
+   2:    1  ->  bel
+   3:    1  ->  clere
+   4:    1  ->  da
+   5:    1  ->  eer
+   6:    1  ->  ele
+   7:    1  ->  en
+   8:    1  ->  fits
+   9:    1  ->  ful
+  10:    1  ->  fundal
+  11:    1  ->  ga
+  12:    1  ->  go
+  13:    1  ->  in
+  14:    1  ->  kasuh
+  15:    1  ->  koa
+  16:    1  ->  kom
+  17:    1  ->  kusen
+  18:    1  ->  la
+  19:    1  ->  lafje
+  20:    1  ->  lik
+  21:    1  ->  maar
+  22:    1  ->  modor
+  23:    1  ->  ni
+  24:    1  ->  no
+  25:    1  ->  op
+  26:    1  ->  potuloot
+  27:    1  ->  seeo
+  28:    1  ->  serer
+  29:    1  ->  sitetus
+  30:    1  ->  stopen
+  31:    1  ->  swerk
+  32:    1  ->  trohe
+  33:    1  ->  tuis
+  34:    1  ->  veel
+  35:    1  ->  veljor
+  36:    1  ->  wat
+  37:    1  ->  wenkel
+  38:    1  ->  zwennen
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

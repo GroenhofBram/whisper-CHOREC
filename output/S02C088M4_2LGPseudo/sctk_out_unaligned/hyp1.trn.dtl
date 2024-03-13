@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   85.0%   (  34)
+
+Percent Correct           =   15.0%   (   6)
+
+Percent Substitution      =   82.5%   (  33)
+Percent Deletions         =    2.5%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   15.0%
+
+
+Ref. words                =           (  40)
+Hyp. words                =           (  39)
+Aligned words             =           (  40)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  bepoud ==> bepaald
+   2:    1  ->  eemde ==> imde
+   3:    1  ->  fiewon ==> fibo
+   4:    1  ->  foetbans ==> voetbans
+   5:    1  ->  gefouw ==> gefauw
+   6:    1  ->  geutel ==> setel
+   7:    1  ->  grijnken ==> genken
+   8:    1  ->  ierpieuw ==> ied
+   9:    1  ->  ijpo ==> eipo
+  10:    1  ->  kloeien ==> virdr
+  11:    1  ->  kneurem ==> cneuren
+  12:    1  ->  millen ==> milen
+  13:    1  ->  muider ==> nuider
+  14:    1  ->  nizung ==> nisuun
+  15:    1  ->  oonste ==> onsta
+  16:    1  ->  orponk ==> ulenvorponk
+  17:    1  ->  orstalk ==> oorstalk
+  18:    1  ->  prilsood ==> perilsoot
+  19:    1  ->  saarweng ==> sarenweng
+  20:    1  ->  schielstaug ==> shilstag
+  21:    1  ->  schodig ==> schoodig
+  22:    1  ->  sjobel ==> shjobel
+  23:    1  ->  spreikje ==> spreiken
+  24:    1  ->  strellen ==> strillen
+  25:    1  ->  ulen ==> louyenv
+  26:    1  ->  vawaai ==> vawai
+  27:    1  ->  veten ==> feten
+  28:    1  ->  vloender ==> vloundr
+  29:    1  ->  vocil ==> vokil
+  30:    1  ->  vurpaand ==> vuurparend
+  31:    1  ->  walaan ==> piouwolaan
+  32:    1  ->  wooien ==> woien
+  33:    1  ->  zwieten ==> zweten
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  veurder
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  bepoud
+   2:    1  ->  eemde
+   3:    1  ->  fiewon
+   4:    1  ->  foetbans
+   5:    1  ->  gefouw
+   6:    1  ->  geutel
+   7:    1  ->  grijnken
+   8:    1  ->  ierpieuw
+   9:    1  ->  ijpo
+  10:    1  ->  kloeien
+  11:    1  ->  kneurem
+  12:    1  ->  millen
+  13:    1  ->  muider
+  14:    1  ->  nizung
+  15:    1  ->  oonste
+  16:    1  ->  orponk
+  17:    1  ->  orstalk
+  18:    1  ->  prilsood
+  19:    1  ->  saarweng
+  20:    1  ->  schielstaug
+  21:    1  ->  schodig
+  22:    1  ->  sjobel
+  23:    1  ->  spreikje
+  24:    1  ->  strellen
+  25:    1  ->  ulen
+  26:    1  ->  vawaai
+  27:    1  ->  veten
+  28:    1  ->  vloender
+  29:    1  ->  vocil
+  30:    1  ->  vurpaand
+  31:    1  ->  walaan
+  32:    1  ->  wooien
+  33:    1  ->  zwieten
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  bepaald
+   2:    1  ->  cneuren
+   3:    1  ->  eipo
+   4:    1  ->  feten
+   5:    1  ->  fibo
+   6:    1  ->  gefauw
+   7:    1  ->  genken
+   8:    1  ->  ied
+   9:    1  ->  imde
+  10:    1  ->  louyenv
+  11:    1  ->  milen
+  12:    1  ->  nisuun
+  13:    1  ->  nuider
+  14:    1  ->  onsta
+  15:    1  ->  oorstalk
+  16:    1  ->  perilsoot
+  17:    1  ->  piouwolaan
+  18:    1  ->  sarenweng
+  19:    1  ->  schoodig
+  20:    1  ->  setel
+  21:    1  ->  shilstag
+  22:    1  ->  shjobel
+  23:    1  ->  spreiken
+  24:    1  ->  strillen
+  25:    1  ->  ulenvorponk
+  26:    1  ->  vawai
+  27:    1  ->  virdr
+  28:    1  ->  vloundr
+  29:    1  ->  voetbans
+  30:    1  ->  vokil
+  31:    1  ->  vuurparend
+  32:    1  ->  woien
+  33:    1  ->  zweten
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

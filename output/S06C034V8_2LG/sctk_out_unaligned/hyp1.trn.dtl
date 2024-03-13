@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.5%   (  24)
+
+Percent Correct           =   46.3%   (  19)
+
+Percent Substitution      =   51.2%   (  21)
+Percent Deletions         =    2.4%   (   1)
+Percent Insertions        =    4.9%   (   2)
+Percent Word Accuracy     =   41.5%
+
+
+Ref. words                =           (  41)
+Hyp. words                =           (  42)
+Aligned words             =           (  43)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  appel ==> apel
+   2:    1  ->  auto ==> aute
+   3:    1  ->  chauffeur ==> jofer
+   4:    1  ->  circus ==> serkus
+   5:    1  ->  dichtbij ==> bij
+   6:    1  ->  drogen ==> mderoge
+   7:    1  ->  fietsbel ==> vinje
+   8:    1  ->  gooien ==> gooie
+   9:    1  ->  hoofdpijn ==> kooftin
+  10:    1  ->  kleuren ==> vleren
+  11:    1  ->  kussen ==> kusen
+  12:    1  ->  lawaai ==> wawai
+  13:    1  ->  liedje ==> vis
+  14:    1  ->  opnieuw ==> opnieuen
+  15:    1  ->  potlood ==> bel
+  16:    1  ->  regen ==> rigen
+  17:    1  ->  schouders ==> sgaldars
+  18:    1  ->  sneeuwen ==> snieuwen
+  19:    1  ->  vinger ==> bi
+  20:    1  ->  vlinder ==> fliner
+  21:    1  ->  zwemmen ==> swijmen
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  lietje
+   2:    1  ->  potlort
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  *
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  appel
+   2:    1  ->  auto
+   3:    1  ->  chauffeur
+   4:    1  ->  circus
+   5:    1  ->  dichtbij
+   6:    1  ->  drogen
+   7:    1  ->  fietsbel
+   8:    1  ->  gooien
+   9:    1  ->  hoofdpijn
+  10:    1  ->  kleuren
+  11:    1  ->  kussen
+  12:    1  ->  lawaai
+  13:    1  ->  liedje
+  14:    1  ->  opnieuw
+  15:    1  ->  potlood
+  16:    1  ->  regen
+  17:    1  ->  schouders
+  18:    1  ->  sneeuwen
+  19:    1  ->  vinger
+  20:    1  ->  vlinder
+  21:    1  ->  zwemmen
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  apel
+   2:    1  ->  aute
+   3:    1  ->  bel
+   4:    1  ->  bi
+   5:    1  ->  bij
+   6:    1  ->  fliner
+   7:    1  ->  gooie
+   8:    1  ->  jofer
+   9:    1  ->  kooftin
+  10:    1  ->  kusen
+  11:    1  ->  mderoge
+  12:    1  ->  opnieuen
+  13:    1  ->  rigen
+  14:    1  ->  serkus
+  15:    1  ->  sgaldars
+  16:    1  ->  snieuwen
+  17:    1  ->  swijmen
+  18:    1  ->  vinje
+  19:    1  ->  vis
+  20:    1  ->  vleren
+  21:    1  ->  wawai
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

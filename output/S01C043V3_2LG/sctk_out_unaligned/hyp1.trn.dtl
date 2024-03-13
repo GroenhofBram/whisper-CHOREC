@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.2%   (  19)
+
+Percent Correct           =   70.5%   (  31)
+
+Percent Substitution      =   29.5%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   13.6%   (   6)
+Percent Word Accuracy     =   56.8%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  50)
+Aligned words             =           (  50)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  * ==> chauffeur
+   2:    1  ->  * ==> dichte
+   3:    1  ->  *(sneeuw) ==> sneeuw
+   4:    1  ->  *t ==> chauffeur
+   5:    1  ->  *x ==> h
+   6:    1  ->  eerste ==> a
+   7:    1  ->  fietsbel ==> wel
+   8:    1  ->  kussen ==> eerst
+   9:    1  ->  lawaai ==> lawai
+  10:    1  ->  liedje ==> je
+  11:    1  ->  regen ==> dreigen
+  12:    1  ->  vlinder ==> linder
+  13:    1  ->  water ==> wetter
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  caffer
+   2:    1  ->  cussen
+   3:    1  ->  hé
+   4:    1  ->  uh
+   5:    1  ->  veet
+   6:    1  ->  weet
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  *
+   2:    1  ->  *(sneeuw)
+   3:    1  ->  *t
+   4:    1  ->  *x
+   5:    1  ->  eerste
+   6:    1  ->  fietsbel
+   7:    1  ->  kussen
+   8:    1  ->  lawaai
+   9:    1  ->  liedje
+  10:    1  ->  regen
+  11:    1  ->  vlinder
+  12:    1  ->  water
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  chauffeur
+   2:    1  ->  a
+   3:    1  ->  dichte
+   4:    1  ->  dreigen
+   5:    1  ->  eerst
+   6:    1  ->  h
+   7:    1  ->  je
+   8:    1  ->  lawai
+   9:    1  ->  linder
+  10:    1  ->  sneeuw
+  11:    1  ->  wel
+  12:    1  ->  wetter
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

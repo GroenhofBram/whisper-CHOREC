@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   70.5%   (  31)
+
+Percent Correct           =   29.5%   (  13)
+
+Percent Substitution      =   65.9%   (  29)
+Percent Deletions         =    4.5%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   29.5%
+
+
+Ref. words                =           (  44)
+Hyp. words                =           (  42)
+Aligned words             =           (  44)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  * ==> spua
+   2:    1  ->  * ==> spur
+   3:    1  ->  * ==> weeg
+   4:    1  ->  *s ==> vok
+   5:    1  ->  blard ==> lart
+   6:    1  ->  dau ==> dauw
+   7:    1  ->  doer ==> door
+   8:    1  ->  eem ==> één
+   9:    1  ->  fam ==> van
+  10:    1  ->  frijk ==> wreijk
+  11:    1  ->  guul ==> geur
+  12:    1  ->  haans ==> hans
+  13:    1  ->  hool ==> gooi
+  14:    1  ->  jien ==> lijn
+  15:    1  ->  neeuw ==> neeo
+  16:    1  ->  plirt ==> spliert
+  17:    1  ->  roen ==> roon
+  18:    1  ->  schard ==> shart
+  19:    1  ->  sjalt ==> shalt
+  20:    1  ->  sooi ==> zooi
+  21:    1  ->  spaai ==> spai
+  22:    1  ->  sprieuw ==> spreeuw
+  23:    1  ->  sprunt ==> sprint
+  24:    1  ->  stuid ==> stdu
+  25:    1  ->  swoers ==> swoord
+  26:    1  ->  vaap ==> hap
+  27:    1  ->  vid ==> vit
+  28:    1  ->  zans ==> sans
+  29:    1  ->  zwoei ==> swooi
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  beeg
+   2:    1  ->  fook*(fok)
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  *
+   2:    1  ->  *s
+   3:    1  ->  blard
+   4:    1  ->  dau
+   5:    1  ->  doer
+   6:    1  ->  eem
+   7:    1  ->  fam
+   8:    1  ->  frijk
+   9:    1  ->  guul
+  10:    1  ->  haans
+  11:    1  ->  hool
+  12:    1  ->  jien
+  13:    1  ->  neeuw
+  14:    1  ->  plirt
+  15:    1  ->  roen
+  16:    1  ->  schard
+  17:    1  ->  sjalt
+  18:    1  ->  sooi
+  19:    1  ->  spaai
+  20:    1  ->  sprieuw
+  21:    1  ->  sprunt
+  22:    1  ->  stuid
+  23:    1  ->  swoers
+  24:    1  ->  vaap
+  25:    1  ->  vid
+  26:    1  ->  zans
+  27:    1  ->  zwoei
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  dauw
+   2:    1  ->  door
+   3:    1  ->  geur
+   4:    1  ->  gooi
+   5:    1  ->  hans
+   6:    1  ->  hap
+   7:    1  ->  lart
+   8:    1  ->  lijn
+   9:    1  ->  neeo
+  10:    1  ->  roon
+  11:    1  ->  sans
+  12:    1  ->  shalt
+  13:    1  ->  shart
+  14:    1  ->  spai
+  15:    1  ->  spliert
+  16:    1  ->  spreeuw
+  17:    1  ->  sprint
+  18:    1  ->  spua
+  19:    1  ->  spur
+  20:    1  ->  stdu
+  21:    1  ->  swooi
+  22:    1  ->  swoord
+  23:    1  ->  van
+  24:    1  ->  vit
+  25:    1  ->  vok
+  26:    1  ->  weeg
+  27:    1  ->  wreijk
+  28:    1  ->  zooi
+  29:    1  ->  één
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

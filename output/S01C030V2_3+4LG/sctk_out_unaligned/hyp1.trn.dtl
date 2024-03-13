@@ -1,0 +1,158 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   85.7%   (  36)
+
+Percent Correct           =   40.5%   (  17)
+
+Percent Substitution      =   59.5%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   26.2%   (  11)
+Percent Word Accuracy     =   14.3%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  53)
+Aligned words             =           (  53)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  * ==> ca
+   2:    1  ->  * ==> goeien
+   3:    1  ->  achterdeur ==> achterder
+   4:    1  ->  buurmannen ==> ann
+   5:    1  ->  dierentuin ==> mat
+   6:    1  ->  elastiekje ==> alenstolen
+   7:    1  ->  fototoestel ==> toilet
+   8:    1  ->  goeiendag ==> dag
+   9:    1  ->  iedereen ==> idereenschoenen
+  10:    1  ->  knutselen ==> kitnessullen
+  11:    1  ->  konijnenhok ==> tirentem
+  12:    1  ->  lucifer ==> lusifer
+  13:    1  ->  paddenstoelen ==> china
+  14:    1  ->  poppenwagen ==> ber
+  15:    1  ->  ruziemaken ==> stoppertje
+  16:    1  ->  schoenenwinkel ==> winkel
+  17:    1  ->  schommelen ==> schoemelen
+  18:    1  ->  sneeuwwitje ==> sneeietje
+  19:    1  ->  sprookjesboek ==> tanden
+  20:    1  ->  tandenborstel ==> borstel
+  21:    1  ->  teddybeer ==> was
+  22:    1  ->  toiletpapier ==> papier
+  23:    1  ->  verstoppertje ==> wato
+  24:    1  ->  washandje ==> hangdje
+  25:    1  ->  wasmachine ==> toustel
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  buren
+   2:    1  ->  ellastieke
+   3:    1  ->  hok
+   4:    1  ->  konijnen
+   5:    1  ->  mo
+   6:    1  ->  poppen
+   7:    1  ->  ruszeemaken
+   8:    1  ->  sprookjesbok
+   9:    1  ->  teddi
+  10:    1  ->  wagen
+  11:    1  ->  wat
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  *
+   2:    1  ->  achterdeur
+   3:    1  ->  buurmannen
+   4:    1  ->  dierentuin
+   5:    1  ->  elastiekje
+   6:    1  ->  fototoestel
+   7:    1  ->  goeiendag
+   8:    1  ->  iedereen
+   9:    1  ->  knutselen
+  10:    1  ->  konijnenhok
+  11:    1  ->  lucifer
+  12:    1  ->  paddenstoelen
+  13:    1  ->  poppenwagen
+  14:    1  ->  ruziemaken
+  15:    1  ->  schoenenwinkel
+  16:    1  ->  schommelen
+  17:    1  ->  sneeuwwitje
+  18:    1  ->  sprookjesboek
+  19:    1  ->  tandenborstel
+  20:    1  ->  teddybeer
+  21:    1  ->  toiletpapier
+  22:    1  ->  verstoppertje
+  23:    1  ->  washandje
+  24:    1  ->  wasmachine
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  achterder
+   2:    1  ->  alenstolen
+   3:    1  ->  ann
+   4:    1  ->  ber
+   5:    1  ->  borstel
+   6:    1  ->  ca
+   7:    1  ->  china
+   8:    1  ->  dag
+   9:    1  ->  goeien
+  10:    1  ->  hangdje
+  11:    1  ->  idereenschoenen
+  12:    1  ->  kitnessullen
+  13:    1  ->  lusifer
+  14:    1  ->  mat
+  15:    1  ->  papier
+  16:    1  ->  schoemelen
+  17:    1  ->  sneeietje
+  18:    1  ->  stoppertje
+  19:    1  ->  tanden
+  20:    1  ->  tirentem
+  21:    1  ->  toilet
+  22:    1  ->  toustel
+  23:    1  ->  was
+  24:    1  ->  wato
+  25:    1  ->  winkel
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

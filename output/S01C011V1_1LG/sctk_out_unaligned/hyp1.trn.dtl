@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   94.4%   ( 153)
+
+Percent Correct           =    5.6%   (   9)
+
+Percent Substitution      =   27.2%   (  44)
+Percent Deletions         =   67.3%   ( 109)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    5.6%
+
+
+Ref. words                =           ( 162)
+Hyp. words                =           (  53)
+Aligned words             =           ( 162)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  * ==> s
+   2:    1  ->  * ==> ah
+   3:    1  ->  * ==> am
+   4:    1  ->  * ==> at
+   5:    1  ->  * ==> da
+   6:    1  ->  * ==> daar
+   7:    1  ->  * ==> de
+   8:    1  ->  * ==> draad
+   9:    1  ->  * ==> draen
+  10:    1  ->  * ==> e
+  11:    1  ->  * ==> goed
+  12:    1  ->  * ==> ik
+  13:    1  ->  * ==> ken
+  14:    1  ->  * ==> kendan
+  15:    1  ->  * ==> kindren
+  16:    1  ->  * ==> klaf
+  17:    1  ->  * ==> las
+  18:    1  ->  * ==> leel
+  19:    1  ->  * ==> mhoe
+  20:    1  ->  * ==> na
+  21:    1  ->  * ==> rust
+  22:    1  ->  * ==> sapis
+  23:    1  ->  * ==> sen
+  24:    1  ->  * ==> u
+  25:    1  ->  * ==> uer
+  26:    1  ->  * ==> ut
+  27:    1  ->  * ==> vm
+  28:    1  ->  * ==> vust
+  29:    1  ->  * ==> wordt
+  30:    1  ->  *(baarden) ==> marnde
+  31:    1  ->  *s ==> groei
+  32:    1  ->  *s ==> knop
+  33:    1  ->  *s ==> mooi
+  34:    1  ->  *s ==> t
+  35:    1  ->  bed ==> rooi
+  36:    1  ->  chips ==> ruimd
+  37:    1  ->  gauw ==> r
+  38:    1  ->  jas ==> has
+  39:    1  ->  klas ==> mooi
+  40:    1  ->  paard ==> paren
+  41:    1  ->  plank ==> plant
+  42:    1  ->  schoen ==> woest
+  43:    1  ->  strand ==> miet
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:   83  ->  *
+   2:    6  ->  *s
+   3:    1  ->  *(knop)
+   4:    1  ->  arm*(raam)
+   5:    1  ->  bang*(dag)
+   6:    1  ->  clown
+   7:    1  ->  draai
+   8:    1  ->  duur
+   9:    1  ->  feest
+  10:    1  ->  herfst
+  11:    1  ->  hoek
+  12:    1  ->  hout
+  13:    1  ->  kind
+  14:    1  ->  krant
+  15:    1  ->  leeuw
+  16:    1  ->  muts
+  17:    1  ->  nieuw
+  18:    1  ->  oog
+  19:    1  ->  sjaal*(sinterklaas)
+  20:    1  ->  straat*(draad)
+  21:    1  ->  vriend
+  22:    1  ->  zacht
+     -------
+       109
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:   30  ->  *
+   2:    4  ->  *s
+   3:    1  ->  *(baarden)
+   4:    1  ->  bed
+   5:    1  ->  chips
+   6:    1  ->  gauw
+   7:    1  ->  jas
+   8:    1  ->  klas
+   9:    1  ->  paard
+  10:    1  ->  plank
+  11:    1  ->  schoen
+  12:    1  ->  strand
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  mooi
+   2:    2  ->  s
+   3:    1  ->  ah
+   4:    1  ->  am
+   5:    1  ->  at
+   6:    1  ->  da
+   7:    1  ->  daar
+   8:    1  ->  de
+   9:    1  ->  draad
+  10:    1  ->  draen
+  11:    1  ->  e
+  12:    1  ->  goed
+  13:    1  ->  groei
+  14:    1  ->  has
+  15:    1  ->  ik
+  16:    1  ->  ken
+  17:    1  ->  kendan
+  18:    1  ->  kindren
+  19:    1  ->  klaf
+  20:    1  ->  knop
+  21:    1  ->  las
+  22:    1  ->  leel
+  23:    1  ->  marnde
+  24:    1  ->  mhoe
+  25:    1  ->  miet
+  26:    1  ->  na
+  27:    1  ->  paren
+  28:    1  ->  plant
+  29:    1  ->  r
+  30:    1  ->  rooi
+  31:    1  ->  ruimd
+  32:    1  ->  rust
+  33:    1  ->  sapis
+  34:    1  ->  sen
+  35:    1  ->  t
+  36:    1  ->  u
+  37:    1  ->  uer
+  38:    1  ->  ut
+  39:    1  ->  vm
+  40:    1  ->  vust
+  41:    1  ->  woest
+  42:    1  ->  wordt
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

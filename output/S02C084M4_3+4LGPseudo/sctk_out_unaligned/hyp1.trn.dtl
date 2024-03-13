@@ -1,0 +1,199 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =  142.9%   (  60)
+
+Percent Correct           =    2.4%   (   1)
+
+Percent Substitution      =   97.6%   (  41)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   45.2%   (  19)
+Percent Word Accuracy     =  -42.9%
+
+
+Ref. words                =           (  42)
+Hyp. words                =           (  61)
+Aligned words             =           (  61)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  * ==> boonstalshouden
+   2:    1  ->  * ==> deuven
+   3:    1  ->  * ==> develdek
+   4:    1  ->  * ==> ek
+   5:    1  ->  * ==> ermoed
+   6:    1  ->  * ==> fea
+   7:    1  ->  * ==> grijw
+   8:    1  ->  * ==> grouejak
+   9:    1  ->  * ==> haenaren
+  10:    1  ->  * ==> haveldil
+  11:    1  ->  * ==> jutony
+  12:    1  ->  * ==> niet
+  13:    1  ->  * ==> onder
+  14:    1  ->  * ==> tonetslijgen
+  15:    1  ->  * ==> verbrakertje
+  16:    1  ->  * ==> zek
+  17:    1  ->  blottenduuf ==> girdofhalder
+  18:    1  ->  choporatie ==> arespangen
+  19:    1  ->  crobeklunker ==> smoralle
+  20:    1  ->  deuveltek ==> gevedel
+  21:    1  ->  fandelig ==> canaron
+  22:    1  ->  gevijdel ==> sprecarian
+  23:    1  ->  girdofhaalder ==> dob
+  24:    1  ->  ijraspangen ==> duuf
+  25:    1  ->  jattesiet ==> das
+  26:    1  ->  juitonie ==> cidoan
+  27:    1  ->  kanaroe ==> oogsten
+  28:    1  ->  kantelogsten ==> shoporativ
+  29:    1  ->  meitsegrok ==> mind
+  30:    1  ->  nurudien ==> de
+  31:    1  ->  ometuif ==> neruidien
+  32:    1  ->  ondermind ==> zinnebral
+  33:    1  ->  ooiebiekje ==> chine
+  34:    1  ->  schielendaspen ==> krabben
+  35:    1  ->  sidowaan ==> wachten
+  36:    1  ->  smoralij ==> metegrok
+  37:    1  ->  toejietsen ==> stoein
+  38:    1  ->  verpierik ==> naper
+  39:    1  ->  wachteniek ==> verpirik
+  40:    1  ->  zeekvlachine ==> tantel
+  41:    1  ->  zennebral ==> blottende
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  o
+   2:    1  ->  beekje
+   3:    1  ->  daspen
+   4:    1  ->  delig
+   5:    1  ->  doegeetsen
+   6:    1  ->  duif
+   7:    1  ->  galle
+   8:    1  ->  ja
+   9:    1  ->  je
+  10:    1  ->  kabestepen
+  11:    1  ->  kluunker
+  12:    1  ->  krobe
+  13:    1  ->  met
+  14:    1  ->  omwellen
+  15:    1  ->  schelen
+  16:    1  ->  tesiet
+  17:    1  ->  van
+  18:    1  ->  verwarrig
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:   16  ->  *
+   2:    1  ->  blottenduuf
+   3:    1  ->  choporatie
+   4:    1  ->  crobeklunker
+   5:    1  ->  deuveltek
+   6:    1  ->  fandelig
+   7:    1  ->  gevijdel
+   8:    1  ->  girdofhaalder
+   9:    1  ->  ijraspangen
+  10:    1  ->  jattesiet
+  11:    1  ->  juitonie
+  12:    1  ->  kanaroe
+  13:    1  ->  kantelogsten
+  14:    1  ->  meitsegrok
+  15:    1  ->  nurudien
+  16:    1  ->  ometuif
+  17:    1  ->  ondermind
+  18:    1  ->  ooiebiekje
+  19:    1  ->  schielendaspen
+  20:    1  ->  sidowaan
+  21:    1  ->  smoralij
+  22:    1  ->  toejietsen
+  23:    1  ->  verpierik
+  24:    1  ->  wachteniek
+  25:    1  ->  zeekvlachine
+  26:    1  ->  zennebral
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  arespangen
+   2:    1  ->  blottende
+   3:    1  ->  boonstalshouden
+   4:    1  ->  canaron
+   5:    1  ->  chine
+   6:    1  ->  cidoan
+   7:    1  ->  das
+   8:    1  ->  de
+   9:    1  ->  deuven
+  10:    1  ->  develdek
+  11:    1  ->  dob
+  12:    1  ->  duuf
+  13:    1  ->  ek
+  14:    1  ->  ermoed
+  15:    1  ->  fea
+  16:    1  ->  gevedel
+  17:    1  ->  girdofhalder
+  18:    1  ->  grijw
+  19:    1  ->  grouejak
+  20:    1  ->  haenaren
+  21:    1  ->  haveldil
+  22:    1  ->  jutony
+  23:    1  ->  krabben
+  24:    1  ->  metegrok
+  25:    1  ->  mind
+  26:    1  ->  naper
+  27:    1  ->  neruidien
+  28:    1  ->  niet
+  29:    1  ->  onder
+  30:    1  ->  oogsten
+  31:    1  ->  shoporativ
+  32:    1  ->  smoralle
+  33:    1  ->  sprecarian
+  34:    1  ->  stoein
+  35:    1  ->  tantel
+  36:    1  ->  tonetslijgen
+  37:    1  ->  verbrakertje
+  38:    1  ->  verpirik
+  39:    1  ->  wachten
+  40:    1  ->  zek
+  41:    1  ->  zinnebral
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

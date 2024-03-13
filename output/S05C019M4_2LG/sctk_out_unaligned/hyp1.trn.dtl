@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp1
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.6%   (  35)
+
+Percent Correct           =   41.2%   (  21)
+
+Percent Substitution      =   54.9%   (  28)
+Percent Deletions         =    3.9%   (   2)
+Percent Insertions        =    9.8%   (   5)
+Percent Word Accuracy     =   31.4%
+
+
+Ref. words                =           (  51)
+Hyp. words                =           (  54)
+Aligned words             =           (  56)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  * ==> drron
+   2:    1  ->  * ==> fu
+   3:    1  ->  * ==> gauw
+   4:    1  ->  * ==> gria
+   5:    1  ->  * ==> le
+   6:    1  ->  * ==> mo
+   7:    1  ->  * ==> of
+   8:    1  ->  * ==> potloot
+   9:    1  ->  * ==> vuurw
+  10:    1  ->  * ==> zwem
+  11:    1  ->  *(chirurg) ==> chirg
+  12:    1  ->  appel ==> kol
+  13:    1  ->  circus ==> zit
+  14:    1  ->  cola ==> la
+  15:    1  ->  dichtbij ==> mesla
+  16:    1  ->  fietsbel ==> dicht
+  17:    1  ->  kleuren ==> kleurenu
+  18:    1  ->  lawaai ==> lawai
+  19:    1  ->  meisje ==> ga
+  20:    1  ->  moeder ==> sneeuwenmoeder
+  21:    1  ->  moeilijk ==> molijk
+  22:    1  ->  muziek ==> wuziek
+  23:    1  ->  potlood ==> fietsbalvinger
+  24:    1  ->  schouders ==> autoschauters
+  25:    1  ->  stoppen ==> stoen
+  26:    1  ->  verhaal ==> verraal
+  27:    1  ->  vinger ==> bij
+  28:    1  ->  vliegtuig ==> vniegdag
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  abel
+   2:    1  ->  chig
+   3:    1  ->  chiur
+   4:    1  ->  poot
+   5:    1  ->  te
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  auto
+   2:    1  ->  sneeuwen
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:   10  ->  *
+   2:    1  ->  *(chirurg)
+   3:    1  ->  appel
+   4:    1  ->  circus
+   5:    1  ->  cola
+   6:    1  ->  dichtbij
+   7:    1  ->  fietsbel
+   8:    1  ->  kleuren
+   9:    1  ->  lawaai
+  10:    1  ->  meisje
+  11:    1  ->  moeder
+  12:    1  ->  moeilijk
+  13:    1  ->  muziek
+  14:    1  ->  potlood
+  15:    1  ->  schouders
+  16:    1  ->  stoppen
+  17:    1  ->  verhaal
+  18:    1  ->  vinger
+  19:    1  ->  vliegtuig
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  autoschauters
+   2:    1  ->  bij
+   3:    1  ->  chirg
+   4:    1  ->  dicht
+   5:    1  ->  drron
+   6:    1  ->  fietsbalvinger
+   7:    1  ->  fu
+   8:    1  ->  ga
+   9:    1  ->  gauw
+  10:    1  ->  gria
+  11:    1  ->  kleurenu
+  12:    1  ->  kol
+  13:    1  ->  la
+  14:    1  ->  lawai
+  15:    1  ->  le
+  16:    1  ->  mesla
+  17:    1  ->  mo
+  18:    1  ->  molijk
+  19:    1  ->  of
+  20:    1  ->  potloot
+  21:    1  ->  sneeuwenmoeder
+  22:    1  ->  stoen
+  23:    1  ->  verraal
+  24:    1  ->  vniegdag
+  25:    1  ->  vuurw
+  26:    1  ->  wuziek
+  27:    1  ->  zit
+  28:    1  ->  zwem
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
