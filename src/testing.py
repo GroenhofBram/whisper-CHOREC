@@ -1,61 +1,94 @@
-############### ONLY GRAB FILES THAT CONTAIN "LG", AVI and others cause issues
-
-
-import tgt
+import json
+import os
+import re
 import pandas as pd
 
-tg_file = 'D:\\repos\\wav2vec-CHOREC\\files\\test_glob\\S01\\S01C003V1\\S01C003V1_1LG_f01.TextGrid'
- 
-
-# Read TextGrid file
-tg = tgt.io.read_textgrid(tg_file, encoding='utf-8', include_empty_intervals=False)
+from src.islinux import is_linux
 
 
-table = tgt.io.export_to_table(tg,
-separator=',')
-formatted_table = [x.split(',')
-for x in table.split('\n')]
+def main():
+    json_data = read_json()
+    
+    json_data_words = extract_json(json_data)
 
-# for idx, item in enumerate(formatted_table):
-# 	if(len(item) == 6):
-# 		print(idx, item)
+    print("Parsing json")
+    df_data_words = json_to_df(json_data)
 
 
-tg_df = pd.DataFrame(formatted_table[1:], columns = formatted_table[0])
-tg_df_prompts = tg_df[tg_df['tier_name'] == 'words to be read']
-tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<"]
-tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<"]
-tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<<"]
-tg_df_prompts = tg_df_prompts[tg_df_prompts['text'] != "<<<<"]
-tg_df_orthography = tg_df[tg_df['tier_name'] == 'orthography']
+def get_file_path():
+    if is_linux():
+        pth = os.path.abspath(os.path.join(__file__, "../../report/hyp1.trn.pra.json"))
+        print(pth)
+        return pth
+    return "D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json"
 
-# print(len(tg_df_orthography))
 
-filtered_df_orthography = tg_df_orthography[tg_df_orthography['start_time'].isin(tg_df_prompts['start_time'])]
-missing_start_times = tg_df_prompts[~tg_df_prompts['start_time'].isin(filtered_df_orthography['start_time'])]
+def read_json():
+    # file_path = Path("D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json")
 
-# If there are missing start_times, append them to filtered_df_orthography
-if not missing_start_times.empty:
-	missing_start_times['text'] = "[ORTHOGRAPHY MISSING]"
-	filtered_df_orthography = pd.concat([filtered_df_orthography, missing_start_times], ignore_index=True)
+    file_path = get_file_path()
+    
+    with open(file_path, "r") as fp:
+        # file_data = file.readlines()
+        return json.load(fp)
+    
+def extract_json(json_data) -> dict: # Type hinting
+    json_data_words = json_data["speakers"]['S01C002V1_2LG']['(S01C002V1_2LG-words)']["words"]
 
-breakpoint()
+    return json_data_words
 
-# print(tg_df_orthography['text'])
 
-print("\nOrthography")
+def json_to_df(json_data_words):
+    speaker_list = []
+    sentence_id_list = []
+    word_count_list = []
+    reference_list = []
+    hypothesis_list = []
+    evaluation_label_list = []
 
-print(filtered_df_orthography['text'])
+    for speaker, data_dict in json_data_words['speakers'].items():
+        for sentence_id, sentence_data in data_dict.items():
+            for word_info in sentence_data['words']:
+                speaker_list.append(speaker)
+                sentence_id_list.append(sentence_id)
+                word_count_list.append(sentence_data['word_count'])
+                reference_list.append(word_info['ref'])
+                hypothesis_list.append(word_info['hyp'])
+                evaluation_label_list.append(word_info['eval_label'])
 
-print("\nPrompts")
+    df = pd.DataFrame({
+        'speaker': speaker_list,
+        'sentence_id': sentence_id_list,
+        'word_count': word_count_list,
+        'reference': reference_list,
+        'hypothesis': hypothesis_list,
+        'evaluation_label': evaluation_label_list
+    })
 
-print(tg_df_prompts['text'])
+    speaker_id = df['speaker'].iloc[0].split('_')[0]
+    file_name = f'output/{speaker_id}-dataframe.csv'
+    df.to_csv(file_name, index=False)
 
-print(len(tg_df_orthography))
-print("AFter filter (should be equal)")
-print(len(filtered_df_orthography))
-print(len(tg_df_prompts))
 
-print(tg_df_prompts)
-print(filtered_df_orthography)
+    filtered_file_name = f'output/{speaker_id}-filtered-dataframe.csv'
+    df_filtered = df[df["reference"] != "*"]
+    df_filtered = df_filtered[df_filtered["reference"] != "*s"]
+
+    df_filtered['reference'] = df_filtered['reference'].apply(lambda x: extract_text(x))
+    df_filtered = df_filtered[df_filtered['reference'] != ""]
+    df_filtered = df_filtered.drop_duplicates(subset='reference', keep='last')
+    df_filtered['hypothesis'] = df_filtered['hypothesis'].apply(lambda x: x if x.strip() != '' else '[SKIPPED]')
+
+    df_filtered.to_csv(filtered_file_name, index=False)
+    print(df_filtered)
+    return df
+
+pattern = r'\((.*?)\)'
+
+def extract_text(text):
+    match = re.search(pattern, text)
+    if match:
+        return match.group(1)
+    else:
+        return text
 

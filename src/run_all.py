@@ -11,6 +11,7 @@ from src.confusion_matrix import main as conf_mat
 
 
 from generalisedbasedir import get_base_dir_for_generalised_path
+from get_base_dir_for_generalised_path_unaligned_json import get_base_dir_for_generalised_path_unaligned_json
 from glob_properties import generate_file_properties
 from textgrid import load_text_grid_as_df
 from wav2vec2_asr import wav2vec2_asr
@@ -30,14 +31,13 @@ def main():
     sctk_run_aligned()
     conf_mat()
 
-# Do not use: 'S04C031M2_1LGPseudo' & 'S07C049M8_1LG'
+# Do not use: 'S07C049M8_1LG'
 def main_generalised():
     print("- Running generalised process -")
     base_dir = get_base_dir_for_generalised_path()
     base_output_dir_in_repo = get_abs_folder_path("output")
-    wav_files = glob(f"{base_dir}/**/*.wav", recursive=True)
-    # No pseudo
-    # wav_files = glob(f"{base_dir}/**/*LG.wav", recursive=True)
+    wav_files = glob(f"{base_dir}/**/*LG.wav", recursive=True)
+    # print(wav_files)
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
     participant_sessions = get_participant_sessions_with_textgrids(wav_files_with_properties, base_dir)
 
@@ -61,3 +61,6 @@ def main_generalised():
 
     if len(failed_runs) > 0:  
         print(failed_runs)
+
+    base_dir_unaligned_json = get_base_dir_for_generalised_path_unaligned_json()
+    print(f"SUCCESFULLY RAN, FILEPATH FOR JSON UNALIGNED:{base_dir_unaligned_json}")
