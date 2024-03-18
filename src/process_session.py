@@ -1,6 +1,6 @@
 
 import pandas as pd
-from models.participant_session import ParticipantSession
+from models.participant_session import ParticipantSession, ProcessedParticipantSession
 from sctk import run_sctk
 from sctk_align import get_repr_df
 from textgrid import load_text_grid_as_df, use_text_grids
@@ -8,7 +8,7 @@ from wav2vec2_asr import wav2vec2_asr
 from os.path import join
 from os import makedirs
 
-def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
+def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str) -> ProcessedParticipantSession:
     print(f"\nProcessing {sesh.participant_audio_id}")
     sesh_audio_id_words = f"{sesh.participant_audio_id}-words"
     wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
@@ -26,10 +26,6 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
     )
     asr_hyp_transcription_df.to_csv(hyp_csv_path, index=False)
 
-    # tgt_df_repr = pd.DataFrame().from_dict({
-    #     'orthography': pd.Series(["words_1", "words_2", "words_3"])
-    # })
-
     tgt_df_repr = use_text_grids(sesh.textgrid_participant_file.full_file_path)
     tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
     
@@ -45,6 +41,7 @@ def process_session(sesh: ParticipantSession, base_output_dir_in_repo: str):
         hyp_csv_path=hyp_csv_path,
     )
 
-    return {
-        'base_session_path': base_session_folder,
-    }
+    return ProcessedParticipantSession(
+        base_session_folder=base_session_folder,
+        sctk_out_unaligned_folder=sctk_output_folder
+    )

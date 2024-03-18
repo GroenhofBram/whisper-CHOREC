@@ -2,6 +2,7 @@ import json
 import os
 import re
 import pandas as pd
+from glob import glob
 
 from src.islinux import is_linux
 
@@ -15,24 +16,27 @@ def main():
     df_data_words = json_to_df(json_data)
 
 
-def get_file_path():
+def get_file_paths():
     if is_linux():
-        pth = os.path.abspath(os.path.join(__file__, "../../report/hyp1.trn.pra.json"))
-        print(pth)
-        return pth
-    return "D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json"
+        base_dir = os.path.abspath(os.path.join(__file__, "../../output"))
+    else:
+        base_dir = "D:\\repos\\wav2vec-CHOREC\\output"
+    
+    # Somehow need to store what's betweeen output & sctk_out_unaligned
+    file_paths = glob(f"{base_dir}/**/**/*.json")
+    return file_paths
 
 
 def read_json():
-    # file_path = Path("D:\\repos\\wav2vec-CHOREC\\report\\hyp1.trn.pra.json")
+    file_paths = get_file_paths()
 
-    file_path = get_file_path()
+    # With a loop(?)
+    for file in file_paths:    
+        with open(file_paths, "r") as fp:
+            # file_data = file.readlines()
+            return json.load(fp)
     
-    with open(file_path, "r") as fp:
-        # file_data = file.readlines()
-        return json.load(fp)
-    
-def extract_json(json_data) -> dict: # Type hinting
+def extract_json(json_data) -> dict: # Line 25, needs to be used here I think?
     json_data_words = json_data["speakers"]['S01C002V1_2LG']['(S01C002V1_2LG-words)']["words"]
 
     return json_data_words

@@ -3,15 +3,16 @@ import os
 import re
 import pandas as pd
 
+from json_load_file import extract_words_from_json, load_json_file
+from src.extract_text import extract_text
 from src.islinux import is_linux
 
 
 def main():
     json_data = read_json()
     
-    json_data_words = extract_json(json_data)
+    json_data_words = extract_words_from_json(json_data)
 
-    print("Parsing json")
     df_data_words = json_to_df(json_data)
 
 
@@ -28,15 +29,8 @@ def read_json():
 
     file_path = get_file_path()
     
-    with open(file_path, "r") as fp:
-        # file_data = file.readlines()
-        return json.load(fp)
+    return load_json_file(file_path)
     
-def extract_json(json_data) -> dict: # Type hinting
-    json_data_words = json_data["speakers"]['S01C002V1_2LG']['(S01C002V1_2LG-words)']["words"]
-
-    return json_data_words
-
 
 def json_to_df(json_data_words):
     speaker_list = []
@@ -83,12 +77,7 @@ def json_to_df(json_data_words):
     print(df_filtered)
     return df
 
-pattern = r'\((.*?)\)'
 
-def extract_text(text):
-    match = re.search(pattern, text)
-    if match:
-        return match.group(1)
-    else:
-        return text
+
+
 
