@@ -89,19 +89,9 @@ def json_to_df(json_data_words):
     df_filtered = df_filtered.drop_duplicates(subset='reference', keep='last')
     df_filtered['hypothesis'] = df_filtered['hypothesis'].apply(lambda x: x if x.strip() != '' else 'SKIPPED')
 
-        # for index, row in df.iterrows():
-    #     reference = row['reference']
-    #     hypothesis = row['hypothesis']
-    #     if reference in hypothesis:
-    #         df_filtered.at[index, 'hypothesis'] = reference
-    #         df_filtered.at[index, 'evaluation_label'] = 'C'
+
 
     hypothesis_values = df['hypothesis'].unique()
-    print(hypothesis_values)
-    if "hoofdijn" in hypothesis_values:
-        print("GEVONDEN")
-    else:
-        print("NIET GEVONDEN")
 
     for index, row in df_filtered.iterrows():
         reference = row['reference']

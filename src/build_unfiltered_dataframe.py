@@ -38,8 +38,19 @@ def build_unfiltered_and_filtered_dataframes(json_data: dict, base_dir: str) -> 
     df_filtered['reference'] = df_filtered['reference'].apply(lambda x: extract_text(x))
     df_filtered = df_filtered[df_filtered['reference'] != ""]
     df_filtered = df_filtered.drop_duplicates(subset='reference', keep='last')
-    df_filtered['hypothesis'] = df_filtered['hypothesis'].apply(lambda x: x if x.strip() != '' else 'o')
+    df_filtered['hypothesis'] = df_filtered['hypothesis'].apply(lambda x: x if x.strip() != '' else '[SKIPPED]')
     filtered_df_file_name = 'session_df_filtered.csv'
+
+    hypothesis_values = df['hypothesis'].unique()
+
+    for index, row in df_filtered.iterrows():
+        reference = row['reference']
+        
+        
+        if reference in hypothesis_values:
+            df_filtered.at[index, 'hypothesis'] = reference
+            df_filtered.at[index, 'evaluation_label'] = 'C'
+
     df_filtered.to_csv(filtered_df_file_name, index=False)
 
     return FilteredDataframeSession(

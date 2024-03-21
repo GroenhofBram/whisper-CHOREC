@@ -97,9 +97,9 @@ def export_conf_matrix(base_dir, conf_matrix):
     file_name = 'Conf_matrix.csv'
     file_path = os.path.join(base_dir, file_name)
     
-    # Are these useful?
-    descriptions = np.array([['TN', 'FP'],
-                             ['FN', 'TP']])
-    conf_matrix_with_desc = np.hstack((descriptions, conf_matrix))
+    # # Are these useful?
+    # descriptions = np.array([['TN', 'FP'],
+    #                          ['FN', 'TP']])
+    # conf_matrix_with_desc = np.hstack((descriptions, ))
     
-    np.savetxt(file_path, conf_matrix_with_desc, delimiter=',', fmt='%s')
+    np.savetxt(file_path, conf_matrix, delimiter=',', fmt='%s')
