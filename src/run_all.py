@@ -38,6 +38,7 @@ def main_generalised():
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
     participant_sessions = get_participant_sessions_with_textgrids(wav_files_with_properties, base_dir)
 
+    print(participant_sessions)
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
