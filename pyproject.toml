@@ -29,7 +29,7 @@ conf_mat = 'src.confusion_matrix:main'
 run_all = 'src.run_all:main'
 rag = 'src.run_all:main_generalised'
 testing = 'src.testing:main'
-testing_SNR = 'src.testing2:main'
+SNR = 'src.get_snr_data:main'
 
 [build-system]
 requires = ["poetry-core"]

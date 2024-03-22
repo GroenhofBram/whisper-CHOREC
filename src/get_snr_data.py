@@ -13,9 +13,13 @@ from pathing import get_abs_folder_path
 
 def main():
     base_dir = get_base_dir_for_generalised_path()
-    base_output_dir_in_repo = get_abs_folder_path("output")
-    wav_files = glob(f"{base_dir}/**/*LG.wav", recursive=True)
-    # print(wav_files)
+    # base_output_dir_in_repo = get_abs_folder_path("output")
+
+    wav_file_folders = os.path.join(base_dir, "output")
+    wav_files_in_folder = os.path.join(wav_file_folders, "**/*LG.wav")
+
+    wav_files = glob(wav_files_in_folder, recursive=True)
+    print(wav_files)
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
     participant_sessions = get_participant_sessions_with_textgrids(wav_files_with_properties, base_dir)
     participant_SNR_df_empty = get_empty_SNR_df(participant_sessions)
@@ -27,11 +31,13 @@ def export_participant_SNR_df_filled_to_csv(participant_SNR_df_filled):
     file_name = os.path.join(output_folder, "SNR_data.csv")
 
     participant_SNR_df_filled.to_csv(file_name, index=False)
+    print(f"SNR saved at: {file_name}")
 
 
 def get_empty_SNR_df(participant_sessions):
     participant_list = fill_participant_list(participant_sessions)
-    participant_SNR_df_empty = pd.DataFrame(participant_list)
+    #participant_SNR_df_empty = pd.DataFrame(participant_list)
+    participant_SNR_df_empty = pd.DataFrame(participant_list, columns=['id', 'SNR'])  
     return participant_SNR_df_empty
 
 def fill_participant_list(participant_sessions) -> list:
@@ -58,6 +64,7 @@ def fill_SNR_values(wav_files, participant_SNR_df_empty):
             participant_SNR_df_empty.at[index, 'SNR'] = snr
         else:
             print(f"No WAV file found for participant {participant_audio_id}")
+    participant_SNR_df_empty['SNR'] = participant_SNR_df_empty['SNR'].astype(float)
     return participant_SNR_df_empty
 
 def find_wav_file(wav_files, participant_audio_id):

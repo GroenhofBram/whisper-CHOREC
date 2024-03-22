@@ -1,3 +1,4 @@
+from os import makedirs
 from os.path import join
 
 from pandas import DataFrame, concat, read_csv
@@ -76,10 +77,15 @@ def main_generalised():
 
 
 def process_all_conf_matrices(base_dir: str):
-    conf_mat_big_file_name = join(base_dir, "all_data_output", "total_conf_matrix.csv")
+    conf_mat_output_folder = join(base_dir, "all_data_output")
+    makedirs(conf_mat_output_folder, exist_ok=True)
+    conf_mat_big_file_name = join(conf_mat_output_folder, "total_conf_matrix.csv")
+
+
+
     empty_conf_mat_df = DataFrame([[0, 0], [0, 0]], index=None)
     # print(empty_conf_mat_df)
-    for data_file_path in glob(f"{base_dir}/**/all_data/Conf_matrix.csv")[0:4]:
+    for data_file_path in glob(f"{base_dir}/**/all_data/Conf_matrix.csv"):
         loaded_df = read_csv(data_file_path, header=None)
         empty_conf_mat_df = empty_conf_mat_df.add(loaded_df, fill_value=0)
     empty_conf_mat_df.to_csv(conf_mat_big_file_name, index=False, header=None)
@@ -92,9 +98,8 @@ def process_all_data_files(base_dir: str):
 
     base_df = DataFrame(columns=["id","prompt","reference","hypothesis","prompts_plus_orth","prompts_plus_hypo"])
 
-    for data_file_path in all_data_files[0:4]:
+    for data_file_path in all_data_files:
         loaded_df = read_csv(data_file_path)
-        print(loaded_df)
         base_df = concat([base_df, loaded_df])
     base_df.to_csv(conf_mat_big_file_name, index=False)
     
