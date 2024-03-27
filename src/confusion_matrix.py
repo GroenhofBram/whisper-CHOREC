@@ -98,7 +98,7 @@ def export_conf_matrix(base_dir, conf_matrix):
     file_path = os.path.join(base_dir, file_name)
     
     # # Are these useful?
-    # descriptions = np.array([['TN', 'FP'],
+    # descriptions = np.aTN rray([['TN', 'FP'],
     #                          ['FN', 'TP']])
     # conf_matrix_with_desc = np.hstack((descriptions, ))
     
