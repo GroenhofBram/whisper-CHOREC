@@ -24,13 +24,13 @@ from participantsession import  get_participant_sessions_with_textgrids
 from glob import glob
 
 
-def main():
-    wav2vec2chorec_main()
-    sctk_run_unaligned()
-    wav2vec2chorec_json()
-    align_filtered()
-    sctk_run_aligned()
-    conf_mat()
+# def main():
+#     wav2vec2chorec_main()
+#     sctk_run_unaligned()
+#     wav2vec2chorec_json()
+#     align_filtered()
+#     sctk_run_aligned()
+#     conf_mat()
 
 # Do not use: 'S07C049M8_1LG'
 def main_generalised():
