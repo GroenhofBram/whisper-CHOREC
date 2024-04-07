@@ -14,9 +14,16 @@ def main():
     print(f"Generating confusion matrix and matrix for:\t {conf_mat_file_name}")
 
     # # # FILTERS: UNCOMMENT IF YOU WANT DIFFERENT SUBSET OF DATA # # #
+    ## Specific word lists ##
     # all_data_df = filter_df_1LG(all_data_df)
     # all_data_df = filter_df_2LG(all_data_df)
     # all_data_df = filter_df_34LG(all_data_df)
+
+    ## Correct or Incorrect Only ##
+    # HOW TO AVOID DIVISION BY 0 FOR Metrics? --> Does it even make sense to calculate these metrics?
+    # all_data_df = filter_df_corr_only(all_data_df)
+    # all_data_df = filter_df_incorr_only(all_data_df)
+
 
     print(all_data_df)
 
@@ -49,6 +56,16 @@ def filter_df_34LG(all_data_df):
     
     return df_34LG
 
+def filter_df_corr_only(all_data_df):
+    df_corr_only = all_data_df[all_data_df['prompts_plus_orth'] == 0]
+    
+    return df_corr_only  
+
+def filter_df_incorr_only(all_data_df):
+    df_incorr_only = all_data_df[all_data_df['prompts_plus_orth'] == 1]
+    
+    return df_incorr_only  
+
 
 def calculate_metrics(conf_matrix):
     tn, fp = conf_matrix[0]
@@ -59,12 +76,15 @@ def calculate_metrics(conf_matrix):
     precision = round(tp / (tp + fp),3)
     recall = round(tp / (tp + fn),3)
     f1_score = round(2 * (precision * recall) / (precision + recall),3)
+    mcc = round((tp * tn - fp * fn) / np.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn)), 3)
+
 
     # Print the results
     print("Accuracy\t:", accuracy)
     print("Precision\t:", precision)
     print("Recall\t\t:", recall)
     print("F1-score\t:", f1_score)
+    print("MCC\t\t:", mcc)
 
 
 def export_conf_matrix_to_csv(conf_matrix, conf_mat_file_name):
@@ -99,4 +119,3 @@ def get_file_name_conf_mat(all_data_csv_dir):
 
     return join(all_data_csv_dir, user_file_name_input)
 
-main()

@@ -30,6 +30,7 @@ run_all = 'src.run_all:main'
 rag = 'src.run_all:main_generalised'
 testing = 'src.testing:main'
 SNR = 'src.get_snr_data:main'
+metrics = 'src.get_metrics:main'
 
 [build-system]
 requires = ["poetry-core"]
