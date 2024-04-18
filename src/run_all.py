@@ -5,8 +5,9 @@ from pandas import DataFrame, concat, read_csv
 
 from align_filtered_dataframe import create_aligned_csvs
 from coltolist import column_to_list
+from constants import WAV2VEC2_MODEL_NAME_FLDR
 from csvtodataframe import csv_to_df
-from pathing import get_abs_folder_path
+from pathing import get_abs_folder_path, get_base_dir_folder_path
 from process_confmatrix import process_conf_matrix
 from process_session import process_session
 from processunaligned import process_unaligned_json_to_filtered_csv
@@ -36,7 +37,8 @@ from glob import glob
 def main_generalised():
     print("- Running generalised process -")
     base_dir = get_base_dir_for_generalised_path()
-    base_output_dir_in_repo = get_abs_folder_path("output")
+    base_output_dir_in_repo = get_base_dir_folder_path("output", WAV2VEC2_MODEL_NAME_FLDR)
+    makedirs(base_output_dir_in_repo, exist_ok=True)
     wav_files = glob(f"{base_dir}/**/*LG.wav", recursive=True)
     # print(wav_files)
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
@@ -46,7 +48,7 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
-    for sesh in []:
+    for sesh in participant_sessions:
         try:
             processed_session = process_session(sesh, base_output_dir_in_repo)
             filtered_df_session = process_unaligned_json_to_filtered_csv(sesh, processed_session)
