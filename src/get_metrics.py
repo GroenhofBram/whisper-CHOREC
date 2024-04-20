@@ -6,6 +6,8 @@ import pandas as pd
 import numpy as np
 import csv
 
+from constants import WAV2VEC2_MODEL_NAME_FLDR
+
 def main():
     all_data_csv_dir, all_data_csv_file_path = get_all_data_csv_file_path()
     all_data_df = read_in_all_data_csv(all_data_csv_file_path)
@@ -69,6 +71,8 @@ def filter_df_incorr_only(all_data_df):
 
 def calculate_metrics(conf_matrix):
     tn, fp = conf_matrix[0]
+    
+
     fn, tp = conf_matrix[1]
 
     
@@ -106,7 +110,8 @@ def get_binary_lists(all_data_df):
 def get_all_data_csv_file_path():
     base_output_dir_in_repo = get_abs_folder_path("output")
     
-    all_data_csv_dir = join(base_output_dir_in_repo, "all_data_output")
+    all_data_csv_dir = join(base_output_dir_in_repo, WAV2VEC2_MODEL_NAME_FLDR)
+    all_data_csv_dir = join(all_data_csv_dir, "all_data_output")
     all_data_csv_file_path = join(all_data_csv_dir, "total_alldata_df.csv")
     return all_data_csv_dir, all_data_csv_file_path 
 
