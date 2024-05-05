@@ -2,8 +2,6 @@
 import tgt
 import pandas as pd
 
-from clean_reading_error import clean_reading_error_column
-from src.file_path import get_file_path
 
 def lambda_fn(f) -> str:
     print(f)

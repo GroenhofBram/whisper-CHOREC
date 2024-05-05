@@ -49,7 +49,7 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
-    for sesh in []:
+    for sesh in participant_sessions:
         try:
             processed_session = process_session(sesh, base_output_dir_in_repo)
             filtered_df_session = process_unaligned_json_to_filtered_csv(sesh, processed_session)
