@@ -15,7 +15,7 @@ def create_participant_file(full_file_path: str, input: str):
         file_name=file_name,
     )
 
-def generate_file_properties(files_glob: list[str], base_dir: str) -> list[dict]:
-    participant_files = map(lambda file_path: create_participant_file(file_path, base_dir), files_glob)
+def generate_file_properties(files_glob: list[str], base_dir: str) -> list[ParticipantFile]:
+    participant_files: map[ParticipantFile] = map(lambda file_path: create_participant_file(file_path, base_dir), files_glob)
     # print(list(f_repl)[-1])
     return list(participant_files)

@@ -3,7 +3,7 @@ import pandas as pd
 from models.participant_session import ParticipantSession, ProcessedParticipantSession
 from sctk import run_sctk
 from sctk_align import get_repr_df
-from textgrid import load_text_grid_as_df, use_text_grids
+from textgrid import use_text_grids
 from wav2vec2_asr import wav2vec2_asr
 from os.path import join
 from os import makedirs

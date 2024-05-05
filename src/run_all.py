@@ -10,6 +10,7 @@ from csvtodataframe import csv_to_df
 from pathing import get_abs_folder_path, get_base_dir_folder_path
 from process_confmatrix import process_conf_matrix
 from process_session import process_session
+from process_snr_data import process_snr_data
 from processunaligned import process_unaligned_json_to_filtered_csv
 from sctk_align import get_repr_df
 from src.wav2vec2chorec import main as wav2vec2chorec_main
@@ -48,7 +49,7 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
-    for sesh in participant_sessions:
+    for sesh in []:
         try:
             processed_session = process_session(sesh, base_output_dir_in_repo)
             filtered_df_session = process_unaligned_json_to_filtered_csv(sesh, processed_session)
@@ -75,6 +76,7 @@ def main_generalised():
     
     process_all_conf_matrices(base_dir=base_output_dir_in_repo)
     process_all_data_files(base_dir=base_output_dir_in_repo)
+    process_snr_data(base_dir=base_output_dir_in_repo, sessions=participant_sessions)
 
 
 

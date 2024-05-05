@@ -20,10 +20,10 @@ def get_textgrid_files_matching_wav(wav_participant_file: ParticipantFile, parti
 def get_participant_sessions_with_textgrids(
     wav_files: list[ParticipantFile],
     glob_search_base_dir: str,
-):
+) -> list[ParticipantSession]:
     participant_sessions: list[ParticipantSession] = []
     for wav_participant_file in wav_files:
-        ## todo: find relevant participant sessio
+        
         participant_audio_id = wav_participant_file.wav_participant_full()
         matching_textgrid_globs = get_textgrid_files_matching_wav(wav_participant_file=wav_participant_file, participant_audio_id=participant_audio_id)
         
