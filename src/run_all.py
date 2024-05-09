@@ -49,6 +49,7 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
+    # [0:2]
     for sesh in participant_sessions:
         try:
             processed_session = process_session(sesh, base_output_dir_in_repo)
