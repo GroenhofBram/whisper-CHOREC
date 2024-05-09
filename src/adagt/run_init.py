@@ -8,7 +8,7 @@ def main():
     print("Aligning...")
 
     # Take values from prompt as string.
-    # Take values from ASR output.
+    # Take values from ASR output (wav2vec2_ran_transforms_asr_transcription).
     # Store df that is returned (prompt column already exists, aligned_asrTrans is what we need).
     # Get output similar to sctk so metrics can be calculated ("total_alldata_df.csv")
     aligned_df = two_way_alignment('this is some nice words', 'this is as asd asf faas as as som wirds')
