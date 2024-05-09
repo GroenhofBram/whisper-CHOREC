@@ -46,6 +46,6 @@ def use_text_grids(tgt_file_name):
     tgt_df_repr = tgt_df_repr.drop(columns=['index', 'tier_type', 'tier_name', 'start_time', 'text'])
     tgt_df_repr = tgt_df_repr.rename(columns={"reading_errs": "orthography"})
 
-    breakpoint()
+    # breakpoint()
 
     return tgt_df_repr

@@ -5,8 +5,16 @@ from adagt import string_manipulations as strman
 
 
 def main():
-    print('allo')
-    print(two_way_alignment('this is some nice words', 'this is som wirds'))
+    print("Aligning...")
+
+    # Take values from prompt as string.
+    # Take values from ASR output.
+    # Store df that is returned (prompt column already exists, aligned_asrTrans is what we need).
+    # Get output similar to sctk so metrics can be calculated ("total_alldata_df.csv")
+    aligned_df = two_way_alignment('this is some nice words', 'this is as asd asf faas as as som wirds')
+    asr_aligned_list = aligned_df["aligned_asrTrans"].tolist() 
+    print(asr_aligned_list)
+    return asr_aligned_list
 
 
 def determineCorrectness(row):
