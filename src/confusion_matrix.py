@@ -51,7 +51,7 @@ def fill_binary_cols(base_df_empty_binaries):
      return base_df_binaries
 
 def fill_binary_values(base_df_empty_binaries):
-     base_df_empty_binaries.loc[base_df_empty_binaries['prompt'] != base_df_empty_binaries['reference'], 'prompts_plus_orth'] = 1
+     base_df_empty_binaries.loc[base_df_empty_binaries['prompt'] != base_df_empty_binaries['orthography'], 'prompts_plus_orth'] = 1
      base_df_empty_binaries.loc[base_df_empty_binaries['prompt'] != base_df_empty_binaries['hypothesis'], 'prompts_plus_hypo'] = 1
      return base_df_empty_binaries
 

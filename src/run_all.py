@@ -3,28 +3,16 @@ from os.path import join
 
 from pandas import DataFrame, concat, read_csv
 
-from align_filtered_dataframe import create_aligned_csvs
-from coltolist import column_to_list
 from constants import WAV2VEC2_MODEL_NAME_FLDR
-from csvtodataframe import csv_to_df
-from pathing import get_abs_folder_path, get_base_dir_folder_path
+from pathing import get_base_dir_folder_path
 from process_confmatrix import process_conf_matrix
-from process_session import process_session
 from process_snr_data import process_snr_data
-from processunaligned import process_unaligned_json_to_filtered_csv
-from sctk_align import get_repr_df
-from src.wav2vec2chorec import main as wav2vec2chorec_main
-from src.sctkrun import main as sctk_run_unaligned
-from src.wav2vec2chorecjson import main as wav2vec2chorec_json
-from src.filteredalignment import main as align_filtered
-from src.sctk_run_aligned import main as sctk_run_aligned
-from src.confusion_matrix import main as conf_mat
-
 from generalisedbasedir import get_base_dir_for_generalised_path
 from glob_properties import generate_file_properties
 from participantsession import  get_participant_sessions_with_textgrids
 from glob import glob
-
+from textgrid import use_text_grids
+from wav2vec2_asr import wav2vec2_asr
 
 # def main():
 #     wav2vec2chorec_main()
@@ -50,17 +38,23 @@ def main_generalised():
 
     failed_runs = []
     # [0:2]
-    for sesh in participant_sessions:
+    for sesh in participant_sessions[0:2]:
         try:
-            processed_session = process_session(sesh, base_output_dir_in_repo)
-            filtered_df_session = process_unaligned_json_to_filtered_csv(sesh, processed_session)
-            aligned_session = create_aligned_csvs(
-                f_df=filtered_df_session.filtered_df,
-                participant_audio_id=sesh.participant_audio_id,
-                base_dir=processed_session.base_session_folder
-            )
+            base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
+            makedirs(base_session_folder, exist_ok=True)
+            print(f"Processing Confusion matrix for base path {base_session_folder} ---- {sesh.participant_audio_id}")
+            tgt_df_repr = use_text_grids(sesh.textgrid_participant_file.full_file_path)
+            # reference column
+            tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
+            # hypothesis column 
+            wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
 
-            ret = process_conf_matrix(aligned_session, filtered_df_session.filtered_df, sesh.participant_audio_id, processed_session.base_session_folder)
+            process_conf_matrix(
+                asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 
+                participant_audio_id=sesh.participant_audio_id, 
+                base_session_folder=base_session_folder,
+                ortho_df=tgt_df_repr,
+            )
 
         except Exception as e:
             msg = e

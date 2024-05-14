@@ -12,7 +12,7 @@ def main():
     # Store df that is returned (prompt column already exists, aligned_asrTrans is what we need).
     # Get output similar to sctk so metrics can be calculated ("total_alldata_df.csv")
     aligned_df = two_way_alignment('this is some nice words', 'this is as asd asf faas as as som wirds')
-    asr_aligned_list = aligned_df["aligned_asrTrans"].tolist() 
+    asr_aligned_list = aligned_df["aligned_asrTrans"].tolist() # reference? 
     print(asr_aligned_list)
     return asr_aligned_list
 
@@ -21,7 +21,7 @@ def determineCorrectness(row):
     return row['prompt'] in row['aligned_asrTrans'] or row['prompt'] in row['reversed_aligned_asrTrans']
 
 
-def two_way_alignment(prompt, asrTrans):
+def two_way_alignment(prompt: str, asrTrans: str):
     # Preprocess strings -> replace spaces with |
     prompt = prompt.replace(" ", "|")
     asrTrans = asrTrans.replace(" ", "|")
