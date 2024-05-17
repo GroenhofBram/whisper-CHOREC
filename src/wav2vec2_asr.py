@@ -16,5 +16,6 @@ def wav2vec2_asr(input_participant_wav_file: ParticipantFile) -> str:
     output = pipe(file_path, chunk_length_s=10, stride_length_s=(4, 2))
 
     ASR_transcription = regex_sub(r'\s+', ' ', output['text'])
+    ASR_transcription = regex_sub(r'[?.!,]', '', ASR_transcription)
 
     return ASR_transcription

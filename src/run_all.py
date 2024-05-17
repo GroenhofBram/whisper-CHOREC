@@ -38,7 +38,7 @@ def main_generalised():
 
     failed_runs = []
     # [0:2]
-    for sesh in participant_sessions[0:20]:
+    for sesh in participant_sessions[2:4]:
         try:
             base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
             makedirs(base_session_folder, exist_ok=True)
