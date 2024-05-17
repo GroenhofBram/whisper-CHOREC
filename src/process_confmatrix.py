@@ -62,6 +62,8 @@ def process_df(participant_audio_id: str, asr_transcriptions: str, ortho_df: Dat
     base_df_with_binaries = add_binaries(base_df)
     base_df_with_binaries = base_df_with_binaries.drop(columns=['correct'])
     base_df_with_binaries['id'] = participant_audio_id
+    base_df_with_binaries.rename(columns = {"orthography": "reference"})
+
     print("\nDF WITH BINARIES")
     print(base_df_with_binaries)
 
