@@ -45,7 +45,7 @@ def generate_df(prompts_list: list[str], asr_transcriptions: str):
     print('abc')
     aligned_df = two_way_alignment(prompts, asr_transcriptions.lower())
     print('def')
-    return aligned_df.reset_index().rename(columns={"index": "prompt", "aligned_asrTrans": "hypothesis"})
+    return aligned_df.reset_index().rename(columns={"index": "prompt", "aligned_asrTrans": "hypothesis", "reversed_aligned_asrTrans": "hypothesis_rev"})
     
 # DF created for binaries
 def process_df(participant_audio_id: str, asr_transcriptions: str, ortho_df: DataFrame):
@@ -60,6 +60,7 @@ def process_df(participant_audio_id: str, asr_transcriptions: str, ortho_df: Dat
     print("\nDF WITHOUT BINARIES")
     print(base_df)
     base_df_with_binaries = add_binaries(base_df)
+    base_df_with_binaries = base_df_with_binaries.drop(columns=['correct'])
     print("\nDF WITH BINARIES")
     print(base_df_with_binaries)
     return base_df_with_binaries
