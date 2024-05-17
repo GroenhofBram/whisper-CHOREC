@@ -58,6 +58,8 @@ def process_df(participant_audio_id: str, asr_transcriptions: str, ortho_df: Dat
     print(ortho_df)
     base_df = concat([end_df, ortho_df["orthography"]], axis=1)
     print("\nDF WITHOUT BINARIES")
+    print(base_df)
     base_df_with_binaries = add_binaries(base_df)
     print("\nDF WITH BINARIES")
+    print(base_df_with_binaries)
     return base_df_with_binaries
