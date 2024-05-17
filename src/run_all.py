@@ -49,6 +49,9 @@ def main_generalised():
             # hypothesis column 
             wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
 
+            print(f"\n ASR TRANSCRIPTION FOR {sesh.participant_audio_id}")
+            print(f"\t{wav2vec2_ran_transforms_asr_transcription}")
+
             process_conf_matrix(
                 asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 
                 participant_audio_id=sesh.participant_audio_id, 

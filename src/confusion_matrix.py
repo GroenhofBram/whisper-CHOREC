@@ -54,7 +54,11 @@ def fill_binary_cols(base_df_empty_binaries):
 def fill_binary_values(base_df_empty_binaries):
      base_df_empty_binaries.loc[base_df_empty_binaries['reference'] != "CORRECTLY_READ", "prompts_plus_orth"] = 1
 
-     base_df_empty_binaries.loc[base_df_empty_binaries['prompt'] != base_df_empty_binaries['hypothesis'], 'prompts_plus_hypo'] = 1
+     # NEEDED: CHECK ASR OUTPUTS
+     base_df_empty_binaries['prompts_plus_hypo'] = base_df_empty_binaries.apply(
+          lambda row: 1 if row['prompt'] not in row['hypothesis'] and row['prompt'] not in row['hypothesis_rev'] else 0,
+          axis=1)
+
      return base_df_empty_binaries
 
 def add_binary_cols(base_df):
