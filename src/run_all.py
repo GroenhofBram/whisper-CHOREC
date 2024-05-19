@@ -37,8 +37,11 @@ def main_generalised():
     print(f"\nFound sessions: {len(participant_sessions)}")
 
     failed_runs = []
-    # [0:2]
+    # [0:3] --> [4:7]
     for sesh in participant_sessions:
+        print("\n\t ====================================================================")
+        print(f"\nCURRENTLY PROCESSING {sesh}")
+        print("\n\t ====================================================================")
         try:
             base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
             makedirs(base_session_folder, exist_ok=True)
