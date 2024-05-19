@@ -42,9 +42,7 @@ def get_prompt_file_name(participant_audio_id: str):
 
 def generate_df(prompts_list: list[str], asr_transcriptions: str):
     prompts = " ".join(prompts_list)
-    print('abc')
     aligned_df = two_way_alignment(prompts, asr_transcriptions.lower())
-    print('def')
     return aligned_df.reset_index().rename(columns={"index": "prompt", "aligned_asrTrans": "hypothesis", "reversed_aligned_asrTrans": "hypothesis_rev"})
     
 # DF created for binaries
