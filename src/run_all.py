@@ -51,6 +51,7 @@ def main_generalised():
 
             print(f"\n ASR TRANSCRIPTION FOR {sesh.participant_audio_id}")
             print(f"\t{wav2vec2_ran_transforms_asr_transcription}")
+            print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 
             process_conf_matrix(
                 asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 

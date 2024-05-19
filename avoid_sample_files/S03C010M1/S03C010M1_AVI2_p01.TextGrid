@@ -1,0 +1,256 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 191.904717
+tiers? <exists>
+size = 6
+item []:
+  item [1]:
+    class = "IntervalTier"
+    name = "original task"
+    xmin = 0.000000
+    xmax = 191.926621
+    intervals: size = 4
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 49.994739
+      text = "het brood is op. <br> de kaas is ook bijna op. <br> mama zegt: ik ga naar de winkel. <br> ik haal een brood bij de bakker. <br> en daarna koop ik kaas. <br> wie gaat er mee?"
+    intervals [2]:
+      xmin = 49.994739
+      xmax = 89.767981
+      text = "ik ga mee, roept tom. <br> en ik haal poes, zegt an. <br> want poes gaat graag naar buiten. <br> mama stopt haar in een mand."
+    intervals [3]:
+      xmin = 89.767981
+      xmax = 138.565941
+      text = "an staat al klaar en wacht. <br> ze heeft haar jas aan. <br> maar waar is tom naar toe? <br> tom zoekt zijn schoen. <br> waar is die schoen toch?"
+    intervals [4]:
+      xmin = 138.565941
+      xmax = 191.926621
+      text = "ik tel tot tien, roept mama. <br> tom zoekt en zoekt maar door. <br> waar blijf je? vraagt mama. <br> de schoen ligt onder zijn bed. <br> snel loopt hij de gang in. <br> oef, net op tijd."
+  item [2]:
+    class = "IntervalTier"
+    name = "words to be read"
+    xmin = 0.000000
+    xmax = 191.904717
+    intervals: size = 15
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 50.004739
+      text = "het brood is op. de kaas is ook bijna op. mama zegt: ik ga naar de winkel. ik haal een brood bij de bakker. en daarna koop ik kaas. wie gaat er mee?"
+    intervals [2]:
+      xmin = 50.004739
+      xmax = 62.589964
+      text = "ik ga mee, roept tom. en ik haal poes,"
+    intervals [3]:
+      xmin = 62.589964
+      xmax = 67.128716
+      text = "zegt an."
+    intervals [4]:
+      xmin = 67.128716
+      xmax = 89.777981
+      text = "want poes gaat graag naar buiten. mama stopt haar in een mand."
+    intervals [5]:
+      xmin = 89.777981
+      xmax = 92.977599
+      text = "an"
+    intervals [6]:
+      xmin = 92.977599
+      xmax = 98.516244
+      text = "staat"
+    intervals [7]:
+      xmin = 98.516244
+      xmax = 127.507135
+      text = "al klaar en wacht. ze heeft haar jas aan. maar waar is tom naar toe?"
+    intervals [8]:
+      xmin = 127.507135
+      xmax = 128.628116
+      text = ""
+    intervals [9]:
+      xmin = 128.628116
+      xmax = 128.994150
+      text = "<"
+    intervals [10]:
+      xmin = 128.994150
+      xmax = 138.575941
+      text = "tom zoekt zijn schoen. waar is die schoen toch?"
+    intervals [11]:
+      xmin = 138.575941
+      xmax = 160.255076
+      text = "ik tel tot tien, roept mama. tom zoekt en zoekt maar door. waar blijf je? vraagt"
+    intervals [12]:
+      xmin = 160.255076
+      xmax = 161.269750
+      text = "mama."
+    intervals [13]:
+      xmin = 161.269750
+      xmax = 185.690887
+      text = "de schoen ligt onder zijn bed. snel loopt hij de gang in. oef,"
+    intervals [14]:
+      xmin = 185.690887
+      xmax = 189.991793
+      text = "net"
+    intervals [15]:
+      xmin = 189.991793
+      xmax = 191.904717
+      text = "op tijd."
+  item [3]:
+    class = "IntervalTier"
+    name = "orthography"
+    xmin = 0.000000
+    xmax = 191.904717
+    intervals: size = 15
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 50.004739
+      text = "het brood is op de kaas is ook bijna op mama zegt ik ga naar de winkel ik haal een brood bij de bakker en daarna koop ik kaas wie gaat er mee"
+    intervals [2]:
+      xmin = 50.004739
+      xmax = 62.589964
+      text = "ik ga mee roept tom en ik haal poes"
+    intervals [3]:
+      xmin = 62.589964
+      xmax = 67.128716
+      text = "an *x zegt* zegt an"
+    intervals [4]:
+      xmin = 67.128716
+      xmax = 89.777981
+      text = "want poes gaat graag naar buiten mama stopt haar in een mand"
+    intervals [5]:
+      xmin = 89.777981
+      xmax = 92.977599
+      text = "an"
+    intervals [6]:
+      xmin = 92.977599
+      xmax = 98.516244
+      text = "* staat*"
+    intervals [7]:
+      xmin = 98.516244
+      xmax = 127.507135
+      text = "al klaar en wacht ze heeft haar jas aan maar waar is tom naar toe"
+    intervals [8]:
+      xmin = 127.507135
+      xmax = 128.628116
+      text = "hij*i"
+    intervals [9]:
+      xmin = 128.628116
+      xmax = 128.994150
+      text = "*x"
+    intervals [10]:
+      xmin = 128.994150
+      xmax = 138.575941
+      text = "tom zoekt zijn schoen waar is die schoen toch"
+    intervals [11]:
+      xmin = 138.575941
+      xmax = 160.255076
+      text = "ik tel tot tien roept mama tom zoekt en zoekt maar door waar blijf je vraagt"
+    intervals [12]:
+      xmin = 160.255076
+      xmax = 161.269750
+      text = "mama*(ma)"
+    intervals [13]:
+      xmin = 161.269750
+      xmax = 185.690887
+      text = "de schoen ligt onder zijn bed snel loopt hij de gang in oef"
+    intervals [14]:
+      xmin = 185.690887
+      xmax = 189.991793
+      text = "*(en) net"
+    intervals [15]:
+      xmin = 189.991793
+      xmax = 191.904717
+      text = "op tijd"
+  item [4]:
+    class = "IntervalTier"
+    name = "phonetic transcript"
+    xmin = 0.000000
+    xmax = 191.904717
+    intervals: size = 15
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 50.004739
+      text = "h[@/E]t brot Is Op d@ kas Is ok bE+n[a/A] Op mAmA zExt Ik Ga nar d@ wINk@l Ik hal [@/e]n brot bE+ d@ bAk@r En darn[A/a] kop Ik kas wi Gat [@/E]r me"
+    intervals [2]:
+      xmin = 50.004739
+      xmax = 62.589964
+      text = "Ik Ga me rupt tOm En Ik hal pus"
+    intervals [3]:
+      xmin = 62.589964
+      xmax = 67.128716
+      text = "An ne*x z zExt An"
+    intervals [4]:
+      xmin = 67.128716
+      xmax = 89.777981
+      text = "wAnt pus Gat Grax nar bY+t@[n/] mAmA stOpt har In [@/e]n mAnt"
+    intervals [5]:
+      xmin = 89.777981
+      xmax = 92.977599
+      text = "An"
+    intervals [6]:
+      xmin = 92.977599
+      xmax = 98.516244
+      text = "st tat"
+    intervals [7]:
+      xmin = 98.516244
+      xmax = 127.507135
+      text = "Al klar En wAxt z@ heft har jAs an mar war Is tOm nar tu"
+    intervals [8]:
+      xmin = 127.507135
+      xmax = 128.628116
+      text = "hE+*i"
+    intervals [9]:
+      xmin = 128.628116
+      xmax = 128.994150
+      text = "*x"
+    intervals [10]:
+      xmin = 128.994150
+      xmax = 138.575941
+      text = "tOm zukt zE+n sxun war Is di sxun tOx"
+    intervals [11]:
+      xmin = 138.575941
+      xmax = 160.255076
+      text = "Ik tEl tOt tin rupt mAmA tOm zukt En zukt mar dor war blE+f j@ vraxt"
+    intervals [12]:
+      xmin = 160.255076
+      xmax = 161.269750
+      text = "ma"
+    intervals [13]:
+      xmin = 161.269750
+      xmax = 185.690887
+      text = "d@ sxun lIxt Ond@r zE+n bEt snEl lopt hE+ d@ GAN In uf"
+    intervals [14]:
+      xmin = 185.690887
+      xmax = 189.991793
+      text = "En nEt"
+    intervals [15]:
+      xmin = 189.991793
+      xmax = 191.904717
+      text = "Op tE+t"
+  item [5]:
+    class = "IntervalTier"
+    name = "supervisor"
+    xmin = 0.000000
+    xmax = 191.904717
+    intervals: size = 1
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 191.904717
+      text = ""
+  item [6]:
+    class = "IntervalTier"
+    name = "background"
+    xmin = 0.000000
+    xmax = 191.904717
+    intervals: size = 3
+    intervals [1]:
+      xmin = 0.000000
+      xmax = 148.412124
+      text = ""
+    intervals [2]:
+      xmin = 148.412124
+      xmax = 150.608331
+      text = "noise"
+    intervals [3]:
+      xmin = 150.608331
+      xmax = 191.904717
+      text = ""
