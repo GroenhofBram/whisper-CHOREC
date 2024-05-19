@@ -99,7 +99,7 @@ def process_all_data_files(base_dir: str):
     all_data_files = glob(f"{base_dir}/**/all_data/*LG.csv")
     conf_mat_big_file_name = join(base_dir, "all_data_output", "total_alldata_df.csv")
 
-    base_df = DataFrame(columns=["id","prompt","reference","hypothesis","prompts_plus_orth","prompts_plus_hypo"])
+    base_df = DataFrame(columns=["id","prompt","reference","hypothesis", "hypothesis_rev", "prompts_plus_orth","prompts_plus_hypo"])
 
     for data_file_path in all_data_files:
         loaded_df = read_csv(data_file_path)
