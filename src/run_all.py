@@ -39,6 +39,7 @@ def main_generalised():
     existing_output_dirs = os.listdir(base_output_dir_in_repo)
     print("\n- - - EXISTING DIRECTORIES AT START OF PROCESS, THESE WILL BE SKIPPED - - -")
     print(f"{existing_output_dirs}")
+    print(f"\n- - - TOTAL SKIPPED:\t{len(existing_output_dirs)}- - -")
 
     failed_runs = []
     # [0:3] --> [4:7]
