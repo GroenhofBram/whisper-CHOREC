@@ -87,7 +87,7 @@ def main_generalised():
     process_all_conf_matrices(base_dir=base_output_dir_in_repo)
     process_all_data_files(base_dir=base_output_dir_in_repo)
     process_snr_data(base_dir=base_output_dir_in_repo, sessions=participant_sessions)
-
+    # RUN get_metrics.py for metrics!
 
 def process_all_conf_matrices(base_dir: str):
     conf_mat_output_folder = join(base_dir, "all_data_output")
