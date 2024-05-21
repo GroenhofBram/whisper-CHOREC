@@ -32,7 +32,7 @@ def computeSNR(signal, samplingrate, windowsize):
 
 
 def calculate_snr(wav_file_path: str) -> float:
-    print(f"Full file path: ==== {wav_file_path}")
+    print(f"Calculating SNR for: ==== {wav_file_path}")
     sample_rate = 16000
     y,sr = librosa.load(wav_file_path, sr=sample_rate)
     _noiseIntensity, _signalIntensity, snr, _sortedIntensityList, _plot = computeSNR(y, sr, 0.25)
