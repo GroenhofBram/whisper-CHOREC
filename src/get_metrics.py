@@ -23,7 +23,7 @@ def main():
 
     ## Correct or Incorrect Only ##
     # HOW TO AVOID DIVISION BY 0 FOR Metrics? --> Does it even make sense to calculate these metrics?
-    # all_data_df = filter_df_corr_only(all_data_df)
+    all_data_df = filter_df_corr_only(all_data_df)
     # all_data_df = filter_df_incorr_only(all_data_df)
 
 
