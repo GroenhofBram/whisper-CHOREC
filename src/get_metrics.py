@@ -19,11 +19,11 @@ def main():
     ## Specific word lists ##
     # all_data_df = filter_df_1LG(all_data_df)
     # all_data_df = filter_df_2LG(all_data_df)
-    # all_data_df = filter_df_34LG(all_data_df)
+    all_data_df = filter_df_34LG(all_data_df)
 
     ## Correct or Incorrect Only ##
     # HOW TO AVOID DIVISION BY 0 FOR Metrics? --> Does it even make sense to calculate these metrics?
-    all_data_df = filter_df_corr_only(all_data_df)
+    # all_data_df = filter_df_corr_only(all_data_df)
     # all_data_df = filter_df_incorr_only(all_data_df)
 
 
