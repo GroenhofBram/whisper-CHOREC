@@ -32,7 +32,7 @@ def process_conf_matrix(asr_transcriptions: str, participant_audio_id: str, base
     conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
     export_conf_matrix(base_data_dir, conf_matrix)
 
-
+# Prompts
 def get_prompt_file_name(participant_audio_id: str):
     if '2LG' in participant_audio_id:
         return "2LG_words.txt"
