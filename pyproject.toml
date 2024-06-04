@@ -35,6 +35,7 @@ SNR = 'src.get_snr_data:main'
 metrics = 'src.get_metrics:main'
 processmodel = 'src.process_model:main'
 adagt = 'src.adagt.run_init:main'
+post_process = 'src.post_process:main'
 
 [build-system]
 requires = ["poetry-core"]
