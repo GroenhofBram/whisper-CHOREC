@@ -1,6 +1,7 @@
 from os import makedirs
 import pandas as pd
 
+from confusion_matrix import create_confusion_matrix, get_binary_lists
 from constants import WAV2VEC2_MODEL_NAME_FLDR
 from os.path import join
 from pathing import get_abs_folder_path
@@ -17,8 +18,11 @@ def main():
                                                         type = "freq")
     validation_filepath_tomodify = get_validation_filepath("total_alldata_df.csv",
                                                            type = "modify")
+    validation_filepath_confmat = get_validation_filepath("total_alldata_df_V2_ConfMat.csv",
+                                                          type = "confmat")
     check_filepaths(validation_filepath_input, validation_filepath_output,
-                    validaton_filepath_freqdf, validation_filepath_tomodify)
+                    validaton_filepath_freqdf, validation_filepath_tomodify,
+                    validation_filepath_confmat)
 
     validation_df = read_validation_file(validation_filepath_input)
     validation_df_FP_only = filter_FPs(validation_df)
@@ -26,17 +30,47 @@ def main():
     validation_df_FP_freq = get_freq_FP_prompts(validation_df_FP_only)
     export_validation_df_FP_freq(validaton_filepath_freqdf, validation_df_FP_freq)
 
-    # validation_df_working = fix_spaces(validation_df_FP_only)
+    # print(validation_df_FP_only)
+    validation_df_working = fix_spaces(validation_df_FP_only)
+    # print(validation_df_working)
+    new_validation_df = create_new_validation_df(validation_df, validation_df_working)
+    export_new_validation_df(new_validation_df, validation_filepath_output)
 
-    # new_validation_df = create_new_validation_df(validation_df, validation_df_working)
+    ref_list_binary, hyp_list_binary = get_binary_lists(new_validation_df)
+
+    conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
+    print(f"\nNew confusion matrix values:\n{conf_matrix}")
+
+    export_new_confmat(conf_matrix, validation_filepath_confmat)
+
+def export_new_confmat(conf_matrix, validation_filepath_confmat: str):
+    conf_matrix_df = pd.DataFrame(conf_matrix)
+
+    conf_matrix_df.to_csv(validation_filepath_confmat, index = False)
+    print(f"\nNew Confmat stored at\t:{validation_filepath_confmat}")
+
+def export_new_validation_df(new_validation_df, validation_filepath_output):
+    new_validation_df.to_csv(validation_filepath_output, index=False)
+    print(f"\nNew Validation set stored at\t:{validation_filepath_output}")
+
     
 def create_new_validation_df(validation_df, validation_df_working):
-    print("x")
-    # TODO: Write function to combine new and old df for export.
+    combined_df = pd.concat([validation_df, validation_df_working])
+    new_validation_df = combined_df.drop_duplicates(subset=['id', 'prompt'], keep='last')
+    
+    return new_validation_df
+
 
 def fix_spaces(validation_df_FP_only):
-    print("x")
-    # TODO: Write function so that spaces are not taken into account, return new df.
+    for index, row in validation_df_FP_only.iterrows():
+        prompt = row['prompt'].replace(" ", "")
+        hypothesis = row['hypothesis'].replace(" ", "")
+        hypothesis_rev = row['hypothesis_rev'].replace(" ", "")
+        
+        if prompt == hypothesis or prompt == hypothesis_rev:
+            validation_df_FP_only.at[index, 'prompts_plus_hypo'] = 0
+
+    return validation_df_FP_only
 
 
 def export_validation_df_FP_freq(filepath: str, freq_df):
@@ -65,10 +99,15 @@ def get_validation_filepath(file_name: str, type: str):
     
     elif type == "modify":
         csv_to_modify_filepath = join(csv_dir_input, file_name)
-        return csv_to_modify_filepath        
+        return csv_to_modify_filepath
 
-def check_filepaths(s1: str, s2: str, s3: str, s4: str):
-    print(f"\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \nPlease check the filepaths:\nInput\t:{s1}\nOutput\t:{s2}\nFreq\t:{s3}\nMod\t:{s4}\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
+    elif type == "confmat":
+        csv_output_filepath_confmat = join(csv_dir, file_name)
+        return csv_output_filepath_confmat
+
+
+def check_filepaths(s1: str, s2: str, s3: str, s4: str, s5: str):
+    print(f"\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \nPlease check the filepaths:\nInput\t:{s1}\nOutput\t:{s2}\nFreq\t:{s3}\nMod\t:{s4}\nConfMat\t:{s5}\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
     input("\nPress any key to continue...")
 
 def read_validation_file(validation_filepath: str):
