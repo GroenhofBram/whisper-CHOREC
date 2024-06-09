@@ -31,9 +31,13 @@ def main():
     export_validation_df_FP_freq(validaton_filepath_freqdf, validation_df_FP_freq)
 
     # print(validation_df_FP_only)
-    validation_df_working = fix_spaces(validation_df_FP_only)
+    validation_df_working = fix_spaces(validation_df)
     # print(validation_df_working)
     new_validation_df = create_new_validation_df(validation_df, validation_df_working)
+
+    new_validation_df = add_error_scores(new_validation_df)
+    print(new_validation_df)
+
     export_new_validation_df(new_validation_df, validation_filepath_output)
 
     ref_list_binary, hyp_list_binary = get_binary_lists(new_validation_df)
@@ -42,6 +46,50 @@ def main():
     print(f"\nNew confusion matrix values:\n{conf_matrix}")
 
     export_new_confmat(conf_matrix, validation_filepath_confmat)
+
+def add_error_scores(new_validation_df):
+    new_validation_df['score'] = 0
+    new_validation_df["insertions"] = 0
+    new_validation_df["deletions"] = 0
+    new_validation_df["substitutions"] = 0
+
+    new_validation_df['score_rev'] = 0
+    new_validation_df["insertions_rev"] = 0
+    new_validation_df["deletions_rev"] = 0
+    new_validation_df["substitutions_rev"] = 0
+
+    for index, row in new_validation_df.iterrows():
+        prompt_length = len(row['prompt_aligned'])
+        prompt_length_rev = len(row['prompt_aligned_rev'])
+
+        hypothesis = row['hypothesis']
+        prompt_aligned = row['prompt_aligned']
+        
+        hypothesis_rev = row["hypothesis_rev"]
+        prompt_aligned_rev = row["prompt_aligned_rev"]
+        
+        insertions = sum(1 for h, p in zip(hypothesis, prompt_aligned) if h != '*' and p == '*')
+        insertions_rev = sum(1 for h, p in zip(hypothesis_rev, prompt_aligned_rev) if h != '*' and p == '*')
+
+        deletions = sum(1 for h, p in zip(hypothesis, prompt_aligned) if h == '*' and p != '*')
+        deletions_rev = sum(1 for h, p in zip(hypothesis_rev, prompt_aligned_rev) if h == '*' and p != '*')
+
+        substitutions = sum(1 for h, p in zip(hypothesis, prompt_aligned) if h == '*' and p == '*')
+        substitutions_rev = sum(1 for h, p in zip(hypothesis_rev, prompt_aligned_rev) if h == '*' and p == '*')
+        
+        new_validation_df.at[index, 'insertions'] = insertions
+        new_validation_df.at[index, 'insertions_rev'] = insertions_rev
+
+        new_validation_df.at[index, 'deletions'] = deletions    
+        new_validation_df.at[index, 'deletions_rev'] = deletions_rev
+
+        new_validation_df.at[index, 'substitutions'] = substitutions
+        new_validation_df.at[index, 'substitutions_rev'] = substitutions_rev
+
+        new_validation_df.at[index, 'score'] = round( (prompt_length - (insertions + deletions + substitutions) )/(prompt_length), 2)
+        new_validation_df.at[index, 'score_rev'] = round( (prompt_length_rev - (insertions_rev + deletions_rev + substitutions_rev) )/(prompt_length_rev), 2)
+
+    return new_validation_df
 
 def export_new_confmat(conf_matrix, validation_filepath_confmat: str):
     conf_matrix_df = pd.DataFrame(conf_matrix)
