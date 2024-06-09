@@ -42,47 +42,46 @@ def main_generalised():
     print(f"\n- - - TOTAL SKIPPED:\t{len(existing_output_dirs)}- - -")
 
     failed_runs = []
-    # [0:3] --> [4:7]
-    # for sesh in participant_sessions:
-    #     if sesh.participant_audio_id in existing_output_dirs:
-    #         print(f"\nSKIPPING: {sesh.participant_audio_id} BECAUSE IT ALREADY EXISTS\n")
-    #     else:
-    #         print("\n\t ====================================================================")
-    #         print(f"\nCURRENTLY PROCESSING {sesh}")
-    #         print("\n\t ====================================================================")
-    #         try:
-    #             base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
-    #             makedirs(base_session_folder, exist_ok=True)
-    #             print(f"Processing Confusion matrix for base path {base_session_folder} ---- {sesh.participant_audio_id}")
-    #             tgt_df_repr = use_text_grids(sesh.textgrid_participant_file.full_file_path)
-    #             # reference column
-    #             tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
-    #             # hypothesis column 
-    #             wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
+    for sesh in participant_sessions:
+        if sesh.participant_audio_id in existing_output_dirs:
+            print(f"\nSKIPPING: {sesh.participant_audio_id} BECAUSE IT ALREADY EXISTS\n")
+        else:
+            print("\n\t ====================================================================")
+            print(f"\nCURRENTLY PROCESSING {sesh}")
+            print("\n\t ====================================================================")
+            try:
+                base_session_folder = join(base_output_dir_in_repo, sesh.participant_audio_id)
+                makedirs(base_session_folder, exist_ok=True)
+                print(f"Processing Confusion matrix for base path {base_session_folder} ---- {sesh.participant_audio_id}")
+                tgt_df_repr = use_text_grids(sesh.textgrid_participant_file.full_file_path)
+                # reference column
+                tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
+                # hypothesis column 
+                wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
 
-    #             print(f"\n ASR TRANSCRIPTION FOR {sesh.participant_audio_id}")
-    #             print(f"\t{wav2vec2_ran_transforms_asr_transcription}")
-    #             print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
+                print(f"\n ASR TRANSCRIPTION FOR {sesh.participant_audio_id}")
+                print(f"\t{wav2vec2_ran_transforms_asr_transcription}")
+                print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 
-    #             process_conf_matrix(
-    #                 asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 
-    #                 participant_audio_id=sesh.participant_audio_id, 
-    #                 base_session_folder=base_session_folder,
-    #                 ortho_df=tgt_df_repr,
-    #             )
+                process_conf_matrix(
+                    asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 
+                    participant_audio_id=sesh.participant_audio_id, 
+                    base_session_folder=base_session_folder,
+                    ortho_df=tgt_df_repr,
+                )
 
-    #         except Exception as e:
-    #             msg = e
-    #             if hasattr(e, 'message'):
-    #                 msg = e.message
+            except Exception as e:
+                msg = e
+                if hasattr(e, 'message'):
+                    msg = e.message
                 
-    #             failed_runs.append({
-    #                 'id': sesh.participant_audio_id,
-    #                 'ex': msg
-    #             })
+                failed_runs.append({
+                    'id': sesh.participant_audio_id,
+                    'ex': msg
+                })
 
-    # if len(failed_runs) > 0:  
-    #     print(failed_runs)
+    if len(failed_runs) > 0:  
+        print(failed_runs)
     
     process_all_conf_matrices(base_dir=base_output_dir_in_repo)
     process_all_data_files(base_dir=base_output_dir_in_repo)

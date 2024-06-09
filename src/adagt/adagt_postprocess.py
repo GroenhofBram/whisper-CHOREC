@@ -16,4 +16,4 @@ def split_alignments_in_segments(align_ref_rev, align_hyp_rev, align_ref, align_
     align_hyp_list = [align_hyp[indices[idx]: indices[idx+1]]
                       for idx, item in enumerate(indices) if item != 9999][:-1]
 
-    return align_ref_rev_list, align_hyp_rev_list, align_hyp_list
+    return align_ref_rev_list, align_hyp_rev_list, align_hyp_list, align_ref_list
