@@ -59,6 +59,9 @@ def add_error_scores(new_validation_df):
     new_validation_df["substitutions_rev"] = 0
 
     for index, row in new_validation_df.iterrows():
+        print("-------------")
+        print(row)
+        print("-------------")
         prompt_length = len(row['prompt_aligned'])
         prompt_length_rev = len(row['prompt_aligned_rev'])
 
