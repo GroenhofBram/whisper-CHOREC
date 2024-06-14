@@ -30,9 +30,11 @@ def main():
     validation_df_FP_freq = get_freq_FP_prompts(validation_df_FP_only)
     export_validation_df_FP_freq(validaton_filepath_freqdf, validation_df_FP_freq)
 
+
+    # Print to see overview
     # print(validation_df_FP_only)
     validation_df_working = fix_spaces(validation_df)
-    # print(validation_df_working)
+    # print(validation_df_working) 
     new_validation_df = create_new_validation_df(validation_df, validation_df_working)
 
     new_validation_df = add_error_scores(new_validation_df)
