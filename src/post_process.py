@@ -49,6 +49,23 @@ def main():
 
     export_new_confmat(conf_matrix, validation_filepath_confmat)
 
+    threshold = 0.40
+    new_validation_df_levensh = calc_with_Levenshteim_distance(new_validation_df, threshold)
+    new_validation_df_levensh.to_csv("123test123test.csv", index = False)
+
+
+def calc_with_Levenshteim_distance(new_validation_df, threshold):
+    # Iterate over each row in the DataFrame
+    for index, row in new_validation_df.iterrows():
+        # Check if either score or score_rev is higher than the threshold
+        if row['score'] > threshold or row['score_rev'] > threshold:
+            # Set prompts_plus_hypo to 0 for that row
+            new_validation_df.at[index, 'prompts_plus_hypo'] = 0
+    return new_validation_df
+
+
+
+
 def add_error_scores(new_validation_df):
     new_validation_df['score'] = 0
     new_validation_df["insertions"] = 0
