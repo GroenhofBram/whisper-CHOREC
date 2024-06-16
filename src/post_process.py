@@ -52,6 +52,7 @@ def main():
 
     export_new_confmat(conf_matrix, validation_filepath_confmat)
 
+    # CHANGE WHEN NECESSARY
     threshold = 1.00
 
     new_validation_df_levensh = calc_with_Levenshteim_distance(new_validation_df, threshold)
