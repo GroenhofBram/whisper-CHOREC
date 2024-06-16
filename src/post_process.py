@@ -1,4 +1,5 @@
 from os import makedirs
+import os
 import pandas as pd
 
 from confusion_matrix import create_confusion_matrix, get_binary_lists
@@ -20,9 +21,11 @@ def main():
                                                            type = "modify")
     validation_filepath_confmat = get_validation_filepath("total_alldata_df_V2_ConfMat.csv",
                                                           type = "confmat")
+    validation_filepath_confmat_levens = get_validation_filepath("ConfMat.csv",
+                                                          type = "confmat_levens")
     check_filepaths(validation_filepath_input, validation_filepath_output,
                     validaton_filepath_freqdf, validation_filepath_tomodify,
-                    validation_filepath_confmat)
+                    validation_filepath_confmat, validation_filepath_confmat_levens)
 
     validation_df = read_validation_file(validation_filepath_input)
     validation_df_FP_only = filter_FPs(validation_df)
@@ -49,17 +52,33 @@ def main():
 
     export_new_confmat(conf_matrix, validation_filepath_confmat)
 
-    threshold = 0.40
+    threshold = 1.00
+
     new_validation_df_levensh = calc_with_Levenshteim_distance(new_validation_df, threshold)
-    new_validation_df_levensh.to_csv("123test123test.csv", index = False)
+    create_export_new_validation_df_levensh_confmat(new_validation_df_levensh, threshold, validation_filepath_confmat_levens)
+
+def create_export_new_validation_df_levensh_confmat(new_validation_df_levensh, threshold, validation_filepath_confmat_levens):
+    ref_list_binary, hyp_list_binary = get_binary_lists(new_validation_df_levensh)
+    conf_matrix = create_confusion_matrix(ref_list_binary, hyp_list_binary)
+    conf_matrix_df = pd.DataFrame(conf_matrix)
+
+    new_validation_df_levensh_filepath = validation_filepath_confmat_levens.replace("ConfMat.csv", str(threshold) + "DF.csv")
+    new_validation_df_levensh.to_csv(new_validation_df_levensh_filepath, index = False)
+
+    conf_mat_filepath = validation_filepath_confmat_levens.replace("ConfMat.csv", str(threshold) + "ConfMat.csv")    
+
+    conf_matrix_df.to_csv(conf_mat_filepath, index = False)
+    print(f"\nConfmat for threshold {threshold} stored at\t:{conf_mat_filepath}")
+    print(f"\n- - - - - CONFMAT VALUES FOR THRESHOLD {threshold} - - - - -")
+    print(conf_matrix)
+    print("\n -----------------------------------------------------------\n")
 
 
 def calc_with_Levenshteim_distance(new_validation_df, threshold):
-    # Iterate over each row in the DataFrame
+    new_validation_df['prompts_plus_hypo'] = 1  # Set all to 1
+
     for index, row in new_validation_df.iterrows():
-        # Check if either score or score_rev is higher than the threshold
-        if row['score'] > threshold or row['score_rev'] > threshold:
-            # Set prompts_plus_hypo to 0 for that row
+        if row['score'] >= threshold or row['score_rev'] >= threshold:
             new_validation_df.at[index, 'prompts_plus_hypo'] = 0
     return new_validation_df
 
@@ -153,7 +172,9 @@ def get_validation_filepath(file_name: str, type: str):
     csv_dir = join(base_output_dir_in_repo, WAV2VEC2_MODEL_NAME_FLDR)
     csv_dir_input = join(csv_dir, "all_data_output")
     csv_dir = join(csv_dir_input, "post_processing")
-    makedirs(csv_dir, exist_ok=True) 
+    makedirs(csv_dir, exist_ok=True)
+    csv_dir_confmat_levens = join(csv_dir, "by_levens_threshold")
+    makedirs(csv_dir_confmat_levens, exist_ok=True) 
 
     if type == "input":
         csv_input_filepath = join(csv_dir_input, file_name)
@@ -174,10 +195,14 @@ def get_validation_filepath(file_name: str, type: str):
     elif type == "confmat":
         csv_output_filepath_confmat = join(csv_dir, file_name)
         return csv_output_filepath_confmat
+    
+    elif type == "confmat_levens":
+        csv_output_filepath_confmat_levens = join(csv_dir_confmat_levens, file_name)
+        return csv_output_filepath_confmat_levens
 
 
-def check_filepaths(s1: str, s2: str, s3: str, s4: str, s5: str):
-    print(f"\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \nPlease check the filepaths:\nInput\t:{s1}\nOutput\t:{s2}\nFreq\t:{s3}\nMod\t:{s4}\nConfMat\t:{s5}\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
+def check_filepaths(s1: str, s2: str, s3: str, s4: str, s5: str, s6: str):
+    print(f"\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ \nPlease check the filepaths:\nInput\t:{s1}\nOutput\t:{s2}\nFreq\t:{s3}\nMod\t:{s4}\nConfMat\t:{s5}\nConfMat_Levens\t:{s6}\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
     input("\nPress any key to continue...")
 
 def read_validation_file(validation_filepath: str):
