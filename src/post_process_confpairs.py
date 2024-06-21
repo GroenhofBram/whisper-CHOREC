@@ -10,7 +10,7 @@ from pathing import get_abs_folder_path
 
 
 def main():
-    # # # Change these based on which file to use and if there were manual rules edited in post_process.py
+    # # # Change these based on which file to use and if there were manual rules edited in post_process., also bear model name in mind
     confpair_output_dir, confpair_output_csv_path = get_confpair_filepaths(csv_name = "training_set_nospace.csv")
     data, data_input_file = get_all_data(man_edit = True)
     # # # 
