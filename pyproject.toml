@@ -36,6 +36,7 @@ metrics = 'src.get_metrics:main'
 processmodel = 'src.process_model:main'
 adagt = 'src.adagt.run_init:main'
 post_process = 'src.post_process:main'
+post_process_confpairs = 'src.post_process_confpairs:main'
 
 [build-system]
 requires = ["poetry-core"]
