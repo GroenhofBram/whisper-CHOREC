@@ -37,6 +37,7 @@ processmodel = 'src.process_model:main'
 adagt = 'src.adagt.run_init:main'
 post_process = 'src.post_process:main'
 post_process_confpairs = 'src.post_process_confpairs:main'
+post_error_analysis = 'src.post_error_analysis:main'
 
 [build-system]
 requires = ["poetry-core"]
