@@ -84,8 +84,6 @@ def calc_with_Levenshteim_distance(new_validation_df, threshold):
     return new_validation_df
 
 
-
-
 def add_error_scores(new_validation_df):
     new_validation_df['score'] = 0
     new_validation_df["insertions"] = 0
