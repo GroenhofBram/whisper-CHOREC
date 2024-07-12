@@ -1,8 +1,10 @@
 # REMOVE AND ADD WHISPER/FASTER-WHISPER
+from os import read
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 import torch
 import re, platform
 import pandas as pd
+from pathing import get_abs_path
 from src.file_path import get_file_path
 from src.textgrid import use_text_grids
 from src.constants import WHISPER_MODEL_NAME
@@ -16,9 +18,24 @@ import gc
 def main():
     # run_whisper_v3()
     #   run_whisperx()
-    run_faster_whisper(vad = True)
+    run_faster_whisper(vad = False)
 
 def run_faster_whisper(vad: bool):
+    word_list_fp = get_abs_path("files_static", "1LG_words.txt")
+    word_list = ""
+
+    with open(word_list_fp, "r") as fp:
+        for line in fp.readlines():
+            word_list += line
+    
+    word_list = word_list.replace('\n', ' ')
+
+    print(f"Using wordlist\t: {word_list}")
+
+    # initial_prompt = {word_list:}
+
+    hotwords = word_list
+
     model_size = "large-v2"
     transcription_dict = {"text": ""}
 
@@ -26,20 +43,26 @@ def run_faster_whisper(vad: bool):
     model = WhisperModel(model_size, device=DEVICE, compute_type="int8")
 
     if vad:
-        segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav", beam_size=5, language = "nl", vad_filter=True)
+        segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav",
+                                          beam_size=5,
+                                          language = "nl",
+                                          vad_filter=True,
+                                          hotwords=hotwords
+                                          )
     elif vad == False:
-        segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav", beam_size=5, language = "nl")
+        segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav",
+                                          beam_size=5,
+                                          language = "nl")
 
 
     for segment in segments:
         print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
-        transcription_dict["text"] += segment.text
+        transcription_dict["text"] += segment.text 
     
-    if vad == False:
-        transcription_dict["text"] = re.sub(r'(?<!\.)\s(?!\.)', '', transcription_dict["text"])
-        transcription_dict["text"] = transcription_dict["text"].replace(".", "")
+    # if vad == False:
+    #     transcription_dict["text"] = re.sub(r'(?<!\.)\s(?!\.)', '', transcription_dict["text"])
+    #     transcription_dict["text"] = transcription_dict["text"].replace(".", "")
     
-    # segments = list(segments)
 
     print("\n - - - - - - Full transcription - - - - - - -\n")
     print(transcription_dict)
