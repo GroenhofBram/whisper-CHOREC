@@ -34,7 +34,7 @@ def run_faster_whisper(vad: bool):
 
     # initial_prompt = {word_list:}
 
-    hotwords = word_list
+    # hotwords = word_list
 
     model_size = "large-v2"
     transcription_dict = {"text": ""}
@@ -46,10 +46,10 @@ def run_faster_whisper(vad: bool):
         segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav",
                                           beam_size=5,
                                           language = "nl",
-                                          vad_filter=True,
-                                          hotwords=hotwords
+                                          vad_filter=True
                                           )
     elif vad == False:
+        # S01C014V1_1LG.wav
         segments, info = model.transcribe("files//test_glob//S03C010M1_1LG.wav",
                                           beam_size=5,
                                           language = "nl")
@@ -62,6 +62,10 @@ def run_faster_whisper(vad: bool):
     # if vad == False:
     #     transcription_dict["text"] = re.sub(r'(?<!\.)\s(?!\.)', '', transcription_dict["text"])
     #     transcription_dict["text"] = transcription_dict["text"].replace(".", "")
+    
+    print("\n - - - - - - Full last SEGMENT - - - - - - -\n")
+    print(segment)
+    print("\n--------------------------------------\n")
     
 
     print("\n - - - - - - Full transcription - - - - - - -\n")

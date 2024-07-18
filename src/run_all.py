@@ -13,7 +13,7 @@ from glob_properties import generate_file_properties
 from participantsession import  get_participant_sessions_with_textgrids
 from glob import glob
 from textgrid import use_text_grids
-from wav2vec2_asr import wav2vec2_asr
+from wav2vec2_asr import wav2vec2_asr, whisper_asr
 
 # def main():
 #     wav2vec2chorec_main()
@@ -57,11 +57,12 @@ def main_generalised():
                 # reference column
                 tgt_df_repr_orth_transcription = " ".join(tgt_df_repr.orthography.values)
                 # hypothesis column 
-                wav2vec2_ran_transforms_asr_transcription = wav2vec2_asr(sesh.wav_participant_file)
+                wav2vec2_ran_transforms_asr_transcription = whisper_asr(sesh.wav_participant_file)
 
                 print(f"\n ASR TRANSCRIPTION FOR {sesh.participant_audio_id}")
                 print(f"\t{wav2vec2_ran_transforms_asr_transcription}")
                 print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
+
 
                 process_conf_matrix(
                     asr_transcriptions=wav2vec2_ran_transforms_asr_transcription, 
