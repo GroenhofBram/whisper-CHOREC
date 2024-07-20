@@ -34,11 +34,11 @@ def main_generalised():
     wav_files_with_properties = generate_file_properties(wav_files, base_dir)
     participant_sessions = get_participant_sessions_with_textgrids(wav_files_with_properties, base_dir)
 
-    print(participant_sessions)
+    # print(participant_sessions)
     print(f"\nFound sessions: {len(participant_sessions)}")
     existing_output_dirs = os.listdir(base_output_dir_in_repo)
-    print("\n- - - EXISTING DIRECTORIES AT START OF PROCESS, THESE WILL BE SKIPPED - - -")
-    print(f"{existing_output_dirs}")
+    # print("\n- - - EXISTING DIRECTORIES AT START OF PROCESS, THESE WILL BE SKIPPED - - -")
+    # print(f"{existing_output_dirs}")
     print(f"\n- - - TOTAL SKIPPED:\t{len(existing_output_dirs)}- - -")
 
     failed_runs = []
@@ -86,7 +86,7 @@ def main_generalised():
     
     process_all_conf_matrices(base_dir=base_output_dir_in_repo)
     process_all_data_files(base_dir=base_output_dir_in_repo)
-    process_snr_data(base_dir=base_output_dir_in_repo, sessions=participant_sessions)
+    # process_snr_data(base_dir=base_output_dir_in_repo, sessions=participant_sessions)
     # RUN get_metrics.py for metrics!
 
 def process_all_conf_matrices(base_dir: str):
@@ -98,11 +98,14 @@ def process_all_conf_matrices(base_dir: str):
 
     empty_conf_mat_df = DataFrame([[0, 0], [0, 0]], index=None)
     # print(empty_conf_mat_df)
+    processed_files = []
     for data_file_path in glob(f"{base_dir}/**/all_data/Conf_matrix.csv"):
         loaded_df = read_csv(data_file_path, header=None)
+        processed_files.append(data_file_path)
         empty_conf_mat_df = empty_conf_mat_df.add(loaded_df, fill_value=0)
+
     empty_conf_mat_df.to_csv(conf_mat_big_file_name, index=False, header=None)
-        
+    print(f"Processed {len(processed_files)} files")
 
 
 def process_all_data_files(base_dir: str):
