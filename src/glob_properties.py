@@ -4,15 +4,18 @@ from src.models.participantfile import ParticipantFile
 
 def create_participant_file(full_file_path: str, input: str):
     file_path_from_base = full_file_path.replace(input, "")
-    # print(file_path_from_base)
     pts = Path(file_path_from_base).parts
-    # print(pts)
-    session_name = pts[-3]
-    # print(session_name)
-    participant_id = pts[-2]
-    # print(participant_id)
+    file_name = str(pts[1])
+    arr = file_name.replace(".wav", "").split("_")
+    print(f"\npts: {pts}")
+    print(f"arr: {arr}")
+
+    session_name = arr[-2]
+    print(session_name)
+    participant_id = arr[-2]
+    print(participant_id)
     file_name = pts[-1]
-    # print(file_name)
+    print(file_name)
 
 
     return ParticipantFile(
