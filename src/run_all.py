@@ -118,4 +118,6 @@ def process_all_data_files(base_dir: str):
         loaded_df = read_csv(data_file_path)
         base_df = concat([base_df, loaded_df])
     base_df.to_csv(conf_mat_big_file_name, index=False)
-    
+
+input("\n\n\nYou are about to run run_all.py. If this is correct enter any key. If not, quit.\n\n\n")
+main_generalised()

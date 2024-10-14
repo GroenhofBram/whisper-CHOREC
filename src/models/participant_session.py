@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.models.participantfile import ParticipantFile
+from models.participantfile import ParticipantFile
 
 @dataclass
 class ParticipantSession:

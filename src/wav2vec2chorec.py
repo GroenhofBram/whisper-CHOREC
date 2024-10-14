@@ -1,10 +1,10 @@
 from transformers import pipeline
 import re, platform
 import pandas as pd
-from src.file_path import get_file_path
-from src.textgrid import use_text_grids
-from src.constants import WAV2VEC2_MODEL_NAME
-from src.cuda import DEVICE
+from file_path import get_file_path
+from textgrid import use_text_grids
+from constants import WAV2VEC2_MODEL_NAME
+from cuda import DEVICE
 
 transcription_audio_file_name = "S01C002V1_2LG.wav"
 tgt_grid_file_name = "S01C002V1_2LG_f01.TextGrid"

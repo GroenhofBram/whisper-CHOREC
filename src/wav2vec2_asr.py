@@ -3,11 +3,11 @@ from faster_whisper import WhisperModel
 import re
 from re import sub as regex_sub
 from transformers import pipeline
-from src.islinux import is_linux
+from islinux import is_linux
 
 from constants import WAV2VEC2_MODEL_NAME
-from src.models.participantfile import ParticipantFile
-from src.cuda import DEVICE
+from models.participantfile import ParticipantFile
+from cuda import DEVICE
 
 def wav2vec2_asr(input_participant_wav_file: ParticipantFile) -> str:
     # CHOREC: Tier 2 = prompts, Tier 3 = orthographic transcription

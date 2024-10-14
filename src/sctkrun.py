@@ -1,5 +1,5 @@
-from src.sctk import run_sctk
-from src.islinux import check_linux_or_error
+from sctk import run_sctk
+from islinux import check_linux_or_error
 
 def main():
     check_linux_or_error()

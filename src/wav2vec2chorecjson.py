@@ -4,8 +4,8 @@ import re
 import pandas as pd
 
 from json_load_file import extract_words_from_json, load_json_file
-from src.extract_text import extract_text
-from src.islinux import is_linux
+from extract_text import extract_text
+from islinux import is_linux
 
 
 def main():

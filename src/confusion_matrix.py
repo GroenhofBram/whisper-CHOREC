@@ -4,7 +4,7 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 
-from src.pathing import get_abs_folder_path, get_abs_path
+from pathing import get_abs_folder_path, get_abs_path
 
 def main():
     base_df = create_base_df()

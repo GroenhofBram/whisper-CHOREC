@@ -3,8 +3,8 @@ from glob import glob
 import re
 from glob_properties import create_participant_file
 
-from src.models.participantfile import ParticipantFile
-from src.models.participant_session import ParticipantSession
+from models.participantfile import ParticipantFile
+from models.participant_session import ParticipantSession
 
 
 def get_textgrid_files_matching_wav(wav_participant_file: ParticipantFile, participant_audio_id: str):

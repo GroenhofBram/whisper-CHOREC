@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.models.participantfile import ParticipantFile
+from models.participantfile import ParticipantFile
 
 def create_participant_file(full_file_path: str, input: str):
     file_path_from_base = full_file_path.replace(input, "")

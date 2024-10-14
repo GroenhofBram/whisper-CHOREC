@@ -1,7 +1,7 @@
 import pandas as pd
 from coltolist import column_to_list
-from src.csvtodataframe import csv_to_df
-from src.islinux import is_linux
+from csvtodataframe import csv_to_df
+from islinux import is_linux
 
 def main():
     csv_filename = get_csv_filename()
